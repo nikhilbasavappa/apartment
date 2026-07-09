@@ -5,4 +5,5 @@ monitor-output/screenshots/
 monitor-output/state.json
 monitor/.env
 monitor/.session-state.json
+monitor/.browser-profile/
 monitor/*.log

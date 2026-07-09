@@ -79,6 +79,11 @@ function sleep(ms) {
   });
 }
 
+function randomDelay(minMs, maxMs) {
+  const ms = minMs + Math.random() * (maxMs - minMs);
+  return sleep(Math.round(ms));
+}
+
 function escapeHtml(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -95,6 +100,7 @@ module.exports = {
   formatCurrency,
   formatTimestamp,
   loadEnvFile,
+  randomDelay,
   readJson,
   sanitizeFilename,
   sleep,

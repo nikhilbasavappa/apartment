@@ -9,7 +9,7 @@ const { sendNotifications } = require("./lib/notify.cjs");
 const { evaluateListing } = require("./lib/scoring.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
-const { ensureDir, formatTimestamp, loadEnvFile, readJson, writeJson, writeText } = require("./lib/util.cjs");
+const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
 
 const workspaceRoot = path.resolve(__dirname, "..");
 const outputRoot = path.join(workspaceRoot, "monitor-output");
@@ -20,6 +20,7 @@ const htmlPath = path.join(outputRoot, "latest-report.html");
 const jsonPath = path.join(outputRoot, "latest-report.json");
 const jsPath = path.join(outputRoot, "latest-report.js");
 const configPath = path.join(__dirname, "config.json");
+const browserProfileDir = path.join(__dirname, ".browser-profile");
 
 loadEnvFile(path.join(__dirname, ".env"));
 
@@ -147,37 +148,36 @@ function saveReport(report) {
   writeText(htmlPath, generateHtmlReport(report));
 }
 
-function createBrowser(config) {
-  const chromeExecutable = resolveChromeExecutable();
+// A real persistent Chrome profile (history, cache, cookies, local storage —
+// everything, not just an exported cookie jar) presents a far more
+// convincing "long-lived real user" fingerprint to bot detection than a
+// fresh context replaying a saved storageState every run. The profile is
+// bootstrapped once interactively (see bootstrap-session.cjs) and reused
+// here and on every future scheduled run.
+function createPersistentContext(config) {
+  const hasProfile = fs.existsSync(browserProfileDir) && fs.readdirSync(browserProfileDir).length > 0;
 
-  return chromium.launch({
-    executablePath: chromeExecutable || undefined,
+  if (!hasProfile) {
+    console.warn(
+      "No browser profile found. StreetEasy will likely block this run with a bot challenge.\n" +
+        "Run `node monitor/bootstrap-session.cjs` once to solve it manually and build a trusted profile."
+    );
+  }
+
+  ensureDir(browserProfileDir);
+
+  return chromium.launchPersistentContext(browserProfileDir, {
+    executablePath: resolveChromeExecutable() || undefined,
     headless: config.scanner.headless !== false,
+    locale: "en-US",
+    userAgent:
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    viewport: { width: 1440, height: 1600 },
     args: [
       "--disable-blink-features=AutomationControlled",
       "--no-first-run",
       "--disable-dev-shm-usage",
     ],
-  });
-}
-
-function createContext(browser) {
-  const sessionStatePath = path.join(__dirname, ".session-state.json");
-  const hasSession = fs.existsSync(sessionStatePath);
-
-  if (!hasSession) {
-    console.warn(
-      "No saved session found. StreetEasy will likely block this run with a bot challenge.\n" +
-        "Run `node monitor/bootstrap-session.cjs` once to solve it manually and save a trusted session."
-    );
-  }
-
-  return browser.newContext({
-    locale: "en-US",
-    storageState: hasSession ? sessionStatePath : undefined,
-    userAgent:
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    viewport: { width: 1440, height: 1600 },
   });
 }
 
@@ -221,9 +221,17 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 
   try {
     await searchPage.goto(sourceConfig.url, { waitUntil: "domcontentloaded", timeout: 45000 });
-    await searchPage.waitForTimeout(config.scanner.waitAfterLoadMs || 1200);
+    const baseWait = config.scanner.waitAfterLoadMs || 1200;
+    await randomDelay(baseWait * 0.7, baseWait * 1.4);
 
     const searchResults = await extractSearchListings(searchPage, sourceConfig);
+    if (!searchResults.length) {
+      // Distinct, greppable signal: the search results page itself yielded
+      // nothing, which usually means the bot wall blocked it before any
+      // listing was ever reached — a stronger failure than a few individual
+      // listings not parsing cleanly.
+      console.warn(`ZERO_SEARCH_RESULTS: no listings found on search page for "${sourceConfig.name}"`);
+    }
     const limitedResults = searchResults.slice(0, config.scanner.maxListingsPerSource || 20);
 
     for (const candidate of limitedResults) {
@@ -238,6 +246,14 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 
       if (counters.newListingsInspected >= (config.scanner.maxNewListingsPerRun || 12)) {
         break;
+      }
+
+      // Pace like a person clicking through listings, not a script blasting
+      // through them — a longer pause every so often too, like someone
+      // taking a break to think about what they just saw.
+      if (counters.newListingsInspected > 0) {
+        const takingABreak = counters.newListingsInspected % 12 === 0;
+        await randomDelay(...(takingABreak ? [18000, 35000] : [3000, 8000]));
       }
 
       const listingPage = await context.newPage();
@@ -305,8 +321,7 @@ async function main() {
     return;
   }
 
-  const browser = await createBrowser(config);
-  const context = await createContext(browser);
+  const context = await createPersistentContext(config);
   const counters = { newListingsInspected: 0 };
   const newListings = [];
 
@@ -317,7 +332,6 @@ async function main() {
     }
   } finally {
     await context.close();
-    await browser.close();
   }
 
   state.lastRunAt = runAt;

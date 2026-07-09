@@ -5,7 +5,8 @@ The engine behind the web app. The person-facing entry point is still [index.htm
 ## What It Does
 
 - Reads public saved-search URLs from [config.json](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/config.json>)
-- Visits listing pages with Playwright plus your installed Chrome, reusing a bootstrapped session (see below) to get past StreetEasy's bot check
+- Visits listing pages with Playwright plus your installed Chrome, reusing a real persistent browser profile (see below) to get past StreetEasy's bot check
+- Paces itself like a person, not a script — randomized delays between listings, occasional longer pauses, scrolls the search page until it genuinely stops loading more rather than a fixed number of steps
 - Extracts address, price, beds/baths, and photos for each new listing
 - Geocodes the address and gets real transit commute times + subway lines to 4 destinations via Google Directions
 - Sends the listing photos to Claude to judge kitchen layout (open/semi-open/closed/galley) and stove type (gas/electric) — this isn't filterable on StreetEasy, so it has to come from the photos
@@ -24,11 +25,23 @@ The engine behind the web app. The person-facing entry point is still [index.htm
    ```
    The Google key needs the **Geocoding API** and **Directions API** enabled (and allowed on the key's own restriction list, not just the project). The Anthropic key needs a positive credit balance.
 3. Paste your saved-search URL(s) into [config.json](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/config.json>) and set `enabled: true`
-4. Bootstrap a trusted browser session once:
+4. Bootstrap a trusted browser profile once:
    ```bash
    node monitor/bootstrap-session.cjs
    ```
-   A real Chrome window opens to your search. Solve the "Press & Hold" human-check yourself, browse for a few seconds like a normal visitor, then press Enter in the terminal. This saves `monitor/.session-state.json` (gitignored), which every future automated scan reuses. Redo this whenever the session expires and scans start returning 0 listings again.
+   A real Chrome window opens to your search. Solve the "Press & Hold" human-check yourself, then browse for a bit like a normal visitor — click into a couple listings, scroll, take your time — before pressing Enter in the terminal. This builds a real persistent Chrome profile at `monitor/.browser-profile/` (gitignored: cookies, cache, history, local storage — everything, not just a cookie export), which every future automated scan reuses as-is. Redo this whenever scans start coming back broken (you'll get a desktop notification if you're on the scheduled job — see below).
+
+## Running Unattended
+
+`monitor/scheduled-scan.sh` runs the scanner, detects a systemically broken run (every new listing missing both rent and address — the signature of an expired/blocked session, not real data) and skips publishing it with a desktop notification instead of committing garbage, otherwise commits and pushes `monitor-output/` automatically.
+
+It's installed as a macOS LaunchAgent (`~/Library/LaunchAgents`, not tracked in this repo since it's machine-specific) running twice daily. To install it yourself on another machine:
+
+```bash
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.yourname.future-elmos-world-scan.plist
+```
+
+Logs land in `monitor/scheduled-scan.log` and `monitor/launchd.log`/`launchd.err.log`.
 
 ## Run Once
 

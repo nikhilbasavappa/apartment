@@ -6,34 +6,41 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 LOG_FILE="$SCRIPT_DIR/scheduled-scan.log"
+RUN_LOG="$(mktemp)"
+trap 'rm -f "$RUN_LOG"' EXIT
 
 cd "$REPO_ROOT"
 
-{
-  echo "=== Scan started at $(date) ==="
-  node "$SCRIPT_DIR/scan.cjs"
-} >> "$LOG_FILE" 2>&1
+echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
+node "$SCRIPT_DIR/scan.cjs" 2>&1 | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 
-# A run where every new listing failed to yield a rent AND an address is a
-# strong signal of a systemic failure (StreetEasy bot wall / expired
-# session), not real data — don't publish that over good existing data.
-BROKEN=$(node -e '
-  const fs = require("fs");
-  try {
-    const report = JSON.parse(fs.readFileSync("monitor-output/latest-report.json", "utf8"));
-    const fresh = report.newListings || [];
-    if (fresh.length === 0) { console.log("no"); process.exit(0); }
-    const allBroken = fresh.every((entry) => {
-      const reasons = entry.reasons || [];
-      const noRent = reasons.some((r) => r.includes("Rent could not be confirmed"));
-      const noAddress = reasons.some((r) => r.includes("No street address parsed"));
-      return noRent && noAddress;
-    });
-    console.log(allBroken ? "yes" : "no");
-  } catch (error) {
-    console.log("no");
-  }
-')
+# Two independent signals of a systemically broken run (StreetEasy bot wall /
+# stale profile), not real data — don't publish either case over good
+# existing data:
+#   1. The search page itself yielded nothing (blocked before reaching any
+#      listing at all).
+#   2. Every new listing failed to yield both a rent and an address.
+if grep -q "ZERO_SEARCH_RESULTS" "$RUN_LOG"; then
+  BROKEN="yes"
+else
+  BROKEN=$(node -e '
+    const fs = require("fs");
+    try {
+      const report = JSON.parse(fs.readFileSync("monitor-output/latest-report.json", "utf8"));
+      const fresh = report.newListings || [];
+      if (fresh.length === 0) { console.log("no"); process.exit(0); }
+      const allBroken = fresh.every((entry) => {
+        const reasons = entry.reasons || [];
+        const noRent = reasons.some((r) => r.includes("Rent could not be confirmed"));
+        const noAddress = reasons.some((r) => r.includes("No street address parsed"));
+        return noRent && noAddress;
+      });
+      console.log(allBroken ? "yes" : "no");
+    } catch (error) {
+      console.log("no");
+    }
+  ')
+fi
 
 if [[ "$BROKEN" == "yes" ]]; then
   osascript -e 'display notification "StreetEasy session likely expired. Run: node monitor/bootstrap-session.cjs" with title "Future Elmo'"'"'s World"' >> "$LOG_FILE" 2>&1 || true

@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { ensureDir, sanitizeFilename, sleep, slugify } = require("./util.cjs");
+const { ensureDir, randomDelay, sanitizeFilename, slugify } = require("./util.cjs");
 
 const SOURCE_PATTERNS = {
   streeteasy: [/streeteasy\.com\/rental\//i, /streeteasy\.com\/building\/[^/]+\/\d+/i],
@@ -81,11 +81,14 @@ async function scrollUntilExhausted(page, { maxSteps = 80, idleLimit = 2 } = {})
   let idleCount = 0;
 
   for (let step = 0; step < maxSteps; step += 1) {
-    const height = await page.evaluate(async () => {
+    const height = await page.evaluate(() => {
       window.scrollTo(0, document.body.scrollHeight);
-      await new Promise((resolve) => setTimeout(resolve, 400));
       return document.body.scrollHeight;
     });
+
+    // Randomized, not fixed — a uniform 400ms cadence is itself a
+    // machine-like tell.
+    await randomDelay(350, 900);
 
     if (height <= previousHeight) {
       idleCount += 1;
@@ -255,9 +258,10 @@ function normalizePhotos(rawPhotos, limit) {
 async function extractListingDetail(page, candidate, config, outputPaths) {
   await page.goto(candidate.url, { waitUntil: "domcontentloaded", timeout: 45000 });
   await dismissOverlays(page);
-  await page.waitForTimeout(config.scanner.waitAfterLoadMs || 1200);
+  const baseWait = config.scanner.waitAfterLoadMs || 1200;
+  await randomDelay(baseWait * 0.7, baseWait * 1.4);
   await autoScroll(page);
-  await sleep(350);
+  await randomDelay(250, 600);
 
   const raw = await page.evaluate(() => {
     const metaDescription =
