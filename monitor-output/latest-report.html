@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lex & Laundry Monitor</title>
+    <style>
+      :root {
+        --bg: #0b1220;
+        --panel: #121c30;
+        --line: rgba(255,255,255,0.08);
+        --text: #f6efe6;
+        --muted: #b7b0a7;
+        --accent: #f2aa55;
+        --mint: #95e0c4;
+        --rose: #ff9f9f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(242,170,85,0.14), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(149,224,196,0.14), transparent 30%),
+          linear-gradient(180deg, #0e1628 0%, #09101c 100%);
+        color: var(--text);
+      }
+      main {
+        width: min(1180px, calc(100% - 28px));
+        margin: 0 auto;
+        padding: 28px 0 48px;
+      }
+      .hero, .card {
+        background: rgba(18, 28, 48, 0.88);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 24px 70px rgba(0,0,0,0.28);
+      }
+      .hero {
+        padding: 24px;
+        margin-bottom: 20px;
+      }
+      h1, h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", serif;
+        letter-spacing: -0.03em;
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.6rem, 6vw, 4.8rem);
+      }
+      h2 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      .hero p, .subhead, .body, .meta {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .summary {
+        white-space: pre-wrap;
+        font-family: ui-monospace, "SFMono-Regular", monospace;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid var(--line);
+        padding: 16px;
+        border-radius: 16px;
+      }
+      .grid {
+        display: grid;
+        gap: 16px;
+      }
+      .card {
+        padding: 18px;
+      }
+      .card-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      .label, .score {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      .label {
+        background: rgba(242,170,85,0.14);
+        color: var(--accent);
+        margin-bottom: 10px;
+      }
+      .score {
+        background: rgba(149,224,196,0.14);
+        color: var(--mint);
+        min-width: 62px;
+      }
+      .hero-shot {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+        border-radius: 16px;
+        border: 1px solid var(--line);
+      }
+      .thumb-row {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        margin-top: 12px;
+      }
+      .thumb {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 14px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.04);
+      }
+      .facts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 14px;
+      }
+      .pill {
+        border-radius: 999px;
+        padding: 8px 10px;
+        border: 1px solid var(--line);
+        font-size: 0.88rem;
+      }
+      .fact { color: var(--muted); }
+      .plus {
+        color: var(--mint);
+        background: rgba(149,224,196,0.09);
+      }
+      .issue {
+        color: var(--rose);
+        background: rgba(255,159,159,0.09);
+      }
+      a {
+        color: var(--text);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--accent);
+      }
+      @media (max-width: 800px) {
+        .card-top {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Lex & Laundry Monitor</h1>
+        <p>Generated Jul 9, 2026, 3:57 PM. This is the recurring apartment finder: new listings in, photos and shortlist out.</p>
+        <div class="summary">Run time: Jul 9, 2026, 3:57 PM
+Configured sources: 0
+New listings inspected this run: 0
+Shortlist-worthy new listings: 0
+No new standout listings this run.</div>
+        <p class="meta">Report file: latest-report.html • Summary file: latest-summary.md</p>
+      </section>
+      <section class="grid">
+        <div class="card"><p class="body">No scored listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10172a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Lex & Laundry</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-a"></div>
+    <div class="page-glow page-glow-b"></div>
+
+    <main class="shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">NYC Apartment Radar</p>
+          <h1>Lex & Laundry</h1>
+          <p class="lede">
+            A tailored shortlist builder for apartments worth your attention
+            before your <strong>October 13, 2026</strong> start at Cornerstone.
+          </p>
+        </div>
+
+        <div class="profile-grid">
+          <article class="stat-card">
+            <span class="stat-label">Office</span>
+            <strong>53rd &amp; Lexington</strong>
+            <p>Midtown East commute matters, but not at all costs.</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Budget</span>
+            <strong>$6,500 target / $7,000 stretch</strong>
+            <p>Tool keeps both numbers visible while you score listings.</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Must-Haves</span>
+            <strong>In-unit W/D + open kitchen</strong>
+            <p>Galley layouts get punished hard. Gas stove gets a bump.</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Ideal Layout</span>
+            <strong>2 bed, minimum 1 bed</strong>
+            <p>Second bedroom can double as office and parent guest room.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel monitor-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Live Apartment Feed</p>
+          <h2>This page should be the app, not a pile of scripts</h2>
+          <p>
+            The background scanner runs off-page because StreetEasy and Zillow
+            will not reliably let a browser-only page scrape them directly. But
+            the results can still show up here in one clean dashboard.
+          </p>
+        </div>
+        <div class="profile-grid monitor-stats">
+          <article class="stat-card">
+            <span class="stat-label">Last Scan</span>
+            <strong id="monitorLastRun">Waiting for first scan</strong>
+            <p id="monitorStatusCopy">
+              Once the scanner runs, the newest apartments worth your attention
+              will surface here first.
+            </p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Sources</span>
+            <strong id="monitorSourceCount">0 active searches</strong>
+            <p>
+              Saved StreetEasy and Zillow searches can feed this view in the
+              background.
+            </p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Fresh Hits</span>
+            <strong id="monitorNewCount">0 new listings</strong>
+            <p>
+              Strong new matches are highlighted here so you do not manually
+              click through every kitchen photo set.
+            </p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Top Score</span>
+            <strong id="monitorTopScore">No scored listings yet</strong>
+            <p>
+              The feed favors in-unit laundry, open kitchens, budget fit, and a
+              realistic commute to 53rd and Lexington.
+            </p>
+          </article>
+        </div>
+        <div id="monitorFeedState" class="empty-state"></div>
+        <div id="monitorFeed" class="monitor-grid"></div>
+        <div class="monitor-actions">
+          <a class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>
+          <a class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
+        </div>
+      </section>
+
+      <section class="panel controls-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Profile Controls</p>
+          <h2>Adjust the model without touching code</h2>
+          <p>
+            These defaults mirror your current situation and can be tuned as
+            your search evolves.
+          </p>
+        </div>
+
+        <div class="control-grid">
+          <label class="field">
+            <span>Base salary</span>
+            <input id="salaryBase" type="number" min="0" step="1000" />
+          </label>
+          <label class="field">
+            <span>Annual bonus %</span>
+            <input id="bonusPct" type="number" min="0" step="1" />
+          </label>
+          <label class="field">
+            <span>Signing bonus</span>
+            <input id="signingBonus" type="number" min="0" step="1000" />
+          </label>
+          <label class="field">
+            <span>Target budget</span>
+            <input id="budgetTarget" type="number" min="0" step="50" />
+          </label>
+          <label class="field">
+            <span>Stretch budget</span>
+            <input id="budgetStretch" type="number" min="0" step="50" />
+          </label>
+          <label class="field">
+            <span>WFH split</span>
+            <div class="range-wrap">
+              <input id="wfhPct" type="range" min="0" max="100" step="5" />
+              <strong id="wfhPctValue"></strong>
+            </div>
+          </label>
+        </div>
+
+        <div class="weights-grid">
+          <article class="weight-card">
+            <div class="weight-copy">
+              <span>Apartment fit</span>
+              <p>Washer/dryer, open kitchen, and entertaining upside.</p>
+            </div>
+            <input id="weightApartment" type="range" min="1" max="10" step="1" />
+            <strong id="weightApartmentValue"></strong>
+          </article>
+          <article class="weight-card">
+            <div class="weight-copy">
+              <span>Commute ease</span>
+              <p>Closer to 53rd &amp; Lex matters more when this goes up.</p>
+            </div>
+            <input id="weightCommute" type="range" min="1" max="10" step="1" />
+            <strong id="weightCommuteValue"></strong>
+          </article>
+          <article class="weight-card">
+            <div class="weight-copy">
+              <span>Friend access</span>
+              <p>Bias toward UWS, Morningside, Park Slope, Prospect Heights, LIC.</p>
+            </div>
+            <input id="weightFriends" type="range" min="1" max="10" step="1" />
+            <strong id="weightFriendsValue"></strong>
+          </article>
+          <article class="weight-card">
+            <div class="weight-copy">
+              <span>Budget discipline</span>
+              <p>Raises the penalty for flirting with your stretch number.</p>
+            </div>
+            <input id="weightBudget" type="range" min="1" max="10" step="1" />
+            <strong id="weightBudgetValue"></strong>
+          </article>
+          <article class="weight-card">
+            <div class="weight-copy">
+              <span>2BR potential</span>
+              <p>Use this when the office/guest-room dream becomes non-negotiable.</p>
+            </div>
+            <input id="weightSpace" type="range" min="1" max="10" step="1" />
+            <strong id="weightSpaceValue"></strong>
+          </article>
+        </div>
+
+        <div class="budget-band" id="budgetBand"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Neighborhood Watchlist</p>
+          <h2>Where you should focus first</h2>
+          <p>
+            These are curated heuristics for your situation, not live market
+            data. Commute times are approximate to 53rd &amp; Lexington.
+          </p>
+        </div>
+        <div id="neighborhoods" class="neighborhood-grid"></div>
+      </section>
+
+      <section class="panel tracker-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Listing Tracker</p>
+          <h2>Score actual apartments</h2>
+          <p>
+            Paste listing copy, let the parser grab obvious clues, then save.
+            Everything stays in your browser with local storage.
+          </p>
+        </div>
+
+        <form id="listingForm" class="listing-form">
+          <input type="hidden" id="listingId" />
+
+          <label class="field field-wide">
+            <span>Listing title</span>
+            <input id="listingTitle" type="text" placeholder="e.g. 2BR in Hunters Point with island kitchen" required />
+          </label>
+
+          <label class="field field-wide">
+            <span>Listing link</span>
+            <input id="listingLink" type="url" placeholder="https://..." />
+          </label>
+
+          <div class="form-grid">
+            <label class="field">
+              <span>Neighborhood</span>
+              <select id="listingNeighborhood"></select>
+            </label>
+            <label class="field">
+              <span>Rent</span>
+              <input id="listingRent" type="number" min="0" step="50" required />
+            </label>
+            <label class="field">
+              <span>Bedrooms</span>
+              <input id="listingBedrooms" type="number" min="0" max="5" step="1" required />
+            </label>
+            <label class="field">
+              <span>Bathrooms</span>
+              <input id="listingBathrooms" type="number" min="0" max="5" step="0.5" />
+            </label>
+            <label class="field">
+              <span>Square feet</span>
+              <input id="listingSqft" type="number" min="0" step="10" />
+            </label>
+            <label class="field">
+              <span>Estimated commute (mins)</span>
+              <input id="listingCommute" type="number" min="0" step="1" />
+            </label>
+            <label class="field">
+              <span>In-unit washer/dryer</span>
+              <select id="listingWd">
+                <option value="yes">Yes</option>
+                <option value="unknown" selected>Unknown</option>
+                <option value="no">No</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Kitchen layout</span>
+              <select id="listingKitchen">
+                <option value="open">Open</option>
+                <option value="semi-open">Semi-open</option>
+                <option value="closed">Closed</option>
+                <option value="galley">Galley</option>
+                <option value="unknown" selected>Unknown</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Gas stove</span>
+              <select id="listingGas">
+                <option value="yes">Yes</option>
+                <option value="unknown" selected>Unknown</option>
+                <option value="no">No</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field field-wide">
+            <span>Notes</span>
+            <textarea id="listingNotes" rows="3" placeholder="Anything you care about: windows, island, parents could fit comfortably, etc."></textarea>
+          </label>
+
+          <label class="field field-wide">
+            <span>Paste listing description for quick parsing</span>
+            <textarea id="listingDescription" rows="5" placeholder="Paste StreetEasy, Zillow, broker, or building copy here."></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="button" class="ghost-button" id="parseDescription">Parse description</button>
+            <button type="submit" class="primary-button" id="saveListing">Save listing</button>
+            <button type="button" class="ghost-button" id="resetForm">Reset form</button>
+          </div>
+        </form>
+
+        <div class="toolbar">
+          <label class="checkbox">
+            <input id="shortlistOnly" type="checkbox" />
+            <span>Show only shortlist-ready listings</span>
+          </label>
+          <div class="toolbar-actions">
+            <button id="exportListings" class="ghost-button" type="button">Export JSON</button>
+            <label for="importListings" class="ghost-button file-button">Import JSON</label>
+            <input id="importListings" type="file" accept="application/json" hidden />
+          </div>
+        </div>
+
+        <div id="listingState" class="empty-state"></div>
+        <div id="listings" class="listing-grid"></div>
+      </section>
+
+      <section class="panel notes-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Search Signals</p>
+          <h2>What to lean into, what to screen out</h2>
+        </div>
+        <div class="tip-grid">
+          <article class="tip-card">
+            <h3>Prioritize newer inventory</h3>
+            <p>
+              Newer rentals and condo sublets are simply more likely to give you
+              the washer/dryer plus open kitchen combination you care about.
+            </p>
+          </article>
+          <article class="tip-card">
+            <h3>Be skeptical of pretty one-bedrooms</h3>
+            <p>
+              A stylish 1BR can still fail if the kitchen is boxed off or the
+              living room cannot comfortably host people.
+            </p>
+          </article>
+          <article class="tip-card">
+            <h3>Search phrases worth noticing</h3>
+            <p>
+              “Island kitchen,” “great room,” “chef’s kitchen,” and “full-size
+              washer/dryer” are usually better signs than generic “renovated.”
+            </p>
+          </article>
+          <article class="tip-card">
+            <h3>Red flags for your use case</h3>
+            <p>
+              “Galley,” “windowed kitchen,” “junior 1,” “alcove studio,” and
+              “laundry in building” should trigger heavier scrutiny or a pass.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <template id="neighborhoodTemplate">
+      <article class="neighborhood-card reveal">
+        <div class="rank-pill"></div>
+        <div class="card-head">
+          <div>
+            <h3 class="name"></h3>
+            <p class="subhead"></p>
+          </div>
+          <div class="score-badge"></div>
+        </div>
+        <div class="metric-row"></div>
+        <p class="summary"></p>
+        <div class="reason-chips"></div>
+        <div class="watchouts"></div>
+      </article>
+    </template>
+
+    <template id="listingTemplate">
+      <article class="listing-card reveal">
+        <div class="listing-top">
+          <div>
+            <div class="decision-badge"></div>
+            <h3 class="listing-name"></h3>
+            <p class="listing-subhead"></p>
+          </div>
+          <div class="score-badge"></div>
+        </div>
+        <div class="listing-facts"></div>
+        <p class="listing-why"></p>
+        <div class="issue-list"></div>
+        <div class="listing-actions">
+          <button type="button" class="ghost-button action-edit">Edit</button>
+          <button type="button" class="ghost-button action-delete">Delete</button>
+        </div>
+      </article>
+    </template>
+
+    <template id="monitorTemplate">
+      <article class="monitor-card reveal">
+        <div class="monitor-card-top">
+          <div>
+            <div class="decision-badge monitor-decision"></div>
+            <h3 class="monitor-name"></h3>
+            <p class="monitor-subhead"></p>
+          </div>
+          <div class="score-badge monitor-score"></div>
+        </div>
+        <img class="monitor-shot" alt="" />
+        <div class="monitor-photo-row"></div>
+        <div class="listing-facts monitor-facts"></div>
+        <p class="monitor-why"></p>
+        <div class="issue-list monitor-issues"></div>
+        <a class="ghost-button monitor-link" target="_blank" rel="noreferrer">Open listing</a>
+      </article>
+    </template>
+
+    <script src="monitor-output/latest-report.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

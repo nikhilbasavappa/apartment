@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "startDate": "2026-10-13",
+    "office": "53rd & Lexington",
+    "salaryBase": 245000,
+    "bonusPct": 15,
+    "signingBonus": 130000,
+    "budgetTarget": 6500,
+    "budgetStretch": 7000,
+    "wfhPct": 45,
+    "weights": {
+      "apartment": 10,
+      "commute": 6,
+      "friends": 6,
+      "budget": 5,
+      "space": 6
+    }
+  },
+  "sources": [
+    {
+      "name": "StreetEasy LIC / UES / Midtown East",
+      "source": "streeteasy",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "name": "StreetEasy UWS / Morningside Heights",
+      "source": "streeteasy",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "name": "StreetEasy Prospect Heights / Park Slope / Fort Greene",
+      "source": "streeteasy",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "name": "Zillow NYC wildcard",
+      "source": "zillow",
+      "url": "",
+      "enabled": false
+    }
+  ],
+  "scanner": {
+    "headless": true,
+    "maxListingsPerSource": 20,
+    "maxNewListingsPerRun": 12,
+    "waitAfterLoadMs": 1800,
+    "captureScreenshots": true,
+    "captureRemotePhotos": 6,
+    "retainDays": 21
+  },
+  "notifications": {
+    "enabled": true,
+    "minScore": 78,
+    "openReportOnHits": false
+  }
+}
