@@ -1,4 +1,4 @@
-const CACHE = "apartment-v202607091832";
+const CACHE = "apartment-v202607092024";
 
 const APP_SHELL = [
   "./",
@@ -31,6 +31,11 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+
+  if (url.pathname === "/api/report") {
+    event.respondWith(networkFirst(request));
+    return;
+  }
 
   if (url.pathname.includes("/monitor-output/")) {
     event.respondWith(networkFirst(request));

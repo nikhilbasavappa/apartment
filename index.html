@@ -6,7 +6,8 @@
     <meta name="theme-color" content="#10172a" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Lex & Laundry</title>
+    <meta name="apple-mobile-web-app-title" content="Apartment" />
+    <title>Apartment</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -18,98 +19,64 @@
     <main class="shell">
       <section class="hero panel">
         <div class="hero-copy">
-          <p class="eyebrow">NYC Apartment Radar</p>
-          <h1>Lex & Laundry</h1>
-          <p class="lede">
-            A tailored shortlist builder for apartments worth your attention
-            before your <strong>October 13, 2026</strong> start at Cornerstone.
-          </p>
+          <h1>Apartment</h1>
+          <p class="lede">Scoring apartments against your criteria before October 13, 2026.</p>
         </div>
 
         <div class="profile-grid">
           <article class="stat-card">
             <span class="stat-label">Office</span>
             <strong>53rd &amp; Lexington</strong>
-            <p>Midtown East commute matters, but not at all costs.</p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Budget</span>
             <strong>$6,500 target / $7,000 stretch</strong>
-            <p>Tool keeps both numbers visible while you score listings.</p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Must-Haves</span>
             <strong>In-unit W/D + open kitchen</strong>
-            <p>Galley layouts get punished hard. Gas stove gets a bump.</p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Ideal Layout</span>
             <strong>2 bed, minimum 1 bed</strong>
-            <p>Second bedroom can double as office and parent guest room.</p>
           </article>
         </div>
       </section>
 
       <section class="panel monitor-panel">
         <div class="section-heading">
-          <p class="eyebrow">Live Apartment Feed</p>
-          <h2>This page should be the app, not a pile of scripts</h2>
-          <p>
-            The background scanner runs off-page because StreetEasy and Zillow
-            will not reliably let a browser-only page scrape them directly. But
-            the results can still show up here in one clean dashboard.
-          </p>
+          <h2>Feed</h2>
+          <p id="monitorStatusCopy">Results from the background scanner.</p>
         </div>
         <div class="profile-grid monitor-stats">
           <article class="stat-card">
             <span class="stat-label">Last Scan</span>
             <strong id="monitorLastRun">Waiting for first scan</strong>
-            <p id="monitorStatusCopy">
-              Once the scanner runs, the newest apartments worth your attention
-              will surface here first.
-            </p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Sources</span>
             <strong id="monitorSourceCount">0 active searches</strong>
-            <p>
-              Saved StreetEasy and Zillow searches can feed this view in the
-              background.
-            </p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Fresh Hits</span>
             <strong id="monitorNewCount">0 new listings</strong>
-            <p>
-              Strong new matches are highlighted here so you do not manually
-              click through every kitchen photo set.
-            </p>
           </article>
           <article class="stat-card">
             <span class="stat-label">Top Score</span>
             <strong id="monitorTopScore">No scored listings yet</strong>
-            <p>
-              The feed favors in-unit laundry, open kitchens, budget fit, and a
-              realistic commute to 53rd and Lexington.
-            </p>
           </article>
         </div>
         <div id="monitorFeedState" class="empty-state"></div>
         <div id="monitorFeed" class="monitor-grid"></div>
-        <div class="monitor-actions">
-          <a class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>
-          <a class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
+        <div id="monitorActions" class="monitor-actions">
+          <a id="openFullReport" class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>
+          <a id="openScanSummary" class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
         </div>
       </section>
 
       <section class="panel controls-panel">
         <div class="section-heading">
-          <p class="eyebrow">Profile Controls</p>
-          <h2>Adjust the model without touching code</h2>
-          <p>
-            These defaults mirror your current situation and can be tuned as
-            your search evolves.
-          </p>
+          <h2>Profile</h2>
         </div>
 
         <div class="control-grid">
@@ -154,7 +121,7 @@
           <article class="weight-card">
             <div class="weight-copy">
               <span>Commute ease</span>
-              <p>Closer to 53rd &amp; Lex matters more when this goes up.</p>
+              <p>Weight toward a shorter commute.</p>
             </div>
             <input id="weightCommute" type="range" min="1" max="10" step="1" />
             <strong id="weightCommuteValue"></strong>
@@ -170,7 +137,7 @@
           <article class="weight-card">
             <div class="weight-copy">
               <span>Budget discipline</span>
-              <p>Raises the penalty for flirting with your stretch number.</p>
+              <p>Penalize rent near your stretch budget.</p>
             </div>
             <input id="weightBudget" type="range" min="1" max="10" step="1" />
             <strong id="weightBudgetValue"></strong>
@@ -178,7 +145,7 @@
           <article class="weight-card">
             <div class="weight-copy">
               <span>2BR potential</span>
-              <p>Use this when the office/guest-room dream becomes non-negotiable.</p>
+              <p>Weight toward a real second bedroom.</p>
             </div>
             <input id="weightSpace" type="range" min="1" max="10" step="1" />
             <strong id="weightSpaceValue"></strong>
@@ -190,24 +157,16 @@
 
       <section class="panel">
         <div class="section-heading">
-          <p class="eyebrow">Neighborhood Watchlist</p>
-          <h2>Where you should focus first</h2>
-          <p>
-            These are curated heuristics for your situation, not live market
-            data. Commute times are approximate to 53rd &amp; Lexington.
-          </p>
+          <h2>Neighborhoods</h2>
+          <p>Ranked by fit to your criteria. Curated heuristics, not live market data. Commute times approximate to 53rd &amp; Lexington.</p>
         </div>
         <div id="neighborhoods" class="neighborhood-grid"></div>
       </section>
 
       <section class="panel tracker-panel">
         <div class="section-heading">
-          <p class="eyebrow">Listing Tracker</p>
-          <h2>Score actual apartments</h2>
-          <p>
-            Paste listing copy, let the parser grab obvious clues, then save.
-            Everything stays in your browser with local storage.
-          </p>
+          <h2>Listings</h2>
+          <p>Paste a listing, parse it, save it. Stays in your browser.</p>
         </div>
 
         <form id="listingForm" class="listing-form">
@@ -309,42 +268,6 @@
         <div id="listings" class="listing-grid"></div>
       </section>
 
-      <section class="panel notes-panel">
-        <div class="section-heading">
-          <p class="eyebrow">Search Signals</p>
-          <h2>What to lean into, what to screen out</h2>
-        </div>
-        <div class="tip-grid">
-          <article class="tip-card">
-            <h3>Prioritize newer inventory</h3>
-            <p>
-              Newer rentals and condo sublets are simply more likely to give you
-              the washer/dryer plus open kitchen combination you care about.
-            </p>
-          </article>
-          <article class="tip-card">
-            <h3>Be skeptical of pretty one-bedrooms</h3>
-            <p>
-              A stylish 1BR can still fail if the kitchen is boxed off or the
-              living room cannot comfortably host people.
-            </p>
-          </article>
-          <article class="tip-card">
-            <h3>Search phrases worth noticing</h3>
-            <p>
-              “Island kitchen,” “great room,” “chef’s kitchen,” and “full-size
-              washer/dryer” are usually better signs than generic “renovated.”
-            </p>
-          </article>
-          <article class="tip-card">
-            <h3>Red flags for your use case</h3>
-            <p>
-              “Galley,” “windowed kitchen,” “junior 1,” “alcove studio,” and
-              “laundry in building” should trigger heavier scrutiny or a pass.
-            </p>
-          </article>
-        </div>
-      </section>
     </main>
 
     <template id="neighborhoodTemplate">

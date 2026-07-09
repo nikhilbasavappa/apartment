@@ -1,12 +1,12 @@
 {
-  "name": "Lex & Laundry",
+  "name": "Apartment",
   "short_name": "Apartment",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#10172a",
   "theme_color": "#10172a",
-  "description": "A buildless apartment search PWA for monitoring and shortlisting NYC rentals.",
+  "description": "Apartment search and shortlisting for NYC rentals.",
   "icons": [
     {
       "src": "icon.svg",

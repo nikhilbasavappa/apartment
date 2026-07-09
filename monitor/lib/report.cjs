@@ -51,7 +51,7 @@ function buildSummary(report) {
 
 function generateMarkdownReport(report) {
   const sections = [
-    "# Lex & Laundry Monitor",
+    "# Apartment Monitor",
     "",
     buildSummary(report),
     "",
@@ -120,7 +120,7 @@ function generateHtmlReport(report) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lex & Laundry Monitor</title>
+    <title>Apartment Monitor</title>
     <style>
       :root {
         --bg: #0b1220;
@@ -273,8 +273,8 @@ function generateHtmlReport(report) {
   <body>
     <main>
       <section class="hero">
-        <h1>Lex & Laundry Monitor</h1>
-        <p>Generated ${escapeHtml(formatTimestamp(report.runAt))}. This is the recurring apartment finder: new listings in, photos and shortlist out.</p>
+        <h1>Apartment Monitor</h1>
+        <p>Generated ${escapeHtml(formatTimestamp(report.runAt))}.</p>
         <div class="summary">${escapeHtml(buildSummary(report))}</div>
         <p class="meta">Report file: ${escapeHtml(path.basename(report.htmlPath))} • Summary file: ${escapeHtml(path.basename(report.summaryPath))}</p>
       </section>

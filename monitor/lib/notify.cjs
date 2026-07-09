@@ -33,7 +33,7 @@ function sendNotifications(report, config) {
   const subtitle = `${top.label} • ${top.listing.neighborhoodName}`;
   const message = `${top.listing.title} (${Math.round(top.score)})${matches.length > 1 ? ` + ${matches.length - 1} more` : ""}`;
 
-  notifyMac("Lex & Laundry Monitor", subtitle, message);
+  notifyMac("Apartment Monitor", subtitle, message);
 
   if (config.notifications.openReportOnHits) {
     maybeOpenReport(report.htmlPath);

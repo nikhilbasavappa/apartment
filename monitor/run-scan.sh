@@ -31,4 +31,8 @@ NODE_MODULES_DIR="${CODEX_NODE_MODULES:-$DEPS_ROOT/node/node_modules}"
 
 export NODE_PATH="$NODE_MODULES_DIR${NODE_PATH:+:$NODE_PATH}"
 
-exec "$NODE_BIN" "$SCRIPT_DIR/scan.cjs" "$@"
+"$NODE_BIN" "$SCRIPT_DIR/scan.cjs" "$@"
+
+if [[ -f "$SCRIPT_DIR/.sync.json" ]]; then
+  "$NODE_BIN" "$SCRIPT_DIR/sync-report.cjs"
+fi

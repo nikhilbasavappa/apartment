@@ -1,5 +1,6 @@
-const STORAGE_KEY = "lex-and-laundry-state";
-const latestMonitorReport = window.__LEX_MONITOR_REPORT__ || null;
+const STORAGE_KEY = "apartment-state";
+let latestMonitorReport = window.__APARTMENT_REPORT__ || null;
+let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
 registerServiceWorker();
 
 const defaultProfile = {
@@ -31,11 +32,9 @@ const neighborhoods = [
     friends: 82,
     budgetFit: 80,
     twoBedFit: 88,
-    summary:
-      "Probably the cleanest overall fit if you want modern layouts, genuine in-unit laundry odds, and an easy Midtown East commute.",
+    summary: "Modern layouts, strong in-unit laundry odds, easy Midtown East commute.",
     reasons: ["Fast commute", "Strong W/D inventory", "2BR odds beat Manhattan core"],
-    watchouts:
-      "Can feel tower-heavy, and some listings lean sleek rather than warm. You may need to trade neighborhood charm for apartment quality.",
+    watchouts: "Tower-heavy stock, less neighborhood charm.",
   },
   {
     id: "ues",
@@ -47,11 +46,9 @@ const neighborhoods = [
     friends: 58,
     budgetFit: 77,
     twoBedFit: 70,
-    summary:
-      "Excellent for office gravity and daily ease, especially if you stay near the Q or 4/5/6. A real contender if commute comfort keeps compounding.",
+    summary: "Easiest Manhattan commute, near Q or 4/5/6, feasible inside budget.",
     reasons: ["Easiest Manhattan commute", "Plenty of polish", "Still feasible inside budget"],
-    watchouts:
-      "A lot of otherwise-good layouts hide closed or galley kitchens. Screen floor plans carefully before touring.",
+    watchouts: "Many listings hide closed or galley kitchens.",
   },
   {
     id: "uws",
@@ -63,11 +60,9 @@ const neighborhoods = [
     friends: 90,
     budgetFit: 64,
     twoBedFit: 60,
-    summary:
-      "A lifestyle match for your social orbit and a great place to host, especially if you value closeness to UWS and Morningside friends.",
+    summary: "Closest to friends, good for hosting.",
     reasons: ["Best friend proximity", "Strong home base feel", "Great entertaining neighborhood"],
-    watchouts:
-      "The nicest 2BR plus in-unit laundry plus open kitchen combinations get expensive quickly, and older layouts miss on kitchen flow.",
+    watchouts: "W/D + open kitchen 2BRs get expensive fast; older stock has poor kitchen flow.",
   },
   {
     id: "fort-greene",
@@ -79,11 +74,9 @@ const neighborhoods = [
     friends: 84,
     budgetFit: 74,
     twoBedFit: 76,
-    summary:
-      "A balanced Brooklyn option if you want strong train access, good social positioning, and better odds of an office-worthy second bedroom.",
+    summary: "Strong train access, good 2BR odds.",
     reasons: ["Strong Atlantic terminal access", "Good social reach", "Solid modern inventory pockets"],
-    watchouts:
-      "The best stock moves fast, and some buildings are more 'luxury-lite' than truly spacious.",
+    watchouts: "Best stock moves fast; some buildings are luxury-lite, not spacious.",
   },
   {
     id: "prospect-heights",
@@ -95,11 +88,9 @@ const neighborhoods = [
     friends: 92,
     budgetFit: 70,
     twoBedFit: 73,
-    summary:
-      "One of the best answers if you want Brooklyn energy, proximity to friends, and a place that feels good for dinners instead of just sleeping.",
+    summary: "Brooklyn energy, close to friends, real 2BR odds.",
     reasons: ["Best Brooklyn social fit", "Entertaining upside", "Real 2BR possibilities"],
-    watchouts:
-      "Commute is more of a commitment, especially on office-heavy weeks, and some charming stock sacrifices layout efficiency.",
+    watchouts: "34-min commute; charming stock often sacrifices layout.",
   },
   {
     id: "park-slope",
@@ -111,11 +102,9 @@ const neighborhoods = [
     friends: 94,
     budgetFit: 63,
     twoBedFit: 68,
-    summary:
-      "A very comfortable life choice with strong social upside, but you will pay for the privilege when you insist on open kitchen plus in-unit laundry.",
+    summary: "Closest to key friends, warmest home-base feel.",
     reasons: ["Closest to key friends", "Warmest home-base feel", "Great guest energy"],
-    watchouts:
-      "The exact apartment spec you want can easily drift into stretch territory, especially for nicer 2BRs.",
+    watchouts: "W/D + open kitchen spec drifts into stretch budget fast.",
   },
   {
     id: "greenpoint",
@@ -127,11 +116,9 @@ const neighborhoods = [
     friends: 66,
     budgetFit: 69,
     twoBedFit: 74,
-    summary:
-      "A good wildcard if you want strong apartment quality and a social scene, with a better chance of open-plan living than many older Manhattan options.",
+    summary: "Good modern layouts, better open-plan odds than older Manhattan stock.",
     reasons: ["Good modern layouts", "Entertaining-friendly", "Decent commute balance"],
-    watchouts:
-      "Not as directly aligned with your existing friend map, and some commutes require more transfer tolerance.",
+    watchouts: "Farther from existing friend map; some commutes need a transfer.",
   },
   {
     id: "midtown-east",
@@ -143,11 +130,9 @@ const neighborhoods = [
     friends: 36,
     budgetFit: 60,
     twoBedFit: 52,
-    summary:
-      "Incredible convenience play, but probably not the best answer if the apartment also needs to feel like your real life, not just a crash pad.",
+    summary: "Shortest commute, simple daily logistics.",
     reasons: ["Shortest commute", "Easy office weeks", "Simple daily logistics"],
-    watchouts:
-      "Lower social leverage and more layouts that feel practical rather than exciting for entertaining.",
+    watchouts: "Lower social leverage; layouts skew practical over entertaining.",
   },
 ];
 
@@ -177,6 +162,9 @@ const els = {
   monitorStatusCopy: document.querySelector("#monitorStatusCopy"),
   monitorFeedState: document.querySelector("#monitorFeedState"),
   monitorFeed: document.querySelector("#monitorFeed"),
+  monitorActions: document.querySelector("#monitorActions"),
+  openFullReport: document.querySelector("#openFullReport"),
+  openScanSummary: document.querySelector("#openScanSummary"),
   neighborhoods: document.querySelector("#neighborhoods"),
   listingForm: document.querySelector("#listingForm"),
   listingId: document.querySelector("#listingId"),
@@ -227,7 +215,55 @@ function init() {
   populateNeighborhoodSelect();
   hydrateControls();
   bindEvents();
+  syncMonitorLinks();
   render();
+  void loadMonitorReport();
+}
+
+async function loadMonitorReport() {
+  if (location.protocol === "file:") {
+    monitorLoadState = "ready";
+    renderMonitor();
+    return;
+  }
+
+  try {
+    const remoteReport = await fetchLiveMonitorReport();
+    if (remoteReport) {
+      latestMonitorReport = remoteReport;
+    }
+    monitorLoadState = "ready";
+  } catch (error) {
+    console.warn("Live monitor report fetch failed", error);
+    monitorLoadState = latestMonitorReport ? "ready" : "error";
+  }
+
+  renderMonitor();
+}
+
+async function fetchLiveMonitorReport() {
+  const response = await fetch("./api/report", {
+    cache: "no-store",
+    headers: {
+      Accept: "application/json",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Report request failed with ${response.status}`);
+  }
+
+  const payload = await response.json();
+  if (!payload || typeof payload !== "object") {
+    return latestMonitorReport;
+  }
+
+  const report = payload.report && typeof payload.report === "object" ? payload.report : payload;
+  if (!Array.isArray(report.topListings) || !Array.isArray(report.newListings)) {
+    return latestMonitorReport;
+  }
+
+  return report;
 }
 
 function loadState() {
@@ -380,10 +416,21 @@ function renderMonitor() {
     els.monitorSourceCount.textContent = "0 active searches";
     els.monitorNewCount.textContent = "0 new listings";
     els.monitorTopScore.textContent = "No scored listings yet";
-    els.monitorStatusCopy.textContent =
-      "This page can show the live shortlist once the background scanner has produced its first report.";
-    els.monitorFeedState.textContent =
-      "No scan data has been loaded yet. Once the monitor runs, refresh this page and the live apartment feed will appear here.";
+
+    if (monitorLoadState === "loading") {
+      els.monitorStatusCopy.textContent = "Loading the latest scan.";
+      els.monitorFeedState.textContent = "Loading.";
+      return;
+    }
+
+    if (monitorLoadState === "error") {
+      els.monitorStatusCopy.textContent = "Feed unreachable. No cached report on this device.";
+      els.monitorFeedState.textContent = "Will fill in once the next scan syncs.";
+      return;
+    }
+
+    els.monitorStatusCopy.textContent = "No scan run yet.";
+    els.monitorFeedState.textContent = "Results will appear here once the scanner runs.";
     return;
   }
 
@@ -400,31 +447,24 @@ function renderMonitor() {
     : "No scored listings yet";
 
   if (!sourceCount) {
-    els.monitorStatusCopy.textContent =
-      "The interface is ready, but no live saved searches are connected yet.";
-    els.monitorFeedState.textContent =
-      "Add live search URLs to the monitor configuration and this section becomes your first-stop apartment feed.";
+    els.monitorStatusCopy.textContent = "No saved searches connected yet.";
+    els.monitorFeedState.textContent = "Add search URLs to monitor/config.json.";
     return;
   }
 
   if (!topListings.length) {
-    els.monitorStatusCopy.textContent =
-      "Saved searches are connected. The next successful scan will start filling this feed.";
-    els.monitorFeedState.textContent =
-      "No listings are in the scored feed yet. That usually means the scanner has not inspected live results yet or the sources are still being connected.";
+    els.monitorStatusCopy.textContent = "Sources connected. Waiting on the first scan.";
+    els.monitorFeedState.textContent = "No scored listings yet.";
     return;
   }
 
   if (!newListings.length) {
-    els.monitorStatusCopy.textContent =
-      "No fresh standout listings landed on the latest pass, so the best current options stay pinned below.";
-    els.monitorFeedState.textContent =
-      "Showing the strongest current apartments from the monitor. Refresh after the next background scan to check for new arrivals.";
+    els.monitorStatusCopy.textContent = "No new listings this pass. Showing current top matches.";
+    els.monitorFeedState.textContent = "";
   } else {
     els.monitorStatusCopy.textContent =
-      `${newListings.length} new listing${newListings.length === 1 ? "" : "s"} passed through the latest scan. Start with the top cards below.`;
-    els.monitorFeedState.textContent =
-      "The feed below is ordered so you can screen likely winners fast, with screenshots and photo clues first.";
+      `${newListings.length} new listing${newListings.length === 1 ? "" : "s"} this scan.`;
+    els.monitorFeedState.textContent = "";
   }
 
   const fragment = document.createDocumentFragment();
@@ -503,22 +543,10 @@ function renderBudgetBand() {
   const monthlyBase = salaryBase / 12;
   const monthlyTarget = targetComp / 12;
 
-  let budgetTone = "Your target budget is comfortably aligned with total comp.";
-  if (state.profile.budgetTarget > maxBaseRent) {
-    budgetTone =
-      "Your target budget is above a strict base-salary-only 40x screen, so bonus treatment and landlord flexibility may matter.";
-  }
-  if (state.profile.budgetStretch > maxTargetRent) {
-    budgetTone =
-      "Your stretch budget pushes beyond a simple 40x view of base plus target bonus, so reserve it for a truly special place.";
-  }
-
   els.budgetBand.innerHTML = `
-    <strong>Comp frame:</strong> Base is ${formatCurrency(salaryBase)} and target annual comp is ${formatCurrency(targetComp)}.
-    That implies about <strong>${formatCurrency(monthlyBase)}</strong> gross monthly on base and
-    <strong>${formatCurrency(monthlyTarget)}</strong> gross monthly at target comp.
-    A simple 40x lens lands near <strong>${formatCurrency(maxBaseRent)}</strong> on base only and
-    <strong>${formatCurrency(maxTargetRent)}</strong> including target bonus. ${budgetTone}
+    <strong>Comp:</strong> ${formatCurrency(salaryBase)} base, ${formatCurrency(targetComp)} target comp.
+    Monthly gross: <strong>${formatCurrency(monthlyBase)}</strong> base, <strong>${formatCurrency(monthlyTarget)}</strong> at target.
+    40x rent screen: <strong>${formatCurrency(maxBaseRent)}</strong> on base, <strong>${formatCurrency(maxTargetRent)}</strong> at target comp.
   `;
 }
 
@@ -935,7 +963,7 @@ function exportListings() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = "lex-and-laundry-listings.json";
+  link.download = "apartment-listings.json";
   link.click();
   URL.revokeObjectURL(url);
 }
@@ -1012,6 +1040,7 @@ function findNeighborhood(id) {
 function resolveMonitorAssetPath(value) {
   if (!value) return "";
   if (/^https?:\/\//i.test(value)) return value;
+  if (!isLocalMonitorAssetHost()) return "";
   if (value.startsWith("monitor-output/")) return value;
   return `monitor-output/${value.replace(/^\.?\//, "")}`;
 }
@@ -1034,4 +1063,25 @@ function registerServiceWorker() {
       console.warn("Service worker registration failed", error);
     }
   });
+}
+
+function syncMonitorLinks() {
+  if (!els.monitorActions || !els.openFullReport || !els.openScanSummary) return;
+
+  if (!isLocalMonitorAssetHost()) {
+    els.monitorActions.hidden = true;
+    return;
+  }
+
+  els.monitorActions.hidden = false;
+  els.openFullReport.href = "monitor-output/latest-report.html";
+  els.openScanSummary.href = "monitor-output/latest-summary.md";
+}
+
+function isLocalMonitorAssetHost() {
+  return (
+    location.protocol === "file:" ||
+    location.hostname === "localhost" ||
+    location.hostname === "127.0.0.1"
+  );
 }

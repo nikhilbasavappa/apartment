@@ -109,7 +109,7 @@ function toClientReport(report) {
 function saveReport(report) {
   ensureDir(outputRoot);
   writeJson(jsonPath, report);
-  writeText(jsPath, `window.__LEX_MONITOR_REPORT__ = ${JSON.stringify(toClientReport(report), null, 2)};\n`);
+  writeText(jsPath, `window.__APARTMENT_REPORT__ = ${JSON.stringify(toClientReport(report), null, 2)};\n`);
   writeText(summaryPath, generateMarkdownReport(report));
   writeText(htmlPath, generateHtmlReport(report));
 }
@@ -232,7 +232,7 @@ async function main() {
     writeText(
       summaryPath,
       [
-        "# Lex & Laundry Monitor",
+        "# Apartment Monitor",
         "",
         `Run time: ${formatTimestamp(runAt)}`,
         "No live sources are enabled yet.",
