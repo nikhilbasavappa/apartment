@@ -4,8 +4,8 @@
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#10172a",
-  "theme_color": "#10172a",
+  "background_color": "#F5F1E8",
+  "theme_color": "#F5F1E8",
   "description": "Apartment search and shortlisting for NYC rentals.",
   "icons": [
     {
