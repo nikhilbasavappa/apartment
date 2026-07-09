@@ -213,12 +213,24 @@ h3 {
 }
 
 .monitor-name {
+  display: inline-block;
   margin-top: 2px;
   line-height: 1.02;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.monitor-name:hover {
+  color: var(--accent);
 }
 
 .monitor-subhead {
   margin: 8px 0 0;
+}
+
+.monitor-shot-link {
+  display: block;
+  cursor: pointer;
 }
 
 .monitor-shot {

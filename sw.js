@@ -1,4 +1,4 @@
-const CACHE = "apartment-v202607092125";
+const CACHE = "apartment-v202607092139";
 
 const APP_SHELL = [
   "./",
@@ -32,28 +32,12 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname === "/api/report") {
-    event.respondWith(networkFirst(request));
-    return;
-  }
-
-  if (url.pathname.includes("/monitor-output/")) {
-    event.respondWith(networkFirst(request));
-    return;
-  }
-
-  event.respondWith(cacheFirst(request));
+  // Network-first for everything: this app changes often, and a client stuck
+  // on stale JS silently reading fields that no longer exist (NaN scores,
+  // "undefined" addresses) is worse than one extra network round-trip.
+  // Cache is purely an offline fallback now, not a performance path.
+  event.respondWith(networkFirst(request));
 });
-
-async function cacheFirst(request) {
-  const cached = await caches.match(request);
-  if (cached) return cached;
-
-  const response = await fetch(request);
-  const cache = await caches.open(CACHE);
-  cache.put(request, response.clone());
-  return response;
-}
 
 async function networkFirst(request) {
   try {

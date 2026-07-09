@@ -139,15 +139,21 @@ function renderMonitor() {
     const heroImage = entry.listing.photos?.[0] || screenshot || "";
     const officeCommute = entry.commute?.office;
 
-    node.querySelector(".monitor-name").textContent = entry.listing.title;
+    const titleLink = node.querySelector(".monitor-name");
+    titleLink.textContent = entry.listing.title;
+    titleLink.href = entry.listing.url;
     node.querySelector(".monitor-subhead").textContent = `${entry.listing.address || "Address unknown"} • ${formatCurrency(entry.listing.price)}`;
     node.querySelector(".monitor-score").textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
 
+    const heroLink = node.querySelector(".monitor-shot-link");
+    heroLink.href = entry.listing.url;
     const hero = node.querySelector(".monitor-shot");
     if (heroImage) {
       hero.src = heroImage;
       hero.alt = `${entry.listing.title} preview`;
       hero.style.display = "block";
+    } else {
+      heroLink.style.display = "none";
     }
 
     const photoRow = node.querySelector(".monitor-photo-row");
