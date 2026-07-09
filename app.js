@@ -6,7 +6,7 @@ const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
   monitorSourceCount: document.querySelector("#monitorSourceCount"),
   monitorNewCount: document.querySelector("#monitorNewCount"),
-  monitorTopScore: document.querySelector("#monitorTopScore"),
+  monitorBestCommute: document.querySelector("#monitorBestCommute"),
   monitorStatusCopy: document.querySelector("#monitorStatusCopy"),
   monitorFeedState: document.querySelector("#monitorFeedState"),
   monitorFeed: document.querySelector("#monitorFeed"),
@@ -79,7 +79,7 @@ function renderMonitor() {
     els.monitorLastRun.textContent = "Waiting for first scan";
     els.monitorSourceCount.textContent = "0 active searches";
     els.monitorNewCount.textContent = "0 new listings";
-    els.monitorTopScore.textContent = "No scored listings yet";
+    els.monitorBestCommute.textContent = "No qualifying listings yet";
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -106,9 +106,9 @@ function renderMonitor() {
   els.monitorLastRun.textContent = report.runAt ? formatDateTime(report.runAt) : "Waiting for first scan";
   els.monitorSourceCount.textContent = `${sourceCount} active search${sourceCount === 1 ? "" : "es"}`;
   els.monitorNewCount.textContent = `${newListings.length} new listing${newListings.length === 1 ? "" : "s"}`;
-  els.monitorTopScore.textContent = best
-    ? `${Math.round(best.score)} in ${best.listing.neighborhoodName}`
-    : "No scored listings yet";
+  els.monitorBestCommute.textContent = best?.commute?.office
+    ? `${best.commute.office.minutes} min to office`
+    : "No qualifying listings yet";
 
   if (!sourceCount) {
     els.monitorStatusCopy.textContent = "No saved searches connected yet.";
@@ -136,12 +136,12 @@ function renderMonitor() {
   topListings.slice(0, 6).forEach((entry) => {
     const node = els.monitorTemplate.content.firstElementChild.cloneNode(true);
     const screenshot = resolveMonitorAssetPath(entry.listing.externalScreenshot);
-    const heroImage = screenshot || entry.listing.photos?.[0] || "";
+    const heroImage = entry.listing.photos?.[0] || screenshot || "";
+    const officeCommute = entry.commute?.office;
 
-    node.querySelector(".monitor-decision").textContent = entry.label;
     node.querySelector(".monitor-name").textContent = entry.listing.title;
-    node.querySelector(".monitor-subhead").textContent = `${entry.listing.neighborhoodName} • ${formatCurrency(entry.listing.price)} • ${entry.listing.commuteMinutes || "?"} min commute`;
-    node.querySelector(".monitor-score").textContent = `${Math.round(entry.score)} score`;
+    node.querySelector(".monitor-subhead").textContent = `${entry.listing.address || "Address unknown"} • ${formatCurrency(entry.listing.price)}`;
+    node.querySelector(".monitor-score").textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
 
     const hero = node.querySelector(".monitor-shot");
     if (heroImage) {
@@ -167,27 +167,24 @@ function renderMonitor() {
       entry.listing.bathrooms ? `${entry.listing.bathrooms} bath` : null,
       entry.listing.sqft ? `${entry.listing.sqft} sf` : null,
       formatLabel("W/D", entry.listing.washerDryer),
-      formatLabel("Kitchen", entry.listing.kitchenLayout),
-      formatLabel("Gas", entry.listing.gasStove),
+      formatLabel("Kitchen", entry.kitchenLayout),
+      formatLabel("Gas", entry.gasStove),
     ]
       .filter(Boolean)
       .forEach((label) => facts.append(createPill(label, "fact-pill")));
 
-    const whyParts = [];
-    if (entry.pluses?.length) {
-      whyParts.push(`Signals: ${entry.pluses.join(", ")}.`);
-    }
-    if (entry.listing.description) {
-      whyParts.push(entry.listing.description.slice(0, 240));
-    }
-    node.querySelector(".monitor-why").textContent = whyParts.join(" ");
+    const commuteRow = node.querySelector(".monitor-commute");
+    [
+      ["Office", entry.commute?.office],
+      ["Prospect Heights", entry.commute?.prospectHeights],
+      ["LIC", entry.commute?.longIslandCity],
+      ["Morningside Heights", entry.commute?.morningsideHeights],
+    ]
+      .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
+      .filter(Boolean)
+      .forEach((label) => commuteRow.append(createPill(label, "fact-pill")));
 
-    const issues = node.querySelector(".monitor-issues");
-    if (entry.issues?.length) {
-      entry.issues.forEach((issue) => issues.append(createPill(issue, "issue-chip")));
-    } else {
-      issues.append(createPill("No major flags detected", "chip"));
-    }
+    node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";
 
     const link = node.querySelector(".monitor-link");
     link.href = entry.listing.url;

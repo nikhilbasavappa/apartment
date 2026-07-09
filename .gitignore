@@ -4,3 +4,4 @@ monitor/.sync.json
 monitor-output/screenshots/
 monitor-output/state.json
 monitor/.env
+monitor/.session-state.json

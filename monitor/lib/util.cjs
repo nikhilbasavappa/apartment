@@ -56,6 +56,23 @@ function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
 }
 
+function loadEnvFile(filePath) {
+  if (!fs.existsSync(filePath)) return;
+
+  const contents = fs.readFileSync(filePath, "utf8");
+  contents.split("\n").forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) return;
+    const eqIndex = trimmed.indexOf("=");
+    if (eqIndex === -1) return;
+    const key = trimmed.slice(0, eqIndex).trim();
+    const value = trimmed.slice(eqIndex + 1).trim();
+    if (key && process.env[key] === undefined) {
+      process.env[key] = value;
+    }
+  });
+}
+
 function sleep(ms) {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
@@ -77,6 +94,7 @@ module.exports = {
   escapeHtml,
   formatCurrency,
   formatTimestamp,
+  loadEnvFile,
   readJson,
   sanitizeFilename,
   sleep,

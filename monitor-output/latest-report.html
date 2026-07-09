@@ -77,7 +77,7 @@
         gap: 16px;
         align-items: flex-start;
       }
-      .label, .score {
+      .score {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -86,13 +86,6 @@
         font-size: 0.8rem;
         text-transform: uppercase;
         letter-spacing: 0.08em;
-      }
-      .label {
-        background: rgba(242,170,85,0.14);
-        color: var(--accent);
-        margin-bottom: 10px;
-      }
-      .score {
         background: rgba(149,224,196,0.14);
         color: var(--mint);
         min-width: 62px;
@@ -135,10 +128,6 @@
         color: var(--mint);
         background: rgba(149,224,196,0.09);
       }
-      .issue {
-        color: var(--rose);
-        background: rgba(255,159,159,0.09);
-      }
       a {
         color: var(--text);
         text-decoration: none;
@@ -157,16 +146,173 @@
     <main>
       <section class="hero">
         <h1>Apartment Monitor</h1>
-        <p>Generated Jul 9, 2026, 4:27 PM.</p>
-        <div class="summary">Run time: Jul 9, 2026, 4:27 PM
-Configured sources: 0
-New listings inspected this run: 0
-Shortlist-worthy new listings: 0
-No new standout listings this run.</div>
+        <p>Generated Jul 9, 2026, 5:19 PM.</p>
+        <div class="summary">Run time: Jul 9, 2026, 5:19 PM
+Configured sources: 1
+New listings inspected this run: 10
+Qualifying new listings: 10
+- 8 Court Square #8J | $4,694 | 8 Court Square #8J, LONG ISLAND CITY, NY, 11101 | 10 min to office
+- 23-10 42nd Road #33E | $5,301 | 23-10 42nd Road #33E, LONG ISLAND CITY, NY, 11101 | 14 min to office
+- 37-34 33rd Street #4F | $5,850 | 37-34 33rd Street #4F, LONG ISLAND CITY, NY, 11101 | 18 min to office
+- 55 Willoughby Street #35E | $5,225 | 55 Willoughby Street #35E, BROOKLYN, NY, 11201 | 31 min to office
+- 80 Dekalb Avenue #12C | $4,600 | 80 Dekalb Avenue #12C, BROOKLYN, NY, 11201 | 32 min to office
+- 66 Rockwell Place #26J | $4,995 | 66 Rockwell Place #26J, BROOKLYN, NY, 11217 | 32 min to office
+- 20 Rockwell Place #1124X | $6,468 | 20 Rockwell Place #1124X, BROOKLYN, NY, 11201 | 34 min to office
+- 655 Union Street #5M | $4,600 | 655 Union Street #5M, BROOKLYN, NY, 11215 | 36 min to office</div>
         <p class="meta">Report file: latest-report.html • Summary file: latest-summary.md</p>
       </section>
       <section class="grid">
-        <div class="card"><p class="body">No scored listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>
+        
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/8-court-square-long_island_city/08j?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=ax3t2PuNQb-fiolHFFVLOUBKqxY7-wXAvb1pBSL7vEfQr5-XyMM8Wcfm9y49t9BQtFv0dPDqCqYxbFc5" target="_blank" rel="noreferrer">8 Court Square #8J</a></h2>
+              <p class="subhead">8 Court Square #8J, LONG ISLAND CITY, NY, 11101</p>
+            </div>
+            <div class="score">10 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png" alt="Listing screenshot for 8 Court Square #8J" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 8 Court Square #8J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 8 Court Square #8J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 8 Court Square #8J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 8 Court Square #8J" /></div>
+          <div class="facts"><span class="pill fact">$4,694</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: yes</span></div>
+          <div class="facts"><span class="pill plus">Office: 10 min (F Line)</span><span class="pill plus">Prospect Heights: 41 min (G Line/B69)</span><span class="pill plus">LIC: 6 min</span><span class="pill plus">Morningside Heights: 38 min (7X/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/aura-lic/33e?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=m_KX2rKhWh9UsWESY-SfvKg2nLzkZibMjzlFzHoRDrUkydobMWLCZhRNwPgy2d2K1zyDpHt7q9F6_ogr" target="_blank" rel="noreferrer">23-10 42nd Road #33E</a></h2>
+              <p class="subhead">23-10 42nd Road #33E, LONG ISLAND CITY, NY, 11101</p>
+            </div>
+            <div class="score">14 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-aura-lic-33e.png" alt="Listing screenshot for 23-10 42nd Road #33E" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/b3396d4bfbca315cab9576871046b173-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 23-10 42nd Road #33E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/49a8eec75a7fb4c0bd39b1adf0eff07c-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 23-10 42nd Road #33E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/83b467e6433d212d453c1eaf744da73e-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 23-10 42nd Road #33E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/ea656fcecc61eccf702d89d24c6a95eb-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 23-10 42nd Road #33E" /></div>
+          <div class="facts"><span class="pill fact">$5,301</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 14 min (F Line)</span><span class="pill plus">Prospect Heights: 52 min (N Line/Q Line)</span><span class="pill plus">LIC: 10 min (B62)</span><span class="pill plus">Morningside Heights: 42 min (7X/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/lucent33-condominium/4f?featured=1&amp;utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=Iz4tPuM6T0Oscb3ghCGt8p6oPRk5ASDukOkQH5-55KO2DRTHOds7CayxHScYevWupyt3qzfz7m6wjPi2" target="_blank" rel="noreferrer">37-34 33rd Street #4F</a></h2>
+              <p class="subhead">37-34 33rd Street #4F, LONG ISLAND CITY, NY, 11101</p>
+            </div>
+            <div class="score">18 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-lucent33-condominium-4f.png" alt="Listing screenshot for 37-34 33rd Street #4F" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/3a0858a31ed65ecb1cb3c65efa2a64e2-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 37-34 33rd Street #4F" /><img class="thumb" src="https://photos.zillowstatic.com/fp/dfbccdbe45c85e0a20b167c77195aca3-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 37-34 33rd Street #4F" /><img class="thumb" src="https://photos.zillowstatic.com/fp/6febadc3b3bde7e870c7c33952258e6e-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 37-34 33rd Street #4F" /><img class="thumb" src="https://photos.zillowstatic.com/fp/4c66142c6e93475984ef88de1b32d82f-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 37-34 33rd Street #4F" /></div>
+          <div class="facts"><span class="pill fact">$5,850</span><span class="pill fact">2 bed</span><span class="pill fact">2 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 18 min (R Line/F Line)</span><span class="pill plus">Prospect Heights: 52 min (R Line/Q Line)</span><span class="pill plus">LIC: 20 min (M Line/B62)</span><span class="pill plus">Morningside Heights: 45 min (R Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/house-55/35e?infeed=1&amp;utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=0LikYh1eIe-flGoL7DVholdRbi6Fpvob4GXoUkZMrXw96q_jhMwUg5dNVAUnQnl5jnuZ46HAvqSkr1Hj" target="_blank" rel="noreferrer">55 Willoughby Street #35E</a></h2>
+              <p class="subhead">55 Willoughby Street #35E, BROOKLYN, NY, 11201</p>
+            </div>
+            <div class="score">31 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-house-55-35e.png" alt="Listing screenshot for 55 Willoughby Street #35E" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/ba5c9b6bc8cb498395a3a64b53573673-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 55 Willoughby Street #35E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/a4e263c494148d9546f13385414decbc-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 55 Willoughby Street #35E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/e8e17807ecbf3ebbf74b8566ad7cff46-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 55 Willoughby Street #35E" /><img class="thumb" src="https://photos.zillowstatic.com/fp/c5cb472f467f68b268032c9ac5709b32-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 55 Willoughby Street #35E" /></div>
+          <div class="facts"><span class="pill fact">$5,225</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: semi-open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 31 min (F Line)</span><span class="pill plus">Prospect Heights: 26 min (B45)</span><span class="pill plus">LIC: 29 min (A Line/G Line)</span><span class="pill plus">Morningside Heights: 46 min (A Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/80-dekalb/12c?featured=1&amp;utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=3eF4kVJPz18wes6eYjnisOr8V6ry8qXvb8__033poLhl1IIC2eZnCVhcnTtrlNvkS_JoKnJZQHPg5aiT" target="_blank" rel="noreferrer">80 Dekalb Avenue #12C</a></h2>
+              <p class="subhead">80 Dekalb Avenue #12C, BROOKLYN, NY, 11201</p>
+            </div>
+            <div class="score">32 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-80-dekalb-12c.png" alt="Listing screenshot for 80 Dekalb Avenue #12C" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/acbd67b6c1bd43319387c949facc284b-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 80 Dekalb Avenue #12C" /><img class="thumb" src="https://photos.zillowstatic.com/fp/9d28686422bfe1b36a156539027776bb-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 80 Dekalb Avenue #12C" /><img class="thumb" src="https://photos.zillowstatic.com/fp/b6cd8847e304fa556e5014ffc149d1d8-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 80 Dekalb Avenue #12C" /><img class="thumb" src="https://photos.zillowstatic.com/fp/a74efa4058f0138fb5ae6fcfa79b1377-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 80 Dekalb Avenue #12C" /></div>
+          <div class="facts"><span class="pill fact">$4,600</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: yes</span></div>
+          <div class="facts"><span class="pill plus">Office: 32 min (B Line/6 Train)</span><span class="pill plus">Prospect Heights: 16 min (Q Line)</span><span class="pill plus">LIC: 27 min (G Line)</span><span class="pill plus">Morningside Heights: 44 min (Q Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/66-rockwell-place-brooklyn/26j?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=HuZAEc6hX293GSZcb_yZ4ZYIpoFjd4we69aYk6BookAvpcOBrG3yiw5Q0JiLUTkjmMUncwjuG3TAdgQ7" target="_blank" rel="noreferrer">66 Rockwell Place #26J</a></h2>
+              <p class="subhead">66 Rockwell Place #26J, BROOKLYN, NY, 11217</p>
+            </div>
+            <div class="score">32 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-66-rockwell-place-brooklyn-26j.png" alt="Listing screenshot for 66 Rockwell Place #26J" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/7f701624acbe93a7543bc3e2b8c25a9a-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 66 Rockwell Place #26J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/279eac829dc8d76877d327df96e6bc09-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 66 Rockwell Place #26J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/6fda8b6a8065767b9cc09031945d2051-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 66 Rockwell Place #26J" /><img class="thumb" src="https://photos.zillowstatic.com/fp/745bb849d6be8afdbed730a2b73b8d3c-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 66 Rockwell Place #26J" /></div>
+          <div class="facts"><span class="pill fact">$4,995</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: yes</span></div>
+          <div class="facts"><span class="pill plus">Office: 32 min (4 Line/6 Train)</span><span class="pill plus">Prospect Heights: 23 min (B45)</span><span class="pill plus">LIC: 25 min (G Line)</span><span class="pill plus">Morningside Heights: 47 min (2 Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/the-rocklyn/1124x?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=O0Rcnvt9EwrthALY0ehTiyjZEjvdysiHPBLYiMTh7ur9dYb0Yqofb9KD24zyB1399RqjZDQ_VGRwGQh-" target="_blank" rel="noreferrer">20 Rockwell Place #1124X</a></h2>
+              <p class="subhead">20 Rockwell Place #1124X, BROOKLYN, NY, 11201</p>
+            </div>
+            <div class="score">34 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-the-rocklyn-1124x.png" alt="Listing screenshot for 20 Rockwell Place #1124X" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/bdd0b73c2fef5a86d98344f4f9f90d53-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 20 Rockwell Place #1124X" /><img class="thumb" src="https://photos.zillowstatic.com/fp/18b721b3cfda8bae66a0139ee775033b-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 20 Rockwell Place #1124X" /><img class="thumb" src="https://photos.zillowstatic.com/fp/44cb363a924c28729a794cb9b7633a80-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 20 Rockwell Place #1124X" /><img class="thumb" src="https://photos.zillowstatic.com/fp/7b1890468205ff5cd309a95c2e0bebaa-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 20 Rockwell Place #1124X" /></div>
+          <div class="facts"><span class="pill fact">$6,468</span><span class="pill fact">2 bed</span><span class="pill fact">2 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 34 min (B Line/6 Train)</span><span class="pill plus">Prospect Heights: 18 min (Q Line)</span><span class="pill plus">LIC: 26 min (G Line)</span><span class="pill plus">Morningside Heights: 46 min (Q Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/655-union/5m?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=dnqLrQyk4GWZx6L0UMND32MAR9e-esMb4Os57ohgNwltaRx3d8Tm40D4fwehcFhZNtN9DJca-FOowdC1" target="_blank" rel="noreferrer">655 Union Street #5M</a></h2>
+              <p class="subhead">655 Union Street #5M, BROOKLYN, NY, 11215</p>
+            </div>
+            <div class="score">36 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-655-union-5m.png" alt="Listing screenshot for 655 Union Street #5M" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/cd017a2f91796d6afe2ee9f06a97e4a2-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 655 Union Street #5M" /><img class="thumb" src="https://photos.zillowstatic.com/fp/e6ed989a0f4f5e3c4cab656e0fa285b0-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 655 Union Street #5M" /><img class="thumb" src="https://photos.zillowstatic.com/fp/c9afb40bf17e46313ce04c53f7c3508a-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 655 Union Street #5M" /><img class="thumb" src="https://photos.zillowstatic.com/fp/7d85202cd6657fe295a4e4889d252d2a-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 655 Union Street #5M" /></div>
+          <div class="facts"><span class="pill fact">$4,600</span><span class="pill fact">1 bed</span><span class="pill fact">1 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 36 min (R Line/4 Line/6 Train)</span><span class="pill plus">Prospect Heights: 21 min (R Line/2 Line)</span><span class="pill plus">LIC: 36 min (R Line/G Line)</span><span class="pill plus">Morningside Heights: 51 min (R Line/2 Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/westmark-395-carroll-street-brooklyn/1029?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=kUn5YaNTOEslLVCw3JOXvtRTguOXAY_gHlT9UCiaRYjKxmxEOLlgOzgHUK2UPytiF5JMR2HWVMSOVqU3" target="_blank" rel="noreferrer">395 Carroll Street #1029</a></h2>
+              <p class="subhead">395 Carroll Street #1029, BROOKLYN, NY, 11231</p>
+            </div>
+            <div class="score">43 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-westmark-395-carroll-street-brooklyn-1029.png" alt="Listing screenshot for 395 Carroll Street #1029" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/a0f7206c569decc03a8014ad1126de0a-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 395 Carroll Street #1029" /><img class="thumb" src="https://photos.zillowstatic.com/fp/0914063da31716702d11838f76d4c67a-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 395 Carroll Street #1029" /><img class="thumb" src="https://photos.zillowstatic.com/fp/5f3b2c260f1c447d7700baf6227bcbae-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 395 Carroll Street #1029" /><img class="thumb" src="https://photos.zillowstatic.com/fp/4426605cceca2cbcd6f9a0be21e7e7a9-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 395 Carroll Street #1029" /></div>
+          <div class="facts"><span class="pill fact">$5,718</span><span class="pill fact">2 bed</span><span class="pill fact">2 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: open</span><span class="pill fact">Gas: unknown</span></div>
+          <div class="facts"><span class="pill plus">Office: 43 min (F Line)</span><span class="pill plus">Prospect Heights: 29 min (R Line/2 Line)</span><span class="pill plus">LIC: 34 min (G Line)</span><span class="pill plus">Morningside Heights: 60 min (R Line/2 Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h2><a href="https://streeteasy.com/building/251-douglass-street-brooklyn/310?utm_campaign=rental_listing&amp;utm_medium=share&amp;utm_source=web&amp;lstt=hKAJ9vJieYJvDPZN2FXGO9aNe5Gv456gQ--8XxCJ8iDE321NKpjiLVkXkyNl1XD0hyx6wI4DHF1tYI-N" target="_blank" rel="noreferrer">251 Douglass Street #310</a></h2>
+              <p class="subhead">251 Douglass Street #310, BROOKLYN, NY, 11217</p>
+            </div>
+            <div class="score">45 min</div>
+          </div>
+          <img class="hero-shot" src="screenshots/streeteasy-com-building-251-douglass-street-brooklyn-310.png" alt="Listing screenshot for 251 Douglass Street #310" />
+          <div class="thumb-row"><img class="thumb" src="https://photos.zillowstatic.com/fp/6e819377482528ff7e1c1fc971cee2da-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 251 Douglass Street #310" /><img class="thumb" src="https://photos.zillowstatic.com/fp/754b67f98961d7bb3b31e3bac9399449-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 251 Douglass Street #310" /><img class="thumb" src="https://photos.zillowstatic.com/fp/a7f9f91af9896ec55ae0219934ab8ee4-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 251 Douglass Street #310" /><img class="thumb" src="https://photos.zillowstatic.com/fp/db5ebed49eed05e69488961f3296777d-se_extra_large_1500_800.webp" loading="lazy" alt="Listing photo for 251 Douglass Street #310" /></div>
+          <div class="facts"><span class="pill fact">$5,800</span><span class="pill fact">2 bed</span><span class="pill fact">2 bath</span><span class="pill fact">W/D: yes</span><span class="pill fact">Kitchen: semi-open</span><span class="pill fact">Gas: no</span></div>
+          <div class="facts"><span class="pill plus">Office: 45 min (F Line)</span><span class="pill plus">Prospect Heights: 24 min (B65)</span><span class="pill plus">LIC: 36 min (G Line)</span><span class="pill plus">Morningside Heights: 58 min (2 Line/1 Line)</span></div>
+          <p class="body">Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.</p>
+        </article>
+      
       </section>
     </main>
   </body>

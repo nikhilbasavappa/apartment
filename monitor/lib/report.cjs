@@ -1,6 +1,13 @@
 const path = require("path");
 const { escapeHtml, formatCurrency, formatTimestamp } = require("./util.cjs");
 
+const DESTINATION_LABELS = {
+  office: "Office",
+  prospectHeights: "Prospect Heights",
+  longIslandCity: "LIC",
+  morningsideHeights: "Morningside Heights",
+};
+
 function renderPills(values, className) {
   return values
     .filter(Boolean)
@@ -15,33 +22,39 @@ function buildFactPills(entry) {
     listing.bedrooms !== null ? `${listing.bedrooms} bed` : "Beds unknown",
     listing.bathrooms ? `${listing.bathrooms} bath` : null,
     listing.sqft ? `${listing.sqft} sf` : null,
-    listing.commuteMinutes ? `${listing.commuteMinutes} min commute` : null,
     `W/D: ${listing.washerDryer}`,
-    `Kitchen: ${listing.kitchenLayout}`,
-    `Gas: ${listing.gasStove}`,
-    listing.neighborhoodName,
+    `Kitchen: ${entry.kitchenLayout}`,
+    `Gas: ${entry.gasStove}`,
   ];
 }
 
-function buildSummary(report) {
-  const headlineHits = report.newListings.filter(
-    (entry) => entry.label === "High Attention" || entry.label === "Photo Check" || entry.label === "Strong Candidate"
-  );
+function buildCommutePills(entry) {
+  return Object.entries(DESTINATION_LABELS).map(([key, label]) => {
+    const commute = entry.commute?.[key];
+    if (!commute) return null;
+    const lines = commute.lines?.length ? ` (${commute.lines.join("/")})` : "";
+    return `${label}: ${commute.minutes} min${lines}`;
+  });
+}
 
+function buildSummary(report) {
   const lines = [
     `Run time: ${formatTimestamp(report.runAt)}`,
     `Configured sources: ${report.sourcesConfigured}`,
     `New listings inspected this run: ${report.newListings.length}`,
-    `Shortlist-worthy new listings: ${headlineHits.length}`,
+    `Qualifying new listings: ${report.newListings.filter((entry) => entry.qualifies).length}`,
   ];
 
-  if (!headlineHits.length) {
-    lines.push("No new standout listings this run.");
+  const qualifying = report.newListings.filter((entry) => entry.qualifies);
+
+  if (!qualifying.length) {
+    lines.push("No new qualifying listings this run.");
   } else {
-    headlineHits.slice(0, 8).forEach((entry) => {
+    qualifying.slice(0, 8).forEach((entry) => {
       const listing = entry.listing;
+      const officeMinutes = entry.commute?.office?.minutes;
       lines.push(
-        `- ${entry.label}: ${listing.title} | ${formatCurrency(listing.price)} | ${listing.neighborhoodName} | ${Math.round(entry.score)}`
+        `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}`
       );
     });
   }
@@ -55,21 +68,16 @@ function generateMarkdownReport(report) {
     "",
     buildSummary(report),
     "",
-    "## Recent Top Listings",
+    "## Qualifying Listings",
     "",
   ];
 
-  report.topListings.slice(0, 12).forEach((entry) => {
+  report.topListings.forEach((entry) => {
     const listing = entry.listing;
+    const officeMinutes = entry.commute?.office?.minutes;
     sections.push(
-      `- **${entry.label}** ${listing.title} | ${formatCurrency(listing.price)} | ${listing.neighborhoodName} | score ${Math.round(entry.score)}`
+      `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}`
     );
-    if (entry.pluses.length) {
-      sections.push(`  Signals: ${entry.pluses.join(", ")}`);
-    }
-    if (entry.issues.length) {
-      sections.push(`  Watch-outs: ${entry.issues.join(", ")}`);
-    }
   });
 
   return sections.join("\n");
@@ -91,24 +99,23 @@ function generateHtmlReport(report) {
             )}" />`
         )
         .join("");
+      const officeMinutes = entry.commute?.office?.minutes;
 
       return `
         <article class="card">
           <div class="card-top">
             <div>
-              <div class="label">${escapeHtml(entry.label)}</div>
               <h2><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">${escapeHtml(
                 listing.title
               )}</a></h2>
-              <p class="subhead">${escapeHtml(listing.neighborhoodName)} • ${Math.round(entry.score)} score</p>
+              <p class="subhead">${escapeHtml(listing.address || "Address unknown")}</p>
             </div>
-            <div class="score">${Math.round(entry.score)}</div>
+            ${officeMinutes ? `<div class="score">${officeMinutes} min</div>` : ""}
           </div>
           ${localScreenshot}
           <div class="thumb-row">${remotePhotos}</div>
           <div class="facts">${renderPills(buildFactPills(entry), "pill fact")}</div>
-          <div class="facts">${renderPills(entry.pluses, "pill plus")}</div>
-          <div class="facts">${renderPills(entry.issues, "pill issue")}</div>
+          <div class="facts">${renderPills(buildCommutePills(entry), "pill plus")}</div>
           <p class="body">${escapeHtml(listing.description || listing.bodyText || "").slice(0, 620)}</p>
         </article>
       `;
@@ -194,7 +201,7 @@ function generateHtmlReport(report) {
         gap: 16px;
         align-items: flex-start;
       }
-      .label, .score {
+      .score {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -203,13 +210,6 @@ function generateHtmlReport(report) {
         font-size: 0.8rem;
         text-transform: uppercase;
         letter-spacing: 0.08em;
-      }
-      .label {
-        background: rgba(242,170,85,0.14);
-        color: var(--accent);
-        margin-bottom: 10px;
-      }
-      .score {
         background: rgba(149,224,196,0.14);
         color: var(--mint);
         min-width: 62px;
@@ -252,10 +252,6 @@ function generateHtmlReport(report) {
         color: var(--mint);
         background: rgba(149,224,196,0.09);
       }
-      .issue {
-        color: var(--rose);
-        background: rgba(255,159,159,0.09);
-      }
       a {
         color: var(--text);
         text-decoration: none;
@@ -279,7 +275,7 @@ function generateHtmlReport(report) {
         <p class="meta">Report file: ${escapeHtml(path.basename(report.htmlPath))} • Summary file: ${escapeHtml(path.basename(report.summaryPath))}</p>
       </section>
       <section class="grid">
-        ${cards || `<div class="card"><p class="body">No scored listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>`}
+        ${cards || `<div class="card"><p class="body">No qualifying listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>`}
       </section>
     </main>
   </body>

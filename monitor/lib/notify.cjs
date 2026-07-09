@@ -24,14 +24,15 @@ function sendNotifications(report, config) {
     return;
   }
 
-  const matches = report.newListings.filter((entry) => entry.score >= config.notifications.minScore);
+  const matches = report.newListings.filter((entry) => entry.qualifies);
   if (!matches.length) {
     return;
   }
 
   const top = matches[0];
-  const subtitle = `${top.label} • ${top.listing.neighborhoodName}`;
-  const message = `${top.listing.title} (${Math.round(top.score)})${matches.length > 1 ? ` + ${matches.length - 1} more` : ""}`;
+  const officeMinutes = top.commute?.office?.minutes;
+  const subtitle = officeMinutes ? `${officeMinutes} min to office` : "Qualifying listing";
+  const message = `${top.listing.title}${matches.length > 1 ? ` + ${matches.length - 1} more` : ""}`;
 
   notifyMac("Apartment Monitor", subtitle, message);
 

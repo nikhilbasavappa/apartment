@@ -1,0 +1,24 @@
+{
+  "name": "apartment",
+  "version": "1.0.0",
+  "description": "Apartment-search web app plus a background scanner.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilbasavappa/apartment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nikhilbasavappa/apartment/issues"
+  },
+  "homepage": "https://github.com/nikhilbasavappa/apartment#readme",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

@@ -3,11 +3,13 @@
 const path = require("path");
 const { chromium } = require("playwright");
 const { extractListingDetail, extractSearchListings, resolveChromeExecutable } = require("./lib/adapters.cjs");
+const { computeCommutes } = require("./lib/geo.cjs");
 const { generateHtmlReport, generateMarkdownReport } = require("./lib/report.cjs");
 const { sendNotifications } = require("./lib/notify.cjs");
-const { scoreListing } = require("./lib/scoring.cjs");
-const { defaultProfile } = require("./lib/shared-data.cjs");
-const { ensureDir, formatTimestamp, readJson, writeJson, writeText } = require("./lib/util.cjs");
+const { evaluateListing } = require("./lib/scoring.cjs");
+const { classifyKitchenPhotos } = require("./lib/vision.cjs");
+const fs = require("fs");
+const { ensureDir, formatTimestamp, loadEnvFile, readJson, writeJson, writeText } = require("./lib/util.cjs");
 
 const workspaceRoot = path.resolve(__dirname, "..");
 const outputRoot = path.join(workspaceRoot, "monitor-output");
@@ -19,6 +21,22 @@ const jsonPath = path.join(outputRoot, "latest-report.json");
 const jsPath = path.join(outputRoot, "latest-report.js");
 const configPath = path.join(__dirname, "config.json");
 
+loadEnvFile(path.join(__dirname, ".env"));
+
+const defaultProfile = {
+  startDate: "2026-10-13",
+  budgetMin: 3500,
+  budgetMax: 7000,
+  bedroomsMin: 1,
+};
+
+const defaultDestinations = {
+  office: "Lexington Ave & E 53rd St, New York, NY",
+  prospectHeights: "Prospect Heights, Brooklyn, NY",
+  longIslandCity: "Long Island City, Queens, NY",
+  morningsideHeights: "Morningside Heights, New York, NY",
+};
+
 function loadConfig() {
   const config = readJson(configPath, null);
   if (!config) {
@@ -27,14 +45,8 @@ function loadConfig() {
 
   return {
     ...config,
-    profile: {
-      ...defaultProfile,
-      ...(config.profile || {}),
-      weights: {
-        ...defaultProfile.weights,
-        ...(config.profile?.weights || {}),
-      },
-    },
+    destinations: { ...defaultDestinations, ...(config.destinations || {}) },
+    profile: { ...defaultProfile, ...(config.profile || {}) },
   };
 }
 
@@ -42,7 +54,7 @@ function loadState() {
   return readJson(statePath, {
     catalog: {},
     lastRunAt: null,
-    version: 1,
+    version: 2,
   });
 }
 
@@ -58,15 +70,20 @@ function pruneCatalog(state, retainDays) {
   });
 }
 
+function officeMinutes(entry) {
+  return entry.commute?.office?.minutes ?? Number.POSITIVE_INFINITY;
+}
+
 function buildReport(state, runAt, config, newListings) {
   const topListings = Object.values(state.catalog)
-    .sort((a, b) => b.score - a.score)
+    .filter((entry) => entry.qualifies)
+    .sort((a, b) => officeMinutes(a) - officeMinutes(b))
     .slice(0, 24);
 
   return {
     htmlPath,
     jsonPath,
-    newListings: newListings.sort((a, b) => b.score - a.score),
+    newListings: newListings.filter((entry) => entry.qualifies).sort((a, b) => officeMinutes(a) - officeMinutes(b)),
     runAt,
     sourcesConfigured: config.sources.filter((source) => source.enabled && source.url).length,
     summaryPath,
@@ -76,17 +93,15 @@ function buildReport(state, runAt, config, newListings) {
 
 function toClientReport(report) {
   const serializeEntry = (entry) => ({
-    issues: entry.issues || [],
-    label: entry.label,
+    commute: entry.commute,
+    gasStove: entry.gasStove,
+    kitchenLayout: entry.kitchenLayout,
     listing: {
+      address: entry.listing.address,
       bathrooms: entry.listing.bathrooms,
       bedrooms: entry.listing.bedrooms,
-      commuteMinutes: entry.listing.commuteMinutes,
       description: entry.listing.description,
       externalScreenshot: entry.listing.externalScreenshot,
-      gasStove: entry.listing.gasStove,
-      kitchenLayout: entry.listing.kitchenLayout,
-      neighborhoodName: entry.listing.neighborhoodName,
       photos: entry.listing.photos || [],
       price: entry.listing.price,
       sqft: entry.listing.sqft,
@@ -94,8 +109,7 @@ function toClientReport(report) {
       url: entry.listing.url,
       washerDryer: entry.listing.washerDryer,
     },
-    pluses: entry.pluses || [],
-    score: entry.score,
+    visionNotes: entry.visionNotes,
   });
 
   return {
@@ -129,12 +143,57 @@ function createBrowser(config) {
 }
 
 function createContext(browser) {
+  const sessionStatePath = path.join(__dirname, ".session-state.json");
+  const hasSession = fs.existsSync(sessionStatePath);
+
+  if (!hasSession) {
+    console.warn(
+      "No saved session found. StreetEasy will likely block this run with a bot challenge.\n" +
+        "Run `node monitor/bootstrap-session.cjs` once to solve it manually and save a trusted session."
+    );
+  }
+
   return browser.newContext({
     locale: "en-US",
+    storageState: hasSession ? sessionStatePath : undefined,
     userAgent:
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     viewport: { width: 1440, height: 1600 },
   });
+}
+
+async function inspectListing(candidate, listingPage, config, runAt) {
+  const details = await extractListingDetail(listingPage, candidate, config, {
+    rootDir: outputRoot,
+    screenshotDir,
+  });
+
+  const merged = { ...candidate, ...details };
+
+  const [visionResult, commuteResult] = await Promise.all([
+    classifyKitchenPhotos(merged.photos).catch((error) => {
+      console.warn(`Vision classification failed for ${merged.url}: ${error.message}`);
+      return null;
+    }),
+    merged.address
+      ? computeCommutes(merged.address, config.destinations).catch((error) => {
+          console.warn(`Commute lookup failed for ${merged.url}: ${error.message}`);
+          return null;
+        })
+      : Promise.resolve(null),
+  ]);
+
+  const evaluation = evaluateListing(merged, visionResult, commuteResult, config.profile);
+
+  if (!merged.address) {
+    evaluation.reasons.push("No street address parsed; commute not calculated");
+  }
+
+  return {
+    ...evaluation,
+    firstSeenAt: runAt,
+    lastSeenAt: runAt,
+  };
 }
 
 async function inspectSource(sourceConfig, context, state, config, runAt, counters) {
@@ -164,43 +223,26 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 
       const listingPage = await context.newPage();
       try {
-        const details = await extractListingDetail(listingPage, candidate, config, {
-          rootDir: outputRoot,
-          screenshotDir,
-        });
-        const scored = scoreListing(
-          {
-            ...candidate,
-            ...details,
-            sourceName: sourceConfig.name,
-          },
-          config.profile
-        );
-
-        const catalogEntry = {
-          ...scored,
-          firstSeenAt: runAt,
-          lastSeenAt: runAt,
-          lastSourceName: sourceConfig.name,
-        };
+        const catalogEntry = await inspectListing(candidate, listingPage, config, runAt);
+        catalogEntry.lastSourceName = sourceConfig.name;
 
         state.catalog[entryId] = catalogEntry;
         freshEntries.push(catalogEntry);
         counters.newListingsInspected += 1;
       } catch (error) {
         state.catalog[entryId] = {
-          issues: [`Inspection failed: ${error.message}`],
-          label: "Inspection Error",
+          commute: {},
+          gasStove: "unknown",
+          kitchenLayout: "unknown",
           listing: {
             ...candidate,
             description: candidate.searchSnippet || "",
             externalScreenshot: null,
-            neighborhoodName: "Unknown",
             photos: [],
             url: candidate.url,
           },
-          pluses: [],
-          score: 0,
+          qualifies: false,
+          reasons: [`Inspection failed: ${error.message}`],
           firstSeenAt: runAt,
           lastSeenAt: runAt,
           lastSourceName: sourceConfig.name,
@@ -266,8 +308,9 @@ async function main() {
   saveReport(report);
   sendNotifications(report, config);
 
+  const qualifyingCount = newListings.filter((entry) => entry.qualifies).length;
   console.log(
-    `Scan complete at ${formatTimestamp(runAt)}. ${newListings.length} new listings inspected. Report: ${htmlPath}`
+    `Scan complete at ${formatTimestamp(runAt)}. ${newListings.length} new listings inspected, ${qualifyingCount} qualified. Report: ${htmlPath}`
   );
 }
 

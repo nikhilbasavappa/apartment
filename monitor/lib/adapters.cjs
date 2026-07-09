@@ -163,6 +163,50 @@ function firstStructuredValue(objects, keys) {
   return null;
 }
 
+function formatStructuredAddress(address) {
+  if (!address || typeof address !== "object") return null;
+  const parts = [
+    address.streetAddress,
+    address.addressLocality || "New York",
+    address.addressRegion || "NY",
+    address.postalCode,
+  ].filter(Boolean);
+  if (!address.streetAddress) return null;
+  return parts.join(", ");
+}
+
+const STREET_ADDRESS_PATTERN =
+  /\d{1,5}\s+[A-Za-z0-9.'’\- ]{2,40}\s(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Pl|Place|Ln|Lane|Dr|Drive|Ct|Court|Way|Pkwy|Parkway|Ter|Terrace|Sq|Square)\b\.?(?:,?\s*(?:Apt|Unit|#)\s*[\w-]+)?/i;
+
+function extractAddressFromText(text) {
+  if (!text) return null;
+  const match = String(text).match(STREET_ADDRESS_PATTERN);
+  return match ? match[0].trim() : null;
+}
+
+function extractAddress(structuredObjects, raw) {
+  const structuredAddress = structuredObjects
+    .map((object) => formatStructuredAddress(object.address))
+    .find(Boolean);
+  if (structuredAddress) return structuredAddress;
+
+  const fromTitle = extractAddressFromText(raw.pageTitle);
+  if (fromTitle) return fromTitle;
+
+  const fromH1 = extractAddressFromText(raw.h1);
+  if (fromH1) return fromH1;
+
+  return null;
+}
+
+const NON_PHOTO_URL_PATTERN =
+  /(teads\.tv|doubleclick|googlesyndication|google-analytics|googletagmanager|facebook\.com\/tr|maps\.googleapis\.com\/maps\/api\/staticmap|adsystem|\/track\?|\/pixel\?|\/beacon)/i;
+
+function looksLikePhoto(url) {
+  if (NON_PHOTO_URL_PATTERN.test(url)) return false;
+  return /\.(jpe?g|png|webp|gif)(\?|$)/i.test(url) || /zillowstatic|streeteasy.*images|photos\./i.test(url);
+}
+
 function normalizePhotos(rawPhotos, limit) {
   const output = [];
   const seen = new Set();
@@ -171,6 +215,7 @@ function normalizePhotos(rawPhotos, limit) {
     if (!photo) return;
     const value = typeof photo === "string" ? photo : photo.url || photo.contentUrl || photo.thumbnailUrl;
     if (!value || seen.has(value) || !/^https?:\/\//i.test(value)) return;
+    if (!looksLikePhoto(value)) return;
     seen.add(value);
     output.push(value);
   });
@@ -232,6 +277,7 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
   }
 
   return {
+    address: extractAddress(structuredObjects, raw),
     bathrooms: Number.parseFloat(structuredBathrooms) || null,
     bedrooms: Number.parseFloat(structuredBedrooms) || null,
     bodyText: raw.bodyText,
