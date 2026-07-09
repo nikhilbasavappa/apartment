@@ -63,20 +63,23 @@ async function dismissOverlays(page) {
   }
 }
 
-async function autoScroll(page) {
-  await page.evaluate(async () => {
-    for (let step = 0; step < 3; step += 1) {
+async function autoScroll(page, steps = 3) {
+  await page.evaluate(async (stepCount) => {
+    for (let step = 0; step < stepCount; step += 1) {
       window.scrollBy(0, Math.floor(window.innerHeight * 0.9));
       await new Promise((resolve) => setTimeout(resolve, 250));
     }
     window.scrollTo(0, 0);
-  });
+  }, steps);
 }
 
 async function extractSearchListings(page, sourceConfig) {
   const source = sourceConfig.source || detectSource(sourceConfig.url);
   await dismissOverlays(page);
-  await autoScroll(page);
+  // More scroll depth than a single listing page: search results pages often
+  // lazy-load additional cards as you scroll, so this is how more than the
+  // first screenful gets into the DOM to scrape.
+  await autoScroll(page, 10);
 
   const rawListings = await page.evaluate(() => {
     const anchors = Array.from(document.querySelectorAll("a[href]"));

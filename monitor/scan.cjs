@@ -75,12 +75,20 @@ function officeMinutes(entry) {
 }
 
 function buildReport(state, runAt, config, newListings) {
-  const topListings = Object.values(state.catalog)
+  const catalogEntries = Object.values(state.catalog);
+
+  const topListings = catalogEntries
     .filter((entry) => entry.qualifies)
     .sort((a, b) => officeMinutes(a) - officeMinutes(b))
     .slice(0, 24);
 
+  const excludedListings = catalogEntries
+    .filter((entry) => !entry.qualifies)
+    .sort((a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime())
+    .slice(0, 40);
+
   return {
+    excludedListings,
     htmlPath,
     jsonPath,
     newListings: newListings.filter((entry) => entry.qualifies).sort((a, b) => officeMinutes(a) - officeMinutes(b)),
@@ -112,7 +120,18 @@ function toClientReport(report) {
     visionNotes: entry.visionNotes,
   });
 
+  const serializeExcluded = (entry) => ({
+    listing: {
+      address: entry.listing.address,
+      price: entry.listing.price,
+      title: entry.listing.title,
+      url: entry.listing.url,
+    },
+    reasons: entry.reasons || [],
+  });
+
   return {
+    excludedListings: report.excludedListings.map(serializeExcluded),
     newListings: report.newListings.map(serializeEntry),
     runAt: report.runAt,
     sourcesConfigured: report.sourcesConfigured,

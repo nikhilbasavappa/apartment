@@ -9,6 +9,8 @@
   --accent-soft: rgba(181, 96, 58, 0.1);
   --sage: #6b7a5e;
   --sage-soft: rgba(107, 122, 94, 0.12);
+  --rose: #a04a3f;
+  --rose-soft: rgba(160, 74, 63, 0.08);
   --radius-lg: 16px;
   --radius-md: 12px;
   --radius-sm: 8px;
@@ -274,6 +276,76 @@ h3 {
 .ghost-button:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+.excluded-panel {
+  padding: 20px 32px;
+}
+
+.excluded-panel summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.excluded-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.excluded-panel summary h2 {
+  display: inline;
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+.excluded-count {
+  font-weight: 400;
+}
+
+.excluded-intro {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.excluded-list {
+  display: grid;
+  gap: 2px;
+  margin-top: 14px;
+}
+
+.excluded-row {
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+
+.excluded-name {
+  color: var(--text);
+  font-size: 0.94rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.excluded-name:hover {
+  color: var(--accent);
+}
+
+.excluded-subhead {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.excluded-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.excluded-reason-pill {
+  color: var(--rose);
+  background: var(--rose-soft);
+  border-color: transparent;
 }
 
 .empty-state {

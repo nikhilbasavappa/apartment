@@ -70,6 +70,16 @@
           <a id="openScanSummary" class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
         </div>
       </section>
+
+      <section class="panel excluded-panel">
+        <details id="excludedDetails">
+          <summary>
+            <h2>Excluded <span id="excludedCount" class="excluded-count"></span></h2>
+          </summary>
+          <p class="excluded-intro">Inspected but didn't clear every requirement.</p>
+          <div id="excludedList" class="excluded-list"></div>
+        </details>
+      </section>
     </main>
 
     <template id="monitorTemplate">
@@ -90,6 +100,14 @@
         <p class="monitor-why"></p>
         <a class="ghost-button monitor-link" target="_blank" rel="noreferrer">Open listing</a>
       </article>
+    </template>
+
+    <template id="excludedTemplate">
+      <div class="excluded-row">
+        <a class="excluded-name" target="_blank" rel="noreferrer"></a>
+        <p class="excluded-subhead"></p>
+        <div class="excluded-reasons"></div>
+      </div>
     </template>
 
     <script src="monitor-output/latest-report.js"></script>

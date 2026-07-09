@@ -14,6 +14,9 @@ const els = {
   openFullReport: document.querySelector("#openFullReport"),
   openScanSummary: document.querySelector("#openScanSummary"),
   monitorTemplate: document.querySelector("#monitorTemplate"),
+  excludedCount: document.querySelector("#excludedCount"),
+  excludedList: document.querySelector("#excludedList"),
+  excludedTemplate: document.querySelector("#excludedTemplate"),
 };
 
 init();
@@ -80,6 +83,7 @@ function renderMonitor() {
     els.monitorSourceCount.textContent = "0 active searches";
     els.monitorNewCount.textContent = "0 new listings";
     els.monitorBestCommute.textContent = "No qualifying listings yet";
+    renderExcluded([]);
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -109,6 +113,7 @@ function renderMonitor() {
   els.monitorBestCommute.textContent = best?.commute?.office
     ? `${best.commute.office.minutes} min to office`
     : "No qualifying listings yet";
+  renderExcluded(Array.isArray(report.excludedListings) ? report.excludedListings : []);
 
   if (!sourceCount) {
     els.monitorStatusCopy.textContent = "No saved searches connected yet.";
@@ -199,6 +204,31 @@ function renderMonitor() {
   });
 
   els.monitorFeed.append(fragment);
+}
+
+function renderExcluded(excludedListings) {
+  if (!els.excludedList || !els.excludedTemplate) return;
+
+  els.excludedList.innerHTML = "";
+  els.excludedCount.textContent = `(${excludedListings.length})`;
+
+  const fragment = document.createDocumentFragment();
+
+  excludedListings.forEach((entry) => {
+    const node = els.excludedTemplate.content.firstElementChild.cloneNode(true);
+    const nameLink = node.querySelector(".excluded-name");
+    nameLink.textContent = entry.listing.title;
+    nameLink.href = entry.listing.url;
+    node.querySelector(".excluded-subhead").textContent =
+      `${entry.listing.address || "Address unknown"}${entry.listing.price ? ` • ${formatCurrency(entry.listing.price)}` : ""}`;
+
+    const reasons = node.querySelector(".excluded-reasons");
+    (entry.reasons || []).forEach((reason) => reasons.append(createPill(reason, "fact-pill excluded-reason-pill")));
+
+    fragment.append(node);
+  });
+
+  els.excludedList.append(fragment);
 }
 
 function createPill(text, className) {

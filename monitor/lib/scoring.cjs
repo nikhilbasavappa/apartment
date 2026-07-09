@@ -10,19 +10,22 @@ function normalizeListing(rawListing) {
     .filter(Boolean)
     .join(" ");
 
+  // Word-boundary anchored: without \b at the end, "ba"/"bed" match as
+  // prefixes of ordinary words too — e.g. "$124 Base rent" was matching as
+  // "124 ba[se]" and getting parsed as 124 bathrooms.
   const bedrooms =
     Number.isFinite(rawListing.bedrooms) && rawListing.bedrooms >= 0
       ? rawListing.bedrooms
-      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bed|bd|bedroom)/i) ??
+      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bedrooms?|beds?|bd)\b/i) ??
         (/\bstudio\b/.test(rawText.toLowerCase()) ? 0 : null);
   const bathrooms =
     Number.isFinite(rawListing.bathrooms) && rawListing.bathrooms > 0
       ? rawListing.bathrooms
-      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bath|ba|bathroom)/i);
+      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bathrooms?|baths?|ba)\b/i);
   const sqft =
     Number.isFinite(rawListing.sqft) && rawListing.sqft > 0
       ? rawListing.sqft
-      : extractNumber(rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet)/i);
+      : extractNumber(rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet)\b/i);
   const price =
     Number.isFinite(rawListing.price) && rawListing.price > 0
       ? rawListing.price

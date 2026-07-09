@@ -80,6 +80,13 @@ function generateMarkdownReport(report) {
     );
   });
 
+  sections.push("", `## Excluded (${(report.excludedListings || []).length})`, "");
+
+  (report.excludedListings || []).forEach((entry) => {
+    const listing = entry.listing;
+    sections.push(`- ${listing.title} | ${listing.address || "address unknown"} — ${entry.reasons.join("; ")}`);
+  });
+
   return sections.join("\n");
 }
 
@@ -120,6 +127,17 @@ function generateHtmlReport(report) {
         </article>
       `;
     })
+    .join("");
+
+  const excludedRows = (report.excludedListings || [])
+    .map(
+      (entry) => `
+        <div class="excluded-row">
+          <a href="${escapeHtml(entry.listing.url)}" target="_blank" rel="noreferrer">${escapeHtml(entry.listing.title)}</a>
+          <span class="excluded-reason">${escapeHtml(entry.reasons.join("; "))}</span>
+        </div>
+      `
+    )
     .join("");
 
   return `<!DOCTYPE html>
@@ -264,6 +282,28 @@ function generateHtmlReport(report) {
           flex-direction: column;
         }
       }
+      .excluded {
+        margin-top: 20px;
+        padding: 18px;
+      }
+      .excluded h2 {
+        margin-bottom: 4px;
+      }
+      .excluded-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 10px 0;
+        border-top: 1px solid var(--line);
+        font-size: 0.9rem;
+      }
+      .excluded-row a {
+        flex-shrink: 0;
+      }
+      .excluded-reason {
+        color: var(--rose);
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -276,6 +316,11 @@ function generateHtmlReport(report) {
       </section>
       <section class="grid">
         ${cards || `<div class="card"><p class="body">No qualifying listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>`}
+      </section>
+      <section class="card excluded">
+        <h2>Excluded (${(report.excludedListings || []).length})</h2>
+        <p class="subhead">Inspected but didn't clear every requirement.</p>
+        ${excludedRows || `<p class="body">Nothing excluded yet.</p>`}
       </section>
     </main>
   </body>
