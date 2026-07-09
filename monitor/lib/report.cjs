@@ -64,7 +64,7 @@ function buildSummary(report) {
 
 function generateMarkdownReport(report) {
   const sections = [
-    "# Apartment Monitor",
+    "# Future Elmo's World Monitor",
     "",
     buildSummary(report),
     "",
@@ -145,7 +145,7 @@ function generateHtmlReport(report) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartment Monitor</title>
+    <title>Future Elmo's World Monitor</title>
     <style>
       :root {
         --bg: #0b1220;
@@ -309,7 +309,7 @@ function generateHtmlReport(report) {
   <body>
     <main>
       <section class="hero">
-        <h1>Apartment Monitor</h1>
+        <h1>Future Elmo's World Monitor</h1>
         <p>Generated ${escapeHtml(formatTimestamp(report.runAt))}.</p>
         <div class="summary">${escapeHtml(buildSummary(report))}</div>
         <p class="meta">Report file: ${escapeHtml(path.basename(report.htmlPath))} • Summary file: ${escapeHtml(path.basename(report.summaryPath))}</p>

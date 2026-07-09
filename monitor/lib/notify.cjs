@@ -34,7 +34,7 @@ function sendNotifications(report, config) {
   const subtitle = officeMinutes ? `${officeMinutes} min to office` : "Qualifying listing";
   const message = `${top.listing.title}${matches.length > 1 ? ` + ${matches.length - 1} more` : ""}`;
 
-  notifyMac("Apartment Monitor", subtitle, message);
+  notifyMac("Future Elmo's World Monitor", subtitle, message);
 
   if (config.notifications.openReportOnHits) {
     maybeOpenReport(report.htmlPath);

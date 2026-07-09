@@ -293,7 +293,7 @@ async function main() {
     writeText(
       summaryPath,
       [
-        "# Apartment Monitor",
+        "# Future Elmo's World Monitor",
         "",
         `Run time: ${formatTimestamp(runAt)}`,
         "No live sources are enabled yet.",

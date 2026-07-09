@@ -1,6 +1,6 @@
 {
-  "name": "Apartment",
-  "short_name": "Apartment",
+  "name": "Future Elmo's World",
+  "short_name": "Elmo's World",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

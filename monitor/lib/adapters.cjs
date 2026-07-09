@@ -73,13 +73,39 @@ async function autoScroll(page, steps = 3) {
   }, steps);
 }
 
+// Keeps scrolling (a search results page lazy-loads more cards as you go)
+// until the page stops growing for two checks in a row, rather than a fixed
+// step count that would silently stop short of the full result set.
+async function scrollUntilExhausted(page, { maxSteps = 80, idleLimit = 2 } = {}) {
+  let previousHeight = 0;
+  let idleCount = 0;
+
+  for (let step = 0; step < maxSteps; step += 1) {
+    const height = await page.evaluate(async () => {
+      window.scrollTo(0, document.body.scrollHeight);
+      await new Promise((resolve) => setTimeout(resolve, 400));
+      return document.body.scrollHeight;
+    });
+
+    if (height <= previousHeight) {
+      idleCount += 1;
+      if (idleCount >= idleLimit) break;
+    } else {
+      idleCount = 0;
+    }
+    previousHeight = height;
+  }
+
+  await page.evaluate(() => window.scrollTo(0, 0));
+}
+
 async function extractSearchListings(page, sourceConfig) {
   const source = sourceConfig.source || detectSource(sourceConfig.url);
   await dismissOverlays(page);
-  // More scroll depth than a single listing page: search results pages often
-  // lazy-load additional cards as you scroll, so this is how more than the
-  // first screenful gets into the DOM to scrape.
-  await autoScroll(page, 10);
+  // Search results pages lazy-load more cards as you scroll; keep going
+  // until it genuinely stops loading more, so the full result set (not just
+  // the first screenful) ends up in the DOM to scrape.
+  await scrollUntilExhausted(page);
 
   const rawListings = await page.evaluate(() => {
     const anchors = Array.from(document.querySelectorAll("a[href]"));

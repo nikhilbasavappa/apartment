@@ -1,4 +1,4 @@
-# Apartment Monitor
+# Future Elmo's World Monitor
 
 Run time: Jul 9, 2026, 6:00 PM
 Configured sources: 1
