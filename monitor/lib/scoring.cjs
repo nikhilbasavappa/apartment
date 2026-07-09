@@ -1,28 +1,3 @@
-function detectFeatureSignals(text) {
-  const haystack = String(text || "").toLowerCase();
-
-  let washerDryer = "unknown";
-  if (
-    /\b(in[- ]unit|in unit|unit has|home has).{0,30}(washer|dryer)\b/.test(haystack) ||
-    /\bwasher\/dryer in unit\b/.test(haystack) ||
-    /\bfull[- ]size washer\/dryer\b/.test(haystack) ||
-    /\bw\/d in unit\b/.test(haystack)
-  ) {
-    washerDryer = "yes";
-  } else if (
-    /\bno in[- ]unit (?:washer|laundry)\b/.test(haystack) ||
-    /\bwasher\/dryer not (?:included|available)\b/.test(haystack) ||
-    /\blaundry (?:is )?only in (?:the )?building\b/.test(haystack) ||
-    /\bno washer\/dryer in unit\b/.test(haystack)
-  ) {
-    // Only an explicit negation overrides — a page mentioning a building-wide
-    // "laundry room" amenity elsewhere does not mean this unit lacks in-unit W/D.
-    washerDryer = "no";
-  }
-
-  return { washerDryer };
-}
-
 function extractNumber(text, regex) {
   const match = String(text || "").match(regex);
   if (!match) return null;
@@ -68,13 +43,11 @@ function normalizeListing(rawListing) {
  */
 function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   const listing = normalizeListing(rawListing);
-  const textSignals = detectFeatureSignals([listing.title, listing.description, listing.bodyText].join(" "));
   const reasons = [];
 
-  const washerDryer = textSignals.washerDryer === "no" ? "no" : "yes";
-  if (textSignals.washerDryer === "no") {
-    reasons.push("Listing text explicitly says no in-unit washer/dryer");
-  }
+  // Not re-verified from listing text: the search source already filters on
+  // this amenity (amenities:washer_dryer), so it's trusted as-is.
+  const washerDryer = "yes";
 
   const vision = visionResult || {
     kitchenVisible: false,
@@ -96,10 +69,6 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     reasons.push("Bedroom count could not be confirmed");
   } else if (listing.bedrooms < profile.bedroomsMin) {
     reasons.push(`${listing.bedrooms} bedroom(s), below minimum ${profile.bedroomsMin}`);
-  }
-
-  if (washerDryer !== "yes") {
-    reasons.push("No confirmed in-unit washer/dryer");
   }
 
   if (kitchenLayout !== "open" && kitchenLayout !== "semi-open") {
@@ -134,6 +103,5 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 }
 
 module.exports = {
-  detectFeatureSignals,
   evaluateListing,
 };
