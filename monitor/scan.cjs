@@ -265,7 +265,20 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
     await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
     await randomDelay(300, 700);
 
-    const pageResults = await extractSearchListings(searchPage, sourceConfig);
+    let pageResults;
+    try {
+      pageResults = await extractSearchListings(searchPage, sourceConfig, pageUrl);
+    } catch (error) {
+      if (error instanceof BotChallengeError) {
+        // Distinct from "ran out of new listings": this page itself never
+        // rendered real results, so whatever ZERO_SEARCH_RESULTS check runs
+        // next now has an actual cause on record instead of just "empty".
+        console.warn(`SEARCH_BOT_CHALLENGE: ${error.message} (page ${pageNumber})`);
+        break;
+      }
+      throw error;
+    }
+
     const newOnes = pageResults.filter((item) => !seenUrls.has(item.url));
 
     if (!newOnes.length) break;

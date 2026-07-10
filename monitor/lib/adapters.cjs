@@ -171,7 +171,7 @@ function looksLikeListing(candidate, source) {
   return hasPattern || hasHousingSignals;
 }
 
-async function extractSearchListings(page, sourceConfig) {
+async function extractSearchListings(page, sourceConfig, pageUrl) {
   const source = sourceConfig.source || detectSource(sourceConfig.url);
   // No dismissOverlays/scroll-to-lazy-load here: the page is static HTML
   // from the unlocker with JS disabled, so there's no interactive overlay
@@ -180,27 +180,34 @@ async function extractSearchListings(page, sourceConfig) {
   // pagination (buildPageUrl) is what surfaces more than a single page's
   // worth of results, not scrolling.
 
-  const rawListings = await page.evaluate(() => {
-    const anchors = Array.from(document.querySelectorAll("a[href]"));
+  const raw = await page.evaluate(() => ({
+    pageTitle: document.title || "",
+    bodyText: document.body ? document.body.innerText.slice(0, 5000) : "",
+    anchors: Array.from(document.querySelectorAll("a[href]")).map((anchor) => {
+      const card = anchor.closest("article, li, section, div");
+      const cardText = card ? card.innerText.replace(/\s+/g, " ").trim() : "";
+      const img = card ? card.querySelector("img") : null;
+      return {
+        cardImage: img ? img.src : "",
+        searchSnippet: cardText.slice(0, 700),
+        title:
+          anchor.textContent.replace(/\s+/g, " ").trim() ||
+          anchor.getAttribute("title") ||
+          anchor.getAttribute("aria-label") ||
+          "",
+        url: anchor.href,
+      };
+    }),
+  }));
 
-    return anchors
-      .map((anchor) => {
-        const card = anchor.closest("article, li, section, div");
-        const cardText = card ? card.innerText.replace(/\s+/g, " ").trim() : "";
-        const img = card ? card.querySelector("img") : null;
-        return {
-          cardImage: img ? img.src : "",
-          searchSnippet: cardText.slice(0, 700),
-          title:
-            anchor.textContent.replace(/\s+/g, " ").trim() ||
-            anchor.getAttribute("title") ||
-            anchor.getAttribute("aria-label") ||
-            "",
-          url: anchor.href,
-        };
-      })
-      .filter((item) => item.url.startsWith("http"));
-  });
+  // Same rationale as the listing-detail check: a blocked search page still
+  // returns 200 with challenge content, not an error status, and previously
+  // showed up indistinguishable from a page that's genuinely just empty.
+  if (isBotChallengePage(raw)) {
+    throw new BotChallengeError(pageUrl || sourceConfig.url);
+  }
+
+  const rawListings = raw.anchors.filter((item) => item.url.startsWith("http"));
 
   const deduped = new Map();
 
