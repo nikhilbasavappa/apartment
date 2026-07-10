@@ -39,6 +39,19 @@ function buildCommutePills(entry) {
   });
 }
 
+const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+
+function buildScorePills(entry) {
+  const breakdown = entry.rankBreakdown;
+  if (!breakdown) return [];
+  return [
+    `Score ${Math.round(breakdown.total)}/100`,
+    `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}) ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%`,
+    `Office ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%`,
+    `Friends ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`,
+  ];
+}
+
 function buildSummary(report) {
   const lines = [
     `Run time: ${formatTimestamp(report.runAt)}`,
@@ -116,14 +129,6 @@ function generateHtmlReport(report) {
         : officeMinutes
         ? `${officeMinutes} min`
         : "";
-      const breakdown = entry.rankBreakdown;
-      const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
-      const breakdownText = breakdown
-        ? `Match score ${Math.round(breakdown.total)}/100 — ` +
-          `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%, ` +
-          `Office: ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%, ` +
-          `Friends: ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`
-        : "";
 
       return `
         <article class="card">
@@ -140,7 +145,7 @@ function generateHtmlReport(report) {
           <div class="thumb-row">${remotePhotos}</div>
           <div class="facts">${renderPills(buildFactPills(entry), "pill fact")}</div>
           <div class="facts">${renderPills(buildCommutePills(entry), "pill plus")}</div>
-          ${breakdownText ? `<p class="rank-breakdown">${escapeHtml(breakdownText)}</p>` : ""}
+          <div class="facts">${renderPills(buildScorePills(entry), "pill score-detail")}</div>
           <p class="body">${escapeHtml(listing.description || listing.bodyText || "").slice(0, 620)}</p>
         </article>
       `;
@@ -287,6 +292,14 @@ function generateHtmlReport(report) {
       .plus {
         color: var(--mint);
         background: rgba(149,224,196,0.09);
+      }
+      .score-detail.pill {
+        color: var(--mint);
+        background: rgba(149,224,196,0.14);
+        font-weight: 600;
+      }
+      .score-detail.pill:first-child {
+        font-weight: 700;
       }
       a {
         color: var(--text);

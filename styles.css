@@ -257,6 +257,19 @@ h3 {
   background: var(--surface-sunken);
 }
 
+.score-pill {
+  border-radius: var(--radius-sm);
+  padding: 5px 9px;
+  font-size: 0.8rem;
+  border: 1px solid var(--sage);
+  color: var(--sage);
+  background: var(--sage-soft);
+}
+
+.score-pill:first-child {
+  font-weight: 600;
+}
+
 .ghost-button {
   display: inline-flex;
   align-items: center;

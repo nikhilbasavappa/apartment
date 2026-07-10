@@ -208,11 +208,12 @@ function renderMonitor() {
     const breakdown = entry.rankBreakdown;
     if (breakdown) {
       const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
-      breakdownEl.textContent =
-        `Match score ${Math.round(breakdown.total)}/100 — ` +
-        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%, ` +
-        `Office: ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%, ` +
-        `Friends: ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`;
+      [
+        `Score ${Math.round(breakdown.total)}/100`,
+        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}) ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%`,
+        `Office ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%`,
+        `Friends ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`,
+      ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
     }
 
     node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";
