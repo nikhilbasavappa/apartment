@@ -89,13 +89,11 @@ function buildReport(state, runAt, config, newListings) {
 
   const topListings = catalogEntries
     .filter((entry) => entry.qualifies)
-    .sort((a, b) => officeMinutes(a) - officeMinutes(b))
-    .slice(0, 24);
+    .sort((a, b) => officeMinutes(a) - officeMinutes(b));
 
   const excludedListings = catalogEntries
     .filter((entry) => !entry.qualifies)
-    .sort((a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime())
-    .slice(0, 40);
+    .sort((a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime());
 
   return {
     excludedListings,
@@ -420,7 +418,11 @@ async function main() {
   );
 }
 
-main().catch((error) => {
-  console.error(error.stack || error.message);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error.stack || error.message);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = { buildReport, loadConfig, loadState, saveReport, statePath };

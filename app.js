@@ -138,7 +138,7 @@ function renderMonitor() {
 
   const fragment = document.createDocumentFragment();
 
-  topListings.slice(0, 6).forEach((entry) => {
+  topListings.forEach((entry) => {
     const node = els.monitorTemplate.content.firstElementChild.cloneNode(true);
     const screenshot = resolveMonitorAssetPath(entry.listing.externalScreenshot);
     const heroImage = entry.listing.photos?.[0] || screenshot || "";
