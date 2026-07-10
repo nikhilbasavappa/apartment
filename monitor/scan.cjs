@@ -35,7 +35,7 @@ loadEnvFile(path.join(__dirname, ".env"));
 
 const defaultProfile = {
   startDate: "2026-10-13",
-  budgetMin: 3500,
+  budgetMin: 4000,
   budgetMax: 7000,
   bedroomsMin: 1,
 };
@@ -45,6 +45,7 @@ const defaultDestinations = {
   prospectHeights: "Prospect Heights, Brooklyn, NY",
   longIslandCity: "Long Island City, Queens, NY",
   morningsideHeights: "Morningside Heights, New York, NY",
+  upperWestSide: "Upper West Side, New York, NY",
 };
 
 function loadConfig() {
@@ -80,8 +81,8 @@ function pruneCatalog(state, retainDays) {
   });
 }
 
-function officeMinutes(entry) {
-  return entry.commute?.office?.minutes ?? Number.POSITIVE_INFINITY;
+function rankScore(entry) {
+  return entry.rankScore ?? 0;
 }
 
 function buildReport(state, runAt, config, newListings) {
@@ -89,7 +90,7 @@ function buildReport(state, runAt, config, newListings) {
 
   const topListings = catalogEntries
     .filter((entry) => entry.qualifies)
-    .sort((a, b) => officeMinutes(a) - officeMinutes(b));
+    .sort((a, b) => rankScore(b) - rankScore(a));
 
   const excludedListings = catalogEntries
     .filter((entry) => !entry.qualifies)
@@ -99,7 +100,7 @@ function buildReport(state, runAt, config, newListings) {
     excludedListings,
     htmlPath,
     jsonPath,
-    newListings: newListings.filter((entry) => entry.qualifies).sort((a, b) => officeMinutes(a) - officeMinutes(b)),
+    newListings: newListings.filter((entry) => entry.qualifies).sort((a, b) => rankScore(b) - rankScore(a)),
     runAt,
     sourcesConfigured: config.sources.filter((source) => source.enabled && source.url).length,
     summaryPath,
@@ -118,6 +119,7 @@ function toClientReport(report) {
       bedrooms: entry.listing.bedrooms,
       description: entry.listing.description,
       externalScreenshot: entry.listing.externalScreenshot,
+      neighborhood: entry.listing.neighborhood,
       photos: entry.listing.photos || [],
       price: entry.listing.price,
       sqft: entry.listing.sqft,
@@ -125,6 +127,7 @@ function toClientReport(report) {
       url: entry.listing.url,
       washerDryer: entry.listing.washerDryer,
     },
+    neighborhoodTier: entry.neighborhoodTier,
     visionNotes: entry.visionNotes,
   });
 

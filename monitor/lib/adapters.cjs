@@ -277,6 +277,18 @@ function formatStructuredAddress(address) {
   return parts.join(", ");
 }
 
+// StreetEasy page titles follow "{address} in {Neighborhood}, {Borough} |
+// StreetEasy" — the only reliable, consistently-tagged source of
+// neighborhood name we have (listing descriptions mention it inconsistently
+// depending on which fallback produced them).
+const PAGE_TITLE_NEIGHBORHOOD_PATTERN = /\bin\s+([^,|]+),\s*([^|]+?)\s*\|/i;
+
+function extractNeighborhood(pageTitle) {
+  const match = String(pageTitle || "").match(PAGE_TITLE_NEIGHBORHOOD_PATTERN);
+  if (!match) return { neighborhood: null, borough: null };
+  return { neighborhood: match[1].trim(), borough: match[2].trim() };
+}
+
 const STREET_ADDRESS_PATTERN =
   /\d{1,5}\s+[A-Za-z0-9.'’\- ]{2,40}\s(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Pl|Place|Ln|Lane|Dr|Drive|Ct|Court|Way|Pkwy|Parkway|Ter|Terrace|Sq|Square)\b\.?(?:,?\s*(?:Apt|Unit|#)\s*[\w-]+)?/i;
 
@@ -360,16 +372,22 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
 
   const structuredObjects = parseStructuredData(raw.rawScripts);
 
-  // ld+json parsing above only needs textContent, not layout, so it's already
-  // reliable at this point — if it found real listing data but bodyText is
-  // still short, that's the rendering race the settle-wait poll didn't fully
-  // catch (boilerplate/chrome painted, main listing content didn't), not a
-  // thin page. Real listing pages run several thousand characters once fully
-  // rendered, so this stays well clear of genuinely short pages.
-  if (raw.bodyText.length < 1000 && structuredObjects.length > 0) {
+  // Real listing pages run several thousand characters of body text once
+  // fully rendered. Short body text means either the rendering race the
+  // settle-wait poll didn't fully catch, or Bright Data handed back a
+  // degraded/partial response (seen in practice as occasional 502s and
+  // timeouts) — in both cases the right move is a retry, not trusting the
+  // near-empty result as ground truth. Originally this only fired when
+  // ld+json was present but bodyText wasn't (implying a rendering race
+  // specifically); broadened after finding a genuinely bad Bright Data
+  // response can come back with empty ld+json too, which was silently
+  // producing "everything unknown" records for listings that would extract
+  // fine on retry.
+  if (raw.bodyText.length < 1000) {
     throw new ExtractionIncompleteError(candidate.url);
   }
 
+  const { neighborhood, borough } = extractNeighborhood(raw.pageTitle);
   const structuredName = firstStructuredValue(structuredObjects, ["name", "headline"]);
   const structuredDescription = firstStructuredValue(structuredObjects, ["description"]);
   const structuredPrice = firstStructuredValue(structuredObjects, ["price", "rent"]);
@@ -395,7 +413,9 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
     bathrooms: Number.parseFloat(structuredBathrooms) || null,
     bedrooms: Number.parseFloat(structuredBedrooms) || null,
     bodyText: raw.bodyText,
+    borough,
     description: structuredDescription || raw.metaDescription || candidate.searchSnippet || "",
+    neighborhood,
     externalScreenshot: fs.existsSync(screenshotFile) ? path.relative(outputPaths.rootDir, screenshotFile) : null,
     id: listingId,
     photos: normalizePhotos(

@@ -1,7 +1,7 @@
 {
   "profile": {
     "startDate": "2026-10-13",
-    "budgetMin": 3500,
+    "budgetMin": 4000,
     "budgetMax": 7000,
     "bedroomsMin": 1
   },
@@ -9,13 +9,14 @@
     "office": "Lexington Ave & E 53rd St, New York, NY",
     "prospectHeights": "Prospect Heights, Brooklyn, NY",
     "longIslandCity": "Long Island City, Queens, NY",
-    "morningsideHeights": "Morningside Heights, New York, NY"
+    "morningsideHeights": "Morningside Heights, New York, NY",
+    "upperWestSide": "Upper West Side, New York, NY"
   },
   "sources": [
     {
-      "name": "StreetEasy — $3.5k-7k, 1-2bd, in-unit W/D",
+      "name": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
       "source": "streeteasy",
-      "url": "https://streeteasy.com/for-rent/nyc/price:3500-7000%7Carea:137,140,304,306,319,320,326,364,402%7Cbeds:1-2%7Camenities:washer_dryer?sort_by=se_score",
+      "url": "https://streeteasy.com/for-rent/nyc/price:4000-7000%7Carea:137,140,304,306,319,320,326,364,402%7Cbeds:1-2%7Camenities:washer_dryer?sort_by=se_score",
       "enabled": true
     }
   ],

@@ -1,3 +1,46 @@
+const GOWANUS_PATTERN = /\bgowanus\b/i;
+const UWS_PATTERN = /\bupper west side\b/i;
+const BROOKLYN_PATTERN = /\bbrooklyn\b/i;
+
+// Preference tiers per the user's own ranking: Upper West Side first,
+// Brooklyn second, everything else (LIC, other Manhattan neighborhoods like
+// the Upper East Side, Queens generally) tied for last. Not derived from
+// commute — this is a standalone "where do I want to live" preference.
+const NEIGHBORHOOD_TIER_SCORE = { uws: 100, brooklyn: 65, other: 30, unknown: 50 };
+
+function neighborhoodTier(neighborhood, borough) {
+  if (UWS_PATTERN.test(neighborhood || "")) return "uws";
+  if (BROOKLYN_PATTERN.test(borough || "")) return "brooklyn";
+  if (neighborhood) return "other";
+  return "unknown";
+}
+
+function isGowanus(neighborhood) {
+  return GOWANUS_PATTERN.test(neighborhood || "");
+}
+
+// Minutes -> 0-100, roughly linear, floored at 0 past an hour. Just needs to
+// be monotonic and comparable across destinations, not precise.
+function commuteScore(minutes) {
+  if (!Number.isFinite(minutes)) return 0;
+  return Math.max(0, 100 - minutes * 1.7);
+}
+
+const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
+
+// Blended ranking score used to sort qualifying listings — separate from the
+// qualify/exclude hard filters above. Weighted 35% neighborhood preference,
+// 35% office commute (the daily one), 30% average commute to the four
+// friends' neighborhoods.
+function computeRankScore(commute, tier) {
+  const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
+  const officeScore = commuteScore(commute.office?.minutes);
+  const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
+  const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
+
+  return 0.35 * neighborhoodScore + 0.35 * officeScore + 0.3 * avgFriendScore;
+}
+
 function extractNumber(text, regex) {
   const match = String(text || "").match(regex);
   if (!match) return null;
@@ -82,29 +125,34 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     );
   }
 
+  if (isGowanus(listing.neighborhood)) {
+    reasons.push("Neighborhood excluded: Gowanus");
+  }
+
   const qualifies = reasons.length === 0;
 
   const commute = commuteResult?.commutes || {};
+  const tier = neighborhoodTier(listing.neighborhood, listing.borough);
 
   return {
-    commute: {
-      office: commute.office || null,
-      prospectHeights: commute.prospectHeights || null,
-      longIslandCity: commute.longIslandCity || null,
-      morningsideHeights: commute.morningsideHeights || null,
-    },
+    commute,
     gasStove,
     kitchenLayout,
     listing: {
       ...listing,
       washerDryer,
     },
+    neighborhoodTier: tier,
     qualifies,
+    rankScore: computeRankScore(commute, tier),
     reasons,
     visionNotes: vision.notes || "",
   };
 }
 
 module.exports = {
+  computeRankScore,
   evaluateListing,
+  isGowanus,
+  neighborhoodTier,
 };

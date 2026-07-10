@@ -174,6 +174,7 @@ function renderMonitor() {
 
     const facts = node.querySelector(".monitor-facts");
     [
+      entry.listing.neighborhood || null,
       entry.listing.bedrooms !== null ? `${entry.listing.bedrooms} bed` : "Beds unknown",
       entry.listing.bathrooms ? `${entry.listing.bathrooms} bath` : null,
       entry.listing.sqft ? `${entry.listing.sqft} sf` : null,
@@ -187,9 +188,10 @@ function renderMonitor() {
     const commuteRow = node.querySelector(".monitor-commute");
     [
       ["Office", entry.commute?.office],
-      ["Prospect Heights", entry.commute?.prospectHeights],
-      ["LIC", entry.commute?.longIslandCity],
+      ["UWS friend", entry.commute?.upperWestSide],
       ["Morningside Heights", entry.commute?.morningsideHeights],
+      ["LIC", entry.commute?.longIslandCity],
+      ["Prospect Heights", entry.commute?.prospectHeights],
     ]
       .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
       .filter(Boolean)

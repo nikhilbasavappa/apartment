@@ -3,9 +3,10 @@ const { escapeHtml, formatCurrency, formatTimestamp } = require("./util.cjs");
 
 const DESTINATION_LABELS = {
   office: "Office",
-  prospectHeights: "Prospect Heights",
-  longIslandCity: "LIC",
+  upperWestSide: "UWS friend",
   morningsideHeights: "Morningside Heights",
+  longIslandCity: "LIC",
+  prospectHeights: "Prospect Heights",
 };
 
 function renderPills(values, className) {
@@ -22,6 +23,7 @@ function buildFactPills(entry) {
     listing.bedrooms !== null ? `${listing.bedrooms} bed` : "Beds unknown",
     listing.bathrooms ? `${listing.bathrooms} bath` : null,
     listing.sqft ? `${listing.sqft} sf` : null,
+    listing.neighborhood || null,
     `W/D: ${listing.washerDryer}`,
     `Kitchen: ${entry.kitchenLayout}`,
     `Gas: ${entry.gasStove}`,
