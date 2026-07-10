@@ -55,6 +55,9 @@ async function main() {
     }
   }
 
+  state.lastRunAt = runAt;
+  writeJson(statePath, state);
+
   const report = buildReport(state, runAt, config, []);
   saveReport(report);
 

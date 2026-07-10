@@ -301,6 +301,7 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
 async function inspectSource(sourceConfig, context, state, config, runAt, counters) {
   const searchPage = await context.newPage();
   const freshEntries = [];
+  let searchSucceeded = true;
 
   try {
     const searchResults = await collectSearchCandidates(searchPage, sourceConfig, config);
@@ -310,6 +311,7 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
       // listing was ever reached — a stronger failure than a few individual
       // listings not parsing cleanly.
       console.warn(`ZERO_SEARCH_RESULTS: no listings found on search page for "${sourceConfig.name}"`);
+      searchSucceeded = false;
     }
     const limitedResults = searchResults.slice(0, config.scanner.maxListingsPerSource || 20);
     let consecutiveChallenges = 0;
@@ -395,7 +397,7 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
     await searchPage.close();
   }
 
-  return freshEntries;
+  return { freshEntries, searchSucceeded };
 }
 
 async function main() {
@@ -429,17 +431,28 @@ async function main() {
   const context = await createPersistentContext(config);
   const counters = { newListingsInspected: 0 };
   const newListings = [];
+  let anySourceSucceeded = false;
 
   try {
     for (const source of activeSources) {
-      const freshEntries = await inspectSource(source, context, state, config, runAt, counters);
+      const { freshEntries, searchSucceeded } = await inspectSource(source, context, state, config, runAt, counters);
       newListings.push(...freshEntries);
+      anySourceSucceeded = anySourceSucceeded || searchSucceeded;
     }
   } finally {
     await context.close();
   }
 
-  state.lastRunAt = runAt;
+  // Only advance "last scan" on a run where at least one source's search
+  // page actually returned something — a run that hit ZERO_SEARCH_RESULTS
+  // everywhere didn't really scan anything, and letting it claim the
+  // timestamp anyway is what produced the "Last Scan" display disagreeing
+  // with what the published report actually reflects (the broken-run guard
+  // in scheduled-scan.sh reverts monitor-output/, but state.json isn't
+  // tracked, so lastRunAt would still silently jump ahead of the data).
+  if (anySourceSucceeded) {
+    state.lastRunAt = runAt;
+  }
   writeJson(statePath, state);
 
   const report = buildReport(state, runAt, config, newListings);

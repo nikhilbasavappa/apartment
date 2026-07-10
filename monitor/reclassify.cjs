@@ -94,6 +94,7 @@ async function main() {
 
   await browser.close();
 
+  state.lastRunAt = runAt;
   writeJson(statePath, state);
   const report = buildReport(state, runAt, config, []);
   saveReport(report);

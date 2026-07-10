@@ -5080,7 +5080,7 @@ window.__APARTMENT_REPORT__ = {
     }
   ],
   "newListings": [],
-  "runAt": "2026-07-10T14:02:26.759Z",
+  "runAt": "2026-07-10T21:00:06.599Z",
   "sourcesConfigured": 1,
   "topListings": [
     {
