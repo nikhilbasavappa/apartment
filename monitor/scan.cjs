@@ -38,6 +38,7 @@ const defaultProfile = {
   budgetMin: 4000,
   budgetMax: 7000,
   bedroomsMin: 1,
+  earlyActionDate: "2026-09-01",
 };
 
 const defaultDestinations = {
@@ -88,8 +89,17 @@ function rankScore(entry) {
 function buildReport(state, runAt, config, newListings) {
   const catalogEntries = Object.values(state.catalog);
 
-  const topListings = catalogEntries
-    .filter((entry) => entry.qualifies)
+  const qualifying = catalogEntries.filter((entry) => entry.qualifies);
+
+  // Available-date is close enough that it likely needs a decision before
+  // the general feed would normally surface it — pulled into its own
+  // section rather than mixed into the ranked list.
+  const earlyActionListings = qualifying
+    .filter((entry) => entry.needsEarlyAction)
+    .sort((a, b) => (a.listing.availableDate || "").localeCompare(b.listing.availableDate || ""));
+
+  const topListings = qualifying
+    .filter((entry) => !entry.needsEarlyAction)
     .sort((a, b) => rankScore(b) - rankScore(a));
 
   const excludedListings = catalogEntries
@@ -97,6 +107,7 @@ function buildReport(state, runAt, config, newListings) {
     .sort((a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime());
 
   return {
+    earlyActionListings,
     excludedListings,
     htmlPath,
     jsonPath,
@@ -112,9 +123,11 @@ function toClientReport(report) {
   const serializeEntry = (entry) => ({
     commute: entry.commute,
     gasStove: entry.gasStove,
+    hasGarden: entry.hasGarden,
     kitchenLayout: entry.kitchenLayout,
     listing: {
       address: entry.listing.address,
+      availableDate: entry.listing.availableDate,
       bathrooms: entry.listing.bathrooms,
       bedrooms: entry.listing.bedrooms,
       description: entry.listing.description,
@@ -127,6 +140,8 @@ function toClientReport(report) {
       url: entry.listing.url,
       washerDryer: entry.listing.washerDryer,
     },
+    livingRoomSmall: entry.livingRoomSmall,
+    needsEarlyAction: entry.needsEarlyAction,
     neighborhoodTier: entry.neighborhoodTier,
     rankBreakdown: entry.rankBreakdown,
     rankScore: entry.rankScore,
@@ -144,6 +159,7 @@ function toClientReport(report) {
   });
 
   return {
+    earlyActionListings: report.earlyActionListings.map(serializeEntry),
     excludedListings: report.excludedListings.map(serializeExcluded),
     newListings: report.newListings.map(serializeEntry),
     runAt: report.runAt,

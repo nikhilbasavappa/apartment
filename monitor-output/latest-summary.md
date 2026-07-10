@@ -10,30 +10,24 @@ No new qualifying listings this run.
 
 - 53 West 94th Street #2R | $5,495 | 53 West 94th Street #2R, NEW YORK, NY, 10025 | 22 min to office | score 73/100
 - 103 West 77th Street #3B | $5,780 | 103 West 77th Street #3B, NEW YORK, NY, 10024 | 22 min to office | score 73/100
-- 266 West 96th Street #1706 | $6,550 | 266 West 96th Street #1706, NEW YORK, NY, 10025 | 26 min to office | score 72/100
 - 266 West 96th Street #1601 | $6,400 | 266 West 96th Street #1601, NEW YORK, NY, 10025 | 26 min to office | score 72/100
 - 700 West End Avenue #1A | $6,000 | 700 West End Avenue #1A, NEW YORK, NY, 10025 | 26 min to office | score 72/100
 - 310 West 80th Street #3C | $5,000 | 310 West 80th Street #3C, NEW YORK, NY, 10024 | 25 min to office | score 71/100
 - 250 West 91st Street #4B | $6,050 | 250 West 91st Street #4B, NEW YORK, NY, 10024 | 28 min to office | score 70/100
-- 212 West 91st Street #1127 | $5,890 | 212 West 91st Street #1127, NEW YORK, NY, 10024 | 28 min to office | score 70/100
 - 158 West 84th Street #3C | $5,495 | 158 West 84th Street #3C, NEW YORK, NY, 10024 | 27 min to office | score 70/100
 - 795 Columbus Avenue #4G | $6,189 | 795 Columbus Avenue #4G, NEW YORK, NY, 10025 | 25 min to office | score 70/100
 - 795 Columbus Avenue #5K | $5,722 | 795 Columbus Avenue #5K, NEW YORK, NY, 10025 | 25 min to office | score 70/100
 - 788 Columbus Avenue #1R | $6,200 | 788 Columbus Avenue #1R, NEW YORK, NY, 10025 | 26 min to office | score 69/100
-- 805 Columbus Avenue #7B | $5,710 | 805 Columbus Avenue #7B, NEW YORK, NY, 10025 | 26 min to office | score 69/100
 - 801 Amsterdam Avenue #3G | $6,088 | 801 Amsterdam Avenue #3G, NEW YORK, NY, 10025 | 30 min to office | score 67/100
 - 915 West End Avenue #208 | $5,100 | 915 West End Avenue #208, NEW YORK, NY, 10025 | 30 min to office | score 67/100
 - 814 Amsterdam Avenue #9N | $4,095 | 814 Amsterdam Avenue #9N, NEW YORK, NY, 10025 | 30 min to office | score 67/100
 - 945 West End Avenue #2C2 | $4,100 | 945 West End Avenue #2C2, NEW YORK, NY, 10025 | 31 min to office | score 66/100
 - 29-22 Northern Boulevard #3801E | $6,495 | 29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 56/100
-- 149 East 61st Street #1B | $5,850 | 149 East 61st Street #1B, NEW YORK, NY, 10065 | 8 min to office | score 55/100
 - 1026 3rd Avenue #26A | $6,850 | 1026 3rd Avenue #26A, NEW YORK, NY, 10065 | 8 min to office | score 55/100
 - 3 Court Square #613 | $4,950 | 3 Court Square #613, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 55/100
 - 3 Court Square #5604 | $5,200 | 3 Court Square #5604, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 55/100
 - 3 Court Square #3509 | $5,200 | 3 Court Square #3509, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 55/100
-- 25 Central Park West #19U | $6,900 | 25 Central Park West #19U, NEW YORK, NY, 10023 | 14 min to office | score 55/100
 - 8 Court Square #8J | $4,694 | 8 Court Square #8J, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 55/100
-- 11-12 44th Drive #4D | $4,100 | 11-12 44th Drive #4D, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 54/100
 - 22-44 Jackson Avenue #2102 | $6,752 | 22-44 Jackson Avenue #2102, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 22-44 Jackson Avenue #3811 | $6,678 | 22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 22-44 Jackson Avenue #3909 | $4,980 | 22-44 Jackson Avenue #3909, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
@@ -42,14 +36,12 @@ No new qualifying listings this run.
 - 22-44 Jackson Avenue #4307 | $4,839 | 22-44 Jackson Avenue #4307, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 22-44 Jackson Avenue #3412 | $4,710 | 22-44 Jackson Avenue #3412, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 22-44 Jackson Avenue #4117 | $4,500 | 22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
-- 45-19 Davis Street #7E | $4,850 | 45-19 Davis Street #7E, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 22-44 Jackson Avenue #818 | $6,430 | 22-44 Jackson Avenue #818, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 53/100
 - 22-18 Jackson Avenue #511 | $4,750 | 22-18 Jackson Avenue #511, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 53/100
 - 22-18 Jackson Avenue #812 | $6,750 | 22-18 Jackson Avenue #812, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 53/100
 - 43-12 Hunter Street #701 | $4,595 | 43-12 Hunter Street #701, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 43-10 Crescent Street #502 | $5,399 | 43-10 Crescent Street #502, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 23-15 44th Road #42H | $5,935 | 23-15 44th Road #42H, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
-- 23-15 44th Road #12J | $5,455 | 23-15 44th Road #12J, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 80 Dekalb Avenue #24D | $4,700 | 80 Dekalb Avenue #24D, BROOKLYN, NY, 11201 | 32 min to office | score 53/100
 - 80 Dekalb Avenue #12C | $4,600 | 80 Dekalb Avenue #12C, BROOKLYN, NY, 11201 | 32 min to office | score 53/100
 - 80 Dekalb Avenue #22D | $4,550 | 80 Dekalb Avenue #22D, BROOKLYN, NY, 11201 | 32 min to office | score 53/100
@@ -79,7 +71,6 @@ No new qualifying listings this run.
 - 55 Willoughby Street #38B | $5,875 | 55 Willoughby Street #38B, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
 - 55 Willoughby Street #28F | $5,170 | 55 Willoughby Street #28F, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
 - 55 Willoughby Street #35B | $5,630 | 55 Willoughby Street #35B, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
-- 55 Willoughby Street #20B | $5,280 | 55 Willoughby Street #20B, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
 - 55 Willoughby Street #32E | $5,180 | 55 Willoughby Street #32E, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
 - 55 Willoughby Street #41C | $6,295 | 55 Willoughby Street #41C, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
 - 55 Willoughby Street #35F | $5,275 | 55 Willoughby Street #35F, BROOKLYN, NY, 11201 | 31 min to office | score 51/100
@@ -102,10 +93,8 @@ No new qualifying listings this run.
 - 17 Hanover Place #20I | $5,155 | 17 Hanover Place #20I, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
 - 17 Hanover Place #21E | $4,650 | 17 Hanover Place #21E, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
 - 151 South Elliott Place #6N | $6,105 | 151 South Elliott Place #6N, BROOKLYN, NY, 11217 | 33 min to office | score 51/100
-- 151 South Elliott Place #7K | $5,775 | 151 South Elliott Place #7K, BROOKLYN, NY, 11217 | 33 min to office | score 51/100
 - 17 Hanover Place #19E | $4,495 | 17 Hanover Place #19E, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
 - 17 Hanover Place #20E | $4,640 | 17 Hanover Place #20E, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
-- 525 Pacific Street #807 | $5,850 | 525 Pacific Street #807, BROOKLYN, NY, 11217 | 33 min to office | score 51/100
 - 151 South Elliott Place #3K | $5,592 | 151 South Elliott Place #3K, BROOKLYN, NY, 11217 | 33 min to office | score 51/100
 - 17 Hanover Place #15J | $5,345 | 17 Hanover Place #15J, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
 - 17 Hanover Place #25H | $5,540 | 17 Hanover Place #25H, BROOKLYN, NY, 11201 | 33 min to office | score 51/100
@@ -153,14 +142,11 @@ No new qualifying listings this run.
 - 26 Quincy Street #5F | $5,625 | 26 Quincy Street #5F, BROOKLYN, NY, 11238 | 33 min to office | score 49/100
 - 662 Pacific Street #25F | $4,275 | 662 Pacific Street #25F, BROOKLYN, NY, 11217 | 35 min to office | score 49/100
 - 662 Pacific Street #20T | $4,490 | 662 Pacific Street #20T, BROOKLYN, NY, 11217 | 35 min to office | score 49/100
-- 24-15 Queens Plaza North #6A | $6,250 | 24-15 Queens Plaza North #6A, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 49/100
 - 231 East 76th Street #2A | $6,370 | 231 East 76th Street #2A, NEW YORK, NY, 10021 | 15 min to office | score 49/100
 - 304 East 77th Street #5 | $4,560 | 304 East 77th Street #5, NEW YORK, NY, 10075 | 15 min to office | score 49/100
-- 3 West 103rd Street #3F | $4,135 | 3 West 103rd Street #3F, NEW YORK, NY, 10025 | 21 min to office | score 49/100
 - 5-19 Borden Avenue #6F | $4,100 | 5-19 Borden Avenue #6F, LONG ISLAND CITY, NY, 11101 | 19 min to office | score 49/100
 - 29-18 41st Avenue #24B | $4,500 | 29-18 41st Avenue #24B, LONG ISLAND CITY, NY, 11101 | 14 min to office | score 48/100
 - 540 Waverly Avenue #6E | $4,380 | 540 Waverly Avenue #6E, BROOKLYN, NY, 11238 | 36 min to office | score 48/100
-- 170 Amsterdam Avenue #2I | $6,535 | 170 Amsterdam Avenue #2I, NEW YORK, NY, 10023 | 23 min to office | score 48/100
 - 10 Quincy Street #3M | $7,000 | 10 Quincy Street #3M, BROOKLYN, NY, 11238 | 34 min to office | score 48/100
 - 218 East 74th Street #4W | $5,500 | 218 East 74th Street #4W, NEW YORK, NY, 10021 | 16 min to office | score 48/100
 - 43-22 Queens Street #1207 | $4,687 | 43-22 Queens Street #1207, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 48/100
@@ -185,14 +171,12 @@ No new qualifying listings this run.
 - 41-15 24th Street #2402 | $5,410 | 41-15 24th Street #2402, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 47/100
 - 41-15 24th Street #738 | $6,450 | 41-15 24th Street #738, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 47/100
 - 834 Pacific Street #213 | $4,350 | 834 Pacific Street #213, BROOKLYN, NY, 11238 | 38 min to office | score 47/100
-- 1004 Fulton Street #4F | $4,195 | 1004 Fulton Street #4F, BROOKLYN, NY, 11238 | 37 min to office | score 47/100
 - 335 East 65th Street #4 | $4,600 | 335 East 65th Street #4, NEW YORK, NY, 10065 | 17 min to office | score 46/100
 - 49 Irving Place #1 | $4,300 | 49 Irving Place #1, BROOKLYN, NY, 11238 | 37 min to office | score 46/100
 - 2-17 51st Avenue #314 | $5,500 | 2-17 51st Avenue #314, LONG ISLAND CITY, NY, 11101 | 21 min to office | score 46/100
 - 316 Bergen Street #210 | $4,101 | 316 Bergen Street #210, BROOKLYN, NY, 11217 | 37 min to office | score 46/100
 - 316 Bergen Street #610 | $4,460 | 316 Bergen Street #610, BROOKLYN, NY, 11217 | 37 min to office | score 46/100
 - 316 Bergen Street #711 | $4,625 | 316 Bergen Street #711, BROOKLYN, NY, 11217 | 37 min to office | score 46/100
-- 316 Bergen Street #7-3 | $6,462 | 316 Bergen Street #7-3, BROOKLYN, NY, 11217 | 37 min to office | score 46/100
 - 63 West 104th Street #402 | $5,500 | 63 West 104th Street #402, NEW YORK, NY, 10025 | 24 min to office | score 46/100
 - 63 West 104th Street #103 | $4,000 | 63 West 104th Street #103, NEW YORK, NY, 10025 | 24 min to office | score 46/100
 - 39-26 30th Street #11A | $4,400 | 39-26 30th Street #11A, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 46/100
@@ -218,10 +202,8 @@ No new qualifying listings this run.
 - 638 West End Avenue #3A | $4,400 | 638 West End Avenue #3A, NEW YORK, NY, 10024 | 30 min to office | score 44/100
 - 47-05 Center Boulevard #1001 | $6,795 | 47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109 | 23 min to office | score 44/100
 - 262 9th Street #1002 | $5,199 | 262 9th Street #1002, BROOKLYN, NY, 11215 | 40 min to office | score 44/100
-- 262 9th Street #706 | $5,199 | 262 9th Street #706, BROOKLYN, NY, 11215 | 40 min to office | score 44/100
 - 4540 Center Boulevard #1801 | $6,270 | 4540 Center Boulevard #1801, QUEENS, NY, 11109 | 21 min to office | score 44/100
 - 4-75 48th Avenue #403 | $5,440 | 4-75 48th Avenue #403, LONG ISLAND CITY, NY, 11109 | 23 min to office | score 44/100
-- 4610 Center Boulevard #517 | $5,960 | 4610 Center Boulevard #517, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 44/100
 - 550 Vanderbilt Avenue #702 | $5,000 | 550 Vanderbilt Avenue #702, BROOKLYN, NY, 11238 | 42 min to office | score 44/100
 - 5203 Center Boulevard #5006 | $6,460 | 5203 Center Boulevard #5006, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 43/100
 - 5203 Center Boulevard #3111 | $6,775 | 5203 Center Boulevard #3111, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 43/100
@@ -239,7 +221,6 @@ No new qualifying listings this run.
 - 526 Baltic Street #2N | $5,200 | 526 Baltic Street #2N, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
 - 526 Baltic Street #11E | $5,100 | 526 Baltic Street #11E, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
 - 526 Baltic Street #7J | $4,813 | 526 Baltic Street #7J, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
-- 526 Baltic Street #9B | $4,744 | 526 Baltic Street #9B, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
 - 526 Baltic Street #3B | $4,996 | 526 Baltic Street #3B, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
 - 526 Baltic Street #5B | $5,019 | 526 Baltic Street #5B, BROOKLYN, NY, 11217 | 41 min to office | score 43/100
 - 557 Baltic Street #507 | $5,300 | 557 Baltic Street #507, BROOKLYN, NY, 11217 | 40 min to office | score 43/100
@@ -259,7 +240,6 @@ No new qualifying listings this run.
 - 96 Steuben Street #5G | $4,995 | 96 Steuben Street #5G, BROOKLYN, NY, 11205 | 40 min to office | score 42/100
 - 100 Steuben Street #5B | $5,274 | 100 Steuben Street #5B, BROOKLYN, NY, 11205 | 40 min to office | score 42/100
 - 372 Saint John's Place #53 | $4,599 | 372 Saint John's Place #53, BROOKLYN, NY, 11238 | 44 min to office | score 42/100
-- 243 Eight Street #3R | $6,700 | 243 Eight Street #3R, BROOKLYN, NY, 11215 | 43 min to office | score 42/100
 - 101 West End Avenue #9N | $6,350 | 101 West End Avenue #9N, NEW YORK, NY, 10069 | 28 min to office | score 42/100
 - 101 West End Avenue #11Q | $6,800 | 101 West End Avenue #11Q, NEW YORK, NY, 10069 | 28 min to office | score 42/100
 - 151 Carlton Avenue #2B | $5,800 | 151 Carlton Avenue #2B, BROOKLYN, NY, 11205 | 42 min to office | score 42/100
@@ -270,7 +250,6 @@ No new qualifying listings this run.
 - 315 Lincoln Place #4Q | $4,195 | 315 Lincoln Place #4Q, BROOKLYN, NY, 11238 | 44 min to office | score 41/100
 - 286 5th Avenue #4D | $4,450 | 286 5th Avenue #4D, BROOKLYN, NY, 11215 | 41 min to office | score 41/100
 - 857 Union Street #3C | $4,500 | 857 Union Street #3C, BROOKLYN, NY, 11217 | 43 min to office | score 41/100
-- 400 West 63rd Street #314 | $6,349 | 400 West 63rd Street #314, NEW YORK, NY, 10069 | 28 min to office | score 41/100
 - 400 West 63rd Street #1804 | $6,028 | 400 West 63rd Street #1804, NEW YORK, NY, 10069 | 28 min to office | score 41/100
 - 2-21 Malt Drive #507 | $4,765 | 2-21 Malt Drive #507, LONG ISLAND CITY, NY, 11101 | 26 min to office | score 41/100
 - 2-21 Malt Drive #1703 | $5,845 | 2-21 Malt Drive #1703, LONG ISLAND CITY, NY, 11101 | 26 min to office | score 41/100
@@ -284,13 +263,10 @@ No new qualifying listings this run.
 - 225 13th Street #13 | $4,727 | 225 13th Street #13, BROOKLYN, NY, 11215 | 43 min to office | score 40/100
 - 56-27 2nd Street #308 | $4,195 | 56-27 2nd Street #308, QUEENS, NY, 11101 | 26 min to office | score 40/100
 - 25-16 37th Avenue #4D | $5,550 | 25-16 37th Avenue #4D, LONG ISLAND CITY, NY, 11101 | 23 min to office | score 40/100
-- 354 East 91st Street #1009 | $5,495 | 354 East 91st Street #1009, NEW YORK, NY, 10128 | 26 min to office | score 40/100
 - 1413 York Avenue #21 | $4,670 | 1413 York Avenue #21, NEW YORK, NY, 10021 | 25 min to office | score 40/100
 - 2-20 Malt Drive #1908 | $6,010 | 2-20 Malt Drive #1908, LONG ISLAND CITY, NY, 11101 | 27 min to office | score 40/100
 - 2-20 Malt Drive #240 | $4,970 | 2-20 Malt Drive #240, LONG ISLAND CITY, NY, 11101 | 27 min to office | score 40/100
 - 2-20 Malt Drive #608 | $6,295 | 2-20 Malt Drive #608, LONG ISLAND CITY, NY, 11101 | 27 min to office | score 40/100
-- 100 Riverside Boulevard #8J | $5,500 | 100 Riverside Boulevard #8J, NEW YORK, NY, 10069 | 31 min to office | score 39/100
-- 423 16th Street #7 | $4,200 | 423 16th Street #7, BROOKLYN, NY, 11215 | 45 min to office | score 38/100
 - 311 6th Avenue #4R | $4,350 | 311 6th Avenue #4R, BROOKLYN, NY, 11215 | 46 min to office | score 37/100
 - 407 East 81st Street #2D | $5,195 | 407 East 81st Street #2D, NEW YORK, NY, 10028 | 31 min to office | score 37/100
 - 501 East 87th Street #7D | $5,680 | 501 East 87th Street #7D, NEW YORK, NY, 10128 | 33 min to office | score 37/100
@@ -302,8 +278,23 @@ No new qualifying listings this run.
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 35/100
 - 408 East 92nd Street #26B | $5,395 | 408 East 92nd Street #26B, NEW YORK, NY, 10128 | 36 min to office | score 34/100
 
-## Excluded (368)
+## Excluded (383)
 
+- 805 Columbus Avenue #7B | 805 Columbus Avenue #7B, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout
+- 262 9th Street #706 | 262 9th Street #706, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
+- 55 Willoughby Street #20B | 55 Willoughby Street #20B, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 354 East 91st Street #1009 | 354 East 91st Street #1009, NEW YORK, NY, 10128 — Kitchen photo shows a closed layout
+- 170 Amsterdam Avenue #2I | 170 Amsterdam Avenue #2I, NEW YORK, NY, 10023 — Kitchen layout could not be confirmed from photos
+- 151 South Elliott Place #7K | 151 South Elliott Place #7K, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
+- 423 16th Street #7 | 423 16th Street #7, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
+- 45-19 Davis Street #7E | 45-19 Davis Street #7E, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
+- 23-15 44th Road #12J | 23-15 44th Road #12J, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
+- 525 Pacific Street #807 | 525 Pacific Street #807, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
+- 1004 Fulton Street #4F | 1004 Fulton Street #4F, BROOKLYN, NY, 11238 — Kitchen photo shows a galley layout
+- 149 East 61st Street #1B | 149 East 61st Street #1B, NEW YORK, NY, 10065 — Kitchen photo shows a closed layout
+- 3 West 103rd Street #3F | 3 West 103rd Street #3F, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
+- 100 Riverside Boulevard #8J | 100 Riverside Boulevard #8J, NEW YORK, NY, 10069 — Kitchen photo shows a closed layout
+- 212 West 91st Street #1127 | 212 West 91st Street #1127, NEW YORK, NY, 10024 — Kitchen layout could not be confirmed from photos
 - 395 Carroll Street #707 | 395 Carroll Street #707, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 500 Degraw Street #808 | 500 Degraw Street #808, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 251 Douglass Street #625 | 251 Douglass Street #625, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus

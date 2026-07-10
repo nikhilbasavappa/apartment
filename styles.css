@@ -93,6 +93,13 @@ h3 {
   line-height: 1.6;
 }
 
+.hero-footnote {
+  margin: 16px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
 .profile-grid {
   display: grid;
   gap: 1px;
@@ -297,6 +304,15 @@ h3 {
 .ghost-button:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+.act-now-panel {
+  border-color: var(--rose);
+  background: var(--rose-soft);
+}
+
+.act-now-panel .section-heading h2 {
+  color: var(--rose);
 }
 
 .excluded-panel {

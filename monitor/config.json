@@ -3,7 +3,8 @@
     "startDate": "2026-10-13",
     "budgetMin": 4000,
     "budgetMax": 7000,
-    "bedroomsMin": 1
+    "bedroomsMin": 1,
+    "earlyActionDate": "2026-09-01"
   },
   "destinations": {
     "office": "Lexington Ave & E 53rd St, New York, NY",

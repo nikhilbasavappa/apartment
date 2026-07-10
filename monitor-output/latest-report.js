@@ -1,5 +1,928 @@
 window.__APARTMENT_REPORT__ = {
+  "earlyActionListings": [
+    {
+      "commute": {
+        "office": {
+          "minutes": 10,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "F Line",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": [
+            "B62"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 38,
+          "lines": [
+            "E Line",
+            "B Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 31,
+          "lines": [
+            "E Line",
+            "D Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "11-12 44th Drive #4D, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-qns44-condominium-4d.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/39af0da8956dc52008de92e8dfaddc8c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/07d024ac7dd9e15a04f52ca19b6a15bd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/25a4ccf48cba7371f607940007ad79d2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/0539a5cd11c240fa5c609f830efa74ec-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ad5a77fa88076c8b4f7bde01623cec6a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/36ad2d8c663e10036e525edbca48ea68-se_large_800_400.webp"
+        ],
+        "price": 4100,
+        "sqft": null,
+        "title": "11-12 44th Drive #4D",
+        "url": "https://streeteasy.com/building/qns44-condominium/4d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.122499999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.35,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 54.122499999999995,
+      "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas range with visible burners and grates; no private outdoor space shown; living room is spacious and well-proportioned for NYC."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 41,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 21,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 35,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 55,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "526 Baltic Street #9B, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-9b.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/522dd2a1928d9463611dbbdcf9cf9f49-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5c4b02917d0798495ab69bf46b8c4724-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7089a3a5aeafcc8cde2209919eaa63f9-se_large_800_400.webp"
+        ],
+        "price": 4744,
+        "sqft": null,
+        "title": "526 Baltic Street #9B",
+        "url": "https://streeteasy.com/building/the-baltic-canal/9b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
+      "visionNotes": "Kitchen is clearly visible with gas range (visible burner grates), semi-open to living area via island; living room appears spacious with floor-to-ceiling windows; no private outdoor space shown, only high-rise window views."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 43,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 24,
+          "lines": [
+            "R Line",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 34,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 54,
+          "lines": [
+            "R Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 49,
+          "lines": [
+            "R Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-243-8-street-brooklyn-3r.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/45690848db012f6556a9149d54d8f332-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7cfd05d9f888a2bd6f7b845062f03dcd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1bb468c373bf22408121f5bfef5a5006-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
+        ],
+        "price": 6700,
+        "sqft": null,
+        "title": "243 Eight Street #3R",
+        "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.6375,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.35,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.6375,
+      "visionNotes": "Kitchen is semi-open to dining/living area with a peninsula counter; electric built-in oven with flat cooktop visible; living room is spacious with high ceilings and large window; no private outdoor space shown, only views to exterior greenery."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 50,
+          "lines": [
+            "N Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 11,
+          "lines": [
+            "B62"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 40,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 33,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "24-15 Queens Plaza North #6A, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-view-59-6a.png",
+        "neighborhood": "Long Island City",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/eb13cfc731d15bd0729802b54408f32a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/eb13cfc731d15bd0729802b54408f32a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3339aae480421982aaf85f775e8e7ead-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c5d292fc3a0078495a35b1f79f16be71-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/fe58ed73ba98e4685c9eceb45615a9ba-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
+        ],
+        "price": 6250,
+        "sqft": null,
+        "title": "24-15 Queens Plaza North #6A",
+        "url": "https://streeteasy.com/building/view-59/6a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.894999999999996,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.894999999999996,
+      "visionNotes": "Kitchen is open-plan to living/dining area with visible gas cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 37,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 17,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 42,
+          "lines": [
+            "R Line",
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 45,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "316 Bergen Street #7-3, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-05",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-bergen-703.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/d2fa8c373a7f321557a4f8850e91fc40-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d02c55334862c1488313a60d2cbf8735-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/40c4db2a791db50911cf4540b70dd86a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/03667205995f4b130e0b1e829e39735a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d8b5f63bc94264b65503b9fa2efb46ea-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/56c8d8176d8824c8e205cef3fe5b47d7-se_extra_large_1500_800.webp"
+        ],
+        "price": 6462,
+        "sqft": null,
+        "title": "316 Bergen Street #7-3",
+        "url": "https://streeteasy.com/building/the-bergen/703",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.099999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.099999999999994,
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly seen in photo 2; private terrace with skyline views shown in photo 5; living room appears spacious with good proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 26,
+          "lines": [
+            "1 Line",
+            "D Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 28,
+          "lines": [
+            "2 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 12,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 11,
+          "lines": [
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "266 West 96th Street #1706, NEW YORK, NY, 10025",
+        "availableDate": "2026-09-07",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-266-west-96th-1706.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/baa68ed72581e44eaf84c0329d6d2409-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6c724084255238b6e7620b7fe076868c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bc1c50002cb72b9e30703a28e7355e88-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a4b5401b0be383f11e44b68221e967ed-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/529e9877fa806f7a44c0e408b5c4d60d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
+        ],
+        "price": 6550,
+        "sqft": null,
+        "title": "266 West 96th Street #1706",
+        "url": "https://streeteasy.com/building/266-west-96th/1706",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 72.035,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 58.349999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 72.035,
+      "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas cooktop with visible burners; no private outdoor space shown; living room is spacious with ample furniture and ceiling height."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 37,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 29,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "400 West 63rd Street #314, NEW YORK, NY, 10069",
+        "availableDate": "2026-09-10",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-314.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/807c2d5017c7cbb85a54eb271cae058d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/51bf63770af26287fba4c36d3d9a7820-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/308c2d936570d716c869629e10b3a414-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b170bb421ad6702a4f0a972efa2797a8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9f2bad3844abba0df4d018364f1118a2-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
+        ],
+        "price": 6349,
+        "sqft": null,
+        "title": "400 West 63rd Street #314",
+        "url": "https://streeteasy.com/building/the-ashley/314",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.99,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.50000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.99,
+      "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 22,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 51,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 12,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 45,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 38,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "4610 Center Boulevard #517, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "2026-09-10",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-4610-center-blvd-517.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/26ed99047496f9f62bb63bd459a31f56-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/26ed99047496f9f62bb63bd459a31f56-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6bc0e3bcf69e95662b74d3ad3509b0d9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/803604e91f01479987f45329cdd38313-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b412e95b897aad20a638f1fb9e2753b5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e717516d659dd2d151b4c0582ac2b8b3-se_large_800_400.webp"
+        ],
+        "price": 5960,
+        "sqft": null,
+        "title": "4610 Center Boulevard #517",
+        "url": "https://streeteasy.com/building/4610-center-blvd/517",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.794999999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 37.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.794999999999995,
+      "visionNotes": "Kitchen is visible and open to living area; stove details not clearly visible; private outdoor space shown in photo 3 appears to be a shared waterfront amenity area rather than exclusive unit space; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 14,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 40,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 22,
+          "lines": [
+            "D Line",
+            "E Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 14,
+          "lines": [
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "25 Central Park West #19U, NEW YORK, NY, 10023",
+        "availableDate": "2026-09-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-century-condominium-19u.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d1c224cf298f5d66e4b26a8b977ec14e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2a93dad2e7040ddf97376ec5dcf07cfb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7d5f07f880bddc045f4800f78856fe53-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
+        ],
+        "price": 6900,
+        "sqft": 800,
+        "title": "25 Central Park West #19U",
+        "url": "https://streeteasy.com/building/the-century-condominium/19u",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.93,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 59.199999999999996,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 54.93,
+      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
+    }
+  ],
   "excludedListings": [
+    {
+      "listing": {
+        "address": "805 Columbus Avenue #7B, NEW YORK, NY, 10025",
+        "price": 5710,
+        "title": "805 Columbus Avenue #7B",
+        "url": "https://streeteasy.com/building/805-columbus-avenue-new_york/07b?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=cbb6zvUhRoNWBhNgcjkrxBx2TupqV7euEGUlBsxhHWILV4RcUsrFIAZr0d4wIl3elfnoiG434JQCAcBe"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "262 9th Street #706, BROOKLYN, NY, 11215",
+        "price": 5199,
+        "title": "262 9th Street #706",
+        "url": "https://streeteasy.com/building/the-deermar/706"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "55 Willoughby Street #20B, BROOKLYN, NY, 11201",
+        "price": 5280,
+        "title": "55 Willoughby Street #20B",
+        "url": "https://streeteasy.com/building/house-55/20b"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "354 East 91st Street #1009, NEW YORK, NY, 10128",
+        "price": 5495,
+        "title": "354 East 91st Street #1009",
+        "url": "https://streeteasy.com/building/the-cole-by-stonehenge/1009"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "170 Amsterdam Avenue #2I, NEW YORK, NY, 10023",
+        "price": 6535,
+        "title": "170 Amsterdam Avenue #2I",
+        "url": "https://streeteasy.com/building/170-amsterdam/02i"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "151 South Elliott Place #7K, BROOKLYN, NY, 11217",
+        "price": 5775,
+        "title": "151 South Elliott Place #7K",
+        "url": "https://streeteasy.com/building/the-elliot/7k"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "423 16th Street #7, BROOKLYN, NY, 11215",
+        "price": 4200,
+        "title": "423 16th Street #7",
+        "url": "https://streeteasy.com/building/423-16-street-brooklyn/7"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "45-19 Davis Street #7E, LONG ISLAND CITY, NY, 11101",
+        "price": 4850,
+        "title": "45-19 Davis Street #7E",
+        "url": "https://streeteasy.com/building/terra-45_19-davis-street-long_island_city/7e"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "23-15 44th Road #12J, LONG ISLAND CITY, NY, 11101",
+        "price": 5455,
+        "title": "23-15 44th Road #12J",
+        "url": "https://streeteasy.com/building/lumen-lic/12j"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "525 Pacific Street #807, BROOKLYN, NY, 11217",
+        "price": 5850,
+        "title": "525 Pacific Street #807",
+        "url": "https://streeteasy.com/building/540-atlantic/807"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1004 Fulton Street #4F, BROOKLYN, NY, 11238",
+        "price": 4195,
+        "title": "1004 Fulton Street #4F",
+        "url": "https://streeteasy.com/building/1004-fulton-street-brooklyn/4f"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "149 East 61st Street #1B, NEW YORK, NY, 10065",
+        "price": 5850,
+        "title": "149 East 61st Street #1B",
+        "url": "https://streeteasy.com/building/149-east-61-street-new_york/1b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "3 West 103rd Street #3F, NEW YORK, NY, 10025",
+        "price": 4135,
+        "title": "3 West 103rd Street #3F",
+        "url": "https://streeteasy.com/building/3-west-103-street-new_york/3f"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "100 Riverside Boulevard #8J, NEW YORK, NY, 10069",
+        "price": 5500,
+        "title": "100 Riverside Boulevard #8J",
+        "url": "https://streeteasy.com/building/the-avery-100-riverside-boulevard-new_york/8j"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "212 West 91st Street #1127, NEW YORK, NY, 10024",
+        "price": 5890,
+        "title": "212 West 91st Street #1127",
+        "url": "https://streeteasy.com/building/the-greystone/1127"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
     {
       "listing": {
         "address": "395 Carroll Street #707, BROOKLYN, NY, 11231",
@@ -4196,9 +5119,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
+        "availableDate": "2026-07-20",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4218,6 +5143,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 73.01249999999999,
@@ -4237,7 +5164,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 73.01249999999999,
-      "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; gas range visible with exposed burners and grates in photos 3-4."
+      "visionNotes": "Kitchen is visible and opens to living area via counter; gas burners visible on stove; no private outdoor space shown; living room appears spacious with good furniture layout."
     },
     {
       "commute": {
@@ -4275,9 +5202,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "103 West 77th Street #3B, NEW YORK, NY, 10024",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4297,6 +5226,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/103-west-77-street-new_york/3b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 72.88499999999999,
@@ -4316,7 +5247,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 72.88499999999999,
-      "visionNotes": "Kitchen is visible in photos 1 and 2, open to living/dining area with visible gas range featuring multiple burner grates."
+      "visionNotes": "Open-plan kitchen visible with gas range (visible burner grates), no private outdoor space shown, living room is spacious with adequate furniture spacing."
     },
     {
       "commute": {
@@ -4355,89 +5286,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "266 West 96th Street #1706, NEW YORK, NY, 10025",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-266-west-96th-1706.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/baa68ed72581e44eaf84c0329d6d2409-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6c724084255238b6e7620b7fe076868c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bc1c50002cb72b9e30703a28e7355e88-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a4b5401b0be383f11e44b68221e967ed-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/529e9877fa806f7a44c0e408b5c4d60d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
-        ],
-        "price": 6550,
-        "sqft": null,
-        "title": "266 West 96th Street #1706",
-        "url": "https://streeteasy.com/building/266-west-96th/1706",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "uws",
-      "rankBreakdown": {
-        "total": 72.035,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "uws"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.35,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 58.349999999999994,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 72.035,
-      "visionNotes": "Kitchen is clearly visible in photos 2 and 4 with open-plan layout integrated into living/dining areas, featuring a gas cooktop with visible burners and grates."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 28,
-          "lines": [
-            "2 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 12,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "266 West 96th Street #1601, NEW YORK, NY, 10025",
+        "availableDate": "2026-08-07",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4457,6 +5310,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/266-west-96th/1601",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 72.035,
@@ -4476,7 +5331,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 72.035,
-      "visionNotes": "Open-plan kitchen with gas cooktop visible with black grates, integrated into living/dining area with island counter."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas cooktop with visible burners is prominent in multiple photos; no private outdoor space shown; living room appears spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -4515,9 +5370,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "700 West End Avenue #1A, NEW YORK, NY, 10025",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4537,6 +5394,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/700-west-end-avenue-new_york/1a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 71.9075,
@@ -4556,7 +5415,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 71.9075,
-      "visionNotes": "Kitchen is open to living/dining area in first photo; gas range with visible burners and grates is clearly visible in the kitchen."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is evident; no private outdoor space shown; living room appears spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -4596,9 +5455,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "310 West 80th Street #3C, NEW YORK, NY, 10024",
+        "availableDate": "2026-08-03",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4618,6 +5479,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/310-west-80th-street/3c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 70.845,
@@ -4637,7 +5500,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 70.845,
-      "visionNotes": "Kitchen is semi-open to living area with an island counter; electric cooktop/oven visible with a flat dark surface indicating electric rather than gas burners."
+      "visionNotes": "Kitchen is fully open to living/dining area with electric/induction cooktop; living room is spacious; no private outdoor space visible, only street-level building exterior shown."
     },
     {
       "commute": {
@@ -4676,9 +5539,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "250 West 91st Street #4B, NEW YORK, NY, 10024",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4698,6 +5563,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/250-west-91-street-new_york/4b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 70.4625,
@@ -4717,85 +5584,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 70.4625,
-      "visionNotes": "Open-plan kitchen with stainless steel electric range/cooktop visible alongside living/dining areas."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 31,
-          "lines": [
-            "2 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 14,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 8,
-          "lines": []
-        }
-      },
-      "gasStove": "unknown",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "212 West 91st Street #1127, NEW YORK, NY, 10024",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-greystone-1127.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/2fe84b22f096c05d878a28213030fa28-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2fe84b22f096c05d878a28213030fa28-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ec85bbf67fb6fd7180b59b82d4506341-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd34ce8887c953d550405a863e3aa4ab-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d3485964b2d4f1589a2c5ddef7049a1e-se_large_800_400.webp"
-        ],
-        "price": 5890,
-        "sqft": null,
-        "title": "212 West 91st Street #1127",
-        "url": "https://streeteasy.com/building/the-greystone/1127",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "uws",
-      "rankBreakdown": {
-        "total": 70.20750000000001,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "uws"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 56.22500000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 70.20750000000001,
-      "visionNotes": "Kitchen is visible in the bottom photo with white upper cabinets and light wood lower cabinets, open to a dining area, but the stovetop type cannot be determined from the angle and distance shown."
+      "visionNotes": "Kitchen is clearly visible and semi-open to living/dining area; stove is electric (flat stainless steel cooktop visible); no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -4832,9 +5621,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "158 West 84th Street #3C, NEW YORK, NY, 10024",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4854,6 +5645,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/158-west-84-street-new_york/3c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 70.0375,
@@ -4873,7 +5666,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 70.0375,
-      "visionNotes": "Kitchen is semi-open to living area with island counter; visible gas cooktop with burners on the stovetop."
+      "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; stove appears to have burner grates but angle/reflection makes it not entirely certain; no private outdoor space visible; living room appears reasonably proportioned for NYC."
     },
     {
       "commute": {
@@ -4911,9 +5704,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "795 Columbus Avenue #4G, NEW YORK, NY, 10025",
+        "availableDate": "2026-08-26",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -4933,6 +5728,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/04g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 69.6975,
@@ -4952,7 +5749,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 69.6975,
-      "visionNotes": "Open-plan kitchen with island counter visible in first photo; stove has a flat black glass/ceramic cooktop surface characteristic of electric/induction cooking."
+      "visionNotes": "Kitchen is open to living area with island counter; stove has a black flat cooktop (electric/induction); terrace visible is shared building space; living room is spacious with high ceilings and abundant natural light."
     },
     {
       "commute": {
@@ -4990,9 +5787,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "795 Columbus Avenue #5K, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5012,6 +5811,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 69.6975,
@@ -5031,7 +5832,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 69.6975,
-      "visionNotes": "Open-concept kitchen with island counter overlooking living area; gas range with visible burner grates clearly visible on the stove."
+      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with clear burner grates; no private outdoor space (photos show high-rise building amenities only); living room appears spacious based on available sight lines."
     },
     {
       "commute": {
@@ -5068,10 +5869,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "788 Columbus Avenue #1R, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5091,6 +5894,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/788-columbus-avenue-new_york/1r",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 68.8475,
@@ -5110,86 +5915,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 68.8475,
-      "visionNotes": "Open-plan kitchen with island counter visible in first photo; cooktop appears to be electric/induction based on flat surface visible, though stove details are not fully clear from distance."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "B Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 14,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "805 Columbus Avenue #7B, NEW YORK, NY, 10025",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-805-columbus-avenue-new-york-07b.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/05a70cfaa9b9d8ac29f23bdbd5d6552d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7866077bf5327c42188cebed59acc8d0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b563fd439d0d187cdc9aaf3f1718f1e2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/92a3e73d97523c02ba2025743c3ef95c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
-        ],
-        "price": 5710,
-        "sqft": null,
-        "title": "805 Columbus Avenue #7B",
-        "url": "https://streeteasy.com/building/805-columbus-avenue-new_york/07b?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=cbb6zvUhRoNWBhNgcjkrxBx2TupqV7euEGUlBsxhHWILV4RcUsrFIAZr0d4wIl3elfnoiG434JQCAcBe",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "uws",
-      "rankBreakdown": {
-        "total": 68.72,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "uws"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.35,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 47.3,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 68.72,
-      "visionNotes": "Kitchen is visible in the first photo with a gas range (visible burner grates), opening to a living area with large windows, making it semi-open."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island; a gas cooktop is visible on the stovetop; no private outdoor space shown; living room appears reasonably sized for NYC."
     },
     {
       "commute": {
@@ -5227,9 +5953,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "801 Amsterdam Avenue #3G, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5249,6 +5977,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/03g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 67.23249999999999,
@@ -5268,7 +5998,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 67.23249999999999,
-      "visionNotes": "Modern open-plan kitchen with island, stainless steel gas range visible with distinct burners and grates, semi-enclosed by the island counter but open to living area."
+      "visionNotes": "Kitchen is visible and open to living space with island; gas range with visible burners; private terrace with landscaping visible in photo 2; living room appears spacious with good proportions in photos 3-4."
     },
     {
       "commute": {
@@ -5308,9 +6038,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "915 West End Avenue #208, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5330,6 +6062,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/915-west-end-avenue-new_york/208",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 67.105,
@@ -5349,7 +6083,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 67.105,
-      "visionNotes": "Kitchen is open to living/dining area with white cabinetry and a built-in electric oven with flat black cooktop visible."
+      "visionNotes": "Kitchen is open to living/dining area with white cabinetry and an electric built-in oven; living room is spacious with good furniture spacing; no outdoor space visible; unit includes in-unit laundry."
     },
     {
       "commute": {
@@ -5387,9 +6121,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "814 Amsterdam Avenue #9N, NEW YORK, NY, 10025",
+        "availableDate": "2026-07-20",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5409,6 +6145,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/814-amsterdam-avenue-new_york/9n",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 67.10499999999999,
@@ -5428,7 +6166,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 67.10499999999999,
-      "visionNotes": "Kitchen is open to the living/dining area with an electric range featuring a flat cooktop and digital controls visible on the stove."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove has a flat electric/induction cooktop; the roof deck shown is a shared building amenity, not private outdoor space for the unit."
     },
     {
       "commute": {
@@ -5468,9 +6206,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "945 West End Avenue #2C2, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5490,6 +6230,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/301-west-106-street-new_york/2c2",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "uws",
       "rankBreakdown": {
         "total": 66.3825,
@@ -5509,7 +6251,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 66.3825,
-      "visionNotes": "Open-plan kitchen with gas range visible in first photo showing clear burner grates, integrated into living space."
+      "visionNotes": "Kitchen is clearly visible and semi-open to living area; gas stove with visible grates; no outdoor space shown; living room appears moderate-sized with decent proportions for NYC."
     },
     {
       "commute": {
@@ -5541,9 +6283,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5562,6 +6306,9 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3801e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "unknown",
       "rankBreakdown": {
         "total": 55.5775,
         "neighborhood": {
@@ -5580,88 +6327,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.5775,
-      "visionNotes": "Kitchen is visible in photos 2 and 6, open to living/dining area with visible gas cooktop with burners."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 8,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 43,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 18,
-          "lines": [
-            "N Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 25,
-          "lines": [
-            "5 Line",
-            "M86+"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "149 East 61st Street #1B, NEW YORK, NY, 10065",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-149-east-61-street-new-york-1b.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/91e6600beb2b7e91d0b5fb452a55b487-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/23d584e7f85c74d6ce8ffe893939532d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d936db5199ce033f526d446513cf3de2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3fd1ef63f89c6f72f186e83a87c74004-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f6ac4608d24bdef97a1504cef567bb08-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c72c96f822ea8680cdae34045d9bd2d8-se_large_800_400.webp"
-        ],
-        "price": 5850,
-        "sqft": null,
-        "title": "149 East 61st Street #1B",
-        "url": "https://streeteasy.com/building/149-east-61-street-new_york/1b",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.31249999999999,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 86.4,
-          "weight": 0.35,
-          "minutes": 8
-        },
-        "friends": {
-          "score": 48.575,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 55.31249999999999,
-      "visionNotes": "Kitchen is open to living area with black electric coil/smooth cooktop range visible in multiple photos."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; living room is spacious with good furniture layout; no private outdoor space visible in any photo."
     },
     {
       "commute": {
@@ -5701,9 +6367,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "1026 3rd Avenue #26A, NEW YORK, NY, 10065",
+        "availableDate": "2026-07-16",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5723,6 +6391,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-remi/26a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 55.31249999999999,
@@ -5742,7 +6412,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.31249999999999,
-      "visionNotes": "Kitchen is semi-open to the dining/living area with electric cooktop visible and flat black stovetop with no visible burners or grates indicating electric or induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to dining/living area; black electric oven visible with flat cooktop; large living spaces with floor-to-ceiling windows; no private outdoor space visible, only high-rise city views."
     },
     {
       "commute": {
@@ -5781,9 +6451,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "3 Court Square #613, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-12",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5803,6 +6475,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/skyline-tower/613",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 55.099999999999994,
@@ -5822,7 +6496,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.099999999999994,
-      "visionNotes": "Kitchen visible in fifth photo with stainless steel electric range, open to living area with light wood and white cabinetry."
+      "visionNotes": "Kitchen is visible and open to living area with electric range; photos show building amenities (pool, gym, spa) rather than private outdoor space; living room appears spacious in the one kitchen/living photo shown."
     },
     {
       "commute": {
@@ -5861,9 +6535,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "3 Court Square #5604, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5883,6 +6559,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/skyline-tower/5604",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 55.099999999999994,
@@ -5902,7 +6580,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.099999999999994,
-      "visionNotes": "Kitchen visible in photo 3 with island layout, open to dining/living area, and gas range with visible burners is clearly shown."
+      "visionNotes": "Kitchen is visible and open to living area with island; gas range visible; living room is spacious with floor-to-ceiling windows; private outdoor space shown is a building amenity pool, not private to unit."
     },
     {
       "commute": {
@@ -5941,9 +6619,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "3 Court Square #3509, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-20",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -5963,6 +6643,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/skyline-tower/3509",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 55.099999999999994,
@@ -5982,86 +6664,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.099999999999994,
-      "visionNotes": "Kitchen is semi-open to living/dining area with visible gas range featuring burner grates and a modern stainless steel stove."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 14,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 40,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 22,
-          "lines": [
-            "D Line",
-            "E Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 14,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "25 Central Park West #19U, NEW YORK, NY, 10023",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-century-condominium-19u.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d1c224cf298f5d66e4b26a8b977ec14e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2a93dad2e7040ddf97376ec5dcf07cfb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7d5f07f880bddc045f4800f78856fe53-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
-        ],
-        "price": 6900,
-        "sqft": 800,
-        "title": "25 Central Park West #19U",
-        "url": "https://streeteasy.com/building/the-century-condominium/19u",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.93,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 76.2,
-          "weight": 0.35,
-          "minutes": 14
-        },
-        "friends": {
-          "score": 59.199999999999996,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 54.93,
-      "visionNotes": "First photo shows a modern semi-open kitchen with an island, dark cabinetry, and a visible gas range with burner grates."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove has visible burner grates indicating gas; no private outdoor space shown; living room appears reasonably proportioned for NYC one-bedroom."
     },
     {
       "commute": {
@@ -6098,9 +6701,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6120,6 +6725,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 54.76,
@@ -6139,89 +6746,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.76,
-      "visionNotes": "Modern open-plan kitchen with a prominent gas range featuring visible burners and grates, integrated into a white cabinetry setup with stainless steel appliances."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 10,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "F Line",
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 5,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 38,
-          "lines": [
-            "E Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 31,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "11-12 44th Drive #4D, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-qns44-condominium-4d.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/39af0da8956dc52008de92e8dfaddc8c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/07d024ac7dd9e15a04f52ca19b6a15bd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/25a4ccf48cba7371f607940007ad79d2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0539a5cd11c240fa5c609f830efa74ec-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ad5a77fa88076c8b4f7bde01623cec6a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/36ad2d8c663e10036e525edbca48ea68-se_large_800_400.webp"
-        ],
-        "price": 4100,
-        "sqft": null,
-        "title": "11-12 44th Drive #4D",
-        "url": "https://streeteasy.com/building/qns44-condominium/4d",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.122499999999995,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 83,
-          "weight": 0.35,
-          "minutes": 10
-        },
-        "friends": {
-          "score": 48.575,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 54.122499999999995,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating a gas range."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement."
     },
     {
       "commute": {
@@ -6258,9 +6783,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #2102, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6280,6 +6807,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/2102",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6299,7 +6828,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen is fully visible in the first photo, completely open to the living/dining area with an island, and features a gas range with visible burners."
+      "visionNotes": "Open-plan kitchen with island visible in first two photos; gas range with visible burners/grates clearly shown; spacious living room with floor-to-ceiling windows and ample furniture; no private outdoor space visible, only high-rise views."
     },
     {
       "commute": {
@@ -6336,9 +6865,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-14",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6358,6 +6889,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/3811",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6377,7 +6910,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Open-plan kitchen visible in first photo with gas range (visible burner grates) adjacent to living area, light wood cabinets, and stainless steel appliances."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (black grates visible on stovetop), no private outdoor space shown, and living room appears spacious with floor-to-ceiling windows and ample seating."
     },
     {
       "commute": {
@@ -6414,9 +6947,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "22-44 Jackson Avenue #3909, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-12",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6436,6 +6971,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/3909",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6455,7 +6992,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen is visible in photos 3-4, semi-open to living area, with a black gas range featuring visible burner grates."
+      "visionNotes": "Kitchen is semi-open to living area with visible gas range; unit has access to shared courtyard, not private outdoor space; living room is spacious with skyline views."
     },
     {
       "commute": {
@@ -6492,9 +7029,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #3603, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6514,6 +7053,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/3603",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6533,7 +7074,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen is clearly visible and open to the living area; the range has visible burner grates indicating a gas stove."
+      "visionNotes": "Open-plan kitchen with gas range visible; spacious living room with NYC skyline views; no private outdoor space shown; bathroom and bedroom also visible."
     },
     {
       "commute": {
@@ -6569,10 +7110,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #1901, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-20",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6592,6 +7135,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/1901",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6611,7 +7156,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Open-plan kitchen with island visible in photo 2, featuring an electric stove with a flat stainless steel front and no visible gas burner grates."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with gas range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from high-rise unit."
     },
     {
       "commute": {
@@ -6648,9 +7193,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #4307, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-31",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6670,6 +7217,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/4307",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6689,7 +7238,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen visible in photo 4 with light wood cabinetry, open to dining area; gas range with visible black grates clearly visible on right side of stove."
+      "visionNotes": "Kitchen is visible and open to dining area with gas range clearly visible; living room is spacious with high ceilings and large windows; no private outdoor space shown."
     },
     {
       "commute": {
@@ -6726,9 +7275,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #3412, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6748,6 +7299,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/3412",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6767,7 +7320,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen is open-plan to living area with visible gas range featuring black stovetop and grates in the fourth photo."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates; no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and well-proportioned furniture layout."
     },
     {
       "commute": {
@@ -6803,10 +7356,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6826,6 +7381,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/4117",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.91,
@@ -6845,85 +7402,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.91,
-      "visionNotes": "Kitchen features an island open to living area with visible gas cooktop/range with burners and grates."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 43,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 5,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "45-19 Davis Street #7E, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-terra-45-19-davis-street-long-island-city-7e.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/47ceea55d26a54ec1d4f78444ea072be-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/47ceea55d26a54ec1d4f78444ea072be-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/227124f119bc342c133031d252e88372-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/953e9d027e34e15b19c09662f3a9eee3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0ed91ddd34272759190ea7e81ed01f71-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b8509f15c6d751ffb2b6a0e7749c7535-se_large_800_400.webp"
-        ],
-        "price": 4850,
-        "sqft": null,
-        "title": "45-19 Davis Street #7E",
-        "url": "https://streeteasy.com/building/terra-45_19-davis-street-long_island_city/7e",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 53.527499999999996,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.35,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 48.575,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 53.527499999999996,
-      "visionNotes": "Kitchen is visible in photo 4 with a dining area integrated into the space; the cooktop appears to be electric/induction with a flat surface, no visible gas burners or grates."
+      "visionNotes": "Kitchen is visible and open to living area with island seating; stove appears to be electric/induction based on flat cooktop visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -6960,9 +7439,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "22-44 Jackson Avenue #818, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-04",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -6982,6 +7463,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5pointz-lic/818",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.1875,
@@ -7001,7 +7484,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.1875,
-      "visionNotes": "Kitchen is visible in photo 4, open to living/dining area with island counter, and features a gas range with visible burners and grates."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas stove clearly visible with burner grates; outdoor space shown is shared building amenity deck, not private; living room is spacious with large windows and minimal furniture clutter."
     },
     {
       "commute": {
@@ -7038,9 +7521,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "22-18 Jackson Avenue #511, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7060,6 +7545,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/galerie-condominium/511",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.1875,
@@ -7079,7 +7566,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.1875,
-      "visionNotes": "Open-plan kitchen with island and visible gas cooktop with visible burner grates in the first photo."
+      "visionNotes": "Kitchen is semi-open to living area with island, gas range visible; large living room with floor-to-ceiling windows and balcony/terrace visible in background photos."
     },
     {
       "commute": {
@@ -7116,9 +7603,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "22-18 Jackson Avenue #812, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7138,6 +7627,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/galerie-condominium/812",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.1875,
@@ -7157,7 +7648,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.1875,
-      "visionNotes": "Kitchen is semi-open to living/dining area with a breakfast bar island; gas cooktop visible with black burner grates."
+      "visionNotes": "Kitchen is visible with island bar seating opening to living area; gas cooktop visible in photo 2; private terrace with railing visible through glass doors in photo 1; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -7198,9 +7689,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "43-12 Hunter Street #701, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7220,6 +7713,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-cove/701",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.0175,
@@ -7239,7 +7734,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.0175,
-      "visionNotes": "Kitchen is clearly visible in photo 1 and most detailed in photo 3; open-plan layout adjacent to living area; gas range with visible burners and grates on stovetop."
+      "visionNotes": "Kitchen is clearly visible and open to living area in photo 1; photo 3 shows gas range with visible burners/grates; outdoor spaces in photos 5-6 are shared building amenities (roof deck/terrace), not private; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -7279,10 +7774,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
+      "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "43-10 Crescent Street #502, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7302,6 +7799,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/linc-lic/502",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 53.0175,
@@ -7321,7 +7820,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.0175,
-      "visionNotes": "Kitchen is visible in photos 1, 4, and 5, semi-open to living area with a pass-through counter; the range has visible burner grates indicating gas cooking."
+      "visionNotes": "Kitchen is visible with a semi-open layout to living area; electric stove with flat cooktop clearly visible; large windows overlook NYC but no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -7360,9 +7859,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "23-15 44th Road #42H, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-19",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7382,6 +7883,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/lumen-lic/42h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 52.89,
@@ -7401,87 +7904,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.89,
-      "visionNotes": "Kitchen is visible in photos 4 and 5, open to living/dining area with island, featuring a visible gas range with multiple burners."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 10,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 38,
-          "lines": [
-            "E Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "23-15 44th Road #12J, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-lumen-lic-12j.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/381f844863a00ec486413369142f170e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/381f844863a00ec486413369142f170e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c4e5e3ef38059965368fa2473f3519d1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a45e096b818d89d38afad173a21b4273-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a6db5e694a28fd3e41e5ed1cf62d2f93-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/75eb036ac53ee7b852f110cd46826651-se_large_800_400.webp"
-        ],
-        "price": 5455,
-        "sqft": null,
-        "title": "23-15 44th Road #12J",
-        "url": "https://streeteasy.com/building/lumen-lic/12j",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 52.89,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.35,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 46.45,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 52.89,
-      "visionNotes": "Kitchen is visible in photos 4 and 5, open to living/dining area with island, and a gas range with visible grates is clearly shown."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (black stovetop with visible grates); living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views from windows."
     },
     {
       "commute": {
@@ -7520,9 +7943,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "80 Dekalb Avenue #24D, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7542,6 +7967,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/80-dekalb/24d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 52.5175,
@@ -7561,7 +7988,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.5175,
-      "visionNotes": "Kitchen features a gas range with visible burners and grates, open to living areas with an island counter, and a galley-style layout with white cabinetry."
+      "visionNotes": "Kitchen is visible with a gas range (visible grates), open to living area with island counter; living room is spacious with large windows; no private outdoor space visible."
     },
     {
       "commute": {
@@ -7600,9 +8027,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "80 Dekalb Avenue #12C, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7622,6 +8051,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/80-dekalb/12c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 52.5175,
@@ -7641,7 +8072,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.5175,
-      "visionNotes": "Kitchen is visible in first two photos, open to living/dining area with island counter, and stove appears to be electric/induction based on the flat dark cooktop visible."
+      "visionNotes": "Kitchen is open to living area with island; electric stove visible in both photos; no private outdoor space shown; living room is spacious with good natural light and furniture layout."
     },
     {
       "commute": {
@@ -7680,9 +8111,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "80 Dekalb Avenue #22D, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7702,6 +8135,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/80-dekalb/22d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 52.5175,
@@ -7721,7 +8156,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.5175,
-      "visionNotes": "Kitchen is visible in photos 2-4, featuring an open layout with island counter, and a black gas range with visible burners and grates is clearly visible on the stovetop."
+      "visionNotes": "Kitchen is visible and semi-open to living area; gas range with visible burners/grates clearly shown; no private outdoor space visible; living room appears spacious for NYC with good furniture placement and high windows."
     },
     {
       "commute": {
@@ -7758,9 +8193,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "11-51 47th Avenue #5D, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7780,6 +8217,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-jackson/5d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 52.38,
@@ -7799,7 +8238,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.38,
-      "visionNotes": "Open-plan kitchen with island counter adjoining dining/living area; visible gas range with burner grates on the stovetop."
+      "visionNotes": "Kitchen is open to living/dining area with gas cooktop visible; no private outdoor space; living room is spacious with floor-to-ceiling windows and NYC skyline views."
     },
     {
       "commute": {
@@ -7837,10 +8276,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "27-21 44th Drive #1503, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7860,6 +8301,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1503",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 52.1675,
@@ -7879,7 +8322,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.1675,
-      "visionNotes": "Open-plan kitchen with island counter integrated into living space; electric stove with flat cooktop visible in the background."
+      "visionNotes": "Kitchen is open to living/dining area with island counter; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with large windows and reasonable furniture-to-space ratio."
     },
     {
       "commute": {
@@ -7918,9 +8361,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "27-21 44th Drive #1302, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -7940,6 +8385,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1302",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 52.1675,
@@ -7959,7 +8406,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.1675,
-      "visionNotes": "Open-plan kitchen with island visible in photos 1-2; gas range with visible burners and grates clearly shown on the right side of the kitchen in photo 2."
+      "visionNotes": "Kitchen is open to living area with island; stovetop appears to have visible burner grates consistent with gas; no private outdoor space visible; living room is spacious relative to typical NYC apartments."
     },
     {
       "commute": {
@@ -7998,9 +8445,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "27-01 Jackson Avenue #21F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8020,6 +8469,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bold/21f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.6575,
@@ -8039,7 +8490,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.6575,
-      "visionNotes": "Kitchen visible in first and fifth photos with light wood cabinetry and dark backsplash; open to dining/living areas; stove appears to be electric with a flat dark cooktop surface."
+      "visionNotes": "Kitchen is open to dining/living area with what appears to be an electric range; no private outdoor space visible, only building views; living room is spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -8079,9 +8530,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "42-06 Orchard Street #38K, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8101,6 +8554,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/38k",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.6575,
@@ -8120,7 +8575,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.6575,
-      "visionNotes": "Open kitchen with gas cooktop visible on the countertop, integrated into the living space with modern wood cabinetry and marble backsplash."
+      "visionNotes": "Kitchen with gas cooktop is visible and open to living areas; unit has a private terrace with skyline views; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -8160,9 +8615,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "42-06 Orchard Street #16P, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8182,6 +8639,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/16p",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.6575,
@@ -8201,7 +8660,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.6575,
-      "visionNotes": "Kitchen is visible in the last two photos with an open layout connected to dining/living areas; the range has visible burner grates indicating a gas stove."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range; unit has private terrace with Manhattan views; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -8241,9 +8700,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "42-06 Orchard Street #7C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8263,6 +8724,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/7c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.6575,
@@ -8282,7 +8745,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.6575,
-      "visionNotes": "Kitchen visible in photo 5 with gas cooktop (visible burners/grates), open to living/dining area with wood cabinetry and marble backsplash."
+      "visionNotes": "Kitchen visible with gas cooktop; open to living/dining area; private terrace shown in first three photos; living room is spacious with high ceilings and generous furnishings."
     },
     {
       "commute": {
@@ -8322,9 +8785,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "42-06 Orchard Street #14D, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8344,6 +8809,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/14d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.6575,
@@ -8363,7 +8830,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.6575,
-      "visionNotes": "Kitchen is visible in photos 3 and 4, open to dining area with wood cabinetry; gas stove with visible burners and grates is clearly visible on the range."
+      "visionNotes": "Kitchen is open to dining/living area with visible gas range; a terrace/balcony with plants and NYC skyline view is shown; living room is spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -8405,9 +8872,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
         "address": "899 Fulton Street #2I, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8427,6 +8896,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2i",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.53999999999999,
@@ -8446,7 +8917,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.53999999999999,
-      "visionNotes": "Kitchen is visible in photos 1 and 6, open to living/dining areas; the range has a flat black electric/induction cooktop visible, not gas burners."
+      "visionNotes": "Open-plan kitchen with living/dining area; electric/induction cooktops visible; private terrace/balcony accessible from living room; spacious living room with good furniture-to-space ratio."
     },
     {
       "commute": {
@@ -8488,9 +8959,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "899 Fulton Street #2H, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8510,6 +8983,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.53999999999999,
@@ -8529,7 +9004,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.53999999999999,
-      "visionNotes": "Kitchen is fully open to the living and dining areas with a black electric range visible with flat cooktop."
+      "visionNotes": "Kitchen is open to living/dining area with black electric oven visible; living room is spacious with multiple seating areas; no private outdoor space shown, only building views from windows/balcony."
     },
     {
       "commute": {
@@ -8571,9 +9046,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "899 Fulton Street #2G, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8593,6 +9070,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.53999999999999,
@@ -8612,7 +9091,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.53999999999999,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, semi-open to living areas with electric/induction cooktop (flat black surface, no visible burner grates)."
+      "visionNotes": "Kitchen is visible and opens into living/dining area with a galley-style layout; electric range with flat black cooktop is clearly visible; no private outdoor space shown; living room appears reasonably proportioned for NYC."
     },
     {
       "commute": {
@@ -8654,9 +9133,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "899 Fulton Street #3F, BROOKLYN, NY, 11238",
+        "availableDate": "2026-07-15",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8676,6 +9157,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/3f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.53999999999999,
@@ -8695,7 +9178,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.53999999999999,
-      "visionNotes": "Kitchen is visible in the first photo, open to living/dining area with a black electric cooktop (flat glass/ceramic surface visible) and stainless steel appliances."
+      "visionNotes": "Kitchen is open to living/dining area with black electric range visible; living room is spacious with high ceilings; no private outdoor space shown, only street views from windows."
     },
     {
       "commute": {
@@ -8737,9 +9220,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "899 Fulton Street #2F, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8759,6 +9244,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.53999999999999,
@@ -8778,7 +9265,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.53999999999999,
-      "visionNotes": "Kitchen is clearly visible in the first photo, open to dining and living areas, with a black electric range/oven visible on the stovetop."
+      "visionNotes": "Open-plan kitchen flows directly into living/dining area; stove appears to be electric/black with flat cooktop; living room is spacious with good furniture-to-room ratio; no private outdoor space visible, only windows showing NYC street views."
     },
     {
       "commute": {
@@ -8817,9 +9304,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #2L, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8839,6 +9328,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/2l",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -8858,7 +9349,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Kitchen is visible in photo 2 with a gas range (visible burner grates), semi-open to living area with white cabinetry and marble backsplash."
+      "visionNotes": "Kitchen with visible gas range is open to living area; unit has a balcony/terrace visible through large windows; living room is spacious with high ceilings and modern furnishings."
     },
     {
       "commute": {
@@ -8897,9 +9388,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #9K, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8919,6 +9412,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/9k",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -8938,7 +9433,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Kitchen is open to dining area with white cabinetry; electric stove with black front visible in photos 2 and 3."
+      "visionNotes": "Kitchen is open to living/dining area with electric stove visible; outdoor space is a high-rise balcony (shared building amenity); living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -8976,10 +9471,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #15H, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -8999,6 +9496,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/15h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -9018,7 +9517,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Kitchen is visible in photo 3, open to dining area with white cabinetry and a black electric range with flat cooktop visible."
+      "visionNotes": "Kitchen is visible and open to dining/living area; a private terrace/balcony is clearly visible through bedroom doors; living room appears spacious with good furniture ratio and high ceilings."
     },
     {
       "commute": {
@@ -9056,10 +9555,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #15G, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9079,6 +9580,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/15g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -9098,7 +9601,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Kitchen visible in photo 3 with white cabinetry, open to dining area; black electric/induction cooktop visible with no visible burner grates."
+      "visionNotes": "Kitchen is visible and open to dining/living area; stove details not clearly visible from the angles shown; no private outdoor space visible; living room is spacious with good proportions."
     },
     {
       "commute": {
@@ -9137,9 +9640,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #9J, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9159,6 +9664,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/9j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -9178,7 +9685,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 1 and 3; electric slide-in range with black oven door clearly visible, no gas burners or grates present."
+      "visionNotes": "Open-plan kitchen with electric/induction cooktop visible; unit has private balcony/terrace; living room is spacious and well-proportioned for NYC."
     },
     {
       "commute": {
@@ -9217,9 +9724,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "570 Fulton Street #16E, BROOKLYN, NY, 11217",
+        "availableDate": "2025-07-26",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9239,6 +9748,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/fulton-greene/16e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.4975,
@@ -9258,7 +9769,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.4975,
-      "visionNotes": "Kitchen is visible in photos 2-3, semi-open to dining area; stove has a flat cooktop with digital controls indicating electric/induction, not gas burners."
+      "visionNotes": "Kitchen is clearly visible and open to dining/living area; stove appears to be electric with a flat black cooktop; living room is spacious with good proportions; no private outdoor space visible, only interior windows showing adjacent building."
     },
     {
       "commute": {
@@ -9297,9 +9808,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #35H, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9319,6 +9832,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/35h?infeed=1&utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=dC-0dwrWf09srQXDgdm-h92WX-mF5Nih97uk2iqyKubpzGT-VZfbGmK6gm7GK0OdAvqQOe1F30b2Ek2O",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9338,7 +9853,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is open to the dining/living area with visible electric range with flat cooktop and white lower cabinets with wood upper cabinets."
+      "visionNotes": "Kitchen is open to living/dining area with electric range visible; no private outdoor space shown; living room appears spacious with good furniture layout."
     },
     {
       "commute": {
@@ -9377,9 +9892,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #24G, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9399,6 +9916,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/24g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9418,7 +9937,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is visible in the last photo with open-plan layout integrated with dining area, but stove/cooktop type cannot be determined from the angle shown."
+      "visionNotes": "Last image shows an open-plan kitchen/dining/living area with high-rise views; rooftop terrace visible in fourth image suggests building amenity space rather than private unit garden."
     },
     {
       "commute": {
@@ -9457,9 +9976,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #35E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9479,6 +10000,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/35e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9498,7 +10021,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen visible in photo 6 with wood cabinetry, appears semi-open to living/dining area, and has a black flat-top electric cooktop."
+      "visionNotes": "Kitchen is open to living/dining area with dark cooktop (appears electric), living room is spacious with normal NYC proportions, no private outdoor space visible."
     },
     {
       "commute": {
@@ -9537,9 +10060,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #32D, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9559,6 +10084,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/32d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9578,7 +10105,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is open to the living/dining area with a modern design; stove appears to be a flat black electric/induction cooktop with no visible burner grates."
+      "visionNotes": "Kitchen is fully open to living/dining area with no separation; stove appears to be electric/induction (flat dark cooktop visible in close-up photo); no private outdoor space shown; living room is spacious with high ceilings and expansive windows."
     },
     {
       "commute": {
@@ -9617,9 +10144,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #38B, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9639,6 +10168,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/38b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9658,7 +10189,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Open-plan kitchen with wood and gray cabinetry visible throughout the living space; stove has a flat stainless steel electric/induction cooktop with no visible burner grates."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove is electric (flat cooktop visible); no private outdoor space shown, only street views from windows; living room is spacious with ample furniture placement."
     },
     {
       "commute": {
@@ -9697,9 +10228,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #28F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9719,6 +10252,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/28f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9738,7 +10273,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "An open-plan kitchen is visible in the last photo integrated with the dining and living area, but the stove/range type cannot be determined from the angle and distance shown."
+      "visionNotes": "These appear to be luxury building amenity renderings, not an apartment rental unit—showing gym, office lounge, game room, and rooftop terrace rather than a residential apartment."
     },
     {
       "commute": {
@@ -9777,9 +10312,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #35B, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9799,6 +10336,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/35b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9818,87 +10357,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Open-plan kitchen with gray cabinetry visible in the last two photos; the stove appears to be black/dark electric with a flat cooktop surface, not gas burners."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 29,
-          "lines": [
-            "A Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "unknown",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "55 Willoughby Street #20B, BROOKLYN, NY, 11201",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-house-55-20b.png",
-        "neighborhood": "Downtown Brooklyn",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a6d9ed10cecb2728fecbb52bf0a1654b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d9a4ae225e3634d88d23383e8084ab4d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9a4ef530fa8733b812880eb06088bff6-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a512c50da2cd5bb90e494b37b4dead2d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3eaa4d2ba253d4415af3d6cae734db6b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d5d58b1569b3ad85462cc5fa375ea2b1-se_extra_large_1500_800.webp"
-        ],
-        "price": 5280,
-        "sqft": null,
-        "title": "55 Willoughby Street #20B",
-        "url": "https://streeteasy.com/building/house-55/20b",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.3275,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.35,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 51.3275,
-      "visionNotes": "An open-plan kitchen is visible in the last photo, integrated with a dining and living area, but the stove/range type cannot be determined from the angle and distance shown."
+      "visionNotes": "Kitchen is open to living/dining area with gray cabinetry and what appears to be an electric/induction cooktop; living room is spacious with good proportions; no private outdoor space visible, only shared building views."
     },
     {
       "commute": {
@@ -9937,9 +10396,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #32E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -9959,6 +10420,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/32e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -9978,7 +10441,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Open-plan kitchen with gray and wood cabinetry, stainless steel appliances, and a black countertop with flat cooking surface (electric/induction cooktop visible in close-up photo)."
+      "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric cooktop/range; living room is spacious with floor-to-ceiling windows and ample seating; no private outdoor space visible, only high-rise windows with city views."
     },
     {
       "commute": {
@@ -10017,9 +10480,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #41C, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10039,6 +10504,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/41c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -10058,7 +10525,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is visible in the first photo with an open-plan layout connecting to the living/dining area; the stove appears to be electric/induction with a flat dark cooktop surface."
+      "visionNotes": "Kitchen is visible and open to living area in first photo; stove appears to have a dark flat cooktop (electric/induction) but angle makes it somewhat difficult to confirm with certainty; remaining photos show building amenities (gym, office, lounge) not the unit; no private outdoor space visible."
     },
     {
       "commute": {
@@ -10097,9 +10564,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "55 Willoughby Street #35F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10119,6 +10588,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/35f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -10138,7 +10609,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Open-plan kitchen with island seating overlooking dining area; electric slide-in range with flat black cooktop visible in first photo."
+      "visionNotes": "Kitchen is visible with a flat black cooktop (electric/induction), semi-open to dining area with table; bedrooms show private balcony/terrace with city views; living spaces appear well-proportioned for NYC."
     },
     {
       "commute": {
@@ -10177,9 +10648,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #29F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10199,6 +10672,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/29f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -10218,7 +10693,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is open to living/dining area with gray and wood cabinetry; electric range with flat black cooktop visible in close-up photo."
+      "visionNotes": "Kitchen is open to living/dining area with a black cooktop (appears electric/induction, no visible grates); large living room with floor-to-ceiling windows; no private outdoor space visible, only city views from windows."
     },
     {
       "commute": {
@@ -10257,9 +10732,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "55 Willoughby Street #15G, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10279,6 +10756,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/house-55/15g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.3275,
@@ -10298,7 +10777,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.3275,
-      "visionNotes": "Kitchen is visible in the first photo with an open floor plan connecting to dining area via island, but the stove/range is not clearly visible in any of the photos."
+      "visionNotes": "Kitchen is visible and open to dining/living area with island seating; stove type unclear from angle; bedroom with high windows overlooks city (no private outdoor space); proportions suggest typical NYC one-bedroom scale."
     },
     {
       "commute": {
@@ -10335,10 +10814,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "11-39 49th Avenue #720, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10358,6 +10839,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hunters-landing-lic/720",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.317499999999995,
@@ -10377,7 +10860,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.317499999999995,
-      "visionNotes": "Kitchen visible in second photo with light wood cabinetry, stainless steel appliances, and flat cooktop opening directly to living area; appears to be electric/induction cooktop based on flat glass surface."
+      "visionNotes": "Kitchen is visible and open to living area; stove details unclear from angle/reflection; no private outdoor space visible; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -10416,9 +10899,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "66 Rockwell Place #26J, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10438,6 +10923,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/66-rockwell-place-brooklyn/26j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.2425,
@@ -10457,7 +10944,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.2425,
-      "visionNotes": "Open-plan kitchen with dark countertop and island visible in multiple photos; gas range with visible burners and grates is clearly visible in the rightmost photo."
+      "visionNotes": "Kitchen is open to living/dining area with black countertops and what appears to be a gas range; large floor-to-ceiling windows overlooking NYC; no private outdoor space visible; living room is spacious and well-proportioned."
     },
     {
       "commute": {
@@ -10495,9 +10982,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "11-39 49th Avenue #307, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10517,6 +11006,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hunters-landing-lic/307",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 51.19,
@@ -10536,7 +11027,91 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.19,
-      "visionNotes": "Kitchen visible in first two photos with electric stove; semi-open layout with island counter opening to living/dining area."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (flat black cooktop visible); no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 30,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
+        ],
+        "price": 4400,
+        "sqft": null,
+        "title": "52 4th Avenue #506",
+        "url": "https://streeteasy.com/building/the-eleanor/506",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.029999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.029999999999994,
+      "visionNotes": "Kitchen is open-plan to living/dining area with electric range visible; unit has balcony/terrace access but no private garden; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -10575,89 +11150,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
-        ],
-        "price": 4400,
-        "sqft": null,
-        "title": "52 4th Avenue #506",
-        "url": "https://streeteasy.com/building/the-eleanor/506",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.029999999999994,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.35,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 43.05,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 51.029999999999994,
-      "visionNotes": "Open-plan kitchen with island clearly visible in multiple photos; gas range with visible burners and grates is evident in the stove/cooktop area."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "52 4th Avenue #501, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10677,6 +11174,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-eleanor/501",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.029999999999994,
@@ -10696,7 +11195,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.029999999999994,
-      "visionNotes": "Modern open-plan kitchen with island visible in first photo; stove has flat black electric/induction cooktop with no visible burner grates."
+      "visionNotes": "Photo 1 shows an open-plan kitchen with a gas range (visible grates) flowing into a spacious living area; photo 5 shows a private rooftop terrace with seating and grill."
     },
     {
       "commute": {
@@ -10735,9 +11234,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "52 4th Avenue #703, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10757,6 +11258,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-eleanor/703",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.029999999999994,
@@ -10776,7 +11279,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.029999999999994,
-      "visionNotes": "Kitchen is open-plan, integrated with living/dining area; electric cooktop visible with flat glass/ceramic surface on the range."
+      "visionNotes": "Kitchen is open-plan to living/dining area with electric cooktop; private rooftop terrace with pergola visible; spacious living room with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -10815,9 +11318,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "52 4th Avenue #405, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10837,6 +11342,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-eleanor/405",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 51.029999999999994,
@@ -10856,7 +11363,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.029999999999994,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, open to the living/dining area with an island, featuring a black electric oven with a flat glass/ceramic cooktop."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (black flat cooktop visible); living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
@@ -10895,9 +11402,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "26-38 Jackson Avenue #11B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10917,6 +11426,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-italic/11b?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=M6UWIGayddyHRf6MR71sPTztAHsE46fhbiJg4f5QOSM0-hDb1y9ZayP6q6EIFlzg6QuEdg3w1z6WVeWj",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.935,
@@ -10936,7 +11447,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.935,
-      "visionNotes": "Kitchen is fully visible and open to living/dining areas; electric cooktop with flat dark surface visible on the stove."
+      "visionNotes": "Kitchen is open to living/dining area with island; cooktop appears to be electric/induction (dark flat surface); unit has floor-to-ceiling windows overlooking city but no private outdoor space; living room is spacious and well-proportioned."
     },
     {
       "commute": {
@@ -10974,9 +11485,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "10-63 Jackson Avenue #5E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-24",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -10996,6 +11509,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/ten-63/5e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.935,
@@ -11015,7 +11530,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.935,
-      "visionNotes": "Kitchen is semi-open to the living/dining area with a peninsula counter, and a gas range with visible burners is clearly visible in photo 3."
+      "visionNotes": "Kitchen is visible and open to living/dining area with what appears to be a gas range; no private outdoor space shown; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -11053,10 +11568,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "unknown",
+      "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #22H, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11076,6 +11593,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/22h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11095,7 +11614,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is visible and clearly open to living/dining areas; stove type cannot be determined from visible angles in photos."
+      "visionNotes": "Kitchen is visible and open to living/dining area; cooktop appears to be electric/induction (flat surface, no visible grates); no private outdoor space shown; living room is spacious with generous windows and furniture layout."
     },
     {
       "commute": {
@@ -11133,10 +11652,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #18J, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11156,6 +11677,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/18j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11175,7 +11698,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Modern open-plan kitchen with island seating, stainless steel appliances, and a flat cooktop visible in the first and last photos indicating electric/induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove details obscured by angle and reflection; no private outdoor space visible; living room is spacious with floor-to-ceiling windows and ample seating."
     },
     {
       "commute": {
@@ -11214,9 +11737,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #28F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11236,6 +11761,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/28f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11255,7 +11782,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is semi-open to dining area with a white countertop island; the stove appears to be electric with a flat black cooktop visible on the right side."
+      "visionNotes": "Kitchen is clearly visible and open to dining/living areas; stove appears to be electric with a dark flat cooktop; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -11293,10 +11820,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #14H, BROOKLYN, NY, 11201",
+        "availableDate": "2026-07-23",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11316,6 +11845,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/14h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11335,7 +11866,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Open-plan kitchen with white cabinetry and a flat glass/ceramic cooktop visible in multiple photos, indicating electric/induction cooking."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove type unclear due to reflections and angle; private balcony/terrace visible with city views; spacious living room with generous proportions."
     },
     {
       "commute": {
@@ -11374,9 +11905,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #26H, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11396,6 +11929,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/26h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11415,7 +11950,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Open-plan kitchen with electric oven featuring a flat glass/ceramic cooktop visible in multiple photos, seamlessly integrated with dining and living areas."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove has a flat black glass cooktop (electric); living room is spacious with good furniture-to-space ratio; no private outdoor space visible."
     },
     {
       "commute": {
@@ -11454,9 +11989,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #20I, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11476,6 +12013,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/20i",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11495,7 +12034,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is semi-open to dining area with a black electric oven/range visible and white cabinetry."
+      "visionNotes": "Kitchen is visible with electric oven, open to dining area; spacious living room with floor-to-ceiling windows overlooking NYC skyline; no private outdoor space visible."
     },
     {
       "commute": {
@@ -11534,9 +12073,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #21E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11556,6 +12097,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/21e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11575,7 +12118,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is semi-open to dining area with a round table; stove has a flat black glass/ceramic cooktop surface indicating electric or induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to dining area with a round table; stove has a flat black glass/ceramic cooktop (electric); living room is spacious with large windows and good furniture layout; no private outdoor space visible, only high-rise views."
     },
     {
       "commute": {
@@ -11614,9 +12157,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "151 South Elliott Place #6N, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11636,6 +12181,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-elliot/6n",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11655,87 +12202,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen features a gas range with visible burners/grates and is semi-open to the living/dining area via an island counter."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 25,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 43,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "151 South Elliott Place #7K, BROOKLYN, NY, 11217",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-7k.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9476675f69d7e5755624961fda2bca48-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/022a45c2fa931a91c58d58eaeadc598b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2cec36627810c6395542ed3a6501c20b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/357dc37833d7fee7da4d989d27014927-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/73b14554393ddc686c959fa83fa2c3b3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9aca50bbcb27c1f5571b40ef5eadd810-se_extra_large_1500_800.webp"
-        ],
-        "price": 5775,
-        "sqft": null,
-        "title": "151 South Elliott Place #7K",
-        "url": "https://streeteasy.com/building/the-elliot/7k",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 50.902499999999996,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.35,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 42.625,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is visible in the first photo with wood cabinetry open to the living space; the range has visible control knobs but a flat black cooktop surface indicating electric/induction."
+      "visionNotes": "Kitchen is visible and open to living area; gas range with visible burners and grates clearly shown; no private outdoor space visible; living room appears spacious in photo 3 but limited views overall."
     },
     {
       "commute": {
@@ -11774,9 +12241,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #19E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11796,6 +12265,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/19e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11815,7 +12286,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is open to the living/dining area with a flat glass/ceramic cooktop visible in the second photo, indicating electric or induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an electric/induction cooktop, no private outdoor space visible, and the living room is spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -11854,9 +12325,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #20E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -11876,6 +12349,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/20e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -11895,87 +12370,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is open to dining area with a round table; oven has a flat black glass cooktop visible, indicating electric/induction cooking."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 42,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "525 Pacific Street #807, BROOKLYN, NY, 11217",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-540-atlantic-807.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a3dfdd458001373a965e4ae214aa49b4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a3dfdd458001373a965e4ae214aa49b4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ad23f84ad7001196b08a71f0ea1431ee-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7f43a7f7f5a2c048ceba5403feaacb1b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bb92d507d417d4c05c8529b53019d49e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2b04a66a12beb149406bb959139d1326-se_large_800_400.webp"
-        ],
-        "price": 5850,
-        "sqft": null,
-        "title": "525 Pacific Street #807",
-        "url": "https://streeteasy.com/building/540-atlantic/807",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 50.902499999999996,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.35,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 42.625,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is partially visible in photo 1 as a U-shaped galley with wood cabinetry, and in photo 2 it opens to living area; the stove has a flat white cooktop indicating electric or induction cooking."
+      "visionNotes": "Kitchen is open to dining area with a flat black glass/ceramic cooktop (electric); living room is spacious with good furniture placement; private outdoor space shows building views only, not exclusive unit terrace."
     },
     {
       "commute": {
@@ -12014,9 +12409,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "151 South Elliott Place #3K, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12036,6 +12433,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-elliot/3k",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12055,7 +12454,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range featuring four burners and grates."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and knobs; no outdoor space shown; living room appears spacious with wood floors and minimal furniture."
     },
     {
       "commute": {
@@ -12094,9 +12493,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #15J, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12116,6 +12517,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/15j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12135,7 +12538,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is open to dining/living area with white cabinetry and island, but stove/range not visible in any photos."
+      "visionNotes": "Open-plan kitchen visible in photos 1-2 with island counter; large windows and terrace visible in photo 2; living room is spacious with high-rise views; stove type not clearly visible."
     },
     {
       "commute": {
@@ -12174,9 +12577,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #25H, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12196,6 +12601,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/25h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12215,7 +12622,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with a flat glass/ceramic cooktop electric range, not gas."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove has a flat black electric cooktop visible in multiple photos; living room is spacious with floor-to-ceiling windows and ample furniture space; no private outdoor space visible, only city views from windows."
     },
     {
       "commute": {
@@ -12254,9 +12661,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #14D, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12276,6 +12685,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/14d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12295,7 +12706,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is visible in the first photo with an open-plan layout flowing into the dining/living area, but the stove/range is not clearly visible in any of the photos."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island counter; no stove visible in photos; no private outdoor space shown, only high-rise windows; living room is spacious with floor-to-ceiling windows and generous furniture layout."
     },
     {
       "commute": {
@@ -12334,9 +12745,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "17 Hanover Place #21F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12356,6 +12769,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/hanover-house/21f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12375,7 +12790,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen is visible in the first photo as an open-plan design integrated with the living/dining area, but the stove type cannot be determined from the visible angle and distance."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove burners not clearly visible in photos; no private outdoor space shown; living room appears spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -12414,9 +12829,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "151 South Elliott Place #4L, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12436,6 +12853,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-elliot/4l",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.902499999999996,
@@ -12455,7 +12874,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.902499999999996,
-      "visionNotes": "Kitchen features a gas range with visible burners and grates, open to a living/dining area with an island counter configuration."
+      "visionNotes": "Kitchen is clearly visible with gas range (visible burner grates), semi-open to living area; no private outdoor space shown; living room appears spacious but only partially visible in photos."
     },
     {
       "commute": {
@@ -12495,9 +12914,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "29-59 Northern Boulevard #67B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12517,6 +12938,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/sven-29_59-northern-boulevard-long_island_city/67b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.8925,
@@ -12536,7 +12959,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.8925,
-      "visionNotes": "Open-plan kitchen with gas cooktop featuring visible burner grates integrated into the living/dining area with a large island counter."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
     },
     {
       "commute": {
@@ -12576,9 +12999,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "29-59 Northern Boulevard #69C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12598,6 +13023,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/sven-29_59-northern-boulevard-long_island_city/69c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.8925,
@@ -12617,7 +13044,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.8925,
-      "visionNotes": "Modern open-plan kitchen with light wood cabinetry is clearly visible in photo 3, featuring a gas cooktop with visible black grates and knobs."
+      "visionNotes": "Kitchen is visible and open to living areas; gas cooktop with visible burners and grates is clearly shown; no private outdoor space visible; living room appears spacious with floor-to-ceiling windows and appropriately scaled furniture."
     },
     {
       "commute": {
@@ -12657,9 +13084,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "29-59 Northern Boulevard #70G, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12679,6 +13108,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/sven-29_59-northern-boulevard-long_island_city/70g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.8925,
@@ -12698,7 +13129,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.8925,
-      "visionNotes": "Open-plan kitchen with gas cooktop visible with multiple burner grates, integrated seamlessly into living/dining area with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is clearly visible and open to living area; gas cooktop with visible burners visible in first photo; no private outdoor space shown; living room is spacious with floor-to-ceiling windows and high ceilings."
     },
     {
       "commute": {
@@ -12737,9 +13168,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #2327C, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12759,6 +13192,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/2327c?featured=1&utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=DU5YukiKpMjIjxMhv8C6zBPPYvEy6I9S19AoGSDInxcSFaHeqO009_m2WqiFmfjWdWupu7M_ySOQ1rg7",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -12778,7 +13213,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Open-plan kitchen with island seating visible in second photo; stove has visible burner grates indicating gas range."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas range with visible burners/grates shown in photo 2; private outdoor garden/terrace visible in photo 5 with brick walls and planted area; living rooms appear spacious with high ceilings and generous layouts across multiple photos."
     },
     {
       "commute": {
@@ -12817,9 +13252,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #561S, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12839,6 +13276,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/561s",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -12858,7 +13297,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Kitchen is clearly visible in photo 2, featuring an open-plan design with island seating adjacent to living area, and a gas range with visible burner grates is identifiable on the stovetop."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island seating; stove has visible burner grates indicating gas; private outdoor terrace/garden visible through glass doors; living room spacious with high ceilings and multiple seating areas."
     },
     {
       "commute": {
@@ -12897,9 +13336,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #1124X, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12919,6 +13360,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/1124x",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -12938,7 +13381,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Kitchen visible in photo 3 with light wood cabinetry, open to living/dining area, featuring a stainless steel electric range with smooth cooktop."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove appears to be electric/induction based on flat cooktop visible in photo 3; outdoor terrace with plants and brick building view visible in photo 7; living room is spacious with good proportions."
     },
     {
       "commute": {
@@ -12977,9 +13420,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #2209G, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -12999,6 +13444,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/2209g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -13018,7 +13465,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Kitchen visible in photo 3 with open-plan layout to living area; gas range with visible burners and grates clearly shown."
+      "visionNotes": "Kitchen is open to living area with visible gas range; private outdoor terrace visible through large windows; living spaces appear spacious and well-proportioned."
     },
     {
       "commute": {
@@ -13057,9 +13504,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #2327C, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13079,6 +13528,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/2327c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -13098,7 +13549,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Kitchen is visible in photo 2, featuring an open layout with island seating adjacent to living area, and a gas range with visible burners and grates."
+      "visionNotes": "Kitchen is visible and open to living/dining area with gas range; private outdoor space with plants and brick building view appears to be a private terrace; living rooms are spacious with generous furniture layouts."
     },
     {
       "commute": {
@@ -13137,9 +13588,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "20 Rockwell Place #2919D, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13159,6 +13612,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rocklyn/2919d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 50.817499999999995,
@@ -13178,7 +13633,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.817499999999995,
-      "visionNotes": "Kitchen is clearly visible in photo 3, featuring an open-plan layout connected to the living/dining area with light wood cabinetry and a stainless steel electric range/oven with a flat cooktop."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove appears to be electric/induction with flat cooktop; private outdoor terrace visible with view of brick building; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -13216,10 +13671,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #6H, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13239,6 +13696,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/6h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13258,7 +13717,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Kitchen is clearly visible in photo 3, featuring an open-plan design integrated with the dining/living area, and the cooktop appears to be a flat induction or electric surface with no visible gas burners or grates."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with no separation; stove details obscured by angle and distance; no private outdoor space visible; living room appears spacious with good furniture placement."
     },
     {
       "commute": {
@@ -13297,9 +13756,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #15F, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13319,6 +13780,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/15f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13338,7 +13801,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Open-plan kitchen with island counter visible in first photo; cooktop appears to be a flat black induction/electric surface with no visible burner grates."
+      "visionNotes": "Kitchen is open-plan to living/dining area with induction cooktop; no private outdoor space visible; living room is spacious with good furniture proportions."
     },
     {
       "commute": {
@@ -13377,9 +13840,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "255 East 39th Street #12C, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13399,6 +13864,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13418,7 +13885,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with black flat surface and no visible gas burners/grates."
+      "visionNotes": "Kitchen is open to living/dining area with island counter; stove appears to be electric/induction (flat black cooktop visible); living room is spacious with large windows and good furniture arrangement; no private outdoor space visible, only city views through windows."
     },
     {
       "commute": {
@@ -13456,10 +13923,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #12B, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13479,6 +13948,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13498,7 +13969,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Modern open-plan kitchen with island counter seamlessly integrated into living/dining area; electric cooktop visible with flat black surface, no visible burner grates."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island seating; stove type cannot be determined from reflections; living room is spacious with good furniture arrangement; no private outdoor space visible, only shared building amenities in last photo."
     },
     {
       "commute": {
@@ -13537,9 +14008,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #10G, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13559,6 +14032,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/10g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13578,7 +14053,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Kitchen is semi-open to dining/living areas with an island; the cooktop appears to be a flat induction/electric surface with no visible burners or grates."
+      "visionNotes": "Kitchen is open to dining/living area with induction cooktop visible; living room is spacious with high ceilings; no private outdoor space shown; includes washer/dryer in unit."
     },
     {
       "commute": {
@@ -13617,9 +14092,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #11E, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13639,6 +14116,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/11e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13658,7 +14137,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Kitchen is visible in photos 2-3 and 6, featuring a galley-style layout that opens to dining/living areas with an island counter; the stove/range appears to be electric with a black flat cooktop surface."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island seating; electric induction cooktop visible; living room is spacious with good furniture proportion; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
@@ -13697,9 +14176,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #2D, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13719,6 +14200,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/2d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13738,7 +14221,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Kitchen is visible in photos 4-7, features an open layout with island counter opening to living/dining areas, and has an electric cooktop (flat black surface visible on the range)."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island seating; cooktop appears to be electric/induction (black flat surface); no private outdoor space visible; living room is spacious with ample furniture arrangement."
     },
     {
       "commute": {
@@ -13777,9 +14260,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "255 East 39th Street #8H, NEW YORK, NY, 10016",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13799,6 +14284,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/8h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.6375,
@@ -13818,7 +14305,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.6375,
-      "visionNotes": "Kitchen is open to living/dining areas with a modern island layout; the cooktop appears to be a flat induction/electric surface with no visible gas burners or grates."
+      "visionNotes": "Kitchen is open to living/dining area with electric cooktop visible; spacious living room with floor-to-ceiling windows; no outdoor space shown; washer/dryer in unit."
     },
     {
       "commute": {
@@ -13850,9 +14337,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13871,6 +14360,9 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-fifty-lic/9b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "unknown",
       "rankBreakdown": {
         "total": 50.3075,
         "neighborhood": {
@@ -13889,7 +14381,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.3075,
-      "visionNotes": "Kitchen is semi-open to living/dining area with island, but stove type is not clearly visible in any photo."
+      "visionNotes": "Kitchen is clearly visible and open to living area; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with good ceiling height and natural light."
     },
     {
       "commute": {
@@ -13927,9 +14419,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "72 West 69th Street #4A, NEW YORK, NY, 10023",
+        "availableDate": "2026-08-04",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -13949,6 +14443,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/72-west-69-street-new_york/4a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 50.2975,
@@ -13968,7 +14464,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.2975,
-      "visionNotes": "Kitchen is fully visible and open to dining/living areas with an island; the cooktop is a flat black induction/electric surface, not gas."
+      "visionNotes": "Kitchen is fully open to living/dining area with induction cooktop visible; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
     },
     {
       "commute": {
@@ -14007,9 +14503,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "27-03 42nd Road #12A, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14029,6 +14527,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/heritage-27-on-27th/12a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.915,
@@ -14048,7 +14548,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.915,
-      "visionNotes": "Kitchen with island is visible in the last photo, semi-open to living space, with a clearly visible gas range (visible burner grates)."
+      "visionNotes": "Kitchen visible with gas range (visible burner grates), open to living area; outdoor space shown is shared building amenity deck, not private; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -14087,9 +14587,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "27-17 42nd Road #6G, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14109,6 +14611,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/star-tower-lic/6g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.915,
@@ -14128,7 +14632,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.915,
-      "visionNotes": "Kitchen is semi-open to living area with an island; visible gas range with prominent burner grates in second photo."
+      "visionNotes": "Kitchen is clearly visible and semi-open to living area with island counter; gas range with visible grates visible in photos; no private outdoor space; living room appears typical size for NYC one-bedroom based on furniture layout."
     },
     {
       "commute": {
@@ -14167,9 +14671,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "27-03 42nd Road #20E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14189,6 +14695,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/heritage-27-on-27th/20e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.915,
@@ -14208,167 +14716,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.915,
-      "visionNotes": "Open-plan kitchen with island seating; gas range with visible burners and grates clearly visible in multiple photos."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 34,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 15,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 29,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "18 Sixth Avenue #3312, BROOKLYN, NY, 11217",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3312.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3b55d074f3c6367f5442d179f00c2909-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2eec038e5b822b82c796cf7b34d05e76-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8fac7faefc428bbe529728ede7daa7e4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/33d6ef9aef0b0c5cb0cc6eea8dcce910-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/22a6d8689787e1d78885f2fb6a70cce1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5ec30d1462ca51e5b16cf82cad303721-se_large_800_400.webp"
-        ],
-        "price": 4425,
-        "sqft": null,
-        "title": "18 Sixth Avenue #3312",
-        "url": "https://streeteasy.com/building/brooklyn-crossing/3312",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.79749999999999,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 42.2,
-          "weight": 0.35,
-          "minutes": 34
-        },
-        "friends": {
-          "score": 40.925,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.79749999999999,
-      "visionNotes": "Kitchen is open to living area; gas range with visible burner grates is clearly visible in multiple photos."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 34,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 15,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 29,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "18 Sixth Avenue #3714, BROOKLYN, NY, 11217",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3714.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/559e5c3f67c5ead1fcc9ec128491d052-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/559e5c3f67c5ead1fcc9ec128491d052-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/19e8ca7e90653a9bab899b21ffcab356-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/da3b97e2edd67707d7f3e1a13e422e34-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a4aa68c94925e493a71b3a193afc1900-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/972b26ce131a5e7bdc82df02c0f1eee9-se_large_800_400.webp"
-        ],
-        "price": 4550,
-        "sqft": null,
-        "title": "18 Sixth Avenue #3714",
-        "url": "https://streeteasy.com/building/brooklyn-crossing/3714",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.79749999999999,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 42.2,
-          "weight": 0.35,
-          "minutes": 34
-        },
-        "friends": {
-          "score": 40.925,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.79749999999999,
-      "visionNotes": "Open-plan kitchen with gas range visible in photo 1 and 3, showing clear burner grates and integrated into living/dining area."
+      "visionNotes": "Kitchen is open to living/dining areas with visible gas range (burners/grates clearly visible in photos 1-2); living room is spacious with floor-to-ceiling windows and good furniture ratio; no private outdoor space visible, only city views from windows."
     },
     {
       "commute": {
@@ -14407,28 +14755,32 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
-        "address": "18 Sixth Avenue #3705, BROOKLYN, NY, 11217",
+        "address": "18 Sixth Avenue #3312, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-14",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3705.png",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3312.png",
         "neighborhood": "Prospect Heights",
         "photos": [
-          "https://photos.zillowstatic.com/fp/893931bbedbe38c8cc59a4baa9fdb2c7-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/893931bbedbe38c8cc59a4baa9fdb2c7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2d5de8b6f94f251ba6ddb413b77d96b7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f5a8c6cb5c0915cad3613577f4338e68-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cfcfbc9ca5e6274ddd6c16fab81a7493-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/75238b42e6af07692399b49ae8b557c7-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/3b55d074f3c6367f5442d179f00c2909-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2eec038e5b822b82c796cf7b34d05e76-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8fac7faefc428bbe529728ede7daa7e4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/33d6ef9aef0b0c5cb0cc6eea8dcce910-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/22a6d8689787e1d78885f2fb6a70cce1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5ec30d1462ca51e5b16cf82cad303721-se_large_800_400.webp"
         ],
-        "price": 4875,
+        "price": 4425,
         "sqft": null,
-        "title": "18 Sixth Avenue #3705",
-        "url": "https://streeteasy.com/building/brooklyn-crossing/3705",
+        "title": "18 Sixth Avenue #3312",
+        "url": "https://streeteasy.com/building/brooklyn-crossing/3312",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.79749999999999,
@@ -14448,7 +14800,175 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.79749999999999,
-      "visionNotes": "Kitchen is semi-open to dining/living area with a white flat glass cooktop (electric/induction) visible on the range in photo 2."
+      "visionNotes": "Open-plan kitchen with electric range visible in multiple photos; large glass doors/windows open to what appears to be a private terrace with city views; spacious living room with good proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 34,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 29,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 45,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "18 Sixth Avenue #3714, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-14",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3714.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/559e5c3f67c5ead1fcc9ec128491d052-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/559e5c3f67c5ead1fcc9ec128491d052-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/19e8ca7e90653a9bab899b21ffcab356-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/da3b97e2edd67707d7f3e1a13e422e34-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a4aa68c94925e493a71b3a193afc1900-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/972b26ce131a5e7bdc82df02c0f1eee9-se_large_800_400.webp"
+        ],
+        "price": 4550,
+        "sqft": null,
+        "title": "18 Sixth Avenue #3714",
+        "url": "https://streeteasy.com/building/brooklyn-crossing/3714",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.79749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.79749999999999,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and grates; no private outdoor space shown; living room is spacious with large windows and typical NYC proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 34,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 29,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 45,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "18 Sixth Avenue #3705, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-14",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3705.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/893931bbedbe38c8cc59a4baa9fdb2c7-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/893931bbedbe38c8cc59a4baa9fdb2c7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2d5de8b6f94f251ba6ddb413b77d96b7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f5a8c6cb5c0915cad3613577f4338e68-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cfcfbc9ca5e6274ddd6c16fab81a7493-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/75238b42e6af07692399b49ae8b557c7-se_large_800_400.webp"
+        ],
+        "price": 4875,
+        "sqft": null,
+        "title": "18 Sixth Avenue #3705",
+        "url": "https://streeteasy.com/building/brooklyn-crossing/3705",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.79749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.79749999999999,
+      "visionNotes": "Kitchen is visible and open to dining/living area with floor-to-ceiling windows; stove type cannot be determined from angles shown; no private outdoor space visible; living room is spacious with high ceilings and panoramic city views."
     },
     {
       "commute": {
@@ -14487,9 +15007,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "470 Dean Street #4104, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14509,6 +15031,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-heritage-dean-street/4104",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.7125,
@@ -14528,7 +15052,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.7125,
-      "visionNotes": "Open-plan kitchen with visible gas range featuring multiple burners/grates and professional stainless steel appliances."
+      "visionNotes": "Kitchen is visible and open to living room; gas range with visible burner grates is clearly shown; no private outdoor space (last image shows building exterior/street view); living room appears proportionate for NYC with good furniture layout."
     },
     {
       "commute": {
@@ -14567,9 +15091,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "27-03 42nd Road #25C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14589,6 +15115,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/heritage-27-on-27th/25c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.7025,
@@ -14608,7 +15136,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.7025,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; gas range with visible burners clearly seen in photos 4, 6, and 7."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas range with visible burners is evident in multiple photos; no private outdoor space shown; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -14647,9 +15175,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "244 West 72nd Street #10A, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14669,6 +15199,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/244w72/10a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.66,
@@ -14688,7 +15220,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.66,
-      "visionNotes": "Kitchen is visible with white cabinetry, stainless steel appliances, and an electric stove with a flat cooktop adjacent to a small dining table in an open-plan layout."
+      "visionNotes": "Kitchen is visible and open to a dining/living area with electric range; living room has ample space with comfortable furniture arrangement; no private outdoor space shown."
     },
     {
       "commute": {
@@ -14726,10 +15258,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "244 West 72nd Street #9B, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14749,6 +15283,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/244w72/9b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.66,
@@ -14768,7 +15304,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.66,
-      "visionNotes": "Open-plan kitchen with electric/induction cooktop visible in the stove; flat cooking surface with no visible gas burners or grates."
+      "visionNotes": "Kitchen is open to living/dining area; gas range visible with grates in close-up photo; spacious living room with good furniture-to-space ratio; no private outdoor space visible, only windows with NYC building views."
     },
     {
       "commute": {
@@ -14807,9 +15343,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "244 West 72nd Street #15C, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14829,6 +15367,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/244w72/15c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.66,
@@ -14848,7 +15388,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.66,
-      "visionNotes": "Kitchen is semi-open to living/dining area with a peninsula counter, and the stove has visible burner grates indicating gas."
+      "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with visible burners; living room appears spacious with good furniture arrangement; no private outdoor space shown."
     },
     {
       "commute": {
@@ -14887,9 +15427,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "461 Dean Street #25A, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14909,6 +15451,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/461-dean-street-brooklyn/25a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.5425,
@@ -14928,7 +15472,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.5425,
-      "visionNotes": "Kitchen is open to living/dining area; stove has visible gas burners and grates clearly visible in photos 2 and 3."
+      "visionNotes": "Kitchen is open to living area with visible gas burners on the range; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -14967,9 +15511,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "461 Dean Street #20H, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -14989,6 +15535,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/461-dean-street-brooklyn/20h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.5425,
@@ -15008,7 +15556,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.5425,
-      "visionNotes": "Kitchen is clearly visible in photo 2 with a flat glass/ceramic electric cooktop and is semi-open to the living/dining area with a pass-through design."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove appears to be electric (flat cooktop visible); living room is spacious with floor-to-ceiling windows and good proportions; no private outdoor space, only common building exterior shown."
     },
     {
       "commute": {
@@ -15047,9 +15595,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "23-10 42nd Road #3B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15069,6 +15619,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/aura-lic/03b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.32,
@@ -15088,7 +15640,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.32,
-      "visionNotes": "Modern open-plan kitchen visible in photo 2 with a gas range (visible burners/grates) integrated into the living/dining area."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly shown; private terrace with seating visible in first photo; living room is spacious with high ceilings and expansive windows."
     },
     {
       "commute": {
@@ -15127,9 +15679,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "23-10 42nd Road #33E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-21",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15149,6 +15703,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/aura-lic/33e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.32,
@@ -15168,7 +15724,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.32,
-      "visionNotes": "Kitchen visible in photo 2 with open-plan layout adjacent to living area; stove is electric with flat cooktop surface and digital controls."
+      "visionNotes": "Kitchen is open to living area with electric stove visible; outdoor terrace with planters visible in photo 5; living spaces are spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -15206,10 +15762,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "42-20 24th Street #36J, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15229,6 +15787,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1-qps/036j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.1925,
@@ -15248,7 +15808,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.1925,
-      "visionNotes": "Kitchen is visible in photo 3 with an open layout to dining/living area; electric cooktop with flat surface is clearly visible on the stove."
+      "visionNotes": "Kitchen is visible and opens to dining/living area; stove type unclear from angle; no private outdoor space shown; living room is spacious with high ceilings and panoramic windows."
     },
     {
       "commute": {
@@ -15287,9 +15847,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "42-20 24th Street #4F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15309,6 +15871,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1-qps/004f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.1925,
@@ -15328,7 +15892,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.1925,
-      "visionNotes": "Kitchen is visible in photo 3, featuring a gas range with visible burner grates, and is semi-open to the living/dining area as seen in photo 2."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range clearly visible with burner grates; outdoor space is a shared building terrace, not private; living room is spacious with good furniture proportions."
     },
     {
       "commute": {
@@ -15367,9 +15931,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "42-20 24th Street #28E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15389,6 +15955,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1-qps/028e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.1925,
@@ -15408,7 +15976,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.1925,
-      "visionNotes": "Kitchen is visible in photos 2-4 with a peninsula/breakfast bar layout opening to living space; gas range with visible burner grates clearly visible on the stove."
+      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter opening; living room is spacious with generous window and furniture layout; no private outdoor space visible."
     },
     {
       "commute": {
@@ -15447,9 +16015,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "42-20 24th Street #19C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15469,6 +16039,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1-qps/019c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 49.1925,
@@ -15488,7 +16060,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.1925,
-      "visionNotes": "Kitchen is semi-open to living area with a pass-through counter; gas range with visible burners/grates clearly visible on the stove."
+      "visionNotes": "Kitchen is visible and opens to living area via counter; stove appears to have burners but angle/reflection makes certainty medium; spacious living room with floor-to-ceiling windows and multiple furniture pieces; no private outdoor space visible, only high-rise views."
     },
     {
       "commute": {
@@ -15529,10 +16101,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "26 Quincy Street #5F, BROOKLYN, NY, 11238",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15552,6 +16126,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/26-quincy-street-brooklyn/5f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.11749999999999,
@@ -15571,7 +16147,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.11749999999999,
-      "visionNotes": "Kitchen is visible and open to dining/living area; stove has visible white knobs and appears to be a modern electric/induction cooktop, not gas."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners/grates clearly shown; no private outdoor space visible; living room appears spacious with good furniture proportions for a NYC one-bedroom."
     },
     {
       "commute": {
@@ -15610,9 +16186,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "662 Pacific Street #25F, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15632,6 +16210,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/plank-road/25f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.074999999999996,
@@ -15651,7 +16231,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.074999999999996,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating a gas range."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range; no private outdoor space; living room is spacious with good proportions for NYC."
     },
     {
       "commute": {
@@ -15690,9 +16270,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "662 Pacific Street #20T, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15712,6 +16294,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/plank-road/20t",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 49.074999999999996,
@@ -15731,87 +16315,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.074999999999996,
-      "visionNotes": "Open-plan kitchen with dark cabinetry visible on right side, integrated into living/dining area; stove appears to be electric with a flat cooktop built into stainless steel appliances."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 11,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "24-15 Queens Plaza North #6A, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-view-59-6a.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/eb13cfc731d15bd0729802b54408f32a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/eb13cfc731d15bd0729802b54408f32a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3339aae480421982aaf85f775e8e7ead-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c5d292fc3a0078495a35b1f79f16be71-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fe58ed73ba98e4685c9eceb45615a9ba-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
-        ],
-        "price": 6250,
-        "sqft": null,
-        "title": "24-15 Queens Plaza North #6A",
-        "url": "https://streeteasy.com/building/view-59/6a",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.894999999999996,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.35,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 43.05,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.894999999999996,
-      "visionNotes": "Kitchen is semi-open to living/dining areas with an island counter; gas cooktop with visible burners is clearly visible on the stove."
+      "visionNotes": "Kitchen is visible and open to the living/dining area; stove appears to be electric/induction with a flat cooktop; no private outdoor space visible; living room is spacious with large windows."
     },
     {
       "commute": {
@@ -15848,10 +16352,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "unknown",
+      "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "231 East 76th Street #2A, NEW YORK, NY, 10021",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15871,6 +16377,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/231-east-76-street-new_york/2a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 48.725,
@@ -15890,7 +16398,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.725,
-      "visionNotes": "Kitchen is visible in the background of the first photo, appearing to be open to the living/dining area, but the stove type cannot be clearly determined from this distance."
+      "visionNotes": "Kitchen is visible and open to living area; window AC unit visible suggesting electric cooking; spacious living room with modern furniture and good proportions; no private outdoor space shown."
     },
     {
       "commute": {
@@ -15928,9 +16436,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "304 East 77th Street #5, NEW YORK, NY, 10075",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -15950,6 +16460,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/304-east-77-street-new_york/5",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 48.597500000000004,
@@ -15969,86 +16481,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.597500000000004,
-      "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 1-2; electric cooktop and stainless steel appliances clearly visible in photo 3, with no gas burners or grates present."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 21,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "B Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 19,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 15,
-          "lines": [
-            "B Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "3 West 103rd Street #3F, NEW YORK, NY, 10025",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-3-west-103-street-new-york-3f.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/967625ee0bf49fc121717b47b8b5df29-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/967625ee0bf49fc121717b47b8b5df29-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/aac5f4faba1ee9abdaf4cb10359dca97-p_e.webp",
-          "https://photos.zillowstatic.com/fp/211ed5e7f74c9b59bab6452c07ac7c9a-p_e.webp",
-          "https://photos.zillowstatic.com/fp/1d086b6fd6afc092f991f411e1b8644f-p_e.webp",
-          "https://photos.zillowstatic.com/fp/36ac20f92bb359e00f0caeadd22bfbf5-p_e.webp"
-        ],
-        "price": 4135,
-        "sqft": null,
-        "title": "3 West 103rd Street #3F",
-        "url": "https://streeteasy.com/building/3-west-103-street-new_york/3f",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.5975,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 64.30000000000001,
-          "weight": 0.35,
-          "minutes": 21
-        },
-        "friends": {
-          "score": 51.974999999999994,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.5975,
-      "visionNotes": "Kitchen is visible in the first two photos with a gas range (visible grates), black upper cabinets, stainless steel appliances, and an open layout flowing into the living space with exposed brick."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric range/cooktop apparent; no private outdoor space shown; living room appears spacious with good furniture proportion."
     },
     {
       "commute": {
@@ -16088,9 +16521,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5-19 Borden Avenue #6F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-25",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16110,6 +16545,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/murano-condominium/6f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 48.5125,
@@ -16129,7 +16566,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.5125,
-      "visionNotes": "Open-plan kitchen with island counter seamlessly integrated into living area; gas cooktop with visible burners clearly visible on the range."
+      "visionNotes": "Kitchen is fully open to living/dining area with island counter; gas cooktop visible with grates; unit has private balcony/terrace with city views; living room appears spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -16168,9 +16605,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "29-18 41st Avenue #24B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-20",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16190,6 +16629,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/nova-condominium/24b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 48.4275,
@@ -16209,7 +16650,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.4275,
-      "visionNotes": "Kitchen is visible in photo 4 as an open-plan layout integrated with the living/dining area, but the stove type cannot be determined from the distance and angle shown."
+      "visionNotes": "Kitchen visible and open to living/dining area in photo 4; stove type indeterminate from angle/lighting; living room is spacious with high ceilings and large windows; no private outdoor space shown, only shared building amenities visible."
     },
     {
       "commute": {
@@ -16251,9 +16692,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "540 Waverly Avenue #6E, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16273,6 +16716,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/540-waverly-avenue-brooklyn/6e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 48.3525,
@@ -16292,87 +16737,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.3525,
-      "visionNotes": "Open-plan kitchen with white cabinetry and wood accents visible in photo 2, featuring a flat black electric cooktop/range with no visible burner grates."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 23,
-          "lines": [
-            "1 Line",
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 28,
-          "lines": [
-            "2 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "170 Amsterdam Avenue #2I, NEW YORK, NY, 10023",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-170-amsterdam-02i.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4261349dcd3bad8d4bcca36f3236ba02-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b8c78b60c8ce827914ff88b0d8b83971-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6a667ec17fd93ab58282132710fd7fb6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp"
-        ],
-        "price": 6535,
-        "sqft": null,
-        "title": "170 Amsterdam Avenue #2I",
-        "url": "https://streeteasy.com/building/170-amsterdam/02i",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.3,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.35,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 54.95,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.3,
-      "visionNotes": "Modern kitchen with gas cooktop visible on counter, white cabinetry, island with quartz countertop, and open layout connected to living space."
+      "visionNotes": "Kitchen is clearly visible and open to the living area; stove is electric with a flat black cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only street-level views and shared building exterior."
     },
     {
       "commute": {
@@ -16412,10 +16777,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "10 Quincy Street #3M, BROOKLYN, NY, 11238",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16435,6 +16802,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/10-quincy-street-clinton_hill_/3m",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 48.14,
@@ -16454,7 +16823,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.14,
-      "visionNotes": "Kitchen is visible in photos 1-3, open to living/dining areas with a single-wall layout; the range has a flat glass cooktop indicating electric/induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to living area; gas cooktop visible with burners; no private outdoor space shown; living room appears spacious with high ceilings and modern furnishings."
     },
     {
       "commute": {
@@ -16492,9 +16861,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "218 East 74th Street #4W, NEW YORK, NY, 10021",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16514,6 +16885,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/218-east-74-street-new_york/4w",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 48.0025,
@@ -16533,7 +16906,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.0025,
-      "visionNotes": "Kitchen is semi-open to living area with island counter; gas range visible with clear burner grates on the stovetop."
+      "visionNotes": "Kitchen is semi-open to living area with visible gas cooktop; no private outdoor space visible; living room is quite compact relative to furniture placement."
     },
     {
       "commute": {
@@ -16572,9 +16945,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "43-22 Queens Street #1207, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16594,6 +16969,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eagle-lofts/1207",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 47.875,
@@ -16613,7 +16990,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.875,
-      "visionNotes": "Open-plan kitchen with gas range visible in photo 2, showing visible burner grates and a modern stainless steel stove integrated into the living space."
+      "visionNotes": "Kitchen is visible and open to living/dining area with gas range; outdoor space shown is a shared building pool deck, not private; living room appears reasonably sized for NYC."
     },
     {
       "commute": {
@@ -16652,9 +17029,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "43-22 Queens Street #10E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16674,6 +17053,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eagle-lofts/10e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 47.875,
@@ -16693,7 +17074,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.875,
-      "visionNotes": "Kitchen is visible in the first photo with wood cabinetry open to a dining area; the stove has visible burner grates indicating gas cooking."
+      "visionNotes": "Kitchen is visible and open to dining/living area with visible gas range; no private outdoor space (pool/deck is shared building amenity); living room appears spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -16732,9 +17113,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "43-22 Queens Street #8A, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16754,6 +17137,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eagle-lofts/8a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 47.875,
@@ -16773,7 +17158,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.875,
-      "visionNotes": "Kitchen visible in photo 2 with gas range (visible burner grates), open to dining area with round table, light wood cabinetry."
+      "visionNotes": "Kitchen is visible and semi-open to dining/living area; gas range with visible burners; outdoor space shown is shared rooftop pool deck, not private; living room appears spacious with large windows and open layout."
     },
     {
       "commute": {
@@ -16815,9 +17200,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "880 Atlantic Avenue #2A, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16837,6 +17224,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/2a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.63,
@@ -16856,7 +17245,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.63,
-      "visionNotes": "Kitchen is open to dining/living areas with light wood cabinetry and a flat black cooktop/induction range visible in photos 4-5."
+      "visionNotes": "Kitchen is semi-open to dining/living areas with visible electric cooktop; living room is spacious with large windows and skyline views; no private outdoor space visible, only shared terrace/rooftop visible through windows."
     },
     {
       "commute": {
@@ -16898,9 +17287,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "880 Atlantic Avenue #7L, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -16920,6 +17311,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/7l",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.63,
@@ -16939,7 +17332,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.63,
-      "visionNotes": "Kitchen is visible in photos 5-7, featuring a semi-open layout with island counter facing living/dining areas, and an electric cooktop with black controls visible on the range."
+      "visionNotes": "Kitchen is clearly visible and open to dining/living areas; stove has a black flat cooktop (electric/induction); no private outdoor space shown; living room appears spacious with ample seating and windows."
     },
     {
       "commute": {
@@ -16981,9 +17374,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "880 Atlantic Avenue #8D, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17003,6 +17398,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/8d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.63,
@@ -17022,7 +17419,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.63,
-      "visionNotes": "Kitchen is visible in photos 4 and 5, open to dining/living areas with light wood cabinetry and a black electric cooktop with flat surface visible on the stove."
+      "visionNotes": "Kitchen is clearly visible and open to the dining/living area; stove appears to be electric with a flat black cooktop; living spaces are generous; windows show high-rise views but no private outdoor space visible."
     },
     {
       "commute": {
@@ -17064,9 +17461,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "880 Atlantic Avenue #4E, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17086,6 +17485,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/4e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.63,
@@ -17105,7 +17506,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.63,
-      "visionNotes": "Kitchen is visible and open to the living/dining area with light wood cabinetry; the stove has a black flat glass cooktop consistent with electric/induction cooking, not gas burners."
+      "visionNotes": "Kitchen is semi-open to dining/living area with electric cooktop, unit has a private terrace/balcony, and living room appears spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -17147,9 +17548,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
         "address": "880 Atlantic Avenue #3K, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17169,6 +17572,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/3k",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.63,
@@ -17188,7 +17593,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.63,
-      "visionNotes": "Kitchen is semi-open to dining/living area with light wood cabinetry and an electric cooktop with a flat black surface visible on the stove."
+      "visionNotes": "Kitchen is open to dining/living area with electric cooktop; private terrace visible with chair and plants; living room spacious with good furniture placement and NYC skyline views."
     },
     {
       "commute": {
@@ -17226,9 +17631,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "103 Smith Street #12, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17248,6 +17655,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/103-smith-street-brooklyn/12",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.5875,
@@ -17267,7 +17676,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.5875,
-      "visionNotes": "Kitchen is visible in photos 1, 3, and 6, semi-open to living area with a partial divider/counter, and the stove clearly shows gas burners with visible grates."
+      "visionNotes": "Kitchen is semi-open to living area with a partial divider; gas range visible with visible burner grates; no private outdoor space shown; living room appears typical size for NYC one-bedroom."
     },
     {
       "commute": {
@@ -17306,9 +17715,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "240 Willoughby Street #18U, BROOKLYN, NY, 11201",
+        "availableDate": "2026-08-02",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17328,6 +17739,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/240-willoughby/18u",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.5025,
@@ -17347,7 +17760,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.5025,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island counter; the range has visible burner grates indicating a gas stove."
+      "visionNotes": "Open-plan kitchen with island and gas range visible; living room is spacious with large windows and floor-to-ceiling views; no private outdoor space shown."
     },
     {
       "commute": {
@@ -17386,9 +17799,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
         "address": "240 Willoughby Street #26H, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17408,6 +17823,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/240-willoughby/26h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.5025,
@@ -17427,7 +17844,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.5025,
-      "visionNotes": "Kitchen is visible with light wood cabinetry, marble backsplash, and an electric stove with a flat black cooktop, appearing semi-open to a dining/living area."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove is electric with visible oven controls; unit has a private terrace with Manhattan skyline views; living room is spacious with high ceilings and large furniture pieces."
     },
     {
       "commute": {
@@ -17465,9 +17882,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5-09 48th Avenue #4H, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17487,6 +17906,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5th-street-lofts-5sl/4h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 47.279999999999994,
@@ -17506,7 +17927,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.279999999999994,
-      "visionNotes": "Open-plan kitchen with island counter visible in photo 3, featuring a gas range with visible burner grates and stainless steel appliances."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island; stove appears to have visible grates suggesting gas, but angle and reflection make it somewhat uncertain; no private outdoor space visible; living room appears reasonably sized for NYC."
     },
     {
       "commute": {
@@ -17545,9 +17966,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "1134 1st Avenue #3F, NEW YORK, NY, 10065",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17567,6 +17990,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1134-1-avenue-new_york/3f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 47.2375,
@@ -17586,7 +18011,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.2375,
-      "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with wood cabinetry, but stove details are not clearly visible from this distance."
+      "visionNotes": "Kitchen is visible and open to the living/dining area; stove details not clearly visible from this distance/angle; no private outdoor space shown; living room appears spacious with good furniture layout."
     },
     {
       "commute": {
@@ -17627,9 +18052,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "475 Clermont Avenue #903, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17649,6 +18076,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/475-clermont/0903",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 47.035000000000004,
@@ -17668,7 +18097,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.035000000000004,
-      "visionNotes": "Kitchen is visible in the first photo with an open layout integrated into the living space; the stove has visible burner grates indicating gas cooking."
+      "visionNotes": "Kitchen is clearly visible and open to the living area; gas range with visible burners is evident; the outdoor space shown is a shared building amenity (rooftop/courtyard), not private; living room is spacious with ample furniture placement."
     },
     {
       "commute": {
@@ -17707,9 +18136,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "104 Sixth Avenue #5, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17729,6 +18160,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/104-6-avenue-brooklyn/5",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.9925,
@@ -17748,7 +18181,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.9925,
-      "visionNotes": "Kitchen is visible in photo 5, appearing semi-open to the living area with a dark electric/induction stove visible against the subway tile backsplash."
+      "visionNotes": "Kitchen is visible in the last photo, semi-open to living/dining area; stove appears to be electric/induction based on flat cooktop visible; no private outdoor space shown; living room is compact with furniture-to-space ratio typical of tight NYC one-bedroom."
     },
     {
       "commute": {
@@ -17788,10 +18221,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "445 Grand Avenue #1807, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17811,6 +18246,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/arris-grand/1807",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.865,
@@ -17830,7 +18267,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.865,
-      "visionNotes": "Open-plan kitchen with island seating visible in the last photo, featuring a gas range with visible burners on the stovetop."
+      "visionNotes": "Kitchen visible with sink and white subway tile backsplash; appears open to living area; stove not visible in photos; building courtyard visible through glass doors (unclear if private); living room spacious with ample seating and ceiling height."
     },
     {
       "commute": {
@@ -17871,9 +18308,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "445 Grand Avenue #1201, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17893,6 +18332,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/arris-grand/1201",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.865,
@@ -17912,7 +18353,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.865,
-      "visionNotes": "Kitchen is open to the living/dining area with an island; stainless steel gas range with visible burner grates is clearly visible."
+      "visionNotes": "Kitchen with gas range visible in last photo, open to living area via island; living room is spacious with large windows and generous furniture layout; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
@@ -17951,9 +18392,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "41-15 24th Street #605, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -17973,6 +18416,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-pecora-lic/605",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.685,
@@ -17992,7 +18437,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.685,
-      "visionNotes": "Kitchen is semi-open to the living/dining area with an island; the cooktop is a flat black induction/electric surface, not gas."
+      "visionNotes": "Kitchen is open-plan to living/dining areas with an island; the stove is a flat black induction cooktop (electric); living room is spacious with high ceilings and ample furniture; no private outdoor space visible, only shared building views from windows."
     },
     {
       "commute": {
@@ -18031,9 +18476,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "41-15 24th Street #1012, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18053,6 +18500,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-pecora-lic/1012",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.685,
@@ -18072,7 +18521,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.685,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, open to the living/dining area with an island; the cooktop appears to be electric/induction based on the flat black surface visible on the island."
+      "visionNotes": "Kitchen is open to living/dining area with island; electric cooktop visible; private terrace/balcony shown in multiple photos; spacious living room with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -18111,9 +18560,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "41-15 24th Street #2402, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18133,6 +18584,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-pecora-lic/2402",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.685,
@@ -18152,7 +18605,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.685,
-      "visionNotes": "Open-plan kitchen with island and visible gas stove with burner grates on the range in the first photo."
+      "visionNotes": "Kitchen is open to living area with visible gas range; unit has private terrace/balcony with city views; spacious living room with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -18191,9 +18644,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "41-15 24th Street #738, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18213,6 +18668,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-pecora-lic/738",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.685,
@@ -18232,7 +18689,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.685,
-      "visionNotes": "Open-plan kitchen with island; electric induction cooktop visible on the island with a flat black glass surface."
+      "visionNotes": "Kitchen is open-plan with island, electric cooktop visible on island (flat black induction surface), no private outdoor space visible, and living areas appear spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -18273,9 +18730,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "834 Pacific Street #213, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18295,6 +18754,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/834-pacific-street-brooklyn/213",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.6525,
@@ -18314,89 +18775,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.6525,
-      "visionNotes": "Kitchen is visible in photo 2, featuring a semi-open layout with black lower cabinetry and white upper cabinetry; the stove has visible burner grates indicating a gas range."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "C Line",
-            "5 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 31,
-          "lines": [
-            "B48",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 54,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "1004 Fulton Street #4F, BROOKLYN, NY, 11238",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1004-fulton-street-brooklyn-4f.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/6f718c23d51bbd10e047d4ed19ca322a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9cc5ebcf7876a1eaaeda163eba3ed802-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b78091b4c56954883db4164387edcd67-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b693af40b7d30c552b63e6f3ab02017a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4d4f5754ca61ab7faf577a51e83e9a4f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/85b5321b44b99765868196a672499f09-se_large_800_400.webp"
-        ],
-        "price": 4195,
-        "sqft": null,
-        "title": "1004 Fulton Street #4F",
-        "url": "https://streeteasy.com/building/1004-fulton-street-brooklyn/4f",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 46.61,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.35,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 36.25,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 46.61,
-      "visionNotes": "Open-plan kitchen with visible gas range featuring black burners/grates, integrated with living area in first photo; also shows galley-style enclosed kitchen in last photo."
+      "visionNotes": "Kitchen is visible with gas cooktop; opens to living/dining area; outdoor spaces shown are shared building amenities (roof deck), not private to unit; living room appears spacious and well-proportioned."
     },
     {
       "commute": {
@@ -18435,9 +18814,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "335 East 65th Street #4, NEW YORK, NY, 10065",
+        "availableDate": "2026-08-07",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18457,6 +18838,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/335-east-65-street-new_york/4",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.387499999999996,
@@ -18476,7 +18859,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.387499999999996,
-      "visionNotes": "Kitchen visible in photo 2 with gas range (visible burners/grates), semi-open to living area shown in photo 1, compact galley-style layout along one wall."
+      "visionNotes": "Kitchen is open to the living/dining area with a partial island counter; gas range with visible burners and grates; no private outdoor space visible; living room appears spacious with high ceilings and good proportions."
     },
     {
       "commute": {
@@ -18517,9 +18900,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "49 Irving Place #1, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18539,6 +18924,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/49-irving-place-brooklyn/1",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.355000000000004,
@@ -18558,7 +18945,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.355000000000004,
-      "visionNotes": "Kitchen with wooden cabinetry is visible and opens into the dining/living area; gas cooktop with visible burners is clearly visible in the fourth photo."
+      "visionNotes": "Kitchen is visible with wood cabinetry and open to dining/living area via archway; gas cooktop visible in close-up; bedroom with glass doors suggests outdoor access (likely terrace/patio); living room appears reasonably proportioned for NYC."
     },
     {
       "commute": {
@@ -18598,9 +18985,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "2-17 51st Avenue #314, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18620,6 +19009,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-powerhouse/314",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.3025,
@@ -18639,7 +19030,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.3025,
-      "visionNotes": "Kitchen is open to living/dining area with a peninsula counter; gas range with visible burner grates is clearly visible in the detailed kitchen photos."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; gas range with visible burners clearly shown; spacious living room with standard NYC proportions; no private outdoor space visible."
     },
     {
       "commute": {
@@ -18679,9 +19070,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "316 Bergen Street #210, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-12",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18701,6 +19094,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bergen/0210",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.099999999999994,
@@ -18720,7 +19115,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.099999999999994,
-      "visionNotes": "Open-plan kitchen with a gray island peninsula facing the living area; electric stove with a smooth cooktop visible in the white cabinetry."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has a flat glass/ceramic cooktop (electric); no private outdoor space shown; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -18760,9 +19155,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "316 Bergen Street #610, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18782,6 +19179,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bergen/0610",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.099999999999994,
@@ -18801,7 +19200,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.099999999999994,
-      "visionNotes": "Open-plan kitchen visible in photos 3-4 with white cabinetry, stainless steel appliances, and a flat electric cooktop (no visible burner grates)."
+      "visionNotes": "Kitchen is open to living/dining area with electric stove visible; views show what appear to be trees/building from window but no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -18841,9 +19240,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "316 Bergen Street #711, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -18863,6 +19264,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bergen/0711",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 46.099999999999994,
@@ -18882,88 +19285,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.099999999999994,
-      "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 5-6, featuring stainless steel electric appliances including a flat cooktop range, integrated with living/dining area."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "316 Bergen Street #7-3, BROOKLYN, NY, 11217",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-bergen-703.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d2fa8c373a7f321557a4f8850e91fc40-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d02c55334862c1488313a60d2cbf8735-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/40c4db2a791db50911cf4540b70dd86a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/03667205995f4b130e0b1e829e39735a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d8b5f63bc94264b65503b9fa2efb46ea-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/56c8d8176d8824c8e205cef3fe5b47d7-se_extra_large_1500_800.webp"
-        ],
-        "price": 6462,
-        "sqft": null,
-        "title": "316 Bergen Street #7-3",
-        "url": "https://streeteasy.com/building/the-bergen/703",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 46.099999999999994,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.35,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 34.55,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 46.099999999999994,
-      "visionNotes": "Kitchen is open to living area with a peninsula counter; the stove in the second photo clearly shows visible burner grates indicating gas range."
+      "visionNotes": "Kitchen is semi-open with a pass-through counter to living/dining area; stove appears to be electric (flat cooktop visible); no private outdoor space; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -19001,9 +19323,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "63 West 104th Street #402, NEW YORK, NY, 10025",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19023,6 +19347,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/63-west-104-street-new_york/402",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.0475,
@@ -19042,7 +19368,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.0475,
-      "visionNotes": "Open-plan kitchen with light wood cabinets visible in photos 1 and 3, flowing into living/dining area; electric stove with flat cooktop visible on the left side of the kitchen."
+      "visionNotes": "Kitchen is clearly open-plan to living/dining area; stove appears to be electric/induction (flat dark cooktop visible); no private outdoor space shown; living room is compact with tight furniture arrangement typical of NYC micro-apartments."
     },
     {
       "commute": {
@@ -19080,9 +19406,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "63 West 104th Street #103, NEW YORK, NY, 10025",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19102,6 +19430,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/63-west-104-street-new_york/103",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 46.0475,
@@ -19121,7 +19451,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.0475,
-      "visionNotes": "Open-plan kitchen with visible gas range featuring black grates, connected to living/dining area with white island."
+      "visionNotes": "Kitchen is open to living area with visible gas range burners; no private outdoor space shown; living room appears typical size with L-shaped sectional."
     },
     {
       "commute": {
@@ -19159,10 +19489,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "39-26 30th Street #11A, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19182,6 +19514,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-fifty-lic/11a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.58,
@@ -19201,7 +19535,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.58,
-      "visionNotes": "Kitchen is clearly visible and open to the dining/living area with an island; the cooktop appears to be a flat electric or induction surface with no visible gas burners or grates."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island; stove type cannot be determined from the angle and reflection; no outdoor space visible in any photos; living room appears moderately sized for NYC."
     },
     {
       "commute": {
@@ -19240,9 +19574,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "38-38 32nd Street #907, LONG ISLAND CITY, NY, 11101",
+        "availableDate": null,
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19262,6 +19598,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-northern/907",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.5375,
@@ -19281,7 +19619,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.5375,
-      "visionNotes": "Kitchen is visible in photos 3-4, open to dining/living area with white cabinetry and a visible gas range with four burners and grates."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range; unit has private terrace/balcony accessible from living room; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -19320,9 +19658,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "314 West 71st Street #1, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19342,6 +19682,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.495,
@@ -19361,7 +19703,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.495,
-      "visionNotes": "Kitchen is visible in photo 2, open to dining area with white gas range featuring visible burner grates clearly visible on the stovetop."
+      "visionNotes": "Kitchen is clearly visible and open to dining area; gas range with visible burners/grates is evident in photo 2; living room is spacious per floor plan (15' x 20'4\"); no private outdoor space visible."
     },
     {
       "commute": {
@@ -19398,10 +19740,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
+      "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "47-05 5th Street #303, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19421,6 +19765,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-monarch-47_05-5th-street-long_island_city/303",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.4525,
@@ -19440,7 +19786,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.4525,
-      "visionNotes": "Kitchen is clearly visible in photos 3-4, open to living/dining area with wood cabinetry, and features a black gas range with visible burner grates."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; electric stove with flat cooktop visible; no private outdoor space shown; living room appears spacious with well-proportioned furniture layout."
     },
     {
       "commute": {
@@ -19479,9 +19825,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "38-27 32nd Street #901, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19501,6 +19849,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-northern-ii/901",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.41,
@@ -19520,7 +19870,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.41,
-      "visionNotes": "Kitchen is clearly visible in photo 3, features a gas stove with visible burners, open to living space via peninsula counter with seating."
+      "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; private terrace with seating shown in first photo; living room is spacious with good furniture-to-space ratio."
     },
     {
       "commute": {
@@ -19558,9 +19908,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "475 Central Park West #1C, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19580,6 +19932,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/475-central-park-west-new_york/1c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.325,
@@ -19599,7 +19953,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.325,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, open to living area with island counter; stove appears to be electric with a flat cooktop visible in the marble countertop setup."
+      "visionNotes": "Kitchen is semi-open to living area with island counter; stove appears to be electric/flat cooktop but angle makes it somewhat unclear; the last photo is a public park, not private outdoor space; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -19637,9 +19991,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "344 East 85th Street #1H, NEW YORK, NY, 10028",
+        "availableDate": "2026-08-07",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19659,6 +20015,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/344-east-85-street-new_york/1h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 45.2825,
@@ -19678,7 +20036,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.2825,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, semi-open to living area with breakfast bar, and the range has visible burner grates indicating a gas stove."
+      "visionNotes": "Kitchen is semi-open to living area with a counter pass-through; gas stove clearly visible with grates; no private outdoor space shown; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -19718,9 +20076,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "241 Carlton Avenue #3, BROOKLYN, NY, 11205",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19740,6 +20100,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/241-carlton-avenue-brooklyn/3",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 45.2725,
@@ -19759,7 +20121,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.2725,
-      "visionNotes": "Kitchen is visible and open to dining/living area, but the stove/range is not clearly visible enough to determine gas vs electric."
+      "visionNotes": "Kitchen is visible and open to dining/living area; stove type unclear from angles shown; exterior photo shows shared building grounds, not private outdoor space; living room appears reasonably proportioned for NYC."
     },
     {
       "commute": {
@@ -19798,9 +20160,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "595 Dean Street #632, BROOKLYN, NY, 11238",
+        "availableDate": "2026-07-01",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19820,6 +20184,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/595-dean-street-brooklyn/632",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 45.2075,
@@ -19839,7 +20205,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.2075,
-      "visionNotes": "Kitchen is semi-open to living/dining area with a pass-through counter, and a gas range with visible burners is clearly visible in the last photo."
+      "visionNotes": "Kitchen is visible and open to living/dining areas; stove appears to have gas burners visible in photo 4 and 7; living room is generously proportioned with good furniture arrangement; no private outdoor space visible, only building windows/views."
     },
     {
       "commute": {
@@ -19878,9 +20244,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "595 Dean Street #834, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19900,6 +20268,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/595-dean-street-brooklyn/834",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 45.2075,
@@ -19919,7 +20289,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.2075,
-      "visionNotes": "Kitchen is visible in photos 4 and 7, featuring a galley-style layout with pass-through counter opening to living areas, and a visible gas cooktop with visible burner grates."
+      "visionNotes": "Kitchen visible in photos 4 and 7 with semi-open layout to living areas; gas cooktop visible in photo 7; living room appears spacious in photo 2 and 7; no private outdoor space visible, only windows."
     },
     {
       "commute": {
@@ -19958,9 +20328,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "595 Dean Street #213, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -19980,6 +20352,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/595-dean-street-brooklyn/213",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 45.2075,
@@ -19999,7 +20373,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.2075,
-      "visionNotes": "Kitchen visible in photos 4 and 7 with semi-open layout to living areas; visible gas cooktop with burners and grates in photo 7."
+      "visionNotes": "Kitchen is visible and open to living area; stove appears to have visible burner grates suggesting gas; no private outdoor space visible; living room appears spacious with generous proportions."
     },
     {
       "commute": {
@@ -20040,9 +20414,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "957 Atlantic Avenue #710, BROOKLYN, NY, 11238",
+        "availableDate": "2026-08-02",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20062,6 +20438,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-alanza/710",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 45.0375,
@@ -20081,7 +20459,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.0375,
-      "visionNotes": "Kitchen is visible in the last photo, open to the living area, but stove type cannot be determined from the distance and angle shown."
+      "visionNotes": "Kitchen is visible and open to living area in the last photo; stove type cannot be determined from the angle and distance; no private outdoor space visible; living room appears spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -20118,9 +20496,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "4615 Center Boulevard #2904, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20140,6 +20520,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/4615-center-boulevard/2904",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.98499999999999,
@@ -20159,7 +20541,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.98499999999999,
-      "visionNotes": "Kitchen visible in photo 3 with a peninsula/breakfast bar layout open to living space; gas cooktop with visible burners clearly visible."
+      "visionNotes": "Kitchen is visible and open to the living/dining area with a gas cooktop; no private outdoor space shown; living room appears spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -20196,9 +20578,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "1739 2nd Avenue #4S, NEW YORK, NY, 10128",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20218,6 +20602,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-max-1739-2-avenue/4s",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.900000000000006,
@@ -20237,7 +20623,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.900000000000006,
-      "visionNotes": "Kitchen is visible in the last photo with light wood cabinetry and bar seating, clearly open to the living area, but stove type cannot be determined from the distance and angle shown."
+      "visionNotes": "Kitchen is visible and open to living area in last photo; no stove details visible; large windows overlook building/trees, not private outdoor space; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -20277,10 +20663,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "gasStove": "unknown",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
         "address": "37-34 33rd Street #4F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20300,6 +20688,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/lucent33-condominium/4f",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.7725,
@@ -20319,7 +20709,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.7725,
-      "visionNotes": "Kitchen is partially open to living area via island counter; electric cooktop visible on the range with flat cooking surface, no visible gas burners or grates."
+      "visionNotes": "Open-plan kitchen with island visible in first photos; private terrace/balcony with glass railing shown in photo 5; living room appears spacious with good furniture layout and natural light."
     },
     {
       "commute": {
@@ -20357,9 +20747,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5-11 47th Avenue #7M, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20379,6 +20771,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-maximilian/07m",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.73,
@@ -20398,7 +20792,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.73,
-      "visionNotes": "Kitchen is visible in photo 2, open to the living/dining area with a gas range featuring visible burners and grates."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly shown; no private outdoor space visible; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -20441,9 +20835,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "249 Willoughby Avenue #10HH, BROOKLYN, NY, 11205",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20463,6 +20859,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/parish-house/10hh",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 44.655,
@@ -20482,7 +20880,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.655,
-      "visionNotes": "Kitchen is visible in the last two photos with gas burners visible on the range, open to a dining area with a black table in the foreground."
+      "visionNotes": "Kitchen with gas range visible and semi-open to dining area; private terrace accessible from living room; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -20522,9 +20920,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "218 West 103rd Street #6B, NEW YORK, NY, 10025",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20544,6 +20944,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-rockwell/6b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.56,
@@ -20563,7 +20965,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.56,
-      "visionNotes": "Kitchen is visible in photos 2-3, featuring an open-plan layout with island seating facing the living area, and a gas cooktop with visible burners is clearly visible on the range."
+      "visionNotes": "Kitchen is visible with gas cooktop (visible burners/grates), open to living/dining area with peninsula counter; living room appears spacious with high ceilings and ample seating; no private outdoor space shown, only street views from windows."
     },
     {
       "commute": {
@@ -20603,9 +21005,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "37-25 32nd Street #4A, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20625,6 +21029,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-auberge/4a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.4325,
@@ -20644,7 +21050,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.4325,
-      "visionNotes": "Kitchen is partially enclosed with a peninsula/partial wall separating it from the living area; the stove has a flat black glass/ceramic electric cooktop with visible control knobs."
+      "visionNotes": "Kitchen is semi-open to living area with a partial wall dividing them; stove has a flat black electric/induction cooktop; no private outdoor space visible; living room appears spacious with ample square footage."
     },
     {
       "commute": {
@@ -20684,9 +21090,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "37-25 32nd Street #4C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-20",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20706,6 +21114,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-auberge/4c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.4325,
@@ -20725,7 +21135,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.4325,
-      "visionNotes": "Kitchen is visible in photos 1-3, semi-open to living/dining area with a partial wall divider, and features black electric ovens with flat glass cooktops rather than gas burners."
+      "visionNotes": "Kitchen is semi-open to living/dining area with a partial wall divider; electric oven visible; living room appears spacious with large windows and open floor plan; no private outdoor space shown."
     },
     {
       "commute": {
@@ -20758,9 +21168,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "638 West End Avenue #3A, NEW YORK, NY, 10024",
+        "availableDate": "2026-08-03",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20779,6 +21191,9 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/638-west-end-avenue-new_york/3a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "unknown",
       "rankBreakdown": {
         "total": 44.4,
         "neighborhood": {
@@ -20797,7 +21212,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.4,
-      "visionNotes": "Open-plan kitchen integrated into living space with a white and black electric range/oven visible with a flat cooktop surface."
+      "visionNotes": "Open-plan kitchen with electric range/oven visible; living room is compact with furniture filling most of the space; no private outdoor space shown, only windows overlooking NYC streets."
     },
     {
       "commute": {
@@ -20834,10 +21249,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20857,6 +21274,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/47_05-center-blvd-long_island_city/1001",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.3475,
@@ -20876,7 +21295,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.3475,
-      "visionNotes": "Kitchen is semi-open with a breakfast bar counter facing the living/dining area; electric cooktop with flat glass surface visible in the white cabinetry."
+      "visionNotes": "Kitchen visible and open to living/dining area with island; no stove burners clearly visible in kitchen photo; spacious living room with floor-to-ceiling windows and multiple seating areas; no private outdoor space shown."
     },
     {
       "commute": {
@@ -20917,9 +21336,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "262 9th Street #1002, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -20939,6 +21360,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-deermar/1002",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 44.06,
@@ -20958,89 +21381,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.06,
-      "visionNotes": "Kitchen features an open-plan layout with island seating, and the range has visible gas burners/grates."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 23,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "262 9th Street #706, BROOKLYN, NY, 11215",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-deermar-706.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/7628f2f4bda2396ce11e258134e8f5cc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/658c64cef1e9335c4160c5d99ce12aa2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/78fabc2cdc07fd306e7fbe20a53eefcf-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b6860a34ab566124af6c7c9c724db209-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5cc25fd63c9b29cb5c4e72c4e09ef86e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9258eaf706f8acb7ea54806a2bf606dd-se_extra_large_1500_800.webp"
-        ],
-        "price": 5199,
-        "sqft": null,
-        "title": "262 9th Street #706",
-        "url": "https://streeteasy.com/building/the-deermar/706",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 44.06,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.35,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 33.7,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 44.06,
-      "visionNotes": "Open-plan kitchen with electric slide-in range featuring flat cooktop and digital controls, visible in multiple photos."
+      "visionNotes": "Kitchen is fully open to living/dining areas with visible gas burners on the range; unit has floor-to-ceiling windows with city views but no private outdoor space; living room appears spacious and well-proportioned."
     },
     {
       "commute": {
@@ -21077,9 +21418,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "4540 Center Boulevard #1801, QUEENS, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21099,6 +21442,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/4540-center-boulevard-queens/1801",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 44.0075,
@@ -21118,7 +21463,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.0075,
-      "visionNotes": "Kitchen is semi-open to living/dining areas with a peninsula counter; electric cooktop visible with flat black surface and no visible grates."
+      "visionNotes": "Kitchen is semi-open to living/dining areas with black electric cooktop visible; unit has a private terrace with skyline views; living room is spacious and well-proportioned for NYC."
     },
     {
       "commute": {
@@ -21155,10 +21500,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "4-75 48th Avenue #403, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "2026-07-30",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21178,6 +21525,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/riverview-north/403",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.8375,
@@ -21197,85 +21546,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.8375,
-      "visionNotes": "Kitchen is open to living/dining area with wood cabinets, stainless steel appliances, and a dark flat-top electric cooktop visible."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 12,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 45,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 38,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "4610 Center Boulevard #517, LONG ISLAND CITY, NY, 11109",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-4610-center-blvd-517.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/26ed99047496f9f62bb63bd459a31f56-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/26ed99047496f9f62bb63bd459a31f56-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6bc0e3bcf69e95662b74d3ad3509b0d9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/803604e91f01479987f45329cdd38313-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b412e95b897aad20a638f1fb9e2753b5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e717516d659dd2d151b4c0582ac2b8b3-se_large_800_400.webp"
-        ],
-        "price": 5960,
-        "sqft": null,
-        "title": "4610 Center Boulevard #517",
-        "url": "https://streeteasy.com/building/4610-center-blvd/517",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.794999999999995,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 37.95,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 43.794999999999995,
-      "visionNotes": "Kitchen is visible in photo 5 with an open layout adjacent to living area; stove type unclear but appears to be electric/induction based on sleek modern appliances."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove type cannot be determined from angle/resolution; no private outdoor space visible; living room appears appropriately sized for NYC one-bedroom."
     },
     {
       "commute": {
@@ -21313,9 +21584,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "550 Vanderbilt Avenue #702, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21335,6 +21608,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/550-vanderbilt-avenue-brooklyn/702",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.635000000000005,
@@ -21354,7 +21629,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.635000000000005,
-      "visionNotes": "Kitchen is visible in photos 2 and 3, open to dining area with visible gas cooktop featuring multiple burner grates."
+      "visionNotes": "Kitchen is visible and open to dining/living area with gas cooktop; living room is spacious with large windows; no private outdoor space shown."
     },
     {
       "commute": {
@@ -21394,9 +21669,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5203 Center Boulevard #5006, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21416,6 +21693,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5203-center-boulevard/5006",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.4975,
@@ -21435,7 +21714,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.4975,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with flat glass/ceramic surface, no visible gas burners or grates."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; flat cooktop suggests electric/induction; spacious living areas with floor-to-ceiling windows; no private outdoor space visible, only interior rooms."
     },
     {
       "commute": {
@@ -21475,9 +21754,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5203 Center Boulevard #3111, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21497,6 +21778,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5203-center-boulevard/3111",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.4975,
@@ -21516,88 +21799,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.4975,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with flat glass/ceramic surface on the range."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 24,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "7",
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 5,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "5203 Center Boulevard #3506, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-3506.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/4cd01af285f21b746887b5c138a912cc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4cd01af285f21b746887b5c138a912cc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4d37884b99728cc86e5d82ac89540729-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6248c2b453f38ebe0d2bc8dd9b4ea93d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/466c5f63b9a0486982d15480d4ed52d0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b3b5152ef9aab2ab14fb48c416a93422-se_large_800_400.webp"
-        ],
-        "price": 6785,
-        "sqft": null,
-        "title": "5203 Center Boulevard #3506",
-        "url": "https://streeteasy.com/building/5203-center-boulevard/3506",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.4975,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 59.2,
-          "weight": 0.35,
-          "minutes": 24
-        },
-        "friends": {
-          "score": 40.925000000000004,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 43.4975,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with a gas range featuring visible burners and grates."
+      "visionNotes": "Kitchen is open to living/dining areas with what appears to be electric cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "commute": {
@@ -21637,28 +21839,32 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "5203 Center Boulevard #5509, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 2,
+        "address": "5203 Center Boulevard #3506, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-24",
+        "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-5509.png",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-3506.png",
         "neighborhood": "Hunters Point",
         "photos": [
+          "https://photos.zillowstatic.com/fp/4cd01af285f21b746887b5c138a912cc-se_extra_large_1500_800.webp",
           "https://photos.zillowstatic.com/fp/4cd01af285f21b746887b5c138a912cc-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/4d37884b99728cc86e5d82ac89540729-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/6248c2b453f38ebe0d2bc8dd9b4ea93d-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/466c5f63b9a0486982d15480d4ed52d0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b3b5152ef9aab2ab14fb48c416a93422-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a3fcce56387cf6bd6983e9e6e0e37919-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/b3b5152ef9aab2ab14fb48c416a93422-se_large_800_400.webp"
         ],
-        "price": 6985,
+        "price": 6785,
         "sqft": null,
-        "title": "5203 Center Boulevard #5509",
-        "url": "https://streeteasy.com/building/5203-center-boulevard/5509",
+        "title": "5203 Center Boulevard #3506",
+        "url": "https://streeteasy.com/building/5203-center-boulevard/3506",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.4975,
@@ -21678,7 +21884,92 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.4975,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; flat cooktop with no visible burners/grates indicates electric or induction stove."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; cooktop appears to be electric/induction (flat surface); no private outdoor space shown; living rooms are spacious with floor-to-ceiling windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 24,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "7",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 44,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 37,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "5203 Center Boulevard #5509, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-5509.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/4cd01af285f21b746887b5c138a912cc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4d37884b99728cc86e5d82ac89540729-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6248c2b453f38ebe0d2bc8dd9b4ea93d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/466c5f63b9a0486982d15480d4ed52d0-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b3b5152ef9aab2ab14fb48c416a93422-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a3fcce56387cf6bd6983e9e6e0e37919-se_large_800_400.webp"
+        ],
+        "price": 6985,
+        "sqft": null,
+        "title": "5203 Center Boulevard #5509",
+        "url": "https://streeteasy.com/building/5203-center-boulevard/5509",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.4975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 40.925000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.4975,
+      "visionNotes": "Kitchen is clearly visible and open to living areas; stove appears to be electric/induction cooktop but reflection makes it slightly hard to confirm; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -21716,10 +22007,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "882 Union Street #4D, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21739,6 +22032,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/882-union-street-brooklyn/4d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.3375,
@@ -21758,7 +22053,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.3375,
-      "visionNotes": "Kitchen is clearly visible in photo 2 with an island counter opening to dining area; gas range with visible burners and grates is evident on the stove."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; electric stove with smooth cooktop visible; no private outdoor space shown; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -21795,9 +22090,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "4545 Center Boulevard #3902, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21817,6 +22114,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/4545-center-boulevard/3902",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.285,
@@ -21836,7 +22135,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.285,
-      "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with a black flat glass cooktop (electric/induction), indicating an electric stove."
+      "visionNotes": "Kitchen is open to living area with black cooktop (appears electric/induction); photos 2-6 show shared building amenities, not private outdoor space; living room is spacious with large windows and properly furnished."
     },
     {
       "commute": {
@@ -21873,9 +22172,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "4545 Center Boulevard #2501, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21895,6 +22196,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/4545-center-boulevard/2501",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 43.285,
@@ -21914,7 +22217,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.285,
-      "visionNotes": "Open-plan kitchen with black countertop and stainless steel appliances visible, but stove type cannot be determined from the angle shown."
+      "visionNotes": "Kitchen is visible and open to the living area with floor-to-ceiling windows; stove type unclear due to angle and reflection; outdoor spaces shown are shared building amenities, not private; living room is spacious with high ceilings and panoramic city views."
     },
     {
       "commute": {
@@ -21954,9 +22257,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "556 Baltic Street #502, NEW YORK, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -21976,6 +22281,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/502",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.040000000000006,
@@ -21995,7 +22302,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.040000000000006,
-      "visionNotes": "Open-plan kitchen with wood cabinetry and island seating, visible gas cooktop with burner grates in photos 1 and 6."
+      "visionNotes": "Open-plan kitchen visible in multiple photos with gas cooktop; large private terrace/balcony with city views; spacious living room with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -22035,9 +22342,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "556 Baltic Street #901, NEW YORK, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22057,6 +22366,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/901",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.040000000000006,
@@ -22076,7 +22387,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.040000000000006,
-      "visionNotes": "Kitchen is clearly visible and open to the living area with an island layout; no stovetop/range is visible in any of the kitchen photos."
+      "visionNotes": "Kitchen is visible and open to living area; stove type unclear due to angle/distance; outdoor space appears to be a shared rooftop deck, not private; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -22116,9 +22427,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "556 Baltic Street #402, NEW YORK, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22138,6 +22451,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/402",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.040000000000006,
@@ -22157,7 +22472,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.040000000000006,
-      "visionNotes": "Open-plan kitchen with island and visible gas range with burners/grates integrated into the modern stove."
+      "visionNotes": "Kitchen is open to living/dining area with island; gas cooktop visible; spacious living room with floor-to-ceiling windows and no private outdoor space."
     },
     {
       "commute": {
@@ -22197,9 +22512,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "556 Baltic Street #1102, NEW YORK, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22219,6 +22536,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/1102",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 43.040000000000006,
@@ -22238,7 +22557,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.040000000000006,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with large windows; gas cooktop with visible burners is visible on the stovetop."
+      "visionNotes": "Kitchen is clearly open to living/dining area with island; stove appears to have visible burners suggesting gas, though reflections make it slightly uncertain; no private outdoor space visible, only floor-to-ceiling windows; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -22277,9 +22596,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #2O, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22299,6 +22620,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/2o",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22318,7 +22641,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is semi-open to living/dining area with an island; the stove has a flat black cooktop indicating electric/induction rather than gas burners."
+      "visionNotes": "Kitchen is clearly visible and open to living area with island; stove appears to be electric/induction (flat dark cooktop visible); windows show balcony/outdoor space accessible from living area."
     },
     {
       "commute": {
@@ -22357,9 +22680,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "526 Baltic Street #12A, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22379,6 +22704,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/12a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22398,7 +22725,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is visible in the first two photos, open to living/dining area with visible gas range featuring burner grates and knobs."
+      "visionNotes": "Kitchen is semi-open to living/dining area with visible gas burners on the stove; unit has access to a private terrace/outdoor space visible through glass doors."
     },
     {
       "commute": {
@@ -22437,9 +22764,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": true,
+      "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #2N, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22459,6 +22788,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/2n",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22478,7 +22809,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is semi-open to living area with an island; the stove has a flat black glass cooktop indicating electric/induction cooking."
+      "visionNotes": "Kitchen is open to living area with island; stove has flat black cooktop (electric/induction); private terrace visible with skyline views and metal railing."
     },
     {
       "commute": {
@@ -22517,9 +22848,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #11E, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22539,6 +22872,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/11e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22558,7 +22893,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range featuring four burner grates and knobs on the stovetop."
+      "visionNotes": "Kitchen is open to living area with visible gas range (burners/grates visible on cooktop), unit has a private terrace, and living room appears spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -22597,9 +22932,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #7J, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22619,6 +22956,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/7j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22638,7 +22977,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Open-plan kitchen with island counter overlooking living area; stove has visible burner grates indicating gas range."
+      "visionNotes": "Kitchen is open to living area with visible gas range (four burners with grates); unit has access to outdoor terrace/balcony visible in multiple photos."
     },
     {
       "commute": {
@@ -22677,89 +23016,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "526 Baltic Street #9B, BROOKLYN, NY, 11217",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-9b.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/522dd2a1928d9463611dbbdcf9cf9f49-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5c4b02917d0798495ab69bf46b8c4724-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7089a3a5aeafcc8cde2209919eaa63f9-se_large_800_400.webp"
-        ],
-        "price": 4744,
-        "sqft": null,
-        "title": "526 Baltic Street #9B",
-        "url": "https://streeteasy.com/building/the-baltic-canal/9b",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 42.8275,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.35,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 31.575000000000003,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 42.8275,
-      "visionNotes": "Kitchen is semi-open to living/dining area with an island; the range has visible burner grates indicating a gas stove."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #3B, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22779,6 +23040,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/3b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22798,7 +23061,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is semi-open to living area with an island counter; gas range visible with 4 burners and grates in photos 1 and 3."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with an island; gas range with visible burners/knobs; no private outdoor space (only window views of other buildings and shared courtyard); living room appears spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -22837,9 +23100,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #5B, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22859,6 +23124,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/5b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.8275,
@@ -22878,7 +23145,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.8275,
-      "visionNotes": "Kitchen is open to living area with island counter; gas range visible with 4 burner grates clearly showing on cooktop."
+      "visionNotes": "Kitchen is clearly visible and open to living areas with an island; gas range with visible burners/knobs; no private outdoor space shown; living room appears moderate-sized with windows but furniture not fully visible."
     },
     {
       "commute": {
@@ -22918,9 +23185,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "557 Baltic Street #507, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -22940,6 +23209,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/131-3-avenue-brooklyn/507",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.785000000000004,
@@ -22959,7 +23230,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.785000000000004,
-      "visionNotes": "Kitchen is fully open to living/dining area with visible gas range featuring exposed burners and grates on the stovetop."
+      "visionNotes": "Open-plan kitchen with gas range visible in multiple photos; large living areas with floor-to-ceiling windows overlooking NYC skyline; no private outdoor space visible, only high-rise balconies/windows."
     },
     {
       "commute": {
@@ -23002,9 +23273,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "180 Fifth Avenue #1, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23024,6 +23297,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/180-5-avenue-brooklyn/1",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.785000000000004,
@@ -23043,7 +23318,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.785000000000004,
-      "visionNotes": "Kitchen is visible in photos 1, 4, and 5; it is open to dining/living areas with visible gas burners and grates on the range."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas stove with visible burner grates; living room appears spacious with good furniture layout; windows open to fire escapes/street, no private garden."
     },
     {
       "commute": {
@@ -23083,9 +23358,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "159 3rd Avenue #6E, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23105,6 +23382,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/159-3-avenue/6e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.4025,
@@ -23124,7 +23403,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.4025,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; the stove has a flat glass/ceramic cooktop indicating electric or induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; electric stove with smooth cooktop visible; no private outdoor space shown; living room appears spacious with large windows and high ceilings."
     },
     {
       "commute": {
@@ -23164,9 +23443,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "159 3rd Avenue #6J, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23186,6 +23467,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/159-3-avenue/6j",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.4025,
@@ -23205,7 +23488,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.4025,
-      "visionNotes": "Open-plan kitchen with island is clearly visible and flows into living area, but the stovetop is not clearly visible enough to determine if it's gas or electric."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; private terrace/balcony clearly shown; spacious living area with floor-to-ceiling windows; stove type obscured by angles and reflections."
     },
     {
       "commute": {
@@ -23244,10 +23527,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "159 3rd Avenue #5L, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23267,6 +23552,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/159-3-avenue/5l",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.4025,
@@ -23286,7 +23573,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.4025,
-      "visionNotes": "Kitchen is semi-open to living area with an island counter; the stove appears to be electric with a flat glass/ceramic cooktop visible in photo 2."
+      "visionNotes": "Kitchen is clearly visible and open to living area with island; stove type indeterminate from angles shown; no private outdoor space visible; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -23326,9 +23613,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "159 3rd Avenue #5E, BROOKLYN, NY, 11217",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23348,6 +23637,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/159-3-avenue/5e",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.4025,
@@ -23367,7 +23658,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.4025,
-      "visionNotes": "Kitchen features an island with bar seating open to living area, with a visible electric/induction cooktop (flat black surface, no visible grates)."
+      "visionNotes": "Kitchen is clearly visible and open to the living area with an island; the stove appears to be electric/built-in (no visible gas grates); no private outdoor space visible; living room is spacious with large windows and high ceilings."
     },
     {
       "commute": {
@@ -23405,9 +23696,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "4720 Center Boulevard #926, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23427,6 +23720,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/4720-center-boulevard/926",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 42.265,
@@ -23446,7 +23741,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.265,
-      "visionNotes": "Kitchen is open to living/dining area with black island; stove appears to be electric/induction cooktop based on flat cooking surface visible."
+      "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric cooktop; outdoor spaces shown are shared building amenities (gym, rooftop deck, courtyard), not private unit space; living room is spacious with large windows and good furniture ratio."
     },
     {
       "commute": {
@@ -23486,9 +23781,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "645 Park Place #7D, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23508,6 +23805,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/645-park-place/7d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.105000000000004,
@@ -23527,7 +23826,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.105000000000004,
-      "visionNotes": "Open-plan kitchen visible in first two photos with gas range clearly showing burners/grates on the stovetop."
+      "visionNotes": "Kitchen is open to dining/living area with visible gas range (burner grates clearly visible), spacious living room with good furniture distribution, and no private outdoor space shown."
     },
     {
       "commute": {
@@ -23567,9 +23866,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "645 Park Place #8C, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23589,6 +23890,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/645-park-place/8c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.105000000000004,
@@ -23608,7 +23911,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.105000000000004,
-      "visionNotes": "Open-plan kitchen with light wood cabinets visible in multiple photos; gas range with visible burners and grates clearly shown in first two photos."
+      "visionNotes": "Kitchen is clearly visible and open to living area; gas range with visible burners/grates seen in multiple photos; multiple private terraces with railings visible; spacious living room with high ceilings and ample furniture space."
     },
     {
       "commute": {
@@ -23648,9 +23951,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "645 Park Place #7H, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23670,6 +23975,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/645-park-place/7h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.105000000000004,
@@ -23689,7 +23996,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.105000000000004,
-      "visionNotes": "Open-plan kitchen with visible gas range featuring multiple burners and grates, integrated into the living/dining area with no walls separating it."
+      "visionNotes": "Kitchen is open to a spacious living area with gas range clearly visible; private terrace accessible via sliding glass doors; rooms are generously proportioned."
     },
     {
       "commute": {
@@ -23729,9 +24036,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "645 Park Place #8A, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23751,6 +24060,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/645-park-place/8a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.105000000000004,
@@ -23770,7 +24081,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.105000000000004,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating gas cooking."
+      "visionNotes": "Kitchen is open to living area with visible gas range (burners/grates visible); unit has exclusive private terrace access; living room is spacious with floor-to-ceiling windows and minimal furniture density."
     },
     {
       "commute": {
@@ -23810,9 +24121,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "645 Park Place #7C, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23832,6 +24145,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/645-park-place/7c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 42.105000000000004,
@@ -23851,7 +24166,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.105000000000004,
-      "visionNotes": "Open-plan kitchen with light wood cabinetry, clearly visible gas range with visible burners and grates in the first two photos, seamlessly integrated with dining and living areas."
+      "visionNotes": "Open-plan kitchen with visible gas range (burner grates clearly visible in photo 2), flows directly into dining/living area; living room is spacious with well-proportioned furniture; no private outdoor space visible, only windows with mountain views."
     },
     {
       "commute": {
@@ -23888,9 +24203,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "21 West End Avenue #3813, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23910,6 +24227,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 41.9675,
@@ -23929,7 +24248,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.9675,
-      "visionNotes": "Kitchen is visible in photo 2 with an island counter that opens to the adjacent living/laundry area, but the stove/range is not visible from this angle."
+      "visionNotes": "Kitchen is visible and open to living area with a peninsula counter; stove/cooktop not clearly visible; large living room with expansive windows and city views; no private outdoor space visible, last image is building lobby."
     },
     {
       "commute": {
@@ -23970,9 +24289,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "96 Steuben Street #5H, BROOKLYN, NY, 11205",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -23992,6 +24313,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/96-steuben-street-brooklyn/5h",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.81,
@@ -24011,7 +24334,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.81,
-      "visionNotes": "Kitchen is visible in photo 2, semi-open to living/dining area with white cabinetry and stainless steel appliances; the visible cooktop appears to be electric/induction based on the flat surface design."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove appears to be electric with a flat cooktop; no private outdoor space shown; living room is spacious with modern furniture layout."
     },
     {
       "commute": {
@@ -24052,9 +24375,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "96 Steuben Street #5G, BROOKLYN, NY, 11205",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24074,6 +24399,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/96-steuben-street-brooklyn/5g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.81,
@@ -24093,7 +24420,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.81,
-      "visionNotes": "Open-plan kitchen with visible gas range showing burner grates, stainless steel appliances, and direct access to living area."
+      "visionNotes": "Open-plan kitchen with gas range visible; spacious living areas with no private outdoor space shown; unit appears to be a modern renovation in a multi-unit building."
     },
     {
       "commute": {
@@ -24134,9 +24461,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "100 Steuben Street #5B, BROOKLYN, NY, 11205",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24156,6 +24485,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/100-steuben-street-brooklyn/5b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.81,
@@ -24175,7 +24506,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.81,
-      "visionNotes": "Kitchen is semi-open to the living/dining area with a peninsula counter, and the range/stove has visible black grates indicating gas burners."
+      "visionNotes": "Kitchen is semi-open to living/dining area with visible gas range; no private outdoor space visible; living room appears spacious with natural light and typical NYC proportions."
     },
     {
       "commute": {
@@ -24214,9 +24545,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "372 Saint John's Place #53, BROOKLYN, NY, 11238",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24236,6 +24569,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/372-st-johns-place-brooklyn/53",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.68,
@@ -24255,89 +24590,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.68,
-      "visionNotes": "Open-plan kitchen with electric slide-in range featuring a smooth flat cooktop visible in multiple photos; kitchen flows directly into living/dining areas."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 43,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 24,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 54,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 49,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-243-8-street-brooklyn-3r.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45690848db012f6556a9149d54d8f332-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7cfd05d9f888a2bd6f7b845062f03dcd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1bb468c373bf22408121f5bfef5a5006-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
-        ],
-        "price": 6700,
-        "sqft": null,
-        "title": "243 Eight Street #3R",
-        "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 41.6375,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.35,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 31.575000000000003,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 41.6375,
-      "visionNotes": "Kitchen features a sage green cabinetry with an island and is semi-open to the dining/living area; the stove is electric/induction with a flat black cooktop visible."
+      "visionNotes": "Kitchen is clearly visible and open to the living area with electric range; private roof deck shown in first photo; living room appears spacious with ample natural light."
     },
     {
       "commute": {
@@ -24375,9 +24628,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "101 West End Avenue #9N, NEW YORK, NY, 10069",
+        "availableDate": "now",
         "bathrooms": 1.5,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24397,6 +24652,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/9n?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=3uipglpX91nlXFn5PE0wjoGlxpw_F-LBctjQkB-nw73u2sSD7SId1MMFHaeaDiUX-FlA_9kSS2MN9fJn",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 41.6275,
@@ -24416,7 +24673,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.6275,
-      "visionNotes": "Open-plan kitchen with island layout visible in photo 2, featuring a gas cooktop with visible burners integrated into the countertop."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; gas cooktop with visible burners; no private outdoor space shown; living room appears spacious with high ceilings."
     },
     {
       "commute": {
@@ -24453,10 +24710,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "101 West End Avenue #11Q, NEW YORK, NY, 10069",
+        "availableDate": "2026-07-29",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24476,6 +24735,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 41.6275,
@@ -24495,7 +24756,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.6275,
-      "visionNotes": "Kitchen is visible in the last photo, semi-open to living area with white cabinetry and wood accents, featuring a visible gas cooktop with burners on the right side."
+      "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
     },
     {
       "commute": {
@@ -24536,9 +24797,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "151 Carlton Avenue #2B, BROOKLYN, NY, 11205",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24558,6 +24821,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-garrison/2b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.61750000000001,
@@ -24577,7 +24842,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.61750000000001,
-      "visionNotes": "Open-plan kitchen with island and dining area visible in first photo, but stove/range details are not clearly visible from this angle."
+      "visionNotes": "Kitchen is open-plan to living/dining area with island; outdoor terrace visible through glass doors; living room appears spacious with high ceilings and extensive windows; stove type unclear due to angle and reflection."
     },
     {
       "commute": {
@@ -24617,10 +24882,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "no",
+      "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "503 4th Avenue #3G, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24640,6 +24907,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/209-13-street-brooklyn/3g",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.595000000000006,
@@ -24659,7 +24928,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.595000000000006,
-      "visionNotes": "Open-plan kitchen with island seating overlooking living area; electric cooktop visible with flat glass/ceramic surface, no visible gas burners or grates."
+      "visionNotes": "Open-plan kitchen with island seating opens directly to living areas; gas burners visible on stove; windows show outdoor views but no private outdoor space for unit; living room appears typical size but sparsely furnished in photos."
     },
     {
       "commute": {
@@ -24700,9 +24969,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "389 10th Street #2, BROOKLYN, NY, 11215",
+        "availableDate": "2026-07-15",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24722,6 +24993,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/389-10-street-brooklyn/2",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.4675,
@@ -24741,7 +25014,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.4675,
-      "visionNotes": "Kitchen visible in first and third photos; semi-open to living/dining area with white cabinetry; gas range with visible burners and grates clearly visible in the third photo."
+      "visionNotes": "Kitchen is visible and semi-open to living area; gas range with visible burners; no private outdoor space shown; living room appears spacious with good proportions for NYC."
     },
     {
       "commute": {
@@ -24779,9 +25052,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "484 East 74th Street #7, NEW YORK, NY, 10021",
+        "availableDate": "2026-08-17",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24801,6 +25076,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/484-east-74-street-new_york/7",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 41.33,
@@ -24820,7 +25097,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.33,
-      "visionNotes": "Kitchen is visible in photo 2, semi-open to the dining/living area with white cabinetry, and the stove clearly has visible burner grates indicating a gas range."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range; no private outdoor space shown; living room is spacious with ample furniture and clear sightlines."
     },
     {
       "commute": {
@@ -24860,9 +25137,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "5241 Center Boulevard #1607, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24882,6 +25161,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/5241-center-boulevard-long_island_city/1607",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 41.2875,
@@ -24901,7 +25182,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.2875,
-      "visionNotes": "The kitchen is clearly visible in photo 3, featuring an open-plan layout that flows directly into the living/dining area, with a flat black electric cooktop built into the counter."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove appears to be electric (flat cooktop with dishwasher below); no private outdoor space shown; living room is spacious with floor-to-ceiling windows and waterfront views."
     },
     {
       "commute": {
@@ -24940,9 +25221,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "315 Lincoln Place #4Q, BROOKLYN, NY, 11238",
+        "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -24962,6 +25245,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/315-lincoln-place-brooklyn/4q",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.17,
@@ -24981,7 +25266,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.17,
-      "visionNotes": "Kitchen is open to the living/dining area with visible gas range featuring burner grates, stainless steel appliances, and dark wood cabinetry."
+      "visionNotes": "Kitchen is fully open to living area with visible gas range/cooktop, living room is spacious with good proportions, no private outdoor space visible."
     },
     {
       "commute": {
@@ -25025,9 +25310,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "286 5th Avenue #4D, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25047,6 +25334,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/286-5-avenue-brooklyn/4d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41.0425,
@@ -25066,7 +25355,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.0425,
-      "visionNotes": "Open-plan kitchen with visible gas cooktop (black stovetop with visible burners) integrated into the living/dining area."
+      "visionNotes": "Kitchen is visible and open to living/dining area with visible gas cooktop; outdoor space visible through window with railing suggests a private terrace; living room is spacious with ample furniture arrangement."
     },
     {
       "commute": {
@@ -25104,9 +25393,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "857 Union Street #3C, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25126,6 +25417,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/89-7-avenue-brooklyn/3c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 41,
@@ -25145,85 +25438,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41,
-      "visionNotes": "Kitchen is semi-open to living/dining area with a peninsula counter; gas range visible with exposed burners and grates in photos 1 and 2."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 29,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "400 West 63rd Street #314, NEW YORK, NY, 10069",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-314.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/807c2d5017c7cbb85a54eb271cae058d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/51bf63770af26287fba4c36d3d9a7820-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/308c2d936570d716c869629e10b3a414-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b170bb421ad6702a4f0a972efa2797a8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9f2bad3844abba0df4d018364f1118a2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
-        ],
-        "price": 6349,
-        "sqft": null,
-        "title": "400 West 63rd Street #314",
-        "url": "https://streeteasy.com/building/the-ashley/314",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.99,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.50000000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.99,
-      "visionNotes": "Kitchen is visible and open to living/dining area with an island; gas range with visible burners and grates is clearly visible on the stovetop."
+      "visionNotes": "Kitchen is fully visible and open to living/dining area with a peninsula counter; gas range is clearly visible with visible burners; no private outdoor space shown; living room appears spacious for NYC standard."
     },
     {
       "commute": {
@@ -25260,9 +25475,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "400 West 63rd Street #1804, NEW YORK, NY, 10069",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25282,6 +25499,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-ashley/1804",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.99,
@@ -25301,7 +25520,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.99,
-      "visionNotes": "Kitchen is visible and open to living/dining area, but no stove/range is visible in any photo."
+      "visionNotes": "Kitchen is visible and open to living/dining area; no stove/range visible in photos; no private outdoor space; living room is spacious with large windows and comfortable furniture layout."
     },
     {
       "commute": {
@@ -25341,9 +25560,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "2-21 Malt Drive #507, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25363,6 +25584,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/507?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=O7-y_lfGPGXSsD8dfJ7qMZFTwHMAymC5OGgIm9nKfEkIl_AzHPR-b5OfEf5QErpIp-jbE9ng7ygwPicb",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25382,7 +25605,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen visible in photo 3 with gas range featuring visible burners and grates, integrated into living/dining area with island seating."
+      "visionNotes": "Kitchen is semi-open to living/dining area with island seating; gas cooktop visible in photo 4; large living room with city views; first photo shows shared building rooftop amenity, not private outdoor space."
     },
     {
       "commute": {
@@ -25422,9 +25645,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "2-21 Malt Drive #1703, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25444,6 +25669,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/1703",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25463,7 +25690,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Kitchen visible in photos 3 and 4, open to living/dining area with island seating; gas range clearly visible with visible burners and grates."
+      "visionNotes": "Kitchen is semi-open to living area with gas range clearly visible; living room is spacious with expansive windows; first photo shows building amenity terrace (shared), not private unit outdoor space."
     },
     {
       "commute": {
@@ -25503,9 +25730,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "2-21 Malt Drive #601, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25525,6 +25754,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/601",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25544,7 +25775,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen visible in photo 3 with island seating, and photo 4 shows a closed/galley kitchen with a gas range featuring visible burners and grates."
+      "visionNotes": "Kitchen is visible in photos 3-4 with gas range (visible burners/grates); semi-open to living area with island counter; living room is spacious with floor-to-ceiling windows; outdoor space in photo 1 is a shared building rooftop amenity, not private."
     },
     {
       "commute": {
@@ -25584,9 +25815,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "2-21 Malt Drive #1112, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25606,6 +25839,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/1112",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25625,7 +25860,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen with island visible in photo 3, featuring a gas range with visible burners in photo 4."
+      "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with burner grates; photo 1 shows shared roof deck amenity (not private); living room appears spacious with high ceilings and expansive windows."
     },
     {
       "commute": {
@@ -25665,9 +25900,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-21 Malt Drive #2404, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25687,6 +25924,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/2404",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25706,7 +25945,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen visible in photo 3 with island seating; photo 4 shows a closed/galley kitchen with a gas range (visible burners and grates)."
+      "visionNotes": "Kitchen is clearly visible and open to living area with gas range visible; living room is spacious with floor-to-ceiling windows; outdoor space shown is shared building amenity, not private unit space."
     },
     {
       "commute": {
@@ -25746,9 +25985,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "2-21 Malt Drive #245, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25768,6 +26009,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/245",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25787,7 +26030,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen with island visible in photo 3, featuring a gas range/cooktop with visible burners in photo 4."
+      "visionNotes": "Kitchen is semi-open to living area with island; gas range clearly visible with burner grates; shared roof terrace shown in first photo is building amenity, not private; living room is spacious with floor-to-ceiling windows and comfortable furniture layout."
     },
     {
       "commute": {
@@ -25827,9 +26070,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-21 Malt Drive #3108, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25849,6 +26094,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/3108",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25868,7 +26115,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen with island visible in photo 3, and a separate closed galley kitchen shown in photo 4 with gas range visible with distinct burner grates."
+      "visionNotes": "Kitchen is open to living area with island; gas range clearly visible with burners; large living room with floor-to-ceiling windows; no private outdoor space (first photo shows shared rooftop amenity)."
     },
     {
       "commute": {
@@ -25908,9 +26155,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-21 Malt Drive #2213, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -25930,6 +26179,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/2213",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -25949,7 +26200,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen with island seating clearly visible in photo 3, featuring a gas range with visible burners and grates on the stovetop."
+      "visionNotes": "Kitchen is clearly visible and open to living area with gas range visible; living room is spacious with floor-to-ceiling windows; photo 1 shows shared building amenity space, not private outdoor space."
     },
     {
       "commute": {
@@ -25989,9 +26240,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-21 Malt Drive #3603, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26011,6 +26264,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-21-malt-dr/3603",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.905,
@@ -26030,7 +26285,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.905,
-      "visionNotes": "Open-plan kitchen with island visible in photo 3, and a separate closed galley kitchen shown in photo 4 with a gas range with visible burner grates."
+      "visionNotes": "Kitchen is open to living area with gas range visible; shared rooftop terrace with outdoor furniture and grilling area; spacious living room with floor-to-ceiling windows and Manhattan views."
     },
     {
       "commute": {
@@ -26071,9 +26326,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "225 13th Street #13, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26093,6 +26350,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/225-13-street-brooklyn/13",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 40.3625,
@@ -26112,7 +26371,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.3625,
-      "visionNotes": "Kitchen is open to living space via counter peninsula; stove appears to be electric/induction with a flat cooktop visible in the cabinetry."
+      "visionNotes": "Kitchen is visible and open to living area; stove appears to be electric/induction with flat cooktop; bedroom shows a door to private outdoor terrace/balcony; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -26154,9 +26413,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "56-27 2nd Street #308, QUEENS, NY, 11101",
+        "availableDate": "2026-08-09",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26176,6 +26437,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/gotham-point-south/308",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.1625,
@@ -26195,7 +26458,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.1625,
-      "visionNotes": "Open-plan kitchen with electric stove visible in second photo; black electric range with flat cooktop clearly visible next to stainless steel refrigerator."
+      "visionNotes": "Kitchen is clearly visible and open to living area with electric stove; outdoor space shown is a shared building amenity deck, not private; living rooms are spacious with plenty of furniture space."
     },
     {
       "commute": {
@@ -26234,9 +26497,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "25-16 37th Avenue #4D, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26256,6 +26521,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/raina/4d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 40.035,
@@ -26275,86 +26542,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.035,
-      "visionNotes": "Open-plan kitchen with a black gas range featuring visible burner grates, integrated into the living/dining area with wood cabinetry and white upper cabinets."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "Q Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 25,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "354 East 91st Street #1009, NEW YORK, NY, 10128",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-cole-by-stonehenge-1009.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9ce6fd5bbdf94bb48eabcfddf0a4d5c2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9ce6fd5bbdf94bb48eabcfddf0a4d5c2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/17261a5fcab12de17b4883dba7786f79-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7ce317e022a8948b21ebc71b11ddf71f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5af1ce47eda23b765e935a387e17cd42-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0904a990517ef497bdf4d144f0a010e0-se_large_800_400.webp"
-        ],
-        "price": 5495,
-        "sqft": null,
-        "title": "354 East 91st Street #1009",
-        "url": "https://streeteasy.com/building/the-cole-by-stonehenge/1009",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.0125,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.35,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 33.275000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.0125,
-      "visionNotes": "Kitchen is clearly visible in the first photo with an open floor plan flowing into the living area; the stove has visible burner grates indicating a gas range."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burner grates visible in photos 5-6; large floor-to-ceiling windows overlook NYC but no private outdoor space; spacious living room with good furniture-to-space ratio."
     },
     {
       "commute": {
@@ -26392,9 +26580,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "1413 York Avenue #21, NEW YORK, NY, 10021",
+        "availableDate": "2026-08-07",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26414,6 +26604,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1413-york-avenue-new_york/21",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 39.97,
@@ -26433,7 +26625,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 39.97,
-      "visionNotes": "Kitchen is visible in photo 2, featuring white cabinetry and a gas range with visible burners/grates, open to the main living space."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burner grates; no private outdoor space shown; living room is spacious with good proportions for NYC."
     },
     {
       "commute": {
@@ -26473,9 +26665,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-20 Malt Drive #1908, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26495,6 +26689,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-20-malt-drive/1908",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 39.9275,
@@ -26514,7 +26710,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 39.9275,
-      "visionNotes": "Open-plan kitchen with island visible in living area; electric range with smooth cooktop and black microwave above indicate electric/induction cooking."
+      "visionNotes": "Kitchen is clearly visible and open to living area; electric range with smooth cooktop and microwave visible; outdoor spaces shown are shared building amenities (rooftop terrace, pool); living room appears spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
@@ -26554,9 +26750,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-20 Malt Drive #240, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26576,6 +26774,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-20-malt-drive/240",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 39.9275,
@@ -26595,7 +26795,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 39.9275,
-      "visionNotes": "Open-plan kitchen with island visible, featuring electric/induction cooktop and a smooth glass cooking surface, not gas burners."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with electric range; outdoor spaces shown are shared building amenities (rooftop terrace and pool); living room is spacious with ample furniture arrangement."
     },
     {
       "commute": {
@@ -26635,9 +26835,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "2-20 Malt Drive #608, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26657,6 +26859,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/2-20-malt-drive/608",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 39.9275,
@@ -26676,167 +26880,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 39.9275,
-      "visionNotes": "Open-plan kitchen with island visible in the last photo; electric range with flat cooktop and microwave hood visible."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 58,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 28,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "gasStove": "unknown",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "100 Riverside Boulevard #8J, NEW YORK, NY, 10069",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-avery-100-riverside-boulevard-new-york-8j.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fb8f833b200b00d3d1ea5d183a7c4a85-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/fb8f833b200b00d3d1ea5d183a7c4a85-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45062ee27000db1e706c98ed8ea3b6b3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/202a074cf3cc2fc40fcbc5d60d022cb5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/87511a9e5f052dcedcb2323676f9039c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/702617f1818c17bbf617f93f7dd29675-se_large_800_400.webp"
-        ],
-        "price": 5500,
-        "sqft": null,
-        "title": "100 Riverside Boulevard #8J",
-        "url": "https://streeteasy.com/building/the-avery-100-riverside-boulevard-new_york/8j",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 38.695,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.35,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 38.800000000000004,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 38.695,
-      "visionNotes": "Kitchen visible in photo 3 with dark wood cabinetry and black countertop, semi-open to living area with partial wall separation, but stove/cooktop not clearly visible."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 45,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 29,
-          "lines": [
-            "B67"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 61,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 56,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "423 16th Street #7, BROOKLYN, NY, 11215",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-423-16-street-brooklyn-7.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/04e4cf0aa7d4b63779773ac200452dbb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/04e4cf0aa7d4b63779773ac200452dbb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9769b768ff753a1b17c095df85c92930-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4fd9b8ed82d5f8cf4012502015621d09-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5daf0ff86bfd07663c904e8418a08ba8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7b60c00cc67e756ad710e0fff9eb45e3-se_large_800_400.webp"
-        ],
-        "price": 4200,
-        "sqft": null,
-        "title": "423 16th Street #7",
-        "url": "https://streeteasy.com/building/423-16-street-brooklyn/7",
-        "washerDryer": "yes"
-      },
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 37.92,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 23.5,
-          "weight": 0.35,
-          "minutes": 45
-        },
-        "friends": {
-          "score": 23.15,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 37.92,
-      "visionNotes": "Kitchen is visible in the first photo with white cabinetry and black countertops, open to a living/dining area; gas range visible with exposed burners and grates."
+      "visionNotes": "Kitchen is open to living area with electric range visible; outdoor spaces shown are shared building amenities (rooftop terrace and pool); living room appears spacious and well-proportioned for NYC."
     },
     {
       "commute": {
@@ -26878,9 +26922,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "open",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
         "address": "311 6th Avenue #4R, BROOKLYN, NY, 11215",
+        "availableDate": "2026-08-17",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26900,6 +26946,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/311-6-avenue-brooklyn/4r",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 37.4525,
@@ -26919,7 +26967,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 37.4525,
-      "visionNotes": "Open-plan kitchen with peninsula counter overlooking living area; black gas range with visible burner grates clearly visible in the kitchen."
+      "visionNotes": "Open kitchen with island counter flowing into living room; black gas range visible with grates; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
     },
     {
       "commute": {
@@ -26957,9 +27005,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "407 East 81st Street #2D, NEW YORK, NY, 10028",
+        "availableDate": "2026-08-06",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -26979,6 +27029,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/407-east-81-street-new_york/2d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 37.42,
@@ -26998,7 +27050,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 37.42,
-      "visionNotes": "Kitchen is open to living area with visible gas range featuring burner grates, black cabinets, and stainless steel appliances."
+      "visionNotes": "Open-plan kitchen with visible gas range (burner grates visible); no outdoor space shown; living room appears spacious based on kitchen photos showing open floor plan."
     },
     {
       "commute": {
@@ -27036,9 +27088,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "501 East 87th Street #7D, NEW YORK, NY, 10128",
+        "availableDate": "2026-07-11",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27058,6 +27112,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/rivers-bend/7d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 37.25,
@@ -27077,7 +27133,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 37.25,
-      "visionNotes": "Kitchen is partially visible in the last photo, appearing semi-open to the living/dining area, but the stove/range is not clearly visible enough to determine fuel type."
+      "visionNotes": "Kitchen is visible in the last photo, appears semi-open to the living/dining area with wooden cabinetry; no stove detail visible; living room is spacious with ample furniture arrangement; no private outdoor space visible."
     },
     {
       "commute": {
@@ -27115,9 +27171,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "address": "422 East 81st Street #5B, NEW YORK, NY, 10028",
+        "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27137,6 +27195,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/422-east-81-street-new_york/5b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 37.0375,
@@ -27156,7 +27216,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 37.0375,
-      "visionNotes": "Open-plan kitchen integrated with living area; stainless steel range with visible burner grates indicates gas cooking."
+      "visionNotes": "Open-plan kitchen with gas range visible; living room is compact with tight furniture layout typical of a small NYC studio/one-bed; no private outdoor space shown, only interior bedroom and bathroom views."
     },
     {
       "commute": {
@@ -27196,9 +27256,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "503 12th Street #4D, BROOKLYN, NY, 11215",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27218,6 +27280,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/503-12-street-brooklyn/4d",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 36.47500000000001,
@@ -27237,7 +27301,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 36.47500000000001,
-      "visionNotes": "Kitchen is visible in photo 3 with a gas range (visible burner grates), semi-open to the dining/living area with an island visible in photo 2."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and grates is prominent in photo 4; no private outdoor space shown; living room appears spacious with good furniture placement."
     },
     {
       "commute": {
@@ -27276,10 +27340,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
       "listing": {
         "address": "1405 8th Avenue #3B, BROOKLYN, NY, 11215",
+        "availableDate": "2026-07-18",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27299,6 +27365,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/1405-8-avenue-brooklyn/3b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 36.47500000000001,
@@ -27318,7 +27386,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 36.47500000000001,
-      "visionNotes": "Kitchen is visible in photos 2 and 3, featuring white cabinetry with an island; the stove has visible burner grates characteristic of gas cooking."
+      "visionNotes": "Kitchen is open to living area with island; electric stove visible; spacious living room with good furniture fit; no private outdoor space visible, only building exterior."
     },
     {
       "commute": {
@@ -27354,10 +27422,12 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "gasStove": "yes",
+      "gasStove": "unknown",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "160 Riverside Boulevard #11A, NEW YORK, NY, 10069",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27377,6 +27447,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/160-riverside-boulevard/11a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 36.059999999999995,
@@ -27396,7 +27468,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 36.059999999999995,
-      "visionNotes": "Kitchen is visible with a pass-through opening to living area; gas range with visible burner grates is clearly shown in the detailed kitchen photo."
+      "visionNotes": "Kitchen is visible in photos 4-6 as a compact galley-style space with a small counter/shelf area; it opens to the living room but is partially separated by a half-wall, making it semi-open; stove type cannot be determined from the angle and resolution; no private outdoor space visible; living room is spacious with good proportions."
     },
     {
       "commute": {
@@ -27436,9 +27508,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "address": "390 15th Street #1A, BROOKLYN, NY, 11215",
+        "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27458,6 +27532,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/390-15-street-brooklyn/1a",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
         "total": 35.9025,
@@ -27477,7 +27553,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 35.9025,
-      "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with dark cabinetry, and the range has visible burner grates indicating a gas stove."
+      "visionNotes": "Kitchen is open to living/dining area with dark cabinets and what appears to be a gas range; private fenced yard with grass and patio furniture visible; living room is spacious with comfortable proportions."
     },
     {
       "commute": {
@@ -27515,9 +27591,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "yes",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "85 East End Avenue #1C, NEW YORK, NY, 10028",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27537,6 +27615,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/85-east-end-avenue-new_york/01c",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 34.955,
@@ -27556,7 +27636,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 34.955,
-      "visionNotes": "Kitchen is semi-open to living area with a partial wall divider; gas range with visible burner grates clearly visible in photo 3."
+      "visionNotes": "Kitchen is semi-open to living area with visible gas range; windows show street-level exterior only; living room appears compact relative to typical NYC one-bedrooms."
     },
     {
       "commute": {
@@ -27594,9 +27674,11 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "gasStove": "no",
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "408 East 92nd Street #26B, NEW YORK, NY, 10128",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
@@ -27616,6 +27698,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/rivereast-408-east-92nd-street-new_york/26b",
         "washerDryer": "yes"
       },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
         "total": 33.68,
@@ -27635,7 +27719,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 33.68,
-      "visionNotes": "Kitchen is visible in multiple photos with a white island counter opening to the living area; the stove has a flat black glass/ceramic cooktop indicating electric or induction cooking."
+      "visionNotes": "Kitchen is semi-open to living area with an island counter; stove appears to be electric with a flat black cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
     }
   ]
 };

@@ -65,6 +65,19 @@ function extractNumber(text, regex) {
   return Number.isFinite(value) ? value : null;
 }
 
+// StreetEasy listing pages show "Available now" or "Available M/D/YYYY" in
+// body text — reliably present, no extra fetch needed.
+function extractAvailableDate(text) {
+  const match = String(text || "").match(/\bAvailable\s+(?:Available\s+)?(now|\d{1,2}\/\d{1,2}\/\d{2,4})\b/i);
+  if (!match) return null;
+  if (/^now$/i.test(match[1])) return "now";
+
+  const [month, day, yearRaw] = match[1].split("/").map(Number);
+  const year = yearRaw < 100 ? 2000 + yearRaw : yearRaw;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return Number.isNaN(date.getTime()) ? null : date.toISOString().slice(0, 10);
+}
+
 function normalizeListing(rawListing) {
   const rawText = [rawListing.title, rawListing.description, rawListing.bodyText]
     .filter(Boolean)
@@ -93,6 +106,7 @@ function normalizeListing(rawListing) {
 
   return {
     ...rawListing,
+    availableDate: extractAvailableDate(rawText),
     bathrooms: bathrooms || null,
     bedrooms: Number.isFinite(bedrooms) ? bedrooms : null,
     price: price || null,
@@ -116,11 +130,22 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     kitchenVisible: false,
     kitchenLayout: "unknown",
     gasStove: "unknown",
+    hasGarden: false,
+    livingRoomSmall: false,
     notes: "",
   };
 
-  const kitchenLayout = vision.kitchenVisible ? vision.kitchenLayout : "unknown";
-  const gasStove = vision.kitchenVisible ? vision.gasStove : "unknown";
+  // A low-confidence guess is worse than no answer: it looks the same as a
+  // real "yes"/"closed" downstream but the model itself wasn't sure. Treat
+  // it as unknown rather than trusting it as ground truth.
+  const kitchenLayout =
+    vision.kitchenVisible && vision.kitchenConfidence !== "low" ? vision.kitchenLayout : "unknown";
+  const gasStove = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.gasStove : "unknown";
+  // "Private garden" specifically (not a shared courtyard) is an easy claim
+  // to get subtly wrong from a photo alone — require high confidence, not
+  // just "not low", before showing it as a fact.
+  const hasGarden = vision.gardenConfidence === "high" ? Boolean(vision.hasGarden) : false;
+  const livingRoomSmall = vision.livingRoomConfidence !== "low" ? Boolean(vision.livingRoomSmall) : false;
 
   if (listing.price === null) {
     reasons.push("Rent could not be confirmed");
@@ -152,14 +177,26 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   const tier = neighborhoodTier(listing.neighborhood, listing.borough);
   const breakdown = rankBreakdown(commute, tier);
 
+  // Not a hard filter — just a signal that a listing's availability date is
+  // close enough to warrant deciding on it sooner rather than letting it
+  // sit in the general feed.
+  const needsEarlyAction =
+    Boolean(listing.availableDate) &&
+    listing.availableDate !== "now" &&
+    profile.earlyActionDate &&
+    listing.availableDate >= profile.earlyActionDate;
+
   return {
     commute,
     gasStove,
+    hasGarden,
     kitchenLayout,
     listing: {
       ...listing,
       washerDryer,
     },
+    livingRoomSmall,
+    needsEarlyAction,
     neighborhoodTier: tier,
     qualifies,
     rankScore: breakdown.total,

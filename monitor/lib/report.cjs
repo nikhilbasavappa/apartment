@@ -27,6 +27,8 @@ function buildFactPills(entry) {
     `W/D: ${listing.washerDryer}`,
     `Kitchen: ${entry.kitchenLayout}`,
     `Gas: ${entry.gasStove}`,
+    entry.hasGarden ? "Private garden" : null,
+    entry.livingRoomSmall ? "Living room looks small" : null,
   ];
 }
 
@@ -106,54 +108,55 @@ function generateMarkdownReport(report) {
   return sections.join("\n");
 }
 
-function generateHtmlReport(report) {
-  const cards = report.topListings
-    .map((entry) => {
-      const listing = entry.listing;
-      const localScreenshot = listing.externalScreenshot
-        ? `<img class="hero-shot" src="${encodeURI(listing.externalScreenshot)}" alt="Listing screenshot for ${escapeHtml(listing.title)}" />`
-        : "";
-      const remotePhotos = listing.photos
-        .slice(0, 4)
-        .map(
-          (photo) =>
-            `<img class="thumb" src="${escapeHtml(photo)}" loading="lazy" alt="Listing photo for ${escapeHtml(
-              listing.title
-            )}" />`
-        )
-        .join("");
-      const officeMinutes = entry.commute?.office?.minutes;
-      const scoreLabel = Number.isFinite(entry.rankScore)
-        ? `${Math.round(entry.rankScore)}/100`
-        : officeMinutes
-        ? `${officeMinutes} min`
-        : "";
-
-      return `
-        <article class="card">
-          <div class="card-top">
-            <div>
-              <h2><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">${escapeHtml(
-                listing.title
-              )}</a></h2>
-              <p class="subhead">${escapeHtml(listing.address || "Address unknown")}</p>
-            </div>
-            ${scoreLabel ? `<div class="score">${escapeHtml(scoreLabel)}</div>` : ""}
-          </div>
-          ${localScreenshot}
-          <div class="thumb-row">${remotePhotos}</div>
-          <div class="facts">${renderPills(buildFactPills(entry), "pill fact")}</div>
-          <div class="facts">${renderPills(buildCommutePills(entry), "pill plus")}</div>
-          ${
-            entry.rankBreakdown
-              ? `<p class="rank-label">Why this score</p><div class="facts">${renderPills(buildScorePills(entry), "pill score-detail")}</div>`
-              : ""
-          }
-          <p class="body">${escapeHtml(listing.description || listing.bodyText || "").slice(0, 620)}</p>
-        </article>
-      `;
-    })
+function buildCard(entry) {
+  const listing = entry.listing;
+  const localScreenshot = listing.externalScreenshot
+    ? `<img class="hero-shot" src="${encodeURI(listing.externalScreenshot)}" alt="Listing screenshot for ${escapeHtml(listing.title)}" />`
+    : "";
+  const remotePhotos = listing.photos
+    .slice(0, 4)
+    .map(
+      (photo) =>
+        `<img class="thumb" src="${escapeHtml(photo)}" loading="lazy" alt="Listing photo for ${escapeHtml(
+          listing.title
+        )}" />`
+    )
     .join("");
+  const officeMinutes = entry.commute?.office?.minutes;
+  const scoreLabel = Number.isFinite(entry.rankScore)
+    ? `${Math.round(entry.rankScore)}/100`
+    : officeMinutes
+    ? `${officeMinutes} min`
+    : "";
+
+  return `
+    <article class="card">
+      <div class="card-top">
+        <div>
+          <h2><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">${escapeHtml(
+            listing.title
+          )}</a></h2>
+          <p class="subhead">${escapeHtml(listing.address || "Address unknown")}</p>
+        </div>
+        ${scoreLabel ? `<div class="score">${escapeHtml(scoreLabel)}</div>` : ""}
+      </div>
+      ${localScreenshot}
+      <div class="thumb-row">${remotePhotos}</div>
+      <div class="facts">${renderPills(buildFactPills(entry), "pill fact")}</div>
+      <div class="facts">${renderPills(buildCommutePills(entry), "pill plus")}</div>
+      ${
+        entry.rankBreakdown
+          ? `<p class="rank-label">Why this score</p><div class="facts">${renderPills(buildScorePills(entry), "pill score-detail")}</div>`
+          : ""
+      }
+      <p class="body">${escapeHtml(listing.description || listing.bodyText || "").slice(0, 620)}</p>
+    </article>
+  `;
+}
+
+function generateHtmlReport(report) {
+  const cards = report.topListings.map(buildCard).join("");
+  const earlyActionCards = (report.earlyActionListings || []).map(buildCard).join("");
 
   const excludedRows = (report.excludedListings || [])
     .map(
@@ -235,6 +238,20 @@ function generateHtmlReport(report) {
       .grid {
         display: grid;
         gap: 16px;
+      }
+      .act-now {
+        border: 1px solid var(--rose);
+        background: rgba(255,159,159,0.06);
+        border-radius: 16px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .act-now h2 {
+        color: var(--rose);
+        margin: 0;
+      }
+      .act-now .subhead {
+        margin: 4px 0 16px;
       }
       .card {
         padding: 18px;
@@ -351,7 +368,17 @@ function generateHtmlReport(report) {
         <p>Generated ${escapeHtml(formatTimestamp(report.runAt))}.</p>
         <div class="summary">${escapeHtml(buildSummary(report))}</div>
         <p class="meta">Report file: ${escapeHtml(path.basename(report.htmlPath))} • Summary file: ${escapeHtml(path.basename(report.summaryPath))}</p>
+        <p class="meta">Budget, beds, in-unit W/D, and kitchen layout are hard requirements already applied before a listing shows up here — the score on each card only ranks among listings that passed those.</p>
       </section>
+      ${
+        earlyActionCards
+          ? `<section class="act-now">
+        <h2>Act Now (${(report.earlyActionListings || []).length})</h2>
+        <p class="subhead">Available Sept 1 or later — worth deciding on before they're gone.</p>
+        <div class="grid">${earlyActionCards}</div>
+      </section>`
+          : ""
+      }
       <section class="grid">
         ${cards || `<div class="card"><p class="body">No qualifying listings yet. Add live search URLs in <code>monitor/config.json</code> and rerun the scanner.</p></div>`}
       </section>

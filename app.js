@@ -10,6 +10,9 @@ const els = {
   monitorStatusCopy: document.querySelector("#monitorStatusCopy"),
   monitorFeedState: document.querySelector("#monitorFeedState"),
   monitorFeed: document.querySelector("#monitorFeed"),
+  actNowPanel: document.querySelector("#actNowPanel"),
+  actNowFeed: document.querySelector("#actNowFeed"),
+  actNowCount: document.querySelector("#actNowCount"),
   monitorActions: document.querySelector("#monitorActions"),
   openFullReport: document.querySelector("#openFullReport"),
   openScanSummary: document.querySelector("#openScanSummary"),
@@ -84,6 +87,7 @@ function renderMonitor() {
     els.monitorNewCount.textContent = "0 new listings";
     els.monitorBestCommute.textContent = "No qualifying listings yet";
     renderExcluded([]);
+    if (els.actNowPanel) els.actNowPanel.hidden = true;
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -137,96 +141,119 @@ function renderMonitor() {
   }
 
   const fragment = document.createDocumentFragment();
-
-  topListings.forEach((entry) => {
-    const node = els.monitorTemplate.content.firstElementChild.cloneNode(true);
-    const screenshot = resolveMonitorAssetPath(entry.listing.externalScreenshot);
-    const heroImage = entry.listing.photos?.[0] || screenshot || "";
-    const officeCommute = entry.commute?.office;
-
-    const titleLink = node.querySelector(".monitor-name");
-    titleLink.textContent = entry.listing.title;
-    titleLink.href = entry.listing.url;
-    node.querySelector(".monitor-subhead").textContent = `${entry.listing.address || "Address unknown"} • ${formatCurrency(entry.listing.price)}`;
-
-    const scoreBadge = node.querySelector(".monitor-score");
-    if (Number.isFinite(entry.rankScore)) {
-      scoreBadge.textContent = `${Math.round(entry.rankScore)}/100`;
-      scoreBadge.title = "Match score: 35% neighborhood preference, 35% office commute, 30% commute to friends";
-    } else {
-      scoreBadge.textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
-    }
-
-    const heroLink = node.querySelector(".monitor-shot-link");
-    heroLink.href = entry.listing.url;
-    const hero = node.querySelector(".monitor-shot");
-    if (heroImage) {
-      hero.src = heroImage;
-      hero.alt = `${entry.listing.title} preview`;
-      hero.style.display = "block";
-    } else {
-      heroLink.style.display = "none";
-    }
-
-    const photoRow = node.querySelector(".monitor-photo-row");
-    (entry.listing.photos || [])
-      .slice(heroImage === screenshot ? 0 : 1, 4)
-      .forEach((photo) => {
-        const image = document.createElement("img");
-        image.className = "monitor-thumb";
-        image.src = photo;
-        image.alt = `${entry.listing.title} photo`;
-        photoRow.append(image);
-      });
-
-    const facts = node.querySelector(".monitor-facts");
-    [
-      entry.listing.neighborhood || null,
-      entry.listing.bedrooms !== null ? `${entry.listing.bedrooms} bed` : "Beds unknown",
-      entry.listing.bathrooms ? `${entry.listing.bathrooms} bath` : null,
-      entry.listing.sqft ? `${entry.listing.sqft} sf` : null,
-      formatLabel("W/D", entry.listing.washerDryer),
-      formatLabel("Kitchen", entry.kitchenLayout),
-      formatLabel("Gas", entry.gasStove),
-    ]
-      .filter(Boolean)
-      .forEach((label) => facts.append(createPill(label, "fact-pill")));
-
-    const commuteRow = node.querySelector(".monitor-commute");
-    [
-      ["Office", entry.commute?.office],
-      ["UWS friend", entry.commute?.upperWestSide],
-      ["Morningside Heights", entry.commute?.morningsideHeights],
-      ["LIC", entry.commute?.longIslandCity],
-      ["Prospect Heights", entry.commute?.prospectHeights],
-    ]
-      .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
-      .filter(Boolean)
-      .forEach((label) => commuteRow.append(createPill(label, "fact-pill")));
-
-    const breakdownEl = node.querySelector(".monitor-rank-breakdown");
-    const breakdownLabel = node.querySelector(".monitor-rank-label");
-    const breakdown = entry.rankBreakdown;
-    if (breakdown) {
-      const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
-      [
-        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} · ${Math.round(breakdown.neighborhood.weight * 100)}% weight`,
-        `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,
-        `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
-      ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
-    } else if (breakdownLabel) {
-      breakdownLabel.style.display = "none";
-    }
-
-    node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";
-
-    const link = node.querySelector(".monitor-link");
-    link.href = entry.listing.url;
-
-    fragment.append(node);
-  });
-
+  topListings.forEach((entry) => fragment.append(buildListingCard(entry)));
   els.monitorFeed.append(fragment);
+
+  renderActNow(Array.isArray(report.earlyActionListings) ? report.earlyActionListings : []);
+}
+
+function buildListingCard(entry) {
+  const node = els.monitorTemplate.content.firstElementChild.cloneNode(true);
+  const screenshot = resolveMonitorAssetPath(entry.listing.externalScreenshot);
+  const heroImage = entry.listing.photos?.[0] || screenshot || "";
+  const officeCommute = entry.commute?.office;
+
+  const titleLink = node.querySelector(".monitor-name");
+  titleLink.textContent = entry.listing.title;
+  titleLink.href = entry.listing.url;
+  node.querySelector(".monitor-subhead").textContent = `${entry.listing.address || "Address unknown"} • ${formatCurrency(entry.listing.price)}`;
+
+  const scoreBadge = node.querySelector(".monitor-score");
+  if (Number.isFinite(entry.rankScore)) {
+    scoreBadge.textContent = `${Math.round(entry.rankScore)}/100`;
+    scoreBadge.title = "Match score: 35% neighborhood preference, 35% office commute, 30% commute to friends";
+  } else {
+    scoreBadge.textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
+  }
+
+  const heroLink = node.querySelector(".monitor-shot-link");
+  heroLink.href = entry.listing.url;
+  const hero = node.querySelector(".monitor-shot");
+  if (heroImage) {
+    hero.src = heroImage;
+    hero.alt = `${entry.listing.title} preview`;
+    hero.style.display = "block";
+  } else {
+    heroLink.style.display = "none";
+  }
+
+  const photoRow = node.querySelector(".monitor-photo-row");
+  (entry.listing.photos || [])
+    .slice(heroImage === screenshot ? 0 : 1, 4)
+    .forEach((photo) => {
+      const image = document.createElement("img");
+      image.className = "monitor-thumb";
+      image.src = photo;
+      image.alt = `${entry.listing.title} photo`;
+      photoRow.append(image);
+    });
+
+  const facts = node.querySelector(".monitor-facts");
+  [
+    entry.listing.neighborhood || null,
+    entry.listing.bedrooms !== null ? `${entry.listing.bedrooms} bed` : "Beds unknown",
+    entry.listing.bathrooms ? `${entry.listing.bathrooms} bath` : null,
+    entry.listing.sqft ? `${entry.listing.sqft} sf` : null,
+    formatAvailability(entry.listing.availableDate),
+    formatLabel("W/D", entry.listing.washerDryer),
+    formatLabel("Kitchen", entry.kitchenLayout),
+    formatLabel("Gas", entry.gasStove),
+    entry.hasGarden ? "Private garden" : null,
+    entry.livingRoomSmall ? "Living room looks small" : null,
+  ]
+    .filter(Boolean)
+    .forEach((label) => facts.append(createPill(label, "fact-pill")));
+
+  const commuteRow = node.querySelector(".monitor-commute");
+  [
+    ["Office", entry.commute?.office],
+    ["UWS friend", entry.commute?.upperWestSide],
+    ["Morningside Heights", entry.commute?.morningsideHeights],
+    ["LIC", entry.commute?.longIslandCity],
+    ["Prospect Heights", entry.commute?.prospectHeights],
+  ]
+    .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
+    .filter(Boolean)
+    .forEach((label) => commuteRow.append(createPill(label, "fact-pill")));
+
+  const breakdownEl = node.querySelector(".monitor-rank-breakdown");
+  const breakdownLabel = node.querySelector(".monitor-rank-label");
+  const breakdown = entry.rankBreakdown;
+  if (breakdown) {
+    const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+    [
+      `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} · ${Math.round(breakdown.neighborhood.weight * 100)}% weight`,
+      `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,
+      `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
+    ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
+  } else if (breakdownLabel) {
+    breakdownLabel.style.display = "none";
+  }
+
+  node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";
+
+  const link = node.querySelector(".monitor-link");
+  link.href = entry.listing.url;
+
+  return node;
+}
+
+function renderActNow(earlyActionListings) {
+  if (!els.actNowPanel || !els.actNowFeed) return;
+
+  els.actNowFeed.innerHTML = "";
+
+  if (!earlyActionListings.length) {
+    els.actNowPanel.hidden = true;
+    return;
+  }
+
+  els.actNowPanel.hidden = false;
+  if (els.actNowCount) els.actNowCount.textContent = `(${earlyActionListings.length})`;
+
+  const fragment = document.createDocumentFragment();
+  earlyActionListings.forEach((entry) => fragment.append(buildListingCard(entry)));
+  els.actNowFeed.append(fragment);
 }
 
 function renderExcluded(excludedListings) {
@@ -275,6 +302,12 @@ function formatLabel(label, value) {
   if (value === "no") return `${label}: no`;
   if (value === "semi-open") return `${label}: semi-open`;
   return `${label}: ${value}`;
+}
+
+function formatAvailability(availableDate) {
+  if (!availableDate) return null;
+  if (availableDate === "now") return "Available now";
+  return `Available ${new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(new Date(`${availableDate}T00:00:00`))}`;
 }
 
 function resolveMonitorAssetPath(value) {
