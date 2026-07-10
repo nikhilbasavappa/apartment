@@ -55,8 +55,9 @@ function buildSummary(report) {
     qualifying.slice(0, 8).forEach((entry) => {
       const listing = entry.listing;
       const officeMinutes = entry.commute?.office?.minutes;
+      const scoreLabel = Number.isFinite(entry.rankScore) ? ` | score ${Math.round(entry.rankScore)}/100` : "";
       lines.push(
-        `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}`
+        `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}${scoreLabel}`
       );
     });
   }
@@ -77,8 +78,9 @@ function generateMarkdownReport(report) {
   report.topListings.forEach((entry) => {
     const listing = entry.listing;
     const officeMinutes = entry.commute?.office?.minutes;
+    const scoreLabel = Number.isFinite(entry.rankScore) ? ` | score ${Math.round(entry.rankScore)}/100` : "";
     sections.push(
-      `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}`
+      `- ${listing.title} | ${formatCurrency(listing.price)} | ${listing.address || "address unknown"}${officeMinutes ? ` | ${officeMinutes} min to office` : ""}${scoreLabel}`
     );
   });
 
@@ -109,6 +111,19 @@ function generateHtmlReport(report) {
         )
         .join("");
       const officeMinutes = entry.commute?.office?.minutes;
+      const scoreLabel = Number.isFinite(entry.rankScore)
+        ? `${Math.round(entry.rankScore)}/100`
+        : officeMinutes
+        ? `${officeMinutes} min`
+        : "";
+      const breakdown = entry.rankBreakdown;
+      const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+      const breakdownText = breakdown
+        ? `Match score ${Math.round(breakdown.total)}/100 — ` +
+          `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%, ` +
+          `Office: ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%, ` +
+          `Friends: ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`
+        : "";
 
       return `
         <article class="card">
@@ -119,12 +134,13 @@ function generateHtmlReport(report) {
               )}</a></h2>
               <p class="subhead">${escapeHtml(listing.address || "Address unknown")}</p>
             </div>
-            ${officeMinutes ? `<div class="score">${officeMinutes} min</div>` : ""}
+            ${scoreLabel ? `<div class="score">${escapeHtml(scoreLabel)}</div>` : ""}
           </div>
           ${localScreenshot}
           <div class="thumb-row">${remotePhotos}</div>
           <div class="facts">${renderPills(buildFactPills(entry), "pill fact")}</div>
           <div class="facts">${renderPills(buildCommutePills(entry), "pill plus")}</div>
+          ${breakdownText ? `<p class="rank-breakdown">${escapeHtml(breakdownText)}</p>` : ""}
           <p class="body">${escapeHtml(listing.description || listing.bodyText || "").slice(0, 620)}</p>
         </article>
       `;

@@ -128,6 +128,8 @@ function toClientReport(report) {
       washerDryer: entry.listing.washerDryer,
     },
     neighborhoodTier: entry.neighborhoodTier,
+    rankBreakdown: entry.rankBreakdown,
+    rankScore: entry.rankScore,
     visionNotes: entry.visionNotes,
   });
 

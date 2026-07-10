@@ -28,17 +28,34 @@ function commuteScore(minutes) {
 
 const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
 
+const RANK_WEIGHTS = { neighborhood: 0.35, office: 0.35, friends: 0.3 };
+
 // Blended ranking score used to sort qualifying listings — separate from the
 // qualify/exclude hard filters above. Weighted 35% neighborhood preference,
 // 35% office commute (the daily one), 30% average commute to the four
-// friends' neighborhoods.
-function computeRankScore(commute, tier) {
+// friends' neighborhoods. Returns the components alongside the total so the
+// UI can show why a listing ranked where it did, not just the number.
+function rankBreakdown(commute, tier) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
 
-  return 0.35 * neighborhoodScore + 0.35 * officeScore + 0.3 * avgFriendScore;
+  const total =
+    RANK_WEIGHTS.neighborhood * neighborhoodScore +
+    RANK_WEIGHTS.office * officeScore +
+    RANK_WEIGHTS.friends * avgFriendScore;
+
+  return {
+    total,
+    neighborhood: { score: neighborhoodScore, weight: RANK_WEIGHTS.neighborhood, tier },
+    office: { score: officeScore, weight: RANK_WEIGHTS.office, minutes: commute.office?.minutes ?? null },
+    friends: { score: avgFriendScore, weight: RANK_WEIGHTS.friends },
+  };
+}
+
+function computeRankScore(commute, tier) {
+  return rankBreakdown(commute, tier).total;
 }
 
 function extractNumber(text, regex) {
@@ -133,6 +150,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
   const commute = commuteResult?.commutes || {};
   const tier = neighborhoodTier(listing.neighborhood, listing.borough);
+  const breakdown = rankBreakdown(commute, tier);
 
   return {
     commute,
@@ -144,7 +162,8 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     },
     neighborhoodTier: tier,
     qualifies,
-    rankScore: computeRankScore(commute, tier),
+    rankScore: breakdown.total,
+    rankBreakdown: breakdown,
     reasons,
     visionNotes: vision.notes || "",
   };
@@ -155,4 +174,5 @@ module.exports = {
   evaluateListing,
   isGowanus,
   neighborhoodTier,
+  rankBreakdown,
 };

@@ -4219,6 +4219,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 73.01249999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 53.675,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 73.01249999999999,
       "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; gas range visible with exposed burners and grates in photos 3-4."
     },
     {
@@ -4280,6 +4298,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 72.88499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 53.25000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 72.88499999999999,
       "visionNotes": "Kitchen is visible in photos 1 and 2, open to living/dining area with visible gas range featuring multiple burner grates."
     },
     {
@@ -4342,6 +4378,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 72.035,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 58.349999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 72.035,
       "visionNotes": "Kitchen is clearly visible in photos 2 and 4 with open-plan layout integrated into living/dining areas, featuring a gas cooktop with visible burners and grates."
     },
     {
@@ -4404,6 +4458,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 72.035,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 58.349999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 72.035,
       "visionNotes": "Open-plan kitchen with gas cooktop visible with black grates, integrated into living/dining area with island counter."
     },
     {
@@ -4466,6 +4538,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 71.9075,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 57.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 71.9075,
       "visionNotes": "Kitchen is open to living/dining area in first photo; gas range with visible burners and grates is clearly visible in the kitchen."
     },
     {
@@ -4529,6 +4619,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 70.845,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 52.4,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 70.845,
       "visionNotes": "Kitchen is semi-open to living area with an island counter; electric cooktop/oven visible with a flat dark surface indicating electric rather than gas burners."
     },
     {
@@ -4591,6 +4699,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 70.4625,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 57.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 70.4625,
       "visionNotes": "Open-plan kitchen with stainless steel electric range/cooktop visible alongside living/dining areas."
     },
     {
@@ -4651,6 +4777,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 70.20750000000001,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 56.22500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 70.20750000000001,
       "visionNotes": "Kitchen is visible in the bottom photo with white upper cabinets and light wood lower cabinets, open to a dining area, but the stovetop type cannot be determined from the angle and distance shown."
     },
     {
@@ -4711,6 +4855,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 70.0375,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 53.675,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 70.0375,
       "visionNotes": "Kitchen is semi-open to living area with island counter; visible gas cooktop with burners on the stovetop."
     },
     {
@@ -4772,6 +4934,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 69.6975,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 69.6975,
       "visionNotes": "Open-plan kitchen with island counter visible in first photo; stove has a flat black glass/ceramic cooktop surface characteristic of electric/induction cooking."
     },
     {
@@ -4833,6 +5013,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 69.6975,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 69.6975,
       "visionNotes": "Open-concept kitchen with island counter overlooking living area; gas range with visible burner grates clearly visible on the stove."
     },
     {
@@ -4894,6 +5092,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 68.8475,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 47.725,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 68.8475,
       "visionNotes": "Open-plan kitchen with island counter visible in first photo; cooktop appears to be electric/induction based on flat surface visible, though stove details are not fully clear from distance."
     },
     {
@@ -4955,6 +5171,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 68.72,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 47.3,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 68.72,
       "visionNotes": "Kitchen is visible in the first photo with a gas range (visible burner grates), opening to a living area with large windows, making it semi-open."
     },
     {
@@ -5016,6 +5250,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 67.23249999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.35,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 50.27499999999999,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 67.23249999999999,
       "visionNotes": "Modern open-plan kitchen with island, stainless steel gas range visible with distinct burners and grates, semi-enclosed by the island counter but open to living area."
     },
     {
@@ -5079,6 +5331,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 67.105,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.35,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 49.85,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 67.105,
       "visionNotes": "Kitchen is open to living/dining area with white cabinetry and a built-in electric oven with flat black cooktop visible."
     },
     {
@@ -5140,6 +5410,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 67.10499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.35,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 49.849999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 67.10499999999999,
       "visionNotes": "Kitchen is open to the living/dining area with an electric range featuring a flat cooktop and digital controls visible on the stove."
     },
     {
@@ -5203,7 +5491,96 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "uws",
+      "rankBreakdown": {
+        "total": 66.3825,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uws"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 66.3825,
       "visionNotes": "Open-plan kitchen with gas range visible in first photo showing clear burner grates, integrated into living space."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "R Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 12,
+          "lines": [
+            "E Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "R Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "yes",
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-altalic-29-22-northern-boulevard-long-island-city-3801e.png",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/5b923a41c59e63e177fecb02560ab56c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9ef116b16dc709ec3d32024d376f75b9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b16c2c26d8f1e3ce8804e07e191fc154-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/62a306d3f608984ba4a5838e342dffea-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/30436e5fbaf3806a3aeac8349ff55f55-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bdddc0de7bf62ff5d14bef62d91c7f50-se_large_800_400.webp"
+        ],
+        "price": 6495,
+        "sqft": null,
+        "title": "29-22 Northern Boulevard #3801E",
+        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3801e",
+        "washerDryer": "yes"
+      },
+      "rankBreakdown": {
+        "total": 55.5775,
+        "neighborhood": {
+          "score": 50,
+          "weight": 0.35,
+          "tier": "unknown"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 32.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.5775,
+      "visionNotes": "Kitchen is visible in photos 2 and 6, open to living/dining area with visible gas cooktop with burners."
     },
     {
       "commute": {
@@ -5266,6 +5643,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.31249999999999,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 86.4,
+          "weight": 0.35,
+          "minutes": 8
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.31249999999999,
       "visionNotes": "Kitchen is open to living area with black electric coil/smooth cooktop range visible in multiple photos."
     },
     {
@@ -5329,6 +5724,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.31249999999999,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 86.4,
+          "weight": 0.35,
+          "minutes": 8
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.31249999999999,
       "visionNotes": "Kitchen is semi-open to the dining/living area with electric cooktop visible and flat black stovetop with no visible burners or grates indicating electric or induction cooking."
     },
     {
@@ -5391,6 +5804,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.099999999999994,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.35,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.099999999999994,
       "visionNotes": "Kitchen visible in fifth photo with stainless steel electric range, open to living area with light wood and white cabinetry."
     },
     {
@@ -5453,6 +5884,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.099999999999994,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.35,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.099999999999994,
       "visionNotes": "Kitchen visible in photo 3 with island layout, open to dining/living area, and gas range with visible burners is clearly shown."
     },
     {
@@ -5515,6 +5964,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.099999999999994,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.35,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 55.099999999999994,
       "visionNotes": "Kitchen is semi-open to living/dining area with visible gas range featuring burner grates and a modern stainless steel stove."
     },
     {
@@ -5576,6 +6043,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.93,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 59.199999999999996,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 54.93,
       "visionNotes": "First photo shows a modern semi-open kitchen with an island, dark cabinetry, and a visible gas range with burner grates."
     },
     {
@@ -5636,6 +6121,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.76,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.35,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 50.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 54.76,
       "visionNotes": "Modern open-plan kitchen with a prominent gas range featuring visible burners and grates, integrated into a white cabinetry setup with stainless steel appliances."
     },
     {
@@ -5700,6 +6203,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.122499999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.35,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 54.122499999999995,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating a gas range."
     },
     {
@@ -5760,6 +6281,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen is fully visible in the first photo, completely open to the living/dining area with an island, and features a gas range with visible burners."
     },
     {
@@ -5820,6 +6359,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Open-plan kitchen visible in first photo with gas range (visible burner grates) adjacent to living area, light wood cabinets, and stainless steel appliances."
     },
     {
@@ -5880,6 +6437,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen is visible in photos 3-4, semi-open to living area, with a black gas range featuring visible burner grates."
     },
     {
@@ -5940,6 +6515,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen is clearly visible and open to the living area; the range has visible burner grates indicating a gas stove."
     },
     {
@@ -6000,6 +6593,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Open-plan kitchen with island visible in photo 2, featuring an electric stove with a flat stainless steel front and no visible gas burner grates."
     },
     {
@@ -6060,6 +6671,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen visible in photo 4 with light wood cabinetry, open to dining area; gas range with visible black grates clearly visible on right side of stove."
     },
     {
@@ -6120,6 +6749,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen is open-plan to living area with visible gas range featuring black stovetop and grates in the fourth photo."
     },
     {
@@ -6180,6 +6827,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.91,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.91,
       "visionNotes": "Kitchen features an island open to living area with visible gas cooktop/range with burners and grates."
     },
     {
@@ -6240,6 +6905,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.527499999999996,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.527499999999996,
       "visionNotes": "Kitchen is visible in photo 4 with a dining area integrated into the space; the cooktop appears to be electric/induction with a flat surface, no visible gas burners or grates."
     },
     {
@@ -6300,6 +6983,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.1875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.1875,
       "visionNotes": "Kitchen is visible in photo 4, open to living/dining area with island counter, and features a gas range with visible burners and grates."
     },
     {
@@ -6360,6 +7061,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.1875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.1875,
       "visionNotes": "Open-plan kitchen with island and visible gas cooktop with visible burner grates in the first photo."
     },
     {
@@ -6420,6 +7139,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.1875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.1875,
       "visionNotes": "Kitchen is semi-open to living/dining area with a breakfast bar island; gas cooktop visible with black burner grates."
     },
     {
@@ -6484,6 +7221,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.0175,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.0175,
       "visionNotes": "Kitchen is clearly visible in photo 1 and most detailed in photo 3; open-plan layout adjacent to living area; gas range with visible burners and grates on stovetop."
     },
     {
@@ -6548,6 +7303,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.0175,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 53.0175,
       "visionNotes": "Kitchen is visible in photos 1, 4, and 5, semi-open to living area with a pass-through counter; the range has visible burner grates indicating gas cooking."
     },
     {
@@ -6610,6 +7383,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.89,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 46.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.89,
       "visionNotes": "Kitchen is visible in photos 4 and 5, open to living/dining area with island, featuring a visible gas range with multiple burners."
     },
     {
@@ -6672,6 +7463,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.89,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.35,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 46.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.89,
       "visionNotes": "Kitchen is visible in photos 4 and 5, open to living/dining area with island, and a gas range with visible grates is clearly shown."
     },
     {
@@ -6734,6 +7543,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 52.5175,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.5175,
       "visionNotes": "Kitchen features a gas range with visible burners and grates, open to living areas with an island counter, and a galley-style layout with white cabinetry."
     },
     {
@@ -6796,6 +7623,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 52.5175,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.5175,
       "visionNotes": "Kitchen is visible in first two photos, open to living/dining area with island counter, and stove appears to be electric/induction based on the flat dark cooktop visible."
     },
     {
@@ -6858,6 +7703,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 52.5175,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.5175,
       "visionNotes": "Kitchen is visible in photos 2-4, featuring an open layout with island counter, and a black gas range with visible burners and grates is clearly visible on the stovetop."
     },
     {
@@ -6918,6 +7781,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.38,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 50.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.38,
       "visionNotes": "Open-plan kitchen with island counter adjoining dining/living area; visible gas range with burner grates on the stovetop."
     },
     {
@@ -6980,6 +7861,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.1675,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 46.025,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.1675,
       "visionNotes": "Open-plan kitchen with island counter integrated into living space; electric stove with flat cooktop visible in the background."
     },
     {
@@ -7042,6 +7941,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.1675,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 46.025,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.1675,
       "visionNotes": "Open-plan kitchen with island visible in photos 1-2; gas range with visible burners and grates clearly shown on the right side of the kitchen in photo 2."
     },
     {
@@ -7104,6 +8021,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.6575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.6575,
       "visionNotes": "Kitchen visible in first and fifth photos with light wood cabinetry and dark backsplash; open to dining/living areas; stove appears to be electric with a flat dark cooktop surface."
     },
     {
@@ -7167,6 +8102,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.6575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.6575,
       "visionNotes": "Open kitchen with gas cooktop visible on the countertop, integrated into the living space with modern wood cabinetry and marble backsplash."
     },
     {
@@ -7230,6 +8183,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.6575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.6575,
       "visionNotes": "Kitchen is visible in the last two photos with an open layout connected to dining/living areas; the range has visible burner grates indicating a gas stove."
     },
     {
@@ -7293,6 +8264,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.6575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.6575,
       "visionNotes": "Kitchen visible in photo 5 with gas cooktop (visible burners/grates), open to living/dining area with wood cabinetry and marble backsplash."
     },
     {
@@ -7356,6 +8345,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.6575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.6575,
       "visionNotes": "Kitchen is visible in photos 3 and 4, open to dining area with wood cabinetry; gas stove with visible burners and grates is clearly visible on the range."
     },
     {
@@ -7421,6 +8428,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.53999999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 44.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.53999999999999,
       "visionNotes": "Kitchen is visible in photos 1 and 6, open to living/dining areas; the range has a flat black electric/induction cooktop visible, not gas burners."
     },
     {
@@ -7486,6 +8511,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.53999999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 44.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.53999999999999,
       "visionNotes": "Kitchen is fully open to the living and dining areas with a black electric range visible with flat cooktop."
     },
     {
@@ -7551,6 +8594,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.53999999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 44.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.53999999999999,
       "visionNotes": "Kitchen is visible in photos 1 and 4, semi-open to living areas with electric/induction cooktop (flat black surface, no visible burner grates)."
     },
     {
@@ -7616,6 +8677,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.53999999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 44.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.53999999999999,
       "visionNotes": "Kitchen is visible in the first photo, open to living/dining area with a black electric cooktop (flat glass/ceramic surface visible) and stainless steel appliances."
     },
     {
@@ -7681,6 +8760,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.53999999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 44.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.53999999999999,
       "visionNotes": "Kitchen is clearly visible in the first photo, open to dining and living areas, with a black electric range/oven visible on the stovetop."
     },
     {
@@ -7743,6 +8840,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Kitchen is visible in photo 2 with a gas range (visible burner grates), semi-open to living area with white cabinetry and marble backsplash."
     },
     {
@@ -7805,6 +8920,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Kitchen is open to dining area with white cabinetry; electric stove with black front visible in photos 2 and 3."
     },
     {
@@ -7867,6 +9000,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Kitchen is visible in photo 3, open to dining area with white cabinetry and a black electric range with flat cooktop visible."
     },
     {
@@ -7929,6 +9080,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Kitchen visible in photo 3 with white cabinetry, open to dining area; black electric/induction cooktop visible with no visible burner grates."
     },
     {
@@ -7991,6 +9160,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 1 and 3; electric slide-in range with black oven door clearly visible, no gas burners or grates present."
     },
     {
@@ -8053,6 +9240,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.4975,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.4975,
       "visionNotes": "Kitchen is visible in photos 2-3, semi-open to dining area; stove has a flat cooktop with digital controls indicating electric/induction, not gas burners."
     },
     {
@@ -8115,6 +9320,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is open to the dining/living area with visible electric range with flat cooktop and white lower cabinets with wood upper cabinets."
     },
     {
@@ -8177,6 +9400,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is visible in the last photo with open-plan layout integrated with dining area, but stove/cooktop type cannot be determined from the angle shown."
     },
     {
@@ -8239,6 +9480,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen visible in photo 6 with wood cabinetry, appears semi-open to living/dining area, and has a black flat-top electric cooktop."
     },
     {
@@ -8301,6 +9560,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is open to the living/dining area with a modern design; stove appears to be a flat black electric/induction cooktop with no visible burner grates."
     },
     {
@@ -8363,6 +9640,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Open-plan kitchen with wood and gray cabinetry visible throughout the living space; stove has a flat stainless steel electric/induction cooktop with no visible burner grates."
     },
     {
@@ -8425,6 +9720,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "An open-plan kitchen is visible in the last photo integrated with the dining and living area, but the stove/range type cannot be determined from the angle and distance shown."
     },
     {
@@ -8487,6 +9800,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Open-plan kitchen with gray cabinetry visible in the last two photos; the stove appears to be black/dark electric with a flat cooktop surface, not gas burners."
     },
     {
@@ -8549,6 +9880,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "An open-plan kitchen is visible in the last photo, integrated with a dining and living area, but the stove/range type cannot be determined from the angle and distance shown."
     },
     {
@@ -8611,6 +9960,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Open-plan kitchen with gray and wood cabinetry, stainless steel appliances, and a black countertop with flat cooking surface (electric/induction cooktop visible in close-up photo)."
     },
     {
@@ -8673,6 +10040,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is visible in the first photo with an open-plan layout connecting to the living/dining area; the stove appears to be electric/induction with a flat dark cooktop surface."
     },
     {
@@ -8735,6 +10120,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Open-plan kitchen with island seating overlooking dining area; electric slide-in range with flat black cooktop visible in first photo."
     },
     {
@@ -8797,6 +10200,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is open to living/dining area with gray and wood cabinetry; electric range with flat black cooktop visible in close-up photo."
     },
     {
@@ -8859,6 +10280,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.3275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.3275,
       "visionNotes": "Kitchen is visible in the first photo with an open floor plan connecting to dining area via island, but the stove/range is not clearly visible in any of the photos."
     },
     {
@@ -8920,6 +10359,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.317499999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 51.125,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.317499999999995,
       "visionNotes": "Kitchen visible in second photo with light wood cabinetry, stainless steel appliances, and flat cooktop opening directly to living area; appears to be electric/induction cooktop based on flat glass surface."
     },
     {
@@ -8982,6 +10439,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.2425,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.35,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.2425,
       "visionNotes": "Open-plan kitchen with dark countertop and island visible in multiple photos; gas range with visible burners and grates is clearly visible in the rightmost photo."
     },
     {
@@ -9043,6 +10518,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.19,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 50.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.19,
       "visionNotes": "Kitchen visible in first two photos with electric stove; semi-open layout with island counter opening to living/dining area."
     },
     {
@@ -9105,6 +10598,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.029999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.029999999999994,
       "visionNotes": "Open-plan kitchen with island clearly visible in multiple photos; gas range with visible burners and grates is evident in the stove/cooktop area."
     },
     {
@@ -9167,6 +10678,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.029999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.029999999999994,
       "visionNotes": "Modern open-plan kitchen with island visible in first photo; stove has flat black electric/induction cooktop with no visible burner grates."
     },
     {
@@ -9229,6 +10758,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.029999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.029999999999994,
       "visionNotes": "Kitchen is open-plan, integrated with living/dining area; electric cooktop visible with flat glass/ceramic surface on the range."
     },
     {
@@ -9291,6 +10838,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.029999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.029999999999994,
       "visionNotes": "Kitchen is visible in photos 1 and 4, open to the living/dining area with an island, featuring a black electric oven with a flat glass/ceramic cooktop."
     },
     {
@@ -9353,6 +10918,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.935,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.35,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 43.900000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.935,
       "visionNotes": "Kitchen is fully visible and open to living/dining areas; electric cooktop with flat dark surface visible on the stove."
     },
     {
@@ -9414,6 +10997,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.935,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 49.85000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.935,
       "visionNotes": "Kitchen is semi-open to the living/dining area with a peninsula counter, and a gas range with visible burners is clearly visible in photo 3."
     },
     {
@@ -9476,6 +11077,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is visible and clearly open to living/dining areas; stove type cannot be determined from visible angles in photos."
     },
     {
@@ -9538,6 +11157,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Modern open-plan kitchen with island seating, stainless steel appliances, and a flat cooktop visible in the first and last photos indicating electric/induction cooking."
     },
     {
@@ -9600,6 +11237,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is semi-open to dining area with a white countertop island; the stove appears to be electric with a flat black cooktop visible on the right side."
     },
     {
@@ -9662,6 +11317,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Open-plan kitchen with white cabinetry and a flat glass/ceramic cooktop visible in multiple photos, indicating electric/induction cooking."
     },
     {
@@ -9724,6 +11397,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Open-plan kitchen with electric oven featuring a flat glass/ceramic cooktop visible in multiple photos, seamlessly integrated with dining and living areas."
     },
     {
@@ -9786,6 +11477,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is semi-open to dining area with a black electric oven/range visible and white cabinetry."
     },
     {
@@ -9848,6 +11557,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is semi-open to dining area with a round table; stove has a flat black glass/ceramic cooktop surface indicating electric or induction cooking."
     },
     {
@@ -9910,6 +11637,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen features a gas range with visible burners/grates and is semi-open to the living/dining area via an island counter."
     },
     {
@@ -9972,6 +11717,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is visible in the first photo with wood cabinetry open to the living space; the range has visible control knobs but a flat black cooktop surface indicating electric/induction."
     },
     {
@@ -10034,6 +11797,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is open to the living/dining area with a flat glass/ceramic cooktop visible in the second photo, indicating electric or induction cooking."
     },
     {
@@ -10096,6 +11877,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is open to dining area with a round table; oven has a flat black glass cooktop visible, indicating electric/induction cooking."
     },
     {
@@ -10158,6 +11957,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is partially visible in photo 1 as a U-shaped galley with wood cabinetry, and in photo 2 it opens to living area; the stove has a flat white cooktop indicating electric or induction cooking."
     },
     {
@@ -10220,6 +12037,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range featuring four burners and grates."
     },
     {
@@ -10282,6 +12117,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is open to dining/living area with white cabinetry and island, but stove/range not visible in any photos."
     },
     {
@@ -10344,6 +12197,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with a flat glass/ceramic cooktop electric range, not gas."
     },
     {
@@ -10406,6 +12277,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is visible in the first photo with an open-plan layout flowing into the dining/living area, but the stove/range is not clearly visible in any of the photos."
     },
     {
@@ -10468,6 +12357,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen is visible in the first photo as an open-plan design integrated with the living/dining area, but the stove type cannot be determined from the visible angle and distance."
     },
     {
@@ -10530,6 +12437,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.902499999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.902499999999996,
       "visionNotes": "Kitchen features a gas range with visible burners and grates, open to a living/dining area with an island counter configuration."
     },
     {
@@ -10593,6 +12518,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.8925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.8925,
       "visionNotes": "Open-plan kitchen with gas cooktop featuring visible burner grates integrated into the living/dining area with a large island counter."
     },
     {
@@ -10656,6 +12599,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.8925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.8925,
       "visionNotes": "Modern open-plan kitchen with light wood cabinetry is clearly visible in photo 3, featuring a gas cooktop with visible black grates and knobs."
     },
     {
@@ -10719,6 +12680,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.8925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.35,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.8925,
       "visionNotes": "Open-plan kitchen with gas cooktop visible with multiple burner grates, integrated seamlessly into living/dining area with floor-to-ceiling windows."
     },
     {
@@ -10781,6 +12760,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Open-plan kitchen with island seating visible in second photo; stove has visible burner grates indicating gas range."
     },
     {
@@ -10843,6 +12840,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Kitchen is clearly visible in photo 2, featuring an open-plan design with island seating adjacent to living area, and a gas range with visible burner grates is identifiable on the stovetop."
     },
     {
@@ -10905,6 +12920,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Kitchen visible in photo 3 with light wood cabinetry, open to living/dining area, featuring a stainless steel electric range with smooth cooktop."
     },
     {
@@ -10967,6 +13000,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Kitchen visible in photo 3 with open-plan layout to living area; gas range with visible burners and grates clearly shown."
     },
     {
@@ -11029,6 +13080,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Kitchen is visible in photo 2, featuring an open layout with island seating adjacent to living area, and a gas range with visible burners and grates."
     },
     {
@@ -11091,6 +13160,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 50.817499999999995,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.817499999999995,
       "visionNotes": "Kitchen is clearly visible in photo 3, featuring an open-plan layout connected to the living/dining area with light wood cabinetry and a stainless steel electric range/oven with a flat cooktop."
     },
     {
@@ -11153,6 +13240,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Kitchen is clearly visible in photo 3, featuring an open-plan design integrated with the dining/living area, and the cooktop appears to be a flat induction or electric surface with no visible gas burners or grates."
     },
     {
@@ -11215,6 +13320,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Open-plan kitchen with island counter visible in first photo; cooktop appears to be a flat black induction/electric surface with no visible burner grates."
     },
     {
@@ -11277,6 +13400,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with black flat surface and no visible gas burners/grates."
     },
     {
@@ -11339,6 +13480,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Modern open-plan kitchen with island counter seamlessly integrated into living/dining area; electric cooktop visible with flat black surface, no visible burner grates."
     },
     {
@@ -11401,6 +13560,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Kitchen is semi-open to dining/living areas with an island; the cooktop appears to be a flat induction/electric surface with no visible burners or grates."
     },
     {
@@ -11463,6 +13640,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Kitchen is visible in photos 2-3 and 6, featuring a galley-style layout that opens to dining/living areas with an island counter; the stove/range appears to be electric with a black flat cooktop surface."
     },
     {
@@ -11525,6 +13720,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Kitchen is visible in photos 4-7, features an open layout with island counter opening to living/dining areas, and has an electric cooktop (flat black surface visible on the range)."
     },
     {
@@ -11587,7 +13800,96 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.6375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.875,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.6375,
       "visionNotes": "Kitchen is open to living/dining areas with a modern island layout; the cooktop appears to be a flat induction/electric surface with no visible gas burners or grates."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 55,
+          "lines": [
+            "N Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 19,
+          "lines": [
+            "B62"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 45,
+          "lines": [
+            "W Line",
+            "1 Line"
+          ]
+        }
+      },
+      "gasStove": "unknown",
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-fifty-lic-9b.png",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/2a1aee554975b3feb0d9b09950772e4e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/52799d5fe75ceb41fd50830901de93d3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/05c44715636e21f99d2803b61447f9d7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5713501f009f463ef0a157859563ff27-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e53259f35b0974933da633b36adce47d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/584d27ad870a051a3aa3a63810e32ef9-se_large_800_400.webp"
+        ],
+        "price": 4200,
+        "sqft": null,
+        "title": "39-26 30th Street #9B",
+        "url": "https://streeteasy.com/building/the-fifty-lic/9b",
+        "washerDryer": "yes"
+      },
+      "rankBreakdown": {
+        "total": 50.3075,
+        "neighborhood": {
+          "score": 50,
+          "weight": 0.35,
+          "tier": "unknown"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 24.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.3075,
+      "visionNotes": "Kitchen is semi-open to living/dining area with island, but stove type is not clearly visible in any photo."
     },
     {
       "commute": {
@@ -11648,6 +13950,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.2975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 67.7,
+          "weight": 0.35,
+          "minutes": 19
+        },
+        "friends": {
+          "score": 53.675000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 50.2975,
       "visionNotes": "Kitchen is fully visible and open to dining/living areas with an island; the cooktop is a flat black induction/electric surface, not gas."
     },
     {
@@ -11710,6 +14030,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.915,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.35,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.915,
       "visionNotes": "Kitchen with island is visible in the last photo, semi-open to living space, with a clearly visible gas range (visible burner grates)."
     },
     {
@@ -11772,6 +14110,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.915,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.35,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.915,
       "visionNotes": "Kitchen is semi-open to living area with an island; visible gas range with prominent burner grates in second photo."
     },
     {
@@ -11834,6 +14190,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.915,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.35,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.915,
       "visionNotes": "Open-plan kitchen with island seating; gas range with visible burners and grates clearly visible in multiple photos."
     },
     {
@@ -11896,6 +14270,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.79749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.79749999999999,
       "visionNotes": "Kitchen is open to living area; gas range with visible burner grates is clearly visible in multiple photos."
     },
     {
@@ -11958,6 +14350,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.79749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.79749999999999,
       "visionNotes": "Open-plan kitchen with gas range visible in photo 1 and 3, showing clear burner grates and integrated into living/dining area."
     },
     {
@@ -12020,6 +14430,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.79749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.79749999999999,
       "visionNotes": "Kitchen is semi-open to dining/living area with a white flat glass cooktop (electric/induction) visible on the range in photo 2."
     },
     {
@@ -12082,6 +14510,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.7125,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 40.5,
+          "weight": 0.35,
+          "minutes": 35
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.7125,
       "visionNotes": "Open-plan kitchen with visible gas range featuring multiple burners/grates and professional stainless steel appliances."
     },
     {
@@ -12144,6 +14590,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.7025,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 41.775,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.7025,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; gas range with visible burners clearly seen in photos 4, 6, and 7."
     },
     {
@@ -12206,6 +14670,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.66,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 57.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.66,
       "visionNotes": "Kitchen is visible with white cabinetry, stainless steel appliances, and an electric stove with a flat cooktop adjacent to a small dining table in an open-plan layout."
     },
     {
@@ -12268,6 +14750,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.66,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 57.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.66,
       "visionNotes": "Open-plan kitchen with electric/induction cooktop visible in the stove; flat cooking surface with no visible gas burners or grates."
     },
     {
@@ -12330,6 +14830,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.66,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 57.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.66,
       "visionNotes": "Kitchen is semi-open to living/dining area with a peninsula counter, and the stove has visible burner grates indicating gas."
     },
     {
@@ -12392,6 +14910,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.5425,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.5425,
       "visionNotes": "Kitchen is open to living/dining area; stove has visible gas burners and grates clearly visible in photos 2 and 3."
     },
     {
@@ -12454,6 +14990,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.5425,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.5425,
       "visionNotes": "Kitchen is clearly visible in photo 2 with a flat glass/ceramic electric cooktop and is semi-open to the living/dining area with a pass-through design."
     },
     {
@@ -12516,6 +15070,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.32,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.32,
       "visionNotes": "Modern open-plan kitchen visible in photo 2 with a gas range (visible burners/grates) integrated into the living/dining area."
     },
     {
@@ -12578,6 +15150,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.32,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.32,
       "visionNotes": "Kitchen visible in photo 2 with open-plan layout adjacent to living area; stove is electric with flat cooktop surface and digital controls."
     },
     {
@@ -12640,6 +15230,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.1925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.1925,
       "visionNotes": "Kitchen is visible in photo 3 with an open layout to dining/living area; electric cooktop with flat surface is clearly visible on the stove."
     },
     {
@@ -12702,6 +15310,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.1925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.1925,
       "visionNotes": "Kitchen is visible in photo 3, featuring a gas range with visible burner grates, and is semi-open to the living/dining area as seen in photo 2."
     },
     {
@@ -12764,6 +15390,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.1925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.1925,
       "visionNotes": "Kitchen is visible in photos 2-4 with a peninsula/breakfast bar layout opening to living space; gas range with visible burner grates clearly visible on the stove."
     },
     {
@@ -12826,6 +15470,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 49.1925,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.1925,
       "visionNotes": "Kitchen is semi-open to living area with a pass-through counter; gas range with visible burners/grates clearly visible on the stove."
     },
     {
@@ -12891,6 +15553,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.11749999999999,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 36.675000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.11749999999999,
       "visionNotes": "Kitchen is visible and open to dining/living area; stove has visible white knobs and appears to be a modern electric/induction cooktop, not gas."
     },
     {
@@ -12953,6 +15633,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.074999999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 40.5,
+          "weight": 0.35,
+          "minutes": 35
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.074999999999996,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating a gas range."
     },
     {
@@ -13015,6 +15713,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 49.074999999999996,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 40.5,
+          "weight": 0.35,
+          "minutes": 35
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 49.074999999999996,
       "visionNotes": "Open-plan kitchen with dark cabinetry visible on right side, integrated into living/dining area; stove appears to be electric with a flat cooktop built into stainless steel appliances."
     },
     {
@@ -13077,6 +15793,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.894999999999996,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 43.05,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.894999999999996,
       "visionNotes": "Kitchen is semi-open to living/dining areas with an island counter; gas cooktop with visible burners is clearly visible on the stove."
     },
     {
@@ -13138,6 +15872,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.725,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.725,
       "visionNotes": "Kitchen is visible in the background of the first photo, appearing to be open to the living/dining area, but the stove type cannot be clearly determined from this distance."
     },
     {
@@ -13199,6 +15951,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.597500000000004,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.35,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.597500000000004,
       "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 1-2; electric cooktop and stainless steel appliances clearly visible in photo 3, with no gas burners or grates present."
     },
     {
@@ -13260,6 +16030,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.5975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 64.30000000000001,
+          "weight": 0.35,
+          "minutes": 21
+        },
+        "friends": {
+          "score": 51.974999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.5975,
       "visionNotes": "Kitchen is visible in the first two photos with a gas range (visible grates), black upper cabinets, stainless steel appliances, and an open layout flowing into the living space with exposed brick."
     },
     {
@@ -13323,6 +16111,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.5125,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 67.7,
+          "weight": 0.35,
+          "minutes": 19
+        },
+        "friends": {
+          "score": 47.725,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.5125,
       "visionNotes": "Open-plan kitchen with island counter seamlessly integrated into living area; gas cooktop with visible burners clearly visible on the range."
     },
     {
@@ -13385,6 +16191,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.4275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.4275,
       "visionNotes": "Kitchen is visible in photo 4 as an open-plan layout integrated with the living/dining area, but the stove type cannot be determined from the distance and angle shown."
     },
     {
@@ -13450,6 +16274,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 48.3525,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 38.800000000000004,
+          "weight": 0.35,
+          "minutes": 36
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.3525,
       "visionNotes": "Open-plan kitchen with white cabinetry and wood accents visible in photo 2, featuring a flat black electric cooktop/range with no visible burner grates."
     },
     {
@@ -13512,6 +16354,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.3,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 54.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.3,
       "visionNotes": "Modern kitchen with gas cooktop visible on counter, white cabinetry, island with quartz countertop, and open layout connected to living space."
     },
     {
@@ -13576,6 +16436,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 48.14,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.35,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 35.400000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.14,
       "visionNotes": "Kitchen is visible in photos 1-3, open to living/dining areas with a single-wall layout; the range has a flat glass cooktop indicating electric/induction cooking."
     },
     {
@@ -13637,6 +16515,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 48.0025,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 48.0025,
       "visionNotes": "Kitchen is semi-open to living area with island counter; gas range visible with clear burner grates on the stovetop."
     },
     {
@@ -13699,6 +16595,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 39.65,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.875,
       "visionNotes": "Open-plan kitchen with gas range visible in photo 2, showing visible burner grates and a modern stainless steel stove integrated into the living space."
     },
     {
@@ -13761,6 +16675,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 39.65,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.875,
       "visionNotes": "Kitchen is visible in the first photo with wood cabinetry open to a dining area; the stove has visible burner grates indicating gas cooking."
     },
     {
@@ -13823,6 +16755,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 39.65,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.875,
       "visionNotes": "Kitchen visible in photo 2 with gas range (visible burner grates), open to dining area with round table, light wood cabinetry."
     },
     {
@@ -13888,6 +16838,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.63,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.63,
       "visionNotes": "Kitchen is open to dining/living areas with light wood cabinetry and a flat black cooktop/induction range visible in photos 4-5."
     },
     {
@@ -13953,6 +16921,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.63,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.63,
       "visionNotes": "Kitchen is visible in photos 5-7, featuring a semi-open layout with island counter facing living/dining areas, and an electric cooktop with black controls visible on the range."
     },
     {
@@ -14018,6 +17004,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.63,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.63,
       "visionNotes": "Kitchen is visible in photos 4 and 5, open to dining/living areas with light wood cabinetry and a black electric cooktop with flat surface visible on the stove."
     },
     {
@@ -14083,6 +17087,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.63,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.63,
       "visionNotes": "Kitchen is visible and open to the living/dining area with light wood cabinetry; the stove has a black flat glass cooktop consistent with electric/induction cooking, not gas burners."
     },
     {
@@ -14148,6 +17170,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.63,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.63,
       "visionNotes": "Kitchen is semi-open to dining/living area with light wood cabinetry and an electric cooktop with a flat black surface visible on the stove."
     },
     {
@@ -14209,6 +17249,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.5875,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 38.800000000000004,
+          "weight": 0.35,
+          "minutes": 36
+        },
+        "friends": {
+          "score": 37.525,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.5875,
       "visionNotes": "Kitchen is visible in photos 1, 3, and 6, semi-open to living area with a partial divider/counter, and the stove clearly shows gas burners with visible grates."
     },
     {
@@ -14271,6 +17329,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.5025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.22500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.5025,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island counter; the range has visible burner grates indicating a gas stove."
     },
     {
@@ -14333,6 +17409,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.5025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 39.22500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.5025,
       "visionNotes": "Kitchen is visible with light wood cabinetry, marble backsplash, and an electric stove with a flat black cooktop, appearing semi-open to a dining/living area."
     },
     {
@@ -14394,6 +17488,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.279999999999994,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 66,
+          "weight": 0.35,
+          "minutes": 20
+        },
+        "friends": {
+          "score": 45.6,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.279999999999994,
       "visionNotes": "Open-plan kitchen with island counter visible in photo 3, featuring a gas range with visible burner grates and stainless steel appliances."
     },
     {
@@ -14456,6 +17568,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.2375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.2375,
       "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with wood cabinetry, but stove details are not clearly visible from this distance."
     },
     {
@@ -14520,6 +17650,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.035000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.35,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.035000000000004,
       "visionNotes": "Kitchen is visible in the first photo with an open layout integrated into the living space; the stove has visible burner grates indicating gas cooking."
     },
     {
@@ -14582,6 +17730,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.9925,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.9925,
       "visionNotes": "Kitchen is visible in photo 5, appearing semi-open to the living area with a dark electric/induction stove visible against the subway tile backsplash."
     },
     {
@@ -14646,6 +17812,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.865,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 37.10000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.865,
       "visionNotes": "Open-plan kitchen with island seating visible in the last photo, featuring a gas range with visible burners on the stovetop."
     },
     {
@@ -14710,6 +17894,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.865,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 37.10000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.865,
       "visionNotes": "Kitchen is open to the living/dining area with an island; stainless steel gas range with visible burner grates is clearly visible."
     },
     {
@@ -14772,6 +17974,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.685,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.685,
       "visionNotes": "Kitchen is semi-open to the living/dining area with an island; the cooktop is a flat black induction/electric surface, not gas."
     },
     {
@@ -14834,6 +18054,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.685,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.685,
       "visionNotes": "Kitchen is visible in photos 1 and 4, open to the living/dining area with an island; the cooktop appears to be electric/induction based on the flat black surface visible on the island."
     },
     {
@@ -14896,6 +18134,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.685,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.685,
       "visionNotes": "Open-plan kitchen with island and visible gas stove with burner grates on the range in the first photo."
     },
     {
@@ -14958,6 +18214,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.685,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.685,
       "visionNotes": "Open-plan kitchen with island; electric induction cooktop visible on the island with a flat black glass surface."
     },
     {
@@ -15022,6 +18296,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.6525,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.35,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 38.375,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.6525,
       "visionNotes": "Kitchen is visible in photo 2, featuring a semi-open layout with black lower cabinetry and white upper cabinetry; the stove has visible burner grates indicating a gas range."
     },
     {
@@ -15086,6 +18378,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.61,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.61,
       "visionNotes": "Open-plan kitchen with visible gas range featuring black burners/grates, integrated with living area in first photo; also shows galley-style enclosed kitchen in last photo."
     },
     {
@@ -15148,6 +18458,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.387499999999996,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 71.1,
+          "weight": 0.35,
+          "minutes": 17
+        },
+        "friends": {
+          "score": 36.675,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.387499999999996,
       "visionNotes": "Kitchen visible in photo 2 with gas range (visible burners/grates), semi-open to living area shown in photo 1, compact galley-style layout along one wall."
     },
     {
@@ -15212,6 +18540,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.355000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 35.400000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.355000000000004,
       "visionNotes": "Kitchen with wooden cabinetry is visible and opens into the dining/living area; gas cooktop with visible burners is clearly visible in the fourth photo."
     },
     {
@@ -15275,6 +18621,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.3025,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 64.30000000000001,
+          "weight": 0.35,
+          "minutes": 21
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.3025,
       "visionNotes": "Kitchen is open to living/dining area with a peninsula counter; gas range with visible burner grates is clearly visible in the detailed kitchen photos."
     },
     {
@@ -15338,6 +18702,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.099999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.099999999999994,
       "visionNotes": "Open-plan kitchen with a gray island peninsula facing the living area; electric stove with a smooth cooktop visible in the white cabinetry."
     },
     {
@@ -15401,6 +18783,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.099999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.099999999999994,
       "visionNotes": "Open-plan kitchen visible in photos 3-4 with white cabinetry, stainless steel appliances, and a flat electric cooktop (no visible burner grates)."
     },
     {
@@ -15464,6 +18864,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.099999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.099999999999994,
       "visionNotes": "Open-plan kitchen with white cabinetry visible in photos 5-6, featuring stainless steel electric appliances including a flat cooktop range, integrated with living/dining area."
     },
     {
@@ -15527,6 +18945,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 46.099999999999994,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.099999999999994,
       "visionNotes": "Kitchen is open to living area with a peninsula counter; the stove in the second photo clearly shows visible burner grates indicating gas range."
     },
     {
@@ -15588,6 +19024,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.0475,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.0475,
       "visionNotes": "Open-plan kitchen with light wood cabinets visible in photos 1 and 3, flowing into living/dining area; electric stove with flat cooktop visible on the left side of the kitchen."
     },
     {
@@ -15649,6 +19103,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 46.0475,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 49.425,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 46.0475,
       "visionNotes": "Open-plan kitchen with visible gas range featuring black grates, connected to living/dining area with white island."
     },
     {
@@ -15711,6 +19183,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.58,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.35,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 32,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.58,
       "visionNotes": "Kitchen is clearly visible and open to the dining/living area with an island; the cooktop appears to be a flat electric or induction surface with no visible gas burners or grates."
     },
     {
@@ -15773,6 +19263,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.5375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 35.825,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.5375,
       "visionNotes": "Kitchen is visible in photos 3-4, open to dining/living area with white cabinetry and a visible gas range with four burners and grates."
     },
     {
@@ -15835,6 +19343,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.495,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 51.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.495,
       "visionNotes": "Kitchen is visible in photo 2, open to dining area with white gas range featuring visible burner grates clearly visible on the stovetop."
     },
     {
@@ -15896,6 +19422,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.4525,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 43.475,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.4525,
       "visionNotes": "Kitchen is clearly visible in photos 3-4, open to living/dining area with wood cabinetry, and features a black gas range with visible burner grates."
     },
     {
@@ -15958,6 +19502,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.41,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 35.400000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.41,
       "visionNotes": "Kitchen is clearly visible in photo 3, features a gas stove with visible burners, open to living space via peninsula counter with seating."
     },
     {
@@ -16019,6 +19581,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.325,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 49,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.325,
       "visionNotes": "Kitchen is visible in photos 1 and 4, open to living area with island counter; stove appears to be electric with a flat cooktop visible in the marble countertop setup."
     },
     {
@@ -16080,6 +19660,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.2825,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 64.30000000000001,
+          "weight": 0.35,
+          "minutes": 21
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.2825,
       "visionNotes": "Kitchen is visible in photos 1 and 4, semi-open to living area with breakfast bar, and the range has visible burner grates indicating a gas stove."
     },
     {
@@ -16143,6 +19741,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 45.2725,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.35,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 33.775,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.2725,
       "visionNotes": "Kitchen is visible and open to dining/living area, but the stove/range is not clearly visible enough to determine gas vs electric."
     },
     {
@@ -16205,6 +19821,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 45.2075,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.2075,
       "visionNotes": "Kitchen is semi-open to living/dining area with a pass-through counter, and a gas range with visible burners is clearly visible in the last photo."
     },
     {
@@ -16267,6 +19901,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 45.2075,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.2075,
       "visionNotes": "Kitchen is visible in photos 4 and 7, featuring a galley-style layout with pass-through counter opening to living areas, and a visible gas cooktop with visible burner grates."
     },
     {
@@ -16329,6 +19981,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 45.2075,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.2075,
       "visionNotes": "Kitchen visible in photos 4 and 7 with semi-open layout to living areas; visible gas cooktop with burners and grates in photo 7."
     },
     {
@@ -16393,6 +20063,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 45.0375,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 33.7,
+          "weight": 0.35,
+          "minutes": 39
+        },
+        "friends": {
+          "score": 34.975,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.0375,
       "visionNotes": "Kitchen is visible in the last photo, open to the living area, but stove type cannot be determined from the distance and angle shown."
     },
     {
@@ -16453,6 +20141,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.98499999999999,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 66,
+          "weight": 0.35,
+          "minutes": 20
+        },
+        "friends": {
+          "score": 37.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.98499999999999,
       "visionNotes": "Kitchen visible in photo 3 with a peninsula/breakfast bar layout open to living space; gas cooktop with visible burners clearly visible."
     },
     {
@@ -16513,6 +20219,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.900000000000006,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 64.30000000000001,
+          "weight": 0.35,
+          "minutes": 21
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.900000000000006,
       "visionNotes": "Kitchen is visible in the last photo with light wood cabinetry and bar seating, clearly open to the living area, but stove type cannot be determined from the distance and angle shown."
     },
     {
@@ -16577,6 +20301,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.7725,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.35,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 33.275000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.7725,
       "visionNotes": "Kitchen is partially open to living area via island counter; electric cooktop visible on the range with flat cooking surface, no visible gas burners or grates."
     },
     {
@@ -16638,6 +20380,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.73,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 43.050000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.73,
       "visionNotes": "Kitchen is visible in photo 2, open to the living/dining area with a gas range featuring visible burners and grates."
     },
     {
@@ -16704,6 +20464,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 44.655,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 38.800000000000004,
+          "weight": 0.35,
+          "minutes": 36
+        },
+        "friends": {
+          "score": 27.75,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.655,
       "visionNotes": "Kitchen is visible in the last two photos with gas burners visible on the range, open to a dining area with a black table in the foreground."
     },
     {
@@ -16767,6 +20545,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.56,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 52.4,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.56,
       "visionNotes": "Kitchen is visible in photos 2-3, featuring an open-plan layout with island seating facing the living area, and a gas cooktop with visible burners is clearly visible on the range."
     },
     {
@@ -16830,6 +20626,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.4325,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 67.7,
+          "weight": 0.35,
+          "minutes": 19
+        },
+        "friends": {
+          "score": 34.125,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.4325,
       "visionNotes": "Kitchen is partially enclosed with a peninsula/partial wall separating it from the living area; the stove has a flat black glass/ceramic electric cooktop with visible control knobs."
     },
     {
@@ -16893,7 +20707,97 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.4325,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 67.7,
+          "weight": 0.35,
+          "minutes": 19
+        },
+        "friends": {
+          "score": 34.125,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.4325,
       "visionNotes": "Kitchen is visible in photos 1-3, semi-open to living/dining area with a partial wall divider, and features black electric ovens with flat glass cooktops rather than gas burners."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 30,
+          "lines": [
+            "1 Line",
+            "D Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 51,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 32,
+          "lines": [
+            "2 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 17,
+          "lines": [
+            "M5"
+          ]
+        }
+      },
+      "gasStove": "no",
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "638 West End Avenue #3A, NEW YORK, NY, 10024",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-638-west-end-avenue-new-york-3a.png",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/17f195deb86862f66dc36201685abb48-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bf1d1ad6dd9796d851f0d4da63e2c33c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_medium_500_250.webp",
+          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_medium_500_250.webp"
+        ],
+        "price": 4400,
+        "sqft": null,
+        "title": "638 West End Avenue #3A",
+        "url": "https://streeteasy.com/building/638-west-end-avenue-new_york/3a",
+        "washerDryer": "yes"
+      },
+      "rankBreakdown": {
+        "total": 44.4,
+        "neighborhood": {
+          "score": 50,
+          "weight": 0.35,
+          "tier": "unknown"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.35,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 32.5,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.4,
+      "visionNotes": "Open-plan kitchen integrated into living space with a white and black electric range/oven visible with a flat cooktop surface."
     },
     {
       "commute": {
@@ -16954,6 +20858,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.3475,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.3475,
       "visionNotes": "Kitchen is semi-open with a breakfast bar counter facing the living/dining area; electric cooktop with flat glass surface visible in the white cabinetry."
     },
     {
@@ -17018,6 +20940,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 44.06,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.06,
       "visionNotes": "Kitchen features an open-plan layout with island seating, and the range has visible gas burners/grates."
     },
     {
@@ -17082,6 +21022,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 44.06,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.06,
       "visionNotes": "Open-plan kitchen with electric slide-in range featuring flat cooktop and digital controls, visible in multiple photos."
     },
     {
@@ -17142,6 +21100,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 44.0075,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 64.30000000000001,
+          "weight": 0.35,
+          "minutes": 21
+        },
+        "friends": {
+          "score": 36.675,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 44.0075,
       "visionNotes": "Kitchen is semi-open to living/dining areas with a peninsula counter; electric cooktop visible with flat black surface and no visible grates."
     },
     {
@@ -17203,6 +21179,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.8375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.8375,
       "visionNotes": "Kitchen is open to living/dining area with wood cabinets, stainless steel appliances, and a dark flat-top electric cooktop visible."
     },
     {
@@ -17263,6 +21257,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.794999999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 37.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.794999999999995,
       "visionNotes": "Kitchen is visible in photo 5 with an open layout adjacent to living area; stove type unclear but appears to be electric/induction based on sleek modern appliances."
     },
     {
@@ -17324,6 +21336,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.635000000000005,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.635000000000005,
       "visionNotes": "Kitchen is visible in photos 2 and 3, open to dining area with visible gas cooktop featuring multiple burner grates."
     },
     {
@@ -17387,6 +21417,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.4975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 40.925000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.4975,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with flat glass/ceramic surface, no visible gas burners or grates."
     },
     {
@@ -17450,6 +21498,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.4975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 40.925000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.4975,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric cooktop with flat glass/ceramic surface on the range."
     },
     {
@@ -17513,6 +21579,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.4975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 40.925000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.4975,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with a gas range featuring visible burners and grates."
     },
     {
@@ -17576,6 +21660,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.4975,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 40.925000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.4975,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; flat cooktop with no visible burners/grates indicates electric or induction stove."
     },
     {
@@ -17638,6 +21740,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.3375,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 33.275000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.3375,
       "visionNotes": "Kitchen is clearly visible in photo 2 with an island counter opening to dining area; gas range with visible burners and grates is evident on the stove."
     },
     {
@@ -17698,6 +21818,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.285,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.285,
       "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with a black flat glass cooktop (electric/induction), indicating an electric stove."
     },
     {
@@ -17758,6 +21896,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 43.285,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.285,
       "visionNotes": "Open-plan kitchen with black countertop and stainless steel appliances visible, but stove type cannot be determined from the angle shown."
     },
     {
@@ -17821,6 +21977,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.040000000000006,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 30.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.040000000000006,
       "visionNotes": "Open-plan kitchen with wood cabinetry and island seating, visible gas cooktop with burner grates in photos 1 and 6."
     },
     {
@@ -17884,6 +22058,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.040000000000006,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 30.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.040000000000006,
       "visionNotes": "Kitchen is clearly visible and open to the living area with an island layout; no stovetop/range is visible in any of the kitchen photos."
     },
     {
@@ -17947,6 +22139,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.040000000000006,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 30.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.040000000000006,
       "visionNotes": "Open-plan kitchen with island and visible gas range with burners/grates integrated into the modern stove."
     },
     {
@@ -18010,6 +22220,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 43.040000000000006,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 30.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 43.040000000000006,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with large windows; gas cooktop with visible burners is visible on the stovetop."
     },
     {
@@ -18072,6 +22300,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is semi-open to living/dining area with an island; the stove has a flat black cooktop indicating electric/induction rather than gas burners."
     },
     {
@@ -18134,6 +22380,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is visible in the first two photos, open to living/dining area with visible gas range featuring burner grates and knobs."
     },
     {
@@ -18196,6 +22460,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is semi-open to living area with an island; the stove has a flat black glass cooktop indicating electric/induction cooking."
     },
     {
@@ -18258,6 +22540,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range featuring four burner grates and knobs on the stovetop."
     },
     {
@@ -18320,6 +22620,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Open-plan kitchen with island counter overlooking living area; stove has visible burner grates indicating gas range."
     },
     {
@@ -18382,6 +22700,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is semi-open to living/dining area with an island; the range has visible burner grates indicating a gas stove."
     },
     {
@@ -18444,6 +22780,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is semi-open to living area with an island counter; gas range visible with 4 burners and grates in photos 1 and 3."
     },
     {
@@ -18506,6 +22860,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.8275,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.8275,
       "visionNotes": "Kitchen is open to living area with island counter; gas range visible with 4 burner grates clearly showing on cooktop."
     },
     {
@@ -18569,6 +22941,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.785000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 29.450000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.785000000000004,
       "visionNotes": "Kitchen is fully open to living/dining area with visible gas range featuring exposed burners and grates on the stovetop."
     },
     {
@@ -18635,6 +23025,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.785000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 29.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.785000000000004,
       "visionNotes": "Kitchen is visible in photos 1, 4, and 5; it is open to dining/living areas with visible gas burners and grates on the range."
     },
     {
@@ -18698,6 +23106,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.4025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 28.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.4025,
       "visionNotes": "Kitchen is visible and open to the living/dining area; the stove has a flat glass/ceramic cooktop indicating electric or induction cooking."
     },
     {
@@ -18761,6 +23187,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.4025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 28.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.4025,
       "visionNotes": "Open-plan kitchen with island is clearly visible and flows into living area, but the stovetop is not clearly visible enough to determine if it's gas or electric."
     },
     {
@@ -18824,6 +23268,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.4025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 28.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.4025,
       "visionNotes": "Kitchen is semi-open to living area with an island counter; the stove appears to be electric with a flat glass/ceramic cooktop visible in photo 2."
     },
     {
@@ -18887,6 +23349,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.4025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 28.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.4025,
       "visionNotes": "Kitchen features an island with bar seating open to living area, with a visible electric/induction cooktop (flat black surface, no visible grates)."
     },
     {
@@ -18948,6 +23428,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 42.265,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 38.8,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.265,
       "visionNotes": "Kitchen is open to living/dining area with black island; stove appears to be electric/induction cooktop based on flat cooking surface visible."
     },
     {
@@ -19011,6 +23509,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.105000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.105000000000004,
       "visionNotes": "Open-plan kitchen visible in first two photos with gas range clearly showing burners/grates on the stovetop."
     },
     {
@@ -19074,6 +23590,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.105000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.105000000000004,
       "visionNotes": "Open-plan kitchen with light wood cabinets visible in multiple photos; gas range with visible burners and grates clearly shown in first two photos."
     },
     {
@@ -19137,6 +23671,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.105000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.105000000000004,
       "visionNotes": "Open-plan kitchen with visible gas range featuring multiple burners and grates, integrated into the living/dining area with no walls separating it."
     },
     {
@@ -19200,6 +23752,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.105000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.105000000000004,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has visible burner grates indicating gas cooking."
     },
     {
@@ -19263,6 +23833,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 42.105000000000004,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 42.105000000000004,
       "visionNotes": "Open-plan kitchen with light wood cabinetry, clearly visible gas range with visible burners and grates in the first two photos, seamlessly integrated with dining and living areas."
     },
     {
@@ -19323,6 +23911,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.9675,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 41.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.9675,
       "visionNotes": "Kitchen is visible in photo 2 with an island counter that opens to the adjacent living/laundry area, but the stove/range is not visible from this angle."
     },
     {
@@ -19387,6 +23993,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.81,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 26.200000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.81,
       "visionNotes": "Kitchen is visible in photo 2, semi-open to living/dining area with white cabinetry and stainless steel appliances; the visible cooktop appears to be electric/induction based on the flat surface design."
     },
     {
@@ -19451,6 +24075,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.81,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 26.200000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.81,
       "visionNotes": "Open-plan kitchen with visible gas range showing burner grates, stainless steel appliances, and direct access to living area."
     },
     {
@@ -19515,6 +24157,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.81,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 26.200000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.81,
       "visionNotes": "Kitchen is semi-open to the living/dining area with a peninsula counter, and the range/stove has visible black grates indicating gas burners."
     },
     {
@@ -19577,6 +24237,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.68,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 25.200000000000003,
+          "weight": 0.35,
+          "minutes": 44
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.68,
       "visionNotes": "Open-plan kitchen with electric slide-in range featuring a smooth flat cooktop visible in multiple photos; kitchen flows directly into living/dining areas."
     },
     {
@@ -19641,6 +24319,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.6375,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.35,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 31.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.6375,
       "visionNotes": "Kitchen features a sage green cabinetry with an island and is semi-open to the dining/living area; the stove is electric/induction with a flat black cooktop visible."
     },
     {
@@ -19702,6 +24398,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.6275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.6275,
       "visionNotes": "Open-plan kitchen with island layout visible in photo 2, featuring a gas cooktop with visible burners integrated into the countertop."
     },
     {
@@ -19763,6 +24477,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.6275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.6275,
       "visionNotes": "Kitchen is visible in the last photo, semi-open to living area with white cabinetry and wood accents, featuring a visible gas cooktop with burners on the right side."
     },
     {
@@ -19827,6 +24559,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.61750000000001,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 29.525,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.61750000000001,
       "visionNotes": "Open-plan kitchen with island and dining area visible in first photo, but stove/range details are not clearly visible from this angle."
     },
     {
@@ -19891,6 +24641,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.595000000000006,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 29.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.595000000000006,
       "visionNotes": "Open-plan kitchen with island seating overlooking living area; electric cooktop visible with flat glass/ceramic surface, no visible gas burners or grates."
     },
     {
@@ -19955,6 +24723,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.4675,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 29.025,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.4675,
       "visionNotes": "Kitchen visible in first and third photos; semi-open to living/dining area with white cabinetry; gas range with visible burners and grates clearly visible in the third photo."
     },
     {
@@ -20016,6 +24802,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.33,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 59.2,
+          "weight": 0.35,
+          "minutes": 24
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.33,
       "visionNotes": "Kitchen is visible in photo 2, semi-open to the dining/living area with white cabinetry, and the stove clearly has visible burner grates indicating a gas range."
     },
     {
@@ -20079,6 +24883,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.2875,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 37.525,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.2875,
       "visionNotes": "The kitchen is clearly visible in photo 3, featuring an open-plan layout that flows directly into the living/dining area, with a flat black electric cooktop built into the counter."
     },
     {
@@ -20141,6 +24963,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.17,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 25.200000000000003,
+          "weight": 0.35,
+          "minutes": 44
+        },
+        "friends": {
+          "score": 32.00000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.17,
       "visionNotes": "Kitchen is open to the living/dining area with visible gas range featuring burner grates, stainless steel appliances, and dark wood cabinetry."
     },
     {
@@ -20208,6 +25048,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41.0425,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.35,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 25.625,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41.0425,
       "visionNotes": "Open-plan kitchen with visible gas cooktop (black stovetop with visible burners) integrated into the living/dining area."
     },
     {
@@ -20269,6 +25127,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 41,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.35,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 29.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 41,
       "visionNotes": "Kitchen is semi-open to living/dining area with a peninsula counter; gas range visible with exposed burners and grates in photos 1 and 2."
     },
     {
@@ -20329,6 +25205,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.99,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.50000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.99,
       "visionNotes": "Kitchen is visible and open to living/dining area with an island; gas range with visible burners and grates is clearly visible on the stovetop."
     },
     {
@@ -20389,6 +25283,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.99,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.50000000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.99,
       "visionNotes": "Kitchen is visible and open to living/dining area, but no stove/range is visible in any photo."
     },
     {
@@ -20452,6 +25364,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen visible in photo 3 with gas range featuring visible burners and grates, integrated into living/dining area with island seating."
     },
     {
@@ -20515,6 +25445,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Kitchen visible in photos 3 and 4, open to living/dining area with island seating; gas range clearly visible with visible burners and grates."
     },
     {
@@ -20578,6 +25526,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen visible in photo 3 with island seating, and photo 4 shows a closed/galley kitchen with a gas range featuring visible burners and grates."
     },
     {
@@ -20641,6 +25607,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen with island visible in photo 3, featuring a gas range with visible burners in photo 4."
     },
     {
@@ -20704,6 +25688,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen visible in photo 3 with island seating; photo 4 shows a closed/galley kitchen with a gas range (visible burners and grates)."
     },
     {
@@ -20767,6 +25769,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen with island visible in photo 3, featuring a gas range/cooktop with visible burners in photo 4."
     },
     {
@@ -20830,6 +25850,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen with island visible in photo 3, and a separate closed galley kitchen shown in photo 4 with gas range visible with distinct burner grates."
     },
     {
@@ -20893,6 +25931,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen with island seating clearly visible in photo 3, featuring a gas range with visible burners and grates on the stovetop."
     },
     {
@@ -20956,6 +26012,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.905,
       "visionNotes": "Open-plan kitchen with island visible in photo 3, and a separate closed galley kitchen shown in photo 4 with a gas range with visible burner grates."
     },
     {
@@ -21020,6 +26094,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 40.3625,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.35,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 27.325000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.3625,
       "visionNotes": "Kitchen is open to living space via counter peninsula; stove appears to be electric/induction with a flat cooktop visible in the cabinetry."
     },
     {
@@ -21085,6 +26177,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.1625,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 33.775000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.1625,
       "visionNotes": "Open-plan kitchen with electric stove visible in second photo; black electric range with flat cooktop clearly visible next to stainless steel refrigerator."
     },
     {
@@ -21147,6 +26257,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.035,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 27.400000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.035,
       "visionNotes": "Open-plan kitchen with a black gas range featuring visible burner grates, integrated into the living/dining area with wood cabinetry and white upper cabinets."
     },
     {
@@ -21208,6 +26336,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.0125,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 33.275000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 40.0125,
       "visionNotes": "Kitchen is clearly visible in the first photo with an open floor plan flowing into the living area; the stove has visible burner grates indicating a gas range."
     },
     {
@@ -21269,6 +26415,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 39.97,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.35,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 31.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 39.97,
       "visionNotes": "Kitchen is visible in photo 2, featuring white cabinetry and a gas range with visible burners/grates, open to the main living space."
     },
     {
@@ -21332,6 +26496,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 39.9275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 34.97500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 39.9275,
       "visionNotes": "Open-plan kitchen with island visible in living area; electric range with smooth cooktop and black microwave above indicate electric/induction cooking."
     },
     {
@@ -21395,6 +26577,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 39.9275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 34.97500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 39.9275,
       "visionNotes": "Open-plan kitchen with island visible, featuring electric/induction cooktop and a smooth glass cooking surface, not gas burners."
     },
     {
@@ -21458,6 +26658,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 39.9275,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 34.97500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 39.9275,
       "visionNotes": "Open-plan kitchen with island visible in the last photo; electric range with flat cooktop and microwave hood visible."
     },
     {
@@ -21519,6 +26737,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 38.695,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 38.800000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 38.695,
       "visionNotes": "Kitchen visible in photo 3 with dark wood cabinetry and black countertop, semi-open to living area with partial wall separation, but stove/cooktop not clearly visible."
     },
     {
@@ -21582,6 +26818,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 37.92,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 23.5,
+          "weight": 0.35,
+          "minutes": 45
+        },
+        "friends": {
+          "score": 23.15,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 37.92,
       "visionNotes": "Kitchen is visible in the first photo with white cabinetry and black countertops, open to a living/dining area; gas range visible with exposed burners and grates."
     },
     {
@@ -21647,6 +26901,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 37.4525,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 21.799999999999997,
+          "weight": 0.35,
+          "minutes": 46
+        },
+        "friends": {
+          "score": 23.575000000000003,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 37.4525,
       "visionNotes": "Open-plan kitchen with peninsula counter overlooking living area; black gas range with visible burner grates clearly visible in the kitchen."
     },
     {
@@ -21708,6 +26980,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 37.42,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 37.42,
       "visionNotes": "Kitchen is open to living area with visible gas range featuring burner grates, black cabinets, and stainless steel appliances."
     },
     {
@@ -21769,6 +27059,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 37.25,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 37.25,
       "visionNotes": "Kitchen is partially visible in the last photo, appearing semi-open to the living/dining area, but the stove/range is not clearly visible enough to determine fuel type."
     },
     {
@@ -21830,6 +27138,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 37.0375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.35,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 33.275000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 37.0375,
       "visionNotes": "Open-plan kitchen integrated with living area; stainless steel range with visible burner grates indicates gas cooking."
     },
     {
@@ -21893,6 +27219,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 36.47500000000001,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 20.10000000000001,
+          "weight": 0.35,
+          "minutes": 47
+        },
+        "friends": {
+          "score": 22.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 36.47500000000001,
       "visionNotes": "Kitchen is visible in photo 3 with a gas range (visible burner grates), semi-open to the dining/living area with an island visible in photo 2."
     },
     {
@@ -21956,6 +27300,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 36.47500000000001,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 20.10000000000001,
+          "weight": 0.35,
+          "minutes": 47
+        },
+        "friends": {
+          "score": 22.300000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 36.47500000000001,
       "visionNotes": "Kitchen is visible in photos 2 and 3, featuring white cabinetry with an island; the stove has visible burner grates characteristic of gas cooking."
     },
     {
@@ -22016,6 +27378,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 36.059999999999995,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 40.5,
+          "weight": 0.35,
+          "minutes": 35
+        },
+        "friends": {
+          "score": 37.95,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 36.059999999999995,
       "visionNotes": "Kitchen is visible with a pass-through opening to living area; gas range with visible burner grates is clearly shown in the detailed kitchen photo."
     },
     {
@@ -22079,6 +27459,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 35.9025,
+        "neighborhood": {
+          "score": 65,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 18.400000000000006,
+          "weight": 0.35,
+          "minutes": 48
+        },
+        "friends": {
+          "score": 22.375,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 35.9025,
       "visionNotes": "Kitchen is visible in the first photo, open to the living/dining area with dark cabinetry, and the range has visible burner grates indicating a gas stove."
     },
     {
@@ -22140,6 +27538,24 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 34.955,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 30.3,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 34.955,
       "visionNotes": "Kitchen is semi-open to living area with a partial wall divider; gas range with visible burner grates clearly visible in photo 3."
     },
     {
@@ -22201,167 +27617,25 @@ window.__APARTMENT_REPORT__ = {
         "washerDryer": "yes"
       },
       "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 33.68,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 38.800000000000004,
+          "weight": 0.35,
+          "minutes": 36
+        },
+        "friends": {
+          "score": 32,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 33.68,
       "visionNotes": "Kitchen is visible in multiple photos with a white island counter opening to the living area; the stove has a flat black glass/ceramic cooktop indicating electric or induction cooking."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 55,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 19,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 45,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "unknown",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-fifty-lic-9b.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/2a1aee554975b3feb0d9b09950772e4e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/52799d5fe75ceb41fd50830901de93d3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/05c44715636e21f99d2803b61447f9d7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5713501f009f463ef0a157859563ff27-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e53259f35b0974933da633b36adce47d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/584d27ad870a051a3aa3a63810e32ef9-se_large_800_400.webp"
-        ],
-        "price": 4200,
-        "sqft": null,
-        "title": "39-26 30th Street #9B",
-        "url": "https://streeteasy.com/building/the-fifty-lic/9b",
-        "washerDryer": "yes"
-      },
-      "visionNotes": "Kitchen is semi-open to living/dining area with island, but stove type is not clearly visible in any photo."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 12,
-          "lines": [
-            "E Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        }
-      },
-      "gasStove": "yes",
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-altalic-29-22-northern-boulevard-long-island-city-3801e.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5b923a41c59e63e177fecb02560ab56c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9ef116b16dc709ec3d32024d376f75b9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b16c2c26d8f1e3ce8804e07e191fc154-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/62a306d3f608984ba4a5838e342dffea-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/30436e5fbaf3806a3aeac8349ff55f55-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bdddc0de7bf62ff5d14bef62d91c7f50-se_large_800_400.webp"
-        ],
-        "price": 6495,
-        "sqft": null,
-        "title": "29-22 Northern Boulevard #3801E",
-        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3801e",
-        "washerDryer": "yes"
-      },
-      "visionNotes": "Kitchen is visible in photos 2 and 6, open to living/dining area with visible gas cooktop with burners."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 30,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "2 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "M5"
-          ]
-        }
-      },
-      "gasStove": "no",
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "638 West End Avenue #3A, NEW YORK, NY, 10024",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-638-west-end-avenue-new-york-3a.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/17f195deb86862f66dc36201685abb48-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bf1d1ad6dd9796d851f0d4da63e2c33c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_medium_500_250.webp"
-        ],
-        "price": 4400,
-        "sqft": null,
-        "title": "638 West End Avenue #3A",
-        "url": "https://streeteasy.com/building/638-west-end-avenue-new_york/3a",
-        "washerDryer": "yes"
-      },
-      "visionNotes": "Open-plan kitchen integrated into living space with a white and black electric range/oven visible with a flat cooktop surface."
     }
   ]
 };

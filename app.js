@@ -148,7 +148,14 @@ function renderMonitor() {
     titleLink.textContent = entry.listing.title;
     titleLink.href = entry.listing.url;
     node.querySelector(".monitor-subhead").textContent = `${entry.listing.address || "Address unknown"} • ${formatCurrency(entry.listing.price)}`;
-    node.querySelector(".monitor-score").textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
+
+    const scoreBadge = node.querySelector(".monitor-score");
+    if (Number.isFinite(entry.rankScore)) {
+      scoreBadge.textContent = `${Math.round(entry.rankScore)}/100`;
+      scoreBadge.title = "Match score: 35% neighborhood preference, 35% office commute, 30% commute to friends";
+    } else {
+      scoreBadge.textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
+    }
 
     const heroLink = node.querySelector(".monitor-shot-link");
     heroLink.href = entry.listing.url;
@@ -196,6 +203,17 @@ function renderMonitor() {
       .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
       .filter(Boolean)
       .forEach((label) => commuteRow.append(createPill(label, "fact-pill")));
+
+    const breakdownEl = node.querySelector(".monitor-rank-breakdown");
+    const breakdown = entry.rankBreakdown;
+    if (breakdown) {
+      const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+      breakdownEl.textContent =
+        `Match score ${Math.round(breakdown.total)}/100 — ` +
+        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%, ` +
+        `Office: ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%, ` +
+        `Friends: ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`;
+    }
 
     node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";
 
