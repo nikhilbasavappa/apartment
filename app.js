@@ -205,15 +205,17 @@ function renderMonitor() {
       .forEach((label) => commuteRow.append(createPill(label, "fact-pill")));
 
     const breakdownEl = node.querySelector(".monitor-rank-breakdown");
+    const breakdownLabel = node.querySelector(".monitor-rank-label");
     const breakdown = entry.rankBreakdown;
     if (breakdown) {
       const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
       [
-        `Score ${Math.round(breakdown.total)}/100`,
-        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}) ${Math.round(breakdown.neighborhood.score)} × ${Math.round(breakdown.neighborhood.weight * 100)}%`,
-        `Office ${Math.round(breakdown.office.score)} × ${Math.round(breakdown.office.weight * 100)}%`,
-        `Friends ${Math.round(breakdown.friends.score)} × ${Math.round(breakdown.friends.weight * 100)}%`,
+        `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} · ${Math.round(breakdown.neighborhood.weight * 100)}% weight`,
+        `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,
+        `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
       ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
+    } else if (breakdownLabel) {
+      breakdownLabel.style.display = "none";
     }
 
     node.querySelector(".monitor-why").textContent = entry.visionNotes || entry.listing.description?.slice(0, 240) || "";

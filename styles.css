@@ -257,6 +257,18 @@ h3 {
   background: var(--surface-sunken);
 }
 
+.monitor-rank-label {
+  margin: 16px 0 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.monitor-rank-breakdown {
+  margin-top: 8px;
+}
+
 .score-pill {
   border-radius: var(--radius-sm);
   padding: 5px 9px;
@@ -264,10 +276,6 @@ h3 {
   border: 1px solid var(--sage);
   color: var(--sage);
   background: var(--sage-soft);
-}
-
-.score-pill:first-child {
-  font-weight: 600;
 }
 
 .ghost-button {
