@@ -1,6 +1,31 @@
 const fs = require("fs");
 const path = require("path");
-const { ensureDir, randomDelay, sanitizeFilename, slugify } = require("./util.cjs");
+const { ensureDir, sanitizeFilename, slugify } = require("./util.cjs");
+const { fetchViaUnlocker } = require("./unlocker.cjs");
+
+// Loads a page through Bright Data instead of navigating there directly, so
+// the browser here is just a local renderer/parser for whatever HTML comes
+// back — it never itself connects to the target site. setContent() doesn't
+// know the page's real origin, so relative URLs (nav links, relative image
+// src) would resolve against about:blank without an explicit <base> tag.
+async function loadViaUnlocker(page, url, settleMs = 400) {
+  const html = await fetchViaUnlocker(url);
+  const origin = new URL(url).origin;
+  const withBase = html.includes("<head>")
+    ? html.replace("<head>", `<head><base href="${origin}/">`)
+    : `<base href="${origin}/">${html}`;
+  await page.setContent(withBase, { waitUntil: "domcontentloaded", timeout: 45000 });
+  // domcontentloaded fires before layout/paint finish; document.body.innerText
+  // (used for bodyText extraction) needs a completed layout pass or it comes
+  // back empty/truncated, and how long that takes varies with page size. Poll
+  // for real content instead of guessing a fixed delay; fall back to whatever
+  // rendered once the budget runs out (a genuinely sparse page, not a bug).
+  await page
+    .waitForFunction(() => Boolean(document.body && document.body.innerText.trim().length > 200), {
+      timeout: Math.max(settleMs, 3000),
+    })
+    .catch(() => {});
+}
 
 const SOURCE_PATTERNS = {
   streeteasy: [/streeteasy\.com\/rental\//i, /streeteasy\.com\/building\/[^/]+\/\d+/i],
@@ -36,6 +61,20 @@ function isBotChallengePage(raw) {
     body.includes("press & hold") ||
     (body.includes("confirm you are") && body.includes("not a bot"))
   );
+}
+
+// Same rationale as BotChallengeError: occasionally the layout/paint pass
+// still hasn't finished by the time the settle-wait budget runs out (page
+// size and Bright Data response time both vary run to run), leaving
+// document.body.innerText empty even though real listing data, ld+json
+// included, is present in the DOM. That's a rendering race, not a listing
+// that's actually missing this data — don't cache a permanent "everything
+// unknown" rejection for it, let it retry on the next run.
+class ExtractionIncompleteError extends Error {
+  constructor(url) {
+    super(`Listing body text failed to render at ${url}`);
+    this.name = "ExtractionIncompleteError";
+  }
 }
 
 // StreetEasy search results are real pagination (?page=2, ?page=3, ...), not
@@ -132,67 +171,14 @@ function looksLikeListing(candidate, source) {
   return hasPattern || hasHousingSignals;
 }
 
-async function dismissOverlays(page) {
-  const labels = [/accept/i, /agree/i, /got it/i, /close/i, /continue/i, /dismiss/i];
-
-  for (const label of labels) {
-    const locator = page.getByRole("button", { name: label }).first();
-    try {
-      if ((await locator.count()) > 0) {
-        await locator.click({ timeout: 400 });
-      }
-    } catch (error) {
-      // Ignore transient overlays.
-    }
-  }
-}
-
-async function autoScroll(page, steps = 3) {
-  await page.evaluate(async (stepCount) => {
-    for (let step = 0; step < stepCount; step += 1) {
-      window.scrollBy(0, Math.floor(window.innerHeight * 0.9));
-      await new Promise((resolve) => setTimeout(resolve, 250));
-    }
-    window.scrollTo(0, 0);
-  }, steps);
-}
-
-// Keeps scrolling (a search results page lazy-loads more cards as you go)
-// until the page stops growing for two checks in a row, rather than a fixed
-// step count that would silently stop short of the full result set.
-async function scrollUntilExhausted(page, { maxSteps = 80, idleLimit = 2 } = {}) {
-  let previousHeight = 0;
-  let idleCount = 0;
-
-  for (let step = 0; step < maxSteps; step += 1) {
-    const height = await page.evaluate(() => {
-      window.scrollTo(0, document.body.scrollHeight);
-      return document.body.scrollHeight;
-    });
-
-    // Randomized, not fixed — a uniform 400ms cadence is itself a
-    // machine-like tell.
-    await randomDelay(350, 900);
-
-    if (height <= previousHeight) {
-      idleCount += 1;
-      if (idleCount >= idleLimit) break;
-    } else {
-      idleCount = 0;
-    }
-    previousHeight = height;
-  }
-
-  await page.evaluate(() => window.scrollTo(0, 0));
-}
-
 async function extractSearchListings(page, sourceConfig) {
   const source = sourceConfig.source || detectSource(sourceConfig.url);
-  await dismissOverlays(page);
-  // Search results pages lazy-load more cards as you scroll; keep going
-  // until it genuinely stops loading more, so the full result set (not just
-  // the first screenful) ends up in the DOM to scrape.
-  await scrollUntilExhausted(page);
+  // No dismissOverlays/scroll-to-lazy-load here: the page is static HTML
+  // from the unlocker with JS disabled, so there's no interactive overlay
+  // to click through and no client-side lazy-loading that scrolling could
+  // trigger — everything server-rendered is already in the DOM. Real
+  // pagination (buildPageUrl) is what surfaces more than a single page's
+  // worth of results, not scrolling.
 
   const rawListings = await page.evaluate(() => {
     const anchors = Array.from(document.querySelectorAll("a[href]"));
@@ -340,12 +326,9 @@ function normalizePhotos(rawPhotos, limit) {
 }
 
 async function extractListingDetail(page, candidate, config, outputPaths) {
-  await page.goto(candidate.url, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await dismissOverlays(page);
-  const baseWait = config.scanner.waitAfterLoadMs || 1200;
-  await randomDelay(baseWait * 0.7, baseWait * 1.4);
-  await autoScroll(page);
-  await randomDelay(250, 600);
+  await loadViaUnlocker(page, candidate.url, config.scanner.waitAfterLoadMs);
+  // No dismissOverlays/autoScroll: static HTML with JS disabled, nothing
+  // interactive to dismiss and no lazy-loading scrolling could trigger.
 
   const raw = await page.evaluate(() => {
     const metaDescription =
@@ -368,7 +351,6 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
       metaDescription,
       pageTitle: document.title || "",
       rawScripts,
-      url: location.href,
     };
   });
 
@@ -377,6 +359,17 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
   }
 
   const structuredObjects = parseStructuredData(raw.rawScripts);
+
+  // ld+json parsing above only needs textContent, not layout, so it's already
+  // reliable at this point — if it found real listing data but bodyText is
+  // still short, that's the rendering race the settle-wait poll didn't fully
+  // catch (boilerplate/chrome painted, main listing content didn't), not a
+  // thin page. Real listing pages run several thousand characters once fully
+  // rendered, so this stays well clear of genuinely short pages.
+  if (raw.bodyText.length < 1000 && structuredObjects.length > 0) {
+    throw new ExtractionIncompleteError(candidate.url);
+  }
+
   const structuredName = firstStructuredValue(structuredObjects, ["name", "headline"]);
   const structuredDescription = firstStructuredValue(structuredObjects, ["description"]);
   const structuredPrice = firstStructuredValue(structuredObjects, ["price", "rent"]);
@@ -389,7 +382,7 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
     return Array.isArray(images) ? images : [images];
   });
 
-  const listingId = createListingId(raw.url || candidate.url);
+  const listingId = createListingId(candidate.url);
   const screenshotFile = path.join(outputPaths.screenshotDir, `${listingId}.png`);
 
   if (config.scanner.captureScreenshots) {
@@ -415,7 +408,7 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
         ? Number.parseFloat(structuredFloorSize.value)
         : Number.parseFloat(structuredFloorSize) || null,
     title: candidate.title || raw.h1 || structuredName || raw.pageTitle || candidate.url,
-    url: raw.url || candidate.url,
+    url: candidate.url,
   };
 }
 
@@ -432,12 +425,14 @@ function resolveChromeExecutable() {
 
 module.exports = {
   BotChallengeError,
+  ExtractionIncompleteError,
   buildPageUrl,
   clearStaleSingletonLock,
   createListingId,
   detectSource,
   extractListingDetail,
   extractSearchListings,
+  loadViaUnlocker,
   normalizeUrl,
   resolveChromeExecutable,
 };

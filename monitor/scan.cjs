@@ -4,10 +4,12 @@ const path = require("path");
 const { chromium } = require("playwright");
 const {
   BotChallengeError,
+  ExtractionIncompleteError,
   buildPageUrl,
   clearStaleSingletonLock,
   extractListingDetail,
   extractSearchListings,
+  loadViaUnlocker,
   resolveChromeExecutable,
 } = require("./lib/adapters.cjs");
 const { computeCommutes } = require("./lib/geo.cjs");
@@ -181,6 +183,13 @@ function createPersistentContext(config) {
     userAgent:
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     viewport: { width: 1440, height: 1600 },
+    // Pages are loaded via setContent() from Bright Data's response, not
+    // real navigation — the document has no real origin, so the target
+    // site's own script (React/Next.js) fails to hydrate against it and,
+    // while recovering from that failure, tears out the very content we
+    // came for. We only ever read static HTML/attributes, so none of that
+    // execution is needed anyway.
+    javaScriptEnabled: false,
     args: [
       "--disable-blink-features=AutomationControlled",
       "--no-first-run",
@@ -231,12 +240,11 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
   const collected = [];
   const seenUrls = new Set();
   const maxCandidates = config.scanner.maxListingsPerSource || 20;
-  const baseWait = config.scanner.waitAfterLoadMs || 1200;
 
   for (let pageNumber = 1; pageNumber <= 100; pageNumber += 1) {
     const pageUrl = buildPageUrl(sourceConfig.url, pageNumber);
-    await searchPage.goto(pageUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
-    await randomDelay(baseWait * 0.7, baseWait * 1.4);
+    await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
+    await randomDelay(300, 700);
 
     const pageResults = await extractSearchListings(searchPage, sourceConfig);
     const newOnes = pageResults.filter((item) => !seenUrls.has(item.url));
@@ -250,9 +258,9 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
 
     if (collected.length >= maxCandidates) break;
 
-    // Pace like someone paging through results, not a script hammering
-    // "next page" — the same treatment as between individual listings.
-    await randomDelay(2500, 6000);
+    // Bright Data handles StreetEasy-facing pacing now; this is just being
+    // a reasonable citizen of the unlocker API itself, not evasion.
+    await randomDelay(500, 1200);
   }
 
   return collected;
@@ -288,12 +296,12 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
         break;
       }
 
-      // Pace like a person clicking through listings, not a script blasting
-      // through them — a longer pause every so often too, like someone
-      // taking a break to think about what they just saw.
+      // This used to be paced to look human to StreetEasy directly; Bright
+      // Data's infrastructure is what StreetEasy actually sees now, so this
+      // is just light, well-behaved spacing on our calls to the unlocker
+      // API itself, not evasion.
       if (counters.newListingsInspected > 0) {
-        const takingABreak = counters.newListingsInspected % 12 === 0;
-        await randomDelay(...(takingABreak ? [18000, 35000] : [3000, 8000]));
+        await randomDelay(400, 1000);
       }
 
       const listingPage = await context.newPage();
@@ -323,6 +331,11 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
             // break actually exits the loop.
             break;
           }
+        } else if (error instanceof ExtractionIncompleteError) {
+          // Same treatment as a bot challenge: this is a rendering race, not
+          // a real rejection, so don't cache it — it'll just get picked up
+          // again on the next run.
+          console.warn(`EXTRACTION_INCOMPLETE: ${error.message}`);
         } else {
           state.catalog[entryId] = {
             commute: {},
