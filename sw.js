@@ -1,4 +1,4 @@
-const CACHE = "apartment-v202607092336";
+const CACHE = "apartment-v202607100152";
 
 const APP_SHELL = [
   "./",

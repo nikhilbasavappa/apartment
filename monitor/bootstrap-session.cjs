@@ -3,7 +3,7 @@
 const path = require("path");
 const readline = require("readline");
 const { chromium } = require("playwright");
-const { resolveChromeExecutable } = require("./lib/adapters.cjs");
+const { clearStaleSingletonLock, resolveChromeExecutable } = require("./lib/adapters.cjs");
 const { ensureDir, readJson } = require("./lib/util.cjs");
 
 const configPath = path.join(__dirname, "config.json");
@@ -25,6 +25,7 @@ async function main() {
   const targetUrl = firstSource?.url || "https://streeteasy.com/";
 
   ensureDir(browserProfileDir);
+  clearStaleSingletonLock(browserProfileDir);
 
   // Launched at the same profile directory the scanner itself uses, so
   // whatever you do here — solving the challenge, clicking around — becomes
@@ -58,6 +59,10 @@ async function main() {
 
   await context.close();
   console.log(`\nProfile saved to ${browserProfileDir}. The scanner will reuse it on every future run.`);
+  // Explicit exit: don't rely on the event loop draining naturally, in case
+  // a lingering Chrome/Playwright handle would otherwise keep the process
+  // (and its lock on the profile) alive after the window is gone.
+  process.exit(0);
 }
 
 main().catch((error) => {

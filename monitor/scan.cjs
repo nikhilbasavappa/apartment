@@ -2,7 +2,14 @@
 
 const path = require("path");
 const { chromium } = require("playwright");
-const { extractListingDetail, extractSearchListings, resolveChromeExecutable } = require("./lib/adapters.cjs");
+const {
+  BotChallengeError,
+  buildPageUrl,
+  clearStaleSingletonLock,
+  extractListingDetail,
+  extractSearchListings,
+  resolveChromeExecutable,
+} = require("./lib/adapters.cjs");
 const { computeCommutes } = require("./lib/geo.cjs");
 const { generateHtmlReport, generateMarkdownReport } = require("./lib/report.cjs");
 const { sendNotifications } = require("./lib/notify.cjs");
@@ -165,6 +172,7 @@ function createPersistentContext(config) {
   }
 
   ensureDir(browserProfileDir);
+  clearStaleSingletonLock(browserProfileDir);
 
   return chromium.launchPersistentContext(browserProfileDir, {
     executablePath: resolveChromeExecutable() || undefined,
@@ -215,16 +223,47 @@ async function inspectListing(candidate, listingPage, config, runAt) {
   };
 }
 
+// StreetEasy paginates search results (?page=2, ?page=3, ...) rather than
+// infinite-scrolling; a single page load only ever exposes a small slice
+// (~11-20) of what can be several hundred total matches. Walk pages until
+// one comes back with nothing new, or the configured cap is hit.
+async function collectSearchCandidates(searchPage, sourceConfig, config) {
+  const collected = [];
+  const seenUrls = new Set();
+  const maxCandidates = config.scanner.maxListingsPerSource || 20;
+  const baseWait = config.scanner.waitAfterLoadMs || 1200;
+
+  for (let pageNumber = 1; pageNumber <= 100; pageNumber += 1) {
+    const pageUrl = buildPageUrl(sourceConfig.url, pageNumber);
+    await searchPage.goto(pageUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
+    await randomDelay(baseWait * 0.7, baseWait * 1.4);
+
+    const pageResults = await extractSearchListings(searchPage, sourceConfig);
+    const newOnes = pageResults.filter((item) => !seenUrls.has(item.url));
+
+    if (!newOnes.length) break;
+
+    newOnes.forEach((item) => {
+      seenUrls.add(item.url);
+      collected.push(item);
+    });
+
+    if (collected.length >= maxCandidates) break;
+
+    // Pace like someone paging through results, not a script hammering
+    // "next page" — the same treatment as between individual listings.
+    await randomDelay(2500, 6000);
+  }
+
+  return collected;
+}
+
 async function inspectSource(sourceConfig, context, state, config, runAt, counters) {
   const searchPage = await context.newPage();
   const freshEntries = [];
 
   try {
-    await searchPage.goto(sourceConfig.url, { waitUntil: "domcontentloaded", timeout: 45000 });
-    const baseWait = config.scanner.waitAfterLoadMs || 1200;
-    await randomDelay(baseWait * 0.7, baseWait * 1.4);
-
-    const searchResults = await extractSearchListings(searchPage, sourceConfig);
+    const searchResults = await collectSearchCandidates(searchPage, sourceConfig, config);
     if (!searchResults.length) {
       // Distinct, greppable signal: the search results page itself yielded
       // nothing, which usually means the bot wall blocked it before any
@@ -233,6 +272,7 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
       console.warn(`ZERO_SEARCH_RESULTS: no listings found on search page for "${sourceConfig.name}"`);
     }
     const limitedResults = searchResults.slice(0, config.scanner.maxListingsPerSource || 20);
+    let consecutiveChallenges = 0;
 
     for (const candidate of limitedResults) {
       const entryId = candidate.id || candidate.url;
@@ -264,24 +304,44 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
         state.catalog[entryId] = catalogEntry;
         freshEntries.push(catalogEntry);
         counters.newListingsInspected += 1;
+        consecutiveChallenges = 0;
       } catch (error) {
-        state.catalog[entryId] = {
-          commute: {},
-          gasStove: "unknown",
-          kitchenLayout: "unknown",
-          listing: {
-            ...candidate,
-            description: candidate.searchSnippet || "",
-            externalScreenshot: null,
-            photos: [],
-            url: candidate.url,
-          },
-          qualifies: false,
-          reasons: [`Inspection failed: ${error.message}`],
-          firstSeenAt: runAt,
-          lastSeenAt: runAt,
-          lastSourceName: sourceConfig.name,
-        };
+        if (error instanceof BotChallengeError) {
+          // Don't cache this as a permanent "excluded" record — we didn't
+          // actually see the listing, we got a challenge page. Leaving it
+          // out of the catalog means it's retried on a future run instead
+          // of being wrongly marked as inspected-and-rejected forever.
+          consecutiveChallenges += 1;
+          console.warn(`BOT_CHALLENGE: ${error.message} (${consecutiveChallenges} in a row)`);
+
+          if (consecutiveChallenges >= 3) {
+            console.warn(
+              "BOT_CHALLENGE: 3 in a row — stopping this run rather than burning through " +
+                "the rest of the candidate list against a wall it's not going to get past."
+            );
+            // `finally` below still runs and closes listingPage before this
+            // break actually exits the loop.
+            break;
+          }
+        } else {
+          state.catalog[entryId] = {
+            commute: {},
+            gasStove: "unknown",
+            kitchenLayout: "unknown",
+            listing: {
+              ...candidate,
+              description: candidate.searchSnippet || "",
+              externalScreenshot: null,
+              photos: [],
+              url: candidate.url,
+            },
+            qualifies: false,
+            reasons: [`Inspection failed: ${error.message}`],
+            firstSeenAt: runAt,
+            lastSeenAt: runAt,
+            lastSourceName: sourceConfig.name,
+          };
+        }
       } finally {
         await listingPage.close();
       }

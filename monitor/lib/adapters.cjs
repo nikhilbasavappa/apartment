@@ -17,13 +17,97 @@ function detectSource(value) {
   return "generic";
 }
 
+// Thrown instead of returning near-empty details when a listing page turns
+// out to be a bot-detection challenge, not the real listing — distinct from
+// a normal parse failure so callers can retry it later instead of
+// permanently caching a meaningless "everything unknown" record.
+class BotChallengeError extends Error {
+  constructor(url) {
+    super(`Bot challenge page encountered at ${url}`);
+    this.name = "BotChallengeError";
+  }
+}
+
+function isBotChallengePage(raw) {
+  const title = (raw.pageTitle || "").toLowerCase();
+  const body = (raw.bodyText || "").toLowerCase();
+  return (
+    title.includes("access to this page has been denied") ||
+    body.includes("press & hold") ||
+    (body.includes("confirm you are") && body.includes("not a bot"))
+  );
+}
+
+// StreetEasy search results are real pagination (?page=2, ?page=3, ...), not
+// infinite scroll — a single page load only ever exposes ~11-20 of what can
+// be several hundred total results.
+function buildPageUrl(baseUrl, pageNumber) {
+  const url = new URL(baseUrl);
+  if (pageNumber <= 1) {
+    url.searchParams.delete("page");
+  } else {
+    url.searchParams.set("page", String(pageNumber));
+  }
+  return url.toString();
+}
+
+// Chrome writes SingletonLock/Socket/Cookie on start and removes them on
+// clean exit. If a prior run got killed, crashed, or the terminal closed
+// before the process finished tearing down, the lock survives and blocks
+// every future launch against this profile — including the unattended
+// scheduled job — until someone notices and clears it by hand. Only remove
+// it when the PID it names is confirmed gone, never just because it's old.
+function clearStaleSingletonLock(profileDir) {
+  const lockPath = path.join(profileDir, "SingletonLock");
+
+  // SingletonLock is a dangling symlink by design (it points at a
+  // "hostname-pid" string, not a real file), so fs.existsSync — which
+  // follows symlinks and checks the target — always reports false for it.
+  // lstatSync checks the link itself, not what it points to.
+  try {
+    if (!fs.lstatSync(lockPath).isSymbolicLink()) return;
+  } catch (error) {
+    return; // No lock file at all.
+  }
+
+  try {
+    const target = fs.readlinkSync(lockPath);
+    const pidMatch = target.match(/-(\d+)$/);
+    const pid = pidMatch ? Number.parseInt(pidMatch[1], 10) : null;
+
+    if (pid) {
+      try {
+        process.kill(pid, 0);
+        return; // Signal delivery succeeded (or EPERM) — a process is there.
+      } catch (error) {
+        if (error.code !== "ESRCH") return; // Can't confirm it's dead — leave it alone.
+      }
+    }
+  } catch (error) {
+    return; // Not a symlink we can parse — don't guess, leave it alone.
+  }
+
+  ["SingletonLock", "SingletonSocket", "SingletonCookie"].forEach((name) => {
+    try {
+      fs.unlinkSync(path.join(profileDir, name));
+    } catch (error) {
+      // Already gone — fine.
+    }
+  });
+  console.warn(`Cleared a stale browser profile lock at ${profileDir} (owning process no longer exists).`);
+}
+
 function normalizeUrl(rawUrl) {
   try {
     const url = new URL(rawUrl);
     url.hash = "";
-    ["utm_source", "utm_medium", "utm_campaign", "searchQueryState"].forEach((param) =>
-      url.searchParams.delete(param)
-    );
+    // Drop every query param, not just the utm_* ones: the same listing
+    // shows up multiple times on a search page (a promoted "featured" slot
+    // plus its normal ranked position) with different tracking/promo params
+    // on otherwise-identical URLs — ?featured=1, ?infeed=1, ?lstt=... — and
+    // each variant was getting cataloged as a separate listing. The path
+    // alone is the real identity for a building/rental detail page.
+    url.search = "";
     return url.toString();
   } catch (error) {
     return rawUrl;
@@ -232,7 +316,7 @@ function extractAddress(structuredObjects, raw) {
 }
 
 const NON_PHOTO_URL_PATTERN =
-  /(teads\.tv|doubleclick|googlesyndication|google-analytics|googletagmanager|facebook\.com\/tr|maps\.googleapis\.com\/maps\/api\/staticmap|adsystem|\/track\?|\/pixel\?|\/beacon)/i;
+  /(teads\.tv|doubleclick|googlesyndication|google-analytics|googletagmanager|facebook\.com\/tr|maps\.googleapis\.com\/maps\/api\/staticmap|adsystem|\/track\?|\/pixel\?|\/beacon|_logo_|\/logo\.)/i;
 
 function looksLikePhoto(url) {
   if (NON_PHOTO_URL_PATTERN.test(url)) return false;
@@ -287,6 +371,10 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
       url: location.href,
     };
   });
+
+  if (isBotChallengePage(raw)) {
+    throw new BotChallengeError(candidate.url);
+  }
 
   const structuredObjects = parseStructuredData(raw.rawScripts);
   const structuredName = firstStructuredValue(structuredObjects, ["name", "headline"]);
@@ -343,6 +431,9 @@ function resolveChromeExecutable() {
 }
 
 module.exports = {
+  BotChallengeError,
+  buildPageUrl,
+  clearStaleSingletonLock,
   createListingId,
   detectSource,
   extractListingDetail,
