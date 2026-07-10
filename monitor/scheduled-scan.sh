@@ -14,9 +14,9 @@ cd "$REPO_ROOT"
 echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 node "$SCRIPT_DIR/scan.cjs" 2>&1 | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 
-# Two independent signals of a systemically broken run (StreetEasy bot wall /
-# stale profile), not real data — don't publish either case over good
-# existing data:
+# Two independent signals of a systemically broken run (Bright Data outage /
+# bad credentials / StreetEasy layout change), not real data — don't publish
+# either case over good existing data:
 #   1. The search page itself yielded nothing (blocked before reaching any
 #      listing at all).
 #   2. Every new listing failed to yield both a rent and an address.
@@ -43,8 +43,8 @@ else
 fi
 
 if [[ "$BROKEN" == "yes" ]]; then
-  osascript -e 'display notification "StreetEasy session likely expired. Run: node monitor/bootstrap-session.cjs" with title "Future Elmo'"'"'s World"' >> "$LOG_FILE" 2>&1 || true
-  echo "Run looked systemically broken (expired session?) — not committing." >> "$LOG_FILE"
+  osascript -e 'display notification "Scan looked broken — check monitor/scheduled-scan.log (Bright Data credentials/balance or a StreetEasy layout change are the likely causes)" with title "Future Elmo'"'"'s World"' >> "$LOG_FILE" 2>&1 || true
+  echo "Run looked systemically broken (Bright Data issue or site change?) — not committing." >> "$LOG_FILE"
   git checkout -- monitor-output/ >> "$LOG_FILE" 2>&1 || true
   exit 0
 fi

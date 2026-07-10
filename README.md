@@ -50,7 +50,7 @@ Then visit `http://localhost:4173`.
 
 ## Background Scanner
 
-See [monitor/README.md](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/README.md>) for setup (API keys, one-time session bootstrap, running it).
+See [monitor/README.md](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/README.md>) for setup (API keys including Bright Data, running it).
 
 ## Publish Loop
 
@@ -66,4 +66,4 @@ Every push to `main` republishes the app.
 
 - Commute times are real (Google Directions, transit mode), not estimates.
 - Kitchen/stove judgment comes from Claude looking at the actual listing photos, not keyword matching.
-- StreetEasy blocks automated browsers with a bot challenge; the scanner reuses a session you bootstrap manually once (see monitor/README.md).
+- StreetEasy blocks automated browsers with a bot challenge; the scanner routes listing fetches through Bright Data's Web Unlocker API instead of navigating there directly (see monitor/README.md).

@@ -5,8 +5,8 @@ The engine behind the web app. The person-facing entry point is still [index.htm
 ## What It Does
 
 - Reads public saved-search URLs from [config.json](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/config.json>)
-- Visits listing pages with Playwright plus your installed Chrome, reusing a real persistent browser profile (see below) to get past StreetEasy's bot check
-- Paces itself like a person, not a script — randomized delays between listings, occasional longer pauses, scrolls the search page until it genuinely stops loading more rather than a fixed number of steps
+- Fetches listing pages through Bright Data's Web Unlocker API rather than navigating there directly — their infrastructure handles StreetEasy's bot detection server-side and hands back the rendered HTML, which Playwright then just parses locally (JavaScript disabled in that local context; it's a static-HTML reader, not a real browser session against StreetEasy)
+- Walks real pagination (`?page=2`, `?page=3`, ...) on the search results rather than a fixed number of pages
 - Extracts address, price, beds/baths, and photos for each new listing
 - Geocodes the address and gets real transit commute times + subway lines to 4 destinations via Google Directions
 - Sends the listing photos to Claude to judge kitchen layout (open/semi-open/closed/galley) and stove type (gas/electric) — this isn't filterable on StreetEasy, so it has to come from the photos
@@ -22,14 +22,13 @@ The engine behind the web app. The person-facing entry point is still [index.htm
    ```
    GOOGLE_MAPS_API_KEY=...
    ANTHROPIC_API_KEY=...
+   BRIGHTDATA_API_KEY=...
+   BRIGHTDATA_ZONE=...
    ```
-   The Google key needs the **Geocoding API** and **Directions API** enabled (and allowed on the key's own restriction list, not just the project). The Anthropic key needs a positive credit balance.
+   The Google key needs the **Geocoding API** and **Directions API** enabled (and allowed on the key's own restriction list, not just the project). The Anthropic key needs a positive credit balance. The Bright Data key/zone come from a [Web Unlocker](https://brightdata.com/products/web-unlocker) zone in your Bright Data account — this is what actually gets past StreetEasy's bot detection; billed per successful request.
 3. Paste your saved-search URL(s) into [config.json](</Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor/config.json>) and set `enabled: true`
-4. Bootstrap a trusted browser profile once:
-   ```bash
-   node monitor/bootstrap-session.cjs
-   ```
-   A real Chrome window opens to your search. Solve the "Press & Hold" human-check yourself, then browse for a bit like a normal visitor — click into a couple listings, scroll, take your time — before pressing Enter in the terminal. This builds a real persistent Chrome profile at `monitor/.browser-profile/` (gitignored: cookies, cache, history, local storage — everything, not just a cookie export), which every future automated scan reuses as-is. Redo this whenever scans start coming back broken (you'll get a desktop notification if you're on the scheduled job — see below).
+
+`monitor/bootstrap-session.cjs` and the persistent Chrome profile at `monitor/.browser-profile/` predate the Bright Data integration. They're no longer load-bearing for bot detection — Bright Data is what StreetEasy actually sees now, not this local browser — but are left in place since a real browser profile is still what renders the fetched HTML locally.
 
 ## Running Unattended
 
