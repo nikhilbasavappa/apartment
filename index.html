@@ -14,84 +14,159 @@
   </head>
   <body>
     <main class="shell">
-      <section class="hero panel">
+      <header class="hero panel">
         <div class="hero-copy">
           <h1>Future Elmo's World</h1>
           <p class="lede">La la la la. La la la la. Elmo's World.</p>
         </div>
+        <nav class="tab-bar" id="tabBar">
+          <button type="button" class="tab-button" data-tab="criteria">Criteria</button>
+          <button type="button" class="tab-button" data-tab="act-now">Act Now <span class="tab-count" id="tabCountActNow"></span></button>
+          <button type="button" class="tab-button" data-tab="new">New <span class="tab-count" id="tabCountNew"></span></button>
+          <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
+        </nav>
+      </header>
 
-        <div class="profile-grid">
-          <article class="stat-card">
-            <span class="stat-label">Office</span>
-            <strong>53rd &amp; Lexington</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Budget</span>
-            <strong>$6,500 target / $7,000 stretch</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Must-Haves</span>
-            <strong>In-unit W/D + open kitchen</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Ideal Layout</span>
-            <strong>2 bed, minimum 1 bed</strong>
-          </article>
+      <section class="tab-page" id="page-criteria" data-tab="criteria">
+        <div class="panel">
+          <div class="profile-grid">
+            <article class="stat-card">
+              <span class="stat-label">Office</span>
+              <strong>53rd &amp; Lexington</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Budget</span>
+              <strong>$6,500 target / $7,000 stretch</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Must-Haves</span>
+              <strong>In-unit W/D + open kitchen</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Ideal Layout</span>
+              <strong>2 bed, minimum 1 bed</strong>
+            </article>
+          </div>
         </div>
-        <p class="hero-footnote">
-          Budget, beds, in-unit W/D, and kitchen layout are hard requirements — a listing has to clear all of them
-          before it shows up at all. The score on each card below only ranks among listings that already passed
-          those; it doesn't re-weigh them.
-        </p>
+
+        <div class="panel">
+          <div class="section-heading">
+            <h2>How this works</h2>
+          </div>
+          <p class="rubric-copy">
+            A listing has to clear every hard requirement before it shows up anywhere on this site at all:
+            rent between $4,000&ndash;$7,000, at least 1 bedroom, in-unit washer/dryer, and a kitchen that's open
+            or semi-open (not closed or galley). Gowanus is excluded outright regardless of anything else.
+            None of that is weighted or negotiable &mdash; it's pass/fail.
+          </p>
+          <p class="rubric-copy">
+            Everything that clears those gets a <strong>match score out of 100</strong>, blending three things:
+          </p>
+          <ul class="rubric-list">
+            <li><strong>Neighborhood preference</strong> &mdash; Upper West Side scores 100, Brooklyn scores 65,
+              everywhere else (other Manhattan, Queens/LIC) scores 30.</li>
+            <li><strong>Office commute</strong> &mdash; shorter is better, scored on a sliding scale.</li>
+            <li><strong>Friends commute</strong> &mdash; averaged across your four friends (Upper West Side,
+              Morningside Heights, LIC, Prospect Heights), same sliding scale.</li>
+          </ul>
+          <p class="rubric-copy">
+            The default weighting is 35% neighborhood, 35% office, 30% friends. Because the neighborhood tiers are
+            far apart (100 vs. 65 vs. 30) and that's over a third of the score, a UWS listing starts with a real
+            head start that a merely-better commute often can't fully close &mdash; that's not a bug, just what a
+            35% weight on a 70-point spread does. If that balance feels off, adjust it below; it re-sorts the New
+            and All Qualifying tabs immediately and remembers your setting on this device.
+          </p>
+
+          <div class="weight-sliders">
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Neighborhood</span>
+                <strong id="weightNeighborhoodValue">35%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="35" id="weightNeighborhood" class="weight-slider" />
+            </div>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Office commute</span>
+                <strong id="weightOfficeValue">35%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="35" id="weightOffice" class="weight-slider" />
+            </div>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Friends commute</span>
+                <strong id="weightFriendsValue">30%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="30" id="weightFriends" class="weight-slider" />
+            </div>
+            <button type="button" class="ghost-button" id="weightReset">Reset to default (35 / 35 / 30)</button>
+          </div>
+        </div>
       </section>
 
-      <section class="panel act-now-panel" id="actNowPanel" hidden>
-        <div class="section-heading">
-          <h2>Act Now <span id="actNowCount" class="excluded-count"></span></h2>
-          <p>Available Sept 1 or later — worth deciding on before they're gone.</p>
-        </div>
-        <div id="actNowFeed" class="monitor-grid"></div>
+      <section class="tab-page" id="page-act-now" data-tab="act-now">
+        <section class="panel act-now-panel" id="actNowPanel">
+          <div class="section-heading">
+            <h2>Act Now <span id="actNowCount" class="excluded-count"></span></h2>
+            <p>Available Sept 1 or later — worth deciding on before they're gone.</p>
+          </div>
+          <div id="actNowFeed" class="monitor-grid"></div>
+          <p id="actNowEmptyState" class="empty-state"></p>
+        </section>
       </section>
 
-      <section class="panel monitor-panel">
-        <div class="section-heading">
-          <h2>Feed</h2>
-          <p id="monitorStatusCopy">Results from the background scanner.</p>
-        </div>
-        <div class="profile-grid monitor-stats">
-          <article class="stat-card">
-            <span class="stat-label">Last Scan</span>
-            <strong id="monitorLastRun">Waiting for first scan</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Sources</span>
-            <strong id="monitorSourceCount">0 active searches</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Fresh Hits</span>
-            <strong id="monitorNewCount">0 new listings</strong>
-          </article>
-          <article class="stat-card">
-            <span class="stat-label">Nearest Commute</span>
-            <strong id="monitorBestCommute">No qualifying listings yet</strong>
-          </article>
-        </div>
-        <div id="monitorFeedState" class="empty-state"></div>
-        <div id="monitorFeed" class="monitor-grid"></div>
-        <div id="monitorActions" class="monitor-actions">
-          <a id="openFullReport" class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>
-          <a id="openScanSummary" class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
-        </div>
+      <section class="tab-page" id="page-new" data-tab="new">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>New <span id="newCount" class="excluded-count"></span></h2>
+            <p>Qualifying listings first seen in the most recent scan.</p>
+          </div>
+          <div id="newFeed" class="monitor-grid"></div>
+          <p id="newEmptyState" class="empty-state"></p>
+        </section>
       </section>
 
-      <section class="panel excluded-panel">
-        <details id="excludedDetails">
-          <summary>
-            <h2>Excluded <span id="excludedCount" class="excluded-count"></span></h2>
-          </summary>
-          <p class="excluded-intro">Inspected but didn't clear every requirement.</p>
-          <div id="excludedList" class="excluded-list"></div>
-        </details>
+      <section class="tab-page" id="page-all" data-tab="all">
+        <section class="panel monitor-panel">
+          <div class="section-heading">
+            <h2>All Qualifying</h2>
+            <p id="monitorStatusCopy">Results from the background scanner.</p>
+          </div>
+          <div class="profile-grid monitor-stats">
+            <article class="stat-card">
+              <span class="stat-label">Last Scan</span>
+              <strong id="monitorLastRun">Waiting for first scan</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Sources</span>
+              <strong id="monitorSourceCount">0 active searches</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Fresh Hits</span>
+              <strong id="monitorNewCount">0 new listings</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Nearest Commute</span>
+              <strong id="monitorBestCommute">No qualifying listings yet</strong>
+            </article>
+          </div>
+          <div id="monitorFeedState" class="empty-state"></div>
+          <div id="monitorFeed" class="monitor-grid"></div>
+          <div id="monitorActions" class="monitor-actions">
+            <a id="openFullReport" class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>
+            <a id="openScanSummary" class="ghost-button" href="monitor-output/latest-summary.md" target="_blank" rel="noreferrer">Open scan summary</a>
+          </div>
+        </section>
+
+        <section class="panel excluded-panel">
+          <details id="excludedDetails">
+            <summary>
+              <h2>Excluded <span id="excludedCount" class="excluded-count"></span></h2>
+            </summary>
+            <p class="excluded-intro">Inspected but didn't clear every requirement.</p>
+            <div id="excludedList" class="excluded-list"></div>
+          </details>
+        </section>
       </section>
     </main>
 
@@ -99,6 +174,7 @@
       <article class="monitor-card reveal">
         <div class="monitor-card-top">
           <div>
+            <div class="monitor-flags"></div>
             <h3><a class="monitor-name" target="_blank" rel="noreferrer"></a></h3>
             <p class="monitor-subhead"></p>
           </div>

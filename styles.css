@@ -11,6 +11,8 @@
   --sage-soft: rgba(107, 122, 94, 0.12);
   --rose: #a04a3f;
   --rose-soft: rgba(160, 74, 63, 0.08);
+  --gold: #a8791f;
+  --gold-soft: rgba(168, 121, 31, 0.1);
   --radius-lg: 16px;
   --radius-md: 12px;
   --radius-sm: 8px;
@@ -98,6 +100,121 @@ h3 {
   font-size: 0.85rem;
   line-height: 1.55;
   color: var(--muted);
+}
+
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tab-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 150ms ease, background 150ms ease, color 150ms ease;
+}
+
+.tab-button:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tab-button.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.tab-count {
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.tab-page[hidden] {
+  display: none;
+}
+
+.rubric-copy {
+  margin: 0 0 14px;
+  line-height: 1.6;
+  font-size: 0.94rem;
+  color: var(--text);
+}
+
+.rubric-list {
+  margin: 0 0 14px;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 0.94rem;
+}
+
+.rubric-list li + li {
+  margin-top: 6px;
+}
+
+.weight-sliders {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.weight-slider-row {
+  display: grid;
+  gap: 6px;
+}
+
+.weight-slider-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.weight-slider {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.card-flag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.monitor-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.monitor-flags:empty {
+  display: none;
+}
+
+.flag-act-now {
+  color: var(--rose);
+  background: var(--rose-soft);
+}
+
+.flag-new {
+  color: var(--gold);
+  background: var(--gold-soft);
 }
 
 .profile-grid {

@@ -2,6 +2,10 @@ let latestMonitorReport = window.__APARTMENT_REPORT__ || null;
 let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
 registerServiceWorker();
 
+const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
+const DEFAULT_WEIGHTS = { neighborhood: 35, office: 35, friends: 30 };
+let currentWeights = loadWeights();
+
 const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
   monitorSourceCount: document.querySelector("#monitorSourceCount"),
@@ -13,6 +17,10 @@ const els = {
   actNowPanel: document.querySelector("#actNowPanel"),
   actNowFeed: document.querySelector("#actNowFeed"),
   actNowCount: document.querySelector("#actNowCount"),
+  actNowEmptyState: document.querySelector("#actNowEmptyState"),
+  newFeed: document.querySelector("#newFeed"),
+  newCount: document.querySelector("#newCount"),
+  newEmptyState: document.querySelector("#newEmptyState"),
   monitorActions: document.querySelector("#monitorActions"),
   openFullReport: document.querySelector("#openFullReport"),
   openScanSummary: document.querySelector("#openScanSummary"),
@@ -20,14 +28,184 @@ const els = {
   excludedCount: document.querySelector("#excludedCount"),
   excludedList: document.querySelector("#excludedList"),
   excludedTemplate: document.querySelector("#excludedTemplate"),
+  tabBar: document.querySelector("#tabBar"),
+  tabCountActNow: document.querySelector("#tabCountActNow"),
+  tabCountNew: document.querySelector("#tabCountNew"),
+  tabCountAll: document.querySelector("#tabCountAll"),
+  weightNeighborhood: document.querySelector("#weightNeighborhood"),
+  weightOffice: document.querySelector("#weightOffice"),
+  weightFriends: document.querySelector("#weightFriends"),
+  weightNeighborhoodValue: document.querySelector("#weightNeighborhoodValue"),
+  weightOfficeValue: document.querySelector("#weightOfficeValue"),
+  weightFriendsValue: document.querySelector("#weightFriendsValue"),
+  weightReset: document.querySelector("#weightReset"),
 };
 
 init();
 
 function init() {
   syncMonitorLinks();
+  initTabs();
+  initWeightSliders();
   void loadMonitorReport();
 }
+
+// ---------- Tabs ----------
+
+function initTabs() {
+  if (!els.tabBar) return;
+
+  els.tabBar.querySelectorAll(".tab-button").forEach((button) => {
+    button.addEventListener("click", () => switchTab(button.dataset.tab));
+  });
+
+  window.addEventListener("hashchange", () => switchTab(currentTabFromHash()));
+  switchTab(currentTabFromHash());
+}
+
+function currentTabFromHash() {
+  const hash = location.hash.replace(/^#/, "");
+  return ["criteria", "act-now", "new", "all"].includes(hash) ? hash : "all";
+}
+
+function switchTab(tab) {
+  document.querySelectorAll(".tab-page").forEach((page) => {
+    page.hidden = page.dataset.tab !== tab;
+  });
+  els.tabBar?.querySelectorAll(".tab-button").forEach((button) => {
+    button.classList.toggle("active", button.dataset.tab === tab);
+  });
+  if (location.hash.replace(/^#/, "") !== tab) {
+    history.replaceState(null, "", `#${tab}`);
+  }
+}
+
+// ---------- Score weights (client-side, adjustable) ----------
+
+function loadWeights() {
+  try {
+    const raw = localStorage.getItem(WEIGHTS_STORAGE_KEY);
+    if (!raw) return { ...DEFAULT_WEIGHTS };
+    const parsed = JSON.parse(raw);
+    if (
+      Number.isFinite(parsed.neighborhood) &&
+      Number.isFinite(parsed.office) &&
+      Number.isFinite(parsed.friends)
+    ) {
+      return parsed;
+    }
+  } catch (error) {
+    // fall through to default
+  }
+  return { ...DEFAULT_WEIGHTS };
+}
+
+function saveWeights(weights) {
+  try {
+    localStorage.setItem(WEIGHTS_STORAGE_KEY, JSON.stringify(weights));
+  } catch (error) {
+    // localStorage unavailable (private browsing, etc.) — weights just won't persist
+  }
+}
+
+// Adjusting one slider proportionally rescales the other two so all three
+// keep summing to 100, preserving their relative ratio rather than just
+// clamping (the standard "budget allocation" slider pattern).
+function rebalanceWeights(changedKey, rawValues) {
+  const values = { ...rawValues };
+  const changedValue = Math.max(0, Math.min(100, values[changedKey]));
+  values[changedKey] = changedValue;
+  const remaining = 100 - changedValue;
+  const otherKeys = Object.keys(values).filter((key) => key !== changedKey);
+  const otherSum = otherKeys.reduce((sum, key) => sum + values[key], 0);
+
+  if (otherSum <= 0) {
+    otherKeys.forEach((key) => {
+      values[key] = remaining / otherKeys.length;
+    });
+  } else {
+    otherKeys.forEach((key) => {
+      values[key] = (values[key] / otherSum) * remaining;
+    });
+  }
+
+  return values;
+}
+
+function initWeightSliders() {
+  if (!els.weightNeighborhood || !els.weightOffice || !els.weightFriends) return;
+
+  updateSliderUI();
+
+  const sliderKeys = { [els.weightNeighborhood.id]: "neighborhood", [els.weightOffice.id]: "office", [els.weightFriends.id]: "friends" };
+
+  [els.weightNeighborhood, els.weightOffice, els.weightFriends].forEach((slider) => {
+    slider.addEventListener("input", () => {
+      const key = sliderKeys[slider.id];
+      currentWeights = rebalanceWeights(key, {
+        neighborhood: Number(els.weightNeighborhood.value),
+        office: Number(els.weightOffice.value),
+        friends: Number(els.weightFriends.value),
+      });
+      saveWeights(currentWeights);
+      updateSliderUI();
+      renderMonitor();
+    });
+  });
+
+  els.weightReset?.addEventListener("click", () => {
+    currentWeights = { ...DEFAULT_WEIGHTS };
+    saveWeights(currentWeights);
+    updateSliderUI();
+    renderMonitor();
+  });
+}
+
+function updateSliderUI() {
+  els.weightNeighborhood.value = Math.round(currentWeights.neighborhood);
+  els.weightOffice.value = Math.round(currentWeights.office);
+  els.weightFriends.value = Math.round(currentWeights.friends);
+  els.weightNeighborhoodValue.textContent = `${Math.round(currentWeights.neighborhood)}%`;
+  els.weightOfficeValue.textContent = `${Math.round(currentWeights.office)}%`;
+  els.weightFriendsValue.textContent = `${Math.round(currentWeights.friends)}%`;
+}
+
+// Mirrors monitor/lib/scoring.cjs's rankBreakdown so weight adjustments can
+// re-sort and re-render without a server round-trip — the raw commute
+// minutes and neighborhood tier are already in the client report data.
+const NEIGHBORHOOD_TIER_SCORE = { uws: 100, brooklyn: 65, other: 30, unknown: 50 };
+const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
+
+function commuteScore(minutes) {
+  if (!Number.isFinite(minutes)) return 0;
+  return Math.max(0, 100 - minutes * 1.7);
+}
+
+function computeClientRankBreakdown(entry, weights) {
+  const tier = entry.neighborhoodTier || "unknown";
+  const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
+  const officeScore = commuteScore(entry.commute?.office?.minutes);
+  const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(entry.commute?.[key]?.minutes));
+  const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
+
+  const nWeight = weights.neighborhood / 100;
+  const oWeight = weights.office / 100;
+  const fWeight = weights.friends / 100;
+
+  return {
+    total: nWeight * neighborhoodScore + oWeight * officeScore + fWeight * avgFriendScore,
+    neighborhood: { score: neighborhoodScore, weight: nWeight, tier },
+    office: { score: officeScore, weight: oWeight },
+    friends: { score: avgFriendScore, weight: fWeight },
+  };
+}
+
+function withClientScore(entry) {
+  const breakdown = computeClientRankBreakdown(entry, currentWeights);
+  return { ...entry, rankScore: breakdown.total, rankBreakdown: breakdown };
+}
+
+// ---------- Data loading ----------
 
 async function loadMonitorReport() {
   if (location.protocol === "file:") {
@@ -75,6 +253,8 @@ async function fetchLiveMonitorReport() {
   return report;
 }
 
+// ---------- Rendering ----------
+
 function renderMonitor() {
   if (!els.monitorFeed || !els.monitorFeedState) return;
 
@@ -87,7 +267,8 @@ function renderMonitor() {
     els.monitorNewCount.textContent = "0 new listings";
     els.monitorBestCommute.textContent = "No qualifying listings yet";
     renderExcluded([]);
-    if (els.actNowPanel) els.actNowPanel.hidden = true;
+    renderActNow([], new Set());
+    renderNew([]);
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -106,18 +287,35 @@ function renderMonitor() {
     return;
   }
 
-  const topListings = Array.isArray(report.topListings) ? report.topListings : [];
-  const newListings = Array.isArray(report.newListings) ? report.newListings : [];
+  const topListings = (Array.isArray(report.topListings) ? report.topListings : [])
+    .map(withClientScore)
+    .sort((a, b) => b.rankScore - a.rankScore);
+  const newListingsRaw = Array.isArray(report.newListings) ? report.newListings : [];
   const sourceCount = report.sourcesConfigured || 0;
   const best = topListings[0] || null;
 
   els.monitorLastRun.textContent = report.runAt ? formatDateTime(report.runAt) : "Waiting for first scan";
   els.monitorSourceCount.textContent = `${sourceCount} active search${sourceCount === 1 ? "" : "es"}`;
-  els.monitorNewCount.textContent = `${newListings.length} new listing${newListings.length === 1 ? "" : "s"}`;
+  els.monitorNewCount.textContent = `${newListingsRaw.length} new listing${newListingsRaw.length === 1 ? "" : "s"}`;
   els.monitorBestCommute.textContent = best?.commute?.office
     ? `${best.commute.office.minutes} min to office`
     : "No qualifying listings yet";
   renderExcluded(Array.isArray(report.excludedListings) ? report.excludedListings : []);
+
+  // "New" is based on firstSeenAt falling on the same calendar day as the
+  // last scan, not the transient per-run newListings array — that array is
+  // empty whenever the report gets regenerated from cache (a display-only
+  // fix, a vision re-classification pass, etc.) rather than a real scan, so
+  // tying the New tab to it would blank the tab out on every such refresh.
+  const isNew = (entry) => isSameUtcDay(entry.firstSeenAt, report.runAt);
+
+  const earlyAction = (Array.isArray(report.earlyActionListings) ? report.earlyActionListings : []).map(withClientScore);
+  renderActNow(earlyAction, isNew);
+
+  const newListings = topListings.filter(isNew);
+  renderNew(newListings, report.runAt);
+
+  if (els.tabCountAll) els.tabCountAll.textContent = topListings.length ? `(${topListings.length})` : "";
 
   if (!sourceCount) {
     els.monitorStatusCopy.textContent = "No saved searches connected yet.";
@@ -131,27 +329,38 @@ function renderMonitor() {
     return;
   }
 
-  if (!newListings.length) {
+  if (!newListingsRaw.length) {
     els.monitorStatusCopy.textContent = "No new listings this pass. Showing current top matches.";
     els.monitorFeedState.textContent = "";
   } else {
     els.monitorStatusCopy.textContent =
-      `${newListings.length} new listing${newListings.length === 1 ? "" : "s"} this scan.`;
+      `${newListingsRaw.length} new listing${newListingsRaw.length === 1 ? "" : "s"} this scan.`;
     els.monitorFeedState.textContent = "";
   }
 
   const fragment = document.createDocumentFragment();
-  topListings.forEach((entry) => fragment.append(buildListingCard(entry)));
+  topListings.forEach((entry) => {
+    const flags = [];
+    if (entry.needsEarlyAction) flags.push({ label: "Act Now", className: "flag-act-now" });
+    if (isNew(entry)) flags.push({ label: `New as of ${formatDateOnly(report.runAt)}`, className: "flag-new" });
+    fragment.append(buildListingCard(entry, flags));
+  });
   els.monitorFeed.append(fragment);
-
-  renderActNow(Array.isArray(report.earlyActionListings) ? report.earlyActionListings : []);
 }
 
-function buildListingCard(entry) {
+function buildListingCard(entry, flags = []) {
   const node = els.monitorTemplate.content.firstElementChild.cloneNode(true);
   const screenshot = resolveMonitorAssetPath(entry.listing.externalScreenshot);
   const heroImage = entry.listing.photos?.[0] || screenshot || "";
   const officeCommute = entry.commute?.office;
+
+  const flagsRow = node.querySelector(".monitor-flags");
+  flags.forEach(({ label, className }) => {
+    const flag = document.createElement("span");
+    flag.className = `card-flag ${className}`;
+    flag.textContent = label;
+    flagsRow.append(flag);
+  });
 
   const titleLink = node.querySelector(".monitor-name");
   titleLink.textContent = entry.listing.title;
@@ -161,7 +370,7 @@ function buildListingCard(entry) {
   const scoreBadge = node.querySelector(".monitor-score");
   if (Number.isFinite(entry.rankScore)) {
     scoreBadge.textContent = `${Math.round(entry.rankScore)}/100`;
-    scoreBadge.title = "Match score: 35% neighborhood preference, 35% office commute, 30% commute to friends";
+    scoreBadge.title = `Match score: ${Math.round(currentWeights.neighborhood)}% neighborhood preference, ${Math.round(currentWeights.office)}% office commute, ${Math.round(currentWeights.friends)}% commute to friends`;
   } else {
     scoreBadge.textContent = officeCommute ? `${officeCommute.minutes} min` : "commute unknown";
   }
@@ -238,22 +447,51 @@ function buildListingCard(entry) {
   return node;
 }
 
-function renderActNow(earlyActionListings) {
+function renderActNow(earlyActionListings, isNew) {
   if (!els.actNowPanel || !els.actNowFeed) return;
 
   els.actNowFeed.innerHTML = "";
+  if (els.tabCountActNow) els.tabCountActNow.textContent = earlyActionListings.length ? `(${earlyActionListings.length})` : "";
+  if (els.actNowCount) els.actNowCount.textContent = earlyActionListings.length ? `(${earlyActionListings.length})` : "";
 
   if (!earlyActionListings.length) {
-    els.actNowPanel.hidden = true;
+    if (els.actNowEmptyState) els.actNowEmptyState.textContent = "Nothing needs an early decision right now.";
     return;
   }
 
-  els.actNowPanel.hidden = false;
-  if (els.actNowCount) els.actNowCount.textContent = `(${earlyActionListings.length})`;
+  if (els.actNowEmptyState) els.actNowEmptyState.textContent = "";
+
+  const runAt = latestMonitorReport?.runAt;
+  const fragment = document.createDocumentFragment();
+  earlyActionListings.forEach((entry) => {
+    const flags = [{ label: "Act Now", className: "flag-act-now" }];
+    if (isNew(entry)) flags.push({ label: `New as of ${formatDateOnly(runAt)}`, className: "flag-new" });
+    fragment.append(buildListingCard(entry, flags));
+  });
+  els.actNowFeed.append(fragment);
+}
+
+function renderNew(newListings, runAt) {
+  if (!els.newFeed) return;
+
+  els.newFeed.innerHTML = "";
+  if (els.tabCountNew) els.tabCountNew.textContent = newListings.length ? `(${newListings.length})` : "";
+  if (els.newCount) els.newCount.textContent = newListings.length ? `(${newListings.length})` : "";
+
+  if (!newListings.length) {
+    if (els.newEmptyState) els.newEmptyState.textContent = "No new qualifying listings since the last scan.";
+    return;
+  }
+
+  if (els.newEmptyState) els.newEmptyState.textContent = "";
 
   const fragment = document.createDocumentFragment();
-  earlyActionListings.forEach((entry) => fragment.append(buildListingCard(entry)));
-  els.actNowFeed.append(fragment);
+  newListings.forEach((entry) => {
+    const flags = [{ label: `New as of ${formatDateOnly(runAt)}`, className: "flag-new" }];
+    if (entry.needsEarlyAction) flags.push({ label: "Act Now", className: "flag-act-now" });
+    fragment.append(buildListingCard(entry, flags));
+  });
+  els.newFeed.append(fragment);
 }
 
 function renderExcluded(excludedListings) {
@@ -323,6 +561,16 @@ function formatDateTime(value) {
     dateStyle: "medium",
     timeStyle: "short",
   }).format(new Date(value));
+}
+
+function formatDateOnly(value) {
+  if (!value) return "";
+  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(new Date(value));
+}
+
+function isSameUtcDay(a, b) {
+  if (!a || !b) return false;
+  return new Date(a).toISOString().slice(0, 10) === new Date(b).toISOString().slice(0, 10);
 }
 
 function registerServiceWorker() {

@@ -92,15 +92,14 @@ function buildReport(state, runAt, config, newListings) {
   const qualifying = catalogEntries.filter((entry) => entry.qualifies);
 
   // Available-date is close enough that it likely needs a decision before
-  // the general feed would normally surface it — pulled into its own
-  // section rather than mixed into the ranked list.
+  // the general feed would normally surface it — highlighted in its own
+  // section, but still part of the full qualifying set (topListings), not
+  // removed from it, so "all qualifying listings" actually means all of them.
   const earlyActionListings = qualifying
     .filter((entry) => entry.needsEarlyAction)
     .sort((a, b) => (a.listing.availableDate || "").localeCompare(b.listing.availableDate || ""));
 
-  const topListings = qualifying
-    .filter((entry) => !entry.needsEarlyAction)
-    .sort((a, b) => rankScore(b) - rankScore(a));
+  const topListings = qualifying.slice().sort((a, b) => rankScore(b) - rankScore(a));
 
   const excludedListings = catalogEntries
     .filter((entry) => !entry.qualifies)
@@ -122,6 +121,7 @@ function buildReport(state, runAt, config, newListings) {
 function toClientReport(report) {
   const serializeEntry = (entry) => ({
     commute: entry.commute,
+    firstSeenAt: entry.firstSeenAt,
     gasStove: entry.gasStove,
     hasGarden: entry.hasGarden,
     kitchenLayout: entry.kitchenLayout,
