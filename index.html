@@ -121,6 +121,35 @@
             <h2>New <span id="newCount" class="excluded-count"></span></h2>
             <p>Qualifying listings first seen in the most recent scan.</p>
           </div>
+          <div class="filter-bar">
+            <label class="filter-control">
+              <span>Sort by</span>
+              <select class="sort-select">
+                <option value="score">Match score</option>
+                <option value="price-asc">Price (low to high)</option>
+                <option value="price-per-sqft-asc">Price per sqft (low to high)</option>
+                <option value="sqft-desc">Sqft (high to low)</option>
+                <option value="office-asc">Office commute (low to high)</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Bedrooms</span>
+              <select class="bedroom-filter">
+                <option value="any">Any</option>
+                <option value="1">1 bed</option>
+                <option value="2">2 bed</option>
+                <option value="3">3+ bed</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Stove</span>
+              <select class="gas-filter">
+                <option value="any">Any</option>
+                <option value="yes">Gas only</option>
+                <option value="no">Electric only</option>
+              </select>
+            </label>
+          </div>
           <div id="newFeed" class="monitor-grid"></div>
           <p id="newEmptyState" class="empty-state"></p>
         </section>
@@ -151,6 +180,35 @@
             </article>
           </div>
           <div id="monitorFeedState" class="empty-state"></div>
+          <div class="filter-bar">
+            <label class="filter-control">
+              <span>Sort by</span>
+              <select class="sort-select">
+                <option value="score">Match score</option>
+                <option value="price-asc">Price (low to high)</option>
+                <option value="price-per-sqft-asc">Price per sqft (low to high)</option>
+                <option value="sqft-desc">Sqft (high to low)</option>
+                <option value="office-asc">Office commute (low to high)</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Bedrooms</span>
+              <select class="bedroom-filter">
+                <option value="any">Any</option>
+                <option value="1">1 bed</option>
+                <option value="2">2 bed</option>
+                <option value="3">3+ bed</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Stove</span>
+              <select class="gas-filter">
+                <option value="any">Any</option>
+                <option value="yes">Gas only</option>
+                <option value="no">Electric only</option>
+              </select>
+            </label>
+          </div>
           <div id="monitorFeed" class="monitor-grid"></div>
           <div id="monitorActions" class="monitor-actions">
             <a id="openFullReport" class="ghost-button" href="monitor-output/latest-report.html" target="_blank" rel="noreferrer">Open full report</a>

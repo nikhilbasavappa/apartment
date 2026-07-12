@@ -6,6 +6,12 @@ const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
 const DEFAULT_WEIGHTS = { neighborhood: 35, office: 35, friends: 30 };
 let currentWeights = loadWeights();
 
+// Not persisted (unlike weights) — resets each visit, since this is more a
+// "how do I want to look at things right now" setting than a stable
+// preference. Shared across the New and All Qualifying tabs so switching
+// tabs doesn't lose your sort/filter choice.
+let currentSortFilter = { sort: "score", bedrooms: "any", gas: "any" };
+
 const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
   monitorSourceCount: document.querySelector("#monitorSourceCount"),
@@ -47,7 +53,73 @@ function init() {
   syncMonitorLinks();
   initTabs();
   initWeightSliders();
+  initSortFilterControls();
   void loadMonitorReport();
+}
+
+// ---------- Sort & filter (shared across New / All Qualifying tabs) ----------
+
+function initSortFilterControls() {
+  const sortSelects = document.querySelectorAll(".sort-select");
+  const bedroomFilters = document.querySelectorAll(".bedroom-filter");
+  const gasFilters = document.querySelectorAll(".gas-filter");
+
+  sortSelects.forEach((select) => {
+    select.value = currentSortFilter.sort;
+    select.addEventListener("change", () => {
+      currentSortFilter.sort = select.value;
+      sortSelects.forEach((other) => (other.value = select.value));
+      renderMonitor();
+    });
+  });
+
+  bedroomFilters.forEach((select) => {
+    select.value = currentSortFilter.bedrooms;
+    select.addEventListener("change", () => {
+      currentSortFilter.bedrooms = select.value;
+      bedroomFilters.forEach((other) => (other.value = select.value));
+      renderMonitor();
+    });
+  });
+
+  gasFilters.forEach((select) => {
+    select.value = currentSortFilter.gas;
+    select.addEventListener("change", () => {
+      currentSortFilter.gas = select.value;
+      gasFilters.forEach((other) => (other.value = select.value));
+      renderMonitor();
+    });
+  });
+}
+
+function applySortFilter(entries) {
+  const filtered = entries.filter((entry) => {
+    if (currentSortFilter.bedrooms !== "any") {
+      const wanted = Number(currentSortFilter.bedrooms);
+      const actual = entry.listing.bedrooms;
+      if (actual === null) return false;
+      if (wanted === 3 ? actual < 3 : actual !== wanted) return false;
+    }
+    if (currentSortFilter.gas !== "any" && entry.gasStove !== currentSortFilter.gas) return false;
+    return true;
+  });
+
+  const sorters = {
+    score: (a, b) => b.rankScore - a.rankScore,
+    "price-asc": (a, b) => (a.listing.price ?? Infinity) - (b.listing.price ?? Infinity),
+    "price-per-sqft-asc": (a, b) => pricePerSqft(a) - pricePerSqft(b),
+    "sqft-desc": (a, b) => (b.listing.sqft ?? -Infinity) - (a.listing.sqft ?? -Infinity),
+    "office-asc": (a, b) => (a.commute?.office?.minutes ?? Infinity) - (b.commute?.office?.minutes ?? Infinity),
+  };
+
+  return filtered.slice().sort(sorters[currentSortFilter.sort] || sorters.score);
+}
+
+function pricePerSqft(entry) {
+  const price = entry.listing.price;
+  const sqft = entry.listing.sqft;
+  if (!price || !sqft) return Infinity;
+  return price / sqft;
 }
 
 // ---------- Tabs ----------
@@ -312,10 +384,11 @@ function renderMonitor() {
   const earlyAction = (Array.isArray(report.earlyActionListings) ? report.earlyActionListings : []).map(withClientScore);
   renderActNow(earlyAction, isNew);
 
-  const newListings = topListings.filter(isNew);
+  const newListings = applySortFilter(topListings.filter(isNew));
   renderNew(newListings, report.runAt);
 
-  if (els.tabCountAll) els.tabCountAll.textContent = topListings.length ? `(${topListings.length})` : "";
+  const filteredTopListings = applySortFilter(topListings);
+  if (els.tabCountAll) els.tabCountAll.textContent = filteredTopListings.length ? `(${filteredTopListings.length})` : "";
 
   if (!sourceCount) {
     els.monitorStatusCopy.textContent = "No saved searches connected yet.";
@@ -338,8 +411,12 @@ function renderMonitor() {
     els.monitorFeedState.textContent = "";
   }
 
+  if (!filteredTopListings.length) {
+    els.monitorFeedState.textContent = "No listings match the current sort/filter.";
+  }
+
   const fragment = document.createDocumentFragment();
-  topListings.forEach((entry) => {
+  filteredTopListings.forEach((entry) => {
     const flags = [];
     if (entry.needsEarlyAction) flags.push({ label: "Act Now", className: "flag-act-now" });
     if (isNew(entry)) flags.push({ label: `New as of ${formatDateOnly(report.runAt)}`, className: "flag-new" });
