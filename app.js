@@ -12,6 +12,9 @@ let currentWeights = loadWeights();
 // tabs doesn't lose your sort/filter choice.
 let currentSortFilter = { sort: "score", bedrooms: "any", gas: "any" };
 
+const FEEDBACK_STORAGE_KEY = "apartmentFeedback";
+let feedbackState = loadFeedback();
+
 const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
   monitorSourceCount: document.querySelector("#monitorSourceCount"),
@@ -45,6 +48,12 @@ const els = {
   weightOfficeValue: document.querySelector("#weightOfficeValue"),
   weightFriendsValue: document.querySelector("#weightFriendsValue"),
   weightReset: document.querySelector("#weightReset"),
+  tabCountStarred: document.querySelector("#tabCountStarred"),
+  starredFeed: document.querySelector("#starredFeed"),
+  starredExcludedList: document.querySelector("#starredExcludedList"),
+  starredCount: document.querySelector("#starredCount"),
+  starredEmptyState: document.querySelector("#starredEmptyState"),
+  exportFeedback: document.querySelector("#exportFeedback"),
 };
 
 init();
@@ -54,7 +63,54 @@ function init() {
   initTabs();
   initWeightSliders();
   initSortFilterControls();
+  initExportFeedback();
   void loadMonitorReport();
+}
+
+// ---------- Stars & notes (localStorage only — this device, not synced) ----------
+
+function loadFeedback() {
+  try {
+    const raw = localStorage.getItem(FEEDBACK_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (error) {
+    return {};
+  }
+}
+
+function saveFeedback() {
+  try {
+    localStorage.setItem(FEEDBACK_STORAGE_KEY, JSON.stringify(feedbackState));
+  } catch (error) {
+    // localStorage unavailable (private browsing, etc.) — feedback just won't persist
+  }
+}
+
+function getFeedback(url) {
+  return feedbackState[url] || { starred: false, note: "" };
+}
+
+function setFeedback(url, title, patch) {
+  const existing = getFeedback(url);
+  const next = { ...existing, ...patch };
+  if (!next.starred && !next.note) {
+    delete feedbackState[url];
+  } else {
+    feedbackState[url] = { ...next, title, updatedAt: new Date().toISOString() };
+  }
+  saveFeedback();
+}
+
+function initExportFeedback() {
+  els.exportFeedback?.addEventListener("click", () => {
+    const entries = Object.entries(feedbackState).map(([url, data]) => ({ url, ...data }));
+    const blob = new Blob([JSON.stringify(entries, null, 2)], { type: "application/json" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = `apartment-feedback-${new Date().toISOString().slice(0, 10)}.json`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
 }
 
 // ---------- Sort & filter (shared across New / All Qualifying tabs) ----------
@@ -137,7 +193,7 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all"].includes(hash) ? hash : "all";
+  return ["criteria", "act-now", "new", "all", "starred"].includes(hash) ? hash : "all";
 }
 
 function switchTab(tab) {
@@ -341,6 +397,7 @@ function renderMonitor() {
     renderExcluded([]);
     renderActNow([], new Set());
     renderNew([]);
+    renderStarred([], []);
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -372,7 +429,9 @@ function renderMonitor() {
   els.monitorBestCommute.textContent = best?.commute?.office
     ? `${best.commute.office.minutes} min to office`
     : "No qualifying listings yet";
-  renderExcluded(Array.isArray(report.excludedListings) ? report.excludedListings : []);
+  const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
+  renderExcluded(excludedListings);
+  renderStarred(topListings, excludedListings);
 
   // "New" is based on firstSeenAt falling on the same calendar day as the
   // last scan, not the transient per-run newListings array — that array is
@@ -521,7 +580,52 @@ function buildListingCard(entry, flags = []) {
   const link = node.querySelector(".monitor-link");
   link.href = entry.listing.url;
 
+  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".monitor-star", ".monitor-note");
+
   return node;
+}
+
+// Shared by the full card template and the excluded-row template — reads
+// current state from feedbackState, wires the star toggle and note field to
+// write straight back through setFeedback (which persists to localStorage
+// immediately, no separate save step).
+function wireStarAndNote(node, url, title, starSelector, noteSelector) {
+  const starButton = node.querySelector(starSelector);
+  const noteField = node.querySelector(noteSelector);
+  const feedback = getFeedback(url);
+
+  if (starButton) {
+    starButton.textContent = feedback.starred ? "★" : "☆";
+    starButton.classList.toggle("starred", feedback.starred);
+    starButton.addEventListener("click", () => {
+      const next = !getFeedback(url).starred;
+      setFeedback(url, title, { starred: next });
+      starButton.textContent = next ? "★" : "☆";
+      starButton.classList.toggle("starred", next);
+      refreshStarredTab();
+    });
+  }
+
+  if (noteField) {
+    noteField.value = feedback.note || "";
+    noteField.addEventListener("change", () => {
+      setFeedback(url, title, { note: noteField.value.trim() });
+      refreshStarredTab();
+    });
+  }
+}
+
+// Re-derives the Starred tab from the last-loaded report without a full
+// renderMonitor() pass — starring/noting a card is a discrete action that
+// shouldn't rebuild every other card on the page (loses scroll position,
+// re-triggers the card entry animation, etc.) just to keep one other tab
+// in sync.
+function refreshStarredTab() {
+  const report = latestMonitorReport;
+  if (!report) return;
+  const topListings = (Array.isArray(report.topListings) ? report.topListings : []).map(withClientScore);
+  const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
+  renderStarred(topListings, excludedListings);
 }
 
 function renderActNow(earlyActionListings, isNew) {
@@ -571,6 +675,22 @@ function renderNew(newListings, runAt) {
   els.newFeed.append(fragment);
 }
 
+function buildExcludedRow(entry) {
+  const node = els.excludedTemplate.content.firstElementChild.cloneNode(true);
+  const nameLink = node.querySelector(".excluded-name");
+  nameLink.textContent = entry.listing.title;
+  nameLink.href = entry.listing.url;
+  node.querySelector(".excluded-subhead").textContent =
+    `${entry.listing.address || "Address unknown"}${entry.listing.price ? ` • ${formatCurrency(entry.listing.price)}` : ""}`;
+
+  const reasons = node.querySelector(".excluded-reasons");
+  (entry.reasons || []).forEach((reason) => reasons.append(createPill(reason, "fact-pill excluded-reason-pill")));
+
+  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".excluded-star", ".excluded-note");
+
+  return node;
+}
+
 function renderExcluded(excludedListings) {
   if (!els.excludedList || !els.excludedTemplate) return;
 
@@ -578,22 +698,37 @@ function renderExcluded(excludedListings) {
   els.excludedCount.textContent = `(${excludedListings.length})`;
 
   const fragment = document.createDocumentFragment();
-
-  excludedListings.forEach((entry) => {
-    const node = els.excludedTemplate.content.firstElementChild.cloneNode(true);
-    const nameLink = node.querySelector(".excluded-name");
-    nameLink.textContent = entry.listing.title;
-    nameLink.href = entry.listing.url;
-    node.querySelector(".excluded-subhead").textContent =
-      `${entry.listing.address || "Address unknown"}${entry.listing.price ? ` • ${formatCurrency(entry.listing.price)}` : ""}`;
-
-    const reasons = node.querySelector(".excluded-reasons");
-    (entry.reasons || []).forEach((reason) => reasons.append(createPill(reason, "fact-pill excluded-reason-pill")));
-
-    fragment.append(node);
-  });
-
+  excludedListings.forEach((entry) => fragment.append(buildExcludedRow(entry)));
   els.excludedList.append(fragment);
+}
+
+function renderStarred(qualifyingEntries, excludedEntries) {
+  if (!els.starredFeed) return;
+
+  const starredQualifying = qualifyingEntries.filter((entry) => getFeedback(entry.listing.url).starred);
+  const starredExcluded = excludedEntries.filter((entry) => getFeedback(entry.listing.url).starred);
+  const total = starredQualifying.length + starredExcluded.length;
+
+  els.starredFeed.innerHTML = "";
+  if (els.starredExcludedList) els.starredExcludedList.innerHTML = "";
+  if (els.tabCountStarred) els.tabCountStarred.textContent = total ? `(${total})` : "";
+  if (els.starredCount) els.starredCount.textContent = total ? `(${total})` : "";
+
+  if (!total) {
+    if (els.starredEmptyState) els.starredEmptyState.textContent = "Nothing starred yet — click the ☆ on any card.";
+    return;
+  }
+  if (els.starredEmptyState) els.starredEmptyState.textContent = "";
+
+  const fragment = document.createDocumentFragment();
+  starredQualifying.forEach((entry) => fragment.append(buildListingCard(entry)));
+  els.starredFeed.append(fragment);
+
+  if (els.starredExcludedList) {
+    const excludedFragment = document.createDocumentFragment();
+    starredExcluded.forEach((entry) => excludedFragment.append(buildExcludedRow(entry)));
+    els.starredExcludedList.append(excludedFragment);
+  }
 }
 
 function createPill(text, className) {

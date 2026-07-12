@@ -24,6 +24,7 @@
           <button type="button" class="tab-button" data-tab="act-now">Act Now <span class="tab-count" id="tabCountActNow"></span></button>
           <button type="button" class="tab-button" data-tab="new">New <span class="tab-count" id="tabCountNew"></span></button>
           <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
+          <button type="button" class="tab-button" data-tab="starred">Starred <span class="tab-count" id="tabCountStarred"></span></button>
         </nav>
       </header>
 
@@ -101,6 +102,21 @@
             </div>
             <button type="button" class="ghost-button" id="weightReset">Reset to default (35 / 35 / 30)</button>
           </div>
+        </div>
+
+        <div class="panel">
+          <div class="section-heading">
+            <h2>Stars &amp; notes</h2>
+            <p>Saved on this device only (browser storage), not synced anywhere automatically.</p>
+          </div>
+          <p class="rubric-copy">
+            Star a listing or leave a note on any card — including excluded ones, which is the most useful place
+            to flag a bad kitchen/stove call, since that's what got it excluded in the first place. None of this
+            changes the ranking by itself. Export the file below and hand it to me (Claude) in a future session to
+            actually act on it — fix specific misclassified listings, or adjust the scoring/weights if a pattern
+            shows up across several notes.
+          </p>
+          <button type="button" class="ghost-button" id="exportFeedback">Export my stars &amp; notes</button>
         </div>
       </section>
 
@@ -226,6 +242,18 @@
           </details>
         </section>
       </section>
+
+      <section class="tab-page" id="page-starred" data-tab="starred">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Starred <span id="starredCount" class="excluded-count"></span></h2>
+            <p>Everything you've starred, qualifying or excluded, in one place.</p>
+          </div>
+          <div id="starredFeed" class="monitor-grid"></div>
+          <div id="starredExcludedList" class="excluded-list"></div>
+          <p id="starredEmptyState" class="empty-state"></p>
+        </section>
+      </section>
     </main>
 
     <template id="monitorTemplate">
@@ -236,7 +264,10 @@
             <h3><a class="monitor-name" target="_blank" rel="noreferrer"></a></h3>
             <p class="monitor-subhead"></p>
           </div>
-          <div class="score-badge monitor-score"></div>
+          <div class="card-top-right">
+            <button type="button" class="star-button monitor-star" aria-label="Star this listing">☆</button>
+            <div class="score-badge monitor-score"></div>
+          </div>
         </div>
         <a class="monitor-shot-link" target="_blank" rel="noreferrer">
           <img class="monitor-shot" alt="" />
@@ -247,15 +278,20 @@
         <p class="monitor-rank-label">Why this score</p>
         <div class="listing-facts monitor-rank-breakdown"></div>
         <p class="monitor-why"></p>
+        <textarea class="monitor-note" placeholder="Add a note (e.g. &quot;this is actually electric, not gas&quot;)…" rows="2"></textarea>
         <a class="ghost-button monitor-link" target="_blank" rel="noreferrer">Open listing</a>
       </article>
     </template>
 
     <template id="excludedTemplate">
       <div class="excluded-row">
-        <a class="excluded-name" target="_blank" rel="noreferrer"></a>
+        <div class="excluded-row-top">
+          <a class="excluded-name" target="_blank" rel="noreferrer"></a>
+          <button type="button" class="star-button excluded-star" aria-label="Star this listing">☆</button>
+        </div>
         <p class="excluded-subhead"></p>
         <div class="excluded-reasons"></div>
+        <input type="text" class="excluded-note" placeholder="Add a note (e.g. &quot;kitchen actually open, layout call was wrong&quot;)…" />
       </div>
     </template>
 

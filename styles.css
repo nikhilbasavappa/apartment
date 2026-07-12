@@ -383,6 +383,13 @@ h3 {
   width: fit-content;
 }
 
+.card-top-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
 .score-badge {
   flex-shrink: 0;
   border-radius: var(--radius-sm);
@@ -391,6 +398,49 @@ h3 {
   font-weight: 600;
   color: var(--sage);
   background: var(--sage-soft);
+}
+
+.star-button {
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  width: 32px;
+  height: 32px;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--muted);
+  transition: color 150ms ease, border-color 150ms ease, background 150ms ease;
+}
+
+.star-button:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.star-button.starred {
+  border-color: var(--gold);
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+
+.monitor-note {
+  width: 100%;
+  margin-top: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.86rem;
+  resize: vertical;
+}
+
+.monitor-note:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .listing-facts {
@@ -500,6 +550,13 @@ h3 {
   border-top: 1px solid var(--border);
 }
 
+.excluded-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .excluded-name {
   color: var(--text);
   font-size: 0.94rem;
@@ -511,10 +568,33 @@ h3 {
   color: var(--accent);
 }
 
+.excluded-star {
+  width: 26px;
+  height: 26px;
+  font-size: 0.95rem;
+}
+
 .excluded-subhead {
   margin: 3px 0 0;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.excluded-note {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 9px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.84rem;
+}
+
+.excluded-note:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .excluded-reasons {
