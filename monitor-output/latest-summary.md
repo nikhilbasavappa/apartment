@@ -2,10 +2,9 @@
 
 Run time: Jul 12, 2026, 6:00 PM
 Configured sources: 1
-New listings inspected this run: 2
-Qualifying new listings: 2
-- 29-59 Northern Boulevard #70N | $5,560 | 29-59 Northern Boulevard #70N, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 51/100
-- 316 Bergen Street #4-7 | $4,590 | 316 Bergen Street #4-7, BROOKLYN, NY, 11217 | 37 min to office | score 46/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 
@@ -231,7 +230,6 @@ Qualifying new listings: 2
 - 4-75 48th Avenue #403 | $5,440 | 4-75 48th Avenue #403, LONG ISLAND CITY, NY, 11109 | 23 min to office | score 44/100
 - 4610 Center Boulevard #517 | $5,960 | 4610 Center Boulevard #517, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 44/100
 - 550 Vanderbilt Avenue #702 | $5,000 | 550 Vanderbilt Avenue #702, BROOKLYN, NY, 11238 | 42 min to office | score 44/100
-- 305 East 95th Street #6B | $6,500 | 305 East 95th Street #6B, NEW YORK, NY, 10128 | 22 min to office | score 44/100
 - 5203 Center Boulevard #5006 | $6,460 | 5203 Center Boulevard #5006, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 43/100
 - 5203 Center Boulevard #3111 | $6,775 | 5203 Center Boulevard #3111, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 43/100
 - 5203 Center Boulevard #3506 | $6,785 | 5203 Center Boulevard #3506, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 43/100
@@ -311,7 +309,7 @@ Qualifying new listings: 2
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 35/100
 - 408 East 92nd Street #26B | $5,395 | 408 East 92nd Street #26B, NEW YORK, NY, 10128 | 36 min to office | score 34/100
 
-## Excluded (401)
+## Excluded (402)
 
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 2-21 Malt Drive #2312 | 2-21 Malt Drive #2312, LONG ISLAND CITY, NY, 11101 — Rent $7265 outside $3500-7000
@@ -539,6 +537,7 @@ Qualifying new listings: 2
 - 13 West 82nd Street #3B | 13 West 82nd Street #3B, NEW YORK, NY, 10024 — Kitchen photo shows a closed layout
 - 138 West 92nd Street #1R | 138 West 92nd Street #1R, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout
 - 503 4th Avenue #3H | 503 4th Avenue #3H, BROOKLYN, NY, 11215 — Kitchen photo shows a galley layout
+- 305 East 95th Street #6B | 305 East 95th Street #6B, NEW YORK, NY, 10128 — Kitchen photo shows a galley layout (user-corrected)
 - 1775 York Avenue #4F | address unknown — Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/the-brittany/4f: The operation was aborted due to timeout
 - 281 Wyckoff Street #2 | 281 Wyckoff Street #2, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
 - 1105 Lexington Avenue #2A | 1105 Lexington Avenue #2A, NEW YORK, NY, 10075 — Kitchen photo shows a galley layout

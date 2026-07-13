@@ -95,10 +95,16 @@ function normalizeListing(rawListing) {
     Number.isFinite(rawListing.bathrooms) && rawListing.bathrooms > 0
       ? rawListing.bathrooms
       : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bathrooms?|baths?|ba)\b/i);
+  // ft² (StreetEasy's usual format) was being missed entirely — the pattern
+  // only covered "sf"/"sq ft"/"square feet", so real square footage sitting
+  // right in the text (e.g. "586 ft²") was silently coming back as unknown.
+  // Uses a lookahead instead of \b at the end: "²" is a non-word character,
+  // so \b never matches between it and the space that follows — \b needs a
+  // word/non-word transition, and both sides there are non-word.
   const sqft =
     Number.isFinite(rawListing.sqft) && rawListing.sqft > 0
       ? rawListing.sqft
-      : extractNumber(rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet)\b/i);
+      : extractNumber(rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet|ft2|ft²)(?![a-zA-Z])/i);
   const price =
     Number.isFinite(rawListing.price) && rawListing.price > 0
       ? rawListing.price

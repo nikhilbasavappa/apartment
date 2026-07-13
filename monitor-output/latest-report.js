@@ -59,7 +59,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/36ad2d8c663e10036e525edbca48ea68-se_large_800_400.webp"
         ],
         "price": 4100,
-        "sqft": null,
+        "sqft": 586,
         "title": "11-12 44th Drive #4D",
         "url": "https://streeteasy.com/building/qns44-condominium/4d",
         "washerDryer": "yes"
@@ -124,7 +124,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
@@ -231,7 +231,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
         ],
         "price": 6700,
-        "sqft": null,
+        "sqft": 962,
         "title": "243 Eight Street #3R",
         "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
         "washerDryer": "yes"
@@ -316,7 +316,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": null,
+        "sqft": 219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -576,7 +576,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/56c8d8176d8824c8e205cef3fe5b47d7-se_extra_large_1500_800.webp"
         ],
         "price": 6462,
-        "sqft": null,
+        "sqft": 852,
         "title": "316 Bergen Street #7-3",
         "url": "https://streeteasy.com/building/the-bergen/703",
         "washerDryer": "yes"
@@ -747,7 +747,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
         ],
         "price": 6550,
-        "sqft": null,
+        "sqft": 655,
         "title": "266 West 96th Street #1706",
         "url": "https://streeteasy.com/building/266-west-96th/1706",
         "washerDryer": "yes"
@@ -830,7 +830,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
         ],
         "price": 6349,
-        "sqft": null,
+        "sqft": 846,
         "title": "400 West 63rd Street #314",
         "url": "https://streeteasy.com/building/the-ashley/314",
         "washerDryer": "yes"
@@ -1083,12 +1083,12 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f708dc195c57cee8cfcf455e10b96bed-se_large_800_400.webp"
         ],
         "price": 5750,
-        "sqft": null,
+        "sqft": 794,
         "title": "110 4th Avenue #5E",
         "url": "https://streeteasy.com/building/110-4-avenue-brooklyn/5e",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -3660,6 +3660,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "305 East 95th Street #6B, NEW YORK, NY, 10128",
+        "price": 6500,
+        "title": "305 East 95th Street #6B",
+        "url": "https://streeteasy.com/building/303-east-95-street-new_york/6b"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout (user-corrected)"
+      ]
+    },
+    {
+      "listing": {
         "title": "1775 York Avenue #4F",
         "url": "https://streeteasy.com/building/the-brittany/4f"
       },
@@ -5630,180 +5641,7 @@ window.__APARTMENT_REPORT__ = {
       ]
     }
   ],
-  "newListings": [
-    {
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 13,
-          "lines": [
-            "E Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-12T22:00:06.051Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "29-59 Northern Boulevard #70N, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-09-06",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-sven-29-59-northern-boulevard-long-island-city-70n.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0b76eea826fd6abdbf88aad2d49f74bd-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ea895f693fac684dc9f771d0d4325ca0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1a5a3c2ed70a886a1433a5dc430a8f80-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5c2e2aeee7e8bcd7d2a893bf88ca4bb3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/76cf3b716864af597579aec55c82671f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8800e02e1c06aeb5f446e9b79d014cc4-se_extra_large_1500_800.webp"
-        ],
-        "price": 5560,
-        "sqft": null,
-        "title": "29-59 Northern Boulevard #70N",
-        "url": "https://streeteasy.com/building/sven-29_59-northern-boulevard-long_island_city/70n",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.8925,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.35,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 41.775000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 50.8925,
-      "visionNotes": "Kitchen visible with gas cooktop (visible grates); open to living area; living room appears spacious with large windows; no private outdoor space—only city views from windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-12T22:00:06.051Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "316 Bergen Street #4-7, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-19",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-bergen-407.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/969278ee0c427a0e0dcce209bdbbfed8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/03667205995f4b130e0b1e829e39735a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3b1a3fc69f3aeed838376d94a04288b9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/40c4db2a791db50911cf4540b70dd86a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/78cbe096ba342a4fba3ab81b9cf8f384-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d2fa8c373a7f321557a4f8850e91fc40-se_extra_large_1500_800.webp"
-        ],
-        "price": 4590,
-        "sqft": null,
-        "title": "316 Bergen Street #4-7",
-        "url": "https://streeteasy.com/building/the-bergen/407",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 46.099999999999994,
-        "neighborhood": {
-          "score": 65,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.35,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 34.55,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 46.099999999999994,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove has a flat cooktop (electric/induction); no private outdoor space visible; living room appears spacious with good furniture arrangement."
-    }
-  ],
+  "newListings": [],
   "runAt": "2026-07-12T22:00:06.051Z",
   "sourcesConfigured": 1,
   "topListings": [
@@ -6032,7 +5870,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
         ],
         "price": 6550,
-        "sqft": null,
+        "sqft": 655,
         "title": "266 West 96th Street #1706",
         "url": "https://streeteasy.com/building/266-west-96th/1706",
         "washerDryer": "yes"
@@ -6117,7 +5955,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/470c2e5de94949b38e9a25690bfe6faf-se_extra_large_1500_800.webp"
         ],
         "price": 6400,
-        "sqft": null,
+        "sqft": 647,
         "title": "266 West 96th Street #1601",
         "url": "https://streeteasy.com/building/266-west-96th/1601",
         "washerDryer": "yes"
@@ -6540,7 +6378,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
         ],
         "price": 6189,
-        "sqft": null,
+        "sqft": 648,
         "title": "795 Columbus Avenue #4G",
         "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/04g",
         "washerDryer": "yes"
@@ -6624,7 +6462,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
         ],
         "price": 5722,
-        "sqft": null,
+        "sqft": 637,
         "title": "795 Columbus Avenue #5K",
         "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
         "washerDryer": "yes"
@@ -6708,7 +6546,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/363e41a9398b512ac79e3e6d317139a9-se_large_800_400.webp"
         ],
         "price": 6200,
-        "sqft": null,
+        "sqft": 850,
         "title": "788 Columbus Avenue #1R",
         "url": "https://streeteasy.com/building/788-columbus-avenue-new_york/1r",
         "washerDryer": "yes"
@@ -6792,7 +6630,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
         ],
         "price": 6088,
-        "sqft": null,
+        "sqft": 671,
         "title": "801 Amsterdam Avenue #3G",
         "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/03g",
         "washerDryer": "yes"
@@ -7296,7 +7134,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d3d85f939d6a50229c19f3d68297600e-se_large_800_400.webp"
         ],
         "price": 4950,
-        "sqft": null,
+        "sqft": 706,
         "title": "3 Court Square #613",
         "url": "https://streeteasy.com/building/skyline-tower/613",
         "washerDryer": "yes"
@@ -7381,7 +7219,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/134684df64ee0a4c04e138a5a107256a-se_large_800_400.webp"
         ],
         "price": 5200,
-        "sqft": null,
+        "sqft": 635,
         "title": "3 Court Square #5604",
         "url": "https://streeteasy.com/building/skyline-tower/5604",
         "washerDryer": "yes"
@@ -7466,7 +7304,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d8a6d8f7be0597bb574a9fd3b5b2ef95-se_large_800_400.webp"
         ],
         "price": 5200,
-        "sqft": null,
+        "sqft": 625,
         "title": "3 Court Square #3509",
         "url": "https://streeteasy.com/building/skyline-tower/3509",
         "washerDryer": "yes"
@@ -7720,7 +7558,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/36ad2d8c663e10036e525edbca48ea68-se_large_800_400.webp"
         ],
         "price": 4100,
-        "sqft": null,
+        "sqft": 586,
         "title": "11-12 44th Drive #4D",
         "url": "https://streeteasy.com/building/qns44-condominium/4d",
         "washerDryer": "yes"
@@ -8550,7 +8388,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/05c9a19ee8e30e6a8838845d36c2d368-se_large_800_400.webp"
         ],
         "price": 4750,
-        "sqft": null,
+        "sqft": 672,
         "title": "22-18 Jackson Avenue #511",
         "url": "https://streeteasy.com/building/galerie-condominium/511",
         "washerDryer": "yes"
@@ -8633,7 +8471,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/a47c65de61ed2cf5e5a0dcb5400374f3-se_large_800_400.webp"
         ],
         "price": 6750,
-        "sqft": null,
+        "sqft": 996,
         "title": "22-18 Jackson Avenue #812",
         "url": "https://streeteasy.com/building/galerie-condominium/812",
         "washerDryer": "yes"
@@ -9230,7 +9068,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/816e3ac524ccfd79f72b688ae28df4f9-se_large_800_400.webp"
         ],
         "price": 4000,
-        "sqft": null,
+        "sqft": 641,
         "title": "11-51 47th Avenue #5D",
         "url": "https://streeteasy.com/building/the-jackson/5d",
         "washerDryer": "yes"
@@ -9315,7 +9153,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/5841212612473eaa9a8f0f6841e19d85-se_large_800_400.webp"
         ],
         "price": 4500,
-        "sqft": null,
+        "sqft": 646,
         "title": "27-21 44th Drive #1503",
         "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1503",
         "washerDryer": "yes"
@@ -12223,7 +12061,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4a15294dabc310284f199db92021c4d3-se_large_800_400.webp"
         ],
         "price": 6600,
-        "sqft": null,
+        "sqft": 200,
         "title": "11-39 49th Avenue #720",
         "url": "https://streeteasy.com/building/hunters-landing-lic/720",
         "washerDryer": "yes"
@@ -12392,7 +12230,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c9641db539b0a5c1b552b9fc80b1aa90-se_extra_large_1500_800.webp"
         ],
         "price": 4995,
-        "sqft": null,
+        "sqft": 683,
         "title": "66 Rockwell Place #26J",
         "url": "https://streeteasy.com/building/66-rockwell-place-brooklyn/26j",
         "washerDryer": "yes"
@@ -12476,7 +12314,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1d3ed3d8497b151b07e868edc7630ea0-se_large_800_400.webp"
         ],
         "price": 4250,
-        "sqft": null,
+        "sqft": 740,
         "title": "11-39 49th Avenue #307",
         "url": "https://streeteasy.com/building/hunters-landing-lic/307",
         "washerDryer": "yes"
@@ -12561,7 +12399,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
         ],
         "price": 4400,
-        "sqft": null,
+        "sqft": 600,
         "title": "52 4th Avenue #506",
         "url": "https://streeteasy.com/building/the-eleanor/506",
         "washerDryer": "yes"
@@ -12646,7 +12484,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/6b337542603037355a0181001c53d575-se_extra_large_1500_800.webp"
         ],
         "price": 4650,
-        "sqft": null,
+        "sqft": 635,
         "title": "52 4th Avenue #501",
         "url": "https://streeteasy.com/building/the-eleanor/501",
         "washerDryer": "yes"
@@ -12731,7 +12569,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/0c11a279b9a0962567980f3431342dfd-se_extra_large_1500_800.webp"
         ],
         "price": 5650,
-        "sqft": null,
+        "sqft": 650,
         "title": "52 4th Avenue #703",
         "url": "https://streeteasy.com/building/the-eleanor/703",
         "washerDryer": "yes"
@@ -12816,7 +12654,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/39685e6d53bde5c00464e26f4300dd5f-se_extra_large_1500_800.webp"
         ],
         "price": 4250,
-        "sqft": null,
+        "sqft": 600,
         "title": "52 4th Avenue #405",
         "url": "https://streeteasy.com/building/the-eleanor/405",
         "washerDryer": "yes"
@@ -12985,7 +12823,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/df2c8ab63ecc05cf8035edd9d4cb3610-se_large_800_400.webp"
         ],
         "price": 4500,
-        "sqft": null,
+        "sqft": 615,
         "title": "10-63 Jackson Avenue #5E",
         "url": "https://streeteasy.com/building/ten-63/5e",
         "washerDryer": "yes"
@@ -14260,7 +14098,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c031a296ad426cfac161150c732440d4-se_extra_large_1500_800.webp"
         ],
         "price": 4665,
-        "sqft": null,
+        "sqft": 0,
         "title": "17 Hanover Place #21F",
         "url": "https://streeteasy.com/building/hanover-house/21f",
         "washerDryer": "yes"
@@ -16210,7 +16048,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/7747f4502992c8a9022a34af65f34e70-se_extra_large_1500_800.webp"
         ],
         "price": 4000,
-        "sqft": null,
+        "sqft": 626,
         "title": "27-03 42nd Road #12A",
         "url": "https://streeteasy.com/building/heritage-27-on-27th/12a",
         "washerDryer": "yes"
@@ -16295,7 +16133,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d83a3e76c666744e871a2229354da3be-se_extra_large_1500_800.webp"
         ],
         "price": 4200,
-        "sqft": null,
+        "sqft": 713,
         "title": "27-17 42nd Road #6G",
         "url": "https://streeteasy.com/building/star-tower-lic/6g",
         "washerDryer": "yes"
@@ -16380,7 +16218,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/7afc82f2b58ab049ba9ed403099c37b4-se_extra_large_1500_800.webp"
         ],
         "price": 4500,
-        "sqft": null,
+        "sqft": 673,
         "title": "27-03 42nd Road #20E",
         "url": "https://streeteasy.com/building/heritage-27-on-27th/20e",
         "washerDryer": "yes"
@@ -16465,7 +16303,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/50a1368a428d9cdfeca33a3806b4dfe6-se_large_800_400.webp"
         ],
         "price": 4100,
-        "sqft": null,
+        "sqft": 604,
         "title": "27-17 42nd Road #17H",
         "url": "https://streeteasy.com/building/star-tower-lic/17h",
         "washerDryer": "yes"
@@ -16805,7 +16643,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/64e606b1697e77c9cf8b0b20e348448b-se_large_800_400.webp"
         ],
         "price": 4750,
-        "sqft": null,
+        "sqft": 727,
         "title": "470 Dean Street #4104",
         "url": "https://streeteasy.com/building/the-heritage-dean-street/4104",
         "washerDryer": "yes"
@@ -16890,7 +16728,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/bc59c806564ae3c22e7407cd4d9caa77-se_extra_large_1500_800.webp"
         ],
         "price": 5798,
-        "sqft": null,
+        "sqft": 928,
         "title": "27-03 42nd Road #25C",
         "url": "https://streeteasy.com/building/heritage-27-on-27th/25c",
         "washerDryer": "yes"
@@ -17230,7 +17068,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/b154bcc7dbd87aac52f960bd64728bbf-se_extra_large_1500_800.webp"
         ],
         "price": 5245,
-        "sqft": null,
+        "sqft": 644,
         "title": "461 Dean Street #25A",
         "url": "https://streeteasy.com/building/461-dean-street-brooklyn/25a",
         "washerDryer": "yes"
@@ -17315,7 +17153,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/b154bcc7dbd87aac52f960bd64728bbf-se_extra_large_1500_800.webp"
         ],
         "price": 4575,
-        "sqft": null,
+        "sqft": 691,
         "title": "461 Dean Street #20H",
         "url": "https://streeteasy.com/building/461-dean-street-brooklyn/20h",
         "washerDryer": "yes"
@@ -17570,7 +17408,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/8abb124017f572a484b086ce2d7838e7-se_large_800_400.webp"
         ],
         "price": 5109,
-        "sqft": null,
+        "sqft": 691,
         "title": "42-20 24th Street #36J",
         "url": "https://streeteasy.com/building/1-qps/036j",
         "washerDryer": "yes"
@@ -17655,7 +17493,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/7b66b3f49c922f30a5bc2f4441c51a2e-se_large_800_400.webp"
         ],
         "price": 4271,
-        "sqft": null,
+        "sqft": 685,
         "title": "42-20 24th Street #4F",
         "url": "https://streeteasy.com/building/1-qps/004f",
         "washerDryer": "yes"
@@ -17740,7 +17578,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1ce8d98a9f63d4dd28d3ab6bf2687b30-se_large_800_400.webp"
         ],
         "price": 4945,
-        "sqft": null,
+        "sqft": 691,
         "title": "42-20 24th Street #28E",
         "url": "https://streeteasy.com/building/1-qps/028e",
         "washerDryer": "yes"
@@ -17825,7 +17663,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/8fa5347d127034bcae1823c0d2a51b47-se_large_800_400.webp"
         ],
         "price": 5758,
-        "sqft": null,
+        "sqft": 740,
         "title": "42-20 24th Street #19C",
         "url": "https://streeteasy.com/building/1-qps/019c",
         "washerDryer": "yes"
@@ -18168,7 +18006,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": null,
+        "sqft": 219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -18252,7 +18090,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/55d871a74fd92d4983b47ebc92d6e553-se_large_800_400.webp"
         ],
         "price": 5995,
-        "sqft": null,
+        "sqft": 754,
         "title": "305 East 86th Street #1SE",
         "url": "https://streeteasy.com/building/yorkshire-towers/1se",
         "washerDryer": "yes"
@@ -18336,7 +18174,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/0bd7a55f19d474ccdfec02baa733dbed-se_large_800_400.webp"
         ],
         "price": 6370,
-        "sqft": null,
+        "sqft": 650,
         "title": "231 East 76th Street #2A",
         "url": "https://streeteasy.com/building/231-east-76-street-new_york/2a",
         "washerDryer": "yes"
@@ -18506,7 +18344,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/0ce33dd99ed731066f750d937f7ff279-se_large_800_400.webp"
         ],
         "price": 4100,
-        "sqft": null,
+        "sqft": 689,
         "title": "5-19 Borden Avenue #6F",
         "url": "https://streeteasy.com/building/murano-condominium/6f",
         "washerDryer": "yes"
@@ -18591,7 +18429,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/df401a0983b410fd22c184008e3f09fa-se_extra_large_1500_800.webp"
         ],
         "price": 4500,
-        "sqft": null,
+        "sqft": 596,
         "title": "29-18 41st Avenue #24B",
         "url": "https://streeteasy.com/building/nova-condominium/24b",
         "washerDryer": "yes"
@@ -19968,7 +19806,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1b836c2d214c7e5b4e98ed21e05b9e65-se_large_800_400.webp"
         ],
         "price": 5895,
-        "sqft": null,
+        "sqft": 895,
         "title": "1134 1st Avenue #3F",
         "url": "https://streeteasy.com/building/1134-1-avenue-new_york/3f",
         "washerDryer": "yes"
@@ -20142,7 +19980,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c9ddc88488cafa22444cd30750c715a3-se_extra_large_1500_800.webp"
         ],
         "price": 4610,
-        "sqft": null,
+        "sqft": 549,
         "title": "475 Clermont Avenue #903",
         "url": "https://streeteasy.com/building/475-clermont/0903",
         "washerDryer": "yes"
@@ -21512,7 +21350,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/82af50e1b9679d020bab1f3adf1ff3c4-se_extra_large_1500_800.webp"
         ],
         "price": 4101,
-        "sqft": null,
+        "sqft": 539,
         "title": "316 Bergen Street #210",
         "url": "https://streeteasy.com/building/the-bergen/0210",
         "washerDryer": "yes"
@@ -21598,7 +21436,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/40c4db2a791db50911cf4540b70dd86a-se_extra_large_1500_800.webp"
         ],
         "price": 4460,
-        "sqft": null,
+        "sqft": 597,
         "title": "316 Bergen Street #610",
         "url": "https://streeteasy.com/building/the-bergen/0610",
         "washerDryer": "yes"
@@ -21684,7 +21522,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f472b46c68f52bcc6afe57aebe45d23b-se_extra_large_1500_800.webp"
         ],
         "price": 4625,
-        "sqft": null,
+        "sqft": 694,
         "title": "316 Bergen Street #711",
         "url": "https://streeteasy.com/building/the-bergen/0711",
         "washerDryer": "yes"
@@ -21770,7 +21608,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/56c8d8176d8824c8e205cef3fe5b47d7-se_extra_large_1500_800.webp"
         ],
         "price": 6462,
-        "sqft": null,
+        "sqft": 852,
         "title": "316 Bergen Street #7-3",
         "url": "https://streeteasy.com/building/the-bergen/703",
         "washerDryer": "yes"
@@ -21856,7 +21694,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d2fa8c373a7f321557a4f8850e91fc40-se_extra_large_1500_800.webp"
         ],
         "price": 4590,
-        "sqft": null,
+        "sqft": 625,
         "title": "316 Bergen Street #4-7",
         "url": "https://streeteasy.com/building/the-bergen/407",
         "washerDryer": "yes"
@@ -22110,12 +21948,12 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f708dc195c57cee8cfcf455e10b96bed-se_large_800_400.webp"
         ],
         "price": 5750,
-        "sqft": null,
+        "sqft": 794,
         "title": "110 4th Avenue #5E",
         "url": "https://streeteasy.com/building/110-4-avenue-brooklyn/5e",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -22534,7 +22372,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1c9ec9e016d4035ab494cb26f9bbd589-se_extra_large_1500_800.webp"
         ],
         "price": 5950,
-        "sqft": null,
+        "sqft": 0,
         "title": "314 West 71st Street #1",
         "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
         "washerDryer": "yes"
@@ -22618,7 +22456,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f0fe7c3278a4fc9508d368075e7d264e-se_large_800_400.webp"
         ],
         "price": 4250,
-        "sqft": null,
+        "sqft": 720,
         "title": "47-05 5th Street #303",
         "url": "https://streeteasy.com/building/the-monarch-47_05-5th-street-long_island_city/303",
         "washerDryer": "yes"
@@ -23722,7 +23560,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/6baff5ffab5e276688eb16faba3c2c34-se_medium_500_250.webp"
         ],
         "price": 5093,
-        "sqft": null,
+        "sqft": 634,
         "title": "5-11 47th Avenue #7M",
         "url": "https://streeteasy.com/building/the-maximilian/07m",
         "washerDryer": "yes"
@@ -24485,7 +24323,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/274bf8e251cda19ba8ff84daa6b6fac7-se_large_800_400.webp"
         ],
         "price": 5440,
-        "sqft": null,
+        "sqft": 700,
         "title": "4-75 48th Avenue #403",
         "url": "https://streeteasy.com/building/riverview-north/403",
         "washerDryer": "yes"
@@ -24652,7 +24490,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f214a08ba57880cfebb8a0a2997b2e89-se_large_800_400.webp"
         ],
         "price": 5000,
-        "sqft": null,
+        "sqft": 670,
         "title": "550 Vanderbilt Avenue #702",
         "url": "https://streeteasy.com/building/550-vanderbilt-avenue-brooklyn/702",
         "washerDryer": "yes"
@@ -24679,90 +24517,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 43.635000000000005,
       "visionNotes": "Kitchen is visible and open to dining/living area with gas cooktop; living room is spacious with large windows; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 33,
-          "lines": [
-            "Q Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 38,
-          "lines": [
-            "M96",
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-12T13:00:06.156Z",
-      "gasStove": "unknown",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "305 East 95th Street #6B, NEW YORK, NY, 10128",
-        "availableDate": "2026-08-10",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-303-east-95-street-new-york-6b.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/62be5ffbc503b12ce42ce5df9c7fae12-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/77195ea51dd404e1d9281cea4220952b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6e28cd79874cf82dcf9ffc83d6757f06-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/88175d3ba4b74627fb19a3f7c7c285b0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/305f2c6e6ff7244ae35f235eba11920a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b4a834eef70812d5f37c8a80919d67b3-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": null,
-        "title": "305 East 95th Street #6B",
-        "url": "https://streeteasy.com/building/303-east-95-street-new_york/6b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.54,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 37.10000000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 43.54,
-      "visionNotes": "Kitchen is visible and open to living area; outdoor terrace with artificial turf and furniture is clearly a private unit amenity; stove type not clearly discernible in photos; living room appears moderately sized."
     },
     {
       "commute": {
@@ -26165,7 +25919,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
@@ -26355,7 +26109,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/efea1a6b15d816008dc96d9b23299e06-se_large_800_400.webp"
         ],
         "price": 5019,
-        "sqft": null,
+        "sqft": 638,
         "title": "526 Baltic Street #5B",
         "url": "https://streeteasy.com/building/the-baltic-canal/5b",
         "washerDryer": "yes"
@@ -26420,7 +26174,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-12T13:00:06.156Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -26615,7 +26369,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/9183028302360f4468ccedd0056bb75a-se_large_800_400.webp"
         ],
         "price": 4195,
-        "sqft": null,
+        "sqft": 650,
         "title": "180 Fifth Avenue #1",
         "url": "https://streeteasy.com/building/180-5-avenue-brooklyn/1",
         "washerDryer": "yes"
@@ -27989,7 +27743,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
         ],
         "price": 6700,
-        "sqft": null,
+        "sqft": 962,
         "title": "243 Eight Street #3R",
         "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
         "washerDryer": "yes"
@@ -28157,7 +27911,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d29a09e923d57d2fccc120921c7571e1-se_large_800_400.webp"
         ],
         "price": 6800,
-        "sqft": null,
+        "sqft": 515,
         "title": "101 West End Avenue #11Q",
         "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
         "washerDryer": "yes"
@@ -29015,7 +28769,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
         ],
         "price": 6349,
-        "sqft": null,
+        "sqft": 846,
         "title": "400 West 63rd Street #314",
         "url": "https://streeteasy.com/building/the-ashley/314",
         "washerDryer": "yes"
@@ -29098,7 +28852,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4f383c53857f2172833efffae7562a25-se_extra_large_1500_800.webp"
         ],
         "price": 6028,
-        "sqft": null,
+        "sqft": 676,
         "title": "400 West 63rd Street #1804",
         "url": "https://streeteasy.com/building/the-ashley/1804",
         "washerDryer": "yes"
@@ -30651,7 +30405,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/d5f4bc0bfc59ce18df5496a6ad11a332-se_extra_large_1500_800.webp"
         ],
         "price": 4350,
-        "sqft": null,
+        "sqft": 650,
         "title": "311 6th Avenue #4R",
         "url": "https://streeteasy.com/building/311-6-avenue-brooklyn/4r",
         "washerDryer": "yes"
@@ -30819,7 +30573,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/bde366c4aa62c26fd07e9ec6f0733a96-se_large_800_400.webp"
         ],
         "price": 5680,
-        "sqft": null,
+        "sqft": 756,
         "title": "501 East 87th Street #7D",
         "url": "https://streeteasy.com/building/rivers-bend/7d",
         "washerDryer": "yes"
@@ -31158,7 +30912,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/904067996081726d3f255dc9fe72a8c7-se_large_800_400.webp"
         ],
         "price": 5600,
-        "sqft": null,
+        "sqft": 825,
         "title": "160 Riverside Boulevard #11A",
         "url": "https://streeteasy.com/building/160-riverside-boulevard/11a",
         "washerDryer": "yes"
@@ -31244,7 +30998,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/e5d22084c66a99f34a2833ae54ce5ef0-se_large_800_400.webp"
         ],
         "price": 5433,
-        "sqft": null,
+        "sqft": 200,
         "title": "390 15th Street #1A",
         "url": "https://streeteasy.com/building/390-15-street-brooklyn/1a",
         "washerDryer": "yes"
@@ -31328,7 +31082,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/48c77673835580cf375777668312ba73-se_large_800_400.webp"
         ],
         "price": 5325,
-        "sqft": null,
+        "sqft": 658,
         "title": "85 East End Avenue #1C",
         "url": "https://streeteasy.com/building/85-east-end-avenue-new_york/01c",
         "washerDryer": "yes"
@@ -31412,7 +31166,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/9a0c0ba91704a334e4f3d3c5ad142e81-se_large_800_400.webp"
         ],
         "price": 5395,
-        "sqft": null,
+        "sqft": 658,
         "title": "408 East 92nd Street #26B",
         "url": "https://streeteasy.com/building/rivereast-408-east-92nd-street-new_york/26b",
         "washerDryer": "yes"
