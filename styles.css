@@ -256,6 +256,12 @@ h3 {
   background: var(--gold-soft);
 }
 
+.flag-unavailable {
+  color: var(--muted);
+  background: var(--surface-sunken);
+  text-decoration: line-through;
+}
+
 .profile-grid {
   display: grid;
   gap: 1px;
@@ -512,6 +518,23 @@ h3 {
   background: var(--accent-soft);
 }
 
+.unavailable-button {
+  font-size: 0.82rem;
+  padding: 9px 12px;
+  color: var(--muted);
+}
+
+.unavailable-button:hover {
+  border-color: var(--muted);
+  background: var(--surface-sunken);
+}
+
+.unavailable-button.marked-unavailable {
+  border-color: var(--muted);
+  background: var(--surface-sunken);
+  text-decoration: line-through;
+}
+
 .act-now-panel {
   border-color: var(--rose);
   background: var(--rose-soft);
@@ -606,6 +629,10 @@ h3 {
 .excluded-note:focus {
   outline: none;
   border-color: var(--accent);
+}
+
+.excluded-unavailable {
+  margin-top: 8px;
 }
 
 .excluded-reasons {

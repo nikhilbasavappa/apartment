@@ -172,6 +172,14 @@
                 <option value="no">Electric only</option>
               </select>
             </label>
+            <label class="filter-control">
+              <span>Availability</span>
+              <select class="availability-filter">
+                <option value="available">Available only</option>
+                <option value="all">Show all</option>
+                <option value="unavailable">Marked unavailable</option>
+              </select>
+            </label>
           </div>
           <div id="newFeed" class="monitor-grid"></div>
           <p id="newEmptyState" class="empty-state"></p>
@@ -231,6 +239,14 @@
                 <option value="no">Electric only</option>
               </select>
             </label>
+            <label class="filter-control">
+              <span>Availability</span>
+              <select class="availability-filter">
+                <option value="available">Available only</option>
+                <option value="all">Show all</option>
+                <option value="unavailable">Marked unavailable</option>
+              </select>
+            </label>
           </div>
           <div id="monitorFeed" class="monitor-grid"></div>
           <div id="monitorActions" class="monitor-actions">
@@ -286,7 +302,10 @@
         <div class="listing-facts monitor-rank-breakdown"></div>
         <p class="monitor-why"></p>
         <textarea class="monitor-note" placeholder="Add a note (e.g. &quot;this is actually electric, not gas&quot;)…" rows="2"></textarea>
-        <a class="ghost-button monitor-link" target="_blank" rel="noreferrer">Open listing</a>
+        <div class="monitor-actions">
+          <a class="ghost-button monitor-link" target="_blank" rel="noreferrer">Open listing</a>
+          <button type="button" class="ghost-button unavailable-button monitor-unavailable">Mark unavailable</button>
+        </div>
       </article>
     </template>
 
@@ -299,6 +318,7 @@
         <p class="excluded-subhead"></p>
         <div class="excluded-reasons"></div>
         <input type="text" class="excluded-note" placeholder="Add a note (e.g. &quot;kitchen actually open, layout call was wrong&quot;)…" />
+        <button type="button" class="ghost-button unavailable-button excluded-unavailable">Mark unavailable</button>
       </div>
     </template>
 

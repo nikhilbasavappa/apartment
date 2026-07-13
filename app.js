@@ -10,7 +10,7 @@ let currentWeights = loadWeights();
 // "how do I want to look at things right now" setting than a stable
 // preference. Shared across the New and All Qualifying tabs so switching
 // tabs doesn't lose your sort/filter choice.
-let currentSortFilter = { sort: "score", bedrooms: "any", gas: "any" };
+let currentSortFilter = { sort: "score", bedrooms: "any", gas: "any", availability: "available" };
 
 const FEEDBACK_STORAGE_KEY = "apartmentFeedback";
 let feedbackState = loadFeedback();
@@ -88,13 +88,13 @@ function saveFeedback() {
 }
 
 function getFeedback(url) {
-  return feedbackState[url] || { starred: false, note: "" };
+  return feedbackState[url] || { starred: false, note: "", unavailable: false };
 }
 
 function setFeedback(url, title, patch) {
   const existing = getFeedback(url);
   const next = { ...existing, ...patch };
-  if (!next.starred && !next.note) {
+  if (!next.starred && !next.note && !next.unavailable) {
     delete feedbackState[url];
   } else {
     feedbackState[url] = { ...next, title, updatedAt: new Date().toISOString() };
@@ -120,6 +120,7 @@ function initSortFilterControls() {
   const sortSelects = document.querySelectorAll(".sort-select");
   const bedroomFilters = document.querySelectorAll(".bedroom-filter");
   const gasFilters = document.querySelectorAll(".gas-filter");
+  const availabilityFilters = document.querySelectorAll(".availability-filter");
 
   sortSelects.forEach((select) => {
     select.value = currentSortFilter.sort;
@@ -147,6 +148,15 @@ function initSortFilterControls() {
       renderMonitor();
     });
   });
+
+  availabilityFilters.forEach((select) => {
+    select.value = currentSortFilter.availability;
+    select.addEventListener("change", () => {
+      currentSortFilter.availability = select.value;
+      availabilityFilters.forEach((other) => (other.value = select.value));
+      renderMonitor();
+    });
+  });
 }
 
 function applySortFilter(entries) {
@@ -158,6 +168,9 @@ function applySortFilter(entries) {
       if (wanted === 3 ? actual < 3 : actual !== wanted) return false;
     }
     if (currentSortFilter.gas !== "any" && entry.gasStove !== currentSortFilter.gas) return false;
+    const isUnavailable = Boolean(getFeedback(entry.listing.url).unavailable);
+    if (currentSortFilter.availability === "available" && isUnavailable) return false;
+    if (currentSortFilter.availability === "unavailable" && !isUnavailable) return false;
     return true;
   });
 
@@ -443,7 +456,9 @@ function renderMonitor() {
   // tying the New tab to it would blank the tab out on every such refresh.
   const isNew = (entry) => isSameUtcDay(entry.firstSeenAt, report.runAt);
 
-  const earlyAction = (Array.isArray(report.earlyActionListings) ? report.earlyActionListings : []).map(withClientScore);
+  const earlyAction = (Array.isArray(report.earlyActionListings) ? report.earlyActionListings : [])
+    .map(withClientScore)
+    .filter((entry) => !getFeedback(entry.listing.url).unavailable);
   renderActNow(earlyAction, isNew);
 
   const newListings = applySortFilter(topListings.filter(isNew));
@@ -589,7 +604,7 @@ function buildListingCard(entry, flags = []) {
   const link = node.querySelector(".monitor-link");
   link.href = entry.listing.url;
 
-  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".monitor-star", ".monitor-note");
+  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".monitor-star", ".monitor-note", ".monitor-unavailable");
 
   return node;
 }
@@ -598,9 +613,10 @@ function buildListingCard(entry, flags = []) {
 // current state from feedbackState, wires the star toggle and note field to
 // write straight back through setFeedback (which persists to localStorage
 // immediately, no separate save step).
-function wireStarAndNote(node, url, title, starSelector, noteSelector) {
+function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailableSelector) {
   const starButton = node.querySelector(starSelector);
   const noteField = node.querySelector(noteSelector);
+  const unavailableButton = unavailableSelector ? node.querySelector(unavailableSelector) : null;
   const feedback = getFeedback(url);
 
   if (starButton) {
@@ -620,6 +636,19 @@ function wireStarAndNote(node, url, title, starSelector, noteSelector) {
     noteField.addEventListener("change", () => {
       setFeedback(url, title, { note: noteField.value.trim() });
       refreshStarredTab();
+    });
+  }
+
+  if (unavailableButton) {
+    unavailableButton.textContent = feedback.unavailable ? "Available again" : "Mark unavailable";
+    unavailableButton.classList.toggle("marked-unavailable", Boolean(feedback.unavailable));
+    unavailableButton.addEventListener("click", () => {
+      const next = !getFeedback(url).unavailable;
+      setFeedback(url, title, { unavailable: next });
+      // Unlike star/note, this changes what's actually filtered into the
+      // main feeds (not just the Starred side-list), so it needs the real
+      // re-render, not just a targeted refresh.
+      renderMonitor();
     });
   }
 }
@@ -695,7 +724,7 @@ function buildExcludedRow(entry) {
   const reasons = node.querySelector(".excluded-reasons");
   (entry.reasons || []).forEach((reason) => reasons.append(createPill(reason, "fact-pill excluded-reason-pill")));
 
-  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".excluded-star", ".excluded-note");
+  wireStarAndNote(node, entry.listing.url, entry.listing.title, ".excluded-star", ".excluded-note", ".excluded-unavailable");
 
   return node;
 }
@@ -730,7 +759,10 @@ function renderStarred(qualifyingEntries, excludedEntries) {
   if (els.starredEmptyState) els.starredEmptyState.textContent = "";
 
   const fragment = document.createDocumentFragment();
-  starredQualifying.forEach((entry) => fragment.append(buildListingCard(entry)));
+  starredQualifying.forEach((entry) => {
+    const flags = getFeedback(entry.listing.url).unavailable ? [{ label: "Gone", className: "flag-unavailable" }] : [];
+    fragment.append(buildListingCard(entry, flags));
+  });
   els.starredFeed.append(fragment);
 
   if (els.starredExcludedList) {
