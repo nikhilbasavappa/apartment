@@ -54,6 +54,11 @@ const els = {
   starredExcludedList: document.querySelector("#starredExcludedList"),
   starredCount: document.querySelector("#starredCount"),
   starredEmptyState: document.querySelector("#starredEmptyState"),
+  tabCountUnavailable: document.querySelector("#tabCountUnavailable"),
+  unavailableFeed: document.querySelector("#unavailableFeed"),
+  unavailableExcludedList: document.querySelector("#unavailableExcludedList"),
+  unavailableCount: document.querySelector("#unavailableCount"),
+  unavailableEmptyState: document.querySelector("#unavailableEmptyState"),
   exportFeedback: document.querySelector("#exportFeedback"),
 };
 
@@ -207,7 +212,7 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all", "starred"].includes(hash) ? hash : "all";
+  return ["criteria", "act-now", "new", "all", "starred", "unavailable"].includes(hash) ? hash : "all";
 }
 
 function switchTab(tab) {
@@ -413,6 +418,7 @@ function renderMonitor() {
     renderActNow([], new Set());
     renderNew([]);
     renderStarred([], []);
+    renderUnavailable([], []);
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -448,6 +454,7 @@ function renderMonitor() {
   const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
   renderExcluded(excludedListings);
   renderStarred(topListings, excludedListings);
+  renderUnavailable(topListings, excludedListings);
 
   // "New" is based on firstSeenAt falling on the same calendar day as the
   // last scan, not the transient per-run newListings array — that array is
@@ -769,6 +776,35 @@ function renderStarred(qualifyingEntries, excludedEntries) {
     const excludedFragment = document.createDocumentFragment();
     starredExcluded.forEach((entry) => excludedFragment.append(buildExcludedRow(entry)));
     els.starredExcludedList.append(excludedFragment);
+  }
+}
+
+function renderUnavailable(qualifyingEntries, excludedEntries) {
+  if (!els.unavailableFeed) return;
+
+  const unavailableQualifying = qualifyingEntries.filter((entry) => getFeedback(entry.listing.url).unavailable);
+  const unavailableExcluded = excludedEntries.filter((entry) => getFeedback(entry.listing.url).unavailable);
+  const total = unavailableQualifying.length + unavailableExcluded.length;
+
+  els.unavailableFeed.innerHTML = "";
+  if (els.unavailableExcludedList) els.unavailableExcludedList.innerHTML = "";
+  if (els.tabCountUnavailable) els.tabCountUnavailable.textContent = total ? `(${total})` : "";
+  if (els.unavailableCount) els.unavailableCount.textContent = total ? `(${total})` : "";
+
+  if (!total) {
+    if (els.unavailableEmptyState) els.unavailableEmptyState.textContent = "Nothing marked unavailable.";
+    return;
+  }
+  if (els.unavailableEmptyState) els.unavailableEmptyState.textContent = "";
+
+  const fragment = document.createDocumentFragment();
+  unavailableQualifying.forEach((entry) => fragment.append(buildListingCard(entry)));
+  els.unavailableFeed.append(fragment);
+
+  if (els.unavailableExcludedList) {
+    const excludedFragment = document.createDocumentFragment();
+    unavailableExcluded.forEach((entry) => excludedFragment.append(buildExcludedRow(entry)));
+    els.unavailableExcludedList.append(excludedFragment);
   }
 }
 

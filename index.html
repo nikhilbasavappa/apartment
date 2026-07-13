@@ -25,6 +25,7 @@
           <button type="button" class="tab-button" data-tab="new">New <span class="tab-count" id="tabCountNew"></span></button>
           <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
           <button type="button" class="tab-button" data-tab="starred">Starred <span class="tab-count" id="tabCountStarred"></span></button>
+          <button type="button" class="tab-button" data-tab="unavailable">Unavailable <span class="tab-count" id="tabCountUnavailable"></span></button>
         </nav>
         <p class="last-scan-banner">Last scan: <strong id="globalLastScan">Waiting for first scan</strong></p>
       </header>
@@ -275,6 +276,18 @@
           <div id="starredFeed" class="monitor-grid"></div>
           <div id="starredExcludedList" class="excluded-list"></div>
           <p id="starredEmptyState" class="empty-state"></p>
+        </section>
+      </section>
+
+      <section class="tab-page" id="page-unavailable" data-tab="unavailable">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Unavailable <span id="unavailableCount" class="excluded-count"></span></h2>
+            <p>Everything you've marked unavailable — worth a periodic check that they actually went, not a mistaken mark.</p>
+          </div>
+          <div id="unavailableFeed" class="monitor-grid"></div>
+          <div id="unavailableExcludedList" class="excluded-list"></div>
+          <p id="unavailableEmptyState" class="empty-state"></p>
         </section>
       </section>
     </main>
