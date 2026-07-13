@@ -57,25 +57,31 @@
           <p class="rubric-copy">
             A listing has to clear every hard requirement before it shows up anywhere on this site at all:
             rent between $4,000&ndash;$7,000, at least 1 bedroom, in-unit washer/dryer, and a kitchen that's open
-            or semi-open (not closed or galley). Gowanus is excluded outright regardless of anything else.
+            or semi-open (not closed or galley). Gowanus is excluded outright regardless of anything else, and so
+            is Upper West Side north of 96th Street &mdash; outside the comfort zone entirely, not just downweighted.
             None of that is weighted or negotiable &mdash; it's pass/fail.
           </p>
           <p class="rubric-copy">
             Everything that clears those gets a <strong>match score out of 100</strong>, blending three things:
           </p>
           <ul class="rubric-list">
-            <li><strong>Neighborhood preference</strong> &mdash; Upper West Side scores 100, Brooklyn scores 65,
-              everywhere else (other Manhattan, Queens/LIC) scores 30.</li>
+            <li><strong>Neighborhood preference</strong> &mdash; Brooklyn and Upper West Side in the 72nd&ndash;89th
+              St sweet spot are tied at 100; UWS outside that range (but south of 96th) scores 80; everywhere else
+              (other Manhattan, Queens/LIC) scores 30. Brooklyn and UWS tie deliberately: UWS's apparent edge turned
+              out to be mostly proximity to a specific friend there, which the friends-commute score below already
+              covers &mdash; holding commute fixed, UWS and Brooklyn are a genuine tie, not UWS-first. The 72nd-89th
+              sweet spot inside UWS is a separate, real preference (not proximity-driven), so it stays as its own
+              tier. Street cutoffs come from the actual geocoded address when it's on a numbered cross street
+              ("West 94th Street"), or an estimate from the building's coordinates when it's on an avenue (Columbus,
+              Amsterdam, West End, Central Park West) &mdash; StreetEasy only tags the whole stretch "Upper West
+              Side," it doesn't say where in it a listing sits.</li>
             <li><strong>Office commute</strong> &mdash; shorter is better, scored on a sliding scale.</li>
             <li><strong>Friends commute</strong> &mdash; averaged across your four friends (Upper West Side,
-              Morningside Heights, LIC, Prospect Heights), same sliding scale.</li>
+              Morningside Heights, Hunters Point/LIC, Prospect Heights), same sliding scale.</li>
           </ul>
           <p class="rubric-copy">
-            The default weighting is 35% neighborhood, 35% office, 30% friends. Because the neighborhood tiers are
-            far apart (100 vs. 65 vs. 30) and that's over a third of the score, a UWS listing starts with a real
-            head start that a merely-better commute often can't fully close &mdash; that's not a bug, just what a
-            35% weight on a 70-point spread does. If that balance feels off, adjust it below; it re-sorts the New
-            and All Qualifying tabs immediately and remembers your setting on this device.
+            The default weighting is 35% neighborhood, 35% office, 30% friends. If that balance feels off, adjust it
+            below; it re-sorts the New and All Qualifying tabs immediately and remembers your setting on this device.
           </p>
 
           <div class="weight-sliders">

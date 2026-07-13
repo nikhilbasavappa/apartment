@@ -301,7 +301,7 @@ function updateSliderUI() {
 // Mirrors monitor/lib/scoring.cjs's rankBreakdown so weight adjustments can
 // re-sort and re-render without a server round-trip — the raw commute
 // minutes and neighborhood tier are already in the client report data.
-const NEIGHBORHOOD_TIER_SCORE = { uws: 100, brooklyn: 65, other: 30, unknown: 50 };
+const NEIGHBORHOOD_TIER_SCORE = { uwsIdeal: 100, uwsAcceptable: 80, brooklyn: 100, other: 30, unknown: 50 };
 const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
 
 function commuteScore(minutes) {
@@ -554,7 +554,7 @@ function buildListingCard(entry, flags = []) {
     ["Office", entry.commute?.office],
     ["UWS friend", entry.commute?.upperWestSide],
     ["Morningside Heights", entry.commute?.morningsideHeights],
-    ["LIC", entry.commute?.longIslandCity],
+    ["LIC friend (Hunters Pt)", entry.commute?.longIslandCity],
     ["Prospect Heights", entry.commute?.prospectHeights],
   ]
     .map(([label, commute]) => (commute ? `${label}: ${commute.minutes} min${commute.lines?.length ? ` (${commute.lines.join("/")})` : ""}` : null))
@@ -565,7 +565,13 @@ function buildListingCard(entry, flags = []) {
   const breakdownLabel = node.querySelector(".monitor-rank-label");
   const breakdown = entry.rankBreakdown;
   if (breakdown) {
-    const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+    const NEIGHBORHOOD_TIER_LABEL = {
+      uwsIdeal: "UWS 70s-80s",
+      uwsAcceptable: "UWS, outside 70s-80s",
+      brooklyn: "Brooklyn",
+      other: "other area",
+      unknown: "unrated area",
+    };
     [
       `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} · ${Math.round(breakdown.neighborhood.weight * 100)}% weight`,
       `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,

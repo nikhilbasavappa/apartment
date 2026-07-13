@@ -5,7 +5,7 @@ const DESTINATION_LABELS = {
   office: "Office",
   upperWestSide: "UWS friend",
   morningsideHeights: "Morningside Heights",
-  longIslandCity: "LIC",
+  longIslandCity: "LIC friend (Hunters Pt)",
   prospectHeights: "Prospect Heights",
 };
 
@@ -41,7 +41,13 @@ function buildCommutePills(entry) {
   });
 }
 
-const NEIGHBORHOOD_TIER_LABEL = { uws: "UWS", brooklyn: "Brooklyn", other: "other area", unknown: "unrated area" };
+const NEIGHBORHOOD_TIER_LABEL = {
+  uwsIdeal: "UWS 70s-80s",
+  uwsAcceptable: "UWS, outside 70s-80s",
+  brooklyn: "Brooklyn",
+  other: "other area",
+  unknown: "unrated area",
+};
 
 function buildScorePills(entry) {
   const breakdown = entry.rankBreakdown;

@@ -2,14 +2,53 @@ const GOWANUS_PATTERN = /\bgowanus\b/i;
 const UWS_PATTERN = /\bupper west side\b/i;
 const BROOKLYN_PATTERN = /\bbrooklyn\b/i;
 
-// Preference tiers per the user's own ranking: Upper West Side first,
-// Brooklyn second, everything else (LIC, other Manhattan neighborhoods like
-// the Upper East Side, Queens generally) tied for last. Not derived from
-// commute — this is a standalone "where do I want to live" preference.
-const NEIGHBORHOOD_TIER_SCORE = { uws: 100, brooklyn: 65, other: 30, unknown: 50 };
+// Preference tiers. UWS's apparent appeal turned out to be mostly proximity
+// to a specific friend there, already captured by the friends-commute score
+// component — so in a vacuum (commute held fixed) UWS and Brooklyn are
+// actually a tie, not UWS-first. Everything else (LIC, other Manhattan
+// neighborhoods like the Upper East Side, Queens generally) stays last. Not
+// derived from commute itself — this is the standalone "where do I want to
+// live, all else equal" layer.
+// "uws" is further split by cross street below (uwsIdeal vs uwsAcceptable) —
+// StreetEasy tags the whole stretch "Upper West Side" regardless of exactly
+// where in it a listing sits, but the user's actual comfort zone is 72nd-96th,
+// sweet spot 72nd-89th. That's a separate, real geographic preference
+// (distinct from the friend-proximity point above), so it stays as its own
+// tier rather than folding into a single flat UWS score.
+const NEIGHBORHOOD_TIER_SCORE = { uwsIdeal: 100, uwsAcceptable: 80, brooklyn: 100, other: 30, unknown: 50 };
 
-function neighborhoodTier(neighborhood, borough) {
-  if (UWS_PATTERN.test(neighborhood || "")) return "uws";
+const UWS_IDEAL_MIN = 72;
+const UWS_IDEAL_MAX = 89;
+const UWS_HARD_LIMIT = 96;
+// Calibrated by geocoding ten real "West Nth Street" UWS listings already in
+// the catalog and fitting street number against latitude (see conversation
+// history for the ten reference points) — not a guessed constant. Typical
+// error is 1-3 streets, which is why the estimated-address hard-exclude
+// below uses a wider margin than the directly-parsed case.
+const UWS_LAT_TO_STREET_SLOPE = 1369.6702557556227;
+const UWS_LAT_TO_STREET_INTERCEPT = -55779.309538443886;
+
+function parseUwsStreetNumber(address) {
+  const match = String(address || "").match(/\bWest\s+(\d{1,3})(?:st|nd|rd|th)\s+Street\b/i);
+  return match ? Number.parseInt(match[1], 10) : null;
+}
+
+function estimateUwsStreetNumber(address, lat) {
+  const exact = parseUwsStreetNumber(address);
+  if (exact !== null) return { street: exact, exact: true };
+  if (Number.isFinite(lat)) {
+    return { street: UWS_LAT_TO_STREET_SLOPE * lat + UWS_LAT_TO_STREET_INTERCEPT, exact: false };
+  }
+  return { street: null, exact: false };
+}
+
+function neighborhoodTier(neighborhood, borough, address, lat) {
+  if (UWS_PATTERN.test(neighborhood || "")) {
+    const { street } = estimateUwsStreetNumber(address, lat);
+    if (street === null) return "uwsIdeal"; // can't place it precisely — don't penalize for missing data
+    if (street >= UWS_IDEAL_MIN && street <= UWS_IDEAL_MAX) return "uwsIdeal";
+    return "uwsAcceptable";
+  }
   if (BROOKLYN_PATTERN.test(borough || "")) return "brooklyn";
   if (neighborhood) return "other";
   return "unknown";
@@ -17,6 +56,18 @@ function neighborhoodTier(neighborhood, borough) {
 
 function isGowanus(neighborhood) {
   return GOWANUS_PATTERN.test(neighborhood || "");
+}
+
+// A directly-parsed street number ("West 97th Street") is exact — trust it
+// right at the line. An estimate derived from latitude carries several
+// streets of typical error, so it only excludes once it's unambiguously
+// past the limit, to avoid wrongly dropping a genuinely-fine listing near
+// the boundary because of estimation noise.
+function isTooFarNorthOnUws(neighborhood, address, lat) {
+  if (!UWS_PATTERN.test(neighborhood || "")) return false;
+  const { street, exact } = estimateUwsStreetNumber(address, lat);
+  if (street === null) return false;
+  return exact ? street > UWS_HARD_LIMIT : street > UWS_HARD_LIMIT + 3;
 }
 
 // Minutes -> 0-100, roughly linear, floored at 0 past an hour. Just needs to
@@ -177,10 +228,17 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     reasons.push("Neighborhood excluded: Gowanus");
   }
 
+  const lat = commuteResult?.origin?.lat ?? listing.lat ?? null;
+  const lng = commuteResult?.origin?.lng ?? listing.lng ?? null;
+
+  if (isTooFarNorthOnUws(listing.neighborhood, listing.address, lat)) {
+    reasons.push(`Upper West Side north of ${UWS_HARD_LIMIT}th St is outside the comfort zone`);
+  }
+
   const qualifies = reasons.length === 0;
 
   const commute = commuteResult?.commutes || {};
-  const tier = neighborhoodTier(listing.neighborhood, listing.borough);
+  const tier = neighborhoodTier(listing.neighborhood, listing.borough, listing.address, lat);
   const breakdown = rankBreakdown(commute, tier);
 
   // Not a hard filter — just a signal that a listing's availability date is
@@ -199,6 +257,8 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     kitchenLayout,
     listing: {
       ...listing,
+      lat,
+      lng,
       washerDryer,
     },
     livingRoomSmall,
