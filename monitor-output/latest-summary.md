@@ -8,7 +8,6 @@ No new qualifying listings this run.
 
 ## Qualifying Listings
 
-- 103 West 77th Street #3B | $5,780 | 103 West 77th Street #3B, NEW YORK, NY, 10024 | 22 min to office | score 72/100
 - 310 West 80th Street #3C | $5,000 | 310 West 80th Street #3C, NEW YORK, NY, 10024 | 25 min to office | score 70/100
 - 158 West 84th Street #3C | $5,495 | 158 West 84th Street #3C, NEW YORK, NY, 10024 | 27 min to office | score 69/100
 - 53 West 94th Street #2R | $5,495 | 53 West 94th Street #2R, NEW YORK, NY, 10025 | 22 min to office | score 65/100
@@ -71,7 +70,6 @@ No new qualifying listings this run.
 - 20 Rockwell Place #2209G | $4,191 | 20 Rockwell Place #2209G, BROOKLYN, NY, 11201 | 34 min to office | score 62/100
 - 20 Rockwell Place #2327C | $4,172 | 20 Rockwell Place #2327C, BROOKLYN, NY, 11201 | 34 min to office | score 62/100
 - 20 Rockwell Place #2919D | $6,353 | 20 Rockwell Place #2919D, BROOKLYN, NY, 11201 | 34 min to office | score 62/100
-- 144 West 92nd Street #1B | $4,295 | 144 West 92nd Street #1B, NEW YORK, NY, 10025 | 29 min to office | score 61/100
 - 52 4th Avenue #506 | $4,400 | 52 4th Avenue #506, BROOKLYN, NY, 11217 | 33 min to office | score 61/100
 - 52 4th Avenue #501 | $4,650 | 52 4th Avenue #501, BROOKLYN, NY, 11217 | 33 min to office | score 61/100
 - 52 4th Avenue #703 | $5,650 | 52 4th Avenue #703, BROOKLYN, NY, 11217 | 33 min to office | score 61/100
@@ -88,7 +86,6 @@ No new qualifying listings this run.
 - 461 Dean Street #20H | $4,575 | 461 Dean Street #20H, BROOKLYN, NY, 11217 | 34 min to office | score 59/100
 - 801 Amsterdam Avenue #3G | $6,088 | 801 Amsterdam Avenue #3G, NEW YORK, NY, 10025 | 30 min to office | score 59/100
 - 814 Amsterdam Avenue #9N | $4,095 | 814 Amsterdam Avenue #9N, NEW YORK, NY, 10025 | 30 min to office | score 59/100
-- 10 Quincy Street #3M | $7,000 | 10 Quincy Street #3M, BROOKLYN, NY, 11238 | 34 min to office | score 59/100
 - 540 Waverly Avenue #6E | $4,380 | 540 Waverly Avenue #6E, BROOKLYN, NY, 11238 | 36 min to office | score 59/100
 - 103 Smith Street #12 | $4,100 | 103 Smith Street #12, BROOKLYN, NY, 11201 | 36 min to office | score 58/100
 - 240 Willoughby Street #18U | $5,325 | 240 Willoughby Street #18U, BROOKLYN, NY, 11201 | 37 min to office | score 58/100
@@ -151,7 +148,6 @@ No new qualifying listings this run.
 - 11-12 44th Drive #4D | $4,100 | 11-12 44th Drive #4D, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 53/100
 - 96 Steuben Street #5H | $4,575 | 96 Steuben Street #5H, BROOKLYN, NY, 11205 | 40 min to office | score 53/100
 - 96 Steuben Street #5G | $4,995 | 96 Steuben Street #5G, BROOKLYN, NY, 11205 | 40 min to office | score 53/100
-- 100 Steuben Street #5B | $5,274 | 100 Steuben Street #5B, BROOKLYN, NY, 11205 | 40 min to office | score 53/100
 - 22-44 Jackson Avenue #2102 | $6,752 | 22-44 Jackson Avenue #2102, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 22-44 Jackson Avenue #3811 | $6,678 | 22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 22-44 Jackson Avenue #3909 | $4,980 | 22-44 Jackson Avenue #3909, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
@@ -161,7 +157,6 @@ No new qualifying listings this run.
 - 22-44 Jackson Avenue #3412 | $4,710 | 22-44 Jackson Avenue #3412, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 22-44 Jackson Avenue #4117 | $4,500 | 22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 503 4th Avenue #3G | $5,250 | 503 4th Avenue #3G, BROOKLYN, NY, 11215 | 42 min to office | score 52/100
-- 243 Eight Street #3R | $6,700 | 243 Eight Street #3R, BROOKLYN, NY, 11215 | 43 min to office | score 52/100
 - 389 10th Street #2 | $6,250 | 389 10th Street #2, BROOKLYN, NY, 11215 | 42 min to office | score 52/100
 - 645 Park Place #7D | $6,000 | 645 Park Place #7D, BROOKLYN, NY, 11238 | 42 min to office | score 52/100
 - 645 Park Place #8C | $6,300 | 645 Park Place #8C, BROOKLYN, NY, 11238 | 42 min to office | score 52/100
@@ -319,7 +314,7 @@ No new qualifying listings this run.
 - 160 Riverside Boulevard #11A | $5,600 | 160 Riverside Boulevard #11A, NEW YORK, NY, 10069 | 35 min to office | score 35/100
 - 408 East 92nd Street #26B | $5,395 | 408 East 92nd Street #26B, NEW YORK, NY, 10128 | 36 min to office | score 34/100
 
-## Excluded (416)
+## Excluded (421)
 
 - 251 Douglass Street #719 | 251 Douglass Street #719, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 805 Columbus Avenue #7B | 805 Columbus Avenue #7B, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout
@@ -526,6 +521,7 @@ No new qualifying listings this run.
 - 1760 1st Avenue #6 | 1760 1st Avenue #6, NEW YORK, NY, 10128 — Kitchen photo shows a closed layout
 - 24-12 42nd Road #7C | 24-12 42nd Road #7C, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 7 East 75th Street #1A | 7 East 75th Street #1A, NEW YORK, NY, 10021 — Kitchen layout could not be confirmed from photos
+- 144 West 92nd Street #1B | 144 West 92nd Street #1B, NEW YORK, NY, 10025 — Kitchen is a pass-through, not a true open/semi-open layout (user-corrected)
 - 856 Lexington Avenue #3 | 856 Lexington Avenue #3, NEW YORK, NY, 10065 — Kitchen photo shows a galley layout
 - 233 East 82nd Street #3B | 233 East 82nd Street #3B, NEW YORK, NY, 10028 — Kitchen photo shows a galley layout
 - 516 4th Avenue #3L | 516 4th Avenue #3L, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
@@ -534,6 +530,10 @@ No new qualifying listings this run.
 - 300 East 85th Street #901 | 300 East 85th Street #901, NEW YORK, NY, 10028 — Kitchen layout could not be confirmed from photos
 - 210 West 89th Street #12O | 210 West 89th Street #12O, NEW YORK, NY, 10024 — Kitchen layout could not be confirmed from photos
 - 350 Myrtle Avenue #2 | 350 Myrtle Avenue #2, BROOKLYN, NY, 11205 — Kitchen layout could not be confirmed from photos
+- 243 Eight Street #3R | 243 Eight Street #3R, BROOKLYN, NY, 11215 — Marked unavailable by user
+- 103 West 77th Street #3B | 103 West 77th Street #3B, NEW YORK, NY, 10024 — Rented as of 7/11 (user-reported)
+- 100 Steuben Street #5B | 100 Steuben Street #5B, BROOKLYN, NY, 11205 — Marked unavailable by user
+- 10 Quincy Street #3M | 10 Quincy Street #3M, BROOKLYN, NY, 11238 — Marked unavailable by user
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 335 Bond Street #5 | 335 Bond Street #5, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 20 Rockwell Place #2327F | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated

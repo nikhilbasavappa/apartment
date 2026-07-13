@@ -173,93 +173,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 43,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 24,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 54,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 49,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-243-8-street-brooklyn-3r.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45690848db012f6556a9149d54d8f332-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7cfd05d9f888a2bd6f7b845062f03dcd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1bb468c373bf22408121f5bfef5a5006-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
-        ],
-        "price": 6700,
-        "sqft": 962,
-        "title": "243 Eight Street #3R",
-        "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.3575,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.35,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 26.475,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 52.3575,
-      "visionNotes": "Kitchen is semi-open to dining/living area with a peninsula counter; electric built-in oven with flat cooktop visible; living room is spacious with high ceilings and large window; no private outdoor space shown, only views to exterior greenery."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 16,
           "lines": [
             "F Line"
@@ -664,7 +577,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bergen/703",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -3502,6 +3415,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "144 West 92nd Street #1B, NEW YORK, NY, 10025",
+        "price": 4295,
+        "title": "144 West 92nd Street #1B",
+        "url": "https://streeteasy.com/building/144-west-92-street-new_york/1b"
+      },
+      "reasons": [
+        "Kitchen is a pass-through, not a true open/semi-open layout (user-corrected)"
+      ]
+    },
+    {
+      "listing": {
         "address": "856 Lexington Avenue #3, NEW YORK, NY, 10065",
         "price": 5495,
         "title": "856 Lexington Avenue #3",
@@ -3584,6 +3508,50 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
+        "price": 6700,
+        "title": "243 Eight Street #3R",
+        "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r"
+      },
+      "reasons": [
+        "Marked unavailable by user"
+      ]
+    },
+    {
+      "listing": {
+        "address": "103 West 77th Street #3B, NEW YORK, NY, 10024",
+        "price": 5780,
+        "title": "103 West 77th Street #3B",
+        "url": "https://streeteasy.com/building/103-west-77-street-new_york/3b"
+      },
+      "reasons": [
+        "Rented as of 7/11 (user-reported)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "100 Steuben Street #5B, BROOKLYN, NY, 11205",
+        "price": 5274,
+        "title": "100 Steuben Street #5B",
+        "url": "https://streeteasy.com/building/100-steuben-street-brooklyn/5b"
+      },
+      "reasons": [
+        "Marked unavailable by user"
+      ]
+    },
+    {
+      "listing": {
+        "address": "10 Quincy Street #3M, BROOKLYN, NY, 11238",
+        "price": 7000,
+        "title": "10 Quincy Street #3M",
+        "url": "https://streeteasy.com/building/10-quincy-street-clinton_hill_/3m"
+      },
+      "reasons": [
+        "Marked unavailable by user"
       ]
     },
     {
@@ -5880,90 +5848,6 @@ window.__APARTMENT_REPORT__ = {
   "runAt": "2026-07-13T14:51:59.429Z",
   "sourcesConfigured": 1,
   "topListings": [
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 21,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 8,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "103 West 77th Street #3B, NEW YORK, NY, 10024",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-103-west-77-street-new-york-3b.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ec6949455031a79e799ebc1588e609d2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ec6949455031a79e799ebc1588e609d2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/71c3bfe57ace5070bf92deba486c09bb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f9c1de1a82e902b660142c1fe766cb16-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/72db7bd340cb083fbc6137c46e0bff3a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8e8042483c1670604c683eba0a7871a5-se_large_800_400.webp"
-        ],
-        "price": 5780,
-        "sqft": null,
-        "title": "103 West 77th Street #3B",
-        "url": "https://streeteasy.com/building/103-west-77-street-new_york/3b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsIdeal",
-      "rankBreakdown": {
-        "total": 72.12,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "uwsIdeal"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 50.70000000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 72.12,
-      "visionNotes": "Open-plan kitchen visible with gas range (visible burner grates), no private outdoor space shown, living room is spacious with adequate furniture spacing."
-    },
     {
       "commute": {
         "office": {
@@ -10525,7 +10409,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T14:02:26.759Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
@@ -11256,88 +11140,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 29,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 38,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 15,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 9,
-          "lines": []
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "144 West 92nd Street #1B, NEW YORK, NY, 10025",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-144-west-92-street-new-york-1b.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/face9aec4840807e84b2a4a733976676-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dfc8bf9f4f8c705131a988680e9b4f2c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/208d9a055a370e657b3e1b94771f0223-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/796ef8d2c42e950bae1e6ad76b02af56-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4940b1418ac36f43cbd33596f965b4d4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9820bc06f2c7e916677fd7a5052f0fa1-se_large_800_400.webp"
-        ],
-        "price": 4295,
-        "sqft": 600,
-        "title": "144 West 92nd Street #1B",
-        "url": "https://streeteasy.com/building/144-west-92-street-new_york/1b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 61.337500000000006,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.35,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 50.7,
-          "weight": 0.35,
-          "minutes": 29
-        },
-        "friends": {
-          "score": 51.974999999999994,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 61.337500000000006,
-      "visionNotes": "Kitchen is visible with a pass-through counter to living area; stove appears to be electric/flat cooktop; private garden space with grass and planters visible in outdoor photos."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 33,
           "lines": [
             "N Line",
@@ -12058,7 +11860,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -12701,93 +12503,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 59.339999999999996,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove has a flat electric/induction cooktop; the roof deck shown is a shared building amenity, not private outdoor space for the unit."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 34,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 20,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "10 Quincy Street #3M, BROOKLYN, NY, 11238",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-10-quincy-street-clinton-hill-3m.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d975d7db499172ad574c5a5b6879b937-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d975d7db499172ad574c5a5b6879b937-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2174f19eef266f60bb4091477cadb4b7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c5b4a7aac9d8e3d30ff45509dd00477f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7b62c040397abf7b538939ff7acc7b22-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ecfc0c1141f2ff81bd538528ffc4859a-se_large_800_400.webp"
-        ],
-        "price": 7000,
-        "sqft": null,
-        "title": "10 Quincy Street #3M",
-        "url": "https://streeteasy.com/building/10-quincy-street-clinton_hill_/3m",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.9875,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 42.2,
-          "weight": 0.35,
-          "minutes": 34
-        },
-        "friends": {
-          "score": 30.725,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 58.9875,
-      "visionNotes": "Kitchen is clearly visible and open to living area; gas cooktop visible with burners; no private outdoor space shown; living room appears spacious with high ceilings and modern furnishings."
     },
     {
       "commute": {
@@ -14504,7 +14219,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-bergen/703",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -15687,7 +15402,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
@@ -15859,7 +15574,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -15945,7 +15660,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -16031,7 +15746,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -16456,7 +16171,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -16626,7 +16341,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
@@ -16651,7 +16366,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/12a",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -16796,7 +16511,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
@@ -16821,7 +16536,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-baltic-canal/11e",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -16881,7 +16596,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -17051,7 +16766,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -18134,93 +17849,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 40,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 69,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 63,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "100 Steuben Street #5B, BROOKLYN, NY, 11205",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-100-steuben-street-brooklyn-5b.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/27592795ee2ac340c5963b09cb03e422-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/86352b7b11a6c318347382c74765ce55-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b50e4b79912a289e1c6fa475cc92b4d8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6930d78c805d245caa1cc3f0ac32fc1c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/adf1298131b6fdbebfecb171585ec738-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/527a53a8fc8d59179cfe66f3d709c3c2-se_large_800_400.webp"
-        ],
-        "price": 5274,
-        "sqft": null,
-        "title": "100 Steuben Street #5B",
-        "url": "https://streeteasy.com/building/100-steuben-street-brooklyn/5b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.6575,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.35,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 21.525,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 52.6575,
-      "visionNotes": "Kitchen is semi-open to living/dining area with visible gas range; no private outdoor space visible; living room appears spacious with natural light and typical NYC proportions."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 11,
           "lines": [
             "F Line"
@@ -18968,93 +18596,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 52.4425,
       "visionNotes": "Open-plan kitchen with island seating opens directly to living areas; gas burners visible on stove; windows show outdoor views but no private outdoor space for unit; living room appears typical size but sparsely furnished in photos."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 43,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 24,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 54,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 49,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-243-8-street-brooklyn-3r.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9e82ffc5fdb26a67795cfed096f0b95e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45690848db012f6556a9149d54d8f332-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7cfd05d9f888a2bd6f7b845062f03dcd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1bb468c373bf22408121f5bfef5a5006-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/40565b5c58967550fff5d04455b72c5f-se_large_800_400.webp"
-        ],
-        "price": 6700,
-        "sqft": 962,
-        "title": "243 Eight Street #3R",
-        "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.3575,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.35,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 26.475,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 52.3575,
-      "visionNotes": "Kitchen is semi-open to dining/living area with a peninsula counter; electric built-in oven with flat cooktop visible; living room is spacious with high ceilings and large window; no private outdoor space shown, only views to exterior greenery."
     },
     {
       "commute": {
@@ -20065,7 +19606,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/315-lincoln-place-brooklyn/4q",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
@@ -25434,7 +24975,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/170-amsterdam/07i",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
@@ -27953,7 +27494,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "unknown",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
@@ -31856,7 +31397,7 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/443-east-88-street-new_york/12",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": false,
+      "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
