@@ -2,16 +2,9 @@
 
 Run time: Jul 13, 2026, 10:51 AM
 Configured sources: 1
-New listings inspected this run: 12
-Qualifying new listings: 12
-- 151 South Elliott Place #6K | $6,200 | 151 South Elliott Place #6K, BROOKLYN, NY, 11217 | 33 min to office | score 62/100
-- 144 West 92nd Street #1B | $4,295 | 144 West 92nd Street #1B, NEW YORK, NY, 10025 | 29 min to office | score 61/100
-- 556 Baltic Street #501 | $5,325 | 556 Baltic Street #501, NEW YORK, NY, 11217 | 40 min to office | score 54/100
-- 159 3rd Avenue #4F | $5,500 | 159 3rd Avenue #4F, BROOKLYN, NY, 11217 | 40 min to office | score 53/100
-- 27-21 44th Drive #1301 | $4,150 | 27-21 44th Drive #1301, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 51/100
-- 29-59 Northern Boulevard #64D | $4,505 | 29-59 Northern Boulevard #64D, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 50/100
-- 11-02 49th Avenue #7L | $4,150 | 11-02 49th Avenue #7L, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 49/100
-- 170 Amsterdam Avenue #7I | $6,540 | 170 Amsterdam Avenue #7I, NEW YORK, NY, 10023 | 23 min to office | score 48/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 

@@ -116,6 +116,17 @@ function extractNumber(text, regex) {
   return Number.isFinite(value) ? value : null;
 }
 
+// bodyText holds StreetEasy's own structured facts line ("950 ft² $78 per
+// ft² 6 rooms..."); description is free-text marketing copy that sometimes
+// throws in an imprecise "approximately 1000 sq ft" aside. Searching the
+// title+description+bodyText blob with a plain first-match regex means
+// whichever one happens to come first in that concatenation wins — and
+// description comes before bodyText, so the rounded marketing figure was
+// silently beating the real structured one. Try bodyText alone first.
+function extractNumberPreferBody(bodyText, rawText, regex) {
+  return extractNumber(bodyText, regex) ?? extractNumber(rawText, regex);
+}
+
 // StreetEasy listing pages show "Available now" or "Available M/D/YYYY" in
 // body text — reliably present, no extra fetch needed.
 function extractAvailableDate(text) {
@@ -133,6 +144,7 @@ function normalizeListing(rawListing) {
   const rawText = [rawListing.title, rawListing.description, rawListing.bodyText]
     .filter(Boolean)
     .join(" ");
+  const bodyText = rawListing.bodyText || "";
 
   // Word-boundary anchored: without \b at the end, "ba"/"bed" match as
   // prefixes of ordinary words too — e.g. "$124 Base rent" was matching as
@@ -140,12 +152,12 @@ function normalizeListing(rawListing) {
   const bedrooms =
     Number.isFinite(rawListing.bedrooms) && rawListing.bedrooms >= 0
       ? rawListing.bedrooms
-      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bedrooms?|beds?|bd)\b/i) ??
+      : extractNumberPreferBody(bodyText, rawText, /(\d+(?:\.\d+)?)\s*(?:bedrooms?|beds?|bd)\b/i) ??
         (/\bstudio\b/.test(rawText.toLowerCase()) ? 0 : null);
   const bathrooms =
     Number.isFinite(rawListing.bathrooms) && rawListing.bathrooms > 0
       ? rawListing.bathrooms
-      : extractNumber(rawText, /(\d+(?:\.\d+)?)\s*(?:bathrooms?|baths?|ba)\b/i);
+      : extractNumberPreferBody(bodyText, rawText, /(\d+(?:\.\d+)?)\s*(?:bathrooms?|baths?|ba)\b/i);
   // ft² (StreetEasy's usual format) was being missed entirely — the pattern
   // only covered "sf"/"sq ft"/"square feet", so real square footage sitting
   // right in the text (e.g. "586 ft²") was silently coming back as unknown.
@@ -155,11 +167,11 @@ function normalizeListing(rawListing) {
   const sqft =
     Number.isFinite(rawListing.sqft) && rawListing.sqft > 0
       ? rawListing.sqft
-      : extractNumber(rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet|ft2|ft²)(?![a-zA-Z])/i);
+      : extractNumberPreferBody(bodyText, rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet|ft2|ft²)(?![a-zA-Z])/i);
   const price =
     Number.isFinite(rawListing.price) && rawListing.price > 0
       ? rawListing.price
-      : extractNumber(rawText, /\$([\d,]{4,8})/);
+      : extractNumberPreferBody(bodyText, rawText, /\$([\d,]{4,8})/);
 
   return {
     ...rawListing,

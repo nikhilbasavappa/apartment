@@ -262,21 +262,27 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
 
   for (let pageNumber = 1; pageNumber <= 100; pageNumber += 1) {
     const pageUrl = buildPageUrl(sourceConfig.url, pageNumber);
-    await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
-    await randomDelay(300, 700);
 
     let pageResults;
     try {
+      await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
+      await randomDelay(300, 700);
       pageResults = await extractSearchListings(searchPage, sourceConfig, pageUrl);
     } catch (error) {
-      if (error instanceof BotChallengeError) {
-        // Distinct from "ran out of new listings": this page itself never
-        // rendered real results, so whatever ZERO_SEARCH_RESULTS check runs
-        // next now has an actual cause on record instead of just "empty".
-        console.warn(`SEARCH_BOT_CHALLENGE: ${error.message} (page ${pageNumber})`);
-        break;
-      }
-      throw error;
+      // Was only catching BotChallengeError here before, with the fetch
+      // itself (loadViaUnlocker) outside the try entirely — a raw Bright
+      // Data timeout/5xx on the search page propagated all the way out of
+      // main() uncaught, silently killing the whole scheduled run with no
+      // notification (scheduled-scan.sh's broken-run check only looks at
+      // the report file, which never got touched if the crash happened this
+      // early). Now any per-page failure — challenge or otherwise — just
+      // stops pagination and keeps whatever was already collected, the same
+      // way a bot-challenge always did; on page 1 that surfaces as the
+      // existing, already-notification-worthy ZERO_SEARCH_RESULTS case
+      // instead of an unannounced crash.
+      const label = error instanceof BotChallengeError ? "SEARCH_BOT_CHALLENGE" : "SEARCH_FETCH_ERROR";
+      console.warn(`${label}: ${error.message} (page ${pageNumber})`);
+      break;
     }
 
     const newOnes = pageResults.filter((item) => !seenUrls.has(item.url));

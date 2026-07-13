@@ -13,14 +13,21 @@ cd "$REPO_ROOT"
 
 echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 node "$SCRIPT_DIR/scan.cjs" 2>&1 | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
+SCAN_EXIT_CODE="${PIPESTATUS[0]}"
 
-# Two independent signals of a systemically broken run (Bright Data outage /
+# Three independent signals of a systemically broken run (Bright Data outage /
 # bad credentials / StreetEasy layout change), not real data — don't publish
 # either case over good existing data:
-#   1. The search page itself yielded nothing (blocked before reaching any
+#   1. scan.cjs crashed outright (an uncaught exception) — this used to slip
+#      through silently: the report file never gets touched by a run that
+#      crashes this way, so the checks below saw only old, good-looking data
+#      and "no changes to commit" was the only trace, no notification at all.
+#   2. The search page itself yielded nothing (blocked before reaching any
 #      listing at all).
-#   2. Every new listing failed to yield both a rent and an address.
-if grep -q "ZERO_SEARCH_RESULTS" "$RUN_LOG"; then
+#   3. Every new listing failed to yield both a rent and an address.
+if [[ "$SCAN_EXIT_CODE" != "0" ]]; then
+  BROKEN="yes"
+elif grep -q "ZERO_SEARCH_RESULTS" "$RUN_LOG"; then
   BROKEN="yes"
 else
   BROKEN=$(node -e '
