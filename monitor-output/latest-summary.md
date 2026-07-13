@@ -1,10 +1,10 @@
 # Future Elmo's World Monitor
 
-Run time: Jul 13, 2026, 10:51 AM
+Run time: Jul 13, 2026, 6:01 PM
 Configured sources: 1
-New listings inspected this run: 0
-Qualifying new listings: 0
-No new qualifying listings this run.
+New listings inspected this run: 1
+Qualifying new listings: 1
+- 305 East 86th Street #11JE | $6,395 | 305 East 86th Street #11JE, NEW YORK, NY, 10028 | 18 min to office | score 49/100
 
 ## Qualifying Listings
 
@@ -217,6 +217,7 @@ No new qualifying listings this run.
 - 244 West 72nd Street #9B | $6,500 | 244 West 72nd Street #9B, NEW YORK, NY, 10023 | 22 min to office | score 49/100
 - 244 West 72nd Street #15C | $6,350 | 244 West 72nd Street #15C, NEW YORK, NY, 10023 | 22 min to office | score 49/100
 - 305 East 86th Street #1SE | $5,995 | 305 East 86th Street #1SE, NEW YORK, NY, 10028 | 18 min to office | score 49/100
+- 305 East 86th Street #11JE | $6,395 | 305 East 86th Street #11JE, NEW YORK, NY, 10028 | 18 min to office | score 49/100
 - 27-03 42nd Road #25C | $5,798 | 27-03 42nd Road #25C, LONG ISLAND CITY, NY, 11101 | 14 min to office | score 49/100
 - 11-02 49th Avenue #7L | $4,150 | 11-02 49th Avenue #7L, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 49/100
 - 311 6th Avenue #4R | $4,350 | 311 6th Avenue #4R, BROOKLYN, NY, 11215 | 46 min to office | score 48/100
@@ -314,13 +315,31 @@ No new qualifying listings this run.
 - 160 Riverside Boulevard #11A | $5,600 | 160 Riverside Boulevard #11A, NEW YORK, NY, 10069 | 35 min to office | score 35/100
 - 408 East 92nd Street #26B | $5,395 | 408 East 92nd Street #26B, NEW YORK, NY, 10128 | 36 min to office | score 34/100
 
-## Excluded (421)
+## Excluded (422)
 
+- 500 Degraw Street #606 | 500 Degraw Street #606, BROOKLYN, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2327F | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
+- 400 West 61st Street #307 | 400 West 61st Street #307, NEW YORK, NY, 10023 — Rent $7385 outside $3500-7000; Kitchen layout could not be confirmed from photos
+- 5-11 47th Avenue #11E | 5-11 47th Avenue #11E, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
+- 395 Carroll Street #2-311 | 395 Carroll Street #2-311, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
+- 395 Carroll Street #1029 | 395 Carroll Street #1029, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
+- 55 Willoughby Street #25C | 55 Willoughby Street #25C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 55 Willoughby Street #20B | 55 Willoughby Street #20B, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 282 4th Avenue #6C | 282 4th Avenue #6C, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
+- 47-05 Center Boulevard #805 | 47-05 Center Boulevard #805, LONG ISLAND CITY, NY, 11109 — Kitchen layout could not be confirmed from photos
+- 655 Union Street #10A | 655 Union Street #10A, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
+- 251 Douglass Street #501 | 251 Douglass Street #501, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
+- 251 Douglass Street #1220 | 251 Douglass Street #1220, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
+- 275 Park Avenue #5I | 275 Park Avenue #5I, BROOKLYN, NY, 11205 — Kitchen photo shows a closed layout
+- 23-10 42nd Road #12F | 23-10 42nd Road #12F, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
+- 251 Douglass Street #625 | 251 Douglass Street #625, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
+- 42-06 Orchard Street #46N | 42-06 Orchard Street #46N, LONG ISLAND CITY, NY, 11101 — Rent $7440 outside $3500-7000
+- 41-15 24th Street #1705 | 41-15 24th Street #1705, LONG ISLAND CITY, NY, 11101 — Rent $7400 outside $4000-7000
+- 335 Bond Street #2P | 335 Bond Street #2P, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 251 Douglass Street #719 | 251 Douglass Street #719, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 805 Columbus Avenue #7B | 805 Columbus Avenue #7B, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout
 - 2-20 Malt Drive #3203 | 2-20 Malt Drive #3203, LONG ISLAND CITY, NY, 11101 — Rent $7195 outside $3500-7000
 - 2-21 Malt Drive #2312 | 2-21 Malt Drive #2312, LONG ISLAND CITY, NY, 11101 — Rent $7265 outside $3500-7000
-- 500 Degraw Street #606 | 500 Degraw Street #606, BROOKLYN, NY, 11217 — Kitchen layout could not be confirmed from photos
 - 500 Degraw Street #1702 | 500 Degraw Street #1702, BROOKLYN, NY, 11217 — Rent $8220 outside $3500-7000
 - 18 Sixth Avenue #4502 | 18 Sixth Avenue #4502, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 395 Carroll Street #707 | 395 Carroll Street #707, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
@@ -329,11 +348,8 @@ No new qualifying listings this run.
 - 499 President Street #914 | 499 President Street #914, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
 - 20 Rockwell Place #2103 | 20 Rockwell Place #2103, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
 - 808 Columbus Avenue #14E | 808 Columbus Avenue #14E, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
-- 400 West 61st Street #307 | 400 West 61st Street #307, NEW YORK, NY, 10023 — Rent $7385 outside $3500-7000; Kitchen layout could not be confirmed from photos
 - 504 Sackett Street #1407 | 504 Sackett Street #1407, BROOKLYN, NY, 11231 — Rent $7040 outside $3500-7000; Kitchen layout could not be confirmed from photos
-- 5-11 47th Avenue #11E | 5-11 47th Avenue #11E, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 151 Carlton Avenue #3F | 151 Carlton Avenue #3F, BROOKLYN, NY, 11205 — Kitchen photo shows a galley layout
-- 395 Carroll Street #2-311 | 395 Carroll Street #2-311, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 17 Hanover Place #27H | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
 - 335 Bond Street #2N | 335 Bond Street #2N, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 500 Degraw Street #619 | 500 Degraw Street #619, BROOKLYN, NY, 11217 — Kitchen layout could not be confirmed from photos
@@ -351,9 +367,7 @@ No new qualifying listings this run.
 - 155 Smith Street #1C | 155 Smith Street #1C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 1760 1st Avenue #5 | 1760 1st Avenue #5, NEW YORK, NY, 10128 — Kitchen photo shows a closed layout
 - 251 Douglass Street #404 | 251 Douglass Street #404, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
-- 395 Carroll Street #1029 | 395 Carroll Street #1029, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 130 Second Street #3A | 130 Second Street #3A, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
-- 55 Willoughby Street #25C | 55 Willoughby Street #25C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 18 Sixth Avenue #4407 | 18 Sixth Avenue #4407, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 4545 Center Boulevard #3601 | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
 - 150 Fourth Avenue #11G | 150 Fourth Avenue #11G, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
@@ -430,20 +444,16 @@ No new qualifying listings this run.
 - 251 Douglass Street #802 | 251 Douglass Street #802, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 795 Columbus Avenue #4C | 795 Columbus Avenue #4C, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
 - 23-15 44th Road #4K | 23-15 44th Road #4K, LONG ISLAND CITY, NY, 11101 — Kitchen layout could not be confirmed from photos
-- 282 4th Avenue #6C | 282 4th Avenue #6C, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
-- 47-05 Center Boulevard #805 | 47-05 Center Boulevard #805, LONG ISLAND CITY, NY, 11109 — Kitchen layout could not be confirmed from photos
 - 500 Degraw Street #602 | 500 Degraw Street #602, BROOKLYN, NY, 11217 — Rent $7025 outside $3500-7000
 - 52 4th Avenue #705 | 52 4th Avenue #705, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 500 Degraw Street #1709 | 500 Degraw Street #1709, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 805 Columbus Avenue #10C | 805 Columbus Avenue #10C, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
 - 36-45 31st Street #2E | 36-45 31st Street #2E, LONG ISLAND CITY, NY, 11106 — Kitchen photo shows a closed layout
 - 251 Douglass Street #310 | 251 Douglass Street #310, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
-- 251 Douglass Street #501 | 251 Douglass Street #501, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 595 Dean Street #403 | 595 Dean Street #403, BROOKLYN, NY, 11238 — Kitchen photo shows a galley layout
 - 23-10 42nd Road #33D | 23-10 42nd Road #33D, LONG ISLAND CITY, NY, 11101 — Kitchen layout could not be confirmed from photos
 - 504 Sackett Street #508 | 504 Sackett Street #508, BROOKLYN, NY, 11231 — Kitchen layout could not be confirmed from photos
 - 880 Atlantic Avenue #15C | 880 Atlantic Avenue #15C, BROOKLYN, NY, 11238 — Kitchen photo shows a galley layout
-- 251 Douglass Street #1220 | 251 Douglass Street #1220, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 150 Fourth Avenue #6G | 150 Fourth Avenue #6G, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 333 East 83rd Street #5W | 333 East 83rd Street #5W, NEW YORK, NY, 10028 — Kitchen layout could not be confirmed from photos
 - 41-42 24th Street #1406 | 41-42 24th Street #1406, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
@@ -467,10 +477,7 @@ No new qualifying listings this run.
 - 100 West 93rd Street #12B | 100 West 93rd Street #12B, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
 - 225 East 79th Street #14B | 225 East 79th Street #14B, NEW YORK, NY, 10075 — Kitchen layout could not be confirmed from photos
 - 226 7th Avenue #4R | 226 7th Avenue #4R, BROOKLYN, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 275 Park Avenue #5I | 275 Park Avenue #5I, BROOKLYN, NY, 11205 — Kitchen photo shows a closed layout
 - 808 Columbus Avenue #8C | 808 Columbus Avenue #8C, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
-- 251 Douglass Street #625 | 251 Douglass Street #625, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
-- 42-06 Orchard Street #46N | 42-06 Orchard Street #46N, LONG ISLAND CITY, NY, 11101 — Rent $7440 outside $3500-7000
 - 29-59 Northern Boulevard #61M | 29-59 Northern Boulevard #61M, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
 - 486 State Street #1 | 486 State Street #1, BROOKLYN, NY, 11217 — Kitchen layout could not be confirmed from photos
 - 3 West 103rd Street #3F | 3 West 103rd Street #3F, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
@@ -504,7 +511,6 @@ No new qualifying listings this run.
 - 313 West 91st Street #3B | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; Kitchen layout could not be confirmed from photos; No street address parsed; commute not calculated
 - 160 West 84th Street #17A | 160 West 84th Street #17A, NEW YORK, NY, 10024 — Kitchen photo shows a galley layout
 - 240 Third Avenue #8AN | 240 Third Avenue #8AN, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
-- 41-15 24th Street #1705 | 41-15 24th Street #1705, LONG ISLAND CITY, NY, 11101 — Rent $7400 outside $4000-7000
 - 660 Bergen Street #2C | 660 Bergen Street #2C, BROOKLYN, NY, 11238 — Kitchen photo shows a galley layout
 - 348 East 66th Street #2C | 348 East 66th Street #2C, NEW YORK, NY, 10065 — Kitchen photo shows a galley layout
 - 29-59 Northern Boulevard #41C | 29-59 Northern Boulevard #41C, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
@@ -536,7 +542,6 @@ No new qualifying listings this run.
 - 10 Quincy Street #3M | 10 Quincy Street #3M, BROOKLYN, NY, 11238 — Marked unavailable by user
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 335 Bond Street #5 | 335 Bond Street #5, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
-- 20 Rockwell Place #2327F | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
 - 500 Degraw Street #221 | 500 Degraw Street #221, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 251 Douglass Street #1019 | 251 Douglass Street #1019, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 55 Willoughby Street #35D | 55 Willoughby Street #35D, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
@@ -547,12 +552,10 @@ No new qualifying listings this run.
 - 655 Union Street #5M | 655 Union Street #5M, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
 - 23-15 44th Road #12J | 23-15 44th Road #12J, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 5-11 47th Avenue #10C | 5-11 47th Avenue #10C, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
-- 23-10 42nd Road #12F | 23-10 42nd Road #12F, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 499 President Street #336 | 499 President Street #336, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
 - 55 Willoughby Street #24B | 55 Willoughby Street #24B, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 240 Third Avenue #4Z | 240 Third Avenue #4Z, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 420 Carroll Street #1609 | 420 Carroll Street #1609, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
-- 55 Willoughby Street #20B | 55 Willoughby Street #20B, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 570 Fulton Street #16D | 570 Fulton Street #16D, BROOKLYN, NY, 11217 — Kitchen layout could not be confirmed from photos
 - 301 West 57th Street #18A | 301 West 57th Street #18A, NEW YORK, NY, 10019 — Kitchen photo shows a galley layout
 - 240 3rd Avenue #6P | 240 3rd Avenue #6P, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
@@ -575,7 +578,6 @@ No new qualifying listings this run.
 - 345 East 92nd Street #2C | 345 East 92nd Street #2C, NEW YORK, NY, 10128 — Kitchen layout could not be confirmed from photos
 - 140 Riverside Boulevard #1517 | 140 Riverside Boulevard #1517, NEW YORK, NY, 10069 — Kitchen photo shows a galley layout
 - 282 4th Avenue #5A | 282 4th Avenue #5A, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
-- 655 Union Street #10A | 655 Union Street #10A, BROOKLYN, NY, 11215 — Neighborhood excluded: Gowanus
 - 504 Sackett Street #302 | 504 Sackett Street #302, BROOKLYN, NY, 11231 — Neighborhood excluded: Gowanus
 - 251 Douglass Street #918 | 251 Douglass Street #918, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 255 East 39th Street #6F | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
