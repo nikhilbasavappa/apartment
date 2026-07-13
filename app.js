@@ -17,6 +17,7 @@ let feedbackState = loadFeedback();
 
 const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
+  globalLastScan: document.querySelector("#globalLastScan"),
   monitorSourceCount: document.querySelector("#monitorSourceCount"),
   monitorNewCount: document.querySelector("#monitorNewCount"),
   monitorBestCommute: document.querySelector("#monitorBestCommute"),
@@ -391,6 +392,7 @@ function renderMonitor() {
 
   if (!report) {
     els.monitorLastRun.textContent = "Waiting for first scan";
+    if (els.globalLastScan) els.globalLastScan.textContent = "Waiting for first scan";
     els.monitorSourceCount.textContent = "0 active searches";
     els.monitorNewCount.textContent = "0 new listings";
     els.monitorBestCommute.textContent = "No qualifying listings yet";
@@ -424,6 +426,7 @@ function renderMonitor() {
   const best = topListings[0] || null;
 
   els.monitorLastRun.textContent = report.runAt ? formatDateTime(report.runAt) : "Waiting for first scan";
+  if (els.globalLastScan) els.globalLastScan.textContent = els.monitorLastRun.textContent;
   els.monitorSourceCount.textContent = `${sourceCount} active search${sourceCount === 1 ? "" : "es"}`;
   els.monitorNewCount.textContent = `${newListingsRaw.length} new listing${newListingsRaw.length === 1 ? "" : "s"}`;
   els.monitorBestCommute.textContent = best?.commute?.office
