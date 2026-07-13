@@ -6,7 +6,7 @@ const PROMPT = `You are looking at photos from a NYC apartment rental listing. B
 
 Answer these questions:
 1. Is a kitchen visible in any of these photos?
-2. Is the kitchen open-plan (open or semi-open to a living/dining area) or enclosed in its own separate room (closed or a narrow galley layout)?
+2. Is the kitchen open-plan (open or semi-open to a living/dining area) or enclosed in its own separate room (closed or a narrow galley layout)? A pass-through counter/opening to a hallway, foyer, or other non-living space does NOT count as open or semi-open — classify that as "closed". Only count it as open/semi-open if the kitchen shares real sightline and space with an actual living or dining area.
 3. Is the stove/range gas or electric? Look for visible burners/grates (gas) versus a flat glass/ceramic cooktop or coil burners (electric/induction). This is genuinely hard to tell in many photos (reflections, angle, resolution) — if you're not confident, say so via stoveConfidence rather than picking one at random.
 4. Does the unit have its own private outdoor space (a garden, yard, or terrace exclusively for this unit) — not a shared building courtyard, roof deck, or amenity space?
 5. Does the living room look notably small/cramped based on the furniture-to-room ratio and how tight the framing is, versus a typical NYC one-bedroom living room?
