@@ -1,4 +1,4 @@
-const GOWANUS_PATTERN = /\bgowanus\b/i;
+const EXCLUDED_NEIGHBORHOOD_PATTERN = /\b(gowanus|crown heights)\b/i;
 const UWS_PATTERN = /\bupper west side\b/i;
 const BROOKLYN_PATTERN = /\bbrooklyn\b/i;
 
@@ -54,8 +54,8 @@ function neighborhoodTier(neighborhood, borough, address, lat) {
   return "unknown";
 }
 
-function isGowanus(neighborhood) {
-  return GOWANUS_PATTERN.test(neighborhood || "");
+function isExcludedNeighborhood(neighborhood) {
+  return EXCLUDED_NEIGHBORHOOD_PATTERN.test(neighborhood || "");
 }
 
 // A directly-parsed street number ("West 97th Street") is exact — trust it
@@ -236,8 +236,8 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     );
   }
 
-  if (isGowanus(listing.neighborhood)) {
-    reasons.push("Neighborhood excluded: Gowanus");
+  if (isExcludedNeighborhood(listing.neighborhood)) {
+    reasons.push(`Neighborhood excluded: ${listing.neighborhood}`);
   }
 
   const lat = commuteResult?.origin?.lat ?? listing.lat ?? null;
@@ -287,7 +287,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 module.exports = {
   computeRankScore,
   evaluateListing,
-  isGowanus,
+  isExcludedNeighborhood,
   neighborhoodTier,
   rankBreakdown,
 };
