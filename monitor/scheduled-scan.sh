@@ -11,6 +11,25 @@ trap 'rm -f "$RUN_LOG"' EXIT
 
 cd "$REPO_ROOT"
 
+# Wait for real network connectivity before starting. launchd can fire this
+# right as the machine wakes from sleep, before WiFi has actually
+# reconnected — Bright Data's own retry/backoff (~3.5s total across 3
+# retries) isn't built to outlast a 10-30s WiFi reconnect window, so both
+# the search fetch and every listing fetch fail outright until the network
+# comes back. Poll a well-known, highly-reliable host (not Bright Data
+# itself, so a Bright Data-side outage isn't misread as "network down")
+# for up to 90s before giving up on this run entirely.
+NETWORK_WAIT_MAX=90
+waited=0
+until curl -s -m 5 -o /dev/null https://1.1.1.1; do
+  if [[ "$waited" -ge "$NETWORK_WAIT_MAX" ]]; then
+    echo "=== Scan skipped at $(date): no network after ${NETWORK_WAIT_MAX}s wait ===" >> "$LOG_FILE"
+    exit 0
+  fi
+  sleep 3
+  waited=$((waited + 3))
+done
+
 echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 node "$SCRIPT_DIR/scan.cjs" 2>&1 | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 SCAN_EXIT_CODE="${PIPESTATUS[0]}"
