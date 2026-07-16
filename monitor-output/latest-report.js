@@ -227,7 +227,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": 1219,
+        "sqft": 219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -656,7 +656,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 1100,
+        "sqft": 100,
         "title": "418 Henry Street #2",
         "url": "https://streeteasy.com/building/418-henry-street/2",
         "washerDryer": "yes"
@@ -683,6 +683,262 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 49.68,
       "visionNotes": "Kitchen is visible with island seating overlooking living/dining area; no stove visible in photos; living room appears spacious with multiple windows and well-proportioned furniture layout; no private outdoor space shown."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "unknown",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "375 Dean Street #403, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-403.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f44ac83bd2fc46a76ca41e712babfddf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/edaed25f14f92eb93ce3d5ccabc2b262-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2eee62cb5a837f1ffc5107c264259fee-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7597b2ff9b7a4668dd464511bcc3161f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/14e8604ee4b65b7ff4586ca39e47e7b6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7603ae5a26d760e3daf3f5f4ea9246b4-se_large_800_400.webp"
+        ],
+        "price": 5799,
+        "sqft": 951,
+        "title": "375 Dean Street #403",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/403",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; a private terrace/balcony is visible in photo 5; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "375 Dean Street #1605, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-1605.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9a7941d2387438e6fcfd69c89cd1499d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a8a407beec23a8c452b8a5584a6c0f06-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c1142df766e99c55cc430c05d8e7bbcd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4621aca6efafd42cbcefdb162dfdc9ce-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dc6f14fb189ce24a8628f5281b144146-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/984c0b9a4941a8b01948f6a048ef03dc-se_large_800_400.webp"
+        ],
+        "price": 4199,
+        "sqft": 601,
+        "title": "375 Dean Street #1605",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/1605",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible burners/grates; private terrace with NYC skyline view shown in first photo; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 22,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "47-27 5th Street #402, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/39fc15769f59114590c0dc201d5fad62-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d328313ef64287c6c701b4e93526d331-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/daaf5a916a0c6b0d4c4c56918e054c35-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e4a4bd7f68487e1b3b033be527afa41d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/960056b63577720deefefb01f4607d87-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8ab2153d94603439b5e2cc283071315-se_large_800_400.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "47-27 5th Street #402",
+        "url": "https://streeteasy.com/building/47_27-5-street-long_island_city/402",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.9625,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 45.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.9625,
+      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
     },
     {
       "commute": {
@@ -1163,7 +1419,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
         ],
         "price": 6900,
-        "sqft": 788,
+        "sqft": 800,
         "title": "25 Central Park West #19U",
         "url": "https://streeteasy.com/building/the-century-condominium/19u",
         "washerDryer": "yes"
@@ -1398,17 +1654,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "55 Willoughby Street #24B, BROOKLYN, NY, 11201",
-        "price": 5340,
-        "title": "55 Willoughby Street #24B",
-        "url": "https://streeteasy.com/building/house-55/24b"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "address": "18 Sixth Avenue #4502, BROOKLYN, NY, 11217",
         "price": 4650,
         "title": "18 Sixth Avenue #4502",
@@ -1427,6 +1672,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "20 Rockwell Place #2103, BROOKLYN, NY, 11201",
+        "price": 6350,
+        "title": "20 Rockwell Place #2103",
+        "url": "https://streeteasy.com/building/the-rocklyn/2103"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -1465,21 +1721,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "151 Carlton Avenue #3F, BROOKLYN, NY, 11205",
-        "price": 6000,
-        "title": "151 Carlton Avenue #3F",
-        "url": "https://streeteasy.com/building/the-garrison/3f"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": null,
         "price": null,
-        "title": "56-27 2nd Street #3304",
-        "url": "https://streeteasy.com/building/gotham-point-south/3304"
+        "title": "17 Hanover Place #27H",
+        "url": "https://streeteasy.com/building/hanover-house/27h"
       },
       "reasons": [
         "Rent could not be confirmed",
@@ -1489,15 +1734,13 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": null,
-        "price": null,
-        "title": "55 Willoughby Street #28G",
-        "url": "https://streeteasy.com/building/house-55/28g"
+        "address": "55 Willoughby Street #35D, BROOKLYN, NY, 11201",
+        "price": 5205,
+        "title": "55 Willoughby Street #35D",
+        "url": "https://streeteasy.com/building/house-55/35d"
       },
       "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -1554,17 +1797,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 7000,
         "title": "155 Smith Street #1C",
         "url": "https://streeteasy.com/building/155-smith-street-brooklyn/1c"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "55 Willoughby Street #25C, BROOKLYN, NY, 11201",
-        "price": 5280,
-        "title": "55 Willoughby Street #25C",
-        "url": "https://streeteasy.com/building/house-55/25c"
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
@@ -1708,17 +1940,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "55 Willoughby Street #20B, BROOKLYN, NY, 11201",
-        "price": 5280,
-        "title": "55 Willoughby Street #20B",
-        "url": "https://streeteasy.com/building/house-55/20b"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "address": "570 Fulton Street #16D, BROOKLYN, NY, 11217",
         "price": 6750,
         "title": "570 Fulton Street #16D",
@@ -1741,13 +1962,13 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "28-30 Jackson Avenue #51L, LONG ISLAND CITY, NY, 11101",
-        "price": 6557,
-        "title": "28-30 Jackson Avenue #51L",
-        "url": "https://streeteasy.com/building/28_30-jackson-avenue-long_island_city/51l"
+        "address": "210 West 89th Street #9C, NEW YORK, NY, 10024",
+        "price": 4795,
+        "title": "210 West 89th Street #9C",
+        "url": "https://streeteasy.com/building/stonehenge-tower/009c"
       },
       "reasons": [
-        "Kitchen layout could not be confirmed from photos"
+        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -1780,17 +2001,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 5459,
         "title": "400 West 63rd Street #604",
         "url": "https://streeteasy.com/building/the-ashley/604"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "11-39 49th Avenue #1001, LONG ISLAND CITY, NY, 11101",
-        "price": 4000,
-        "title": "11-39 49th Avenue #1001",
-        "url": "https://streeteasy.com/building/hunters-landing-lic/1001"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -1842,45 +2052,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "235 16th Street #2R, BROOKLYN, NY, 11215",
-        "price": 4000,
-        "title": "235 16th Street #2R",
-        "url": "https://streeteasy.com/building/235-16-street-brooklyn/2r"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
-        "title": "556 Baltic Street #1001",
-        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/1001"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "255 West 94th Street #10C, NEW YORK, NY, 10025",
-        "price": 6420,
-        "title": "255 West 94th Street #10C",
-        "url": "https://streeteasy.com/building/the-lyric/10c"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "528 5th Street #2R, BROOKLYN, NY, 11215",
-        "price": 5500,
-        "title": "528 5th Street #2R",
-        "url": "https://streeteasy.com/building/528-5-street-brooklyn/2r"
+        "address": "1377 Lexington Avenue #2C, NEW YORK, NY, 10128",
+        "price": 5700,
+        "title": "1377 Lexington Avenue #2C",
+        "url": "https://streeteasy.com/building/1377-lexington-avenue-new_york/2c"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -1899,32 +2074,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "172 West 109th Street #3E, NEW YORK, NY, 10025",
-        "price": 4400,
-        "title": "172 West 109th Street #3E",
-        "url": "https://streeteasy.com/building/172-west-109-street-new_york/3e"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "1079 Fulton Street #2E, BROOKLYN, NY, 11238",
         "price": 5300,
         "title": "1079 Fulton Street #2E",
         "url": "https://streeteasy.com/building/1079-fulton-street-brooklyn/2e"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "42-62 Hunter Street #10A, LONG ISLAND CITY, NY, 11101",
-        "price": 6700,
-        "title": "42-62 Hunter Street #10A",
-        "url": "https://streeteasy.com/building/42_62-hunter-street-long_island_city/10a"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -1965,17 +2118,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "175 West 87th Street #16H, NEW YORK, NY, 10024",
-        "price": 6250,
-        "title": "175 West 87th Street #16H",
-        "url": "https://streeteasy.com/building/561-amsterdam-avenue-new_york/16h"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": null,
         "price": null,
         "title": "55 Willoughby Street #28C",
@@ -1985,6 +2127,17 @@ window.__APARTMENT_REPORT__ = {
         "Rent could not be confirmed",
         "Bedroom count could not be confirmed",
         "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "349 West 87th Street #5, NEW YORK, NY, 10024",
+        "price": 5995,
+        "title": "349 West 87th Street #5",
+        "url": "https://streeteasy.com/building/349-west-87-street-new_york/5"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -2000,10 +2153,43 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "466 Prospect Avenue #3L, BROOKLYN, NY, 11215",
-        "price": 4650,
-        "title": "466 Prospect Avenue #3L",
-        "url": "https://streeteasy.com/building/466-prospect-avenue-brooklyn/3l"
+        "address": "55 Willoughby Street #20G, BROOKLYN, NY, 11201",
+        "price": 5630,
+        "title": "55 Willoughby Street #20G",
+        "url": "https://streeteasy.com/building/house-55/20g"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "423 16th Street #7, BROOKLYN, NY, 11215",
+        "price": 4200,
+        "title": "423 16th Street #7",
+        "url": "https://streeteasy.com/building/423-16-street-brooklyn/7"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "301 West 57th Street #29B, NEW YORK, NY, 10019",
+        "price": 6500,
+        "title": "301 West 57th Street #29B",
+        "url": "https://streeteasy.com/building/central-park-place/29b"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "160 West 84th Street #7A, NEW YORK, NY, 10024",
+        "price": 5400,
+        "title": "160 West 84th Street #7A",
+        "url": "https://streeteasy.com/building/160-west-84-street-new_york/7a"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -2046,6 +2232,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "223 East 74th Street #4A, NEW YORK, NY, 10021",
+        "price": 4200,
+        "title": "223 East 74th Street #4A",
+        "url": "https://streeteasy.com/building/223-east-74-street-new_york/4a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "645 Park Place #4J",
@@ -2070,13 +2267,24 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "513 East 82nd Street #5C, NEW YORK, NY, 10028",
-        "price": 4950,
-        "title": "513 East 82nd Street #5C",
-        "url": "https://streeteasy.com/building/513-east-82-street-new_york/5c"
+        "address": "227 Riverside Drive #3W, NEW YORK, NY, 10025",
+        "price": 5895,
+        "title": "227 Riverside Drive #3W",
+        "url": "https://streeteasy.com/building/227-riverside-drive-new_york/3w"
       },
       "reasons": [
-        "Kitchen photo shows a closed layout"
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "345 East 92nd Street #2C, NEW YORK, NY, 10128",
+        "price": 4286,
+        "title": "345 East 92nd Street #2C",
+        "url": "https://streeteasy.com/building/345-east-92-street-new_york/2c"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -2088,17 +2296,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "210 West 70th Street #1502, NEW YORK, NY, 10023",
-        "price": 6620,
-        "title": "210 West 70th Street #1502",
-        "url": "https://streeteasy.com/building/stonehenge-70/1502"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -2116,17 +2313,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "795 Columbus Avenue #4E, NEW YORK, NY, 10025",
-        "price": 5732,
-        "title": "795 Columbus Avenue #4E",
-        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/04e"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "795 Columbus Avenue #4C, NEW YORK, NY, 10025",
         "price": 5920,
         "title": "795 Columbus Avenue #4C",
@@ -2134,17 +2320,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "23-15 44th Road #4K, LONG ISLAND CITY, NY, 11101",
-        "price": 6600,
-        "title": "23-15 44th Road #4K",
-        "url": "https://streeteasy.com/building/lumen-lic/4k"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -2215,30 +2390,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "645 Park Place #7H, BROOKLYN, NY, 11238",
-        "price": 6500,
-        "title": "645 Park Place #7H",
-        "url": "https://streeteasy.com/building/645-park-place/7h"
-      },
-      "reasons": [
-        "Neighborhood excluded: Crown Heights"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
-        "title": "255 East 39th Street #6F",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/6f"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
         "address": "168 Prospect Place #4, BROOKLYN, NY, 11238",
         "price": 5500,
         "title": "168 Prospect Place #4",
@@ -2283,6 +2434,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "42-20 24th Street #40A, LONG ISLAND CITY, NY, 11101",
+        "price": 4682,
+        "title": "42-20 24th Street #40A",
+        "url": "https://streeteasy.com/building/1-qps/040a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": "22-44 Jackson Avenue #4405, LONG ISLAND CITY, NY, 11101",
         "price": 6768,
         "title": "22-44 Jackson Avenue #4405",
@@ -2305,6 +2467,28 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "525 Pacific Street #807, BROOKLYN, NY, 11217",
+        "price": 5850,
+        "title": "525 Pacific Street #807",
+        "url": "https://streeteasy.com/building/540-atlantic/807"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "945 West End Avenue #2C2, NEW YORK, NY, 10025",
+        "price": 4100,
+        "title": "945 West End Avenue #2C2",
+        "url": "https://streeteasy.com/building/301-west-106-street-new_york/2c2"
+      },
+      "reasons": [
+        "Upper West Side north of 96th St is outside the comfort zone"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "344 East 85th Street #3F",
@@ -2314,29 +2498,6 @@ window.__APARTMENT_REPORT__ = {
         "Rent could not be confirmed",
         "Bedroom count could not be confirmed",
         "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "556 Baltic Street #405, NEW YORK, NY, 11217",
-        "price": 7100,
-        "title": "556 Baltic Street #405",
-        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/405"
-      },
-      "reasons": [
-        "Rent $7100 outside $3500-7000",
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1379 Lexington Avenue #3C, NEW YORK, NY, 10128",
-        "price": 5650,
-        "title": "1379 Lexington Avenue #3C",
-        "url": "https://streeteasy.com/building/1379-lexington-avenue-new_york/3c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -2352,10 +2513,32 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "267 6th Street #10E, BROOKLYN, NY, 11215",
+        "price": 6717,
+        "title": "267 6th Street #10E",
+        "url": "https://streeteasy.com/building/landmark-park-slope/10e"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": "200 East 94th Street #312, NEW YORK, NY, 10128",
         "price": 5950,
         "title": "200 East 94th Street #312",
         "url": "https://streeteasy.com/building/carnegie-park-condominium/312"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "27 West 96th Street #16E, NEW YORK, NY, 10025",
+        "price": 6000,
+        "title": "27 West 96th Street #16E",
+        "url": "https://streeteasy.com/building/27-west-96-street-new_york/16e"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -2374,6 +2557,19 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": null,
+        "price": null,
+        "title": "376 Baltic Street #1BB",
+        "url": "https://streeteasy.com/building/376-baltic-street-brooklyn/1bb"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
         "address": "645 Park Place #8A, BROOKLYN, NY, 11238",
         "price": 5250,
         "title": "645 Park Place #8A",
@@ -2381,6 +2577,19 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Neighborhood excluded: Crown Heights"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "22-43 Jackson Avenue #4H",
+        "url": "https://streeteasy.com/building/prime-lic/4h"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
       ]
     },
     {
@@ -2466,6 +2675,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "808 Columbus Avenue #8C, NEW YORK, NY, 10025",
+        "price": 6635,
+        "title": "808 Columbus Avenue #8C",
+        "url": "https://streeteasy.com/building/808-columbus-avenue-new_york/08c"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": "486 State Street #1, BROOKLYN, NY, 11217",
         "price": 5000,
         "title": "486 State Street #1",
@@ -2499,30 +2719,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": null,
-        "price": null,
-        "title": "22-44 Jackson Avenue #4319",
-        "url": "https://streeteasy.com/building/5pointz-lic/4319"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "382 9th Street #2, BROOKLYN, NY, 11215",
-        "price": 6500,
-        "title": "382 9th Street #2",
-        "url": "https://streeteasy.com/building/382-9-street-brooklyn/2"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "28-40 Jackson Avenue #3F, LONG ISLAND CITY, NY, 11101",
         "price": 4495,
         "title": "28-40 Jackson Avenue #3F",
@@ -2534,10 +2730,21 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "120 Riverside Boulevard #8G, NEW YORK, NY, 10069",
-        "price": 5000,
-        "title": "120 Riverside Boulevard #8G",
-        "url": "https://streeteasy.com/building/120-riverside-boulevard/8g"
+        "address": "100 Riverside Boulevard #8J, NEW YORK, NY, 10069",
+        "price": 5500,
+        "title": "100 Riverside Boulevard #8J",
+        "url": "https://streeteasy.com/building/the-avery-100-riverside-boulevard-new_york/8j"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "529 East 83rd Street #1R, NEW YORK, NY, 10028",
+        "price": 4950,
+        "title": "529 East 83rd Street #1R",
+        "url": "https://streeteasy.com/building/529-east-83-street-new_york/1r"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -2552,17 +2759,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "434 East 76th Street #17, NEW YORK, NY, 10021",
-        "price": 4600,
-        "title": "434 East 76th Street #17",
-        "url": "https://streeteasy.com/building/434-east-76-street-new_york/17"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -2600,6 +2796,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "223 East 89th Street #0A2, NEW YORK, NY, 10128",
+        "price": 4300,
+        "title": "223 East 89th Street #0A2",
+        "url": "https://streeteasy.com/building/223-east-89-street-new_york/0a2"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "211 West 109th Street #2C",
@@ -2626,29 +2833,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "215 West 101st Street #3G, NEW YORK, NY, 10025",
-        "price": 6000,
-        "title": "215 West 101st Street #3G",
-        "url": "https://streeteasy.com/building/2660-broadway-new_york/3g"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "22-44 Jackson Avenue #4701, LONG ISLAND CITY, NY, 11101",
-        "price": 7375,
-        "title": "22-44 Jackson Avenue #4701",
-        "url": "https://streeteasy.com/building/5pointz-lic/4701"
-      },
-      "reasons": [
-        "Rent $7375 outside $3500-7000",
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "address": "24-12 42nd Road #4E, LONG ISLAND CITY, NY, 11101",
         "price": 5950,
         "title": "24-12 42nd Road #4E",
@@ -2671,17 +2855,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "10 Quincy Street #3M, BROOKLYN, NY, 11238",
-        "price": 7000,
-        "title": "10 Quincy Street #3M",
-        "url": "https://streeteasy.com/building/10-quincy-street-clinton_hill_/3m"
-      },
-      "reasons": [
-        "Marked unavailable by user"
-      ]
-    },
-    {
-      "listing": {
         "address": "200 Riverside Boulevard #14G, NEW YORK, NY, 10069",
         "price": 5499,
         "title": "200 Riverside Boulevard #14G",
@@ -2689,6 +2862,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "572 5th Avenue #6A, BROOKLYN, NY, 11215",
+        "price": 5350,
+        "title": "572 5th Avenue #6A",
+        "url": "https://streeteasy.com/building/572-5-avenue-brooklyn/6a"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -2708,20 +2892,6 @@ window.__APARTMENT_REPORT__ = {
       "listing": {
         "address": null,
         "price": null,
-        "title": "570 Fulton Street #3E",
-        "url": "https://streeteasy.com/building/fulton-greene/3e"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "Kitchen layout could not be confirmed from photos",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
         "title": "313 West 91st Street #3B",
         "url": "https://streeteasy.com/building/313-west-91-street-new_york/3b"
       },
@@ -2730,17 +2900,6 @@ window.__APARTMENT_REPORT__ = {
         "Bedroom count could not be confirmed",
         "Kitchen layout could not be confirmed from photos",
         "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "160 West 84th Street #17A, NEW YORK, NY, 10024",
-        "price": 4150,
-        "title": "160 West 84th Street #17A",
-        "url": "https://streeteasy.com/building/160-west-84-street-new_york/17a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -2789,55 +2948,22 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "305 East 95th Street #6B, NEW YORK, NY, 10128",
+        "price": 6500,
+        "title": "305 East 95th Street #6B",
+        "url": "https://streeteasy.com/building/303-east-95-street-new_york/6b"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout (user-corrected)"
+      ]
+    },
+    {
+      "listing": {
         "title": "1775 York Avenue #4F",
         "url": "https://streeteasy.com/building/the-brittany/4f"
       },
       "reasons": [
         "Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/the-brittany/4f: The operation was aborted due to timeout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "281 Wyckoff Street #2, BROOKLYN, NY, 11217",
-        "price": 5150,
-        "title": "281 Wyckoff Street #2",
-        "url": "https://streeteasy.com/building/281-wyckoff-street-brooklyn/2"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1105 Lexington Avenue #2A, NEW YORK, NY, 10075",
-        "price": 7000,
-        "title": "1105 Lexington Avenue #2A",
-        "url": "https://streeteasy.com/building/1105-lexington-avenue-new_york/2a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1-15 57th Avenue #3026, QUEENS, NY, 11101",
-        "price": 5195,
-        "title": "1-15 57th Avenue #3026",
-        "url": "https://streeteasy.com/building/gotham-point-north/3026"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1760 1st Avenue #6, NEW YORK, NY, 10128",
-        "price": 4500,
-        "title": "1760 1st Avenue #6",
-        "url": "https://streeteasy.com/building/1760-1-avenue-new_york/6"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -2913,17 +3039,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "515 East 72nd Street #8F, NEW YORK, NY, 10021",
-        "price": 5500,
-        "title": "515 East 72nd Street #8F",
-        "url": "https://streeteasy.com/building/515-east-72/8f"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "address": "245 West 109th Street #15, NEW YORK, NY, 10025",
         "price": 4000,
         "title": "245 West 109th Street #15",
@@ -2946,11 +3061,13 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "title": "310 West 80th Street #5F",
-        "url": "https://streeteasy.com/building/310-west-80th-street/5f"
+        "address": "501 East 87th Street #18A, NEW YORK, NY, 10128",
+        "price": 6700,
+        "title": "501 East 87th Street #18A",
+        "url": "https://streeteasy.com/building/rivers-bend/18a"
       },
       "reasons": [
-        "Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/310-west-80th-street/5f: The operation was aborted due to timeout"
+        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -2970,39 +3087,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 4195,
         "title": "166 East 91st Street #5C",
         "url": "https://streeteasy.com/building/166-east-91-street-new_york/5c"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "224 Cumberland Street #1, BROOKLYN, NY, 11205",
-        "price": 4600,
-        "title": "224 Cumberland Street #1",
-        "url": "https://streeteasy.com/building/224-cumberland-street-brooklyn/1"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "319 Grand Avenue #347B, BROOKLYN, NY, 11238",
-        "price": 5000,
-        "title": "319 Grand Avenue #347B",
-        "url": "https://streeteasy.com/building/319-grand-avenue-brooklyn/347b"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1640 York Avenue #1D, NEW YORK, NY, 10028",
-        "price": 4650,
-        "title": "1640 York Avenue #1D",
-        "url": "https://streeteasy.com/building/1640-york-avenue-new_york/1d"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3041,10 +3125,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "53 Clifton Place #3E, BROOKLYN, NY, 11238",
-        "price": 4299,
-        "title": "53 Clifton Place #3E",
-        "url": "https://streeteasy.com/building/53-clifton-place-brooklyn/3e"
+        "address": "666 West End Avenue #20AB, NEW YORK, NY, 10025",
+        "price": 4500,
+        "title": "666 West End Avenue #20AB",
+        "url": "https://streeteasy.com/building/windermere-666-west-end-avenue-new_york/20ab"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3129,6 +3213,39 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "151 South Elliott Place #7H, BROOKLYN, NY, 11217",
+        "price": 4093,
+        "title": "151 South Elliott Place #7H",
+        "url": "https://streeteasy.com/building/the-elliot/7h"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "151 South Elliott Place #7R, BROOKLYN, NY, 11217",
+        "price": 5775,
+        "title": "151 South Elliott Place #7R",
+        "url": "https://streeteasy.com/building/the-elliot/7r"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "63 West 104th Street #101, NEW YORK, NY, 10025",
+        "price": 5300,
+        "title": "63 West 104th Street #101",
+        "url": "https://streeteasy.com/building/63-west-104-street-new_york/101"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
         "address": "441 Union Street #2, BROOKLYN, NY, 11231",
         "price": 4700,
         "title": "441 Union Street #2",
@@ -3140,13 +3257,14 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "559 Clinton Street #2A, BROOKLYN, NY, 11231",
-        "price": 4450,
-        "title": "559 Clinton Street #2A",
-        "url": "https://streeteasy.com/building/559-clinton-street-brooklyn/2a"
+        "address": "42-06 Orchard Street #47N, LONG ISLAND CITY, NY, 11101",
+        "price": 7465,
+        "title": "42-06 Orchard Street #47N",
+        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/47n"
       },
       "reasons": [
-        "Kitchen photo shows a closed layout"
+        "Rent $7465 outside $4000-7000",
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -3158,6 +3276,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "349 West 84th Street #3, NEW YORK, NY, 10024",
+        "price": 6999,
+        "title": "349 West 84th Street #3",
+        "url": "https://streeteasy.com/building/349-west-84-street-new_york/3"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -3226,10 +3355,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "301 Sackett Street #2A, BROOKLYN, NY, 11231",
-        "price": 6000,
-        "title": "301 Sackett Street #2A",
-        "url": "https://streeteasy.com/building/323-court-street-brooklyn/2a"
+        "address": "135 West 96th Street #2B, NEW YORK, NY, 10025",
+        "price": 4995,
+        "title": "135 West 96th Street #2B",
+        "url": "https://streeteasy.com/building/135-west-96-street-new_york/2b"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -3237,13 +3366,13 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "174 Luquer Street #3R, BROOKLYN, NY, 11231",
+        "address": "301 Sackett Street #2A, BROOKLYN, NY, 11231",
         "price": 6000,
-        "title": "174 Luquer Street #3R",
-        "url": "https://streeteasy.com/building/490-court-street-brooklyn/3r"
+        "title": "301 Sackett Street #2A",
+        "url": "https://streeteasy.com/building/323-court-street-brooklyn/2a"
       },
       "reasons": [
-        "Kitchen photo shows a closed layout"
+        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3266,6 +3395,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "166 West 72nd Street #3C, NEW YORK, NY, 10023",
+        "price": 5900,
+        "title": "166 West 72nd Street #3C",
+        "url": "https://streeteasy.com/building/166-west-72-street-new_york/3c"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "220 Riverside Boulevard #6U, NEW YORK, NY, 10069",
+        "price": 5000,
+        "title": "220 Riverside Boulevard #6U",
+        "url": "https://streeteasy.com/building/220-riverside-boulevard/6u"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3389,17 +3540,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "1324 Lexington Avenue #2C, NEW YORK, NY, 10128",
-        "price": 4995,
-        "title": "1324 Lexington Avenue #2C",
-        "url": "https://streeteasy.com/building/1324-lexington-ave-new_york/2c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "739 President Street #4B, BROOKLYN, NY, 11215",
         "price": 4500,
         "title": "739 President Street #4B",
@@ -3407,6 +3547,778 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "670 Pacific Street #406, BROOKLYN, NY, 11217",
+        "price": 4783,
+        "title": "670 Pacific Street #406",
+        "url": "https://streeteasy.com/building/670-pacific-street-brooklyn/406"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1843 1st Avenue #2R, NEW YORK, NY, 10128",
+        "price": 4595,
+        "title": "1843 1st Avenue #2R",
+        "url": "https://streeteasy.com/building/1843-1-avenue-new_york/2r"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "343 East 78th Street #5, NEW YORK, NY, 10075",
+        "price": 4600,
+        "title": "343 East 78th Street #5",
+        "url": "https://streeteasy.com/building/343-east-78-street-new_york/5"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1269 1st Avenue #4B, NEW YORK, NY, 10065",
+        "price": 4695,
+        "title": "1269 1st Avenue #4B",
+        "url": "https://streeteasy.com/building/1269-1-avenue-new_york/4b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "226 7th Avenue #4B, BROOKLYN, NY, 11215",
+        "price": 5150,
+        "title": "226 7th Avenue #4B",
+        "url": "https://streeteasy.com/building/226-7-avenue-brooklyn/4b"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "187 Washington Avenue #3, BROOKLYN, NY, 11205",
+        "price": 5000,
+        "title": "187 Washington Avenue #3",
+        "url": "https://streeteasy.com/building/187-washington-avenue-brooklyn/3"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "14 West 82nd Street #2B, NEW YORK, NY, 10024",
+        "price": 5995,
+        "title": "14 West 82nd Street #2B",
+        "url": "https://streeteasy.com/building/14-west-82-street-new_york/2b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "168 East 82nd Street #2B, NEW YORK, NY, 10028",
+        "price": 5499,
+        "title": "168 East 82nd Street #2B",
+        "url": "https://streeteasy.com/building/168-east-82-street-new_york/2b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "80 Dekalb Avenue #6D, BROOKLYN, NY, 11201",
+        "price": 4509,
+        "title": "80 Dekalb Avenue #6D",
+        "url": "https://streeteasy.com/building/80-dekalb/6d"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "577 Warren Street #6, BROOKLYN, NY, 11217",
+        "price": 4250,
+        "title": "577 Warren Street #6",
+        "url": "https://streeteasy.com/building/577-warren-street-brooklyn/6"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "174 East 85th Street #4C, NEW YORK, NY, 10028",
+        "price": 5499,
+        "title": "174 East 85th Street #4C",
+        "url": "https://streeteasy.com/building/174-east-85-street-new_york/4c"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "201 Dean Street #3, BROOKLYN, NY, 11217",
+        "price": 5000,
+        "title": "201 Dean Street #3",
+        "url": "https://streeteasy.com/building/201-dean-street-brooklyn/3"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "109 West 105th Street #2A, NEW YORK, NY, 10025",
+        "price": 4000,
+        "title": "109 West 105th Street #2A",
+        "url": "https://streeteasy.com/building/109-west-105-street-new_york/2a"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "710 De Graw Street #1GF, BROOKLYN, NY, 11217",
+        "price": 6499,
+        "title": "710 De Graw Street #1GF",
+        "url": "https://streeteasy.com/building/710-de-graw-street-brooklyn/1gf"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "445 Vanderbilt Avenue #406, BROOKLYN, NY, 11238",
+        "price": 4200,
+        "title": "445 Vanderbilt Avenue #406",
+        "url": "https://streeteasy.com/building/445-vanderbilt-avenue-brooklyn/406"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "315 Lincoln Place #1B, BROOKLYN, NY, 11238",
+        "price": 4895,
+        "title": "315 Lincoln Place #1B",
+        "url": "https://streeteasy.com/building/315-lincoln-place-brooklyn/1b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "417 East 65th Street #8, NEW YORK, NY, 10065",
+        "price": 4800,
+        "title": "417 East 65th Street #8",
+        "url": "https://streeteasy.com/building/417-east-65-street-new_york/8"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "604 Carlton Avenue #3, BROOKLYN, NY, 11238",
+        "price": 4950,
+        "title": "604 Carlton Avenue #3",
+        "url": "https://streeteasy.com/building/604-carlton-avenue-brooklyn/3"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "10 West 65th Street #5N, NEW YORK, NY, 10023",
+        "price": 6900,
+        "title": "10 West 65th Street #5N",
+        "url": "https://streeteasy.com/building/10-west-65-street-new_york/5n"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "44-41 Purves Street #712, LONG ISLAND CITY, NY, 11101",
+        "price": 4077,
+        "title": "44-41 Purves Street #712",
+        "url": "https://streeteasy.com/building/halo-lic/712"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "420 East 66th Street #3A, NEW YORK, NY, 10065",
+        "price": 4195,
+        "title": "420 East 66th Street #3A",
+        "url": "https://streeteasy.com/building/420-east-66-street-new_york/3a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "11-30 45th Road #4E, LONG ISLAND CITY, NY, 11101",
+        "price": 6850,
+        "title": "11-30 45th Road #4E",
+        "url": "https://streeteasy.com/building/liv-murray-park-south/4e"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "460 9th Street #4, BROOKLYN, NY, 11215",
+        "price": 5000,
+        "title": "460 9th Street #4",
+        "url": "https://streeteasy.com/building/460-9-street-brooklyn/4"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "55 Willoughby Street #24B, BROOKLYN, NY, 11201",
+        "price": 5340,
+        "title": "55 Willoughby Street #24B",
+        "url": "https://streeteasy.com/building/house-55/24b"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "151 Carlton Avenue #3F, BROOKLYN, NY, 11205",
+        "price": 6000,
+        "title": "151 Carlton Avenue #3F",
+        "url": "https://streeteasy.com/building/the-garrison/3f"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "56-27 2nd Street #3304",
+        "url": "https://streeteasy.com/building/gotham-point-south/3304"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "55 Willoughby Street #28G",
+        "url": "https://streeteasy.com/building/house-55/28g"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "55 Willoughby Street #25C, BROOKLYN, NY, 11201",
+        "price": 5280,
+        "title": "55 Willoughby Street #25C",
+        "url": "https://streeteasy.com/building/house-55/25c"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "55 Willoughby Street #20B, BROOKLYN, NY, 11201",
+        "price": 5280,
+        "title": "55 Willoughby Street #20B",
+        "url": "https://streeteasy.com/building/house-55/20b"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "28-30 Jackson Avenue #51L, LONG ISLAND CITY, NY, 11101",
+        "price": 6557,
+        "title": "28-30 Jackson Avenue #51L",
+        "url": "https://streeteasy.com/building/28_30-jackson-avenue-long_island_city/51l"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "11-39 49th Avenue #1001, LONG ISLAND CITY, NY, 11101",
+        "price": 4000,
+        "title": "11-39 49th Avenue #1001",
+        "url": "https://streeteasy.com/building/hunters-landing-lic/1001"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "235 16th Street #2R, BROOKLYN, NY, 11215",
+        "price": 4000,
+        "title": "235 16th Street #2R",
+        "url": "https://streeteasy.com/building/235-16-street-brooklyn/2r"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "556 Baltic Street #1001",
+        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/1001"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 West 94th Street #10C, NEW YORK, NY, 10025",
+        "price": 6420,
+        "title": "255 West 94th Street #10C",
+        "url": "https://streeteasy.com/building/the-lyric/10c"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "528 5th Street #2R, BROOKLYN, NY, 11215",
+        "price": 5500,
+        "title": "528 5th Street #2R",
+        "url": "https://streeteasy.com/building/528-5-street-brooklyn/2r"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "172 West 109th Street #3E, NEW YORK, NY, 10025",
+        "price": 4400,
+        "title": "172 West 109th Street #3E",
+        "url": "https://streeteasy.com/building/172-west-109-street-new_york/3e"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "42-62 Hunter Street #10A, LONG ISLAND CITY, NY, 11101",
+        "price": 6700,
+        "title": "42-62 Hunter Street #10A",
+        "url": "https://streeteasy.com/building/42_62-hunter-street-long_island_city/10a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "175 West 87th Street #16H, NEW YORK, NY, 10024",
+        "price": 6250,
+        "title": "175 West 87th Street #16H",
+        "url": "https://streeteasy.com/building/561-amsterdam-avenue-new_york/16h"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "466 Prospect Avenue #3L, BROOKLYN, NY, 11215",
+        "price": 4650,
+        "title": "466 Prospect Avenue #3L",
+        "url": "https://streeteasy.com/building/466-prospect-avenue-brooklyn/3l"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "513 East 82nd Street #5C, NEW YORK, NY, 10028",
+        "price": 4950,
+        "title": "513 East 82nd Street #5C",
+        "url": "https://streeteasy.com/building/513-east-82-street-new_york/5c"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "210 West 70th Street #1502, NEW YORK, NY, 10023",
+        "price": 6620,
+        "title": "210 West 70th Street #1502",
+        "url": "https://streeteasy.com/building/stonehenge-70/1502"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "795 Columbus Avenue #4E, NEW YORK, NY, 10025",
+        "price": 5732,
+        "title": "795 Columbus Avenue #4E",
+        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/04e"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "23-15 44th Road #4K, LONG ISLAND CITY, NY, 11101",
+        "price": 6600,
+        "title": "23-15 44th Road #4K",
+        "url": "https://streeteasy.com/building/lumen-lic/4k"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "645 Park Place #7H, BROOKLYN, NY, 11238",
+        "price": 6500,
+        "title": "645 Park Place #7H",
+        "url": "https://streeteasy.com/building/645-park-place/7h"
+      },
+      "reasons": [
+        "Neighborhood excluded: Crown Heights"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "255 East 39th Street #6F",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/6f"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "556 Baltic Street #405, NEW YORK, NY, 11217",
+        "price": 7100,
+        "title": "556 Baltic Street #405",
+        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/405"
+      },
+      "reasons": [
+        "Rent $7100 outside $3500-7000",
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1379 Lexington Avenue #3C, NEW YORK, NY, 10128",
+        "price": 5650,
+        "title": "1379 Lexington Avenue #3C",
+        "url": "https://streeteasy.com/building/1379-lexington-avenue-new_york/3c"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "22-44 Jackson Avenue #4319",
+        "url": "https://streeteasy.com/building/5pointz-lic/4319"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "382 9th Street #2, BROOKLYN, NY, 11215",
+        "price": 6500,
+        "title": "382 9th Street #2",
+        "url": "https://streeteasy.com/building/382-9-street-brooklyn/2"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "120 Riverside Boulevard #8G, NEW YORK, NY, 10069",
+        "price": 5000,
+        "title": "120 Riverside Boulevard #8G",
+        "url": "https://streeteasy.com/building/120-riverside-boulevard/8g"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "434 East 76th Street #17, NEW YORK, NY, 10021",
+        "price": 4600,
+        "title": "434 East 76th Street #17",
+        "url": "https://streeteasy.com/building/434-east-76-street-new_york/17"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "215 West 101st Street #3G, NEW YORK, NY, 10025",
+        "price": 6000,
+        "title": "215 West 101st Street #3G",
+        "url": "https://streeteasy.com/building/2660-broadway-new_york/3g"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "22-44 Jackson Avenue #4701, LONG ISLAND CITY, NY, 11101",
+        "price": 7375,
+        "title": "22-44 Jackson Avenue #4701",
+        "url": "https://streeteasy.com/building/5pointz-lic/4701"
+      },
+      "reasons": [
+        "Rent $7375 outside $3500-7000",
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "10 Quincy Street #3M, BROOKLYN, NY, 11238",
+        "price": 7000,
+        "title": "10 Quincy Street #3M",
+        "url": "https://streeteasy.com/building/10-quincy-street-clinton_hill_/3m"
+      },
+      "reasons": [
+        "Marked unavailable by user"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "570 Fulton Street #3E",
+        "url": "https://streeteasy.com/building/fulton-greene/3e"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "Kitchen layout could not be confirmed from photos",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "160 West 84th Street #17A, NEW YORK, NY, 10024",
+        "price": 4150,
+        "title": "160 West 84th Street #17A",
+        "url": "https://streeteasy.com/building/160-west-84-street-new_york/17a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "281 Wyckoff Street #2, BROOKLYN, NY, 11217",
+        "price": 5150,
+        "title": "281 Wyckoff Street #2",
+        "url": "https://streeteasy.com/building/281-wyckoff-street-brooklyn/2"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1105 Lexington Avenue #2A, NEW YORK, NY, 10075",
+        "price": 7000,
+        "title": "1105 Lexington Avenue #2A",
+        "url": "https://streeteasy.com/building/1105-lexington-avenue-new_york/2a"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1-15 57th Avenue #3026, QUEENS, NY, 11101",
+        "price": 5195,
+        "title": "1-15 57th Avenue #3026",
+        "url": "https://streeteasy.com/building/gotham-point-north/3026"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1760 1st Avenue #6, NEW YORK, NY, 10128",
+        "price": 4500,
+        "title": "1760 1st Avenue #6",
+        "url": "https://streeteasy.com/building/1760-1-avenue-new_york/6"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "515 East 72nd Street #8F, NEW YORK, NY, 10021",
+        "price": 5500,
+        "title": "515 East 72nd Street #8F",
+        "url": "https://streeteasy.com/building/515-east-72/8f"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "title": "310 West 80th Street #5F",
+        "url": "https://streeteasy.com/building/310-west-80th-street/5f"
+      },
+      "reasons": [
+        "Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/310-west-80th-street/5f: The operation was aborted due to timeout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "224 Cumberland Street #1, BROOKLYN, NY, 11205",
+        "price": 4600,
+        "title": "224 Cumberland Street #1",
+        "url": "https://streeteasy.com/building/224-cumberland-street-brooklyn/1"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "319 Grand Avenue #347B, BROOKLYN, NY, 11238",
+        "price": 5000,
+        "title": "319 Grand Avenue #347B",
+        "url": "https://streeteasy.com/building/319-grand-avenue-brooklyn/347b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1640 York Avenue #1D, NEW YORK, NY, 10028",
+        "price": 4650,
+        "title": "1640 York Avenue #1D",
+        "url": "https://streeteasy.com/building/1640-york-avenue-new_york/1d"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "53 Clifton Place #3E, BROOKLYN, NY, 11238",
+        "price": 4299,
+        "title": "53 Clifton Place #3E",
+        "url": "https://streeteasy.com/building/53-clifton-place-brooklyn/3e"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "559 Clinton Street #2A, BROOKLYN, NY, 11231",
+        "price": 4450,
+        "title": "559 Clinton Street #2A",
+        "url": "https://streeteasy.com/building/559-clinton-street-brooklyn/2a"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "174 Luquer Street #3R, BROOKLYN, NY, 11231",
+        "price": 6000,
+        "title": "174 Luquer Street #3R",
+        "url": "https://streeteasy.com/building/490-court-street-brooklyn/3r"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1324 Lexington Avenue #2C, NEW YORK, NY, 10128",
+        "price": 4995,
+        "title": "1324 Lexington Avenue #2C",
+        "url": "https://streeteasy.com/building/1324-lexington-ave-new_york/2c"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3455,28 +4367,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "670 Pacific Street #406, BROOKLYN, NY, 11217",
-        "price": 4783,
-        "title": "670 Pacific Street #406",
-        "url": "https://streeteasy.com/building/670-pacific-street-brooklyn/406"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1843 1st Avenue #2R, NEW YORK, NY, 10128",
-        "price": 4595,
-        "title": "1843 1st Avenue #2R",
-        "url": "https://streeteasy.com/building/1843-1-avenue-new_york/2r"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "452 5th Avenue #3F, BROOKLYN, NY, 11215",
         "price": 4700,
         "title": "452 5th Avenue #3F",
@@ -3488,54 +4378,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "343 East 78th Street #5, NEW YORK, NY, 10075",
-        "price": 4600,
-        "title": "343 East 78th Street #5",
-        "url": "https://streeteasy.com/building/343-east-78-street-new_york/5"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "1269 1st Avenue #4B, NEW YORK, NY, 10065",
-        "price": 4695,
-        "title": "1269 1st Avenue #4B",
-        "url": "https://streeteasy.com/building/1269-1-avenue-new_york/4b"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "226 7th Avenue #4B, BROOKLYN, NY, 11215",
-        "price": 5150,
-        "title": "226 7th Avenue #4B",
-        "url": "https://streeteasy.com/building/226-7-avenue-brooklyn/4b"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "address": "3 Court Square #2910, LONG ISLAND CITY, NY, 11101",
         "price": 4980,
         "title": "3 Court Square #2910",
         "url": "https://streeteasy.com/building/skyline-tower/2910"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "187 Washington Avenue #3, BROOKLYN, NY, 11205",
-        "price": 5000,
-        "title": "187 Washington Avenue #3",
-        "url": "https://streeteasy.com/building/187-washington-avenue-brooklyn/3"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3565,32 +4411,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "14 West 82nd Street #2B, NEW YORK, NY, 10024",
-        "price": 5995,
-        "title": "14 West 82nd Street #2B",
-        "url": "https://streeteasy.com/building/14-west-82-street-new_york/2b"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "480 State Street #2S, BROOKLYN, NY, 11217",
         "price": 6200,
         "title": "480 State Street #2S",
         "url": "https://streeteasy.com/building/atlantic-state/2s"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "168 East 82nd Street #2B, NEW YORK, NY, 10028",
-        "price": 5499,
-        "title": "168 East 82nd Street #2B",
-        "url": "https://streeteasy.com/building/168-east-82-street-new_york/2b"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3607,52 +4431,6 @@ window.__APARTMENT_REPORT__ = {
         "Rent could not be confirmed",
         "Bedroom count could not be confirmed",
         "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "20 Rockwell Place #2103, BROOKLYN, NY, 11201",
-        "price": 6350,
-        "title": "20 Rockwell Place #2103",
-        "url": "https://streeteasy.com/building/the-rocklyn/2103"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
-        "title": "17 Hanover Place #27H",
-        "url": "https://streeteasy.com/building/hanover-house/27h"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "55 Willoughby Street #35D, BROOKLYN, NY, 11201",
-        "price": 5205,
-        "title": "55 Willoughby Street #35D",
-        "url": "https://streeteasy.com/building/house-55/35d"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "210 West 89th Street #9C, NEW YORK, NY, 10024",
-        "price": 4795,
-        "title": "210 West 89th Street #9C",
-        "url": "https://streeteasy.com/building/stonehenge-tower/009c"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -3703,17 +4481,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "1377 Lexington Avenue #2C, NEW YORK, NY, 10128",
-        "price": 5700,
-        "title": "1377 Lexington Avenue #2C",
-        "url": "https://streeteasy.com/building/1377-lexington-avenue-new_york/2c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "22 Riverside Drive #1B, NEW YORK, NY, 10023",
         "price": 6500,
         "title": "22 Riverside Drive #1B",
@@ -3725,54 +4492,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "349 West 87th Street #5, NEW YORK, NY, 10024",
-        "price": 5995,
-        "title": "349 West 87th Street #5",
-        "url": "https://streeteasy.com/building/349-west-87-street-new_york/5"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "55 Willoughby Street #20G, BROOKLYN, NY, 11201",
-        "price": 5630,
-        "title": "55 Willoughby Street #20G",
-        "url": "https://streeteasy.com/building/house-55/20g"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "423 16th Street #7, BROOKLYN, NY, 11215",
-        "price": 4200,
-        "title": "423 16th Street #7",
-        "url": "https://streeteasy.com/building/423-16-street-brooklyn/7"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "336 Flatbush Avenue #2B, BROOKLYN, NY, 11238",
         "price": 6250,
         "title": "336 Flatbush Avenue #2B",
         "url": "https://streeteasy.com/building/336-flatbush-avenue-brooklyn/2b"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "227 Riverside Drive #3W, NEW YORK, NY, 10025",
-        "price": 5895,
-        "title": "227 Riverside Drive #3W",
-        "url": "https://streeteasy.com/building/227-riverside-drive-new_york/3w"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -3826,17 +4549,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "42-20 24th Street #40A, LONG ISLAND CITY, NY, 11101",
-        "price": 4682,
-        "title": "42-20 24th Street #40A",
-        "url": "https://streeteasy.com/building/1-qps/040a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "97 Grand Avenue #5F, BROOKLYN, NY, 11205",
         "price": 5233,
         "title": "97 Grand Avenue #5F",
@@ -3844,52 +4556,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "525 Pacific Street #807, BROOKLYN, NY, 11217",
-        "price": 5850,
-        "title": "525 Pacific Street #807",
-        "url": "https://streeteasy.com/building/540-atlantic/807"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "945 West End Avenue #2C2, NEW YORK, NY, 10025",
-        "price": 4100,
-        "title": "945 West End Avenue #2C2",
-        "url": "https://streeteasy.com/building/301-west-106-street-new_york/2c2"
-      },
-      "reasons": [
-        "Upper West Side north of 96th St is outside the comfort zone"
-      ]
-    },
-    {
-      "listing": {
-        "address": "267 6th Street #10E, BROOKLYN, NY, 11215",
-        "price": 6717,
-        "title": "267 6th Street #10E",
-        "url": "https://streeteasy.com/building/landmark-park-slope/10e"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
-        "title": "376 Baltic Street #1BB",
-        "url": "https://streeteasy.com/building/376-baltic-street-brooklyn/1bb"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
       ]
     },
     {
@@ -3905,19 +4571,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": null,
-        "price": null,
-        "title": "22-43 Jackson Avenue #4H",
-        "url": "https://streeteasy.com/building/prime-lic/4h"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
         "address": "226 7th Avenue #4R, BROOKLYN, NY, 11215",
         "price": 5150,
         "title": "226 7th Avenue #4R",
@@ -3925,17 +4578,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "808 Columbus Avenue #8C, NEW YORK, NY, 10025",
-        "price": 6635,
-        "title": "808 Columbus Avenue #8C",
-        "url": "https://streeteasy.com/building/808-columbus-avenue-new_york/08c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3973,28 +4615,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "572 5th Avenue #6A, BROOKLYN, NY, 11215",
-        "price": 5350,
-        "title": "572 5th Avenue #6A",
-        "url": "https://streeteasy.com/building/572-5-avenue-brooklyn/6a"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "305 East 95th Street #6B, NEW YORK, NY, 10128",
-        "price": 6500,
-        "title": "305 East 95th Street #6B",
-        "url": "https://streeteasy.com/building/303-east-95-street-new_york/6b"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout (user-corrected)"
-      ]
-    },
-    {
-      "listing": {
         "address": "200 East 82nd Street #2B, NEW YORK, NY, 10028",
         "price": 5750,
         "title": "200 East 82nd Street #2B",
@@ -4028,17 +4648,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "501 East 87th Street #18A, NEW YORK, NY, 10128",
-        "price": 6700,
-        "title": "501 East 87th Street #18A",
-        "url": "https://streeteasy.com/building/rivers-bend/18a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "3 Court Square #5106, LONG ISLAND CITY, NY, 11101",
         "price": 5200,
         "title": "3 Court Square #5106",
@@ -4054,17 +4663,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 5095,
         "title": "529 East 83rd Street #3E",
         "url": "https://streeteasy.com/building/529-east-83-street-new_york/3e"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "666 West End Avenue #20AB, NEW YORK, NY, 10025",
-        "price": 4500,
-        "title": "666 West End Avenue #20AB",
-        "url": "https://streeteasy.com/building/windermere-666-west-end-avenue-new_york/20ab"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -4094,78 +4692,11 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "151 South Elliott Place #7H, BROOKLYN, NY, 11217",
-        "price": 4093,
-        "title": "151 South Elliott Place #7H",
-        "url": "https://streeteasy.com/building/the-elliot/7h"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "151 South Elliott Place #7R, BROOKLYN, NY, 11217",
-        "price": 5775,
-        "title": "151 South Elliott Place #7R",
-        "url": "https://streeteasy.com/building/the-elliot/7r"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "42-06 Orchard Street #47N, LONG ISLAND CITY, NY, 11101",
-        "price": 7465,
-        "title": "42-06 Orchard Street #47N",
-        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/47n"
-      },
-      "reasons": [
-        "Rent $7465 outside $4000-7000",
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "349 West 84th Street #3, NEW YORK, NY, 10024",
-        "price": 6999,
-        "title": "349 West 84th Street #3",
-        "url": "https://streeteasy.com/building/349-west-84-street-new_york/3"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
         "title": "426 Park Place #1",
         "url": "https://streeteasy.com/building/426-park-place-brooklyn/1"
       },
       "reasons": [
         "Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/426-park-place-brooklyn/1: The operation was aborted due to timeout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "135 West 96th Street #2B, NEW YORK, NY, 10025",
-        "price": 4995,
-        "title": "135 West 96th Street #2B",
-        "url": "https://streeteasy.com/building/135-west-96-street-new_york/2b"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "166 West 72nd Street #3C, NEW YORK, NY, 10023",
-        "price": 5900,
-        "title": "166 West 72nd Street #3C",
-        "url": "https://streeteasy.com/building/166-west-72-street-new_york/3c"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -4177,17 +4708,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "220 Riverside Boulevard #6U, NEW YORK, NY, 10069",
-        "price": 5000,
-        "title": "220 Riverside Boulevard #6U",
-        "url": "https://streeteasy.com/building/220-riverside-boulevard/6u"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -4292,28 +4812,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "301 West 57th Street #29B, NEW YORK, NY, 10019",
-        "price": 6500,
-        "title": "301 West 57th Street #29B",
-        "url": "https://streeteasy.com/building/central-park-place/29b"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "160 West 84th Street #7A, NEW YORK, NY, 10024",
-        "price": 5400,
-        "title": "160 West 84th Street #7A",
-        "url": "https://streeteasy.com/building/160-west-84-street-new_york/7a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": null,
         "price": null,
         "title": "17 Hanover Place #26I",
@@ -4323,17 +4821,6 @@ window.__APARTMENT_REPORT__ = {
         "Rent could not be confirmed",
         "Bedroom count could not be confirmed",
         "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "345 East 92nd Street #2C, NEW YORK, NY, 10128",
-        "price": 4286,
-        "title": "345 East 92nd Street #2C",
-        "url": "https://streeteasy.com/building/345-east-92-street-new_york/2c"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
       ]
     },
     {
@@ -4404,17 +4891,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "27 West 96th Street #16E, NEW YORK, NY, 10025",
-        "price": 6000,
-        "title": "27 West 96th Street #16E",
-        "url": "https://streeteasy.com/building/27-west-96-street-new_york/16e"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "42-06 Orchard Street #46N, LONG ISLAND CITY, NY, 11101",
         "price": 7440,
         "title": "42-06 Orchard Street #46N",
@@ -4437,32 +4913,10 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "529 East 83rd Street #1R, NEW YORK, NY, 10028",
-        "price": 4950,
-        "title": "529 East 83rd Street #1R",
-        "url": "https://streeteasy.com/building/529-east-83-street-new_york/1r"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "473 Central Park West #3C, NEW YORK, NY, 10025",
         "price": 5000,
         "title": "473 Central Park West #3C",
         "url": "https://streeteasy.com/building/473-central-park-west-new_york/3c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "223 East 89th Street #0A2, NEW YORK, NY, 10128",
-        "price": 4300,
-        "title": "223 East 89th Street #0A2",
-        "url": "https://streeteasy.com/building/223-east-89-street-new_york/0a2"
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
@@ -4554,17 +5008,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "63 West 104th Street #101, NEW YORK, NY, 10025",
-        "price": 5300,
-        "title": "63 West 104th Street #101",
-        "url": "https://streeteasy.com/building/63-west-104-street-new_york/101"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -4895,17 +5338,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "223 East 74th Street #4A, NEW YORK, NY, 10021",
-        "price": 4200,
-        "title": "223 East 74th Street #4A",
-        "url": "https://streeteasy.com/building/223-east-74-street-new_york/4a"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "251 Douglass Street #802, BROOKLYN, NY, 11217",
         "price": 6000,
         "title": "251 Douglass Street #802",
@@ -5164,17 +5596,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Neighborhood excluded: Gowanus"
-      ]
-    },
-    {
-      "listing": {
-        "address": "100 Riverside Boulevard #8J, NEW YORK, NY, 10069",
-        "price": 5500,
-        "title": "100 Riverside Boulevard #8J",
-        "url": "https://streeteasy.com/building/the-avery-100-riverside-boulevard-new_york/8j"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
       ]
     },
     {
@@ -7194,8 +7615,784 @@ window.__APARTMENT_REPORT__ = {
       ]
     }
   ],
-  "newListings": [],
-  "runAt": "2026-07-16T17:32:47.411Z",
+  "newListings": [
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "unknown",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "375 Dean Street #403, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-403.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f44ac83bd2fc46a76ca41e712babfddf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/edaed25f14f92eb93ce3d5ccabc2b262-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2eee62cb5a837f1ffc5107c264259fee-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7597b2ff9b7a4668dd464511bcc3161f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/14e8604ee4b65b7ff4586ca39e47e7b6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7603ae5a26d760e3daf3f5f4ea9246b4-se_large_800_400.webp"
+        ],
+        "price": 5799,
+        "sqft": 951,
+        "title": "375 Dean Street #403",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/403",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; a private terrace/balcony is visible in photo 5; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "375 Dean Street #1605, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-1605.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9a7941d2387438e6fcfd69c89cd1499d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a8a407beec23a8c452b8a5584a6c0f06-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c1142df766e99c55cc430c05d8e7bbcd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4621aca6efafd42cbcefdb162dfdc9ce-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dc6f14fb189ce24a8628f5281b144146-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/984c0b9a4941a8b01948f6a048ef03dc-se_large_800_400.webp"
+        ],
+        "price": 4199,
+        "sqft": 601,
+        "title": "375 Dean Street #1605",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/1605",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible burners/grates; private terrace with NYC skyline view shown in first photo; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 27,
+          "lines": [
+            "M31"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 27,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 17,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "229 West 60th Street #24R, NEW YORK, NY, 10023",
+        "availableDate": "2026-07-20",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-sessanta-229-west-60th-street-new-york-24r.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a940e6a5650577155c6377b4881455fd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/40ddf6a9a5cac974025c9421ff904287-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/13917a1012c1f94f74426b208703c1a9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/04da270b75f97d7c0f2f6ed2b8b4df6a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f413c18758479e7d4903ad62fcefa95e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f972135f3959dad949d50cc6db6157c0-se_large_800_400.webp"
+        ],
+        "price": 5695,
+        "sqft": 771,
+        "title": "229 West 60th Street #24R",
+        "url": "https://streeteasy.com/building/sessanta-229-west-60th-street-new_york/24r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 60.2325,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 44.324999999999996,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 60.2325,
+      "visionNotes": "Kitchen is visible with wood cabinetry and opens via a pass-through counter to a living/dining area with sightlines; electric black cooktop visible; no outdoor space shown; living room appears spacious based on open floor plan and furniture placement."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 37,
+          "lines": [
+            "C Line",
+            "5 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 10,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 45,
+          "lines": [
+            "C Line",
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 53,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 48,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "880 Atlantic Avenue #5D, BROOKLYN, NY, 11238",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-5d.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f31dab549b08b55de2fedfe3ebde2967-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d0e36be00b8d60faa243c05299fc737c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ea33979c27ae2782a57ed643c490d135-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ecf3912ddfd56e792bc9dfcc73297766-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cec7540671c7b1f789866a9a37d238b8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aebc8ff4b2822c58581299c6f374faaa-se_extra_large_1500_800.webp"
+        ],
+        "price": 5395,
+        "sqft": null,
+        "title": "880 Atlantic Avenue #5D",
+        "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/5d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 58.095,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.095,
+      "visionNotes": "Kitchen is visible with a pass-through counter opening to dining/living area; electric cooktop visible; no private outdoor space shown; living room appears generously proportioned with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 40,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 35,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 43,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 56,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 51,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "45 Garnet Street #1B, BROOKLYN, NY, 11231",
+        "availableDate": "2026-08-16",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-45-garnet-street-brooklyn-1b.png",
+        "neighborhood": "Carroll Gardens",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/8981dfc01e49836b146980b09a8a7369-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e88d6c1d8097646af31bd8a27c648a7d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/85030581bbebef5193fcdb71505f4147-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/908743343a642272d7972f6261e09061-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/769be752cb7808edf73b9e1f007c98d5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8f616312ec6ba635ad3d476394284b81-se_large_800_400.webp"
+        ],
+        "price": 4900,
+        "sqft": 288,
+        "title": "45 Garnet Street #1B",
+        "url": "https://streeteasy.com/building/45-garnet-street-brooklyn/1b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 52.612500000000004,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 21.375,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.612500000000004,
+      "visionNotes": "Kitchen is visible with gas range (red knobs visible); opens to dining area with shared sightlines; living room is spacious with good furniture ratio; no private outdoor space visible."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "B69",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 56,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "151 Carlton Avenue #5A, BROOKLYN, NY, 11205",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-5a.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/eb8c6f83b66f00fb360ed422d162d027-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f314b3a534d3b12e3d69ce3767a91f09-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb4cf5e529e14bcebf28d2d92686c1c3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bbe872c0da593a0a25e2ebbdacf810ec-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8df89e66f4397e000abb6be6cb5dd37e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/22dec8e403239e1d1e235ff20812dd3b-se_extra_large_1500_800.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "151 Carlton Avenue #5A",
+        "url": "https://streeteasy.com/building/the-garrison/5a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.955000000000005,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 23.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.955000000000005,
+      "visionNotes": "Kitchen is visible and clearly open to living/dining area with island; stove appears to be built-in electric/induction based on flat black surface visible; outdoor space shown is a shared building amenity (rooftop), not private; living rooms are spacious with generous windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "B69",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 56,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "151 Carlton Avenue #4D, BROOKLYN, NY, 11205",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-4d.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f314b3a534d3b12e3d69ce3767a91f09-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c8e8485c6aa9faece509584ed49bc296-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/eb8c6f83b66f00fb360ed422d162d027-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8df89e66f4397e000abb6be6cb5dd37e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb4cf5e529e14bcebf28d2d92686c1c3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bbe872c0da593a0a25e2ebbdacf810ec-se_extra_large_1500_800.webp"
+        ],
+        "price": 6000,
+        "sqft": null,
+        "title": "151 Carlton Avenue #4D",
+        "url": "https://streeteasy.com/building/the-garrison/4d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.955000000000005,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 23.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.955000000000005,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area in photo 4; stove type unclear due to angle/reflection; last image shows shared roof deck amenity, not private garden; living room appears spacious with generous windows and layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 20,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "7",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 7,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 39,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 32,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "5-09 48th Avenue #6E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-5th-street-lofts-5sl-6e.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/779bf2ec547707ece03a95557ee95ecd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d4754ee6ea088689633c462847d040e4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c20e575acd0872ab614db569c3ff0f26-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a157112c434b8b2d3b3978ca0dc3a861-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2e3c5a69c139f2ce79d14dd637141015-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9a9c4c8b7da8d46fd358473d12c9fca0-se_large_800_400.webp"
+        ],
+        "price": 4500,
+        "sqft": 720,
+        "title": "5-09 48th Avenue #6E",
+        "url": "https://streeteasy.com/building/5th-street-lofts-5sl/6e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.535,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 66,
+          "weight": 0.35,
+          "minutes": 20
+        },
+        "friends": {
+          "score": 46.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.535,
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; electric cooktop visible; spacious living room with floor-to-ceiling windows; no private outdoor space shown."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 22,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "47-27 5th Street #402, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/39fc15769f59114590c0dc201d5fad62-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d328313ef64287c6c701b4e93526d331-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/daaf5a916a0c6b0d4c4c56918e054c35-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e4a4bd7f68487e1b3b033be527afa41d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/960056b63577720deefefb01f4607d87-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8ab2153d94603439b5e2cc283071315-se_large_800_400.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "47-27 5th Street #402",
+        "url": "https://streeteasy.com/building/47_27-5-street-long_island_city/402",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.9625,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 45.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.9625,
+      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
+    }
+  ],
+  "runAt": "2026-07-16T22:02:23.025Z",
   "sourcesConfigured": 1,
   "topListings": [
     {
@@ -7595,7 +8792,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
         ],
         "price": 6900,
-        "sqft": 788,
+        "sqft": 800,
         "title": "25 Central Park West #19U",
         "url": "https://streeteasy.com/building/the-century-condominium/19u",
         "washerDryer": "yes"
@@ -9889,7 +11086,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1c9ec9e016d4035ab494cb26f9bbd589-se_extra_large_1500_800.webp"
         ],
         "price": 5950,
-        "sqft": 1000,
+        "sqft": null,
         "title": "314 West 71st Street #1",
         "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
         "washerDryer": "yes"
@@ -14029,6 +15226,178 @@ window.__APARTMENT_REPORT__ = {
           ]
         },
         "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "unknown",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "375 Dean Street #403, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-403.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f44ac83bd2fc46a76ca41e712babfddf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/edaed25f14f92eb93ce3d5ccabc2b262-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2eee62cb5a837f1ffc5107c264259fee-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7597b2ff9b7a4668dd464511bcc3161f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/14e8604ee4b65b7ff4586ca39e47e7b6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7603ae5a26d760e3daf3f5f4ea9246b4-se_large_800_400.webp"
+        ],
+        "price": 5799,
+        "sqft": 951,
+        "title": "375 Dean Street #403",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/403",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; a private terrace/balcony is visible in photo 5; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 15,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "375 Dean Street #1605, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-1605.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9a7941d2387438e6fcfd69c89cd1499d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a8a407beec23a8c452b8a5584a6c0f06-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c1142df766e99c55cc430c05d8e7bbcd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4621aca6efafd42cbcefdb162dfdc9ce-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dc6f14fb189ce24a8628f5281b144146-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/984c0b9a4941a8b01948f6a048ef03dc-se_large_800_400.webp"
+        ],
+        "price": 4199,
+        "sqft": 601,
+        "title": "375 Dean Street #1605",
+        "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/1605",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 61.49499999999999,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.35,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.099999999999994,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 61.49499999999999,
+      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible burners/grates; private terrace with NYC skyline view shown in first photo; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
           "minutes": 16,
           "lines": [
             "2 Line"
@@ -14871,6 +16240,89 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 60.5175,
       "visionNotes": "Kitchen is visible and open to dining/living area with floor-to-ceiling windows; stove type cannot be determined from angles shown; no private outdoor space visible; living room is spacious with high ceilings and panoramic city views."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 27,
+          "lines": [
+            "M31"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 27,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 17,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "229 West 60th Street #24R, NEW YORK, NY, 10023",
+        "availableDate": "2026-07-20",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-sessanta-229-west-60th-street-new-york-24r.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a940e6a5650577155c6377b4881455fd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/40ddf6a9a5cac974025c9421ff904287-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/13917a1012c1f94f74426b208703c1a9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/04da270b75f97d7c0f2f6ed2b8b4df6a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f413c18758479e7d4903ad62fcefa95e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f972135f3959dad949d50cc6db6157c0-se_large_800_400.webp"
+        ],
+        "price": 5695,
+        "sqft": 771,
+        "title": "229 West 60th Street #24R",
+        "url": "https://streeteasy.com/building/sessanta-229-west-60th-street-new_york/24r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 60.2325,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 44.324999999999996,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 60.2325,
+      "visionNotes": "Kitchen is visible with wood cabinetry and opens via a pass-through counter to a living/dining area with sightlines; electric black cooktop visible; no outdoor space shown; living room appears spacious based on open floor plan and furniture placement."
     },
     {
       "commute": {
@@ -17456,6 +18908,95 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
+          "minutes": 37,
+          "lines": [
+            "C Line",
+            "5 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 10,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 45,
+          "lines": [
+            "C Line",
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 53,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 48,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "880 Atlantic Avenue #5D, BROOKLYN, NY, 11238",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-5d.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f31dab549b08b55de2fedfe3ebde2967-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d0e36be00b8d60faa243c05299fc737c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ea33979c27ae2782a57ed643c490d135-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ecf3912ddfd56e792bc9dfcc73297766-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cec7540671c7b1f789866a9a37d238b8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aebc8ff4b2822c58581299c6f374faaa-se_extra_large_1500_800.webp"
+        ],
+        "price": 5395,
+        "sqft": null,
+        "title": "880 Atlantic Avenue #5D",
+        "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/5d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 58.095,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 37.1,
+          "weight": 0.35,
+          "minutes": 37
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.095,
+      "visionNotes": "Kitchen is visible with a pass-through counter opening to dining/living area; electric cooktop visible; no private outdoor space shown; living room appears generously proportioned with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
           "minutes": 11,
           "lines": [
             "F Line"
@@ -18628,7 +20169,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/193292f7a5c38f6536b5acc8c71ba80a-se_large_800_400.webp"
         ],
         "price": 4300,
-        "sqft": null,
+        "sqft": 800,
         "title": "49 Irving Place #1",
         "url": "https://streeteasy.com/building/49-irving-place-brooklyn/1",
         "washerDryer": "yes"
@@ -19062,7 +20603,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c8649f7da207ddb105bc74640e51dab3-se_large_800_400.webp"
         ],
         "price": 5500,
-        "sqft": 1176,
+        "sqft": 176,
         "title": "535 Dean Street #418",
         "url": "https://streeteasy.com/building/newswalk-phase-3/418",
         "washerDryer": "yes"
@@ -19148,7 +20689,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/0e9cf5d6977f996566df6526f803e72c-se_medium_500_250.webp"
         ],
         "price": 6200,
-        "sqft": 950,
+        "sqft": 1000,
         "title": "241 Carlton Avenue #3",
         "url": "https://streeteasy.com/building/241-carlton-avenue-brooklyn/3",
         "washerDryer": "yes"
@@ -23183,7 +24724,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/dc0b369ce7bbe4423249227fb0a145ec-se_extra_large_1500_800.webp"
         ],
         "price": 6695,
-        "sqft": 1044,
+        "sqft": 44,
         "title": "335 Carroll Street #2D",
         "url": "https://streeteasy.com/building/335-carroll/2d",
         "washerDryer": "yes"
@@ -23210,6 +24751,93 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 52.612500000000004,
       "visionNotes": "Kitchen is semi-open to dining/living area with island seating; private outdoor space visible through French doors in multiple photos; living room is spacious with large windows and good furniture-to-space ratio; stove type unclear due to angle and reflection."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 40,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 35,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 43,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 56,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 51,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "45 Garnet Street #1B, BROOKLYN, NY, 11231",
+        "availableDate": "2026-08-16",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-45-garnet-street-brooklyn-1b.png",
+        "neighborhood": "Carroll Gardens",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/8981dfc01e49836b146980b09a8a7369-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e88d6c1d8097646af31bd8a27c648a7d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/85030581bbebef5193fcdb71505f4147-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/908743343a642272d7972f6261e09061-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/769be752cb7808edf73b9e1f007c98d5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8f616312ec6ba635ad3d476394284b81-se_large_800_400.webp"
+        ],
+        "price": 4900,
+        "sqft": 288,
+        "title": "45 Garnet Street #1B",
+        "url": "https://streeteasy.com/building/45-garnet-street-brooklyn/1b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 52.612500000000004,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.35,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 21.375,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 52.612500000000004,
+      "visionNotes": "Kitchen is visible with gas range (red knobs visible); opens to dining area with shared sightlines; living room is spacious with good furniture ratio; no private outdoor space visible."
     },
     {
       "commute": {
@@ -24222,6 +25850,182 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 51.955000000000005,
       "visionNotes": "Kitchen is open-plan to living/dining area with island; outdoor terrace visible through glass doors; living room appears spacious with high ceilings and extensive windows; stove type unclear due to angle and reflection."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "B69",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 56,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "151 Carlton Avenue #5A, BROOKLYN, NY, 11205",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-5a.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/eb8c6f83b66f00fb360ed422d162d027-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f314b3a534d3b12e3d69ce3767a91f09-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb4cf5e529e14bcebf28d2d92686c1c3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bbe872c0da593a0a25e2ebbdacf810ec-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8df89e66f4397e000abb6be6cb5dd37e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/22dec8e403239e1d1e235ff20812dd3b-se_extra_large_1500_800.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "151 Carlton Avenue #5A",
+        "url": "https://streeteasy.com/building/the-garrison/5a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.955000000000005,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 23.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.955000000000005,
+      "visionNotes": "Kitchen is visible and clearly open to living/dining area with island; stove appears to be built-in electric/induction based on flat black surface visible; outdoor space shown is a shared building amenity (rooftop), not private; living rooms are spacious with generous windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "B69",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 56,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "151 Carlton Avenue #4D, BROOKLYN, NY, 11205",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-4d.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f314b3a534d3b12e3d69ce3767a91f09-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c8e8485c6aa9faece509584ed49bc296-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/eb8c6f83b66f00fb360ed422d162d027-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8df89e66f4397e000abb6be6cb5dd37e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb4cf5e529e14bcebf28d2d92686c1c3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bbe872c0da593a0a25e2ebbdacf810ec-se_extra_large_1500_800.webp"
+        ],
+        "price": 6000,
+        "sqft": null,
+        "title": "151 Carlton Avenue #4D",
+        "url": "https://streeteasy.com/building/the-garrison/4d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.955000000000005,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.35,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 23.150000000000002,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 51.955000000000005,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area in photo 4; stove type unclear due to angle/reflection; last image shows shared roof deck amenity, not private garden; living room appears spacious with generous windows and layout."
     },
     {
       "commute": {
@@ -25820,7 +27624,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4f6e454923102f59c0562bc4e6fbb75e-se_large_800_400.webp"
         ],
         "price": 6200,
-        "sqft": 870,
+        "sqft": 930,
         "title": "27-21 44th Drive #1302",
         "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1302",
         "washerDryer": "yes"
@@ -26670,7 +28474,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/9e86209b7624f9345a188c05f840c216-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 1400,
+        "sqft": 400,
         "title": "27-28 Thomson Avenue #200",
         "url": "https://streeteasy.com/building/arris-lofts/200",
         "washerDryer": "yes"
@@ -27865,7 +29669,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 1100,
+        "sqft": 100,
         "title": "418 Henry Street #2",
         "url": "https://streeteasy.com/building/418-henry-street/2",
         "washerDryer": "yes"
@@ -28034,7 +29838,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4a15294dabc310284f199db92021c4d3-se_large_800_400.webp"
         ],
         "price": 6600,
-        "sqft": 1200,
+        "sqft": 200,
         "title": "11-39 49th Avenue #720",
         "url": "https://streeteasy.com/building/hunters-landing-lic/720",
         "washerDryer": "yes"
@@ -28121,7 +29925,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f4eec57b3ac61a3fee2290611b5314c6-se_large_800_400.webp"
         ],
         "price": 6490,
-        "sqft": 1036,
+        "sqft": 36,
         "title": "536 Henry Street #3",
         "url": "https://streeteasy.com/building/536-henry-street-brooklyn/3",
         "washerDryer": "yes"
@@ -29741,7 +31545,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": 1219,
+        "sqft": 219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -30277,6 +32081,90 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 47.535,
       "visionNotes": "Kitchen is visible and open to living/dining area with island; stove appears to have visible grates suggesting gas, but angle and reflection make it somewhat uncertain; no private outdoor space visible; living room appears reasonably sized for NYC."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 20,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "7",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 7,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 39,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 32,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "5-09 48th Avenue #6E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-5th-street-lofts-5sl-6e.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/779bf2ec547707ece03a95557ee95ecd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d4754ee6ea088689633c462847d040e4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c20e575acd0872ab614db569c3ff0f26-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a157112c434b8b2d3b3978ca0dc3a861-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2e3c5a69c139f2ce79d14dd637141015-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9a9c4c8b7da8d46fd358473d12c9fca0-se_large_800_400.webp"
+        ],
+        "price": 4500,
+        "sqft": 720,
+        "title": "5-09 48th Avenue #6E",
+        "url": "https://streeteasy.com/building/5th-street-lofts-5sl/6e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.535,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 66,
+          "weight": 0.35,
+          "minutes": 20
+        },
+        "friends": {
+          "score": 46.45,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 47.535,
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; electric cooktop visible; spacious living room with floor-to-ceiling windows; no private outdoor space shown."
     },
     {
       "commute": {
@@ -31272,7 +33160,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/e5d22084c66a99f34a2833ae54ce5ef0-se_large_800_400.webp"
         ],
         "price": 5433,
-        "sqft": 1200,
+        "sqft": 200,
         "title": "390 15th Street #1A",
         "url": "https://streeteasy.com/building/390-15-street-brooklyn/1a",
         "washerDryer": "yes"
@@ -31726,6 +33614,90 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
+          "minutes": 22,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "47-27 5th Street #402, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/39fc15769f59114590c0dc201d5fad62-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d328313ef64287c6c701b4e93526d331-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/daaf5a916a0c6b0d4c4c56918e054c35-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e4a4bd7f68487e1b3b033be527afa41d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/960056b63577720deefefb01f4607d87-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8ab2153d94603439b5e2cc283071315-se_large_800_400.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "47-27 5th Street #402",
+        "url": "https://streeteasy.com/building/47_27-5-street-long_island_city/402",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 45.9625,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.35,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.35,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 45.175000000000004,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 45.9625,
+      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
+    },
+    {
+      "commute": {
+        "office": {
           "minutes": 20,
           "lines": [
             "6 Train"
@@ -31863,7 +33835,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/34e68bbf0ca7bb3b2599375f5017d381-se_large_800_400.webp"
         ],
         "price": 5500,
-        "sqft": 1013,
+        "sqft": 13,
         "title": "2-17 51st Avenue #314",
         "url": "https://streeteasy.com/building/the-powerhouse/314",
         "washerDryer": "yes"
