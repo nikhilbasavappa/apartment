@@ -918,13 +918,13 @@ window.__APARTMENT_REPORT__ = {
       },
       "livingRoomSmall": false,
       "needsEarlyAction": true,
-      "neighborhoodTier": "other",
+      "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 40.097500000000004,
+        "total": 57.597500000000004,
         "neighborhood": {
-          "score": 30,
+          "score": 80,
           "weight": 0.35,
-          "tier": "other"
+          "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
@@ -936,7 +936,7 @@ window.__APARTMENT_REPORT__ = {
           "weight": 0.3
         }
       },
-      "rankScore": 40.097500000000004,
+      "rankScore": 57.597500000000004,
       "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
     },
     {
@@ -1085,13 +1085,13 @@ window.__APARTMENT_REPORT__ = {
       },
       "livingRoomSmall": false,
       "needsEarlyAction": true,
-      "neighborhoodTier": "other",
+      "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 53.7825,
+        "total": 71.2825,
         "neighborhood": {
-          "score": 30,
+          "score": 80,
           "weight": 0.35,
-          "tier": "other"
+          "tier": "uwsAcceptable"
         },
         "office": {
           "score": 76.2,
@@ -1103,7 +1103,7 @@ window.__APARTMENT_REPORT__ = {
           "weight": 0.3
         }
       },
-      "rankScore": 53.7825,
+      "rankScore": 71.2825,
       "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
     },
     {
@@ -6812,865 +6812,265 @@ window.__APARTMENT_REPORT__ = {
       ]
     }
   ],
-  "newListings": [
+  "newListings": [],
+  "runAt": "2026-07-15T15:18:49.252Z",
+  "sourcesConfigured": 1,
+  "topListings": [
     {
       "commute": {
         "office": {
-          "minutes": 32,
+          "minutes": 22,
           "lines": [
-            "B Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "B Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "80 Dekalb Avenue #26K, BROOKLYN, NY, 11201",
-        "availableDate": "2026-08-12",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-80-dekalb-26k.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ebf388bd9d1fcd60728a74a081284010-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dc485e89b5d2d35e5ea97821e5556c9b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/abd4c433ca6fcdfe8f714b4f2e661415-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4205e222e101bbe6bd3960985f81bb5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3d788e80520f84c60d030d607607c081-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6c5fa85edbdeca7b34d5613ca4456b8d-se_large_800_400.webp"
-        ],
-        "price": 4625,
-        "sqft": null,
-        "title": "80 Dekalb Avenue #26K",
-        "url": "https://streeteasy.com/building/80-dekalb/26k",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 62.4725,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 45.6,
-          "weight": 0.35,
-          "minutes": 32
-        },
-        "friends": {
-          "score": 38.375,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 62.4725,
-      "visionNotes": "Kitchen is semi-open to living/dining area via counter island; electric stove visible; private terrace with planters and city views; living room is spacious with good furniture-to-space ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 35,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "662 Pacific Street #26B, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-plank-road-26b.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5662fa75230a5779e96a61403b1a1cf9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/11c9c12d6adb2363784fc980267b9e2b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3b20064e0208fc110dbcfffaaa323fa5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a463a31a603fcc310cc9ec4153647444-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6bb6ec6b5f1ab43ab4884f6d16ea35a8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/69090f9e13c08b82d356f70384e4efb0-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "662 Pacific Street #26B",
-        "url": "https://streeteasy.com/building/plank-road/26b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 59.795,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 40.5,
-          "weight": 0.35,
-          "minutes": 35
-        },
-        "friends": {
-          "score": 35.400000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 59.795,
-      "visionNotes": "Kitchen with island is visible and opens into a spacious living/dining area with floor-to-ceiling windows; no private outdoor space visible; stove burners/cooktop type not clearly distinguishable from these angles."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 36,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 63,
-          "lines": [
-            "G Line",
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 56,
-          "lines": [
-            "G Line",
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "122 Willoughby Avenue #3, BROOKLYN, NY, 11205",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-122-willoughby-avenue-brooklyn-3.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/02bf07e5b3ed370c674470c946ae305a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/feab6de70b0074d61cc387339c4dae5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9853fae26c38fd2cf44d024c780f5cda-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/81ab0562eeab403306117145fae6e0da-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bcace7cf7ff5220c00e826da69890cbd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e708c8ad7926aafba0e8ea7538ac0d95-se_large_800_400.webp"
-        ],
-        "price": 5000,
-        "sqft": null,
-        "title": "122 Willoughby Avenue #3",
-        "url": "https://streeteasy.com/building/122-willoughby-avenue-brooklyn/3",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 57.055,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 38.800000000000004,
-          "weight": 0.35,
-          "minutes": 36
-        },
-        "friends": {
-          "score": 28.25,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 57.055,
-      "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas stove with visible burner grates; no private outdoor space visible; living room is spacious with good furniture-to-room ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 9,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 50,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "550 Vanderbilt Avenue #717, BROOKLYN, NY, 11238",
-        "availableDate": "2026-09-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-550-vanderbilt-avenue-brooklyn-717.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5d772efe64d82c2e8a899a6a9261dfe1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd186cdafa40a81a9f1dfab1d8c648a0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/53a666434b967610e18f4c3bd88210c8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b4e6e9e231733e9e9087ee81f1cea9f8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bb3556efedd50e4d94c7989fd4b13d38-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4b5e1e243f0b1384645925259710645b-se_large_800_400.webp"
-        ],
-        "price": 4850,
-        "sqft": 642,
-        "title": "550 Vanderbilt Avenue #717",
-        "url": "https://streeteasy.com/building/550-vanderbilt-avenue-brooklyn/717",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 54.10000000000001,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.35,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 30.3,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 54.10000000000001,
-      "visionNotes": "Kitchen is fully open to living/dining area with large island; cooktop appears to be electric/induction (flat surface); no private outdoor space visible; living room is generously sized for NYC with good natural light from floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 31,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 43,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 52,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "411 Sackett Street #1, BROOKLYN, NY, 11231",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-411-sackett-street-brooklyn-1.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/25892bacf3291712451a81063f81a129-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/04bd1210c9fe1592db5deabe03bec18f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1ceaf83cfc0053267f26282a4a76d2fd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5cf5c249a0c9125ed5bfd771faef1d57-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a53f6f0c40402710856c74a1fdef4d54-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7677ad80518e873828c9c941d0d22180-se_large_800_400.webp"
-        ],
-        "price": 6495,
-        "sqft": null,
-        "title": "411 Sackett Street #1",
-        "url": "https://streeteasy.com/building/411-sackett-street-brooklyn/1",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.995000000000005,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.35,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 22.650000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 52.995000000000005,
-      "visionNotes": "Kitchen is visible in multiple photos with a gas range clearly showing burners/grates; it opens to a dining area with sightlines and shared space; living room is spacious with well-proportioned furniture layout; no private outdoor space visible."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 43,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 37,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 58,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 54,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "536 Henry Street #3, BROOKLYN, NY, 11231",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-536-henry-street-brooklyn-3.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fe59b0de1e093654fa1673264f52830b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1cdc08b137a6bff9addca576271e51a0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/194c9e6be55a3a4e44fa0a5f088c7e8d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e802f8b08fc5506639434fd8af9a5104-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/346804fa5ff08b0ef2c8a249f7699b7d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f4eec57b3ac61a3fee2290611b5314c6-se_large_800_400.webp"
-        ],
-        "price": 6490,
-        "sqft": 36,
-        "title": "536 Henry Street #3",
-        "url": "https://streeteasy.com/building/536-henry-street-brooklyn/3",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.5525,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.35,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 17.125,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.5525,
-      "visionNotes": "Kitchen is visible with gas cooktop (visible burners/grates), semi-open to dining/living area via island counter; living room appears spacious with multiple windows and good furniture-to-space ratio; no private outdoor space visible."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 20,
-          "lines": [
-            "B Line",
+            "1 Line",
+            "D Line",
             "E Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 46,
+          "minutes": 45,
           "lines": [
-            "B Line"
+            "2 Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 35,
+          "minutes": 32,
           "lines": [
-            "1 Line",
+            "3 Line",
             "7"
           ]
         },
         "morningsideHeights": {
-          "minutes": 20,
+          "minutes": 18,
           "lines": [
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 13,
+          "minutes": 11,
           "lines": [
             "M7"
           ]
         }
       },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "gasStove": "no",
       "hasGarden": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "listing": {
-        "address": "75 West 68th Street #3R, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-03",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-75-west-68-street-new-york-3r.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/eb57331132c848ba2d25223ec8f9090d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f63e85f11be6b073086e3003e78ea666-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/71f6dbe0269d112ce4b3faec9bc7d5da-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/915d237f0605d688a5cd470b777160dd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4418877bc5b79ad48e27dbdb814546bb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b0772d2ce3042437ba74cb597cf6c4c3-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": null,
-        "title": "75 West 68th Street #3R",
-        "url": "https://streeteasy.com/building/75-west-68-street-new_york/3r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.06499999999999,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.35,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 51.55,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.06499999999999,
-      "visionNotes": "Kitchen is visible with black electric range and stainless steel appliances, opens into living/dining area; living room is spacious with good furniture layout; no outdoor space shown; unit appears to be a one-bedroom with additional office/workspace areas."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 44,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 39,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 60,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 55,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "140 President Street #3, BROOKLYN, NY, 11231",
+        "address": "244 West 72nd Street #10A, NEW YORK, NY, 10023",
         "availableDate": "now",
         "bathrooms": 1,
-        "bedrooms": 2,
+        "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-140-president-street-brooklyn-3.png",
-        "neighborhood": "Carroll Gardens",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-10a.png",
+        "neighborhood": "Lincoln Square",
         "photos": [
-          "https://photos.zillowstatic.com/fp/b571b4798f6d15c57f8cc45b85c3fcc5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/918e3ad9e1da6cbe002c5922eb60c858-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/05b26835aabd3d2eeb5a838666124c7f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b86c8a670d5c20281d1a18ce00f0ae71-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d8ca446b538190e40341a367ed6ff924-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/62990afa49f5f19a858f4e51c0ffa6d2-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/acae91c6b6ff4498f1f9937ff5039149-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c5d7c970e7a7869b36e3d409d8824423-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3fe2be85077de66890ebea88612240c1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/46bf22d2768c9b292aad10ae21ad11ff-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/107fc112192852019f152210d7fec9b2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8b8c2232e37ee63b55200dacfe1850f-se_large_800_400.webp"
         ],
-        "price": 5500,
+        "price": 6250,
         "sqft": null,
-        "title": "140 President Street #3",
-        "url": "https://streeteasy.com/building/140-president-street-brooklyn/3",
+        "title": "244 West 72nd Street #10A",
+        "url": "https://streeteasy.com/building/244w72/10a",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
+      "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 48.3425,
+        "total": 73.395,
         "neighborhood": {
           "score": 100,
           "weight": 0.35,
-          "tier": "brooklyn"
+          "tier": "uwsIdeal"
         },
         "office": {
-          "score": 25.200000000000003,
+          "score": 62.6,
           "weight": 0.35,
-          "minutes": 44
+          "minutes": 22
         },
         "friends": {
-          "score": 15.075000000000003,
+          "score": 54.949999999999996,
           "weight": 0.3
         }
       },
-      "rankScore": 48.3425,
-      "visionNotes": "Kitchen is semi-open to dining/living area; gas range visible with visible burners; photo 1 shows ivy-covered outdoor space accessible from living area; living room appears spacious with good furniture-to-space ratio."
+      "rankScore": 73.395,
+      "visionNotes": "Kitchen is visible and open to a dining/living area with electric range; living room has ample space with comfortable furniture arrangement; no private outdoor space shown."
     },
     {
       "commute": {
         "office": {
-          "minutes": 28,
+          "minutes": 22,
           "lines": [
-            "M57"
+            "1 Line",
+            "D Line",
+            "E Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 56,
+          "minutes": 45,
           "lines": [
-            "M57",
             "2 Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 41,
+          "minutes": 32,
           "lines": [
-            "1 Line",
+            "3 Line",
             "7"
           ]
         },
         "morningsideHeights": {
-          "minutes": 26,
+          "minutes": 18,
           "lines": [
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 18,
+          "minutes": 11,
           "lines": [
-            "M11"
+            "M7"
           ]
         }
       },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "gasStove": "yes",
       "hasGarden": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "listing": {
-        "address": "101 West End Avenue #17A, NEW YORK, NY, 10069",
+        "address": "244 West 72nd Street #9B, NEW YORK, NY, 10023",
         "availableDate": "now",
-        "bathrooms": 1.5,
-        "bedrooms": 1,
+        "bathrooms": 1,
+        "bedrooms": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-9b.png",
         "neighborhood": "Lincoln Square",
         "photos": [
-          "https://photos.zillowstatic.com/fp/4fc2b7088043ab3bb617fa0e84e5be8a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d07cae5ea47fa615ded40ff1fcfe6818-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/035532b16c2162bdf7f8e64b34fc046e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c32f02a8641cda30556cecd678b8ccf4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/d7379ca708a13821834d209e073e3a1c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1a2a52cbd239adff2520028e94332898-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/86a99e603cf38fdd576d12eca27ded45-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8f5f72b8bf87fbc0c2bc6b37aeebfb1a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3eb15bcd64275c59449d5778ef1ce2e2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/397bc51335ea1354482efadf6cd4b961-se_large_800_400.webp"
         ],
-        "price": 6995,
-        "sqft": 863,
-        "title": "101 West End Avenue #17A",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/17a",
+        "price": 6500,
+        "sqft": null,
+        "title": "244 West 72nd Street #9B",
+        "url": "https://streeteasy.com/building/244w72/9b",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "other",
+      "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 40.8625,
+        "total": 73.395,
         "neighborhood": {
-          "score": 30,
+          "score": 100,
           "weight": 0.35,
-          "tier": "other"
+          "tier": "uwsIdeal"
         },
         "office": {
-          "score": 52.4,
+          "score": 62.6,
           "weight": 0.35,
-          "minutes": 28
+          "minutes": 22
         },
         "friends": {
-          "score": 40.075,
+          "score": 54.949999999999996,
           "weight": 0.3
         }
       },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; the last photo shows a shared building courtyard, not private outdoor space; living rooms appear spacious based on the first and third photos."
+      "rankScore": 73.395,
+      "visionNotes": "Kitchen is open to living/dining area; gas range visible with grates in close-up photo; spacious living room with good furniture-to-space ratio; no private outdoor space visible, only windows with NYC building views."
     },
     {
       "commute": {
         "office": {
-          "minutes": 28,
+          "minutes": 22,
           "lines": [
-            "M57"
+            "1 Line",
+            "D Line",
+            "E Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 56,
+          "minutes": 45,
           "lines": [
-            "M57",
             "2 Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 41,
+          "minutes": 32,
           "lines": [
-            "1 Line",
+            "3 Line",
             "7"
           ]
         },
         "morningsideHeights": {
-          "minutes": 26,
+          "minutes": 18,
           "lines": [
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 18,
+          "minutes": 11,
           "lines": [
-            "M11"
+            "M7"
           ]
         }
       },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "gasStove": "yes",
       "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
-        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
-        "availableDate": "2026-07-20",
+        "address": "244 West 72nd Street #15C, NEW YORK, NY, 10023",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-14d.png",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-15c.png",
         "neighborhood": "Lincoln Square",
         "photos": [
-          "https://photos.zillowstatic.com/fp/671df044119ed0c99cfef4f763820c3a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2c8030b68c0b4f1d516a8252fa57fd8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/54b40fcea355ec673a89f67298f22be1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/65a79a3a6ab26819baae2eb4b99d0a83-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c8ac7d3d4ebb08f5f29787ee68b8bd6a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/b68b4d75b20ba3142eabcdaa85517b11-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6427bea85c4accf4b48fab046a86ce6a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cc6df54a886f90277b238bff1d941c0b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5c6fde2c9fa9ab517714a1a4fefd5664-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/99da83f345089a7af16f92769636621c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c013a9f57e68ea1997cf029fce8b8313-se_large_800_400.webp"
         ],
-        "price": 6325,
+        "price": 6350,
         "sqft": null,
-        "title": "101 West End Avenue #14D",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d",
+        "title": "244 West 72nd Street #15C",
+        "url": "https://streeteasy.com/building/244w72/15c",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "other",
+      "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 40.8625,
+        "total": 73.395,
         "neighborhood": {
-          "score": 30,
+          "score": 100,
           "weight": 0.35,
-          "tier": "other"
+          "tier": "uwsIdeal"
         },
         "office": {
-          "score": 52.4,
+          "score": 62.6,
           "weight": 0.35,
-          "minutes": 28
+          "minutes": 22
         },
         "friends": {
-          "score": 40.075,
+          "score": 54.949999999999996,
           "weight": 0.3
         }
       },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen is semi-open with a peninsula counter overlooking the living/dining area; gas cooktop visible in kitchen; outdoor space shown is a shared building courtyard with playground, not private; living room appears spacious with large windows."
-    }
-  ],
-  "runAt": "2026-07-15T15:18:49.252Z",
-  "sourcesConfigured": 1,
-  "topListings": [
+      "rankScore": 73.395,
+      "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with visible burners; living room appears spacious with good furniture arrangement; no private outdoor space shown."
+    },
     {
       "commute": {
         "office": {
@@ -7756,6 +7156,90 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 72.0775,
       "visionNotes": "Kitchen is visible in photo 1 with a pass-through counter opening to the living/dining area; living room appears spacious with good sightlines; no outdoor space visible; stove type cannot be determined from angle/resolution shown."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 14,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 40,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 31,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 14,
+          "lines": [
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "25 Central Park West #19U, NEW YORK, NY, 10023",
+        "availableDate": "2026-09-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-century-condominium-19u.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d1c224cf298f5d66e4b26a8b977ec14e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2a93dad2e7040ddf97376ec5dcf07cfb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7d5f07f880bddc045f4800f78856fe53-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
+        ],
+        "price": 6900,
+        "sqft": 800,
+        "title": "25 Central Park West #19U",
+        "url": "https://streeteasy.com/building/the-century-condominium/19u",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 71.2825,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.35,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 55.375,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 71.2825,
+      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
     },
     {
       "commute": {
@@ -7929,6 +7413,258 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
+          "minutes": 17,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 42,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 33,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 22,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 17,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-12T13:00:06.156Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "124 West 60th Street #35A, NEW YORK, NY, 10023",
+        "availableDate": "2026-08-04",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-south-park-tower-35a.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/155ae2f9526d4383d44d8aa89ef13df6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b13147036dbacf02460fdadc705c7eaa-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7671a8ee05a857407f7370c53f4e1eef-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ad7e93f879144acd63debf6179fd57dd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c582d499ab6e386270d22f33ccf41eb3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9b55af19fb3b578eabe656a862db2c56-se_large_800_400.webp"
+        ],
+        "price": 6500,
+        "sqft": null,
+        "title": "124 West 60th Street #35A",
+        "url": "https://streeteasy.com/building/south-park-tower/35a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 68.35,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 71.1,
+          "weight": 0.35,
+          "minutes": 17
+        },
+        "friends": {
+          "score": 51.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 68.35,
+      "visionNotes": "Kitchen visible in first photo opening directly to dining/living area (open-plan); no stove details visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 19,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 45,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 36,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 21,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 13,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "72 West 69th Street #4A, NEW YORK, NY, 10023",
+        "availableDate": "2026-08-04",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-72-west-69-street-new-york-4a.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6ece23ad1a3811f37441e03d73009c7f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/28291a7106214c837b13787d8b75a58c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1888ba8fcedfc090ea71cc1ebf2ed703-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c0eafb68513f9edfa47ffc4401cdc1b1-se_large_800_400.webp"
+        ],
+        "price": 4950,
+        "sqft": null,
+        "title": "72 West 69th Street #4A",
+        "url": "https://streeteasy.com/building/72-west-69-street-new_york/4a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 67.0325,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 67.7,
+          "weight": 0.35,
+          "minutes": 19
+        },
+        "friends": {
+          "score": 51.12500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 67.0325,
+      "visionNotes": "Kitchen is fully open to living/dining area with induction cooktop visible; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 20,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 46,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 35,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 13,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "75 West 68th Street #3R, NEW YORK, NY, 10023",
+        "availableDate": "2026-08-03",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-75-west-68-street-new-york-3r.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/eb57331132c848ba2d25223ec8f9090d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f63e85f11be6b073086e3003e78ea666-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/71f6dbe0269d112ce4b3faec9bc7d5da-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/915d237f0605d688a5cd470b777160dd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4418877bc5b79ad48e27dbdb814546bb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b0772d2ce3042437ba74cb597cf6c4c3-se_large_800_400.webp"
+        ],
+        "price": 6000,
+        "sqft": null,
+        "title": "75 West 68th Street #3R",
+        "url": "https://streeteasy.com/building/75-west-68-street-new_york/3r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 66.565,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 66,
+          "weight": 0.35,
+          "minutes": 20
+        },
+        "friends": {
+          "score": 51.55,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 66.565,
+      "visionNotes": "Kitchen is visible with black electric range and stainless steel appliances, opens into living/dining area; living room is spacious with good furniture layout; no outdoor space shown; unit appears to be a one-bedroom with additional office/workspace areas."
+    },
+    {
+      "commute": {
+        "office": {
           "minutes": 22,
           "lines": [
             "B Line",
@@ -8009,6 +7745,91 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 65.24749999999999,
       "visionNotes": "Kitchen is visible and opens to living area via counter; gas burners visible on stove; no private outdoor space shown; living room appears spacious with good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 23,
+          "lines": [
+            "1 Line",
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 34,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 11,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-13T14:51:59.429Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "170 Amsterdam Avenue #7I, NEW YORK, NY, 10023",
+        "availableDate": "2026-08-19",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-170-amsterdam-07i.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4261349dcd3bad8d4bcca36f3236ba02-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b8c78b60c8ce827914ff88b0d8b83971-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6a667ec17fd93ab58282132710fd7fb6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cce36a2d318cb69d005de098effa5da7-se_large_800_400.webp"
+        ],
+        "price": 6540,
+        "sqft": 689,
+        "title": "170 Amsterdam Avenue #7I",
+        "url": "https://streeteasy.com/building/170-amsterdam/07i",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 65.035,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.35,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 52.400000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 65.035,
+      "visionNotes": "Kitchen is visible and open to living area with island counter; gas cooktop with visible burner grates; no private outdoor space shown; building appears to be modern high-rise with shared amenities only."
     },
     {
       "commute": {
@@ -9458,6 +9279,91 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 62.2175,
       "visionNotes": "Kitchen is semi-open to dining area with clear sightlines; electric stove/oven visible; unit has high-rise balcony (shared building amenity, not private garden); living room is spacious with proper furniture scale."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 26,
+          "lines": [
+            "1 Line",
+            "D Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 49,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 36,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 22,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 14,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "314 West 71st Street #1, NEW YORK, NY, 10023",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-314-west-71-street-new-york-1.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/c018ec26a44f4150b163458db9c51d7b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/59091ca3f55c3a58e439f0b105136c81-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6d7cc0080ebf342f7d0e0b29bd790fb0-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/75fc7d4a0a2274ccc23033dbb4e6bac2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/174dff977bdd4716fef22db45a511768-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1c9ec9e016d4035ab494cb26f9bbd589-se_extra_large_1500_800.webp"
+        ],
+        "price": 5950,
+        "sqft": null,
+        "title": "314 West 71st Street #1",
+        "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 62.1025,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.35,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 48.575,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 62.1025,
+      "visionNotes": "Kitchen is clearly visible and open to dining area; gas range with visible burners/grates is evident in photo 2; living room is spacious per floor plan (15' x 20'4\"); no private outdoor space visible."
     },
     {
       "commute": {
@@ -14935,6 +14841,89 @@ window.__APARTMENT_REPORT__ = {
         "office": {
           "minutes": 35,
           "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 32,
+          "lines": [
+            "M5"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "160 Riverside Boulevard #11A, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-160-riverside-boulevard-11a.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/1018041bacb423a2721bfaeb3eb46c90-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1018041bacb423a2721bfaeb3eb46c90-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cde741be1e34a7a8b812acf8bfe29efa-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2aa05383c0599c02af8d30362079827a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/94dd3cf9dbe540167a2ba3f6f5bb9ef1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/904067996081726d3f255dc9fe72a8c7-se_large_800_400.webp"
+        ],
+        "price": 5600,
+        "sqft": 825,
+        "title": "160 Riverside Boulevard #11A",
+        "url": "https://streeteasy.com/building/160-riverside-boulevard/11a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsIdeal",
+      "rankBreakdown": {
+        "total": 59.6675,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.35,
+          "tier": "uwsIdeal"
+        },
+        "office": {
+          "score": 40.5,
+          "weight": 0.35,
+          "minutes": 35
+        },
+        "friends": {
+          "score": 34.97500000000001,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 59.6675,
+      "visionNotes": "Kitchen is visible in photos 4-6 as a compact galley-style space with a small counter/shelf area; it opens to the living room but is partially separated by a half-wall, making it semi-open; stove type cannot be determined from the angle and resolution; no private outdoor space visible; living room is spacious with good proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 35,
+          "lines": [
             "4 Line",
             "6 Train"
           ]
@@ -15529,6 +15518,425 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 58.817499999999995,
       "visionNotes": "Kitchen is clearly visible and open to the living area; stove is electric with a flat black cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only street-level views and shared building exterior."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 27,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 51,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 42,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 31,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "21 West End Avenue #3813, NEW YORK, NY, 10023",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-21-west-end-avenue-new-york-3813.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/89adf2c4733444ad1302b61e06110fcb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6fea7309d4a06720ea19f2501e6388fa-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/90fd262944074b87b4b37ae0b84c6747-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1038da0226dfa0bb64b33ffca915688f-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a16e4a74b27ce2428f13a24f64cc5dd9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/24c3adc3a1569a89885207a883518b74-se_extra_large_1500_800.webp"
+        ],
+        "price": 6275,
+        "sqft": null,
+        "title": "21 West End Avenue #3813",
+        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.447500000000005,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.35,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 38.375000000000014,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.447500000000005,
+      "visionNotes": "Kitchen is visible and open to living area with a peninsula counter; stove/cooktop not clearly visible; large living room with expansive windows and city views; no private outdoor space visible, last image is building lobby."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-09T23:56:55.413Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "101 West End Avenue #9N, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-9n.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/32b6ed67b1f111ea75e5dfb5af2834f0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4d20f80422656379ce66cade2b10992d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/100f756d54a91a2d996152d5c8e1bd82-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9cd8fd4dc4a5829a44be9a26581a812b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/148651dc916c3718f9227b66de15c8d4-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp"
+        ],
+        "price": 6350,
+        "sqft": null,
+        "title": "101 West End Avenue #9N",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/9n?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=3uipglpX91nlXFn5PE0wjoGlxpw_F-LBctjQkB-nw73u2sSD7SId1MMFHaeaDiUX-FlA_9kSS2MN9fJn",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.362500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.362500000000004,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; gas cooktop with visible burners; no private outdoor space shown; living room appears spacious with high ceilings."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "101 West End Avenue #11Q, NEW YORK, NY, 10069",
+        "availableDate": "2026-07-29",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-11q.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d28a24ad9a5fd48214201ada084e2de8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/46e0e73e7fb15c0698ccfebdea7cea72-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d29a09e923d57d2fccc120921c7571e1-se_large_800_400.webp"
+        ],
+        "price": 6800,
+        "sqft": 515,
+        "title": "101 West End Avenue #11Q",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.362500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.362500000000004,
+      "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "101 West End Avenue #17A, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/4fc2b7088043ab3bb617fa0e84e5be8a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d07cae5ea47fa615ded40ff1fcfe6818-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/035532b16c2162bdf7f8e64b34fc046e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c32f02a8641cda30556cecd678b8ccf4-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+        ],
+        "price": 6995,
+        "sqft": 863,
+        "title": "101 West End Avenue #17A",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/17a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.362500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.362500000000004,
+      "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; the last photo shows a shared building courtyard, not private outdoor space; living rooms appear spacious based on the first and third photos."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
+        "availableDate": "2026-07-20",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-14d.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/671df044119ed0c99cfef4f763820c3a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/2c8030b68c0b4f1d516a8252fa57fd8b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/54b40fcea355ec673a89f67298f22be1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/65a79a3a6ab26819baae2eb4b99d0a83-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c8ac7d3d4ebb08f5f29787ee68b8bd6a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+        ],
+        "price": 6325,
+        "sqft": null,
+        "title": "101 West End Avenue #14D",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.362500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 58.362500000000004,
+      "visionNotes": "Kitchen is semi-open with a peninsula counter overlooking the living/dining area; gas cooktop visible in kitchen; outdoor space shown is a shared building courtyard with playground, not private; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -16573,6 +16981,172 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 57.755,
       "visionNotes": "Kitchen is clearly visible and open to the living area; gas range with visible burners is evident; the outdoor space shown is a shared building amenity (rooftop/courtyard), not private; living room is spacious with ample furniture placement."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 29,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "400 West 63rd Street #314, NEW YORK, NY, 10069",
+        "availableDate": "2026-09-10",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-314.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/807c2d5017c7cbb85a54eb271cae058d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/51bf63770af26287fba4c36d3d9a7820-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/308c2d936570d716c869629e10b3a414-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b170bb421ad6702a4f0a972efa2797a8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9f2bad3844abba0df4d018364f1118a2-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
+        ],
+        "price": 6349,
+        "sqft": 846,
+        "title": "400 West 63rd Street #314",
+        "url": "https://streeteasy.com/building/the-ashley/314",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 57.597500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 57.597500000000004,
+      "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 29,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "400 West 63rd Street #1804, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-1804.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/074bb52379164fe4323d2a735f26f523-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7292c7a58a4cf3739276b6625b5f4b3d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/13a24418e3d2d035172d404424531abd-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9546873053c44f2de7fd420af7bd4f6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ea997410fe6c4f5fbf179b78079bd5d0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4f383c53857f2172833efffae7562a25-se_extra_large_1500_800.webp"
+        ],
+        "price": 6028,
+        "sqft": 676,
+        "title": "400 West 63rd Street #1804",
+        "url": "https://streeteasy.com/building/the-ashley/1804",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 57.597500000000004,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.35,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.35,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.3
+        }
+      },
+      "rankScore": 57.597500000000004,
+      "visionNotes": "Kitchen is visible and open to living/dining area; no stove/range visible in photos; no private outdoor space; living room is spacious with large windows and comfortable furniture layout."
     },
     {
       "commute": {
@@ -19329,90 +19903,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 53.824999999999996,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove has visible burner grates indicating gas; no private outdoor space shown; living room appears reasonably proportioned for NYC one-bedroom."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 14,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 40,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 31,
-          "lines": [
-            "D Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 14,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "25 Central Park West #19U, NEW YORK, NY, 10023",
-        "availableDate": "2026-09-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-century-condominium-19u.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d3ddb5da8556d03e3838aa7e4eb450df-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d1c224cf298f5d66e4b26a8b977ec14e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2a93dad2e7040ddf97376ec5dcf07cfb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7d5f07f880bddc045f4800f78856fe53-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
-        ],
-        "price": 6900,
-        "sqft": 800,
-        "title": "25 Central Park West #19U",
-        "url": "https://streeteasy.com/building/the-century-condominium/19u",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 53.7825,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 76.2,
-          "weight": 0.35,
-          "minutes": 14
-        },
-        "friends": {
-          "score": 55.375,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 53.7825,
-      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
     },
     {
       "commute": {
@@ -24031,90 +24521,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 17,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 33,
-          "lines": [
-            "D Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 22,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 17,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-12T13:00:06.156Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "124 West 60th Street #35A, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-04",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-south-park-tower-35a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/155ae2f9526d4383d44d8aa89ef13df6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b13147036dbacf02460fdadc705c7eaa-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7671a8ee05a857407f7370c53f4e1eef-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ad7e93f879144acd63debf6179fd57dd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c582d499ab6e386270d22f33ccf41eb3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9b55af19fb3b578eabe656a862db2c56-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": null,
-        "title": "124 West 60th Street #35A",
-        "url": "https://streeteasy.com/building/south-park-tower/35a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.849999999999994,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 71.1,
-          "weight": 0.35,
-          "minutes": 17
-        },
-        "friends": {
-          "score": 51.55,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 50.849999999999994,
-      "visionNotes": "Kitchen visible in first photo opening directly to dining/living area (open-plan); no stove details visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 12,
           "lines": [
             "F Line"
@@ -26585,90 +26991,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 19,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 21,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 13,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "72 West 69th Street #4A, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-04",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-72-west-69-street-new-york-4a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6ece23ad1a3811f37441e03d73009c7f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/28291a7106214c837b13787d8b75a58c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1888ba8fcedfc090ea71cc1ebf2ed703-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c0eafb68513f9edfa47ffc4401cdc1b1-se_large_800_400.webp"
-        ],
-        "price": 4950,
-        "sqft": null,
-        "title": "72 West 69th Street #4A",
-        "url": "https://streeteasy.com/building/72-west-69-street-new_york/4a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.5325,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 67.7,
-          "weight": 0.35,
-          "minutes": 19
-        },
-        "friends": {
-          "score": 51.12500000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.5325,
-      "visionNotes": "Kitchen is fully open to living/dining area with induction cooktop visible; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -26750,90 +27072,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 49.065000000000005,
       "visionNotes": "Kitchen is visible with island opening to living/dining area; electric stove with flat cooktop visible; no private outdoor space (only NYC skyline views from windows); living room is spacious with floor-to-ceiling windows and minimal furniture."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 20,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 13,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "75 West 68th Street #3R, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-03",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-75-west-68-street-new-york-3r.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/eb57331132c848ba2d25223ec8f9090d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f63e85f11be6b073086e3003e78ea666-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/71f6dbe0269d112ce4b3faec9bc7d5da-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/915d237f0605d688a5cd470b777160dd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4418877bc5b79ad48e27dbdb814546bb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b0772d2ce3042437ba74cb597cf6c4c3-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": null,
-        "title": "75 West 68th Street #3R",
-        "url": "https://streeteasy.com/building/75-west-68-street-new_york/3r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.06499999999999,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.35,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 51.55,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.06499999999999,
-      "visionNotes": "Kitchen is visible with black electric range and stainless steel appliances, opens into living/dining area; living room is spacious with good furniture layout; no outdoor space shown; unit appears to be a one-bedroom with additional office/workspace areas."
     },
     {
       "commute": {
@@ -27174,261 +27412,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 48.895,
       "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric/induction cooktop; outdoor spaces shown are shared building amenities (roof deck, gym), not private to the unit; living room is spacious with large windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 18,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "244 West 72nd Street #10A, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-10a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/acae91c6b6ff4498f1f9937ff5039149-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c5d7c970e7a7869b36e3d409d8824423-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3fe2be85077de66890ebea88612240c1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/46bf22d2768c9b292aad10ae21ad11ff-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/107fc112192852019f152210d7fec9b2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f8b8c2232e37ee63b55200dacfe1850f-se_large_800_400.webp"
-        ],
-        "price": 6250,
-        "sqft": null,
-        "title": "244 West 72nd Street #10A",
-        "url": "https://streeteasy.com/building/244w72/10a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.894999999999996,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 54.949999999999996,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.894999999999996,
-      "visionNotes": "Kitchen is visible and open to a dining/living area with electric range; living room has ample space with comfortable furniture arrangement; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 18,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "244 West 72nd Street #9B, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-9b.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d7379ca708a13821834d209e073e3a1c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1a2a52cbd239adff2520028e94332898-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/86a99e603cf38fdd576d12eca27ded45-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8f5f72b8bf87fbc0c2bc6b37aeebfb1a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3eb15bcd64275c59449d5778ef1ce2e2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/397bc51335ea1354482efadf6cd4b961-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": null,
-        "title": "244 West 72nd Street #9B",
-        "url": "https://streeteasy.com/building/244w72/9b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.894999999999996,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 54.949999999999996,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.894999999999996,
-      "visionNotes": "Kitchen is open to living/dining area; gas range visible with grates in close-up photo; spacious living room with good furniture-to-space ratio; no private outdoor space visible, only windows with NYC building views."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 32,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 18,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "244 West 72nd Street #15C, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-15c.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b68b4d75b20ba3142eabcdaa85517b11-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6427bea85c4accf4b48fab046a86ce6a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cc6df54a886f90277b238bff1d941c0b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5c6fde2c9fa9ab517714a1a4fefd5664-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/99da83f345089a7af16f92769636621c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c013a9f57e68ea1997cf029fce8b8313-se_large_800_400.webp"
-        ],
-        "price": 6350,
-        "sqft": null,
-        "title": "244 West 72nd Street #15C",
-        "url": "https://streeteasy.com/building/244w72/15c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.894999999999996,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.35,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 54.949999999999996,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 48.894999999999996,
-      "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with visible burners; living room appears spacious with good furniture arrangement; no private outdoor space shown."
     },
     {
       "commute": {
@@ -29049,91 +29032,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 47.535,
       "visionNotes": "Kitchen is visible and open to living/dining area with island; stove appears to have visible grates suggesting gas, but angle and reflection make it somewhat uncertain; no private outdoor space visible; living room appears reasonably sized for NYC."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 23,
-          "lines": [
-            "1 Line",
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "170 Amsterdam Avenue #7I, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-19",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-170-amsterdam-07i.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4261349dcd3bad8d4bcca36f3236ba02-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b8c78b60c8ce827914ff88b0d8b83971-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6a667ec17fd93ab58282132710fd7fb6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cce36a2d318cb69d005de098effa5da7-se_large_800_400.webp"
-        ],
-        "price": 6540,
-        "sqft": 689,
-        "title": "170 Amsterdam Avenue #7I",
-        "url": "https://streeteasy.com/building/170-amsterdam/07i",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 47.535,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.35,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 52.400000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 47.535,
-      "visionNotes": "Kitchen is visible and open to living area with island counter; gas cooktop with visible burner grates; no private outdoor space shown; building appears to be modern high-rise with shared amenities only."
     },
     {
       "commute": {
@@ -32352,91 +32250,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 26,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 22,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 14,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "314 West 71st Street #1, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-314-west-71-street-new-york-1.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/c018ec26a44f4150b163458db9c51d7b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/59091ca3f55c3a58e439f0b105136c81-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6d7cc0080ebf342f7d0e0b29bd790fb0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/75fc7d4a0a2274ccc23033dbb4e6bac2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/174dff977bdd4716fef22db45a511768-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1c9ec9e016d4035ab494cb26f9bbd589-se_extra_large_1500_800.webp"
-        ],
-        "price": 5950,
-        "sqft": null,
-        "title": "314 West 71st Street #1",
-        "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 44.6025,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.35,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 48.575,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 44.6025,
-      "visionNotes": "Kitchen is clearly visible and open to dining area; gas range with visible burners/grates is evident in photo 2; living room is spacious per floor plan (15' x 20'4\"); no private outdoor space visible."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 23,
           "lines": [
             "7",
@@ -33964,425 +33777,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 27,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "D Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 31,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "21 West End Avenue #3813, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-21-west-end-avenue-new-york-3813.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/89adf2c4733444ad1302b61e06110fcb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6fea7309d4a06720ea19f2501e6388fa-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/90fd262944074b87b4b37ae0b84c6747-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1038da0226dfa0bb64b33ffca915688f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a16e4a74b27ce2428f13a24f64cc5dd9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/24c3adc3a1569a89885207a883518b74-se_extra_large_1500_800.webp"
-        ],
-        "price": 6275,
-        "sqft": null,
-        "title": "21 West End Avenue #3813",
-        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.947500000000005,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 54.1,
-          "weight": 0.35,
-          "minutes": 27
-        },
-        "friends": {
-          "score": 38.375000000000014,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.947500000000005,
-      "visionNotes": "Kitchen is visible and open to living area with a peninsula counter; stove/cooktop not clearly visible; large living room with expansive windows and city views; no private outdoor space visible, last image is building lobby."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-09T23:56:55.413Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "101 West End Avenue #9N, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1.5,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-9n.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/32b6ed67b1f111ea75e5dfb5af2834f0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4d20f80422656379ce66cade2b10992d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/100f756d54a91a2d996152d5c8e1bd82-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9cd8fd4dc4a5829a44be9a26581a812b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/148651dc916c3718f9227b66de15c8d4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp"
-        ],
-        "price": 6350,
-        "sqft": null,
-        "title": "101 West End Avenue #9N",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/9n?utm_campaign=rental_listing&utm_medium=share&utm_source=web&lstt=3uipglpX91nlXFn5PE0wjoGlxpw_F-LBctjQkB-nw73u2sSD7SId1MMFHaeaDiUX-FlA_9kSS2MN9fJn",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.8625,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; gas cooktop with visible burners; no private outdoor space shown; living room appears spacious with high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "101 West End Avenue #11Q, NEW YORK, NY, 10069",
-        "availableDate": "2026-07-29",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-11q.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d28a24ad9a5fd48214201ada084e2de8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/46e0e73e7fb15c0698ccfebdea7cea72-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d29a09e923d57d2fccc120921c7571e1-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": 515,
-        "title": "101 West End Avenue #11Q",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.8625,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "101 West End Avenue #17A, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1.5,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/4fc2b7088043ab3bb617fa0e84e5be8a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d07cae5ea47fa615ded40ff1fcfe6818-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/035532b16c2162bdf7f8e64b34fc046e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c32f02a8641cda30556cecd678b8ccf4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
-        ],
-        "price": 6995,
-        "sqft": 863,
-        "title": "101 West End Avenue #17A",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/17a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.8625,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; the last photo shows a shared building courtyard, not private outdoor space; living rooms appear spacious based on the first and third photos."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-14d.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/671df044119ed0c99cfef4f763820c3a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2c8030b68c0b4f1d516a8252fa57fd8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/54b40fcea355ec673a89f67298f22be1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/65a79a3a6ab26819baae2eb4b99d0a83-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c8ac7d3d4ebb08f5f29787ee68b8bd6a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
-        ],
-        "price": 6325,
-        "sqft": null,
-        "title": "101 West End Avenue #14D",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.8625,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.8625,
-      "visionNotes": "Kitchen is semi-open with a peninsula counter overlooking the living/dining area; gas cooktop visible in kitchen; outdoor space shown is a shared building courtyard with playground, not private; living room appears spacious with large windows."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 26,
           "lines": [
             "7",
@@ -34463,172 +33857,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 40.5225,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove appears to be electric (flat cooktop with dishwasher below); no private outdoor space shown; living room is spacious with floor-to-ceiling windows and waterfront views."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 29,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "400 West 63rd Street #314, NEW YORK, NY, 10069",
-        "availableDate": "2026-09-10",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-314.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/807c2d5017c7cbb85a54eb271cae058d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/51bf63770af26287fba4c36d3d9a7820-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/308c2d936570d716c869629e10b3a414-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b170bb421ad6702a4f0a972efa2797a8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9f2bad3844abba0df4d018364f1118a2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2d4c726f97cf9a1a2bb3e62ec102c6fe-se_extra_large_1500_800.webp"
-        ],
-        "price": 6349,
-        "sqft": 846,
-        "title": "400 West 63rd Street #314",
-        "url": "https://streeteasy.com/building/the-ashley/314",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.097500000000004,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 37.525000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.097500000000004,
-      "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 29,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "400 West 63rd Street #1804, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-1804.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/074bb52379164fe4323d2a735f26f523-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7292c7a58a4cf3739276b6625b5f4b3d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/13a24418e3d2d035172d404424531abd-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9546873053c44f2de7fd420af7bd4f6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ea997410fe6c4f5fbf179b78079bd5d0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4f383c53857f2172833efffae7562a25-se_extra_large_1500_800.webp"
-        ],
-        "price": 6028,
-        "sqft": 676,
-        "title": "400 West 63rd Street #1804",
-        "url": "https://streeteasy.com/building/the-ashley/1804",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.097500000000004,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 37.525000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 40.097500000000004,
-      "visionNotes": "Kitchen is visible and open to living/dining area; no stove/range visible in photos; no private outdoor space; living room is spacious with large windows and comfortable furniture layout."
     },
     {
       "commute": {
@@ -36399,89 +35627,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 36.1025,
       "visionNotes": "Kitchen is semi-open to living area with visible gas range; windows show street-level exterior only; living room appears compact relative to typical NYC one-bedrooms."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 35,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 32,
-          "lines": [
-            "M5"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "160 Riverside Boulevard #11A, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-160-riverside-boulevard-11a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/1018041bacb423a2721bfaeb3eb46c90-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1018041bacb423a2721bfaeb3eb46c90-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cde741be1e34a7a8b812acf8bfe29efa-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2aa05383c0599c02af8d30362079827a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/94dd3cf9dbe540167a2ba3f6f5bb9ef1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/904067996081726d3f255dc9fe72a8c7-se_large_800_400.webp"
-        ],
-        "price": 5600,
-        "sqft": 825,
-        "title": "160 Riverside Boulevard #11A",
-        "url": "https://streeteasy.com/building/160-riverside-boulevard/11a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 35.1675,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 40.5,
-          "weight": 0.35,
-          "minutes": 35
-        },
-        "friends": {
-          "score": 34.97500000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 35.1675,
-      "visionNotes": "Kitchen is visible in photos 4-6 as a compact galley-style space with a small counter/shelf area; it opens to the living room but is partially separated by a half-wall, making it semi-open; stove type cannot be determined from the angle and resolution; no private outdoor space visible; living room is spacious with good proportions."
     },
     {
       "commute": {

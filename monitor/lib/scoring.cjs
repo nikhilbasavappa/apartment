@@ -1,5 +1,8 @@
 const EXCLUDED_NEIGHBORHOOD_PATTERN = /\b(gowanus|crown heights)\b/i;
-const UWS_PATTERN = /\bupper west side\b/i;
+// StreetEasy labels the Lincoln Center-adjacent blocks "Lincoln Square"
+// rather than "Upper West Side," even though it's the same area (its own
+// listing copy describes the UWS architecture/style) — treat it as UWS.
+const UWS_PATTERN = /\b(upper west side|lincoln square)\b/i;
 const BROOKLYN_PATTERN = /\bbrooklyn\b/i;
 
 // Preference tiers. UWS's apparent appeal turned out to be mostly proximity
