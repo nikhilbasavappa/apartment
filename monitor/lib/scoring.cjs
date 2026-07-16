@@ -167,10 +167,27 @@ function normalizeListing(rawListing) {
   // Uses a lookahead instead of \b at the end: "²" is a non-word character,
   // so \b never matches between it and the space that follows — \b needs a
   // word/non-word transition, and both sides there are non-word.
+  // Two failure modes fixed here:
+  // 1. \d{3,4} alone doesn't span a thousands comma, so "1,176 ft²" matched
+  //    just "176" — the digits after the comma — silently truncating
+  //    anything over 999 sqft. Capturing the optional comma group fixes
+  //    this; extractNumber already strips commas before parsing.
+  // 2. Without requiring the "$X per ft²" that immediately follows
+  //    StreetEasy's own per-unit facts line, this regex's first match could
+  //    just as easily land on an unrelated number nearby in bodyText — a
+  //    building amenity's square footage ("5,360 SF duplex fitness
+  //    center"), a private patio's footprint ("600 SF of outdoor space"),
+  //    or even an unrelated dollar figure from a sidebar article link. The
+  //    "$/ft²" pairing only ever appears attached to the unit's own sqft,
+  //    so requiring it is what actually disambiguates the real match.
   const sqft =
     Number.isFinite(rawListing.sqft) && rawListing.sqft > 0
       ? rawListing.sqft
-      : extractNumberPreferBody(bodyText, rawText, /(\d{3,4})\s*(?:sf|sq\.?\s*ft|square feet|ft2|ft²)(?![a-zA-Z])/i);
+      : extractNumberPreferBody(
+          bodyText,
+          rawText,
+          /(\d{1,3}(?:,\d{3})*)\s*(?:sf|sq\.?\s*ft|square feet|ft2|ft²)(?![a-zA-Z])\s*\$[\d,]+\s*per\s*(?:sf|sq\.?\s*ft|ft2|ft²)/i
+        );
   const price =
     Number.isFinite(rawListing.price) && rawListing.price > 0
       ? rawListing.price

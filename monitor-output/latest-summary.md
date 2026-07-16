@@ -2,16 +2,9 @@
 
 Run time: Jul 16, 2026, 1:32 PM
 Configured sources: 1
-New listings inspected this run: 12
-Qualifying new listings: 12
-- 666 West End Avenue #15AB | $4,995 | 666 West End Avenue #15AB, NEW YORK, NY, 10025 | 28 min to office | score 63/100
-- 570 Fulton Street #15I | $6,445 | 570 Fulton Street #15I, BROOKLYN, NY, 11217 | 32 min to office | score 62/100
-- 880 Atlantic Avenue #4H | $4,475 | 880 Atlantic Avenue #4H, BROOKLYN, NY, 11238 | 37 min to office | score 58/100
-- 880 Atlantic Avenue #10L | $5,645 | 880 Atlantic Avenue #10L, BROOKLYN, NY, 11238 | 37 min to office | score 58/100
-- 535 Dean Street #418 | $5,500 | 535 Dean Street #418, BROOKLYN, NY, 11217 | 38 min to office | score 57/100
-- 556 Baltic Street #305 | $5,462 | 556 Baltic Street #305, NEW YORK, NY, 11217 | 40 min to office | score 54/100
-- 526 Baltic Street #4BA | $5,019 | 526 Baltic Street #4BA, BROOKLYN, NY, 11217 | 41 min to office | score 54/100
-- 526 Baltic Street #2P | $4,500 | 526 Baltic Street #2P, BROOKLYN, NY, 11217 | 41 min to office | score 54/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 

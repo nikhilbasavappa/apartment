@@ -227,7 +227,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": 219,
+        "sqft": 1219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -656,7 +656,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 100,
+        "sqft": 1100,
         "title": "418 Henry Street #2",
         "url": "https://streeteasy.com/building/418-henry-street/2",
         "washerDryer": "yes"
@@ -1163,7 +1163,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
         ],
         "price": 6900,
-        "sqft": 800,
+        "sqft": 788,
         "title": "25 Central Park West #19U",
         "url": "https://streeteasy.com/building/the-century-condominium/19u",
         "washerDryer": "yes"
@@ -7194,1042 +7194,7 @@ window.__APARTMENT_REPORT__ = {
       ]
     }
   ],
-  "newListings": [
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 14,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 9,
-          "lines": [
-            "M104"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "666 West End Avenue #15AB, NEW YORK, NY, 10025",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-windermere-666-west-end-avenue-new-york-15ab.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/590a60ad68a53564060f412b9c73bcf6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/886376529cb7202e47333030c99f53d9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7e4655465148bbe12b6e51d677a08b13-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/632c239eca97061d6f3a5f27c0e5da68-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/497ee0cf6db114a58b9b20e77c881d40-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7aedf2b62cd5868fe8926b977df76379-se_large_800_400.webp"
-        ],
-        "price": 4995,
-        "sqft": null,
-        "title": "666 West End Avenue #15AB",
-        "url": "https://streeteasy.com/building/windermere-666-west-end-avenue-new_york/15ab",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 62.57000000000001,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.35,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.35,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 54.10000000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 62.57000000000001,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with no separation; stove appears to have burners visible but reflections make it somewhat uncertain; large open floor plan with substantial living space; no outdoor space shown in any photo."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 32,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 23,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "unknown",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "570 Fulton Street #15I, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-03",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-fulton-greene-15i.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8c9e1d6cbaa0bea9eea6e40c28279b88-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/392d21b6df7209f08c0d7c6509b7db18-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45737d7d77e6d41c47de44e1bd9a6829-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/176edaa3f7906d92370775db3be99e77-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/aa5680111ee48fb961d88a72cfc855bd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a42b9b84fa8b131e3aa5a688d34145f5-se_large_800_400.webp"
-        ],
-        "price": 6445,
-        "sqft": null,
-        "title": "570 Fulton Street #15I",
-        "url": "https://streeteasy.com/building/fulton-greene/15i",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 62.2175,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 45.6,
-          "weight": 0.35,
-          "minutes": 32
-        },
-        "friends": {
-          "score": 37.525,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 62.2175,
-      "visionNotes": "Kitchen is visible and opens to a dining area with sightlines to living space; bedroom has a large private terrace with skyline views; living room is spacious with generous furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "C Line",
-            "5 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "880 Atlantic Avenue #4H, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-4h.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d75192b95cade8bd70e3464be5d6f6ea-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d0e36be00b8d60faa243c05299fc737c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ea33979c27ae2782a57ed643c490d135-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ecf3912ddfd56e792bc9dfcc73297766-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/02216079778e58cdd50c38f11144c03e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cec7540671c7b1f789866a9a37d238b8-se_extra_large_1500_800.webp"
-        ],
-        "price": 4475,
-        "sqft": null,
-        "title": "880 Atlantic Avenue #4H",
-        "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/4h",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.095,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.35,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 33.7,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 58.095,
-      "visionNotes": "Kitchen is visible with semi-open layout to dining/living areas; stove appears to be electric/induction (flat cooktop visible); private balcony/terrace with glass railing is clearly shown; living room is spacious with high ceilings and modern furnishings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "C Line",
-            "5 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "880 Atlantic Avenue #10L, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-10l.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/93b0d7db21a12a08b1e81c3b1f538934-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d0e36be00b8d60faa243c05299fc737c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ea33979c27ae2782a57ed643c490d135-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ecf3912ddfd56e792bc9dfcc73297766-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cec7540671c7b1f789866a9a37d238b8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aebc8ff4b2822c58581299c6f374faaa-se_extra_large_1500_800.webp"
-        ],
-        "price": 5645,
-        "sqft": null,
-        "title": "880 Atlantic Avenue #10L",
-        "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/10l",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.095,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.35,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 33.7,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 58.095,
-      "visionNotes": "Kitchen is open to living/dining area with island; electric cooktop visible; no private outdoor space; living room is spacious with good furniture proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 38,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 15,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 51,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "535 Dean Street #418, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-newswalk-phase-3-418.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3bc2c7b51ea246cef5b6241f4e983125-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/68d5429ff581120dfd1ec16cd6293038-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e9f71aac2e97d6e09bee8579b3afe065-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4c1ff07f7cb14b2336e751440dbd4e0c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/29999833330235ba4e13b0c5945f8462-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c8649f7da207ddb105bc74640e51dab3-se_large_800_400.webp"
-        ],
-        "price": 5500,
-        "sqft": 176,
-        "title": "535 Dean Street #418",
-        "url": "https://streeteasy.com/building/newswalk-phase-3/418",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.8625,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 35.400000000000006,
-          "weight": 0.35,
-          "minutes": 38
-        },
-        "friends": {
-          "score": 31.575,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 56.8625,
-      "visionNotes": "Kitchen is visible with wood cabinets and island seating, opening to living areas with sightlines; electric cooktop visible; no private outdoor space shown; living room appears spacious with high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 20,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 54,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "556 Baltic Street #305, NEW YORK, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-305.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/54b16ff3fb7b1c017e10bef0f5e96f65-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e62e73176d9ee5c24d73150d58cf2cc1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8db9afc73451b5363a2e6bfeaacea2a0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e9ba5df200d077a7341cb99c9ed67ced-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c0ed1604bcd5a1fd2de741530bb0d511-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4a350afc588f8d2bcb81636b4529d03e-se_large_800_400.webp"
-        ],
-        "price": 5462,
-        "sqft": null,
-        "title": "556 Baltic Street #305",
-        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/305",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 53.8875,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.35,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 25.625000000000004,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 53.8875,
-      "visionNotes": "Kitchen is visible with island and opens to living room with shared sightlines; electric/induction cooktop visible; large living room with floor-to-ceiling windows; no private outdoor space, only shared high-rise views."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "526 Baltic Street #4BA, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-01",
-        "bathrooms": 4,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-4ba.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e9018036c067969619a2418a06f6c297-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ce16c41f2a426447c419f17d5e6e847e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5c4b02917d0798495ab69bf46b8c4724-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/918c46970298f07b3a102ae0ead2cdae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/522dd2a1928d9463611dbbdcf9cf9f49-se_large_800_400.webp"
-        ],
-        "price": 5019,
-        "sqft": null,
-        "title": "526 Baltic Street #4BA",
-        "url": "https://streeteasy.com/building/the-baltic-canal/4ba",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 53.675,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.35,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 26.900000000000002,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 53.675,
-      "visionNotes": "Kitchen has gas range visible with open sightline to living/dining area; rooftop terrace shown in first photo is exclusive to this unit; living room appears spacious with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "526 Baltic Street #2P, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-2p.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/6785a5b581f231b454e6a2bc2c1edeec-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/558dd26444083a94b66b710763f1c06b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8b171466b049b8950ec567fd38f8c7c3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d17677a5635ca84d7c91dd0894bea04e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7304bcbd743a646b9f1641b41e3a2c5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d2095c4c0af55e2d42a7f00f44ec054f-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "526 Baltic Street #2P",
-        "url": "https://streeteasy.com/building/the-baltic-canal/2p",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 53.675,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.35,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 26.900000000000002,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 53.675,
-      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living/dining area via island counter; living room appears spacious with floor-to-ceiling windows; no private outdoor space (window AC units and shared building views)."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 32,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 53,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "326 Bond Street #4F, BROOKLYN, NY, 11231",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-326-bond-street-brooklyn-4f.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8810d6610fe606cc35eb7b16d34d87ae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd843f135872a1b8616b3bb0b26950dc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cc4d2003e7720e69d544c189d481f097-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/02210cd1f33002ef930baf4e2a017d84-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cabc6bb8bd9a72de4ed4d2ac6bcb11f4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f9463c2fadfdb5da196a1997016a2d1a-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": null,
-        "title": "326 Bond Street #4F",
-        "url": "https://streeteasy.com/building/326-bond-street-brooklyn/4f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.167500000000004,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.35,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 20.525000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 51.167500000000004,
-      "visionNotes": "Kitchen is visible with island counter opening to living area; gas cooktop visible on range; private outdoor space (terrace/balcony) visible from bedroom; living room is spacious with high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 43,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 37,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 54,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "418 Henry Street #2, BROOKLYN, NY, 11201",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-418-henry-street-2.png",
-        "neighborhood": "Cobble Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/4d7cf9adb794d813f0a0164017a25b5f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/27ac190ce4393bd6970aed98bb5ff453-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2ac0cbc54d26cfe65a7733fbbb7d1c8f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e7fb9b7d7a159a44b65470a871e79ae5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/77b0b6b2e83df6607b9402a6974650f3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": 100,
-        "title": "418 Henry Street #2",
-        "url": "https://streeteasy.com/building/418-henry-street/2",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.68,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.35,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.35,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 17.550000000000004,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 49.68,
-      "visionNotes": "Kitchen is visible with island seating overlooking living/dining area; no stove visible in photos; living room appears spacious with multiple windows and well-proportioned furniture layout; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "6X",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "225 East 96th Street #6RPH, NEW YORK, NY, 10128",
-        "availableDate": "2026-08-13",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-225-east-96-street-new-york-6rph.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9202f2863c86a47e9610731062804802-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ee3111744ae678ab618d5dc993519b66-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f19ddb68ee348de9f7af4bf5236b9f80-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a0c6c4e88aa8777a80d72d727e88dc18-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f2956de041a5c92e23d634ec80a70018-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a82515afeb3c57cce70f26731ed8d8ab-se_large_800_400.webp"
-        ],
-        "price": 5895,
-        "sqft": null,
-        "title": "225 East 96th Street #6RPH",
-        "url": "https://streeteasy.com/building/225-east-96-street-new_york/6rph",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 46.43,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.35,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 38.80000000000001,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 46.43,
-      "visionNotes": "Kitchen is semi-open to a spacious living/dining area with floor-to-ceiling windows and terrace access; electric range visible; the outdoor space shown is a shared building roof deck, not private."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 17,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "M15+",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "1269 1st Avenue #4C, NEW YORK, NY, 10065",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-1269-1-avenue-new-york-4c.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fb841334cdea7f1b6409fccb21622417-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/354ce94b79f9c825816dadcd1a530919-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a0ecb2199aa8621dfb84eea736422e3c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/308e3044f858eee5cb2a02f9dda0c08a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7542e45f42bd15dc9c68c50f99727750-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2105c5190e6a9c745c187a538d99a861-se_large_800_400.webp"
-        ],
-        "price": 4495,
-        "sqft": null,
-        "title": "1269 1st Avenue #4C",
-        "url": "https://streeteasy.com/building/1269-1-avenue-new_york/4c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 46.004999999999995,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.35,
-          "tier": "other"
-        },
-        "office": {
-          "score": 71.1,
-          "weight": 0.35,
-          "minutes": 17
-        },
-        "friends": {
-          "score": 35.400000000000006,
-          "weight": 0.3
-        }
-      },
-      "rankScore": 46.004999999999995,
-      "visionNotes": "Kitchen is visible with a pass-through counter opening to the living/dining area; electric cooktop and oven clearly visible; no outdoor space shown; living room appears spacious with open sightlines."
-    }
-  ],
+  "newListings": [],
   "runAt": "2026-07-16T17:32:47.411Z",
   "sourcesConfigured": 1,
   "topListings": [
@@ -8630,7 +7595,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/a11a6a7a5a5e36c01979ced52ac178ea-se_large_800_400.webp"
         ],
         "price": 6900,
-        "sqft": 800,
+        "sqft": 788,
         "title": "25 Central Park West #19U",
         "url": "https://streeteasy.com/building/the-century-condominium/19u",
         "washerDryer": "yes"
@@ -10924,7 +9889,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/1c9ec9e016d4035ab494cb26f9bbd589-se_extra_large_1500_800.webp"
         ],
         "price": 5950,
-        "sqft": null,
+        "sqft": 1000,
         "title": "314 West 71st Street #1",
         "url": "https://streeteasy.com/building/314-west-71-street-new_york/1",
         "washerDryer": "yes"
@@ -19663,7 +18628,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/193292f7a5c38f6536b5acc8c71ba80a-se_large_800_400.webp"
         ],
         "price": 4300,
-        "sqft": 800,
+        "sqft": null,
         "title": "49 Irving Place #1",
         "url": "https://streeteasy.com/building/49-irving-place-brooklyn/1",
         "washerDryer": "yes"
@@ -20097,7 +19062,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c8649f7da207ddb105bc74640e51dab3-se_large_800_400.webp"
         ],
         "price": 5500,
-        "sqft": 176,
+        "sqft": 1176,
         "title": "535 Dean Street #418",
         "url": "https://streeteasy.com/building/newswalk-phase-3/418",
         "washerDryer": "yes"
@@ -20183,7 +19148,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/0e9cf5d6977f996566df6526f803e72c-se_medium_500_250.webp"
         ],
         "price": 6200,
-        "sqft": 1000,
+        "sqft": 950,
         "title": "241 Carlton Avenue #3",
         "url": "https://streeteasy.com/building/241-carlton-avenue-brooklyn/3",
         "washerDryer": "yes"
@@ -24218,7 +23183,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/dc0b369ce7bbe4423249227fb0a145ec-se_extra_large_1500_800.webp"
         ],
         "price": 6695,
-        "sqft": 44,
+        "sqft": 1044,
         "title": "335 Carroll Street #2D",
         "url": "https://streeteasy.com/building/335-carroll/2d",
         "washerDryer": "yes"
@@ -26855,7 +25820,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4f6e454923102f59c0562bc4e6fbb75e-se_large_800_400.webp"
         ],
         "price": 6200,
-        "sqft": 930,
+        "sqft": 870,
         "title": "27-21 44th Drive #1302",
         "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1302",
         "washerDryer": "yes"
@@ -27705,7 +26670,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/9e86209b7624f9345a188c05f840c216-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 400,
+        "sqft": 1400,
         "title": "27-28 Thomson Avenue #200",
         "url": "https://streeteasy.com/building/arris-lofts/200",
         "washerDryer": "yes"
@@ -28900,7 +27865,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
         ],
         "price": 6500,
-        "sqft": 100,
+        "sqft": 1100,
         "title": "418 Henry Street #2",
         "url": "https://streeteasy.com/building/418-henry-street/2",
         "washerDryer": "yes"
@@ -29069,7 +28034,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4a15294dabc310284f199db92021c4d3-se_large_800_400.webp"
         ],
         "price": 6600,
-        "sqft": 200,
+        "sqft": 1200,
         "title": "11-39 49th Avenue #720",
         "url": "https://streeteasy.com/building/hunters-landing-lic/720",
         "washerDryer": "yes"
@@ -29156,7 +28121,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/f4eec57b3ac61a3fee2290611b5314c6-se_large_800_400.webp"
         ],
         "price": 6490,
-        "sqft": 36,
+        "sqft": 1036,
         "title": "536 Henry Street #3",
         "url": "https://streeteasy.com/building/536-henry-street-brooklyn/3",
         "washerDryer": "yes"
@@ -30776,7 +29741,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4b89bbb439f7e63d8a8de4e22f1305b8-se_large_800_400.webp"
         ],
         "price": 6250,
-        "sqft": 219,
+        "sqft": 1219,
         "title": "24-15 Queens Plaza North #6A",
         "url": "https://streeteasy.com/building/view-59/6a",
         "washerDryer": "yes"
@@ -32307,7 +31272,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/e5d22084c66a99f34a2833ae54ce5ef0-se_large_800_400.webp"
         ],
         "price": 5433,
-        "sqft": 200,
+        "sqft": 1200,
         "title": "390 15th Street #1A",
         "url": "https://streeteasy.com/building/390-15-street-brooklyn/1a",
         "washerDryer": "yes"
@@ -32898,7 +31863,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/34e68bbf0ca7bb3b2599375f5017d381-se_large_800_400.webp"
         ],
         "price": 5500,
-        "sqft": 13,
+        "sqft": 1013,
         "title": "2-17 51st Avenue #314",
         "url": "https://streeteasy.com/building/the-powerhouse/314",
         "washerDryer": "yes"
