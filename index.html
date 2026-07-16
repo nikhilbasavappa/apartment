@@ -65,7 +65,7 @@
             None of that is weighted or negotiable &mdash; it's pass/fail.
           </p>
           <p class="rubric-copy">
-            Everything that clears those gets a <strong>match score out of 100</strong>, blending three things:
+            Everything that clears those gets a <strong>match score out of 100</strong>, blending four things:
           </p>
           <ul class="rubric-list">
             <li><strong>Neighborhood preference</strong> &mdash; Brooklyn and Upper West Side in the 72nd&ndash;89th
@@ -81,35 +81,49 @@
             <li><strong>Office commute</strong> &mdash; shorter is better, scored on a sliding scale.</li>
             <li><strong>Friends commute</strong> &mdash; averaged across your four friends (Upper West Side,
               Morningside Heights, Hunters Point/LIC, Prospect Heights), same sliding scale.</li>
+            <li><strong>Size</strong> &mdash; bigger is always better, but normalized by bedroom count (divided by
+              the square root of bedrooms, so it's a real but weak adjustment, not a straight per-bedroom split) since
+              the same square footage feels roomier with fewer bedrooms to share it &mdash; an 800sqft 1-bedroom is
+              spacious, an 800sqft 2-bedroom is cramped by comparison. Listings without sqft in the source data (most
+              of them) get the median real sqft for that bedroom count instead of a guess or a flat default, so a
+              missing value doesn't quietly become a penalty or a windfall.</li>
           </ul>
           <p class="rubric-copy">
-            The default weighting is 35% neighborhood, 35% office, 30% friends. If that balance feels off, adjust it
-            below; it re-sorts the New and All Qualifying tabs immediately and remembers your setting on this device.
+            The default weighting is 30% neighborhood, 30% office, 25% friends, 15% size. If that balance feels off,
+            adjust it below; it re-sorts the New and All Qualifying tabs immediately and remembers your setting on
+            this device.
           </p>
 
           <div class="weight-sliders">
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Neighborhood</span>
-                <strong id="weightNeighborhoodValue">35%</strong>
+                <strong id="weightNeighborhoodValue">30%</strong>
               </div>
-              <input type="range" min="0" max="100" value="35" id="weightNeighborhood" class="weight-slider" />
+              <input type="range" min="0" max="100" value="30" id="weightNeighborhood" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Office commute</span>
-                <strong id="weightOfficeValue">35%</strong>
+                <strong id="weightOfficeValue">30%</strong>
               </div>
-              <input type="range" min="0" max="100" value="35" id="weightOffice" class="weight-slider" />
+              <input type="range" min="0" max="100" value="30" id="weightOffice" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Friends commute</span>
-                <strong id="weightFriendsValue">30%</strong>
+                <strong id="weightFriendsValue">25%</strong>
               </div>
-              <input type="range" min="0" max="100" value="30" id="weightFriends" class="weight-slider" />
+              <input type="range" min="0" max="100" value="25" id="weightFriends" class="weight-slider" />
             </div>
-            <button type="button" class="ghost-button" id="weightReset">Reset to default (35 / 35 / 30)</button>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Size</span>
+                <strong id="weightSizeValue">15%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="15" id="weightSize" class="weight-slider" />
+            </div>
+            <button type="button" class="ghost-button" id="weightReset">Reset to default (30 / 30 / 25 / 15)</button>
           </div>
         </div>
 

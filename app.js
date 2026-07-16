@@ -3,7 +3,7 @@ let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
 registerServiceWorker();
 
 const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
-const DEFAULT_WEIGHTS = { neighborhood: 35, office: 35, friends: 30 };
+const DEFAULT_WEIGHTS = { neighborhood: 30, office: 30, friends: 25, size: 15 };
 let currentWeights = loadWeights();
 
 // Not persisted (unlike weights) — resets each visit, since this is more a
@@ -45,9 +45,11 @@ const els = {
   weightNeighborhood: document.querySelector("#weightNeighborhood"),
   weightOffice: document.querySelector("#weightOffice"),
   weightFriends: document.querySelector("#weightFriends"),
+  weightSize: document.querySelector("#weightSize"),
   weightNeighborhoodValue: document.querySelector("#weightNeighborhoodValue"),
   weightOfficeValue: document.querySelector("#weightOfficeValue"),
   weightFriendsValue: document.querySelector("#weightFriendsValue"),
+  weightSizeValue: document.querySelector("#weightSizeValue"),
   weightReset: document.querySelector("#weightReset"),
   tabCountStarred: document.querySelector("#tabCountStarred"),
   starredFeed: document.querySelector("#starredFeed"),
@@ -237,7 +239,8 @@ function loadWeights() {
     if (
       Number.isFinite(parsed.neighborhood) &&
       Number.isFinite(parsed.office) &&
-      Number.isFinite(parsed.friends)
+      Number.isFinite(parsed.friends) &&
+      Number.isFinite(parsed.size)
     ) {
       return parsed;
     }
@@ -280,19 +283,25 @@ function rebalanceWeights(changedKey, rawValues) {
 }
 
 function initWeightSliders() {
-  if (!els.weightNeighborhood || !els.weightOffice || !els.weightFriends) return;
+  if (!els.weightNeighborhood || !els.weightOffice || !els.weightFriends || !els.weightSize) return;
 
   updateSliderUI();
 
-  const sliderKeys = { [els.weightNeighborhood.id]: "neighborhood", [els.weightOffice.id]: "office", [els.weightFriends.id]: "friends" };
+  const sliderKeys = {
+    [els.weightNeighborhood.id]: "neighborhood",
+    [els.weightOffice.id]: "office",
+    [els.weightFriends.id]: "friends",
+    [els.weightSize.id]: "size",
+  };
 
-  [els.weightNeighborhood, els.weightOffice, els.weightFriends].forEach((slider) => {
+  [els.weightNeighborhood, els.weightOffice, els.weightFriends, els.weightSize].forEach((slider) => {
     slider.addEventListener("input", () => {
       const key = sliderKeys[slider.id];
       currentWeights = rebalanceWeights(key, {
         neighborhood: Number(els.weightNeighborhood.value),
         office: Number(els.weightOffice.value),
         friends: Number(els.weightFriends.value),
+        size: Number(els.weightSize.value),
       });
       saveWeights(currentWeights);
       updateSliderUI();
@@ -312,9 +321,11 @@ function updateSliderUI() {
   els.weightNeighborhood.value = Math.round(currentWeights.neighborhood);
   els.weightOffice.value = Math.round(currentWeights.office);
   els.weightFriends.value = Math.round(currentWeights.friends);
+  els.weightSize.value = Math.round(currentWeights.size);
   els.weightNeighborhoodValue.textContent = `${Math.round(currentWeights.neighborhood)}%`;
   els.weightOfficeValue.textContent = `${Math.round(currentWeights.office)}%`;
   els.weightFriendsValue.textContent = `${Math.round(currentWeights.friends)}%`;
+  els.weightSizeValue.textContent = `${Math.round(currentWeights.size)}%`;
 }
 
 // Mirrors monitor/lib/scoring.cjs's rankBreakdown so weight adjustments can
@@ -328,22 +339,45 @@ function commuteScore(minutes) {
   return Math.max(0, 100 - minutes * 1.7);
 }
 
+// Same baseline/constants as monitor/lib/scoring.cjs's estimateSqftForBedrooms
+// and sqftScore — median real sqft among qualifying listings, 671 for 1bd,
+// 996 for 2bd, extrapolated linearly for 3bd+ (no real samples yet).
+const SQFT_BASELINE_1BD = 671;
+const SQFT_PER_EXTRA_BEDROOM = 325;
+const SQFT_SCORE_FLOOR = 450;
+const SQFT_SCORE_CEILING = 1000;
+
+function estimateSqftForBedrooms(bedrooms) {
+  const bd = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
+  return SQFT_BASELINE_1BD + SQFT_PER_EXTRA_BEDROOM * (bd - 1);
+}
+
+function sqftScore(sqft, bedrooms) {
+  const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
+  const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
+  const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
+  return Math.max(0, Math.min(100, ((perBedroomSqft - SQFT_SCORE_FLOOR) / (SQFT_SCORE_CEILING - SQFT_SCORE_FLOOR)) * 100));
+}
+
 function computeClientRankBreakdown(entry, weights) {
   const tier = entry.neighborhoodTier || "unknown";
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(entry.commute?.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(entry.commute?.[key]?.minutes));
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
+  const sizeScore = sqftScore(entry.listing?.sqft, entry.listing?.bedrooms);
 
   const nWeight = weights.neighborhood / 100;
   const oWeight = weights.office / 100;
   const fWeight = weights.friends / 100;
+  const sWeight = weights.size / 100;
 
   return {
-    total: nWeight * neighborhoodScore + oWeight * officeScore + fWeight * avgFriendScore,
+    total: nWeight * neighborhoodScore + oWeight * officeScore + fWeight * avgFriendScore + sWeight * sizeScore,
     neighborhood: { score: neighborhoodScore, weight: nWeight, tier },
     office: { score: officeScore, weight: oWeight },
     friends: { score: avgFriendScore, weight: fWeight },
+    size: { score: sizeScore, weight: sWeight },
   };
 }
 
@@ -608,6 +642,7 @@ function buildListingCard(entry, flags = []) {
       `Neighborhood (${NEIGHBORHOOD_TIER_LABEL[breakdown.neighborhood.tier] || breakdown.neighborhood.tier}): ${Math.round(breakdown.neighborhood.score)} · ${Math.round(breakdown.neighborhood.weight * 100)}% weight`,
       `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,
       `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
+      `Size: ${Math.round(breakdown.size.score)} · ${Math.round(breakdown.size.weight * 100)}% weight`,
     ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
   } else if (breakdownLabel) {
     breakdownLabel.style.display = "none";

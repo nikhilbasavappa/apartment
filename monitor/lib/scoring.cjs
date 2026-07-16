@@ -82,34 +82,67 @@ function commuteScore(minutes) {
 
 const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
 
-const RANK_WEIGHTS = { neighborhood: 0.35, office: 0.35, friends: 0.3 };
+const RANK_WEIGHTS = { neighborhood: 0.3, office: 0.3, friends: 0.25, size: 0.15 };
+
+// Median real sqft among qualifying listings, by bedroom count (from the
+// actual catalog once the sqft-extraction bug was fixed) — 671 for 1bd, 996
+// for 2bd. Used to impute a neutral size score for the ~75% of listings that
+// never have sqft in the source data at all, and to extrapolate 3bd+ (no
+// real samples yet) via the same per-bedroom delta rather than guessing.
+const SQFT_BASELINE_1BD = 671;
+const SQFT_PER_EXTRA_BEDROOM = 325;
+
+function estimateSqftForBedrooms(bedrooms) {
+  const bd = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
+  return SQFT_BASELINE_1BD + SQFT_PER_EXTRA_BEDROOM * (bd - 1);
+}
+
+// A bigger apartment is always at least as good, but the same sqft feels
+// much roomier split across fewer bedrooms — an 800sqft 1bd is spacious, an
+// 800sqft 2bd is cramped. Dividing by sqrt(bedrooms) applies that penalty
+// weakly (a straight linear divide would overcorrect) rather than not at
+// all. Missing sqft gets the bedroom-typical estimate instead of a flat
+// score, so an unknown-size studio doesn't score the same as an
+// unknown-size 3-bedroom.
+function sqftScore(sqft, bedrooms) {
+  const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
+  const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
+  const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
+  const SCORE_FLOOR_SQFT = 450;
+  const SCORE_CEILING_SQFT = 1000;
+  return Math.max(0, Math.min(100, ((perBedroomSqft - SCORE_FLOOR_SQFT) / (SCORE_CEILING_SQFT - SCORE_FLOOR_SQFT)) * 100));
+}
 
 // Blended ranking score used to sort qualifying listings — separate from the
-// qualify/exclude hard filters above. Weighted 35% neighborhood preference,
-// 35% office commute (the daily one), 30% average commute to the four
-// friends' neighborhoods. Returns the components alongside the total so the
-// UI can show why a listing ranked where it did, not just the number.
-function rankBreakdown(commute, tier) {
+// qualify/exclude hard filters above. Weighted 30% neighborhood preference,
+// 30% office commute (the daily one), 25% average commute to the four
+// friends' neighborhoods, 15% size (bedroom-normalized sqft). Returns the
+// components alongside the total so the UI can show why a listing ranked
+// where it did, not just the number.
+function rankBreakdown(commute, tier, sqft, bedrooms) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
+  const sizeScore = sqftScore(sqft, bedrooms);
 
   const total =
     RANK_WEIGHTS.neighborhood * neighborhoodScore +
     RANK_WEIGHTS.office * officeScore +
-    RANK_WEIGHTS.friends * avgFriendScore;
+    RANK_WEIGHTS.friends * avgFriendScore +
+    RANK_WEIGHTS.size * sizeScore;
 
   return {
     total,
     neighborhood: { score: neighborhoodScore, weight: RANK_WEIGHTS.neighborhood, tier },
     office: { score: officeScore, weight: RANK_WEIGHTS.office, minutes: commute.office?.minutes ?? null },
     friends: { score: avgFriendScore, weight: RANK_WEIGHTS.friends },
+    size: { score: sizeScore, weight: RANK_WEIGHTS.size, sqft: sqft ?? null, bedrooms: bedrooms ?? null },
   };
 }
 
-function computeRankScore(commute, tier) {
-  return rankBreakdown(commute, tier).total;
+function computeRankScore(commute, tier, sqft, bedrooms) {
+  return rankBreakdown(commute, tier, sqft, bedrooms).total;
 }
 
 function extractNumber(text, regex) {
@@ -271,7 +304,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
   const commute = commuteResult?.commutes || {};
   const tier = neighborhoodTier(listing.neighborhood, listing.borough, listing.address, lat);
-  const breakdown = rankBreakdown(commute, tier);
+  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms);
 
   // Not a hard filter — just a signal that a listing's availability date is
   // close enough to warrant deciding on it sooner rather than letting it
