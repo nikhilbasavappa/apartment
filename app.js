@@ -376,7 +376,14 @@ async function loadMonitorReport() {
 }
 
 async function fetchLiveMonitorReport() {
-  const response = await fetch("./api/report", {
+  // GitHub Pages is a static host — there's no "./api/report" backend route,
+  // so this always 404'd and silently fell back to whatever the static
+  // <script src="monitor-output/latest-report.js"> tag happened to load,
+  // making freshness entirely dependent on the service worker behaving
+  // perfectly. Fetch the real JSON data directly instead, with a cache-busting
+  // query param so no caching layer (service worker, browser HTTP cache, or
+  // GitHub Pages' own CDN) can serve a stale copy regardless of headers.
+  const response = await fetch(`./monitor-output/latest-report.json?v=${Date.now()}`, {
     cache: "no-store",
     headers: {
       Accept: "application/json",
@@ -868,7 +875,12 @@ function registerServiceWorker() {
 
   window.addEventListener("load", async () => {
     try {
-      await navigator.serviceWorker.register("./sw.js");
+      // Without updateViaCache: "none", the browser can check for a new
+      // sw.js using its own HTTP-cached copy of that file, meaning it can
+      // report "no update" without ever actually asking the network —
+      // separate from (and a possible cause of) the report staleness this
+      // was fixed alongside.
+      await navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" });
     } catch (error) {
       console.warn("Service worker registration failed", error);
     }
