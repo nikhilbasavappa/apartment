@@ -406,6 +406,77 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
   return { freshEntries, searchSucceeded };
 }
 
+// A currently-active StreetEasy listing page always shows "$X for rent"
+// within the first ~4,200 characters of body text, right after the address
+// — verified against all 360 currently-qualifying listings with zero
+// misses. A listing StreetEasy has taken down doesn't show this at all.
+// Deliberately NOT matching on "No longer available" as a phrase — that
+// text shows up in almost every listing's own price-history table for past
+// (unrelated, sometimes years-old) rental cycles of the same unit, so a
+// plain substring match would misfire on the majority of active listings.
+const FOR_RENT_MARKER = /\$[\d,]+\s+for rent\b/i;
+const FOR_RENT_MARKER_WINDOW = 6000;
+
+// The catalog only ever grows — nothing previously re-checks whether a
+// qualifying listing is still actually live on StreetEasy. Re-verifying the
+// entire catalog every run would mean hundreds of extra Bright Data fetches
+// per scan, so this works through a bounded slice each run (oldest- or
+// never-checked first), naturally cycling through the whole catalog over
+// roughly a week at the default batch size instead of needing a separate
+// maintenance script someone has to remember to run.
+async function revalidateQualifyingListings(context, state, config, runAt) {
+  const batchSize = config.scanner.revalidateBatchSize ?? 20;
+  if (batchSize <= 0) return { checked: 0, removed: 0 };
+
+  const candidates = Object.entries(state.catalog)
+    .filter(([, entry]) => entry.qualifies && entry.listing?.url)
+    .sort(([, a], [, b]) => {
+      const aTime = a.lastRevalidatedAt ? new Date(a.lastRevalidatedAt).getTime() : 0;
+      const bTime = b.lastRevalidatedAt ? new Date(b.lastRevalidatedAt).getTime() : 0;
+      return aTime - bTime;
+    })
+    .slice(0, batchSize);
+
+  let checked = 0;
+  let removed = 0;
+
+  for (const [entryId, entry] of candidates) {
+    await randomDelay(400, 1000);
+    const page = await context.newPage();
+    try {
+      const details = await extractListingDetail(
+        page,
+        { url: entry.listing.url, title: entry.listing.title, searchSnippet: "", cardImage: "" },
+        config,
+        { rootDir: outputRoot, screenshotDir }
+      );
+
+      const stillListed = FOR_RENT_MARKER.test(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
+      entry.lastRevalidatedAt = runAt;
+      checked += 1;
+
+      if (!stillListed) {
+        entry.qualifies = false;
+        entry.reasons = ["No longer listed on StreetEasy (auto-detected during periodic revalidation)"];
+        removed += 1;
+        console.log(`REVALIDATED_REMOVED: ${entry.listing.title}`);
+      }
+    } catch (error) {
+      // Same caution as new-listing inspection: a bot challenge or a
+      // rendering race isn't evidence the listing is gone, so leave
+      // lastRevalidatedAt untouched — it stays at the front of the queue
+      // for a retry next run instead of being pushed to the back on a
+      // fetch failure that had nothing to do with availability.
+      const label = error instanceof BotChallengeError || error instanceof ExtractionIncompleteError ? "transient" : "failed";
+      console.warn(`REVALIDATE_${label.toUpperCase()}: ${entry.listing.title} — ${error.message} (will retry next run)`);
+    } finally {
+      await page.close();
+    }
+  }
+
+  return { checked, removed };
+}
+
 async function main() {
   const config = loadConfig();
   const state = loadState();
@@ -439,11 +510,22 @@ async function main() {
   const newListings = [];
   let anySourceSucceeded = false;
 
+  let revalidation = { checked: 0, removed: 0 };
   try {
     for (const source of activeSources) {
       const { freshEntries, searchSucceeded } = await inspectSource(source, context, state, config, runAt, counters);
       newListings.push(...freshEntries);
       anySourceSucceeded = anySourceSucceeded || searchSucceeded;
+    }
+
+    // Skip on a day the search itself is already struggling (Bright Data
+    // outage, bot wall) — piling on another batch of fetches that are
+    // likely to fail the same way just burns quota for nothing.
+    if (anySourceSucceeded) {
+      revalidation = await revalidateQualifyingListings(context, state, config, runAt);
+      if (revalidation.checked > 0) {
+        console.log(`Revalidated ${revalidation.checked} existing listings, ${revalidation.removed} no longer available.`);
+      }
     }
   } finally {
     await context.close();
@@ -467,7 +549,8 @@ async function main() {
 
   const qualifyingCount = newListings.filter((entry) => entry.qualifies).length;
   console.log(
-    `Scan complete at ${formatTimestamp(runAt)}. ${newListings.length} new listings inspected, ${qualifyingCount} qualified. Report: ${htmlPath}`
+    `Scan complete at ${formatTimestamp(runAt)}. ${newListings.length} new listings inspected, ${qualifyingCount} qualified, ` +
+      `${revalidation.checked} revalidated (${revalidation.removed} no longer available). Report: ${htmlPath}`
   );
 }
 

@@ -28,7 +28,8 @@
     "waitAfterLoadMs": 1800,
     "captureScreenshots": true,
     "captureRemotePhotos": 6,
-    "retainDays": 21
+    "retainDays": 21,
+    "revalidateBatchSize": 20
   },
   "notifications": {
     "enabled": true,
