@@ -104,13 +104,23 @@ function estimateSqftForBedrooms(bedrooms) {
 // all. Missing sqft gets the bedroom-typical estimate instead of a flat
 // score, so an unknown-size studio doesn't score the same as an
 // unknown-size 3-bedroom.
+//
+// Below 600 (per-bedroom-normalized), this goes negative instead of
+// flooring at 0 — a listing genuinely too small (241 West 75th St #5, 500
+// sqft/1bd, scored a merely-low 9/100 under the old 0-floored version and
+// still ranked 61.8 overall on a great location) should actively drag the
+// total down, not just fail to help it. Floors at -100 (reached at 200
+// sqft/bedroom, a genuinely shoebox-sized space) so one degenerate listing
+// can't blow up the weighted average.
 function sqftScore(sqft, bedrooms) {
   const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
   const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
   const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
-  const SCORE_FLOOR_SQFT = 450;
+  const SCORE_ZERO_POINT_SQFT = 600;
   const SCORE_CEILING_SQFT = 1000;
-  return Math.max(0, Math.min(100, ((perBedroomSqft - SCORE_FLOOR_SQFT) / (SCORE_CEILING_SQFT - SCORE_FLOOR_SQFT)) * 100));
+  const SCORE_FLOOR = -100;
+  const raw = ((perBedroomSqft - SCORE_ZERO_POINT_SQFT) / (SCORE_CEILING_SQFT - SCORE_ZERO_POINT_SQFT)) * 100;
+  return Math.max(SCORE_FLOOR, Math.min(100, raw));
 }
 
 // Blended ranking score used to sort qualifying listings — separate from the

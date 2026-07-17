@@ -344,8 +344,12 @@ function commuteScore(minutes) {
 // 996 for 2bd, extrapolated linearly for 3bd+ (no real samples yet).
 const SQFT_BASELINE_1BD = 671;
 const SQFT_PER_EXTRA_BEDROOM = 325;
-const SQFT_SCORE_FLOOR = 450;
+// Below 600 (per-bedroom-normalized) this goes negative instead of
+// flooring at 0, so a genuinely too-small unit drags the total down rather
+// than just failing to help it. Floors at -100, reached at 200 sqft/bedroom.
+const SQFT_SCORE_ZERO_POINT = 600;
 const SQFT_SCORE_CEILING = 1000;
+const SQFT_SCORE_FLOOR = -100;
 
 function estimateSqftForBedrooms(bedrooms) {
   const bd = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
@@ -356,7 +360,8 @@ function sqftScore(sqft, bedrooms) {
   const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
   const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
   const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
-  return Math.max(0, Math.min(100, ((perBedroomSqft - SQFT_SCORE_FLOOR) / (SQFT_SCORE_CEILING - SQFT_SCORE_FLOOR)) * 100));
+  const raw = ((perBedroomSqft - SQFT_SCORE_ZERO_POINT) / (SQFT_SCORE_CEILING - SQFT_SCORE_ZERO_POINT)) * 100;
+  return Math.max(SQFT_SCORE_FLOOR, Math.min(100, raw));
 }
 
 function computeClientRankBreakdown(entry, weights) {

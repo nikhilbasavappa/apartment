@@ -84,9 +84,12 @@
             <li><strong>Size</strong> &mdash; bigger is always better, but normalized by bedroom count (divided by
               the square root of bedrooms, so it's a real but weak adjustment, not a straight per-bedroom split) since
               the same square footage feels roomier with fewer bedrooms to share it &mdash; an 800sqft 1-bedroom is
-              spacious, an 800sqft 2-bedroom is cramped by comparison. Listings without sqft in the source data (most
-              of them) get the median real sqft for that bedroom count instead of a guess or a flat default, so a
-              missing value doesn't quietly become a penalty or a windfall.</li>
+              spacious, an 800sqft 2-bedroom is cramped by comparison. Below 600sqft per bedroom this goes negative
+              instead of just bottoming out at 0, so a genuinely too-small unit actively drags the overall score down
+              rather than merely failing to help it &mdash; otherwise a great location could paper over a unit that's
+              just too small. Listings without sqft in the source data (most of them) get the median real sqft for
+              that bedroom count instead of a guess or a flat default, so a missing value doesn't quietly become a
+              penalty or a windfall.</li>
           </ul>
           <p class="rubric-copy">
             The default weighting is 30% neighborhood, 30% office, 25% friends, 15% size. If that balance feels off,
