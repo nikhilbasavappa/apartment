@@ -175,9 +175,9 @@ function applySortFilter(entries) {
       if (wanted === 3 ? actual < 3 : actual !== wanted) return false;
     }
     if (currentSortFilter.gas !== "any" && entry.gasStove !== currentSortFilter.gas) return false;
-    const isUnavailable = Boolean(getFeedback(entry.listing.url).unavailable);
-    if (currentSortFilter.availability === "available" && isUnavailable) return false;
-    if (currentSortFilter.availability === "unavailable" && !isUnavailable) return false;
+    const unavailable = isUnavailable(entry);
+    if (currentSortFilter.availability === "available" && unavailable) return false;
+    if (currentSortFilter.availability === "unavailable" && !unavailable) return false;
     return true;
   });
 
@@ -826,11 +826,27 @@ function renderStarred(qualifyingEntries, excludedEntries) {
   }
 }
 
+// Two independent sources feed into "unavailable": you clicking the mark-
+// unavailable button (tracked client-side in localStorage), or the
+// automated revalidation pass in scan.cjs detecting the listing itself is
+// gone/in-contract on StreetEasy (tracked server-side via the exclusion
+// reason). Both mean the same thing to you — a unit you once considered
+// isn't gettable anymore — so both belong in the same tab.
+const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy/i;
+
+function isAutoDetectedUnavailable(entry) {
+  return (entry.reasons || []).some((reason) => AUTO_UNAVAILABLE_REASON_PATTERN.test(reason));
+}
+
+function isUnavailable(entry) {
+  return getFeedback(entry.listing.url).unavailable || isAutoDetectedUnavailable(entry);
+}
+
 function renderUnavailable(qualifyingEntries, excludedEntries) {
   if (!els.unavailableFeed) return;
 
-  const unavailableQualifying = qualifyingEntries.filter((entry) => getFeedback(entry.listing.url).unavailable);
-  const unavailableExcluded = excludedEntries.filter((entry) => getFeedback(entry.listing.url).unavailable);
+  const unavailableQualifying = qualifyingEntries.filter(isUnavailable);
+  const unavailableExcluded = excludedEntries.filter(isUnavailable);
   const total = unavailableQualifying.length + unavailableExcluded.length;
 
   els.unavailableFeed.innerHTML = "";
