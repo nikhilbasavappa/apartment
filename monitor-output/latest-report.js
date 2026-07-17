@@ -6540,7 +6540,8 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r"
       },
       "reasons": [
-        "Marked unavailable by user"
+        "Marked unavailable by user",
+        "Confirmed in contract on StreetEasy as of 7/11/2026"
       ]
     },
     {
