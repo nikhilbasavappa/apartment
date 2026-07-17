@@ -481,6 +481,12 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         removed += 1;
         console.log(`REVALIDATED_IN_CONTRACT: ${entry.listing.title}`);
       }
+
+      // Written after every listing, not just once at the end of the whole
+      // batch — a batch of 150 can run for hours, and losing that much
+      // progress to an interruption (or having nothing to inspect mid-run)
+      // isn't worth the cost of a few extra small file writes.
+      writeJson(statePath, state);
     } catch (error) {
       // Same caution as new-listing inspection: a bot challenge or a
       // rendering race isn't evidence the listing is gone, so leave
