@@ -4639,6 +4639,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "389 10th Street #2, BROOKLYN, NY, 11215",
+        "price": 6250,
+        "title": "389 10th Street #2",
+        "url": "https://streeteasy.com/building/389-10-street-brooklyn/2"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "255 East 39th Street #6F",
@@ -4858,6 +4869,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "22-44 Jackson Avenue #2102, LONG ISLAND CITY, NY, 11101",
+        "price": 6752,
+        "title": "22-44 Jackson Avenue #2102",
+        "url": "https://streeteasy.com/building/5pointz-lic/2102"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "28-40 Jackson Avenue #30M, LONG ISLAND CITY, NY, 11101",
         "price": 6603,
         "title": "28-40 Jackson Avenue #30M",
@@ -4900,6 +4922,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "315 Lincoln Place #4Q, BROOKLYN, NY, 11238",
+        "price": 4195,
+        "title": "315 Lincoln Place #4Q",
+        "url": "https://streeteasy.com/building/315-lincoln-place-brooklyn/4q"
+      },
+      "reasons": [
+        "No longer listed on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -5480,6 +5513,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "20 Rockwell Place #2209G, BROOKLYN, NY, 11201",
+        "price": 4191,
+        "title": "20 Rockwell Place #2209G",
+        "url": "https://streeteasy.com/building/the-rocklyn/2209g"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -6442,6 +6486,50 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "29-18 41st Avenue #24B, LONG ISLAND CITY, NY, 11101",
+        "price": 4500,
+        "title": "29-18 41st Avenue #24B",
+        "url": "https://streeteasy.com/building/nova-condominium/24b"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "159 3rd Avenue #5L, BROOKLYN, NY, 11217",
+        "price": 6000,
+        "title": "159 3rd Avenue #5L",
+        "url": "https://streeteasy.com/building/159-3-avenue/5l"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "5-09 48th Avenue #4H, LONG ISLAND CITY, NY, 11101",
+        "price": 4200,
+        "title": "5-09 48th Avenue #4H",
+        "url": "https://streeteasy.com/building/5th-street-lofts-5sl/4h"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "957 Atlantic Avenue #710, BROOKLYN, NY, 11238",
+        "price": 5250,
+        "title": "957 Atlantic Avenue #710",
+        "url": "https://streeteasy.com/building/the-alanza/710"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -15880,97 +15968,6 @@ window.__APARTMENT_REPORT__ = {
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "20 Rockwell Place #2209G, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-rocklyn-2209g.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/cf7fce6c6d9919df4e160e1aba7df4bb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5edb420d2e735257017cd5f5d88f8663-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c479750564bf115df60f5746a5a67e8d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/eedaf3cb634726d3e618e295a02eaa6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/da8c73372eb4c208f0a6ed77d8712c82-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9b4603b56e9a194e74fd1c4243b694b8-se_extra_large_1500_800.webp"
-        ],
-        "price": 4191,
-        "sqft": null,
-        "title": "20 Rockwell Place #2209G",
-        "url": "https://streeteasy.com/building/the-rocklyn/2209g",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 55.12875,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 42.2,
-          "weight": 0.3,
-          "minutes": 34
-        },
-        "friends": {
-          "score": 39.225,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 55.12875,
-      "visionNotes": "Kitchen is open to living area with visible gas range; private outdoor terrace visible through large windows; living spaces appear spacious and well-proportioned."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 34,
-          "lines": [
-            "B Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 18,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 38,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
         "address": "20 Rockwell Place #2327C, BROOKLYN, NY, 11201",
         "availableDate": "now",
         "bathrooms": 1,
@@ -20899,99 +20896,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 39,
-          "lines": [
-            "C Line",
-            "5 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 13,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 48,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "957 Atlantic Avenue #710, BROOKLYN, NY, 11238",
-        "availableDate": "2026-08-02",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-alanza-710.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ff1d0200318962c415233b7079624953-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/faae3f83648f2e3a911e91de0ad10a0b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fda85483e80b1266fd20ccb8d46ff16c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a2d436b7616a35c33b67dba33f97748d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/00a37f5367b0a23c0393ea31065419f5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5d41ae1c3195ec2919c39da0a7c40a22-se_large_800_400.webp"
-        ],
-        "price": 5250,
-        "sqft": null,
-        "title": "957 Atlantic Avenue #710",
-        "url": "https://streeteasy.com/building/the-alanza/710",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.276688277317554,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 33.7,
-          "weight": 0.3,
-          "minutes": 39
-        },
-        "friends": {
-          "score": 29.025000000000002,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 51.276688277317554,
-      "visionNotes": "Kitchen is visible and open to living area in the last photo; stove type cannot be determined from the angle and distance; no private outdoor space visible; living room appears spacious with good furniture-to-room ratio."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 36,
           "lines": [
             "G Line",
@@ -23596,98 +23500,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "159 3rd Avenue #5L, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-159-3-avenue-5l.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f2cd6399854dc1bb37a50f3e58174767-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c1bedf81be47277740ce3b4d9fd4afc8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3a8a82566f90020a2984cf3d640fc5ae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/706d2596436b96c7e5fe190f3e0e8a8c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2765b324f5d05e82faeead78fea2bdd4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f768350ee4fc20954d672fa5fca13c52-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": null,
-        "title": "159 3rd Avenue #5L",
-        "url": "https://streeteasy.com/building/159-3-avenue/5l",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.385438277317554,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.3,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 23.500000000000004,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 49.385438277317554,
-      "visionNotes": "Kitchen is clearly visible and open to living area with island; stove type indeterminate from angles shown; no private outdoor space visible; living room is spacious with high ceilings and large windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 55,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 49,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "gasStove": "no",
       "hasGarden": false,
@@ -25163,95 +24975,6 @@ window.__APARTMENT_REPORT__ = {
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "22-44 Jackson Avenue #2102, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-2102.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/68572aac69ffdc9a8c6582b765709926-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/68572aac69ffdc9a8c6582b765709926-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/54dc6da0ea5b00466e5bbd154493a027-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/26a5c290c910a364a3b2cd4aa5ea9edd-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/25d9d85438cbe27039022ab90bd6b5e0-se_extra_large_1500_800.webp"
-        ],
-        "price": 6752,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #2102",
-        "url": "https://streeteasy.com/building/5pointz-lic/2102",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 48.594188277317556,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.3,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 48.594188277317556,
-      "visionNotes": "Open-plan kitchen with island visible in first two photos; gas range with visible burners/grates clearly shown; spacious living room with floor-to-ceiling windows and ample furniture; no private outdoor space visible, only high-rise views."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 15,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
         "address": "22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101",
         "availableDate": "2026-07-14",
         "bathrooms": 2,
@@ -25390,99 +25113,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 48.594188277317556,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with gas range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from high-rise unit."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "389 10th Street #2, BROOKLYN, NY, 11215",
-        "availableDate": "2026-07-15",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-389-10-street-brooklyn-2.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/1b368b3f6f4ab44afad266d35542732b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7fae6695cd63af192556b0867ba00cff-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ca8c9cb5572b279da745c83de0455a30-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c7d59a4e1d23a9f7cb27ba1e9c23df94-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2eb07979b2bebfef6830374ec04b154b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4797d2543eb2366c0bb1f1951177527f-se_large_800_400.webp"
-        ],
-        "price": 6250,
-        "sqft": null,
-        "title": "389 10th Street #2",
-        "url": "https://streeteasy.com/building/389-10-street-brooklyn/2",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 48.57793827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.3,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 24.35,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 48.57793827731755,
-      "visionNotes": "Kitchen is visible and semi-open to living area; gas range with visible burners; no private outdoor space shown; living room appears spacious with good proportions for NYC."
     },
     {
       "commute": {
@@ -26228,98 +25858,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 47.919188277317545,
       "visionNotes": "Kitchen is visible and open to living/dining area with visible gas cooktop; outdoor space visible through window with railing suggests a private terrace; living room is spacious with ample furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 8,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 58,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 52,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "315 Lincoln Place #4Q, BROOKLYN, NY, 11238",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-315-lincoln-place-brooklyn-4q.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e42872001f96b09e70f4767c96fc5a4e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e42872001f96b09e70f4767c96fc5a4e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/50df8c0552e1a3651c698f305ea150f2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dfb0cf3c30fced9c0420d3272fd1a255-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dea49e7f0ee52a2c8ce7c77fd9469d00-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e42872001f96b09e70f4767c96fc5a4e-se_medium_500_250.webp"
-        ],
-        "price": 4195,
-        "sqft": null,
-        "title": "315 Lincoln Place #4Q",
-        "url": "https://streeteasy.com/building/315-lincoln-place-brooklyn/4q",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 47.876688277317555,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 25.200000000000003,
-          "weight": 0.3,
-          "minutes": 44
-        },
-        "friends": {
-          "score": 25.625000000000007,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 47.876688277317555,
-      "visionNotes": "Kitchen is fully open to living area with visible gas range/cooktop, living room is spacious with good proportions, no private outdoor space visible."
     },
     {
       "commute": {
@@ -32618,96 +32156,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 20,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "7",
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 7,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "5-09 48th Avenue #4H, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5th-street-lofts-5sl-4h.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/6aa808e28c957c45eecd6326c5c4b5e6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/87064c54c4cefc5c2ecaef00d0a579ab-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b722390afe12b0feaa702a78ef77f86f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b3bfe2196db9b9abfed6eb28f3883256-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/412de762b8c352a1965bd2185849f971-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/078e39523f5c6d984b24e26035859abd-se_large_800_400.webp"
-        ],
-        "price": 4200,
-        "sqft": 700,
-        "title": "5-09 48th Avenue #4H",
-        "url": "https://streeteasy.com/building/5th-street-lofts-5sl/4h",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 44.1625,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.3,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 46.45,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 25,
-          "weight": 0.15,
-          "sqft": 700,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 44.1625,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; stove appears to have visible grates suggesting gas, but angle and reflection make it somewhat uncertain; no private outdoor space visible; living room appears reasonably sized for NYC."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -38600,97 +38048,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 40.26418827731756,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island counter; stove appears to be electric/induction (flat cooktop); no private outdoor space shown; living room is spacious with floor-to-ceiling windows and ample seating."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 14,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "7X"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "29-18 41st Avenue #24B, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-20",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-nova-condominium-24b.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9374893ce51094d7f624f624727b5a2a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bd92fb5d94327e3ec8e0a551eb4efc07-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/04f7856e54cfbc3920c5c9bed1a25c87-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/aeb8df648ca354547f0dada7533e737f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6e773614893253d836e0596ac6d49f97-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/df401a0983b410fd22c184008e3f09fa-se_extra_large_1500_800.webp"
-        ],
-        "price": 4500,
-        "sqft": 596,
-        "title": "29-18 41st Avenue #24B",
-        "url": "https://streeteasy.com/building/nova-condominium/24b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.24125,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 76.2,
-          "weight": 0.3,
-          "minutes": 14
-        },
-        "friends": {
-          "score": 34.125,
-          "weight": 0.25
-        },
-        "size": {
-          "score": -1,
-          "weight": 0.15,
-          "sqft": 596,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 40.24125,
-      "visionNotes": "Kitchen visible and open to living/dining area in photo 4; stove type indeterminate from angle/lighting; living room is spacious with high ceilings and large windows; no private outdoor space shown, only shared building amenities visible."
     },
     {
       "commute": {
