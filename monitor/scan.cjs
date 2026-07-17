@@ -417,6 +417,20 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 const FOR_RENT_MARKER = /\$[\d,]+\s+for rent\b/i;
 const FOR_RENT_MARKER_WINDOW = 6000;
 
+// A listing that's had an offer accepted but hasn't closed yet still shows
+// "$X for rent" (so FOR_RENT_MARKER alone misses it) but StreetEasy tags it
+// "In contract DATE" immediately after — confirmed against a real listing:
+// '$6,700 for rent Base rent only. For total... breakdown. In contract
+// 7/10/2026 962 ft² ...'. Requiring tight proximity to the "for rent"
+// marker (not just presence anywhere in the page) matters: "in contract"
+// also shows up in every listing's own price-history table for unrelated
+// past cycles, and separately in an unrelated "Similar Homes" sidebar
+// listing sale properties — a plain substring match misfired on 47 of 370
+// currently-active listings in testing. Anchoring to the ~100 characters
+// right after "for rent" (verified against 3 real in-contract listings) has
+// zero false positives against the full catalog.
+const IN_CONTRACT_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bin contract\b/is;
+
 // The catalog only ever grows — nothing previously re-checks whether a
 // qualifying listing is still actually live on StreetEasy. Re-verifying the
 // entire catalog every run would mean hundreds of extra Bright Data fetches
@@ -452,6 +466,7 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
       );
 
       const stillListed = FOR_RENT_MARKER.test(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
+      const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
       entry.lastRevalidatedAt = runAt;
       checked += 1;
 
@@ -460,6 +475,11 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         entry.reasons = ["No longer listed on StreetEasy (auto-detected during periodic revalidation)"];
         removed += 1;
         console.log(`REVALIDATED_REMOVED: ${entry.listing.title}`);
+      } else if (inContract) {
+        entry.qualifies = false;
+        entry.reasons = ["In contract on StreetEasy (auto-detected during periodic revalidation)"];
+        removed += 1;
+        console.log(`REVALIDATED_IN_CONTRACT: ${entry.listing.title}`);
       }
     } catch (error) {
       // Same caution as new-listing inspection: a bot challenge or a
@@ -561,4 +581,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildReport, loadConfig, loadState, saveReport, statePath };
+module.exports = { buildReport, createPersistentContext, loadConfig, loadState, revalidateQualifyingListings, saveReport, statePath };
