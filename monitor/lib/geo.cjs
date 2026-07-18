@@ -28,10 +28,23 @@ async function geocodeAddress(address) {
   }
 
   const result = payload.results[0];
+
+  // Google's own geocode result already carries a neighborhood component
+  // (reliably present for outer-borough addresses — "Long Island City",
+  // "Park Slope", etc.) that was being fetched and discarded every time.
+  // Falls back to the borough-level sublocality when Google itself doesn't
+  // tag a specific neighborhood (common for Manhattan addresses) — coarser
+  // than a real neighborhood name, but still better than nothing.
+  const components = result.address_components || [];
+  const neighborhoodComponent = components.find((c) => c.types.includes("neighborhood"));
+  const boroughComponent = components.find((c) => c.types.includes("sublocality_level_1"));
+  const geocodedNeighborhood = neighborhoodComponent?.long_name || boroughComponent?.long_name || null;
+
   return {
     formattedAddress: result.formatted_address,
     lat: result.geometry.location.lat,
     lng: result.geometry.location.lng,
+    neighborhood: geocodedNeighborhood,
   };
 }
 

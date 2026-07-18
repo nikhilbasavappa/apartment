@@ -8307,8 +8307,8 @@ window.__APARTMENT_REPORT__ = {
       {
         "tier": "other",
         "label": "other area",
-        "count": 156,
-        "medianPrice": 5360,
+        "count": 159,
+        "medianPrice": 5325,
         "medianPricePerSqft": 7.068452380952381,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
@@ -8328,15 +8328,6 @@ window.__APARTMENT_REPORT__ = {
         "count": 9,
         "medianPrice": 5995,
         "medianPricePerSqft": 10.373939393939395,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
-        "tier": "unknown",
-        "label": "unrated area",
-        "count": 3,
-        "medianPrice": 4400,
-        "medianPricePerSqft": null,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
       }
@@ -18295,97 +18286,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 53.43875,
       "visionNotes": "Photo 1 shows an open-plan kitchen with a gas range (visible grates) flowing into a spacious living area; photo 5 shows a private rooftop terrace with seating and grill."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-altalic-29-22-northern-boulevard-long-island-city-3801e.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5b923a41c59e63e177fecb02560ab56c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9ef116b16dc709ec3d32024d376f75b9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b16c2c26d8f1e3ce8804e07e191fc154-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/62a306d3f608984ba4a5838e342dffea-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/30436e5fbaf3806a3aeac8349ff55f55-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bdddc0de7bf62ff5d14bef62d91c7f50-se_large_800_400.webp"
-        ],
-        "price": 6495,
-        "sqft": null,
-        "title": "29-22 Northern Boulevard #3801E",
-        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3801e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "unknown",
-      "rankBreakdown": {
-        "total": 53.31918827731755,
-        "neighborhood": {
-          "score": 50,
-          "weight": 0.3,
-          "tier": "unknown"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.3,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 53.31918827731755,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; living room is spacious with good furniture layout; no private outdoor space visible in any photo."
     },
     {
       "commute": {
@@ -28411,6 +28311,98 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "R Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "R Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 32,
+          "lines": [
+            "E Line",
+            "D Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-altalic-29-22-northern-boulevard-long-island-city-3801e.png",
+        "neighborhood": "Long Island City",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/5b923a41c59e63e177fecb02560ab56c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9ef116b16dc709ec3d32024d376f75b9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b16c2c26d8f1e3ce8804e07e191fc154-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/62a306d3f608984ba4a5838e342dffea-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/30436e5fbaf3806a3aeac8349ff55f55-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bdddc0de7bf62ff5d14bef62d91c7f50-se_large_800_400.webp"
+        ],
+        "price": 6495,
+        "sqft": null,
+        "title": "29-22 Northern Boulevard #3801E",
+        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3801e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 47.31918827731755,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.3,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.3,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.25
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.15,
+          "sqft": null,
+          "bedrooms": 2
+        }
+      },
+      "rankScore": 47.31918827731755,
+      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; living room is spacious with good furniture layout; no private outdoor space visible in any photo."
+    },
+    {
+      "commute": {
+        "office": {
           "minutes": 18,
           "lines": [
             "6 Train"
@@ -29317,96 +29309,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 46.551249999999996,
       "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 55,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 28,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 45,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-fifty-lic-9b.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/2a1aee554975b3feb0d9b09950772e4e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/52799d5fe75ceb41fd50830901de93d3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/05c44715636e21f99d2803b61447f9d7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5713501f009f463ef0a157859563ff27-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e53259f35b0974933da633b36adce47d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/584d27ad870a051a3aa3a63810e32ef9-se_large_800_400.webp"
-        ],
-        "price": 4200,
-        "sqft": null,
-        "title": "39-26 30th Street #9B",
-        "url": "https://streeteasy.com/building/the-fifty-lic/9b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "unknown",
-      "rankBreakdown": {
-        "total": 46.54625000000001,
-        "neighborhood": {
-          "score": 50,
-          "weight": 0.3,
-          "tier": "unknown"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.3,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 28.174999999999997,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 46.54625000000001,
-      "visionNotes": "Kitchen is clearly visible and open to living area; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with good ceiling height and natural light."
     },
     {
       "commute": {
@@ -30965,96 +30867,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 45.345438277317555,
       "visionNotes": "Kitchen is visible with white cabinetry and stainless appliances, opening via counter pass-through into a spacious open living/dining area; gas range visible in last photo; no outdoor space shown; living room appears spacious for NYC."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 30,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 38,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "M5"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 8,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "638 West End Avenue #3A, NEW YORK, NY, 10024",
-        "availableDate": "2026-08-03",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-638-west-end-avenue-new-york-3a.png",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/17f195deb86862f66dc36201685abb48-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bf1d1ad6dd9796d851f0d4da63e2c33c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_medium_500_250.webp"
-        ],
-        "price": 4400,
-        "sqft": null,
-        "title": "638 West End Avenue #3A",
-        "url": "https://streeteasy.com/building/638-west-end-avenue-new_york/3a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "unknown",
-      "rankBreakdown": {
-        "total": 45.25,
-        "neighborhood": {
-          "score": 50,
-          "weight": 0.3,
-          "tier": "unknown"
-        },
-        "office": {
-          "score": 49,
-          "weight": 0.3,
-          "minutes": 30
-        },
-        "friends": {
-          "score": 51.55,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.25,
-      "visionNotes": "Open-plan kitchen with electric range/oven visible; living room is compact with furniture filling most of the space; no private outdoor space shown, only windows overlooking NYC streets."
     },
     {
       "commute": {
@@ -38454,6 +38266,97 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-fifty-lic-9b.png",
+        "neighborhood": "Long Island City",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/2a1aee554975b3feb0d9b09950772e4e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/52799d5fe75ceb41fd50830901de93d3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/05c44715636e21f99d2803b61447f9d7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5713501f009f463ef0a157859563ff27-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e53259f35b0974933da633b36adce47d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/584d27ad870a051a3aa3a63810e32ef9-se_large_800_400.webp"
+        ],
+        "price": 4200,
+        "sqft": null,
+        "title": "39-26 30th Street #9B",
+        "url": "https://streeteasy.com/building/the-fifty-lic/9b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 40.54625,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.3,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.3,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 28.174999999999997,
+          "weight": 0.25
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.15,
+          "sqft": null,
+          "bedrooms": 1
+        }
+      },
+      "rankScore": 40.54625,
+      "visionNotes": "Kitchen is clearly visible and open to living area; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with good ceiling height and natural light."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 55,
+          "lines": [
+            "N Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 28,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 45,
+          "lines": [
+            "W Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "W Line",
+            "1 Line"
+          ]
+        }
+      },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "gasStove": "unknown",
       "hasGarden": false,
@@ -39505,6 +39408,97 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 39.25570343559642,
       "visionNotes": "Kitchen is visible and open to living area with clear gas range/cooktop; no private outdoor space shown; living room appears reasonably sized with good furniture arrangement."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 30,
+          "lines": [
+            "1 Line",
+            "D Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 51,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 38,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 17,
+          "lines": [
+            "M5"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 8,
+          "lines": [
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "638 West End Avenue #3A, NEW YORK, NY, 10024",
+        "availableDate": "2026-08-03",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "externalScreenshot": "screenshots/streeteasy-com-building-638-west-end-avenue-new-york-3a.png",
+        "neighborhood": "Manhattan",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/17f195deb86862f66dc36201685abb48-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bf1d1ad6dd9796d851f0d4da63e2c33c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/41778f4566a0ddb31282b2a37a104e32-se_medium_500_250.webp",
+          "https://photos.zillowstatic.com/fp/f8c9a03175eef85d836ca9d4e187fe33-se_medium_500_250.webp"
+        ],
+        "price": 4400,
+        "sqft": null,
+        "title": "638 West End Avenue #3A",
+        "url": "https://streeteasy.com/building/638-west-end-avenue-new_york/3a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 39.25,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.3,
+          "tier": "other"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.3,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 51.55,
+          "weight": 0.25
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.15,
+          "sqft": null,
+          "bedrooms": 1
+        }
+      },
+      "rankScore": 39.25,
+      "visionNotes": "Open-plan kitchen with electric range/oven visible; living room is compact with furniture filling most of the space; no private outdoor space shown, only windows overlooking NYC streets."
     },
     {
       "commute": {

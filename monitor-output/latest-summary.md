@@ -117,7 +117,6 @@ No new qualifying listings this run.
 - 662 Pacific Street #20T | $4,490 | 662 Pacific Street #20T, BROOKLYN, NY, 11217 | 35 min to office | score 54/100
 - 662 Pacific Street #26B | $4,500 | 662 Pacific Street #26B, BROOKLYN, NY, 11217 | 35 min to office | score 54/100
 - 52 4th Avenue #501 | $4,650 | 52 4th Avenue #501, BROOKLYN, NY, 11217 | 33 min to office | score 53/100
-- 29-22 Northern Boulevard #3801E | $6,495 | 29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 53/100
 - 234 Washington Avenue #4 | $6,500 | 234 Washington Avenue #4, BROOKLYN, NY, 11205 | 35 min to office | score 53/100
 - 801 Amsterdam Avenue #3G | $6,088 | 801 Amsterdam Avenue #3G, NEW YORK, NY, 10025 | 30 min to office | score 53/100
 - 814 Amsterdam Avenue #9N | $4,095 | 814 Amsterdam Avenue #9N, NEW YORK, NY, 10025 | 30 min to office | score 53/100
@@ -227,6 +226,7 @@ No new qualifying listings this run.
 - 22-44 Jackson Avenue #4117 | $4,500 | 22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 47/100
 - 475 Clermont Avenue #903 | $4,610 | 475 Clermont Avenue #903, BROOKLYN, NY, 11238 | 38 min to office | score 47/100
 - 536 Henry Street #3 | $6,490 | 536 Henry Street #3, BROOKLYN, NY, 11231 | 43 min to office | score 47/100
+- 29-22 Northern Boulevard #3801E | $6,495 | 29-22 Northern Boulevard #3801E, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 47/100
 - 305 East 86th Street #1SE | $5,995 | 305 East 86th Street #1SE, NEW YORK, NY, 10028 | 18 min to office | score 47/100
 - 110 4th Avenue #5E | $5,750 | 110 4th Avenue #5E, BROOKLYN, NY, 11217 | 37 min to office | score 47/100
 - 3 Court Square #5604 | $5,200 | 3 Court Square #5604, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 47/100
@@ -237,7 +237,6 @@ No new qualifying listings this run.
 - 3 Court Square #3509 | $5,200 | 3 Court Square #3509, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 47/100
 - 23-15 44th Road #42H | $5,935 | 23-15 44th Road #42H, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 47/100
 - 101 West End Avenue #11Q | $6,800 | 101 West End Avenue #11Q, NEW YORK, NY, 10069 | 28 min to office | score 47/100
-- 39-26 30th Street #9B | $4,200 | 39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 47/100
 - 316 Bergen Street #210 | $4,101 | 316 Bergen Street #210, BROOKLYN, NY, 11217 | 37 min to office | score 47/100
 - 43-10 Crescent Street #502 | $5,399 | 43-10 Crescent Street #502, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 46/100
 - 305 East 86th Street #11JE | $6,395 | 305 East 86th Street #11JE, NEW YORK, NY, 10028 | 18 min to office | score 46/100
@@ -255,7 +254,6 @@ No new qualifying listings this run.
 - 42-06 Orchard Street #7C | $6,450 | 42-06 Orchard Street #7C, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 45/100
 - 42-06 Orchard Street #14D | $5,800 | 42-06 Orchard Street #14D, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 45/100
 - 132 Carroll Street #1 | $7,000 | 132 Carroll Street #1, BROOKLYN, NY, 11231 | 44 min to office | score 45/100
-- 638 West End Avenue #3A | $4,400 | 638 West End Avenue #3A, NEW YORK, NY, 10024 | 30 min to office | score 45/100
 - 140 President Street #3 | $5,500 | 140 President Street #3, BROOKLYN, NY, 11231 | 44 min to office | score 45/100
 - 29-59 Northern Boulevard #67B | $5,141 | 29-59 Northern Boulevard #67B, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 45/100
 - 29-59 Northern Boulevard #69C | $4,407 | 29-59 Northern Boulevard #69C, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 45/100
@@ -337,6 +335,7 @@ No new qualifying listings this run.
 - 31-12 38th Avenue #6F | $4,800 | 31-12 38th Avenue #6F, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 41/100
 - 4610 Center Boulevard #423 | $4,565 | 4610 Center Boulevard #423, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 41/100
 - 4720 Center Boulevard #926 | $6,550 | 4720 Center Boulevard #926, LONG ISLAND CITY, NY, 11109 | 25 min to office | score 41/100
+- 39-26 30th Street #9B | $4,200 | 39-26 30th Street #9B, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 41/100
 - 39-26 30th Street #11A | $4,400 | 39-26 30th Street #11A, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 41/100
 - 37-25 32nd Street #4A | $5,200 | 37-25 32nd Street #4A, LONG ISLAND CITY, NY, 11101 | 19 min to office | score 40/100
 - 37-25 32nd Street #4C | $5,200 | 37-25 32nd Street #4C, LONG ISLAND CITY, NY, 11101 | 19 min to office | score 40/100
@@ -349,6 +348,7 @@ No new qualifying listings this run.
 - 5-11 47th Avenue #7M | $5,093 | 5-11 47th Avenue #7M, LONG ISLAND CITY, NY, 11101 | 23 min to office | score 40/100
 - 322 East 90th Street #1B | $4,395 | 322 East 90th Street #1B, NEW YORK, NY, 10128 | 24 min to office | score 40/100
 - 506 Sixth Avenue #3L | $5,500 | 506 Sixth Avenue #3L, BROOKLYN, NY, 11215 | 47 min to office | score 39/100
+- 638 West End Avenue #3A | $4,400 | 638 West End Avenue #3A, NEW YORK, NY, 10024 | 30 min to office | score 39/100
 - 484 East 74th Street #7 | $4,650 | 484 East 74th Street #7, NEW YORK, NY, 10021 | 24 min to office | score 39/100
 - 5241 Center Boulevard #1607 | $6,125 | 5241 Center Boulevard #1607, LONG ISLAND CITY, NY, 11101 | 26 min to office | score 38/100
 - 501 East 87th Street #7D | $5,680 | 501 East 87th Street #7D, NEW YORK, NY, 10128 | 33 min to office | score 38/100

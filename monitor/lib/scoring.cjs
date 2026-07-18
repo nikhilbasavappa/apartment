@@ -278,6 +278,15 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   const listing = normalizeListing(rawListing);
   const reasons = [];
 
+  // StreetEasy's own page doesn't always carry a neighborhood name (3 real
+  // listings had none at all despite fully-resolved addresses) — Google's
+  // geocode result for the same address almost always does, since it's
+  // already being fetched for commute times anyway. Only used as a
+  // fallback: StreetEasy's own label is more specific when it exists.
+  if (!listing.neighborhood && commuteResult?.origin?.neighborhood) {
+    listing.neighborhood = commuteResult.origin.neighborhood;
+  }
+
   // Not re-verified from listing text: the search source already filters on
   // this amenity (amenities:washer_dryer), so it's trusted as-is.
   const washerDryer = "yes";
