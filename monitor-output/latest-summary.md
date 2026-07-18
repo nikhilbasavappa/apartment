@@ -2,14 +2,9 @@
 
 Run time: Jul 18, 2026, 12:35 PM
 Configured sources: 1
-New listings inspected this run: 6
-Qualifying new listings: 6
-- 55 Willoughby Street #22C | $5,235 | 55 Willoughby Street #22C, BROOKLYN, NY, 11201 | 31 min to office | score 55/100
-- 55 Willoughby Street #30F | $5,200 | 55 Willoughby Street #30F, BROOKLYN, NY, 11201 | 31 min to office | score 55/100
-- 432 Dean Street #1A | $4,300 | 432 Dean Street #1A, BROOKLYN, NY, 11217 | 34 min to office | score 54/100
-- 556 Baltic Street #507 | $5,462 | 556 Baltic Street #507, NEW YORK, NY, 11217 | 40 min to office | score 50/100
-- 3 Court Square #1805 | $6,800 | 3 Court Square #1805, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 48/100
-- 952 Columbus Avenue #4B | $6,350 | 952 Columbus Avenue #4B, NEW YORK, NY, 10025 | 29 min to office | score 44/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 
@@ -20,7 +15,6 @@ Qualifying new listings: 6
 - 210 West 80th Street #3RW | $5,750 | 210 West 80th Street #3RW, NEW YORK, NY, 10024 | 24 min to office | score 65/100
 - 244 West 72nd Street #10A | $6,250 | 244 West 72nd Street #10A, NEW YORK, NY, 10023 | 22 min to office | score 65/100
 - 244 West 72nd Street #15C | $6,350 | 244 West 72nd Street #15C, NEW YORK, NY, 10023 | 22 min to office | score 65/100
-- 241 West 75th Street #13 | $5,195 | 241 West 75th Street #13, NEW YORK, NY, 10023 | 25 min to office | score 63/100
 - 158 West 84th Street #3C | $5,495 | 158 West 84th Street #3C, NEW YORK, NY, 10024 | 27 min to office | score 63/100
 - 310 West 80th Street #3C | $5,000 | 310 West 80th Street #3C, NEW YORK, NY, 10024 | 25 min to office | score 62/100
 - 124 West 60th Street #35A | $6,500 | 124 West 60th Street #35A, NEW YORK, NY, 10023 | 17 min to office | score 61/100
@@ -388,7 +382,7 @@ Qualifying new listings: 6
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 33/100
 - 408 East 92nd Street #26B | $5,395 | 408 East 92nd Street #26B, NEW YORK, NY, 10128 | 36 min to office | score 31/100
 
-## Excluded (579)
+## Excluded (580)
 
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 2-20 Malt Drive #3203 | 2-20 Malt Drive #3203, LONG ISLAND CITY, NY, 11101 — Rent $7195 outside $3500-7000
@@ -639,6 +633,7 @@ Qualifying new listings: 6
 - 43-22 Queens Street #673 | 43-22 Queens Street #673, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 262 12th Street #1R | 262 12th Street #1R, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
 - 532 Tenth Street #2 | 532 Tenth Street #2, BROOKLYN, NY, 11215 — Kitchen photo shows a galley layout
+- 241 West 75th Street #13 | 241 West 75th Street #13, NEW YORK, NY, 10023 — Kitchen photo shows a closed layout (user-corrected)
 - 201 East 87th Street #25B | 201 East 87th Street #25B, NEW YORK, NY, 10128 — Kitchen photo shows a galley layout
 - 109 2nd Place #2 | 109 2nd Place #2, BROOKLYN, NY, 11231 — Kitchen photo shows a galley layout
 - 17 Hanover Place #27H | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
