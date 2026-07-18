@@ -3356,6 +3356,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "80 Dekalb Avenue #26K, BROOKLYN, NY, 11201",
+        "price": 4625,
+        "title": "80 Dekalb Avenue #26K",
+        "url": "https://streeteasy.com/building/80-dekalb/26k"
+      },
+      "reasons": [
+        "In contract on StreetEasy as of 7/18/2026 (confirmed live)"
+      ]
+    },
+    {
+      "listing": {
         "address": "160 Riverside Boulevard #15P, NEW YORK, NY, 10069",
         "price": 6700,
         "title": "160 Riverside Boulevard #15P",
@@ -6875,6 +6886,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "180 Fifth Avenue #1, BROOKLYN, NY, 11217",
+        "price": 4195,
+        "title": "180 Fifth Avenue #1",
+        "url": "https://streeteasy.com/building/180-5-avenue-brooklyn/1"
+      },
+      "reasons": [
+        "In contract on StreetEasy as of 7/10/2026 (confirmed live)"
+      ]
+    },
+    {
+      "listing": {
         "address": "100 Steuben Street #5B, BROOKLYN, NY, 11205",
         "price": 5274,
         "title": "100 Steuben Street #5B",
@@ -8316,8 +8338,8 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Fort Greene",
         "tier": "brooklyn",
-        "count": 34,
-        "medianPrice": 5310,
+        "count": 33,
+        "medianPrice": 5325,
         "medianPricePerSqft": 7.313323572474378,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
@@ -8359,20 +8381,20 @@ window.__APARTMENT_REPORT__ = {
         "medianLeadTimeDays": null
       },
       {
-        "name": "Park Slope",
-        "tier": "brooklyn",
-        "count": 19,
-        "medianPrice": 5199,
-        "medianPricePerSqft": 6.573076923076924,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
         "name": "Clinton Hill",
         "tier": "brooklyn",
         "count": 19,
         "medianPrice": 5325,
         "medianPricePerSqft": null,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "name": "Park Slope",
+        "tier": "brooklyn",
+        "count": 18,
+        "medianPrice": 5224.5,
+        "medianPricePerSqft": 6.6923076923076925,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
       },
@@ -8450,7 +8472,7 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 14,
+      "sampleSize": 16,
       "medianDaysOnMarket": null
     }
   },
@@ -10035,7 +10057,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-18T13:00:07.561Z",
-      "gasStove": "no",
+      "gasStove": "yes",
       "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
@@ -13206,98 +13228,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 55.93625,
       "visionNotes": "Kitchen is visible and semi-open to living area; gas range with visible burners/grates clearly shown; no private outdoor space visible; living room appears spacious for NYC with good furniture placement and high windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 32,
-          "lines": [
-            "B Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "B Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "80 Dekalb Avenue #26K, BROOKLYN, NY, 11201",
-        "availableDate": "2026-08-12",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-80-dekalb-26k.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ebf388bd9d1fcd60728a74a081284010-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dc485e89b5d2d35e5ea97821e5556c9b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/abd4c433ca6fcdfe8f714b4f2e661415-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4205e222e101bbe6bd3960985f81bb5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3d788e80520f84c60d030d607607c081-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6c5fa85edbdeca7b34d5613ca4456b8d-se_large_800_400.webp"
-        ],
-        "price": 4625,
-        "sqft": null,
-        "title": "80 Dekalb Avenue #26K",
-        "url": "https://streeteasy.com/building/80-dekalb/26k",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 55.93625,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 45.6,
-          "weight": 0.3,
-          "minutes": 32
-        },
-        "friends": {
-          "score": 38.375,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 55.93625,
-      "visionNotes": "Kitchen is semi-open to living/dining area via counter island; electric stove visible; private terrace with planters and city views; living room is spacious with good furniture-to-space ratio."
     },
     {
       "commute": {
@@ -24152,9 +24082,9 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "yes",
+      "gasStove": "no",
       "hasGarden": true,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "listing": {
         "address": "526 Baltic Street #4BA, BROOKLYN, NY, 11217",
         "availableDate": "2026-08-01",
@@ -27697,102 +27627,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 47.38375,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (flat black cooktop visible); no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "R Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 20,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 55,
-          "lines": [
-            "R Line",
-            "4 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "180 Fifth Avenue #1, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-180-5-avenue-brooklyn-1.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/044457c6ce413decb96c3d3a10945403-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4f591666c706e0211f8e8f141a55a8a1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2f72ee059d15f7e6ad487218b446972f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7cf953322ed74ce2000643b75890a69e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/25de10fbdb77be360e3df0546e487ee8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9183028302360f4468ccedd0056bb75a-se_large_800_400.webp"
-        ],
-        "price": 4195,
-        "sqft": 650,
-        "title": "180 Fifth Avenue #1",
-        "url": "https://streeteasy.com/building/180-5-avenue-brooklyn/1",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 47.35,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.3,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 23.5,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 12.5,
-          "weight": 0.15,
-          "sqft": 650,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 47.35,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas stove with visible burner grates; living room appears spacious with good furniture layout; windows open to fire escapes/street, no private garden."
     },
     {
       "commute": {
