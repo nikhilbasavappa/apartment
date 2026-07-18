@@ -31,16 +31,41 @@ until curl -s -m 5 -o /dev/null https://1.1.1.1; do
 done
 
 echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
-node "$SCRIPT_DIR/scan.cjs" 2>&1 | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
-SCAN_EXIT_CODE="${PIPESTATUS[0]}"
+
+# Backgrounded with a watchdog instead of a plain foreground pipe: three
+# separate multi-hour hangs happened this week (a network blip mid-run
+# leaving some fetch() stalled forever with no default timeout — most of
+# those now have one, but there's no guarantee the next hang looks the
+# same). Without a wall-clock ceiling, a hang like that just runs silently
+# until a human happens to notice the site is stale. 90 minutes is
+# generous headroom above the normal 10-70 minute range.
+node "$SCRIPT_DIR/scan.cjs" > >(tee -a "$LOG_FILE" "$RUN_LOG") 2>&1 &
+SCAN_PID=$!
+
+SCAN_TIMEOUT_SECONDS=$((90 * 60))
+waited_for_scan=0
+while kill -0 "$SCAN_PID" 2>/dev/null; do
+  if [[ "$waited_for_scan" -ge "$SCAN_TIMEOUT_SECONDS" ]]; then
+    echo "SCAN_TIMEOUT: scan.cjs exceeded ${SCAN_TIMEOUT_SECONDS}s (PID $SCAN_PID) — killing" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
+    kill -9 "$SCAN_PID" 2>/dev/null || true
+    break
+  fi
+  sleep 30
+  waited_for_scan=$((waited_for_scan + 30))
+done
+
+wait "$SCAN_PID" 2>/dev/null
+SCAN_EXIT_CODE=$?
 
 # Three independent signals of a systemically broken run (Bright Data outage /
 # bad credentials / StreetEasy layout change), not real data — don't publish
 # either case over good existing data:
-#   1. scan.cjs crashed outright (an uncaught exception) — this used to slip
-#      through silently: the report file never gets touched by a run that
-#      crashes this way, so the checks below saw only old, good-looking data
-#      and "no changes to commit" was the only trace, no notification at all.
+#   1. scan.cjs crashed outright (an uncaught exception), or the watchdog
+#      above killed it for running too long — this used to slip through
+#      silently: the report file never gets touched by a run that crashes
+#      or hangs this way, so the checks below saw only old, good-looking
+#      data and "no changes to commit" was the only trace, no notification
+#      at all.
 #   2. The search page itself yielded nothing (blocked before reaching any
 #      listing at all).
 #   3. Every new listing failed to yield both a rent and an address.
@@ -69,7 +94,7 @@ else
 fi
 
 if [[ "$BROKEN" == "yes" ]]; then
-  osascript -e 'display notification "Scan looked broken — check monitor/scheduled-scan.log (Bright Data credentials/balance or a StreetEasy layout change are the likely causes)" with title "Future Elmo'"'"'s World"' >> "$LOG_FILE" 2>&1 || true
+  osascript -e 'display notification "Scan looked broken — check monitor/scheduled-scan.log (Bright Data credentials/balance, a StreetEasy layout change, or a hung/timed-out run are the likely causes)" with title "Future Elmo'"'"'s World"' >> "$LOG_FILE" 2>&1 || true
   echo "Run looked systemically broken (Bright Data issue or site change?) — not committing." >> "$LOG_FILE"
   git checkout -- monitor-output/ >> "$LOG_FILE" 2>&1 || true
   exit 0
