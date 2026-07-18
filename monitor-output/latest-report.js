@@ -141,7 +141,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-09",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-view-59-6a.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -241,7 +243,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-354-2-street-brooklyn-3a.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -337,7 +341,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-2h.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -433,7 +439,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 6,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-12",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-6k.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -529,7 +537,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-clairemont-3b.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -625,7 +635,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-418-henry-street-2.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -722,7 +734,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-403.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -819,7 +833,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-1605.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -914,7 +930,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -1107,7 +1125,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-05",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-214-garfield-place-brooklyn-3.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -1204,7 +1224,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-06",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 17,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-01",
         "externalScreenshot": "screenshots/streeteasy-com-building-sven-29-59-northern-boulevard-long-island-city-70n.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -1488,7 +1510,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-10",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 15,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-03",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-4610-center-blvd-517.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -1678,7 +1702,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-15",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-550-vanderbilt-avenue-brooklyn-717.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -1775,7 +1801,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-10-15",
         "bathrooms": 1.5,
         "bedrooms": 2,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "screenshots/streeteasy-com-building-110-4-avenue-brooklyn-5e.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -4896,6 +4924,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "104 Sixth Avenue #5, BROOKLYN, NY, 11217",
+        "price": 4200,
+        "title": "104 Sixth Avenue #5",
+        "url": "https://streeteasy.com/building/104-6-avenue-brooklyn/5"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "525 Pacific Street #807, BROOKLYN, NY, 11217",
         "price": 5850,
         "title": "525 Pacific Street #807",
@@ -5195,6 +5234,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "1134 1st Avenue #3F, NEW YORK, NY, 10065",
+        "price": 5895,
+        "title": "1134 1st Avenue #3F",
+        "url": "https://streeteasy.com/building/1134-1-avenue-new_york/3f"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "63 West 104th Street #103, NEW YORK, NY, 10025",
         "price": 4000,
         "title": "63 West 104th Street #103",
@@ -5262,6 +5312,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "75 West 68th Street #3R, NEW YORK, NY, 10023",
+        "price": 6000,
+        "title": "75 West 68th Street #3R",
+        "url": "https://streeteasy.com/building/75-west-68-street-new_york/3r"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -5345,6 +5406,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101",
+        "price": 4500,
+        "title": "22-44 Jackson Avenue #4117",
+        "url": "https://streeteasy.com/building/5pointz-lic/4117"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "556 Baltic Street #405, NEW YORK, NY, 11217",
         "price": 7100,
         "title": "556 Baltic Street #405",
@@ -5392,6 +5464,28 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "556 Baltic Street #501, NEW YORK, NY, 11217",
+        "price": 7150,
+        "title": "556 Baltic Street #501",
+        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/501"
+      },
+      "reasons": [
+        "Rent $7150 outside $4000-7000 (price changed since last check)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "27-28 Thomson Avenue #200, LONG ISLAND CITY, NY, 11101",
+        "price": 6500,
+        "title": "27-28 Thomson Avenue #200",
+        "url": "https://streeteasy.com/building/arris-lofts/200"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "224 Cumberland Street #1, BROOKLYN, NY, 11205",
         "price": 4600,
         "title": "224 Cumberland Street #1",
@@ -5399,6 +5493,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "53 3rd Street #2R, BROOKLYN, NY, 11231",
+        "price": 5750,
+        "title": "53 3rd Street #2R",
+        "url": "https://streeteasy.com/building/53-3-street-brooklyn/2r"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -5528,6 +5633,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "556 Baltic Street #402, NEW YORK, NY, 11217",
+        "price": 7150,
+        "title": "556 Baltic Street #402",
+        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/402"
+      },
+      "reasons": [
+        "Rent $7150 outside $4000-7000 (price changed since last check)"
+      ]
+    },
+    {
+      "listing": {
         "address": "226 7th Avenue #4R, BROOKLYN, NY, 11215",
         "price": 5150,
         "title": "226 7th Avenue #4R",
@@ -5535,6 +5651,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1026 3rd Avenue #26A, NEW YORK, NY, 10065",
+        "price": 6850,
+        "title": "1026 3rd Avenue #26A",
+        "url": "https://streeteasy.com/building/the-remi/26a"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "72 West 69th Street #4A, NEW YORK, NY, 10023",
+        "price": 4950,
+        "title": "72 West 69th Street #4A",
+        "url": "https://streeteasy.com/building/72-west-69-street-new_york/4a"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -5568,6 +5706,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1709 2nd Avenue #1R, NEW YORK, NY, 10128",
+        "price": 4750,
+        "title": "1709 2nd Avenue #1R",
+        "url": "https://streeteasy.com/building/1709-2-avenue-new_york/1r"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -5716,6 +5865,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "422 East 81st Street #5B, NEW YORK, NY, 10028",
+        "price": 4675,
+        "title": "422 East 81st Street #5B",
+        "url": "https://streeteasy.com/building/422-east-81-street-new_york/5b"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "42-06 Orchard Street #46N, LONG ISLAND CITY, NY, 11101",
         "price": 7440,
         "title": "42-06 Orchard Street #46N",
@@ -5756,6 +5916,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "329 Lincoln Place #4P, BROOKLYN, NY, 11238",
+        "price": 4295,
+        "title": "329 Lincoln Place #4P",
+        "url": "https://streeteasy.com/building/329-lincoln-place-brooklyn/4p"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "1556 2nd Avenue #6, NEW YORK, NY, 10028",
+        "price": 5250,
+        "title": "1556 2nd Avenue #6",
+        "url": "https://streeteasy.com/building/1556-2-avenue-new_york/6"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -6403,6 +6585,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "445 Grand Avenue #1807, BROOKLYN, NY, 11238",
+        "price": 5650,
+        "title": "445 Grand Avenue #1807",
+        "url": "https://streeteasy.com/building/arris-grand/1807"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "500 Degraw Street #808, BROOKLYN, NY, 11217",
         "price": 4305,
         "title": "500 Degraw Street #808",
@@ -6470,6 +6663,50 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "41-15 24th Street #1001, LONG ISLAND CITY, NY, 11101",
+        "price": 4915,
+        "title": "41-15 24th Street #1001",
+        "url": "https://streeteasy.com/building/the-pecora-lic/1001"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "41-15 24th Street #716, LONG ISLAND CITY, NY, 11101",
+        "price": 6650,
+        "title": "41-15 24th Street #716",
+        "url": "https://streeteasy.com/building/the-pecora-lic/716"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "41-15 24th Street #1102, LONG ISLAND CITY, NY, 11101",
+        "price": 5050,
+        "title": "41-15 24th Street #1102",
+        "url": "https://streeteasy.com/building/the-pecora-lic/1102"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "41-15 24th Street #729, LONG ISLAND CITY, NY, 11101",
+        "price": 4500,
+        "title": "41-15 24th Street #729",
+        "url": "https://streeteasy.com/building/the-pecora-lic/729"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "240 Third Avenue #8AN, BROOKLYN, NY, 11217",
         "price": 6300,
         "title": "240 Third Avenue #8AN",
@@ -6477,6 +6714,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Neighborhood excluded: Gowanus"
+      ]
+    },
+    {
+      "listing": {
+        "address": "29-22 Northern Boulevard #3305A, LONG ISLAND CITY, NY, 11101",
+        "price": 4295,
+        "title": "29-22 Northern Boulevard #3305A",
+        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3305a"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -6521,6 +6769,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "41-15 24th Street #925, LONG ISLAND CITY, NY, 11101",
+        "price": 6900,
+        "title": "41-15 24th Street #925",
+        "url": "https://streeteasy.com/building/the-pecora-lic/925"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -6587,6 +6846,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Neighborhood excluded: Gowanus"
+      ]
+    },
+    {
+      "listing": {
+        "address": "25-16 37th Avenue #5D, LONG ISLAND CITY, NY, 11101",
+        "price": 5650,
+        "title": "25-16 37th Avenue #5D",
+        "url": "https://streeteasy.com/building/raina/5d"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "41-15 24th Street #631, LONG ISLAND CITY, NY, 11101",
+        "price": 5300,
+        "title": "41-15 24th Street #631",
+        "url": "https://streeteasy.com/building/the-pecora-lic/631"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -6899,6 +7180,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "550 Vanderbilt Avenue #702, BROOKLYN, NY, 11238",
+        "price": 5000,
+        "title": "550 Vanderbilt Avenue #702",
+        "url": "https://streeteasy.com/building/550-vanderbilt-avenue-brooklyn/702"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "29-59 Northern Boulevard #61M, LONG ISLAND CITY, NY, 11101",
         "price": 6245,
         "title": "29-59 Northern Boulevard #61M",
@@ -6921,6 +7213,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "501 East 87th Street #7D, NEW YORK, NY, 10128",
+        "price": 5680,
+        "title": "501 East 87th Street #7D",
+        "url": "https://streeteasy.com/building/rivers-bend/7d"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "575 4th Avenue #4K",
@@ -6934,6 +7237,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "25-16 37th Avenue #4D, LONG ISLAND CITY, NY, 11101",
+        "price": 5550,
+        "title": "25-16 37th Avenue #4D",
+        "url": "https://streeteasy.com/building/raina/4d"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "29-11 Queens Plaza North #27C, LONG ISLAND CITY, NY, 11101",
         "price": 6304,
         "title": "29-11 Queens Plaza North #27C",
@@ -6941,6 +7255,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "857 Union Street #3C, BROOKLYN, NY, 11217",
+        "price": 4500,
+        "title": "857 Union Street #3C",
+        "url": "https://streeteasy.com/building/89-7-avenue-brooklyn/3c"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -7099,6 +7424,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "311 6th Avenue #4R, BROOKLYN, NY, 11215",
+        "price": 4350,
+        "title": "311 6th Avenue #4R",
+        "url": "https://streeteasy.com/building/311-6-avenue-brooklyn/4r"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "243 Eight Street #3R, BROOKLYN, NY, 11215",
         "price": 6700,
         "title": "243 Eight Street #3R",
@@ -7122,6 +7458,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "814 Amsterdam Avenue #9N, NEW YORK, NY, 10025",
+        "price": 4095,
+        "title": "814 Amsterdam Avenue #9N",
+        "url": "https://streeteasy.com/building/814-amsterdam-avenue-new_york/9n"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "180 Fifth Avenue #1, BROOKLYN, NY, 11217",
         "price": 4195,
         "title": "180 Fifth Avenue #1",
@@ -7133,6 +7480,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "700 West End Avenue #1A, NEW YORK, NY, 10025",
+        "price": 6000,
+        "title": "700 West End Avenue #1A",
+        "url": "https://streeteasy.com/building/700-west-end-avenue-new_york/1a"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "218 West 103rd Street #6B, NEW YORK, NY, 10025",
         "price": 5900,
         "title": "218 West 103rd Street #6B",
@@ -7140,6 +7498,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Neighborhood excluded: Manhattan Valley"
+      ]
+    },
+    {
+      "listing": {
+        "address": "159 3rd Avenue #5E, BROOKLYN, NY, 11217",
+        "price": 5325,
+        "title": "159 3rd Avenue #5E",
+        "url": "https://streeteasy.com/building/159-3-avenue/5e"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "503 4th Avenue #3G, BROOKLYN, NY, 11215",
+        "price": 5250,
+        "title": "503 4th Avenue #3G",
+        "url": "https://streeteasy.com/building/209-13-street-brooklyn/3g"
+      },
+      "reasons": [
+        "Rented on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -7162,6 +7542,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Marked unavailable by user"
+      ]
+    },
+    {
+      "listing": {
+        "address": "484 East 74th Street #7, NEW YORK, NY, 10021",
+        "price": 4650,
+        "title": "484 East 74th Street #7",
+        "url": "https://streeteasy.com/building/484-east-74-street-new_york/7"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -8578,20 +8969,11 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Hunters Point",
         "tier": "other",
-        "count": 89,
+        "count": 87,
         "medianPrice": 5270,
-        "medianPricePerSqft": 6.96594427244582,
-        "medianDaysOnMarket": 19.5,
-        "medianLeadTimeDays": 0
-      },
-      {
-        "name": "Boerum Hill",
-        "tier": "brooklyn",
-        "count": 36,
-        "medianPrice": 5059.5,
-        "medianPricePerSqft": 7.344,
-        "medianDaysOnMarket": 15,
-        "medianLeadTimeDays": 6
+        "medianPricePerSqft": 6.981265651581271,
+        "medianDaysOnMarket": 12,
+        "medianLeadTimeDays": 16
       },
       {
         "name": "Fort Greene",
@@ -8599,7 +8981,16 @@ window.__APARTMENT_REPORT__ = {
         "count": 33,
         "medianPrice": 5325,
         "medianPricePerSqft": 7.313323572474378,
-        "medianDaysOnMarket": 8,
+        "medianDaysOnMarket": 7,
+        "medianLeadTimeDays": 19
+      },
+      {
+        "name": "Boerum Hill",
+        "tier": "brooklyn",
+        "count": 33,
+        "medianPrice": 5019,
+        "medianPricePerSqft": 7.344,
+        "medianDaysOnMarket": 5,
         "medianLeadTimeDays": 0
       },
       {
@@ -8608,98 +8999,98 @@ window.__APARTMENT_REPORT__ = {
         "count": 28,
         "medianPrice": 5212.5,
         "medianPricePerSqft": null,
-        "medianDaysOnMarket": 94,
+        "medianDaysOnMarket": 88,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Prospect Heights",
+        "tier": "brooklyn",
+        "count": 24,
+        "medianPrice": 4674.5,
+        "medianPricePerSqft": 6.620839363241679,
+        "medianDaysOnMarket": 8.5,
         "medianLeadTimeDays": 0
       },
       {
         "name": "Long Island City",
         "tier": "other",
-        "count": 28,
-        "medianPrice": 5250,
+        "count": 19,
+        "medianPrice": 5200,
         "medianPricePerSqft": 5.12715340442986,
-        "medianDaysOnMarket": 32,
-        "medianLeadTimeDays": 16.5
-      },
-      {
-        "name": "Prospect Heights",
-        "tier": "brooklyn",
-        "count": 26,
-        "medianPrice": 4674.5,
-        "medianPricePerSqft": 7.041762965202929,
-        "medianDaysOnMarket": 15,
-        "medianLeadTimeDays": 0
+        "medianDaysOnMarket": 9.5,
+        "medianLeadTimeDays": 28.5
       },
       {
         "name": "Clinton Hill",
         "tier": "brooklyn",
-        "count": 19,
-        "medianPrice": 5325,
-        "medianPricePerSqft": null,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
-        "name": "Park Slope",
-        "tier": "brooklyn",
         "count": 18,
-        "medianPrice": 5224.5,
-        "medianPricePerSqft": 6.6923076923076925,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
+        "medianPrice": 5337.5,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 5,
+        "medianLeadTimeDays": 6
       },
       {
         "name": "Lincoln Square",
         "tier": "uwsAcceptable",
-        "count": 17,
-        "medianPrice": 6349,
+        "count": 15,
+        "medianPrice": 6350,
         "medianPricePerSqft": 8.105446118192353,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
+        "medianDaysOnMarket": 6,
+        "medianLeadTimeDays": 0
       },
       {
         "name": "Upper West Side",
         "tier": "uwsAcceptable",
-        "count": 16,
-        "medianPrice": 5997.5,
+        "count": 14,
+        "medianPrice": 6069,
         "medianPricePerSqft": 9.550925925925926,
-        "medianDaysOnMarket": 71,
-        "medianLeadTimeDays": 55
+        "medianDaysOnMarket": 8.5,
+        "medianLeadTimeDays": 19.5
+      },
+      {
+        "name": "Park Slope",
+        "tier": "brooklyn",
+        "count": 14,
+        "medianPrice": 5341.5,
+        "medianPricePerSqft": 6.486395899053628,
+        "medianDaysOnMarket": 5,
+        "medianLeadTimeDays": 19
       },
       {
         "name": "Yorkville",
         "tier": "other",
-        "count": 15,
-        "medianPrice": 5395,
-        "medianPricePerSqft": 8.092705167173252,
-        "medianDaysOnMarket": 19,
+        "count": 11,
+        "medianPrice": 5895,
+        "medianPricePerSqft": 8.145896656534955,
+        "medianDaysOnMarket": 8,
         "medianLeadTimeDays": 0
       },
       {
         "name": "Carroll Gardens",
         "tier": "brooklyn",
-        "count": 9,
-        "medianPrice": 6490,
+        "count": 8,
+        "medianPrice": 6492.5,
         "medianPricePerSqft": 6.264478764478764,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
+        "medianDaysOnMarket": 11.5,
+        "medianLeadTimeDays": 15.5
       },
       {
         "name": "Lenox Hill",
         "tier": "other",
-        "count": 8,
-        "medianPrice": 5085,
-        "medianPricePerSqft": 8.193296089385475,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
+        "count": 5,
+        "medianPrice": 4670,
+        "medianPricePerSqft": 9.8,
+        "medianDaysOnMarket": 3,
+        "medianLeadTimeDays": 0
       },
       {
         "name": "Cobble Hill",
         "tier": "brooklyn",
         "count": 5,
-        "medianPrice": 6000,
+        "medianPrice": 6150,
         "medianPricePerSqft": 5.909090909090909,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
+        "medianDaysOnMarket": 34,
+        "medianLeadTimeDays": 0
       },
       {
         "name": "Manhattan",
@@ -8712,7 +9103,7 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 19,
+      "sampleSize": 50,
       "medianDaysOnMarket": null
     }
   },
@@ -8861,7 +9252,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-403.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -8957,7 +9350,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-9b.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -9149,7 +9544,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-244w72-15c.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -9341,7 +9738,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-16",
         "bathrooms": 1.5,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-45-garnet-street-brooklyn-1b.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -9533,7 +9932,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1.5,
         "bedrooms": 1,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -9625,10 +10026,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "124 West 60th Street #35A, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-04",
+        "availableDate": "2026-07-16",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 6,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-12",
         "externalScreenshot": "screenshots/streeteasy-com-building-south-park-tower-35a.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -9678,101 +10081,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 65.7475,
       "visionNotes": "Kitchen visible in first photo opening directly to dining/living area (open-plan); no stove details visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 20,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 13,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "75 West 68th Street #3R, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-03",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-75-west-68-street-new-york-3r.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/eb57331132c848ba2d25223ec8f9090d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f63e85f11be6b073086e3003e78ea666-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/71f6dbe0269d112ce4b3faec9bc7d5da-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/915d237f0605d688a5cd470b777160dd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4418877bc5b79ad48e27dbdb814546bb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b0772d2ce3042437ba74cb597cf6c4c3-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": null,
-        "title": "75 West 68th Street #3R",
-        "url": "https://streeteasy.com/building/75-west-68-street-new_york/3r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 65.72043827731756,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.25,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 51.55,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 65.72043827731756,
-      "visionNotes": "Kitchen is visible with black electric range and stainless steel appliances, opens into living/dining area; living room is spacious with good furniture layout; no outdoor space shown; unit appears to be a one-bedroom with additional office/workspace areas."
     },
     {
       "commute": {
@@ -9965,101 +10273,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 19,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 21,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 13,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "72 West 69th Street #4A, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-04",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-72-west-69-street-new-york-4a.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a919cc4dabb6c0878983df94dba2fdb1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6ece23ad1a3811f37441e03d73009c7f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/28291a7106214c837b13787d8b75a58c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1888ba8fcedfc090ea71cc1ebf2ed703-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c0eafb68513f9edfa47ffc4401cdc1b1-se_large_800_400.webp"
-        ],
-        "price": 4950,
-        "sqft": null,
-        "title": "72 West 69th Street #4A",
-        "url": "https://streeteasy.com/building/72-west-69-street-new_york/4a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 64.8125,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 67.7,
-          "weight": 0.25,
-          "minutes": 19
-        },
-        "friends": {
-          "score": 51.12500000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 64.8125,
-      "visionNotes": "Kitchen is fully open to living/dining area with induction cooktop visible; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 22,
           "lines": [
             "B Line",
@@ -10098,10 +10311,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-20",
+        "availableDate": "2026-07-12",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 13,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-05",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-53-west-94-street-new-york-2r.png",
         "neighborhood": "Upper West Side",
         "photos": [
@@ -10112,7 +10327,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/48d116d38495e5dc3ee3f6d5c67a3039-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/832768e63b9ea7ff2d1226a29593dd4c-se_large_800_400.webp"
         ],
-        "price": 5495,
+        "price": 6700,
         "sqft": null,
         "title": "53 West 94th Street #2R",
         "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r",
@@ -10151,100 +10366,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 64.78543827731755,
       "visionNotes": "Kitchen is visible and opens to living area via counter; gas burners visible on stove; no private outdoor space shown; living room appears spacious with good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 13,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T14:56:39.488Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "27-28 Thomson Avenue #200, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-arris-lofts-200.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3766a7d4babf09097522181751a6951b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0e55d81fe400d942cad6873df842010b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8912488f310bf6577785c7a970a55edd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3bd00ce45cc8111f18531d9f4fd7535b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2d91492e6e14a18e800e385a2bf56a93-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9e86209b7624f9345a188c05f840c216-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": 1400,
-        "title": "27-28 Thomson Avenue #200",
-        "url": "https://streeteasy.com/building/arris-lofts/200",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 64.78310601229374,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 77.9,
-          "weight": 0.25,
-          "minutes": 13
-        },
-        "friends": {
-          "score": 40.925,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 97.48737341529161,
-          "weight": 0.15,
-          "sqft": 1400,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 64.78310601229374,
-      "visionNotes": "Kitchen is visible and shares sightlines with a large living/dining area; stove appears to be electric (white flat cooktop visible); no private outdoor space shown; living room is spacious with good proportions for NYC."
     },
     {
       "commute": {
@@ -10290,7 +10411,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-05",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-182-columbus-avenue-new-york-2fn.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -10344,102 +10467,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 26,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 12,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "700 West End Avenue #1A, NEW YORK, NY, 10025",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-700-west-end-avenue-new-york-1a.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5aae436692c2d3cc9b4a662e61c371c5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5aae436692c2d3cc9b4a662e61c371c5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/20308bd8540534dbef57d675cdb5793a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f00ad4e37b68d5620b9823ee46e64ea4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b3f2e6640899eb4687d2624b84391d98-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ce0c04a59915f8e3384bca85d2b9ce01-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": null,
-        "title": "700 West End Avenue #1A",
-        "url": "https://streeteasy.com/building/700-west-end-avenue-new_york/1a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 63.85043827731756,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.25,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 54.949999999999996,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 63.85043827731756,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is evident; no private outdoor space shown; living room appears spacious with generous furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 38,
           "lines": [
             "2 Line",
@@ -10485,7 +10512,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-newswalk-phase-3-418.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -10579,7 +10608,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-07-20",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-sessanta-229-west-60th-street-new-york-24r.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -10672,10 +10703,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "175 West 95th Street #8H, NEW YORK, NY, 10025",
-        "availableDate": "2026-08-03",
+        "availableDate": "2026-08-05",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-175-w-95th-8h.png",
         "neighborhood": "Upper West Side",
         "photos": [
@@ -11059,7 +11092,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2025-07-26",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-fulton-greene-16e.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -11155,7 +11190,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-fulton-greene-16g.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -11166,7 +11203,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/50384bd428e3fadefe064baa421182ca-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/ede830ae6c9b3518438c517daf80b7bb-se_large_800_400.webp"
         ],
-        "price": 6750,
+        "price": 6440,
         "sqft": null,
         "title": "570 Fulton Street #16G",
         "url": "https://streeteasy.com/building/fulton-greene/16g",
@@ -11251,7 +11288,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-fulton-greene-15i.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -11847,7 +11886,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 25,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-23",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2f.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -11858,7 +11899,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/62f6d2ff5a89cf984672afbba6599f9c-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/26c81247190f08a311ae9d9f7e32aa73-se_large_800_400.webp"
         ],
-        "price": 5325,
+        "price": 5825,
         "sqft": null,
         "title": "899 Fulton Street #2F",
         "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2f",
@@ -11947,7 +11988,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2r.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -12139,7 +12182,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 11,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-07",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-3k.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -12235,7 +12280,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-4l.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -12331,7 +12378,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-2h.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -12427,7 +12476,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 6,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-12",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-6k.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -12814,7 +12865,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-heritage-dean-street-4104.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -13393,7 +13446,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-22-lafayette-avenue-brooklyn-15b.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -13489,7 +13544,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 34,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-232-atlantic-avenue-brooklyn-2.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -13585,7 +13642,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1.5,
         "bedrooms": 2,
+        "daysOnMarket": 50,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-29",
         "externalScreenshot": "screenshots/streeteasy-com-building-214-atlantic-avenue-brooklyn-6.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -13681,7 +13740,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-windermere-666-west-end-avenue-new-york-15ab.png",
         "neighborhood": "Upper West Side",
         "photos": [
@@ -14065,7 +14126,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-fulton-greene-9l.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -15217,7 +15280,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-house-55-15g.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -15313,7 +15378,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-house-55-35h.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -15409,7 +15476,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-house-55-22c.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -15607,7 +15676,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-26-quincy-street-brooklyn-5l.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -15700,10 +15771,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "241 West 75th Street #5, NEW YORK, NY, 10023",
-        "availableDate": "2026-07-18",
+        "availableDate": "2026-07-19",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 34,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-241-west-75-street-new-york-5.png",
         "neighborhood": "Upper West Side",
         "photos": [
@@ -15714,7 +15787,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/c17e94320cc311003cb1b9c574fbbc27-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/756f465f2d75f30688e907c0b6557a14-se_large_800_400.webp"
         ],
-        "price": 6980,
+        "price": 6950,
         "sqft": 500,
         "title": "241 West 75th Street #5",
         "url": "https://streeteasy.com/building/241-west-75-street-new_york/5",
@@ -16665,7 +16738,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 88,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-04-21",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hanover-house-15j.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -16761,7 +16836,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 120,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-03-20",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hanover-house-25h.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -16857,7 +16934,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 67,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-12",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hanover-house-14d.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -16953,7 +17032,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 56,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-23",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hanover-house-21f.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -17049,7 +17130,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-14",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-plank-road-17m.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -17433,7 +17516,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-the-rocklyn-561x.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -17529,7 +17614,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-the-rocklyn-1812s.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -18008,10 +18095,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "18 Sixth Avenue #3705, BROOKLYN, NY, 11217",
-        "availableDate": "2026-07-14",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 30,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-18",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-brooklyn-crossing-3705.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -18108,7 +18197,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-32-5-avenue-brooklyn-1a.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -18587,10 +18678,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "662 Pacific Street #26B, BROOKLYN, NY, 11217",
-        "availableDate": "now",
+        "availableDate": "2026-07-16",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-plank-road-26b.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -18688,7 +18781,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-234-washington-avenue-brooklyn-4.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -18881,7 +18976,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-09",
         "externalScreenshot": "screenshots/streeteasy-com-building-264-pacific-street-brooklyn-4d.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -18978,7 +19075,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 54,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-25",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-23.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -18989,7 +19088,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/515929e1d8b7d8636ac4355392d68b80-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/4e8f1176da4babae629ffad421e32040-se_large_800_400.webp"
         ],
-        "price": 6000,
+        "price": 6200,
         "sqft": null,
         "title": "19 Wyckoff Street #23",
         "url": "https://streeteasy.com/building/the-julian/23",
@@ -19067,104 +19166,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "445 Grand Avenue #1807, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-arris-grand-1807.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/677bf849dd3bf6b836b8ffc5990c7a2b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/677bf849dd3bf6b836b8ffc5990c7a2b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c65a779ce8d647a293d2bccabe2c3b88-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8e1be2a03944adb9543824632f7ae938-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e36a8a83c009d169ef45e6a7a6167505-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f879657f72596c8c6ec49fb94be34636-se_large_800_400.webp"
-        ],
-        "price": 5650,
-        "sqft": null,
-        "title": "445 Grand Avenue #1807",
-        "url": "https://streeteasy.com/building/arris-grand/1807",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 59.41543827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.25,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 31.150000000000002,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.41543827731755,
-      "visionNotes": "Kitchen visible with sink and white subway tile backsplash; appears open to living area; stove not visible in photos; building courtyard visible through glass doors (unclear if private); living room spacious with ample seating and ceiling height."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
-            "C Line",
-            "5 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
       "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "gasStove": "yes",
       "hasGarden": false,
@@ -19174,7 +19175,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-09",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-arris-grand-1201.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -19323,101 +19326,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 30,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "M11"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 16,
-          "lines": [
-            "M104"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "814 Amsterdam Avenue #9N, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-814-amsterdam-avenue-new-york-9n.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d21e4e638d344dd40ae7716d97415cd9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/32622aad46d5f9ac81a422c6f3c2023f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1e8744348ad2c576c09873e2ce8283c0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1bfd1a9a71711d173f180b065acdc7ed-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/74fe49c5bf8612056c8e32b900d4a64f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/231ac8a8cbcab529fa017251c7a1b1c4-se_extra_large_1500_800.webp"
-        ],
-        "price": 4095,
-        "sqft": null,
-        "title": "814 Amsterdam Avenue #9N",
-        "url": "https://streeteasy.com/building/814-amsterdam-avenue-new_york/9n",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 59.3725,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 49,
-          "weight": 0.25,
-          "minutes": 30
-        },
-        "friends": {
-          "score": 47.3,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.3725,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove has a flat electric/induction cooktop; the roof deck shown is a shared building amenity, not private outdoor space for the unit."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 36,
           "lines": [
             "G Line",
@@ -19462,7 +19370,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-07-20",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-122-willoughby-avenue-brooklyn-3.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -19557,10 +19467,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "1004 Fulton Street #4A, BROOKLYN, NY, 11238",
-        "availableDate": "2026-08-01",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-1004-fulton-street-brooklyn-4a.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -19660,7 +19572,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-540-waverly-avenue-brooklyn-6e.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -19947,7 +19861,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-103-smith-street-brooklyn-12.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -20234,7 +20150,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-240-willoughby-26h.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -20631,7 +20549,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 65,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-14",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-3k.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -20642,7 +20562,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/cec7540671c7b1f789866a9a37d238b8-se_extra_large_1500_800.webp",
           "https://photos.zillowstatic.com/fp/aebc8ff4b2822c58581299c6f374faaa-se_extra_large_1500_800.webp"
         ],
-        "price": 4560,
+        "price": 4460,
         "sqft": null,
         "title": "880 Atlantic Avenue #3K",
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/3k",
@@ -20731,7 +20651,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-4h.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -20831,7 +20753,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-10l.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -20931,7 +20855,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-eight80-880-atlantic-avenue-brooklyn-5d.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -21121,7 +21047,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-09",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-view-59-6a.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -21415,7 +21343,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-405.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -21804,7 +21734,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-19",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-335-carroll-2d.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -21898,10 +21830,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "390 15th Street #1A, BROOKLYN, NY, 11215",
-        "availableDate": "2026-07-15",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 11,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-07",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-390-15-street-brooklyn-1a.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -22183,103 +22117,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "556 Baltic Street #402, NEW YORK, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-baltic-house-556-baltic-street-402.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8db9afc73451b5363a2e6bfeaacea2a0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8db9afc73451b5363a2e6bfeaacea2a0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e62e73176d9ee5c24d73150d58cf2cc1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e9ba5df200d077a7341cb99c9ed67ced-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/65c4cd012c09c7b9bb5a59eb3b26864f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/642ce6bc1be8c1af9ffadb4efe3d7420-se_large_800_400.webp"
-        ],
-        "price": 5325,
-        "sqft": null,
-        "title": "556 Baltic Street #402",
-        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/402",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 57.03543827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.25,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 25.625000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 57.03543827731755,
-      "visionNotes": "Kitchen is open to living/dining area with island; gas cooktop visible; spacious living room with floor-to-ceiling windows and no private outdoor space."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 20,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 54,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
       "firstSeenAt": "2026-07-10T13:13:37.165Z",
       "gasStove": "no",
       "hasGarden": false,
@@ -22289,7 +22126,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 24,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-24",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-baltic-house-556-baltic-street-1102.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -22300,7 +22139,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/2803f653a4eacf1357f1369a6ce2ab17-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/f689a06fbf9330285c0abee81b528911-se_large_800_400.webp"
         ],
-        "price": 5461,
+        "price": 5525,
         "sqft": null,
         "title": "556 Baltic Street #1102",
         "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/1102",
@@ -22377,103 +22216,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "556 Baltic Street #501, NEW YORK, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-501.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/29566d84e6c0ddfd5d8fdd801b80bd94-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9bf3a3cb42e59c02ae3ee61cdbda34a6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4c5af4392c6ea2a1e65cc7c95fe7650c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e9da868bce1cc96bc345073425f0021d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/89fdefe42259bc06de325bf08182b0bf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9a0c340ac3b5a514ea3438bab39e20da-se_large_800_400.webp"
-        ],
-        "price": 5325,
-        "sqft": null,
-        "title": "556 Baltic Street #501",
-        "url": "https://streeteasy.com/building/baltic-house-556-baltic-street/501",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 57.03543827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.25,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 25.625000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 57.03543827731755,
-      "visionNotes": "Open-plan kitchen with island opens directly to spacious living room with floor-to-ceiling windows; stove appears to have visible burners suggesting gas; no private outdoor space visible, only high-rise windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 20,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 54,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
       "gasStove": "no",
       "hasGarden": false,
@@ -22483,7 +22225,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-305.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -22580,7 +22324,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-511.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -22677,7 +22423,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-708.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -22774,7 +22522,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-baltic-house-556-baltic-street-507.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -22925,104 +22675,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 39,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 34,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "53 3rd Street #2R, BROOKLYN, NY, 11231",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-53-3-street-brooklyn-2r.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/2480666e538c4809e641ffdf39ae0bac-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/33997ddbb105d1a9fa3309858a941ee0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d619fd6e9d1d4148550b50cfe8834653-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/068e8afb63ab2f789a9c4c0d47103e65-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f6579c36dcca5f1684fc6247235fde8b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/557d495e635a6f8b91e590bddfc4a94a-se_large_800_400.webp"
-        ],
-        "price": 5750,
-        "sqft": null,
-        "title": "53 3rd Street #2R",
-        "url": "https://streeteasy.com/building/53-3-street-brooklyn/2r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.95043827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 33.7,
-          "weight": 0.25,
-          "minutes": 39
-        },
-        "friends": {
-          "score": 23.075000000000003,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 56.95043827731755,
-      "visionNotes": "Kitchen is semi-open to dining/living area with island counter; gas range visible; living room is spacious and well-proportioned; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 43,
           "lines": [
             "F Line"
@@ -23065,7 +22717,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-418-henry-street-2.png",
         "neighborhood": "Cobble Hill",
         "photos": [
@@ -23545,7 +23199,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-07-15",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 14,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-04",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-7e.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -23641,7 +23297,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-2p.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -23932,7 +23590,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-595-dean-street-brooklyn-517.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -24213,103 +23873,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "159 3rd Avenue #5E, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-159-3-avenue-5e.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/faffd860769f5979b0f1d2b99ed3758b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/faffd860769f5979b0f1d2b99ed3758b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3ed2045a11acd86b1b8884084c4825a1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4585ae2f6ab2b3d334264977748a2165-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f62db72e90b697f438e3e36126cdece4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/699e660810706b4072a061fcdc93d771-se_large_800_400.webp"
-        ],
-        "price": 5325,
-        "sqft": null,
-        "title": "159 3rd Avenue #5E",
-        "url": "https://streeteasy.com/building/159-3-avenue/5e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.610438277317556,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.25,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 23.500000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 56.610438277317556,
-      "visionNotes": "Kitchen is clearly visible and open to the living area with an island; the stove appears to be electric/built-in (no visible gas grates); no private outdoor space visible; living room is spacious with large windows and high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 55,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 49,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
       "firstSeenAt": "2026-07-13T14:51:59.429Z",
       "gasStove": "no",
       "hasGarden": true,
@@ -24319,7 +23882,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-159-3-avenue-4f.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -24416,7 +23981,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-159-3-avenue-7e.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -24611,7 +24178,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 32,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-411-sackett-street-brooklyn-1.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -24705,10 +24274,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "316 Bergen Street #4-7, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-19",
+        "availableDate": "2026-07-12",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-bergen-407.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -24904,7 +24475,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-96-steuben-street-brooklyn-5g.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -25002,7 +24575,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-100-steuben-street-brooklyn-5a.png",
         "neighborhood": "Clinton Hill",
         "photos": [
@@ -25056,199 +24631,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 42,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 9,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "B69",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "550 Vanderbilt Avenue #702, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-550-vanderbilt-avenue-brooklyn-702.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/58c87b9d181d999d8054a16433b96771-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/58c87b9d181d999d8054a16433b96771-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/64f553e3ed9d3ea9d0e57f059a125418-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c80656256a8e353c1b6605382e8a5604-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/273b5d4b0fd41eb7aefd94eeba8608b1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f214a08ba57880cfebb8a0a2997b2e89-se_large_800_400.webp"
-        ],
-        "price": 5000,
-        "sqft": 670,
-        "title": "550 Vanderbilt Avenue #702",
-        "url": "https://streeteasy.com/building/550-vanderbilt-avenue-brooklyn/702",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.09,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.25,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 31.575000000000003,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.5,
-          "weight": 0.15,
-          "sqft": 670,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 56.09,
-      "visionNotes": "Kitchen is visible and open to dining/living area with gas cooktop; living room is spacious with large windows; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 25,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "503 4th Avenue #3G, BROOKLYN, NY, 11215",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-209-13-street-brooklyn-3g.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/077757e295cad8a05c4754d0e2128f9b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/077757e295cad8a05c4754d0e2128f9b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2e05fc2265473cbf98de27ec4ffdf776-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fc7e993827dd3482cda063bb49b87f30-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d5eb141b57b4fd0163eb8896be089b18-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ac8f42f38fc03b23c0ad0f73f50c7ad2-se_large_800_400.webp"
-        ],
-        "price": 5250,
-        "sqft": null,
-        "title": "503 4th Avenue #3G",
-        "url": "https://streeteasy.com/building/209-13-street-brooklyn/3g",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.01543827731756,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.25,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 24.775,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 56.01543827731756,
-      "visionNotes": "Open-plan kitchen with island seating opens directly to living areas; gas burners visible on stove; windows show outdoor views but no private outdoor space for unit; living room appears typical size but sparsely furnished in photos."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 41,
           "lines": [
             "2 Line",
@@ -25292,7 +24674,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-09",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-882-union-street-brooklyn-4d.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -25631,103 +25015,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 8,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 27,
-          "lines": [
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 26,
-          "lines": [
-            "5 Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "1026 3rd Avenue #26A, NEW YORK, NY, 10065",
-        "availableDate": "2026-07-16",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-remi-26a.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e01ab3daffb296e754ef73d46b60aa93-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/65a51ac60094a6b18ba56bcde72f4df7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fdfa81c8b67280b297903a2a49c6faa8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/94d338dd2eb44a1936f83b37ef09c567-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/10d3312cac14b0248630b62b19023394-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/43d1f140bd3753cfbef62cfc429ca795-se_large_800_400.webp"
-        ],
-        "price": 6850,
-        "sqft": null,
-        "title": "1026 3rd Avenue #26A",
-        "url": "https://streeteasy.com/building/the-remi/26a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.712500000000006,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 86.4,
-          "weight": 0.25,
-          "minutes": 8
-        },
-        "friends": {
-          "score": 44.75,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.712500000000006,
-      "visionNotes": "Kitchen is clearly visible and open to dining/living area; black electric oven visible with flat cooktop; large living spaces with floor-to-ceiling windows; no private outdoor space visible, only high-rise city views."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 39,
           "lines": [
             "F Line"
@@ -25772,7 +25059,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 1,
+        "daysOnMarket": 33,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-53-3-street-brooklyn-4r.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -25970,7 +25259,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-5a.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -26069,7 +25360,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-the-garrison-4d.png",
         "neighborhood": "Fort Greene",
         "photos": [
@@ -26123,103 +25416,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 8,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 57,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "329 Lincoln Place #4P, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-329-lincoln-place-brooklyn-4p.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/1f823beb73451d4355ccbed0e31c7f0a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1f823beb73451d4355ccbed0e31c7f0a-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/170b038ad843d044faf14d936fb449ac-p_e.webp",
-          "https://photos.zillowstatic.com/fp/afe514aad3e468aa6891bc20dff02b72-p_e.webp",
-          "https://photos.zillowstatic.com/fp/96f9b310b3a8be80cbefc40b3ee5cc6c-p_e.webp",
-          "https://photos.zillowstatic.com/fp/733693b2ccb3a0efbe08aa02da1582e6-p_e.webp"
-        ],
-        "price": 4295,
-        "sqft": null,
-        "title": "329 Lincoln Place #4P",
-        "url": "https://streeteasy.com/building/329-lincoln-place-brooklyn/4p",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 55.50543827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 25.200000000000003,
-          "weight": 0.25,
-          "minutes": 44
-        },
-        "friends": {
-          "score": 26.475000000000005,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.50543827731755,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove has visible burner grates indicating gas; multiple private outdoor spaces (terrace and garden) are exclusively for this unit; living room appears spacious with good natural light."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 41,
           "lines": [
             "R Line",
@@ -26268,7 +25464,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 30,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-18",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-286-5-avenue-brooklyn-4d.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -26559,7 +25757,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "screenshots/streeteasy-com-building-326-bond-street-brooklyn-4f.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -26755,7 +25955,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-536-henry-street-brooklyn-3.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -26949,7 +26151,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-14",
         "externalScreenshot": "screenshots/streeteasy-com-building-354-2-street-brooklyn-3a.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -27045,7 +26249,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-1805.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -27233,7 +26439,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 32,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-16",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-galerie-condominium-812.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -27424,7 +26632,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-yorkshire-towers-1se.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -27519,7 +26729,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-15",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-550-vanderbilt-avenue-brooklyn-717.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -27711,7 +26923,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-05",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-103-west-77-street-new-york-4c.png",
         "neighborhood": "Upper West Side",
         "photos": [
@@ -27993,7 +27207,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 16,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-02",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-3412.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -28047,100 +27263,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 15,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "22-44 Jackson Avenue #4117, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-4117.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e58254eab752f470ac0369b22532f821-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e58254eab752f470ac0369b22532f821-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/de52adce39d4e3c0913a12562d2d5e46-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/18aa218594c8adeefce176c41c10d3d8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d50e7e50b38a3df5480694cf59fe7d2a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a89d99b4f321d1a435987e8be5b930e4-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #4117",
-        "url": "https://streeteasy.com/building/5pointz-lic/4117",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.5225,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.25,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.5225,
-      "visionNotes": "Kitchen is visible and open to living area with island seating; stove appears to be electric/induction based on flat cooktop visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 44,
           "lines": [
             "2 Line",
@@ -28184,7 +27306,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 90,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-04-19",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-372-st-johns-place-brooklyn-53.png",
         "neighborhood": "Prospect Heights",
         "photos": [
@@ -28334,101 +27458,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 43,
-          "lines": [
-            "B Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 15,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 56,
-          "lines": [
-            "B Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T14:02:26.759Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "857 Union Street #3C, BROOKLYN, NY, 11217",
-        "availableDate": "2026-07-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-89-7-avenue-brooklyn-3c.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/42a4dd66814a5fd726702a77723001ce-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e46afdb57595ef761f845892303c0bc1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b5288a20d7062110e6ff20f39eb3d582-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fdcd429d4245377d6a5432012a8250f5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7cea346309f09a08bd27f5f1118bbdd2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8e8ea6289ff54d8a8473100323a92511-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "857 Union Street #3C",
-        "url": "https://streeteasy.com/building/89-7-avenue-brooklyn/3c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 54.3425,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.25,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 24.775,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.3425,
-      "visionNotes": "Kitchen is fully visible and open to living/dining area with a peninsula counter; gas range is clearly visible with visible burners; no private outdoor space shown; living room appears spacious for NYC standard."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 18,
           "lines": [
             "6 Train"
@@ -28468,10 +27497,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "305 East 86th Street #11JE, NEW YORK, NY, 10028",
-        "availableDate": "now",
+        "availableDate": "2026-07-14",
         "bathrooms": 2,
         "bedrooms": 1,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-yorkshire-towers-11je.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -28856,10 +27887,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "43-10 Crescent Street #502, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
+        "availableDate": "2026-07-12",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-linc-lic-502.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -28953,7 +27986,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 26,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-22",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-galerie-condominium-511.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -29049,7 +28084,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 71,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-08",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1-qps-019c.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -29243,7 +28280,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-20",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 39,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-09",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-skyline-tower-3509.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -29393,103 +28432,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "29-22 Northern Boulevard #3305A, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-07-31",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-altalic-29-22-northern-boulevard-long-island-city-3305a.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9ef116b16dc709ec3d32024d376f75b9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b5ec50a3023e841a029d1e1cc9657e8b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/62a306d3f608984ba4a5838e342dffea-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1b559a1006f43a67adb70d67636e8578-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ded74693317d73a4dc95a9b0106cc298-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/795c55f9b9900fa1e58f34f37e78a2fa-se_large_800_400.webp"
-        ],
-        "price": 4295,
-        "sqft": null,
-        "title": "29-22 Northern Boulevard #3305A",
-        "url": "https://streeteasy.com/building/altalic-29_22-northern-boulevard-long_island_city/3305a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 53.502500000000005,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.25,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 53.502500000000005,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area in photo 1; no private outdoor space shown; living rooms appear spacious and well-proportioned for NYC."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 18,
           "lines": [
             "7",
@@ -29533,7 +28475,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 12,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-l-haus-7l.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -29629,7 +28573,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-05",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-214-garfield-place-brooklyn-3.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -29727,7 +28673,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1.5,
         "bedrooms": 2,
+        "daysOnMarket": 11,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-07",
         "externalScreenshot": "screenshots/streeteasy-com-building-132-carroll-street-brooklyn-1.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -29822,10 +28770,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "140 President Street #3, BROOKLYN, NY, 11231",
-        "availableDate": "now",
+        "availableDate": "2026-07-17",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 44,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-04",
         "externalScreenshot": "screenshots/streeteasy-com-building-140-president-street-brooklyn-3.png",
         "neighborhood": "Carroll Gardens",
         "photos": [
@@ -30018,7 +28968,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-21",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-colorado-21g.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -30209,7 +29161,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-31",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-harrison-27-21-44-drive-long-island-city-1301.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -30597,7 +29551,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-orchard-42-06-orchard-street-14d.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -30692,7 +29648,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-5th-street-lofts-5sl-6e.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -31082,7 +30040,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-06",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 17,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-01",
         "externalScreenshot": "screenshots/streeteasy-com-building-sven-29-59-northern-boulevard-long-island-city-70n.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -31176,10 +30136,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "29-59 Northern Boulevard #64D, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
+        "availableDate": "2026-07-19",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "screenshots/streeteasy-com-building-sven-29-59-northern-boulevard-long-island-city-64d.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -31190,7 +30152,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/4c9db3318cf5afc282ba80e718256e71-se_extra_large_1500_800.webp",
           "https://photos.zillowstatic.com/fp/281b92437b7e514a7a6d0ed3c53699f7-se_extra_large_1500_800.webp"
         ],
-        "price": 4505,
+        "price": 4569,
         "sqft": null,
         "title": "29-59 Northern Boulevard #64D",
         "url": "https://streeteasy.com/building/sven-29_59-northern-boulevard-long_island_city/64d",
@@ -31466,10 +30428,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "1405 8th Avenue #3B, BROOKLYN, NY, 11215",
-        "availableDate": "2026-07-18",
+        "availableDate": "2026-07-17",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 13,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-05",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1405-8-avenue-brooklyn-3b.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -31661,7 +30625,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "screenshots/streeteasy-com-building-1-qps-042k.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -31754,10 +30720,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "196 7th Avenue #5, BROOKLYN, NY, 11215",
-        "availableDate": "now",
+        "availableDate": "2026-08-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-196-7-avenue-brooklyn-5.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -32337,7 +31305,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-one-lic-9h.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -32432,7 +31402,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 13,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-05",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-monarch-47-05-5th-street-long-island-city-303.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -32528,7 +31500,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-13",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-225-east-96-street-new-york-6rph.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -32912,7 +31886,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-07-21",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 45,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-03",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-aura-lic-33e.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -33008,7 +31984,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-06",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-aura-lic-28b.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -33256,105 +32234,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 46,
-          "lines": [
-            "R Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 22,
-          "lines": [
-            "B67"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 54,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 61,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 56,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "311 6th Avenue #4R, BROOKLYN, NY, 11215",
-        "availableDate": "2026-08-17",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-311-6-avenue-brooklyn-4r.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b60f4f174c980707fd3bd4493d5f91a3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b60f4f174c980707fd3bd4493d5f91a3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cf89c36c1af732748032bd5b19cf0290-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1dd0489f19293b43eaecae73db2a339d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a94f22bddec9fe2d3e3e2a365b0d738c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d5f4bc0bfc59ce18df5496a6ad11a332-se_extra_large_1500_800.webp"
-        ],
-        "price": 4350,
-        "sqft": 650,
-        "title": "311 6th Avenue #4R",
-        "url": "https://streeteasy.com/building/311-6-avenue-brooklyn/4r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.105,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 21.799999999999997,
-          "weight": 0.25,
-          "minutes": 46
-        },
-        "friends": {
-          "score": 18.9,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 12.5,
-          "weight": 0.15,
-          "sqft": 650,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 51.105,
-      "visionNotes": "Open kitchen with island counter flowing into living room; black gas range visible with grates; no private outdoor space shown; living room appears modest but typical for NYC one-bedroom."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 22,
           "lines": [
             "7",
@@ -33396,7 +32275,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -33446,102 +32327,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 51.095438277317555,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 19,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 22,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "1556 2nd Avenue #6, NEW YORK, NY, 10028",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-1556-2-avenue-new-york-6.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9073c05c1991efb917655e4c050dfcc9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/afa2034906ad7a1eff65a35356a2a94d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2d9c476e0e308a9dcb01a40824b0e404-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a0e57c681586fff8884a8c547a88a10c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/592490d7cd69aa4a24fa673cd7063c18-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/28fa4fd4fa072c1a4ca9adac34ad083e-se_large_800_400.webp"
-        ],
-        "price": 5250,
-        "sqft": null,
-        "title": "1556 2nd Avenue #6",
-        "url": "https://streeteasy.com/building/1556-2-avenue-new_york/6",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.925438277317554,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 67.7,
-          "weight": 0.25,
-          "minutes": 19
-        },
-        "friends": {
-          "score": 37.95,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.925438277317554,
-      "visionNotes": "Kitchen is open to living areas with exposed brick; gas range visible in first photo; no private outdoor space shown; living room appears modest but not cramped for NYC."
     },
     {
       "commute": {
@@ -33927,294 +32712,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "41-15 24th Street #716, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-716.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0a309edd5e309c47c19b830419ae34a0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/27c6d9f559900cdc623616786a4ee794-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0756bf3335610c71a9bb9ef2879f8e7b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/94310aa2ed5d838fc1839b2d17c27ad4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aa34e19ffd52cfa53de5b7525963783c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cd37c1511c05a50a1dc1ff8238fed4bc-se_extra_large_1500_800.webp"
-        ],
-        "price": 6650,
-        "sqft": null,
-        "title": "41-15 24th Street #716",
-        "url": "https://streeteasy.com/building/the-pecora-lic/716",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.67043827731756,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.67043827731756,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove appears to be electric with a flat glass cooktop; no private outdoor space visible, only cityscape views from windows; living room is spacious with ample furniture placement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "41-15 24th Street #925, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-925.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/21489bd9681d294e3f14b0b409097f66-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8abf2db46cc93b5774ac8ebc9d137052-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f79600f786ddfb4d160dcbf13c1902e6-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/fdde8ff76aed95a584d49ac826b66c96-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/339ce81ef120d6d7f06f0951cc8b4837-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c65a7d473a8052d9b71b9fffd90f9e58-se_extra_large_1500_800.webp"
-        ],
-        "price": 6900,
-        "sqft": null,
-        "title": "41-15 24th Street #925",
-        "url": "https://streeteasy.com/building/the-pecora-lic/925",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.67043827731756,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.67043827731756,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with island; stove type cannot be determined from angle/resolution; expansive living areas with floor-to-ceiling windows; no private outdoor space visible, only shared building views."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T14:56:39.488Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "41-15 24th Street #631, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-631.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e48af83569224251442ba8420bf903b1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c237113721c5af4f77589aea28f77752-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/83576f519c3b5795c5255550a7598a2c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/051dea99905d1b49ba4b462ddc86a0f5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d2e227336cf2897cb2b596e89f1e4a84-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ff91f1c90f8be87f785286fbd28d8b90-se_extra_large_1500_800.webp"
-        ],
-        "price": 5300,
-        "sqft": null,
-        "title": "41-15 24th Street #631",
-        "url": "https://streeteasy.com/building/the-pecora-lic/631",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.67043827731756,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.67043827731756,
-      "visionNotes": "Kitchen is open to the living/dining area via island counter; stove appears to be electric induction cooktop (flat black surface visible); living room is spacious with generous furniture layout; no private outdoor space visible."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 21,
           "lines": [
             "6 Train"
@@ -34257,7 +32754,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-07",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 24,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-24",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-344-east-85-street-new-york-1h.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -35116,7 +33615,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-1269-1-avenue-new-york-4c.png",
         "neighborhood": "Lenox Hill",
         "photos": [
@@ -35208,10 +33709,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "4-75 48th Avenue #403, LONG ISLAND CITY, NY, 11109",
-        "availableDate": "2026-07-30",
+        "availableDate": "2026-07-31",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 18,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-30",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-riverview-north-403.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -35222,7 +33725,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/b5a9d876d2aed5fc6c685bc3b98e8276-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/274bf8e251cda19ba8ff84daa6b6fac7-se_large_800_400.webp"
         ],
-        "price": 5440,
+        "price": 5330,
         "sqft": 700,
         "title": "4-75 48th Avenue #403",
         "url": "https://streeteasy.com/building/riverview-north/403",
@@ -35403,7 +33906,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-03",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-northern-914.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -35594,10 +34099,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "semi-open",
       "listing": {
         "address": "31-12 38th Avenue #6F, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-07-12",
+        "availableDate": "2024-02-11",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 0,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-18",
         "externalScreenshot": "screenshots/streeteasy-com-building-31-12-38-avenue-long-island-city-6f.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -35693,7 +34200,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 10,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-08",
         "externalScreenshot": "screenshots/streeteasy-com-building-star-tower-lic-17h.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -36035,390 +34544,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "41-15 24th Street #1001, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-1001.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a545fca18d448ee7bbd74e65544742b9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f52f5c722afe3e228c6516dcd6d525da-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b64ffcd3859d94e6ec8f70d6487229cc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ba48cc149e10b83fc0b6cb7885cda746-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ff5cbcb0b06f6a81bcc76783dedd741b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bc2aa605d32d787aefca4c4616373756-se_extra_large_1500_800.webp"
-        ],
-        "price": 4915,
-        "sqft": null,
-        "title": "41-15 24th Street #1001",
-        "url": "https://streeteasy.com/building/the-pecora-lic/1001",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.42250000000001,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 49.42250000000001,
-      "visionNotes": "Kitchen is open to living area with island, electric cooktop visible, large private terrace overlooking NYC skyline, spacious living room with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "41-15 24th Street #1102, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-1102.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0e96cdf318c9843338243f384d1bd319-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1b7ae8d4586967e9d823ae7fbdb1baaa-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7ac456f8173711f7817d6e33104e9697-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/46c92d93229849bdf06544aee38d8877-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3ac9bddc7497bd26ffab1a0a107c6685-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cb14fd3fd1d21f06552026a0ee82b3af-se_extra_large_1500_800.webp"
-        ],
-        "price": 5050,
-        "sqft": null,
-        "title": "41-15 24th Street #1102",
-        "url": "https://streeteasy.com/building/the-pecora-lic/1102",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.42250000000001,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 49.42250000000001,
-      "visionNotes": "Kitchen is open to living/dining area with island; electric cooktop visible; private terrace with views shown in photo 2; spacious living room with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 23,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "41-15 24th Street #729, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-pecora-lic-729.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9b4fbe1ca2cac7cd727632b69bef376d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3c937b9dc70133ee47c306c35a7649aa-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b0ea404e36ade928d39dcba1ed173fb3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/074e60b38e51e3ada6e35392b4183e37-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9d00a25e8dc399bc6d148c75cf00b923-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/87f43956a061ddeb1c039f2f7fc4bdb6-se_extra_large_1500_800.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "41-15 24th Street #729",
-        "url": "https://streeteasy.com/building/the-pecora-lic/729",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.42250000000001,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 34.55000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 49.42250000000001,
-      "visionNotes": "Kitchen is open-plan to living area with island seating; cooktop is electric/induction (flat black surface visible); unit is high-rise with city views, no private outdoor space; living room is spacious with floor-to-ceiling windows and generous furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "M31"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 31,
-          "lines": [
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "1134 1st Avenue #3F, NEW YORK, NY, 10065",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1134-1-avenue-new-york-3f.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/26cfd08ddad8916e352be34c606b1521-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/26cfd08ddad8916e352be34c606b1521-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ce790da829f5031ff37d55e128b2c9b8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c36eccc772ebabcb969465b0c177cae3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/468454e299794ef03fe435c4a54d5c24-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1b836c2d214c7e5b4e98ed21e05b9e65-se_large_800_400.webp"
-        ],
-        "price": 5895,
-        "sqft": 895,
-        "title": "1134 1st Avenue #3F",
-        "url": "https://streeteasy.com/building/1134-1-avenue-new_york/3f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.182271343573504,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.25,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 36.25,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 8.215142290490007,
-          "weight": 0.15,
-          "sqft": 895,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 49.182271343573504,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; stove details not clearly visible from this distance/angle; no private outdoor space shown; living room appears spacious with good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 22,
           "lines": [
             "F Line"
@@ -36459,7 +34584,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-4610-center-blvd-423.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -36653,7 +34780,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-20",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 10,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-08",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-auberge-4c.png",
         "neighborhood": "Long Island City",
         "photos": [
@@ -36746,10 +34875,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "170 Amsterdam Avenue #7I, NEW YORK, NY, 10023",
-        "availableDate": "2026-08-19",
+        "availableDate": "2026-07-13",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 3,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-15",
         "externalScreenshot": "screenshots/streeteasy-com-building-170-amsterdam-07i.png",
         "neighborhood": "Lincoln Square",
         "photos": [
@@ -36760,7 +34891,7 @@ window.__APARTMENT_REPORT__ = {
           "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp",
           "https://photos.zillowstatic.com/fp/cce36a2d318cb69d005de098effa5da7-se_large_800_400.webp"
         ],
-        "price": 6540,
+        "price": 6790,
         "sqft": 689,
         "title": "170 Amsterdam Avenue #7I",
         "url": "https://streeteasy.com/building/170-amsterdam/07i",
@@ -37228,7 +35359,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-07-24",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 24,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-24",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-3506.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -37320,10 +35453,12 @@ window.__APARTMENT_REPORT__ = {
       "kitchenLayout": "open",
       "listing": {
         "address": "5203 Center Boulevard #5509, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
+        "availableDate": "2026-07-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 24,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-24",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5203-center-boulevard-5509.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -37418,7 +35553,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-5203-center-boulevard-1917.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -37513,7 +35650,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-322-east-90-street-new-york-1b.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -37662,196 +35801,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 24,
-          "lines": [
-            "M31"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "M79+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "484 East 74th Street #7, NEW YORK, NY, 10021",
-        "availableDate": "2026-08-17",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-484-east-74-street-new-york-7.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/76dda934be83b2c6139a2a12d03e6483-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8c9864f5474997bb452687b3112c17f0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5b5718c38845bbd701ea85c7c7149583-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/116b103d11c883f6134d5e0ea5fff5f9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/54adf597714bd707acf27f6dccfca92e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/76dda934be83b2c6139a2a12d03e6483-se_medium_500_250.webp"
-        ],
-        "price": 4650,
-        "sqft": null,
-        "title": "484 East 74th Street #7",
-        "url": "https://streeteasy.com/building/484-east-74-street-new_york/7",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 47.86543827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 59.2,
-          "weight": 0.25,
-          "minutes": 24
-        },
-        "friends": {
-          "score": 33.275,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 47.86543827731755,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range; no private outdoor space shown; living room is spacious with ample furniture and clear sightlines."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "M31"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "M86+",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "501 East 87th Street #7D, NEW YORK, NY, 10128",
-        "availableDate": "2026-07-11",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-rivers-bend-7d.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/53da89bca4faa96c42eb20116b38e8e8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d4a173c0b68d73ce3efd4328417c0e6d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/af43e09816f88f08c08e43588593613f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c980386a824ae993ffb58efc08a2f14a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bde366c4aa62c26fd07e9ec6f0733a96-se_large_800_400.webp"
-        ],
-        "price": 5680,
-        "sqft": 756,
-        "title": "501 East 87th Street #7D",
-        "url": "https://streeteasy.com/building/rivers-bend/7d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 47.425000000000004,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.25,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 40.5,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 39,
-          "weight": 0.15,
-          "sqft": 756,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 47.425000000000004,
-      "visionNotes": "Kitchen is visible in the last photo, appears semi-open to the living/dining area with wooden cabinetry; no stove detail visible; living room is spacious with ample furniture arrangement; no private outdoor space visible."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 41,
           "lines": [
             "4 Line",
@@ -37993,7 +35942,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "screenshots/streeteasy-com-building-506-6-avenue-brooklyn-3l.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -38474,7 +36425,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-house-55-30f.png",
         "neighborhood": "Downtown Brooklyn",
         "photos": [
@@ -38528,198 +36481,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 23,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 60,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 49,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "25-16 37th Avenue #4D, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-raina-4d.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/654be770f2cd3d8c67f08cb43710ad15-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/58071bb62f1d55d4e78dcf3e8bf4cee7-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a5cd0a20ffaf6b46ca081d33b4de92a4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/64f73be675b30d6af47e25fcad8a1c06-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e4a5455d458c9205f447e9c4ef738496-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/afc928fcb7a8f53642f2034f6cd17d05-se_extra_large_1500_800.webp"
-        ],
-        "price": 5550,
-        "sqft": null,
-        "title": "25-16 37th Avenue #4D",
-        "url": "https://streeteasy.com/building/raina/4d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 46.095438277317555,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.25,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 22.3,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 46.095438277317555,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burner grates visible in photos 5-6; large floor-to-ceiling windows overlook NYC but no private outdoor space; spacious living room with good furniture-to-space ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 23,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 60,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "B62"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 49,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 45,
-          "lines": [
-            "W Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T14:56:39.488Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "25-16 37th Avenue #5D, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-raina-5d.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a7473ed5efb0fa9edbe74416dfe03406-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/21dc35241a86d7166791cbe6ea9a0c92-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1664963924d92e1e92241471085961c6-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a64d46bedf2d16e490dbb4535ce96b0c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/01c0068e04064e1fb2d7cf6550dc10e3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/21c7a4356cae4801d7a261b9ec134ce8-se_extra_large_1500_800.webp"
-        ],
-        "price": 5650,
-        "sqft": null,
-        "title": "25-16 37th Avenue #5D",
-        "url": "https://streeteasy.com/building/raina/5d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 46.095438277317555,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.25,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 22.3,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 46.095438277317555,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with full sightlines; gas range visible with visible burners/grates; multiple large terraces with floor-to-ceiling windows visible throughout; spacious living room with generous furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 26,
           "lines": [
             "7",
@@ -38761,7 +36522,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-21-malt-dr-1114.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -38856,7 +36619,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-21-malt-dr-423.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -38951,7 +36716,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-21-malt-dr-466.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -39046,7 +36813,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-21-malt-dr-350.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -39145,7 +36914,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-gotham-point-north-5026.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -39343,7 +37114,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-gotham-point-south-2703.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -39628,7 +37401,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-20-malt-drive-1808.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -39723,7 +37498,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "screenshots/streeteasy-com-building-2-20-malt-drive-906.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -40388,7 +38165,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-2-21-malt-dr-3603.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -40540,103 +38319,6 @@ window.__APARTMENT_REPORT__ = {
         "office": {
           "minutes": 37,
           "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 11,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 50,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "104 Sixth Avenue #5, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-104-6-avenue-brooklyn-5.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3b8e2ee66eb97433558d1e86d1c54569-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3b8e2ee66eb97433558d1e86d1c54569-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/748c65421f82c180f774af7e39006982-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b99eda2721e67abecc5bb310544da77d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9ce45115d1009724fba30fcade1084b6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2ef2ebf99e56887f4f8f885bcdeec51d-se_large_800_400.webp"
-        ],
-        "price": 4200,
-        "sqft": null,
-        "title": "104 Sixth Avenue #5",
-        "url": "https://streeteasy.com/building/104-6-avenue-brooklyn/5",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 43.7625,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 37.1,
-          "weight": 0.25,
-          "minutes": 37
-        },
-        "friends": {
-          "score": 34.125,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.15,
-          "small": true
-        }
-      },
-      "rankScore": 43.7625,
-      "visionNotes": "Kitchen is visible in the last photo, semi-open to living/dining area; stove appears to be electric/induction based on flat cooktop visible; no private outdoor space shown; living room is compact with furniture-to-space ratio typical of tight NYC one-bedroom."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 37,
-          "lines": [
             "C Line",
             "5 Line",
             "6 Train"
@@ -40778,7 +38460,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-signum-375-dean-street-brooklyn-1605.png",
         "neighborhood": "Park Slope",
         "photos": [
@@ -41066,7 +38750,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-08-01",
         "bathrooms": 4,
         "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-4ba.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -41355,7 +39041,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-01",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-the-clairemont-3b.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -41451,7 +39139,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
         "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-6004.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -41548,7 +39238,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-10-15",
         "bathrooms": 1.5,
         "bedrooms": 2,
+        "daysOnMarket": 7,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-11",
         "externalScreenshot": "screenshots/streeteasy-com-building-110-4-avenue-brooklyn-5e.png",
         "neighborhood": "Boerum Hill",
         "photos": [
@@ -41698,101 +39390,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 20,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 19,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "1709 2nd Avenue #1R, NEW YORK, NY, 10128",
-        "availableDate": "2026-08-05",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-1709-2-avenue-new-york-1r.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/01365867600cf167f824c027ecfb08ac-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/09dc779ad2db9288d0465f1e5cbcbe73-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/93c9b11735357dfa582caf5112d622e3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2cedbb69bdff762f70afe3355c212158-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fe3f682d15a1de58bc9def51f31353b8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/333faaf5e1c937a8f2ccd25a67ea0158-se_large_800_400.webp"
-        ],
-        "price": 4750,
-        "sqft": null,
-        "title": "1709 2nd Avenue #1R",
-        "url": "https://streeteasy.com/building/1709-2-avenue-new_york/1r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 36.095438277317555,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.25,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 40.92500000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.15,
-          "small": true
-        }
-      },
-      "rankScore": 36.095438277317555,
-      "visionNotes": "Kitchen is semi-open to living area with clear sightlines; gas range visible with burner grates; private paved courtyard/garden shown in first photo; living room is notably small with sofa tightly positioned against kitchen."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 22,
           "lines": [
             "F Line"
@@ -41833,7 +39430,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "2026-09-10",
         "bathrooms": 2,
         "bedrooms": 2,
+        "daysOnMarket": 15,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-03",
         "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-4610-center-blvd-517.png",
         "neighborhood": "Hunters Point",
         "photos": [
@@ -42023,7 +39622,9 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
+        "daysOnMarket": 5,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
         "externalScreenshot": "screenshots/streeteasy-com-building-443-east-88-street-new-york-12.png",
         "neighborhood": "Yorkville",
         "photos": [
@@ -42073,102 +39674,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 30.145438277317552,
       "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; gas range with visible burners clearly visible; no private outdoor space shown; living room is appropriately sized for a NYC one-bedroom with good furniture proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "M31"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "M15+",
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 25,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "422 East 81st Street #5B, NEW YORK, NY, 10028",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-422-east-81-street-new-york-5b.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/7ee25a343c6dbcb3f736b938f662e848-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7ee25a343c6dbcb3f736b938f662e848-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e4a16a9a067d075eabdfc01ab29a0a64-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/18cff19a3366851d80c54211b5074b4c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8b8df47265e0bc7e0714af7dc05c7e66-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/86e1b5946b96a3330bc59c121769e01d-se_large_800_400.webp"
-        ],
-        "price": 4675,
-        "sqft": null,
-        "title": "422 East 81st Street #5B",
-        "url": "https://streeteasy.com/building/422-east-81-street-new_york/5b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 29.805438277317553,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.25,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 32.85000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.15,
-          "small": true
-        }
-      },
-      "rankScore": 29.805438277317553,
-      "visionNotes": "Open-plan kitchen with gas range visible; living room is compact with tight furniture layout typical of a small NYC studio/one-bed; no private outdoor space shown, only interior bedroom and bathroom views."
     },
     {
       "commute": {
