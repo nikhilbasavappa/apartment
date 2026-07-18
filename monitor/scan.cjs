@@ -15,7 +15,7 @@ const {
 const { computeCommutes } = require("./lib/geo.cjs");
 const { generateHtmlReport, generateMarkdownReport } = require("./lib/report.cjs");
 const { sendNotifications } = require("./lib/notify.cjs");
-const { evaluateListing } = require("./lib/scoring.cjs");
+const { evaluateListing, extractAvailableDate } = require("./lib/scoring.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
 const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
@@ -414,7 +414,7 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 // text shows up in almost every listing's own price-history table for past
 // (unrelated, sometimes years-old) rental cycles of the same unit, so a
 // plain substring match would misfire on the majority of active listings.
-const FOR_RENT_MARKER = /\$[\d,]+\s+for rent\b/i;
+const FOR_RENT_MARKER = /\$([\d,]+)\s+for rent\b/i;
 const FOR_RENT_MARKER_WINDOW = 6000;
 
 // A listing that's had an offer accepted but hasn't closed yet still shows
@@ -465,7 +465,8 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         { rootDir: outputRoot, screenshotDir }
       );
 
-      const stillListed = FOR_RENT_MARKER.test(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
+      const forRentMatch = FOR_RENT_MARKER.exec(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
+      const stillListed = Boolean(forRentMatch);
       const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
       entry.lastRevalidatedAt = runAt;
       checked += 1;
@@ -480,6 +481,39 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         entry.reasons = ["In contract on StreetEasy (auto-detected during periodic revalidation)"];
         removed += 1;
         console.log(`REVALIDATED_IN_CONTRACT: ${entry.listing.title}`);
+      } else {
+        // Price and availability date are the only listing fields that
+        // legitimately drift over time (a landlord's decision, not a fixed
+        // physical property like sqft/bedrooms) — refreshing those here
+        // caught 110 4th Avenue #5E's availableDate having quietly slipped
+        // from 9/15 to 10/15 since it was first scanned. Reusing the
+        // for-rent marker's own capture group for price, rather than a
+        // separate regex, means there's no second source of truth to drift
+        // out of sync with the stillListed check itself.
+        const refreshedPrice = Number.parseFloat(forRentMatch[1].replace(/,/g, ""));
+        if (Number.isFinite(refreshedPrice) && refreshedPrice > 0 && refreshedPrice !== entry.listing.price) {
+          console.log(`REVALIDATED_PRICE_CHANGED: ${entry.listing.title} — ${entry.listing.price} -> ${refreshedPrice}`);
+          entry.listing.price = refreshedPrice;
+
+          // A price refresh can push a previously-qualifying listing outside
+          // the budget range — re-check the hard filter rather than letting
+          // a rent hike silently sail through as still-qualifying.
+          if (refreshedPrice < config.profile.budgetMin || refreshedPrice > config.profile.budgetMax) {
+            entry.qualifies = false;
+            entry.reasons = [
+              `Rent $${refreshedPrice} outside $${config.profile.budgetMin}-${config.profile.budgetMax} (price changed since last check)`,
+            ];
+            removed += 1;
+            console.log(`REVALIDATED_PRICE_OUT_OF_BUDGET: ${entry.listing.title}`);
+          }
+        }
+        const refreshedAvailableDate = extractAvailableDate(details.bodyText);
+        if (refreshedAvailableDate && refreshedAvailableDate !== entry.listing.availableDate) {
+          console.log(
+            `REVALIDATED_AVAILABLE_DATE_CHANGED: ${entry.listing.title} — ${entry.listing.availableDate} -> ${refreshedAvailableDate}`
+          );
+          entry.listing.availableDate = refreshedAvailableDate;
+        }
       }
 
       // Written after every listing, not just once at the end of the whole

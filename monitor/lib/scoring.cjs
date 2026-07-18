@@ -350,6 +350,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 module.exports = {
   computeRankScore,
   evaluateListing,
+  extractAvailableDate,
   isExcludedNeighborhood,
   neighborhoodTier,
   rankBreakdown,
