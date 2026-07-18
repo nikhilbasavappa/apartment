@@ -886,25 +886,25 @@ function renderMarket(marketStats) {
 
   els.marketTiers.innerHTML = "";
 
-  const tiers = marketStats?.tiers || [];
-  if (!tiers.length) {
+  const areas = marketStats?.areas || [];
+  if (!areas.length) {
     els.marketTiers.innerHTML = '<p class="empty-state">No data yet.</p>';
     if (els.marketContractSpeed) els.marketContractSpeed.textContent = "";
     return;
   }
 
   const fragment = document.createDocumentFragment();
-  tiers.forEach((tier) => {
+  areas.forEach((area) => {
     const card = document.createElement("article");
     card.className = "market-tier-card";
     const rows = [
-      ["Listings", `${tier.count}`],
-      ["Median rent", Number.isFinite(tier.medianPrice) ? formatCurrency(tier.medianPrice) : "—"],
-      ["Median $/sqft", Number.isFinite(tier.medianPricePerSqft) ? `$${formatStat(tier.medianPricePerSqft, "")}` : "—"],
-      ["Median days on market", formatStat(tier.medianDaysOnMarket, " days")],
-      ["Median lead time", formatStat(tier.medianLeadTimeDays, " days")],
+      ["Listings", `${area.count}`],
+      ["Median rent", Number.isFinite(area.medianPrice) ? formatCurrency(area.medianPrice) : "—"],
+      ["Median $/sqft", Number.isFinite(area.medianPricePerSqft) ? `$${formatStat(area.medianPricePerSqft, "")}` : "—"],
+      ["Median days on market", formatStat(area.medianDaysOnMarket, " days")],
+      ["Median lead time", formatStat(area.medianLeadTimeDays, " days")],
     ];
-    card.innerHTML = `<h3>${tier.label}</h3>${rows
+    card.innerHTML = `<h3>${area.name}</h3>${rows
       .map(([label, value]) => `<div class="market-stat-row"><span class="market-stat-label">${label}</span><span>${value}</span></div>`)
       .join("")}`;
     fragment.append(card);
@@ -961,38 +961,32 @@ function drawMarketTrendChart(history) {
   }
   if (els.marketTrendEmptyState) els.marketTrendEmptyState.textContent = "";
 
-  const tierCounts = {};
+  const areaCounts = {};
   history.forEach((snapshot) => {
-    (snapshot.tiers || []).forEach((tier) => {
-      tierCounts[tier.tier] = (tierCounts[tier.tier] || 0) + tier.count;
+    (snapshot.areas || []).forEach((area) => {
+      areaCounts[area.name] = (areaCounts[area.name] || 0) + area.count;
     });
   });
-  const topTiers = Object.entries(tierCounts)
+  // Most data-rich areas first — these will also have the least noisy
+  // medians early on, before enough history has built up.
+  const topAreas = Object.entries(areaCounts)
     .sort(([, a], [, b]) => b - a)
     .slice(0, 2)
-    .map(([tier]) => tier);
+    .map(([name]) => name);
 
   const colors = ["#4f6d5c", "#a0654f"];
   const width = 640;
   const height = 220;
   const padding = { top: 10, right: 16, bottom: 24, left: 56 };
 
-  const tierLabels = {
-    uwsIdeal: "UWS 70s-80s",
-    uwsAcceptable: "UWS, outside 70s-80s",
-    brooklyn: "Brooklyn",
-    other: "other area",
-    unknown: "unrated area",
-  };
-
-  const series = topTiers.map((tier) => {
+  const series = topAreas.map((name) => {
     const points = history
       .map((snapshot) => {
-        const match = (snapshot.tiers || []).find((t) => t.tier === tier);
+        const match = (snapshot.areas || []).find((a) => a.name === name);
         return match && Number.isFinite(match.medianPrice) ? { runAt: snapshot.runAt, price: match.medianPrice } : null;
       })
       .filter(Boolean);
-    return { tier, label: tierLabels[tier] || tier, points };
+    return { name, label: name, points };
   });
 
   const allPrices = series.flatMap((s) => s.points.map((p) => p.price));

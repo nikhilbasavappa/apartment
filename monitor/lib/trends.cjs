@@ -3,14 +3,12 @@
 // market-history.json log (written by scan.cjs) is what turns these
 // snapshots into an actual trend over time; this module only answers "what
 // does the market look like right now."
-
-const NEIGHBORHOOD_TIER_LABEL = {
-  uwsIdeal: "UWS 70s-80s",
-  uwsAcceptable: "UWS, outside 70s-80s",
-  brooklyn: "Brooklyn",
-  other: "other area",
-  unknown: "unrated area",
-};
+//
+// Grouped by actual neighborhood name, not by the neighborhoodTier used for
+// scoring — the tier is a deliberate ranking simplification (Hunters Point,
+// Yorkville, and Murray Hill all just get treated as "other" for scoring
+// purposes), but blending their medians together here would hide exactly
+// the area-to-area differences this tab exists to show.
 
 function median(values) {
   const clean = values.filter((v) => Number.isFinite(v)).sort((a, b) => a - b);
@@ -36,14 +34,14 @@ function leadTimeDays(availableDate, estimatedListingDate) {
 const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy/i;
 
 function computeMarketStats(qualifying, excludedListings) {
-  const byTier = {};
+  const byNeighborhood = {};
 
   qualifying.forEach((entry) => {
-    const tier = entry.neighborhoodTier || "unknown";
-    (byTier[tier] ||= []).push(entry);
+    const name = entry.listing.neighborhood || "Unspecified";
+    (byNeighborhood[name] ||= []).push(entry);
   });
 
-  const tiers = Object.entries(byTier).map(([tier, entries]) => {
+  const areas = Object.entries(byNeighborhood).map(([name, entries]) => {
     const prices = entries.map((e) => e.listing.price).filter((v) => Number.isFinite(v));
     const pricePerSqft = entries
       .filter((e) => Number.isFinite(e.listing.price) && Number.isFinite(e.listing.sqft) && e.listing.sqft > 0)
@@ -54,8 +52,8 @@ function computeMarketStats(qualifying, excludedListings) {
       .filter((v) => Number.isFinite(v));
 
     return {
-      tier,
-      label: NEIGHBORHOOD_TIER_LABEL[tier] || tier,
+      name,
+      tier: entries[0]?.neighborhoodTier || "unknown",
       count: entries.length,
       medianPrice: median(prices),
       medianPricePerSqft: median(pricePerSqft),
@@ -64,7 +62,7 @@ function computeMarketStats(qualifying, excludedListings) {
     };
   });
 
-  tiers.sort((a, b) => b.count - a.count);
+  areas.sort((a, b) => b.count - a.count);
 
   // A small, biased sample (only listings this catalog happened to already
   // be tracking when they went into contract/got taken down), but still a
@@ -75,7 +73,7 @@ function computeMarketStats(qualifying, excludedListings) {
   const contractSpeedDays = median(goneListings.map((e) => e.listing.daysOnMarket).filter((v) => Number.isFinite(v)));
 
   return {
-    tiers,
+    areas,
     contractSpeed: {
       sampleSize: goneListings.length,
       medianDaysOnMarket: contractSpeedDays,
@@ -83,4 +81,4 @@ function computeMarketStats(qualifying, excludedListings) {
   };
 }
 
-module.exports = { computeMarketStats, leadTimeDays, median, NEIGHBORHOOD_TIER_LABEL };
+module.exports = { computeMarketStats, leadTimeDays, median };
