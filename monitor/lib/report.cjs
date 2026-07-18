@@ -57,6 +57,7 @@ function buildScorePills(entry) {
     `Office: ${Math.round(breakdown.office.score)} · ${Math.round(breakdown.office.weight * 100)}% weight`,
     `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
     `Size: ${Math.round(breakdown.size.score)} · ${Math.round(breakdown.size.weight * 100)}% weight`,
+    `Living room: ${Math.round(breakdown.livingRoom.score)} · ${Math.round(breakdown.livingRoom.weight * 100)}% weight`,
   ];
 }
 

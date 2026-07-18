@@ -89,7 +89,18 @@ function commuteScore(minutes) {
 
 const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
 
-const RANK_WEIGHTS = { neighborhood: 0.3, office: 0.3, friends: 0.25, size: 0.15 };
+const RANK_WEIGHTS = { neighborhood: 0.25, office: 0.25, friends: 0.2, size: 0.15, livingRoom: 0.15 };
+
+// Binary rather than continuous — vision only ever classifies living room
+// as small or not (see livingRoomSmall gating below), so there's no finer
+// signal to score on yet. Recurred 4 times across directed review batches
+// as the single biggest drag on an otherwise-good listing ("the real
+// killer", "main knock") — user explicitly said they'd take a 1bd with an
+// ample living room over a 2bd with a cramped one, so this is weighted
+// comparably to size, not just a minor tiebreaker.
+function livingRoomScore(livingRoomSmall) {
+  return livingRoomSmall ? 0 : 100;
+}
 
 // Median real sqft among qualifying listings, by bedroom count (from the
 // actual catalog once the sqft-extraction bug was fixed) — 671 for 1bd, 996
@@ -131,23 +142,25 @@ function sqftScore(sqft, bedrooms) {
 }
 
 // Blended ranking score used to sort qualifying listings — separate from the
-// qualify/exclude hard filters above. Weighted 30% neighborhood preference,
-// 30% office commute (the daily one), 25% average commute to the four
-// friends' neighborhoods, 15% size (bedroom-normalized sqft). Returns the
-// components alongside the total so the UI can show why a listing ranked
-// where it did, not just the number.
-function rankBreakdown(commute, tier, sqft, bedrooms) {
+// qualify/exclude hard filters above. Weighted 25% neighborhood preference,
+// 25% office commute (the daily one), 20% average commute to the four
+// friends' neighborhoods, 15% size (bedroom-normalized sqft), 15% living
+// room size. Returns the components alongside the total so the UI can show
+// why a listing ranked where it did, not just the number.
+function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
   const sizeScore = sqftScore(sqft, bedrooms);
+  const livingRoomScoreValue = livingRoomScore(livingRoomSmall);
 
   const total =
     RANK_WEIGHTS.neighborhood * neighborhoodScore +
     RANK_WEIGHTS.office * officeScore +
     RANK_WEIGHTS.friends * avgFriendScore +
-    RANK_WEIGHTS.size * sizeScore;
+    RANK_WEIGHTS.size * sizeScore +
+    RANK_WEIGHTS.livingRoom * livingRoomScoreValue;
 
   return {
     total,
@@ -155,11 +168,12 @@ function rankBreakdown(commute, tier, sqft, bedrooms) {
     office: { score: officeScore, weight: RANK_WEIGHTS.office, minutes: commute.office?.minutes ?? null },
     friends: { score: avgFriendScore, weight: RANK_WEIGHTS.friends },
     size: { score: sizeScore, weight: RANK_WEIGHTS.size, sqft: sqft ?? null, bedrooms: bedrooms ?? null },
+    livingRoom: { score: livingRoomScoreValue, weight: RANK_WEIGHTS.livingRoom, small: Boolean(livingRoomSmall) },
   };
 }
 
-function computeRankScore(commute, tier, sqft, bedrooms) {
-  return rankBreakdown(commute, tier, sqft, bedrooms).total;
+function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall) {
+  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall).total;
 }
 
 function extractNumber(text, regex) {
@@ -378,7 +392,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
   const commute = commuteResult?.commutes || {};
   const tier = neighborhoodTier(listing.neighborhood, listing.borough, listing.address, lat);
-  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms);
+  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms, livingRoomSmall);
 
   // Not a hard filter — just a signal that a listing's availability date is
   // close enough to warrant deciding on it sooner rather than letting it
