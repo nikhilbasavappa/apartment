@@ -461,6 +461,19 @@ const IN_CONTRACT_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bin contract\b/is;
 // further down the page, outside this window).
 const RENTED_PATTERN = /\$[\d,]+\s+for rent\b.{0,200}?\brented\b/is;
 
+// Bumped whenever the detection logic itself gains a new capability (e.g.
+// adding RENTED_PATTERN after IN_CONTRACT_PATTERN already existed) — an
+// entry last checked under an older version got a "still qualifies" result
+// from a check that couldn't have caught what the newer version catches,
+// so that clearance is stale even though the entry itself looks "recently
+// revalidated." 160 Riverside Blvd #11A was rechecked the day after it
+// actually went rented and still passed, because RENTED_PATTERN didn't
+// exist yet when that check ran. Bump this number (not lastRevalidatedAt)
+// any time detection logic changes, so previously-cleared entries
+// automatically fall back to "needs a real check" without a manual
+// one-off backlog sweep every time.
+const REVALIDATION_LOGIC_VERSION = 2;
+
 // The catalog only ever grows — nothing previously re-checks whether a
 // qualifying listing is still actually live on StreetEasy. Re-verifying the
 // entire catalog every run would mean hundreds of extra Bright Data fetches
@@ -472,13 +485,18 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
   const batchSize = config.scanner.revalidateBatchSize ?? 20;
   if (batchSize <= 0) return { checked: 0, removed: 0 };
 
+  // An entry checked under an older detection-logic version is treated as
+  // never-checked (priority 0) regardless of how recent its lastRevalidatedAt
+  // is — its "still qualifies" result can't reflect a capability that didn't
+  // exist yet when it ran.
+  const priorityTime = (entry) => {
+    if ((entry.lastRevalidatedLogicVersion ?? 0) < REVALIDATION_LOGIC_VERSION) return 0;
+    return entry.lastRevalidatedAt ? new Date(entry.lastRevalidatedAt).getTime() : 0;
+  };
+
   const candidates = Object.entries(state.catalog)
     .filter(([, entry]) => entry.qualifies && entry.listing?.url)
-    .sort(([, a], [, b]) => {
-      const aTime = a.lastRevalidatedAt ? new Date(a.lastRevalidatedAt).getTime() : 0;
-      const bTime = b.lastRevalidatedAt ? new Date(b.lastRevalidatedAt).getTime() : 0;
-      return aTime - bTime;
-    })
+    .sort(([, a], [, b]) => priorityTime(a) - priorityTime(b))
     .slice(0, batchSize);
 
   let checked = 0;
@@ -500,6 +518,7 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
       const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
       const rented = RENTED_PATTERN.test(details.bodyText);
       entry.lastRevalidatedAt = runAt;
+      entry.lastRevalidatedLogicVersion = REVALIDATION_LOGIC_VERSION;
       checked += 1;
 
       if (!stillListed) {
