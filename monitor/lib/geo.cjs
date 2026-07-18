@@ -9,12 +9,18 @@ function apiKey() {
   return key;
 }
 
+// Without this, a request that hangs mid-flight (observed happening after
+// a network blip while the scan is already running, not just at startup)
+// hangs the whole scan forever — fetch() has no default timeout of its own,
+// and this ran unguarded for weeks before a hang traced back to it.
+const REQUEST_TIMEOUT_MS = 20000;
+
 async function geocodeAddress(address) {
   const url = new URL(GEOCODE_ENDPOINT);
   url.searchParams.set("address", address);
   url.searchParams.set("key", apiKey());
 
-  const response = await fetch(url);
+  const response = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
   const payload = await response.json();
 
   if (payload.status !== "OK" || !payload.results?.length) {
@@ -54,7 +60,7 @@ async function getTransitDirections(origin, destinationAddress, arrivalTime) {
   }
   url.searchParams.set("key", apiKey());
 
-  const response = await fetch(url);
+  const response = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
   const payload = await response.json();
 
   if (payload.status !== "OK" || !payload.routes?.length) {

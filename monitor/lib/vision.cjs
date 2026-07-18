@@ -99,6 +99,12 @@ async function classifyKitchenPhotos(photoUrls) {
       max_tokens: 300,
       messages: [{ role: "user", content }],
     }),
+    // Without this, a request that hangs mid-flight (observed happening
+    // after a network blip while the scan is already running) hangs the
+    // whole scan forever — fetch() has no default timeout of its own. 45s
+    // gives a multi-photo classification real room to run, unlike the 15s
+    // used for the plain photo-fetch above.
+    signal: AbortSignal.timeout(45000),
   });
 
   if (!response.ok) {
