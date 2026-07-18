@@ -206,6 +206,27 @@ function estimateListingDate(daysOnMarket) {
   return date.toISOString().slice(0, 10);
 }
 
+// Vision classified this "open" from photos on real listings whose own
+// marketing text says "Separate Chef's Kitchen" or "the closed kitchen
+// style creates a separated environment" — a photo can look open-ish even
+// when the actual room is a separate one, especially with the door held
+// open for the shoot. The listing's own words about its own layout are a
+// stronger signal than a photo inference, so this overrides vision rather
+// than just supplementing it. [\w\s] alone doesn't span an apostrophe, so
+// "Chef's Kitchen" broke the match entirely until '  was added here.
+// Negation ("kitchen is NOT separate") is checked against the matched span
+// itself, not text before it — the match already spans "kitchen ... not ...
+// separate", so that's where a "not"/"n't" would actually show up.
+function hasSeparateKitchenText(bodyText) {
+  const pattern = /\b(?:separate|closed)\b[\w\s']{0,25}\bkitchen\b|\bkitchen\b[\w\s']{0,25}\b(?:separate|closed)\b/gi;
+  const text = String(bodyText || "");
+  let match;
+  while ((match = pattern.exec(text))) {
+    if (!/\bnot\b|n't\b/i.test(match[0])) return true;
+  }
+  return false;
+}
+
 function normalizeListing(rawListing) {
   const rawText = [rawListing.title, rawListing.description, rawListing.bodyText]
     .filter(Boolean)
@@ -303,8 +324,11 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   // A low-confidence guess is worse than no answer: it looks the same as a
   // real "yes"/"closed" downstream but the model itself wasn't sure. Treat
   // it as unknown rather than trusting it as ground truth.
-  const kitchenLayout =
+  const visionKitchenLayout =
     vision.kitchenVisible && vision.kitchenConfidence !== "low" ? vision.kitchenLayout : "unknown";
+  // The listing's own description outranks a photo-based guess: a "separate
+  // chef's kitchen" can still be framed to look open-ish in a single shot.
+  const kitchenLayout = hasSeparateKitchenText(listing.bodyText) ? "closed" : visionKitchenLayout;
   const gasStove = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.gasStove : "unknown";
   // "Private garden" specifically (not a shared courtyard) is an easy claim
   // to get subtly wrong from a photo alone — require high confidence, not
@@ -386,6 +410,7 @@ module.exports = {
   evaluateListing,
   extractAvailableDate,
   extractDaysOnMarket,
+  hasSeparateKitchenText,
   isExcludedNeighborhood,
   neighborhoodTier,
   rankBreakdown,

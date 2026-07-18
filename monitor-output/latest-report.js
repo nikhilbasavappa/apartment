@@ -2751,6 +2751,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "5241 Center Boulevard #1607, LONG ISLAND CITY, NY, 11101",
+        "price": 6125,
+        "title": "5241 Center Boulevard #1607",
+        "url": "https://streeteasy.com/building/5241-center-boulevard-long_island_city/1607"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
         "address": null,
         "price": null,
         "title": "3 Court Square #514",
@@ -3453,6 +3464,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
+        "price": 6325,
+        "title": "101 West End Avenue #14D",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
         "address": "21 West End Avenue #1620, NEW YORK, NY, 10023",
         "price": 5947,
         "title": "21 West End Avenue #1620",
@@ -4140,6 +4162,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "595 Dean Street #213, BROOKLYN, NY, 11238",
+        "price": 4410,
+        "title": "595 Dean Street #213",
+        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/213"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
         "address": "97 Grand Avenue #5F, BROOKLYN, NY, 11205",
         "price": 5233,
         "title": "97 Grand Avenue #5F",
@@ -4215,6 +4248,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "4720 Center Boulevard #926, LONG ISLAND CITY, NY, 11109",
+        "price": 6550,
+        "title": "4720 Center Boulevard #926",
+        "url": "https://streeteasy.com/building/4720-center-boulevard/926"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
       ]
     },
     {
@@ -4315,6 +4359,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/310-west-80th-street/5f: The operation was aborted due to timeout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "210 West 80th Street #3RW, NEW YORK, NY, 10024",
+        "price": 5750,
+        "title": "210 West 80th Street #3RW",
+        "url": "https://streeteasy.com/building/210-west-80-street-new_york/3rw"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
       ]
     },
     {
@@ -5747,6 +5802,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "21 West End Avenue #3813, NEW YORK, NY, 10023",
+        "price": 6275,
+        "title": "21 West End Avenue #3813",
+        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
         "address": "395 Carroll Street #2-311, BROOKLYN, NY, 11231",
         "price": 5658,
         "title": "395 Carroll Street #2-311",
@@ -6771,6 +6837,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "304 East 77th Street #5, NEW YORK, NY, 10075",
+        "price": 4560,
+        "title": "304 East 77th Street #5",
+        "url": "https://streeteasy.com/building/304-east-77-street-new_york/5"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
       ]
     },
     {
@@ -8320,8 +8397,8 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Hunters Point",
         "tier": "other",
-        "count": 92,
-        "medianPrice": 5282.5,
+        "count": 90,
+        "medianPrice": 5256,
         "medianPricePerSqft": 6.96594427244582,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
@@ -8365,18 +8442,9 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Prospect Heights",
         "tier": "brooklyn",
-        "count": 28,
-        "medianPrice": 4597,
+        "count": 27,
+        "medianPrice": 4599,
         "medianPricePerSqft": 7.041762965202929,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
-        "name": "Lincoln Square",
-        "tier": "uwsAcceptable",
-        "count": 19,
-        "medianPrice": 6325,
-        "medianPricePerSqft": 8.105446118192353,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
       },
@@ -8399,10 +8467,19 @@ window.__APARTMENT_REPORT__ = {
         "medianLeadTimeDays": null
       },
       {
-        "name": "Upper West Side",
+        "name": "Lincoln Square",
         "tier": "uwsAcceptable",
         "count": 17,
-        "medianPrice": 5995,
+        "medianPrice": 6349,
+        "medianPricePerSqft": 8.105446118192353,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "name": "Upper West Side",
+        "tier": "uwsAcceptable",
+        "count": 16,
+        "medianPrice": 5997.5,
         "medianPricePerSqft": 9.550925925925926,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
@@ -8417,20 +8494,20 @@ window.__APARTMENT_REPORT__ = {
         "medianLeadTimeDays": null
       },
       {
-        "name": "Lenox Hill",
-        "tier": "other",
-        "count": 9,
-        "medianPrice": 4670,
-        "medianPricePerSqft": 8.193296089385475,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
         "name": "Carroll Gardens",
         "tier": "brooklyn",
         "count": 9,
         "medianPrice": 6490,
         "medianPricePerSqft": 6.264478764478764,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "name": "Lenox Hill",
+        "tier": "other",
+        "count": 8,
+        "medianPrice": 5085,
+        "medianPricePerSqft": 8.193296089385475,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
       },
@@ -8842,98 +8919,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 65.36543827731755,
       "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with exposed burners; no private outdoor space shown; living room appears spacious with good furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 24,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "1 Line",
-            "3 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 16,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 5,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T14:56:39.488Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "210 West 80th Street #3RW, NEW YORK, NY, 10024",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-210-west-80-street-new-york-3rw.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3467b6097a1719999a26b7698e7db691-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/95f43e5f4031f2dd932487be475711cc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7b9da91fdfd854ba2f03ac4549cfd0c4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f193cd8e29c3b692ce9a52d5613ad4d1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/510047b34e1dea1dee9a369178c3e957-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/92d67af28ba832efb1723d9d728154d8-se_large_800_400.webp"
-        ],
-        "price": 5750,
-        "sqft": null,
-        "title": "210 West 80th Street #3RW",
-        "url": "https://streeteasy.com/building/210-west-80-street-new_york/3rw",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsIdeal",
-      "rankBreakdown": {
-        "total": 65.30168827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "uwsIdeal"
-        },
-        "office": {
-          "score": 59.2,
-          "weight": 0.3,
-          "minutes": 24
-        },
-        "friends": {
-          "score": 54.525000000000006,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 65.30168827731755,
-      "visionNotes": "Kitchen is visible in photo 1 with a pass-through counter opening to the living/dining area; living room appears spacious with good sightlines; no outdoor space visible; stove type cannot be determined from angle/resolution shown."
     },
     {
       "commute": {
@@ -19260,95 +19245,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 27,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "D Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 31,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "21 West End Avenue #3813, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-21-west-end-avenue-new-york-3813.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/89adf2c4733444ad1302b61e06110fcb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6fea7309d4a06720ea19f2501e6388fa-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/90fd262944074b87b4b37ae0b84c6747-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1038da0226dfa0bb64b33ffca915688f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a16e4a74b27ce2428f13a24f64cc5dd9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/24c3adc3a1569a89885207a883518b74-se_extra_large_1500_800.webp"
-        ],
-        "price": 6275,
-        "sqft": null,
-        "title": "21 West End Avenue #3813",
-        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 52.486250000000005,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.3,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 54.1,
-          "weight": 0.3,
-          "minutes": 27
-        },
-        "friends": {
-          "score": 38.375000000000014,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 52.486250000000005,
-      "visionNotes": "Kitchen is visible and open to living area with a peninsula counter; stove/cooktop not clearly visible; large living room with expansive windows and city views; no private outdoor space visible, last image is building lobby."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 33,
           "lines": [
             "N Line",
@@ -19709,96 +19605,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 52.40125,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; gas cooktop with visible burners; no private outdoor space shown; living room appears spacious with high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-14d.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/671df044119ed0c99cfef4f763820c3a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2c8030b68c0b4f1d516a8252fa57fd8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/54b40fcea355ec673a89f67298f22be1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/65a79a3a6ab26819baae2eb4b99d0a83-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c8ac7d3d4ebb08f5f29787ee68b8bd6a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
-        ],
-        "price": 6325,
-        "sqft": null,
-        "title": "101 West End Avenue #14D",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 52.40125,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.3,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.3,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 52.40125,
-      "visionNotes": "Kitchen is semi-open with a peninsula counter overlooking the living/dining area; gas cooktop visible in kitchen; outdoor space shown is a shared building courtyard with playground, not private; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -22119,98 +21925,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 49.94375,
       "visionNotes": "Kitchen visible in photos 4 and 7 with semi-open layout to living areas; gas cooktop visible in photo 7; living room appears spacious in photo 2 and 7; no private outdoor space visible, only windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 53,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "595 Dean Street #213, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-213.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
-        ],
-        "price": 4410,
-        "sqft": null,
-        "title": "595 Dean Street #213",
-        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/213",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.94375,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.3,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.3,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 30.725000000000005,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 49.94375,
-      "visionNotes": "Kitchen is visible and open to living area; stove appears to have visible burner grates suggesting gas; no private outdoor space visible; living room appears spacious with generous proportions."
     },
     {
       "commute": {
@@ -32466,97 +32180,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 15,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 25,
-          "lines": [
-            "M79+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "304 East 77th Street #5, NEW YORK, NY, 10075",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-304-east-77-street-new-york-5.png",
-        "neighborhood": "Lenox Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a8048afda1c0679e95f76d53311bbf54-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a8048afda1c0679e95f76d53311bbf54-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8bfc6c40febc93880e391842d76b95ed-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/57a7153d8f8b0f4c172a4bda858957b2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/625f903d1daf498cab57898c68c528df-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3a2b0750963eb52acaa2b37e1768a852-se_large_800_400.webp"
-        ],
-        "price": 4560,
-        "sqft": null,
-        "title": "304 East 77th Street #5",
-        "url": "https://streeteasy.com/building/304-east-77-street-new_york/5",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 44.74793827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 37.95,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 44.74793827731755,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; electric range/cooktop apparent; no private outdoor space shown; living room appears spacious with good furniture proportion."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 16,
           "lines": [
             "6 Train"
@@ -38094,96 +37717,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 25,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 5,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "4720 Center Boulevard #926, LONG ISLAND CITY, NY, 11109",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-4720-center-boulevard-926.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/49c47e59cf0a0d15a0d92db26608b7b0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5844d221c06e5970fbc979c6abfe32eb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/10648abcabc17bf631e35997fe9b69c6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f40335a5f9bf965dddc0c589d9070c03-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/26e4d3e353a409c6dc0ffc834da16841-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/76c75627f02efac75656caf6a986a1fe-se_large_800_400.webp"
-        ],
-        "price": 6550,
-        "sqft": null,
-        "title": "4720 Center Boulevard #926",
-        "url": "https://streeteasy.com/building/4720-center-boulevard/926",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 40.604188277317554,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 57.5,
-          "weight": 0.3,
-          "minutes": 25
-        },
-        "friends": {
-          "score": 41.775000000000006,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 40.604188277317554,
-      "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric cooktop; outdoor spaces shown are shared building amenities (gym, rooftop deck, courtyard), not private unit space; living room is spacious with large windows and good furniture ratio."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 16,
           "lines": [
             "F Line"
@@ -39541,96 +39074,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 38.98918827731755,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range; no private outdoor space shown; living room is spacious with ample furniture and clear sightlines."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 55,
-          "lines": [
-            "7",
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 13,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 39,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "5241 Center Boulevard #1607, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5241-center-boulevard-long-island-city-1607.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/161771fb9be00c2a933596a1522588b2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/161771fb9be00c2a933596a1522588b2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/880aca737b9cba5879b8984bb699092b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/46e25d8b5311ec4b8186701045aead77-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f338fec82ca4f16122ae7c290d8d11e1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3ba1b6fd2a3fbc2b40edc27c5aa5612d-se_large_800_400.webp"
-        ],
-        "price": 6125,
-        "sqft": null,
-        "title": "5241 Center Boulevard #1607",
-        "url": "https://streeteasy.com/building/5241-center-boulevard-long_island_city/1607",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 38.394188277317554,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.3,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 34.975,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 38.394188277317554,
-      "visionNotes": "Kitchen is visible and open to living/dining area; stove appears to be electric (flat cooktop with dishwasher below); no private outdoor space shown; living room is spacious with floor-to-ceiling windows and waterfront views."
     },
     {
       "commute": {
