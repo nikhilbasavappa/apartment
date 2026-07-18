@@ -43,7 +43,7 @@ const defaultProfile = {
 
 const defaultDestinations = {
   office: "Lexington Ave & E 53rd St, New York, NY",
-  prospectHeights: "Prospect Heights, Brooklyn, NY",
+  prospectHeights: "595 Dean Street, Brooklyn, NY 11238",
   longIslandCity: "4545 Center Boulevard, Long Island City, NY 11109",
   morningsideHeights: "Morningside Heights, New York, NY",
   upperWestSide: "Upper West Side, New York, NY",
