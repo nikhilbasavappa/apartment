@@ -918,96 +918,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 29,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 54,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 14,
-          "lines": [
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 19,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-18T16:35:12.175Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "952 Columbus Avenue #4B, NEW YORK, NY, 10025",
-        "availableDate": "2026-09-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-952-columbus-avenue-new-york-4b.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f086d3f94b9cd22b9db63cc5de8f71e2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/51faf4bf37e7ad49c64989f58e20bebd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/257094b34c1b0fec801142e155b7c618-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fd5d1bc428de62ef1a0ff8858139fd08-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/153349f0a545867e84abfb6d3b4c193b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/081cff58b8f68cb64b4a86fa6f388400-se_large_800_400.webp"
-        ],
-        "price": 6350,
-        "sqft": 824,
-        "title": "952 Columbus Avenue #4B",
-        "url": "https://streeteasy.com/building/952-columbus-avenue-new_york/4b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.585,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 50.7,
-          "weight": 0.3,
-          "minutes": 29
-        },
-        "friends": {
-          "score": 43.900000000000006,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 56.00000000000001,
-          "weight": 0.15,
-          "sqft": 824,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 43.585,
-      "visionNotes": "Kitchen is visible and opens to living area via island counter; gas range with visible burners; spacious living rooms with abundant windows; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 37,
           "lines": [
             "N Line",
@@ -2615,6 +2525,28 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "255 East 39th Street #12C, NEW YORK, NY, 10016",
+        "price": 6835,
+        "title": "255 East 39th Street #12C",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12c"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #10G, NEW YORK, NY, 10016",
+        "price": 6445,
+        "title": "255 East 39th Street #10G",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/10g"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
+      ]
+    },
+    {
+      "listing": {
         "address": "22-44 Jackson Avenue #4405, LONG ISLAND CITY, NY, 11101",
         "price": 6768,
         "title": "22-44 Jackson Avenue #4405",
@@ -2751,6 +2683,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "255 East 39th Street #11E, NEW YORK, NY, 10016",
+        "price": 6950,
+        "title": "255 East 39th Street #11E",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/11e"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
+      ]
+    },
+    {
+      "listing": {
         "address": "5241 Center Boulevard #1607, LONG ISLAND CITY, NY, 11101",
         "price": 6125,
         "title": "5241 Center Boulevard #1607",
@@ -2826,6 +2769,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #2D, NEW YORK, NY, 10016",
+        "price": 6775,
+        "title": "255 East 39th Street #2D",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/2d"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
       ]
     },
     {
@@ -3285,6 +3239,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "15 West 103rd Street #2A, NEW YORK, NY, 10025",
+        "price": 4495,
+        "title": "15 West 103rd Street #2A",
+        "url": "https://streeteasy.com/building/15-west-103-street-new_york/2a"
+      },
+      "reasons": [
+        "Neighborhood excluded: Manhattan Valley"
       ]
     },
     {
@@ -3948,6 +3913,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "952 Columbus Avenue #4B, NEW YORK, NY, 10025",
+        "price": 6350,
+        "title": "952 Columbus Avenue #4B",
+        "url": "https://streeteasy.com/building/952-columbus-avenue-new_york/4b"
+      },
+      "reasons": [
+        "Neighborhood excluded: Manhattan Valley"
+      ]
+    },
+    {
+      "listing": {
         "address": "145 West 67th Street #25F, NEW YORK, NY, 10023",
         "price": 6000,
         "title": "145 West 67th Street #25F",
@@ -4169,6 +4145,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #12B, NEW YORK, NY, 10016",
+        "price": 6670,
+        "title": "255 East 39th Street #12B",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12b"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
       ]
     },
     {
@@ -5113,6 +5100,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "63 West 104th Street #103, NEW YORK, NY, 10025",
+        "price": 4000,
+        "title": "63 West 104th Street #103",
+        "url": "https://streeteasy.com/building/63-west-104-street-new_york/103"
+      },
+      "reasons": [
+        "Neighborhood excluded: Manhattan Valley"
+      ]
+    },
+    {
+      "listing": {
         "address": "319 East 83rd Street #2A, NEW YORK, NY, 10028",
         "price": 5200,
         "title": "319 East 83rd Street #2A",
@@ -5226,6 +5224,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #15F, NEW YORK, NY, 10016",
+        "price": 6595,
+        "title": "255 East 39th Street #15F",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/15f"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
       ]
     },
     {
@@ -6918,6 +6927,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "475 Central Park West #1C, NEW YORK, NY, 10025",
+        "price": 4800,
+        "title": "475 Central Park West #1C",
+        "url": "https://streeteasy.com/building/475-central-park-west-new_york/1c"
+      },
+      "reasons": [
+        "Neighborhood excluded: Manhattan Valley"
+      ]
+    },
+    {
+      "listing": {
         "address": "63 West 104th Street #402, NEW YORK, NY, 10025",
         "price": 5500,
         "title": "63 West 104th Street #402",
@@ -6936,6 +6956,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #6H, NEW YORK, NY, 10016",
+        "price": 6475,
+        "title": "255 East 39th Street #6H",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/6h"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
       ]
     },
     {
@@ -6970,6 +7001,28 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "In contract on StreetEasy as of 7/10/2026 (confirmed live)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "218 West 103rd Street #6B, NEW YORK, NY, 10025",
+        "price": 5900,
+        "title": "218 West 103rd Street #6B",
+        "url": "https://streeteasy.com/building/the-rockwell/6b"
+      },
+      "reasons": [
+        "Neighborhood excluded: Manhattan Valley"
+      ]
+    },
+    {
+      "listing": {
+        "address": "255 East 39th Street #8H, NEW YORK, NY, 10016",
+        "price": 6525,
+        "title": "255 East 39th Street #8H",
+        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/8h"
+      },
+      "reasons": [
+        "Neighborhood excluded: Murray Hill"
       ]
     },
     {
@@ -8508,24 +8561,6 @@ window.__APARTMENT_REPORT__ = {
         "count": 8,
         "medianPrice": 5085,
         "medianPricePerSqft": 8.193296089385475,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
-        "name": "Murray Hill",
-        "tier": "other",
-        "count": 8,
-        "medianPrice": 6632.5,
-        "medianPricePerSqft": null,
-        "medianDaysOnMarket": null,
-        "medianLeadTimeDays": null
-      },
-      {
-        "name": "Manhattan Valley",
-        "tier": "other",
-        "count": 5,
-        "medianPrice": 4800,
-        "medianPricePerSqft": 8.031625594763334,
         "medianDaysOnMarket": null,
         "medianLeadTimeDays": null
       },
@@ -31089,734 +31124,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #6H, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-6h.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5153a4d5bcdff698bef9b87e00519078-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2a4e861b5daacf9d4a994a77764f4f7f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ed0158ae930cb29d36ac271340172059-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dbf64a74f4a76ca4c736c8d13c81bc49-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/728512c3db2b3ce9a36451b7b8b5d1fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6ec9d5303d794a7bb0700c772d9a92fa-se_extra_large_1500_800.webp"
-        ],
-        "price": 6475,
-        "sqft": null,
-        "title": "255 East 39th Street #6H",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/6h",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with no separation; stove details obscured by angle and distance; no private outdoor space visible; living room appears spacious with good furniture placement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #15F, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-15f.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ed0158ae930cb29d36ac271340172059-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/728512c3db2b3ce9a36451b7b8b5d1fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ac270c1459d0884bd73e80b28b341b97-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2629eadfd9965c2d5cdcbe38a074533b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e1b88fd1a5f42f25b166102fab63eac4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dbf64a74f4a76ca4c736c8d13c81bc49-se_extra_large_1500_800.webp"
-        ],
-        "price": 6595,
-        "sqft": null,
-        "title": "255 East 39th Street #15F",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/15f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is open-plan to living/dining area with induction cooktop; no private outdoor space visible; living room is spacious with good furniture proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "255 East 39th Street #12C, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-12c.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a551888f3e1aed27b00aff2688008b1f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c1a7597acbb048bd853b777bf0767eae-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/110d6be87662d9b92e52640cd707fb52-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/77b801c2180b271a1b590f976f87d1fc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/18f15b5e74f612d95bf2e87b6d371354-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8e52271dbcecd24d1781a545c0589893-se_extra_large_1500_800.webp"
-        ],
-        "price": 6835,
-        "sqft": null,
-        "title": "255 East 39th Street #12C",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is open to living/dining area with island counter; stove appears to be electric/induction (flat black cooktop visible); living room is spacious with large windows and good furniture arrangement; no private outdoor space visible, only city views through windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #12B, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-12b.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a551888f3e1aed27b00aff2688008b1f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/110d6be87662d9b92e52640cd707fb52-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/77b801c2180b271a1b590f976f87d1fc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8e52271dbcecd24d1781a545c0589893-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c1a7597acbb048bd853b777bf0767eae-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0faefaa73e7f749ea9294dddc1fa72cd-se_extra_large_1500_800.webp"
-        ],
-        "price": 6670,
-        "sqft": null,
-        "title": "255 East 39th Street #12B",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/12b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island seating; stove type cannot be determined from reflections; living room is spacious with good furniture arrangement; no private outdoor space visible, only shared building amenities in last photo."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #10G, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-10g.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/728512c3db2b3ce9a36451b7b8b5d1fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ed0158ae930cb29d36ac271340172059-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2629eadfd9965c2d5cdcbe38a074533b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ac270c1459d0884bd73e80b28b341b97-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e1b88fd1a5f42f25b166102fab63eac4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dbf64a74f4a76ca4c736c8d13c81bc49-se_extra_large_1500_800.webp"
-        ],
-        "price": 6445,
-        "sqft": null,
-        "title": "255 East 39th Street #10G",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/10g",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is open to dining/living area with induction cooktop visible; living room is spacious with high ceilings; no private outdoor space shown; includes washer/dryer in unit."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #11E, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-11e.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/dbf64a74f4a76ca4c736c8d13c81bc49-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2629eadfd9965c2d5cdcbe38a074533b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ac270c1459d0884bd73e80b28b341b97-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/728512c3db2b3ce9a36451b7b8b5d1fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ed0158ae930cb29d36ac271340172059-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6ec9d5303d794a7bb0700c772d9a92fa-se_extra_large_1500_800.webp"
-        ],
-        "price": 6950,
-        "sqft": null,
-        "title": "255 East 39th Street #11E",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/11e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island seating; electric induction cooktop visible; living room is spacious with good furniture proportion; no private outdoor space shown, only city views from windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #2D, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-2d.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8e52271dbcecd24d1781a545c0589893-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9a7aae304564c37f45b58a4301324166-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/110d6be87662d9b92e52640cd707fb52-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a551888f3e1aed27b00aff2688008b1f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/77b801c2180b271a1b590f976f87d1fc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/18f15b5e74f612d95bf2e87b6d371354-se_extra_large_1500_800.webp"
-        ],
-        "price": 6775,
-        "sqft": null,
-        "title": "255 East 39th Street #2D",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/2d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island seating; cooktop appears to be electric/induction (black flat surface); no private outdoor space visible; living room is spacious with ample furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "M102"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "4 Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 24,
-          "lines": [
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 28,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "255 East 39th Street #8H, NEW YORK, NY, 10016",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-lotus-nyc-midtown-east-8h.png",
-        "neighborhood": "Murray Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/728512c3db2b3ce9a36451b7b8b5d1fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ed0158ae930cb29d36ac271340172059-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2629eadfd9965c2d5cdcbe38a074533b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ac270c1459d0884bd73e80b28b341b97-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e1b88fd1a5f42f25b166102fab63eac4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/dbf64a74f4a76ca4c736c8d13c81bc49-se_extra_large_1500_800.webp"
-        ],
-        "price": 6525,
-        "sqft": null,
-        "title": "255 East 39th Street #8H",
-        "url": "https://streeteasy.com/building/the-lotus-nyc-midtown-east/8h",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 45.09375,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.3,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 45.09375,
-      "visionNotes": "Kitchen is open to living/dining area with electric cooktop visible; spacious living room with floor-to-ceiling windows; no outdoor space shown; washer/dryer in unit."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 13,
           "lines": [
             "F Line"
@@ -33001,96 +32308,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 22,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 38,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 19,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 16,
-          "lines": [
-            "B Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "15 West 103rd Street #2A, NEW YORK, NY, 10025",
-        "availableDate": "2026-08-03",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-15-west-103-street-new-york-2a.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/dca2e162816f964f7f577339699c4dde-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/23f5d0046432ee736fc05bc260e51407-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2a7f6fcd293141409733253e86b05c6b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a8b6d5594cf4d09ddba07f0eade8ab72-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/fe0f8174a834e3eb46594217bb92f437-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/60a04fc8058d3f1cd57c1826eb29eb69-se_extra_large_1500_800.webp"
-        ],
-        "price": 4495,
-        "sqft": null,
-        "title": "15 West 103rd Street #2A",
-        "url": "https://streeteasy.com/building/15-west-103-street-new_york/2a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.940438277317554,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.3,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 49,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 43.940438277317554,
-      "visionNotes": "Kitchen is visible and shares sightlines with living/dining area via open layout; gas range with visible burners/grates clearly shown; no private outdoor space visible; living room appears spacious with good furniture-to-space ratio."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -33269,96 +32486,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 43.68060873621111,
       "visionNotes": "Kitchen is open to living area with island; stovetop appears to have visible burner grates consistent with gas; no private outdoor space visible; living room is spacious relative to typical NYC apartments."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 29,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 54,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 14,
-          "lines": [
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 19,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-18T16:35:12.175Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "952 Columbus Avenue #4B, NEW YORK, NY, 10025",
-        "availableDate": "2026-09-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "screenshots/streeteasy-com-building-952-columbus-avenue-new-york-4b.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f086d3f94b9cd22b9db63cc5de8f71e2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/51faf4bf37e7ad49c64989f58e20bebd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/257094b34c1b0fec801142e155b7c618-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fd5d1bc428de62ef1a0ff8858139fd08-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/153349f0a545867e84abfb6d3b4c193b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/081cff58b8f68cb64b4a86fa6f388400-se_large_800_400.webp"
-        ],
-        "price": 6350,
-        "sqft": 824,
-        "title": "952 Columbus Avenue #4B",
-        "url": "https://streeteasy.com/building/952-columbus-avenue-new_york/4b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 43.585,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 50.7,
-          "weight": 0.3,
-          "minutes": 29
-        },
-        "friends": {
-          "score": 43.900000000000006,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 56.00000000000001,
-          "weight": 0.15,
-          "sqft": 824,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 43.585,
-      "visionNotes": "Kitchen is visible and opens to living area via island counter; gas range with visible burners; spacious living rooms with abundant windows; no private outdoor space shown."
     },
     {
       "commute": {
@@ -36172,96 +35299,6 @@ window.__APARTMENT_REPORT__ = {
     {
       "commute": {
         "office": {
-          "minutes": 25,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 15,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 20,
-          "lines": [
-            "M10"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "475 Central Park West #1C, NEW YORK, NY, 10025",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-475-central-park-west-new-york-1c.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/7fabb7eab2ef1378eb48b9a518136fcf-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cdda136d40b5d0066784cb32d3a74570-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e07da5c4bd13ee99e456a106a6cce111-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd92295ecaa84d6526c0df59ab11712b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9f0077d9c666bf57b5ae7a1d38a1b3fe-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9a50e6fc3f45f0b563ab7eaeb6133bc9-se_large_800_400.webp"
-        ],
-        "price": 4800,
-        "sqft": null,
-        "title": "475 Central Park West #1C",
-        "url": "https://streeteasy.com/building/475-central-park-west-new_york/1c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 41.77293827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 57.5,
-          "weight": 0.3,
-          "minutes": 25
-        },
-        "friends": {
-          "score": 46.45,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        }
-      },
-      "rankScore": 41.77293827731755,
-      "visionNotes": "Kitchen is semi-open to living area with island counter; stove appears to be electric/flat cooktop but angle makes it somewhat unclear; the last photo is a public park, not private outdoor space; living room is spacious with good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
           "minutes": 23,
           "lines": [
             "7",
@@ -36713,188 +35750,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 41.305438277317556,
       "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; private terrace with seating shown in first photo; living room is spacious with good furniture-to-space ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "1 Line",
-            "3 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 12,
-          "lines": [
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 12,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "218 West 103rd Street #6B, NEW YORK, NY, 10025",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-rockwell-6b.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f8a47b587dc8e3b7ebe02a22f7b641ec-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f8a47b587dc8e3b7ebe02a22f7b641ec-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/06e8e2f70b190da49cdbc57b25cf2b29-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4bc5077bb3b9fb8ba2269be0938508c2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/706f41d0047b2508c29461ddd965396a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5e45ddf258df9c2f00f8a94c15a5040d-se_large_800_400.webp"
-        ],
-        "price": 5900,
-        "sqft": 706,
-        "title": "218 West 103rd Street #6B",
-        "url": "https://streeteasy.com/building/the-rockwell/6b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 41.1575,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.3,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 49.85,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 26.5,
-          "weight": 0.15,
-          "sqft": 706,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 41.1575,
-      "visionNotes": "Kitchen is visible with gas cooktop (visible burners/grates), open to living/dining area with peninsula counter; living room appears spacious with high ceilings and ample seating; no private outdoor space shown, only street views from windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 24,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "B Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "63 West 104th Street #103, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-63-west-104-street-new-york-103.png",
-        "neighborhood": "Manhattan Valley",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/1f48804c1fa2edbdd25b028d3cfaec20-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/28ef6bb560b5a15d392ce0060078e8f5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fee6b7d46fe6f575f2ee749f4e57a0e1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8e236ca737f914185af521c8c7ccfebd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0df8f11c150f4c26b3f6daff8ef0ca95-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/932971dd756d0af56165b62483082490-se_large_800_400.webp"
-        ],
-        "price": 4000,
-        "sqft": null,
-        "title": "63 West 104th Street #103",
-        "url": "https://streeteasy.com/building/63-west-104-street-new_york/103",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 41.14125000000001,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.3,
-          "tier": "other"
-        },
-        "office": {
-          "score": 59.2,
-          "weight": 0.3,
-          "minutes": 24
-        },
-        "friends": {
-          "score": 46.875,
-          "weight": 0.25
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        }
-      },
-      "rankScore": 41.14125000000001,
-      "visionNotes": "Kitchen is open to living area with visible gas range burners; no private outdoor space shown; living room appears typical size with L-shaped sectional."
     },
     {
       "commute": {

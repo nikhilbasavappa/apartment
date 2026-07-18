@@ -838,7 +838,7 @@ function renderStarred(qualifyingEntries, excludedEntries) {
 // gone/in-contract on StreetEasy (tracked server-side via the exclusion
 // reason). Both mean the same thing to you — a unit you once considered
 // isn't gettable anymore — so both belong in the same tab.
-const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy/i;
+const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy|rented on streeteasy/i;
 
 function isAutoDetectedUnavailable(entry) {
   return (entry.reasons || []).some((reason) => AUTO_UNAVAILABLE_REASON_PATTERN.test(reason));

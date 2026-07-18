@@ -31,7 +31,7 @@ function leadTimeDays(availableDate, estimatedListingDate) {
   return Math.max(0, days);
 }
 
-const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy/i;
+const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy|rented on streeteasy/i;
 
 function computeMarketStats(qualifying, excludedListings) {
   const byNeighborhood = {};

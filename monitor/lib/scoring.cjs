@@ -1,4 +1,11 @@
-const EXCLUDED_NEIGHBORHOOD_PATTERN = /\b(gowanus|crown heights)\b/i;
+// Manhattan Valley: labeled distinctly from "Upper West Side" by StreetEasy,
+// which meant it never hit the UWS-north-of-96th-St hard exclude even
+// though it's geographically past it by definition (96th-110th St) — 475
+// Central Park West #1C estimated to ~102nd St and slipped through purely
+// because of the label mismatch.
+// Murray Hill: explicit user rejection ("no chance I ever consider this...
+// there should be nothing south of 60th"), not a borderline case.
+const EXCLUDED_NEIGHBORHOOD_PATTERN = /\b(gowanus|crown heights|manhattan valley|murray hill)\b/i;
 // StreetEasy labels the Lincoln Center-adjacent blocks "Lincoln Square"
 // rather than "Upper West Side," even though it's the same area (its own
 // listing copy describes the UWS architecture/style) — treat it as UWS.

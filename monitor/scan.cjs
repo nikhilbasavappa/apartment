@@ -450,6 +450,17 @@ const FOR_RENT_MARKER_WINDOW = 6000;
 // zero false positives against the full catalog.
 const IN_CONTRACT_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bin contract\b/is;
 
+// Same idea, different status: StreetEasy sometimes marks a listing
+// "Rented DATE" in the same spot instead of "In contract DATE" — a real
+// listing (475 Central Park West #1C) showed "$4,800 for rent ... Rented
+// 7/17/2026" and neither FOR_RENT_MARKER nor IN_CONTRACT_PATTERN caught it,
+// since the page still had a "for rent" marker and "rented" isn't "in
+// contract". Verified zero false positives against the full catalog
+// (nothing currently cached has "rented" this close to its own "for rent"
+// marker — the only matches are always in the separate price-history table
+// further down the page, outside this window).
+const RENTED_PATTERN = /\$[\d,]+\s+for rent\b.{0,200}?\brented\b/is;
+
 // The catalog only ever grows — nothing previously re-checks whether a
 // qualifying listing is still actually live on StreetEasy. Re-verifying the
 // entire catalog every run would mean hundreds of extra Bright Data fetches
@@ -487,6 +498,7 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
       const forRentMatch = FOR_RENT_MARKER.exec(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
       const stillListed = Boolean(forRentMatch);
       const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
+      const rented = RENTED_PATTERN.test(details.bodyText);
       entry.lastRevalidatedAt = runAt;
       checked += 1;
 
@@ -500,6 +512,11 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         entry.reasons = ["In contract on StreetEasy (auto-detected during periodic revalidation)"];
         removed += 1;
         console.log(`REVALIDATED_IN_CONTRACT: ${entry.listing.title}`);
+      } else if (rented) {
+        entry.qualifies = false;
+        entry.reasons = ["Rented on StreetEasy (auto-detected during periodic revalidation)"];
+        removed += 1;
+        console.log(`REVALIDATED_RENTED: ${entry.listing.title}`);
       } else {
         // Price and availability date are the only listing fields that
         // legitimately drift over time (a landlord's decision, not a fixed
