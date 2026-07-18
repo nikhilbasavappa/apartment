@@ -8293,6 +8293,59 @@ window.__APARTMENT_REPORT__ = {
       ]
     }
   ],
+  "marketStats": {
+    "tiers": [
+      {
+        "tier": "brooklyn",
+        "label": "Brooklyn",
+        "count": 178,
+        "medianPrice": 5199.5,
+        "medianPricePerSqft": 7.035011092623405,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "tier": "other",
+        "label": "other area",
+        "count": 156,
+        "medianPrice": 5360,
+        "medianPricePerSqft": 7.068452380952381,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "tier": "uwsAcceptable",
+        "label": "UWS, outside 70s-80s",
+        "count": 27,
+        "medianPrice": 6088,
+        "medianPricePerSqft": 8.949945658736867,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "tier": "uwsIdeal",
+        "label": "UWS 70s-80s",
+        "count": 9,
+        "medianPrice": 5995,
+        "medianPricePerSqft": 10.373939393939395,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      },
+      {
+        "tier": "unknown",
+        "label": "unrated area",
+        "count": 3,
+        "medianPrice": 4400,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": null,
+        "medianLeadTimeDays": null
+      }
+    ],
+    "contractSpeed": {
+      "sampleSize": 14,
+      "medianDaysOnMarket": null
+    }
+  },
   "newListings": [],
   "runAt": "2026-07-18T16:35:12.175Z",
   "sourcesConfigured": 1,

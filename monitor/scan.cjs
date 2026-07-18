@@ -15,7 +15,8 @@ const {
 const { computeCommutes } = require("./lib/geo.cjs");
 const { generateHtmlReport, generateMarkdownReport } = require("./lib/report.cjs");
 const { sendNotifications } = require("./lib/notify.cjs");
-const { evaluateListing, extractAvailableDate } = require("./lib/scoring.cjs");
+const { estimateListingDate, evaluateListing, extractAvailableDate, extractDaysOnMarket } = require("./lib/scoring.cjs");
+const { computeMarketStats } = require("./lib/trends.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
 const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
@@ -27,6 +28,7 @@ const statePath = path.join(outputRoot, "state.json");
 const summaryPath = path.join(outputRoot, "latest-summary.md");
 const htmlPath = path.join(outputRoot, "latest-report.html");
 const jsonPath = path.join(outputRoot, "latest-report.json");
+const marketHistoryPath = path.join(outputRoot, "market-history.json");
 const jsPath = path.join(outputRoot, "latest-report.js");
 const configPath = path.join(__dirname, "config.json");
 const browserProfileDir = path.join(__dirname, ".browser-profile");
@@ -110,6 +112,7 @@ function buildReport(state, runAt, config, newListings) {
     excludedListings,
     htmlPath,
     jsonPath,
+    marketStats: computeMarketStats(qualifying, excludedListings),
     newListings: newListings.filter((entry) => entry.qualifies).sort((a, b) => rankScore(b) - rankScore(a)),
     runAt,
     sourcesConfigured: config.sources.filter((source) => source.enabled && source.url).length,
@@ -130,7 +133,9 @@ function toClientReport(report) {
       availableDate: entry.listing.availableDate,
       bathrooms: entry.listing.bathrooms,
       bedrooms: entry.listing.bedrooms,
+      daysOnMarket: entry.listing.daysOnMarket,
       description: entry.listing.description,
+      estimatedListingDate: entry.listing.estimatedListingDate,
       externalScreenshot: entry.listing.externalScreenshot,
       neighborhood: entry.listing.neighborhood,
       photos: entry.listing.photos || [],
@@ -161,6 +166,7 @@ function toClientReport(report) {
   return {
     earlyActionListings: report.earlyActionListings.map(serializeEntry),
     excludedListings: report.excludedListings.map(serializeExcluded),
+    marketStats: report.marketStats,
     newListings: report.newListings.map(serializeEntry),
     runAt: report.runAt,
     sourcesConfigured: report.sourcesConfigured,
@@ -174,6 +180,19 @@ function saveReport(report) {
   writeText(jsPath, `window.__APARTMENT_REPORT__ = ${JSON.stringify(toClientReport(report), null, 2)};\n`);
   writeText(summaryPath, generateMarkdownReport(report));
   writeText(htmlPath, generateHtmlReport(report));
+}
+
+// Cross-sectional market stats (in buildReport's marketStats) only need the
+// current catalog and are recomputed fresh every run. This is the other
+// half — a dated log of those same snapshots, tracked in git (unlike
+// state.json) so it actually accumulates across scans instead of only ever
+// reflecting "right now." Nothing reads this yet in a meaningful trend
+// sense; it just needs to start existing so there's real history by the
+// time enough of it has built up to be worth charting.
+function appendMarketHistory(report) {
+  const history = readJson(marketHistoryPath, []);
+  history.push({ runAt: report.runAt, ...report.marketStats });
+  writeJson(marketHistoryPath, history);
 }
 
 // A real persistent Chrome profile (history, cache, cookies, local storage —
@@ -514,6 +533,16 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
           );
           entry.listing.availableDate = refreshedAvailableDate;
         }
+
+        // daysOnMarket/estimatedListingDate are brand-new fields — none of
+        // the catalog entries that predate this had them at all. Rather
+        // than a separate one-off backfill fetching every listing again,
+        // piggyback on the revalidation drip that's already fetching this
+        // page anyway, so the market-stats trend data fills in gradually
+        // as the existing twice-daily cycle works through the catalog.
+        const refreshedDaysOnMarket = extractDaysOnMarket(details.bodyText);
+        entry.listing.daysOnMarket = refreshedDaysOnMarket;
+        entry.listing.estimatedListingDate = estimateListingDate(refreshedDaysOnMarket);
       }
 
       // Written after every listing, not just once at the end of the whole
@@ -605,6 +634,11 @@ async function main() {
 
   const report = buildReport(state, runAt, config, newListings);
   saveReport(report);
+  // Same guard as lastRunAt above — a run that never really scanned
+  // anything shouldn't add a data point to the trend log either.
+  if (anySourceSucceeded) {
+    appendMarketHistory(report);
+  }
   sendNotifications(report, config);
 
   const qualifyingCount = newListings.filter((entry) => entry.qualifies).length;

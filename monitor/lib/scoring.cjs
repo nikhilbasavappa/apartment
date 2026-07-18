@@ -186,6 +186,26 @@ function extractAvailableDate(text) {
   return Number.isNaN(date.getTime()) ? null : date.toISOString().slice(0, 10);
 }
 
+// StreetEasy shows "Days on market N days" on most listing pages — how
+// long it's been up as of this fetch. Combined with availableDate, this is
+// what actually answers "how far ahead of move-in do units get listed":
+// estimatedListingDate below backs out the original listing date from
+// today's daysOnMarket snapshot, since daysOnMarket itself grows on every
+// re-check and isn't stable to store directly.
+function extractDaysOnMarket(text) {
+  const match = String(text || "").match(/Days on market\s+(\d+)\s+days?/i);
+  if (!match) return null;
+  const value = Number.parseInt(match[1], 10);
+  return Number.isFinite(value) ? value : null;
+}
+
+function estimateListingDate(daysOnMarket) {
+  if (!Number.isFinite(daysOnMarket)) return null;
+  const date = new Date();
+  date.setUTCDate(date.getUTCDate() - daysOnMarket);
+  return date.toISOString().slice(0, 10);
+}
+
 function normalizeListing(rawListing) {
   const rawText = [rawListing.title, rawListing.description, rawListing.bodyText]
     .filter(Boolean)
@@ -236,11 +256,15 @@ function normalizeListing(rawListing) {
       ? rawListing.price
       : extractNumberPreferBody(bodyText, rawText, /\$([\d,]{4,8})/);
 
+  const daysOnMarket = extractDaysOnMarket(rawText);
+
   return {
     ...rawListing,
     availableDate: extractAvailableDate(rawText),
     bathrooms: bathrooms || null,
     bedrooms: Number.isFinite(bedrooms) ? bedrooms : null,
+    daysOnMarket,
+    estimatedListingDate: estimateListingDate(daysOnMarket),
     price: price || null,
     sqft: sqft || null,
   };
@@ -349,8 +373,10 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
 module.exports = {
   computeRankScore,
+  estimateListingDate,
   evaluateListing,
   extractAvailableDate,
+  extractDaysOnMarket,
   isExcludedNeighborhood,
   neighborhoodTier,
   rankBreakdown,

@@ -61,6 +61,10 @@ const els = {
   unavailableExcludedList: document.querySelector("#unavailableExcludedList"),
   unavailableCount: document.querySelector("#unavailableCount"),
   unavailableEmptyState: document.querySelector("#unavailableEmptyState"),
+  marketTiers: document.querySelector("#marketTiers"),
+  marketContractSpeed: document.querySelector("#marketContractSpeed"),
+  marketTrendChart: document.querySelector("#marketTrendChart"),
+  marketTrendEmptyState: document.querySelector("#marketTrendEmptyState"),
   exportFeedback: document.querySelector("#exportFeedback"),
 };
 
@@ -214,7 +218,7 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all", "starred", "unavailable"].includes(hash) ? hash : "all";
+  return ["criteria", "act-now", "new", "all", "starred", "unavailable", "market"].includes(hash) ? hash : "all";
 }
 
 function switchTab(tab) {
@@ -465,6 +469,7 @@ function renderMonitor() {
     renderNew([]);
     renderStarred([], []);
     renderUnavailable([], []);
+    renderMarket(null);
 
     if (monitorLoadState === "loading") {
       els.monitorStatusCopy.textContent = "Loading the latest scan.";
@@ -501,6 +506,7 @@ function renderMonitor() {
   renderExcluded(excludedListings);
   renderStarred(topListings, excludedListings);
   renderUnavailable(topListings, excludedListings);
+  renderMarket(report.marketStats);
 
   // "New" is based on firstSeenAt falling on the same calendar day as the
   // last scan, not the transient per-run newListings array — that array is
@@ -869,6 +875,171 @@ function renderUnavailable(qualifyingEntries, excludedEntries) {
     unavailableExcluded.forEach((entry) => excludedFragment.append(buildExcludedRow(entry)));
     els.unavailableExcludedList.append(excludedFragment);
   }
+}
+
+function formatStat(value, suffix) {
+  return Number.isFinite(value) ? `${Math.round(value * 10) / 10}${suffix || ""}` : "—";
+}
+
+function renderMarket(marketStats) {
+  if (!els.marketTiers) return;
+
+  els.marketTiers.innerHTML = "";
+
+  const tiers = marketStats?.tiers || [];
+  if (!tiers.length) {
+    els.marketTiers.innerHTML = '<p class="empty-state">No data yet.</p>';
+    if (els.marketContractSpeed) els.marketContractSpeed.textContent = "";
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+  tiers.forEach((tier) => {
+    const card = document.createElement("article");
+    card.className = "market-tier-card";
+    const rows = [
+      ["Listings", `${tier.count}`],
+      ["Median rent", Number.isFinite(tier.medianPrice) ? formatCurrency(tier.medianPrice) : "—"],
+      ["Median $/sqft", Number.isFinite(tier.medianPricePerSqft) ? `$${formatStat(tier.medianPricePerSqft, "")}` : "—"],
+      ["Median days on market", formatStat(tier.medianDaysOnMarket, " days")],
+      ["Median lead time", formatStat(tier.medianLeadTimeDays, " days")],
+    ];
+    card.innerHTML = `<h3>${tier.label}</h3>${rows
+      .map(([label, value]) => `<div class="market-stat-row"><span class="market-stat-label">${label}</span><span>${value}</span></div>`)
+      .join("")}`;
+    fragment.append(card);
+  });
+  els.marketTiers.append(fragment);
+
+  if (els.marketContractSpeed) {
+    const speed = marketStats?.contractSpeed;
+    if (!speed?.sampleSize) {
+      els.marketContractSpeed.textContent = "Not enough gone listings tracked yet to estimate how fast units are moving.";
+    } else if (Number.isFinite(speed.medianDaysOnMarket)) {
+      els.marketContractSpeed.textContent = `Based on ${speed.sampleSize} listing${speed.sampleSize === 1 ? "" : "s"} that went into contract or came down: median ${formatStat(speed.medianDaysOnMarket, " days")} on market first.`;
+    } else {
+      els.marketContractSpeed.textContent = `${speed.sampleSize} listing${speed.sampleSize === 1 ? "" : "s"} tracked as gone so far, but days-on-market data hasn't populated for them yet.`;
+    }
+  }
+
+  renderMarketTrend();
+}
+
+let marketHistoryLoaded = false;
+
+async function renderMarketTrend() {
+  if (!els.marketTrendChart || marketHistoryLoaded) return;
+  marketHistoryLoaded = true;
+
+  try {
+    const response = await fetch(`./monitor-output/market-history.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`market-history fetch failed (${response.status})`);
+    const history = await response.json();
+    drawMarketTrendChart(Array.isArray(history) ? history : []);
+  } catch (error) {
+    console.warn("Market history fetch failed", error);
+    drawMarketTrendChart([]);
+  }
+}
+
+// A minimal inline SVG line chart, no charting library — consistent with
+// the rest of this buildless app. Tracks median rent for the two tiers
+// with the most listings (usually Brooklyn and "other"), since those are
+// the ones with enough volume for a median to mean anything early on.
+function drawMarketTrendChart(history) {
+  if (!els.marketTrendChart) return;
+  els.marketTrendChart.innerHTML = "";
+
+  if (history.length < 2) {
+    if (els.marketTrendEmptyState) {
+      els.marketTrendEmptyState.textContent =
+        history.length === 0
+          ? "No history yet — this fills in automatically as scans run over the coming days/weeks."
+          : "Only one data point so far — check back after a few more scans.";
+    }
+    return;
+  }
+  if (els.marketTrendEmptyState) els.marketTrendEmptyState.textContent = "";
+
+  const tierCounts = {};
+  history.forEach((snapshot) => {
+    (snapshot.tiers || []).forEach((tier) => {
+      tierCounts[tier.tier] = (tierCounts[tier.tier] || 0) + tier.count;
+    });
+  });
+  const topTiers = Object.entries(tierCounts)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 2)
+    .map(([tier]) => tier);
+
+  const colors = ["#4f6d5c", "#a0654f"];
+  const width = 640;
+  const height = 220;
+  const padding = { top: 10, right: 16, bottom: 24, left: 56 };
+
+  const tierLabels = {
+    uwsIdeal: "UWS 70s-80s",
+    uwsAcceptable: "UWS, outside 70s-80s",
+    brooklyn: "Brooklyn",
+    other: "other area",
+    unknown: "unrated area",
+  };
+
+  const series = topTiers.map((tier) => {
+    const points = history
+      .map((snapshot) => {
+        const match = (snapshot.tiers || []).find((t) => t.tier === tier);
+        return match && Number.isFinite(match.medianPrice) ? { runAt: snapshot.runAt, price: match.medianPrice } : null;
+      })
+      .filter(Boolean);
+    return { tier, label: tierLabels[tier] || tier, points };
+  });
+
+  const allPrices = series.flatMap((s) => s.points.map((p) => p.price));
+  if (!allPrices.length) {
+    if (els.marketTrendEmptyState) els.marketTrendEmptyState.textContent = "Not enough priced history yet.";
+    return;
+  }
+  const minPrice = Math.min(...allPrices) * 0.95;
+  const maxPrice = Math.max(...allPrices) * 1.05;
+  const minTime = new Date(history[0].runAt).getTime();
+  const maxTime = new Date(history[history.length - 1].runAt).getTime();
+
+  const xFor = (runAt) => {
+    const t = new Date(runAt).getTime();
+    if (maxTime === minTime) return padding.left;
+    return padding.left + ((t - minTime) / (maxTime - minTime)) * (width - padding.left - padding.right);
+  };
+  const yFor = (price) => {
+    if (maxPrice === minPrice) return height - padding.bottom;
+    return height - padding.bottom - ((price - minPrice) / (maxPrice - minPrice)) * (height - padding.top - padding.bottom);
+  };
+
+  const lines = series
+    .map((s, i) => {
+      if (s.points.length < 2) return "";
+      const d = s.points.map((p, idx) => `${idx === 0 ? "M" : "L"}${xFor(p.runAt).toFixed(1)},${yFor(p.price).toFixed(1)}`).join(" ");
+      return `<path d="${d}" fill="none" stroke="${colors[i % colors.length]}" stroke-width="2" />`;
+    })
+    .join("");
+
+  const legend = series
+    .map(
+      (s, i) =>
+        `<span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px;font-size:0.85rem;">
+          <span style="width:10px;height:10px;border-radius:50%;background:${colors[i % colors.length]};display:inline-block;"></span>
+          ${s.label}
+        </span>`
+    )
+    .join("");
+
+  els.marketTrendChart.innerHTML = `
+    <div style="margin-bottom:8px;">${legend}</div>
+    <svg viewBox="0 0 ${width} ${height}" style="width:100%;height:auto;max-width:${width}px;">
+      <line x1="${padding.left}" y1="${height - padding.bottom}" x2="${width - padding.right}" y2="${height - padding.bottom}" stroke="var(--border)" />
+      ${lines}
+    </svg>
+  `;
 }
 
 function createPill(text, className) {

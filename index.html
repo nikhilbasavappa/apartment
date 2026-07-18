@@ -26,6 +26,7 @@
           <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
           <button type="button" class="tab-button" data-tab="starred">Starred <span class="tab-count" id="tabCountStarred"></span></button>
           <button type="button" class="tab-button" data-tab="unavailable">Unavailable <span class="tab-count" id="tabCountUnavailable"></span></button>
+          <button type="button" class="tab-button" data-tab="market">Market</button>
         </nav>
         <p class="last-scan-banner">Last scan: <strong id="globalLastScan">Waiting for first scan</strong></p>
       </header>
@@ -307,6 +308,29 @@
           <div id="unavailableFeed" class="monitor-grid"></div>
           <div id="unavailableExcludedList" class="excluded-list"></div>
           <p id="unavailableEmptyState" class="empty-state"></p>
+        </section>
+      </section>
+
+      <section class="tab-page" id="page-market" data-tab="market">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Market</h2>
+            <p>What the current qualifying catalog actually looks like by area — median price, price per sqft,
+              days on market, and lead time from listing to move-in. Price/sqft come from every scan; days-on-market
+              and lead time fill in gradually as the twice-daily revalidation drip re-checks each listing, so expect
+              those to be sparse at first.</p>
+          </div>
+          <div id="marketTiers" class="market-tier-grid"></div>
+          <p id="marketContractSpeed" class="rubric-copy"></p>
+        </section>
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Trend over time</h2>
+            <p>Median price by area, tracked once per scan. Needs a few weeks of history to actually show a trend —
+              this starts empty and builds up on its own, no action needed.</p>
+          </div>
+          <div id="marketTrendChart"></div>
+          <p id="marketTrendEmptyState" class="empty-state"></p>
         </section>
       </section>
     </main>
