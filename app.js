@@ -3,7 +3,7 @@ let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
 registerServiceWorker();
 
 const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
-const DEFAULT_WEIGHTS = { neighborhood: 25, office: 25, friends: 20, size: 15, livingRoom: 15 };
+const DEFAULT_WEIGHTS = { neighborhood: 23, office: 23, friends: 19, size: 14, livingRoom: 14, kitchenSize: 7 };
 let currentWeights = loadWeights();
 
 // Not persisted (unlike weights) — resets each visit, since this is more a
@@ -47,11 +47,13 @@ const els = {
   weightFriends: document.querySelector("#weightFriends"),
   weightSize: document.querySelector("#weightSize"),
   weightLivingRoom: document.querySelector("#weightLivingRoom"),
+  weightKitchenSize: document.querySelector("#weightKitchenSize"),
   weightNeighborhoodValue: document.querySelector("#weightNeighborhoodValue"),
   weightOfficeValue: document.querySelector("#weightOfficeValue"),
   weightFriendsValue: document.querySelector("#weightFriendsValue"),
   weightSizeValue: document.querySelector("#weightSizeValue"),
   weightLivingRoomValue: document.querySelector("#weightLivingRoomValue"),
+  weightKitchenSizeValue: document.querySelector("#weightKitchenSizeValue"),
   weightReset: document.querySelector("#weightReset"),
   tabCountStarred: document.querySelector("#tabCountStarred"),
   starredFeed: document.querySelector("#starredFeed"),
@@ -247,7 +249,8 @@ function loadWeights() {
       Number.isFinite(parsed.office) &&
       Number.isFinite(parsed.friends) &&
       Number.isFinite(parsed.size) &&
-      Number.isFinite(parsed.livingRoom)
+      Number.isFinite(parsed.livingRoom) &&
+      Number.isFinite(parsed.kitchenSize)
     ) {
       return parsed;
     }
@@ -290,7 +293,15 @@ function rebalanceWeights(changedKey, rawValues) {
 }
 
 function initWeightSliders() {
-  if (!els.weightNeighborhood || !els.weightOffice || !els.weightFriends || !els.weightSize || !els.weightLivingRoom) return;
+  if (
+    !els.weightNeighborhood ||
+    !els.weightOffice ||
+    !els.weightFriends ||
+    !els.weightSize ||
+    !els.weightLivingRoom ||
+    !els.weightKitchenSize
+  )
+    return;
 
   updateSliderUI();
 
@@ -300,9 +311,17 @@ function initWeightSliders() {
     [els.weightFriends.id]: "friends",
     [els.weightSize.id]: "size",
     [els.weightLivingRoom.id]: "livingRoom",
+    [els.weightKitchenSize.id]: "kitchenSize",
   };
 
-  [els.weightNeighborhood, els.weightOffice, els.weightFriends, els.weightSize, els.weightLivingRoom].forEach((slider) => {
+  [
+    els.weightNeighborhood,
+    els.weightOffice,
+    els.weightFriends,
+    els.weightSize,
+    els.weightLivingRoom,
+    els.weightKitchenSize,
+  ].forEach((slider) => {
     slider.addEventListener("input", () => {
       const key = sliderKeys[slider.id];
       currentWeights = rebalanceWeights(key, {
@@ -311,6 +330,7 @@ function initWeightSliders() {
         friends: Number(els.weightFriends.value),
         size: Number(els.weightSize.value),
         livingRoom: Number(els.weightLivingRoom.value),
+        kitchenSize: Number(els.weightKitchenSize.value),
       });
       saveWeights(currentWeights);
       updateSliderUI();
@@ -332,11 +352,13 @@ function updateSliderUI() {
   els.weightFriends.value = Math.round(currentWeights.friends);
   els.weightSize.value = Math.round(currentWeights.size);
   els.weightLivingRoom.value = Math.round(currentWeights.livingRoom);
+  els.weightKitchenSize.value = Math.round(currentWeights.kitchenSize);
   els.weightNeighborhoodValue.textContent = `${Math.round(currentWeights.neighborhood)}%`;
   els.weightOfficeValue.textContent = `${Math.round(currentWeights.office)}%`;
   els.weightFriendsValue.textContent = `${Math.round(currentWeights.friends)}%`;
   els.weightLivingRoomValue.textContent = `${Math.round(currentWeights.livingRoom)}%`;
   els.weightSizeValue.textContent = `${Math.round(currentWeights.size)}%`;
+  els.weightKitchenSizeValue.textContent = `${Math.round(currentWeights.kitchenSize)}%`;
 }
 
 // Mirrors monitor/lib/scoring.cjs's rankBreakdown so weight adjustments can
@@ -379,6 +401,12 @@ function livingRoomScore(livingRoomSmall) {
   return livingRoomSmall ? 0 : 100;
 }
 
+function kitchenSizeScore(kitchenSize) {
+  if (kitchenSize === "large") return 100;
+  if (kitchenSize === "small") return 0;
+  return 50;
+}
+
 function computeClientRankBreakdown(entry, weights) {
   const tier = entry.neighborhoodTier || "unknown";
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
@@ -387,12 +415,14 @@ function computeClientRankBreakdown(entry, weights) {
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
   const sizeScore = sqftScore(entry.listing?.sqft, entry.listing?.bedrooms);
   const livingRoomScoreValue = livingRoomScore(entry.livingRoomSmall);
+  const kitchenSizeScoreValue = kitchenSizeScore(entry.kitchenSize);
 
   const nWeight = weights.neighborhood / 100;
   const oWeight = weights.office / 100;
   const fWeight = weights.friends / 100;
   const sWeight = weights.size / 100;
   const lWeight = weights.livingRoom / 100;
+  const kWeight = weights.kitchenSize / 100;
 
   return {
     total:
@@ -400,12 +430,14 @@ function computeClientRankBreakdown(entry, weights) {
       oWeight * officeScore +
       fWeight * avgFriendScore +
       sWeight * sizeScore +
-      lWeight * livingRoomScoreValue,
+      lWeight * livingRoomScoreValue +
+      kWeight * kitchenSizeScoreValue,
     neighborhood: { score: neighborhoodScore, weight: nWeight, tier },
     office: { score: officeScore, weight: oWeight },
     friends: { score: avgFriendScore, weight: fWeight },
     size: { score: sizeScore, weight: sWeight },
     livingRoom: { score: livingRoomScoreValue, weight: lWeight, small: Boolean(entry.livingRoomSmall) },
+    kitchenSize: { score: kitchenSizeScoreValue, weight: kWeight, size: entry.kitchenSize || "unknown" },
   };
 }
 
@@ -638,6 +670,7 @@ function buildListingCard(entry, flags = []) {
     formatAvailability(entry.listing.availableDate),
     formatLabel("W/D", entry.listing.washerDryer),
     formatLabel("Kitchen", entry.kitchenLayout),
+    entry.kitchenSize && entry.kitchenSize !== "unknown" ? formatLabel("Kitchen size", entry.kitchenSize) : null,
     formatLabel("Gas", entry.gasStove),
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
@@ -674,6 +707,7 @@ function buildListingCard(entry, flags = []) {
       `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
       `Size: ${Math.round(breakdown.size.score)} · ${Math.round(breakdown.size.weight * 100)}% weight`,
       `Living room: ${Math.round(breakdown.livingRoom.score)} · ${Math.round(breakdown.livingRoom.weight * 100)}% weight`,
+      `Kitchen size: ${Math.round(breakdown.kitchenSize.score)} · ${Math.round(breakdown.kitchenSize.weight * 100)}% weight`,
     ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
   } else if (breakdownLabel) {
     breakdownLabel.style.display = "none";

@@ -89,7 +89,15 @@ function commuteScore(minutes) {
 
 const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandCity", "prospectHeights"];
 
-const RANK_WEIGHTS = { neighborhood: 0.25, office: 0.25, friends: 0.2, size: 0.15, livingRoom: 0.15 };
+// kitchenSize added at a modest 7% after 403 12th Street #4 ("truly massive
+// kitchen") was one of only two concrete non-layout kitchen callouts on
+// record — real, but a single data point, unlike livingRoom's four
+// recurring mentions. Weighted accordingly: enough to move a close ranking,
+// not enough to swamp the commute/neighborhood dimensions that have actual
+// repeated evidence behind them. The other five weights are shaved down
+// proportionally (each ~8% lower than before) rather than left untouched,
+// so the new dimension isn't just free extra weight on top of 100%.
+const RANK_WEIGHTS = { neighborhood: 0.23, office: 0.23, friends: 0.19, size: 0.14, livingRoom: 0.14, kitchenSize: 0.07 };
 
 // Binary rather than continuous — vision only ever classifies living room
 // as small or not (see livingRoomSmall gating below), so there's no finer
@@ -100,6 +108,18 @@ const RANK_WEIGHTS = { neighborhood: 0.25, office: 0.25, friends: 0.2, size: 0.1
 // comparably to size, not just a minor tiebreaker.
 function livingRoomScore(livingRoomSmall) {
   return livingRoomSmall ? 0 : 100;
+}
+
+// Three-level rather than binary, since vision classifies large/standard/
+// small rather than just small-or-not. "standard" and "unknown" both land
+// at the midpoint deliberately — an unclassifiable kitchen shouldn't be
+// punished any more than an ordinary one, matching the same benefit-of-the-
+// doubt treatment used for livingRoomSmall and kitchenLayout elsewhere in
+// this file.
+function kitchenSizeScore(kitchenSize) {
+  if (kitchenSize === "large") return 100;
+  if (kitchenSize === "small") return 0;
+  return 50;
 }
 
 // Median real sqft among qualifying listings, by bedroom count (from the
@@ -142,25 +162,27 @@ function sqftScore(sqft, bedrooms) {
 }
 
 // Blended ranking score used to sort qualifying listings — separate from the
-// qualify/exclude hard filters above. Weighted 25% neighborhood preference,
-// 25% office commute (the daily one), 20% average commute to the four
-// friends' neighborhoods, 15% size (bedroom-normalized sqft), 15% living
-// room size. Returns the components alongside the total so the UI can show
-// why a listing ranked where it did, not just the number.
-function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall) {
+// qualify/exclude hard filters above. Weighted 23% neighborhood preference,
+// 23% office commute (the daily one), 19% average commute to the four
+// friends' neighborhoods, 14% size (bedroom-normalized sqft), 14% living
+// room size, 7% kitchen size. Returns the components alongside the total so
+// the UI can show why a listing ranked where it did, not just the number.
+function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
   const avgFriendScore = friendScores.reduce((sum, score) => sum + score, 0) / friendScores.length;
   const sizeScore = sqftScore(sqft, bedrooms);
   const livingRoomScoreValue = livingRoomScore(livingRoomSmall);
+  const kitchenSizeScoreValue = kitchenSizeScore(kitchenSize);
 
   const total =
     RANK_WEIGHTS.neighborhood * neighborhoodScore +
     RANK_WEIGHTS.office * officeScore +
     RANK_WEIGHTS.friends * avgFriendScore +
     RANK_WEIGHTS.size * sizeScore +
-    RANK_WEIGHTS.livingRoom * livingRoomScoreValue;
+    RANK_WEIGHTS.livingRoom * livingRoomScoreValue +
+    RANK_WEIGHTS.kitchenSize * kitchenSizeScoreValue;
 
   return {
     total,
@@ -169,11 +191,12 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall) {
     friends: { score: avgFriendScore, weight: RANK_WEIGHTS.friends },
     size: { score: sizeScore, weight: RANK_WEIGHTS.size, sqft: sqft ?? null, bedrooms: bedrooms ?? null },
     livingRoom: { score: livingRoomScoreValue, weight: RANK_WEIGHTS.livingRoom, small: Boolean(livingRoomSmall) },
+    kitchenSize: { score: kitchenSizeScoreValue, weight: RANK_WEIGHTS.kitchenSize, size: kitchenSize || "unknown" },
   };
 }
 
-function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall) {
-  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall).total;
+function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize) {
+  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize).total;
 }
 
 function extractNumber(text, regex) {
@@ -336,6 +359,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   const vision = visionResult || {
     kitchenVisible: false,
     kitchenLayout: "unknown",
+    kitchenSize: "unknown",
     gasStove: "unknown",
     hasGarden: false,
     livingRoomSmall: false,
@@ -356,6 +380,8 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   // just "not low", before showing it as a fact.
   const hasGarden = vision.gardenConfidence === "high" ? Boolean(vision.hasGarden) : false;
   const livingRoomSmall = vision.livingRoomConfidence !== "low" ? Boolean(vision.livingRoomSmall) : false;
+  const kitchenSize =
+    vision.kitchenVisible && vision.kitchenSizeConfidence !== "low" ? vision.kitchenSize : "unknown";
 
   if (listing.price === null) {
     reasons.push("Rent could not be confirmed");
@@ -392,7 +418,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
   const commute = commuteResult?.commutes || {};
   const tier = neighborhoodTier(listing.neighborhood, listing.borough, listing.address, lat);
-  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms, livingRoomSmall);
+  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms, livingRoomSmall, kitchenSize);
 
   // Not a hard filter — just a signal that a listing's availability date is
   // close enough to warrant deciding on it sooner rather than letting it
@@ -408,6 +434,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     gasStove,
     hasGarden,
     kitchenLayout,
+    kitchenSize,
     listing: {
       ...listing,
       lat,

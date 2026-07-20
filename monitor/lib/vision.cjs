@@ -10,11 +10,12 @@ Answer these questions:
 3. Is the stove/range gas or electric? Look for visible burners/grates (gas) versus a flat glass/ceramic cooktop or coil burners (electric/induction). This is genuinely hard to tell in many photos (reflections, angle, resolution) — if you're not confident, say so via stoveConfidence rather than picking one at random.
 4. Does the unit have its own private outdoor space (a garden, yard, or terrace exclusively for this unit) — not a shared building courtyard, roof deck, or amenity space?
 5. Does the living room look notably small/cramped based on the furniture-to-room ratio and how tight the framing is, versus a typical NYC one-bedroom living room?
+6. How large does the kitchen itself look — judged by counter/cabinet run length and floor space, not by whether it's open or closed to the living area (that's a separate question above). "large" means genuinely spacious with real counter and storage space; "small" means a cramped galley or a kitchenette squeezed into a corner; anything in between is "standard".
 
 Respond with ONLY strict JSON, no other text, in this exact shape:
-{"kitchenVisible": true|false, "kitchenLayout": "open"|"semi-open"|"closed"|"galley"|"unknown", "kitchenConfidence": "high"|"medium"|"low", "gasStove": "yes"|"no"|"unknown", "stoveConfidence": "high"|"medium"|"low", "hasGarden": true|false, "gardenConfidence": "high"|"medium"|"low", "livingRoomSmall": true|false, "livingRoomConfidence": "high"|"medium"|"low", "notes": "one short sentence explaining what you saw"}
+{"kitchenVisible": true|false, "kitchenLayout": "open"|"semi-open"|"closed"|"galley"|"unknown", "kitchenConfidence": "high"|"medium"|"low", "kitchenSize": "large"|"standard"|"small"|"unknown", "kitchenSizeConfidence": "high"|"medium"|"low", "gasStove": "yes"|"no"|"unknown", "stoveConfidence": "high"|"medium"|"low", "hasGarden": true|false, "gardenConfidence": "high"|"medium"|"low", "livingRoomSmall": true|false, "livingRoomConfidence": "high"|"medium"|"low", "notes": "one short sentence explaining what you saw"}
 
-If no kitchen is visible in any photo, set kitchenVisible to false and kitchenLayout/gasStove to "unknown". If no living room or outdoor space is visible in any photo, set the corresponding field to false and its confidence to "low".`;
+If no kitchen is visible in any photo, set kitchenVisible to false and kitchenLayout/kitchenSize/gasStove to "unknown". If no living room or outdoor space is visible in any photo, set the corresponding field to false and its confidence to "low".`;
 
 function apiKey() {
   const key = process.env.ANTHROPIC_API_KEY;
@@ -56,6 +57,8 @@ function unknownResult(notes) {
     kitchenVisible: false,
     kitchenLayout: "unknown",
     kitchenConfidence: "low",
+    kitchenSize: "unknown",
+    kitchenSizeConfidence: "low",
     gasStove: "unknown",
     stoveConfidence: "low",
     hasGarden: false,

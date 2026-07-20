@@ -128,6 +128,7 @@ function toClientReport(report) {
     gasStove: entry.gasStove,
     hasGarden: entry.hasGarden,
     kitchenLayout: entry.kitchenLayout,
+    kitchenSize: entry.kitchenSize,
     listing: {
       address: entry.listing.address,
       availableDate: entry.listing.availableDate,
@@ -400,6 +401,7 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
             commute: {},
             gasStove: "unknown",
             kitchenLayout: "unknown",
+            kitchenSize: "unknown",
             listing: {
               ...candidate,
               description: candidate.searchSnippet || "",

@@ -26,6 +26,7 @@ function buildFactPills(entry) {
     listing.neighborhood || null,
     `W/D: ${listing.washerDryer}`,
     `Kitchen: ${entry.kitchenLayout}`,
+    entry.kitchenSize && entry.kitchenSize !== "unknown" ? `Kitchen size: ${entry.kitchenSize}` : null,
     `Gas: ${entry.gasStove}`,
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
@@ -58,6 +59,7 @@ function buildScorePills(entry) {
     `Friends: ${Math.round(breakdown.friends.score)} · ${Math.round(breakdown.friends.weight * 100)}% weight`,
     `Size: ${Math.round(breakdown.size.score)} · ${Math.round(breakdown.size.weight * 100)}% weight`,
     `Living room: ${Math.round(breakdown.livingRoom.score)} · ${Math.round(breakdown.livingRoom.weight * 100)}% weight`,
+    `Kitchen size: ${Math.round(breakdown.kitchenSize.score)} · ${Math.round(breakdown.kitchenSize.weight * 100)}% weight`,
   ];
 }
 

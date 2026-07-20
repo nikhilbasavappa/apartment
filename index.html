@@ -66,7 +66,7 @@
             None of that is weighted or negotiable &mdash; it's pass/fail.
           </p>
           <p class="rubric-copy">
-            Everything that clears those gets a <strong>match score out of 100</strong>, blending five things:
+            Everything that clears those gets a <strong>match score out of 100</strong>, blending six things:
           </p>
           <ul class="rubric-list">
             <li><strong>Neighborhood preference</strong> &mdash; Brooklyn and Upper West Side in the 72nd&ndash;89th
@@ -95,50 +95,62 @@
               that already flags it elsewhere): a small living room scores 0, anything else scores 100. Came up
               repeatedly across directed listing reviews as the single biggest drag on an otherwise-good listing
               &mdash; entertaining space matters enough to weight it comparably to size, not just as a tiebreaker.</li>
+            <li><strong>Kitchen size</strong> &mdash; also from the photo-based check, judging counter/cabinet run
+              and floor space rather than open-vs-closed layout (that's a separate hard requirement above): large
+              scores 100, small scores 0, standard or unclassifiable scores 50. Weighted lighter than the others
+              (7%) since it's only come up once so far as an explicit callout, versus living room's four &mdash;
+              real, but not yet a proven recurring pattern.</li>
           </ul>
           <p class="rubric-copy">
-            The default weighting is 25% neighborhood, 25% office, 20% friends, 15% size, 15% living room. If that
-            balance feels off, adjust it below; it re-sorts the New and All Qualifying tabs immediately and remembers
-            your setting on this device.
+            The default weighting is 23% neighborhood, 23% office, 19% friends, 14% size, 14% living room, 7% kitchen
+            size. If that balance feels off, adjust it below; it re-sorts the New and All Qualifying tabs immediately
+            and remembers your setting on this device.
           </p>
 
           <div class="weight-sliders">
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Neighborhood</span>
-                <strong id="weightNeighborhoodValue">25%</strong>
+                <strong id="weightNeighborhoodValue">23%</strong>
               </div>
-              <input type="range" min="0" max="100" value="25" id="weightNeighborhood" class="weight-slider" />
+              <input type="range" min="0" max="100" value="23" id="weightNeighborhood" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Office commute</span>
-                <strong id="weightOfficeValue">25%</strong>
+                <strong id="weightOfficeValue">23%</strong>
               </div>
-              <input type="range" min="0" max="100" value="25" id="weightOffice" class="weight-slider" />
+              <input type="range" min="0" max="100" value="23" id="weightOffice" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Friends commute</span>
-                <strong id="weightFriendsValue">20%</strong>
+                <strong id="weightFriendsValue">19%</strong>
               </div>
-              <input type="range" min="0" max="100" value="20" id="weightFriends" class="weight-slider" />
+              <input type="range" min="0" max="100" value="19" id="weightFriends" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Size</span>
-                <strong id="weightSizeValue">15%</strong>
+                <strong id="weightSizeValue">14%</strong>
               </div>
-              <input type="range" min="0" max="100" value="15" id="weightSize" class="weight-slider" />
+              <input type="range" min="0" max="100" value="14" id="weightSize" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Living room</span>
-                <strong id="weightLivingRoomValue">15%</strong>
+                <strong id="weightLivingRoomValue">14%</strong>
               </div>
-              <input type="range" min="0" max="100" value="15" id="weightLivingRoom" class="weight-slider" />
+              <input type="range" min="0" max="100" value="14" id="weightLivingRoom" class="weight-slider" />
             </div>
-            <button type="button" class="ghost-button" id="weightReset">Reset to default (25 / 25 / 20 / 15 / 15)</button>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Kitchen size</span>
+                <strong id="weightKitchenSizeValue">7%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="7" id="weightKitchenSize" class="weight-slider" />
+            </div>
+            <button type="button" class="ghost-button" id="weightReset">Reset to default (23 / 23 / 19 / 14 / 14 / 7)</button>
           </div>
         </div>
 

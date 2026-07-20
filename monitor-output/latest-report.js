@@ -68,34 +68,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.39543827731755,
+        "total": 53.00974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 20.10000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 47
         },
         "friends": {
           "score": 22.3,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.39543827731755,
+      "rankScore": 53.00974239216305,
       "visionNotes": "Kitchen is semi-open to living area via island counter; electric stove visible; living room is spacious with high ceilings and multiple windows; no private outdoor space shown."
     },
     {
@@ -166,34 +171,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.845000000000006,
+        "total": 51.664,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 83,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 10
         },
         "friends": {
           "score": 45.60000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -3.5000000000000004,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 586,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.845000000000006,
+      "rankScore": 51.664,
       "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas range with visible burners and grates; no private outdoor space shown; living room is spacious and well-proportioned for NYC."
     },
     {
@@ -264,34 +274,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 58.36861873499005,
+        "total": 57.76546081932405,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 65.49079156660034,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1219,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.36861873499005,
+      "rankScore": 57.76546081932405,
       "visionNotes": "Kitchen is open-plan to living/dining area with visible gas cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
@@ -366,34 +381,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.08043827731756,
+        "total": 54.546742392163054,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 28.60000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 42
         },
         "friends": {
           "score": 20.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.08043827731756,
+      "rankScore": 54.546742392163054,
       "visionNotes": "Kitchen is semi-open to living/dining area with island; electric coil stove visible; unit has private rooftop terrace; living room is spacious (18'3\" x 18'9\")."
     },
     {
@@ -464,34 +484,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is open to living area with island countertop; stove appears to be electric/induction with flat cooktop; no private outdoor space visible; living room appears moderately sized with window."
     },
     {
@@ -562,34 +587,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is open to the living area with large windows overlooking a terrace; electric/convection oven is visible; unit has exclusive outdoor terrace space visible in multiple photos."
     },
     {
@@ -660,34 +690,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 39.83543827731755,
+        "total": 40.44374239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 40.5,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 39.83543827731755,
+      "rankScore": 40.44374239216305,
       "visionNotes": "Kitchen is open to dining/living area with island; gas range visible with exposed burners; spacious living room with large windows; no private outdoor space visible."
     },
     {
@@ -758,34 +793,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.90315472394508,
+        "total": 56.24511107568208,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 26.900000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 43
         },
         "friends": {
           "score": 17.550000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 44.45436482630055,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1100,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.90315472394508,
+      "rankScore": 56.24511107568208,
       "visionNotes": "Kitchen is visible with island seating overlooking living/dining area; no stove visible in photos; living room appears spacious with multiple windows and well-proportioned furniture layout; no private outdoor space shown."
     },
     {
@@ -857,34 +897,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 71.5575,
+        "total": 69.93100000000001,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.099999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 87.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 951,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 71.5575,
+      "rankScore": 69.93100000000001,
       "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; a private terrace/balcony is visible in photo 5; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -956,34 +1001,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 43.432500000000005,
+        "total": 43.681,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.099999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 0.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 601,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 43.432500000000005,
+      "rankScore": 43.681,
       "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible burners/grates; private terrace with NYC skyline view shown in first photo; living room is spacious with high ceilings and large windows."
     },
     {
@@ -1053,34 +1103,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.095438277317555,
+        "total": 51.03099239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 45.175000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.095438277317555,
+      "rankScore": 51.03099239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
     },
     {
@@ -1153,34 +1208,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.89543827731755,
+        "total": 56.24549239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 24.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.89543827731755,
+      "rankScore": 56.24549239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates), opens to dining/living area through a large opening with wood-framed threshold; living room is spacious with good furniture-to-space ratio; no private outdoor space visible, only windows to shared street views."
     },
     {
@@ -1248,34 +1308,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 70.4454889599811,
+        "total": 68.90303969598236,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 51.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 40.66992639987393,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 3
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 70.4454889599811,
+      "rankScore": 68.90303969598236,
       "visionNotes": "Kitchen is visible and opens into the living/dining area with sightlines; gas range visible with visible burners; living room is spacious with good furniture layout; no private outdoor space visible, only windows to street."
     },
     {
@@ -1347,34 +1412,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 40.51206165891019,
+        "total": 40.95667421498285,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.724999999999998,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 0.6137443927346169,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 852,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 40.51206165891019,
+      "rankScore": 40.95667421498285,
       "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly seen in photo 2; private terrace with skyline views shown in photo 5; living room appears spacious with good proportions."
     },
     {
@@ -1446,34 +1516,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen visible with gas cooktop (visible grates); open to living area; living room appears spacious with large windows; no private outdoor space—only city views from windows."
     },
     {
@@ -1544,34 +1619,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 62.087500000000006,
+        "total": 61.18025,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 55.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 13.750000000000002,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 655,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.087500000000006,
+      "rankScore": 61.18025,
       "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas cooktop with visible burners; no private outdoor space shown; living room is spacious with ample furniture and ceiling height."
     },
     {
@@ -1640,34 +1720,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 64.83000000000001,
+        "total": 63.69175,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 61.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 846,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 64.83000000000001,
+      "rankScore": 63.69175,
       "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
     },
     {
@@ -1736,34 +1821,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 35.415438277317556,
+        "total": 36.38499239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 41.775000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 35.415438277317556,
+      "rankScore": 36.38499239216305,
       "visionNotes": "Kitchen is visible and open to living area; stove details not clearly visible; private outdoor space shown in photo 3 appears to be a shared waterfront amenity area rather than exclusive unit space; living room is spacious with high ceilings and large windows."
     },
     {
@@ -1833,34 +1923,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 72.175,
+        "total": 70.52725000000001,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 55.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 47,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 788,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 72.175,
+      "rankScore": 70.52725000000001,
       "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
     },
     {
@@ -1932,34 +2027,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 38.80410440982945,
+        "total": 39.35974744917416,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 29.875,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -9.63930393447032,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 794,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 38.80410440982945,
+      "rankScore": 39.35974744917416,
       "visionNotes": "Open-plan kitchen with gas range visible; private balcony/terrace with city views; spacious living areas with good proportions."
     }
   ],
@@ -10032,600 +10132,7 @@ window.__APARTMENT_REPORT__ = {
       "medianDaysOnMarket": 2.5
     }
   },
-  "newListings": [
-    {
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 18,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 2,
-          "lines": []
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "150 West 84th Street #4A, NEW YORK, NY, 10024",
-        "availableDate": "2026-09-04",
-        "bathrooms": 1,
-        "bedrooms": 3,
-        "daysOnMarket": 7,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-13",
-        "externalScreenshot": "screenshots/streeteasy-com-building-150-west-84-street-new-york-4a.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/7670190a65f1b1f1eadeb75be977f7c6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e07959ce070dd723184714fa848339f0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a1a1457f608f97b9c27a8332ee0d10d7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/10449c13f90a0419c1e1030e5ec91b4e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4964b0ef8d415ac8421fa1b2a609dd19-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7f0d0d588d1faa07c4929a018c9e3ec6-se_large_800_400.webp"
-        ],
-        "price": 6200,
-        "sqft": null,
-        "title": "150 West 84th Street #4A",
-        "url": "https://streeteasy.com/building/150-west-84-street-new_york/4a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "uwsIdeal",
-      "rankBreakdown": {
-        "total": 70.4454889599811,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "uwsIdeal"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.25,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 51.97500000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 40.66992639987393,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 70.4454889599811,
-      "visionNotes": "Kitchen is visible and opens into the living/dining area with sightlines; gas range visible with visible burners; living room is spacious with good furniture layout; no private outdoor space visible, only windows to street."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 39,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 1,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 52,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 51,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 46,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "538 Carlton Avenue #3, BROOKLYN, NY, 11238",
-        "availableDate": "2026-07-28",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-538-carlton-avenue-brooklyn-3.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/16720c981114fc3e3292e101b46a0764-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f327208633187c408120260ee218b6f8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d709b8e7b1200a3a9a6be87fbe5f56cf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4653568cdafad7889f21cd56e7c3ac8b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dcacac8e63449a52c4cd4ed55929bbd2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/db1e2b6d8ae82543543fbec18c535d80-se_large_800_400.webp"
-        ],
-        "price": 6750,
-        "sqft": null,
-        "title": "538 Carlton Avenue #3",
-        "url": "https://streeteasy.com/building/538-carlton-avenue-brooklyn/3",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 59.58543827731755,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 33.7,
-          "weight": 0.25,
-          "minutes": 39
-        },
-        "friends": {
-          "score": 36.25,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.58543827731755,
-      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible grates; private terrace with table and seating; living room appears spacious with multiple seating areas."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "B69",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 62,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 56,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "354 Myrtle Avenue #2A, BROOKLYN, NY, 11205",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 3,
-        "daysOnMarket": 7,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-13",
-        "externalScreenshot": "screenshots/streeteasy-com-building-154-adelphi-street-brooklyn-2a.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0d1fa3aff8b59165a1f35e05dc8e5275-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7134c2058654510b720801ff08b435f9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3befa8c29f5677b56dfc1efce1515b67-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/22db9aaffe44ead492e8ddb1576b4a3b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1737668a571270c6ce5e1ac898c431e9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/84382702ba66dcf78cc3a63f21c6f8af-se_large_800_400.webp"
-        ],
-        "price": 6750,
-        "sqft": null,
-        "title": "354 Myrtle Avenue #2A",
-        "url": "https://streeteasy.com/building/154-adelphi-street-brooklyn/2a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.56048895998109,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.25,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 24.424999999999997,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 40.66992639987393,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 58.56048895998109,
-      "visionNotes": "Kitchen is visible with island opening to living/dining area; flat black cooktop visible indicating electric; large orange sofa in living room with good sightlines; windows visible but no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 38,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 29,
-          "lines": [
-            "F Line",
-            "R Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 54,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "44 3rd Street #2L, BROOKLYN, NY, 11231",
-        "availableDate": "2026-08-18",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-44-3-street-brooklyn-2l.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/856ad23eade3ea883cbdfe93fe744be2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4844f5550f76c130895797283bd4e5bf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fbbd6a44dee8eb8b2b029c8484b12a5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/81c7e96c0ef3b7dc2c4a32bafb50fa8b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/404c27a1d92f5b5fad10d95df5a6a990-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2a5e350e5c0dc8b9eeafdc43d6b40d17-se_large_800_400.webp"
-        ],
-        "price": 5670,
-        "sqft": null,
-        "title": "44 3rd Street #2L",
-        "url": "https://streeteasy.com/building/44-3-street-brooklyn/2l",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 57.970438277317555,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 35.400000000000006,
-          "weight": 0.25,
-          "minutes": 38
-        },
-        "friends": {
-          "score": 26.05,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 57.970438277317555,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), opens to living/dining area via counter; living room is spacious with good furniture proportion; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 13,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "42-61 Hunter Street #5F, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 3,
-        "bedrooms": 3,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-17",
-        "externalScreenshot": "screenshots/streeteasy-com-building-42-61-hunter-street-long-island-city-5f.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/b73877268af872460be5ba3da3bc23de-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ae3994b3fcf7cb3437aaa821bee1770b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bcbe033792c3114b3681903e8002f004-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/690d66ee841980f1dfd94dffb83d4894-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": null,
-        "title": "42-61 Hunter Street #5F",
-        "url": "https://streeteasy.com/building/42_61-hunter-street-long_island_city/5f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.410488959981095,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 77.9,
-          "weight": 0.25,
-          "minutes": 13
-        },
-        "friends": {
-          "score": 36.675000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 40.66992639987393,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.410488959981095,
-      "visionNotes": "Kitchen with island counter opens to living/dining area with clear sightlines; gas range visible; no private outdoor space shown; living room appears spacious relative to typical NYC units."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 44,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 24,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 60,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 55,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "403 12th Street #4, BROOKLYN, NY, 11215",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 3,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-390-7-avenue-brooklyn-4.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fd29880254b649a353ca14b4c689ba9e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/02885aa67891124d13a75225bf090b4a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7c89910ba196ae57b0b3cef4a13409d2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3729da67ed2f336818fc2d92663b3820-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f25c74c4c245ac8ef6110cc4d83d9a16-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b1954a08f6cc342a656173778d784743-se_large_800_400.webp"
-        ],
-        "price": 5499,
-        "sqft": 1200,
-        "title": "403 12th Street #4",
-        "url": "https://streeteasy.com/building/390-7-avenue-brooklyn/4",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 54.07076211353316,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 25.200000000000003,
-          "weight": 0.25,
-          "minutes": 44
-        },
-        "friends": {
-          "score": 21.450000000000003,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 23.205080756887753,
-          "weight": 0.15,
-          "sqft": 1200,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.07076211353316,
-      "visionNotes": "Kitchen is visible with gas range (visible burners/grates), opens to dining and living areas; living room is spacious with good furniture layout; no private outdoor space visible, only windows showing NYC buildings."
-    }
-  ],
+  "newListings": [],
   "runAt": "2026-07-20T17:14:21.484Z",
   "sourcesConfigured": 1,
   "topListings": [
@@ -10696,34 +10203,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 72.175,
+        "total": 70.52725000000001,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 55.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 47,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 788,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 72.175,
+      "rankScore": 70.52725000000001,
       "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with red knobs; no private outdoor space (last image shows building entrance, not unit space); living room appears reasonably sized for NYC."
     },
     {
@@ -10795,34 +10307,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 71.5575,
+        "total": 69.93100000000001,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.099999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 87.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 951,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 71.5575,
+      "rankScore": 69.93100000000001,
       "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; a private terrace/balcony is visible in photo 5; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -10893,34 +10410,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 70.55043827731755,
+        "total": 68.98824239216306,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 54.949999999999996,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 70.55043827731755,
+      "rankScore": 68.98824239216306,
       "visionNotes": "Kitchen is open to living/dining area; gas range visible with grates in close-up photo; spacious living room with good furniture-to-space ratio; no private outdoor space visible, only windows with NYC building views."
     },
     {
@@ -10988,34 +10510,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 70.4454889599811,
+        "total": 68.90303969598236,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 51.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 40.66992639987393,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 3
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 70.4454889599811,
+      "rankScore": 68.90303969598236,
       "visionNotes": "Kitchen is visible and opens into the living/dining area with sightlines; gas range visible with visible burners; living room is spacious with good furniture layout; no private outdoor space visible, only windows to street."
     },
     {
@@ -11085,34 +10612,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 70.19250000000001,
+        "total": 68.69675000000001,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 60.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 23
         },
         "friends": {
           "score": 46.025000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 71.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 887,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 70.19250000000001,
+      "rankScore": 68.69675000000001,
       "visionNotes": "Kitchen is semi-open to a spacious living/dining area with an island; gas range clearly visible with burner grates; living room is generously proportioned; no private outdoor space visible, only a window seat area."
     },
     {
@@ -11183,34 +10715,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 69.30250000000001,
+        "total": 67.82350000000001,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 54.949999999999996,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 69.30250000000001,
+      "rankScore": 67.82350000000001,
       "visionNotes": "Kitchen is visible and open to a dining/living area with electric range; living room has ample space with comfortable furniture arrangement; no private outdoor space shown."
     },
     {
@@ -11281,34 +10818,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 69.30250000000001,
+        "total": 67.82350000000001,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 54.949999999999996,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 69.30250000000001,
+      "rankScore": 67.82350000000001,
       "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with visible burners; living room appears spacious with good furniture arrangement; no private outdoor space shown."
     },
     {
@@ -11377,34 +10919,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 67.57543827731755,
+        "total": 66.22574239216306,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 50.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 67.57543827731755,
+      "rankScore": 66.22574239216306,
       "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; stove appears to have burner grates but angle/reflection makes it not entirely certain; no private outdoor space visible; living room appears reasonably proportioned for NYC."
     },
     {
@@ -11477,34 +11024,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 67.275,
+        "total": 65.92125,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 21.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1288,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 67.275,
+      "rankScore": 65.92125,
       "visionNotes": "Kitchen is visible with gas range (red knobs visible); opens to dining area with shared sightlines; living room is spacious with good furniture ratio; no private outdoor space visible."
     },
     {
@@ -11576,34 +11128,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 66.9225,
+        "total": 65.60075,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 57.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 25
         },
         "friends": {
           "score": 49.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 66.9225,
+      "rankScore": 65.60075,
       "visionNotes": "Kitchen is fully open to living/dining area with electric/induction cooktop; living room is spacious; no private outdoor space visible, only street-level building exterior shown."
     },
     {
@@ -11673,34 +11230,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 65.97749999999999,
+        "total": 64.77125000000001,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 40.075,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 65.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 863,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 65.97749999999999,
+      "rankScore": 64.77125000000001,
       "visionNotes": "Kitchen is visible with gas range and opens to living/dining area; the last photo shows a shared building courtyard, not private outdoor space; living rooms appear spacious based on the first and third photos."
     },
     {
@@ -11770,34 +11332,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 65.7475,
+        "total": 64.5325,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 71.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 17
         },
         "friends": {
           "score": 51.55,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 65.7475,
+      "rankScore": 64.5325,
       "visionNotes": "Kitchen visible in first photo opening directly to dining/living area (open-plan); no stove details visible; no private outdoor space shown; living room is spacious with high ceilings and large windows."
     },
     {
@@ -11866,34 +11433,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 64.83000000000001,
+        "total": 63.69175,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 61.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 846,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 64.83000000000001,
+      "rankScore": 63.69175,
       "visionNotes": "Kitchen is open to living area with island counter; visible gas cooktop with grates; no private outdoor space (building street views only); living room appears spacious with good proportions."
     },
     {
@@ -11963,34 +11535,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 64.78543827731755,
+        "total": 63.66149239216305,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 51.12499999999999,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 64.78543827731755,
+      "rankScore": 63.66149239216305,
       "visionNotes": "Kitchen is visible and opens to living area via counter; gas burners visible on stove; no private outdoor space shown; living room appears spacious with good furniture layout."
     },
     {
@@ -12061,35 +11638,141 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 64.0175,
+        "total": 62.8965,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 39.650000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 31.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 725,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 64.0175,
+      "rankScore": 62.8965,
       "visionNotes": "Kitchen is visible with a counter opening to the dining/living area; private terrace/balcony visible in photos 4-6; living room appears spacious with floor-to-ceiling windows and good furniture spacing."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 27,
+          "lines": [
+            "M31"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "D Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 27,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 17,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "229 West 60th Street #24R, NEW YORK, NY, 10023",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 4,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
+        "externalScreenshot": "screenshots/streeteasy-com-building-sessanta-229-west-60th-street-new-york-24r.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a940e6a5650577155c6377b4881455fd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/40ddf6a9a5cac974025c9421ff904287-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/13917a1012c1f94f74426b208703c1a9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/04da270b75f97d7c0f2f6ed2b8b4df6a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f413c18758479e7d4903ad62fcefa95e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f972135f3959dad949d50cc6db6157c0-se_large_800_400.webp"
+        ],
+        "price": 5695,
+        "sqft": 771,
+        "title": "229 West 60th Street #24R",
+        "url": "https://streeteasy.com/building/sessanta-229-west-60th-street-new_york/24r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 62.749750000000006,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 54.1,
+          "weight": 0.23,
+          "minutes": 27
+        },
+        "friends": {
+          "score": 44.324999999999996,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 42.75,
+          "weight": 0.14,
+          "sqft": 771,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 62.749750000000006,
+      "visionNotes": "Kitchen is visible with wood cabinetry and opens via a pass-through counter to a living/dining area with sightlines; electric black cooktop visible; no outdoor space shown; living room appears spacious based on open floor plan and furniture placement."
     },
     {
       "commute": {
@@ -12162,131 +11845,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 63.84840905032674,
+        "total": 62.74576511363829,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 35.400000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 38
         },
         "friends": {
           "score": 31.575,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 57.889393668844946,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1176,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 63.84840905032674,
+      "rankScore": 62.74576511363829,
       "visionNotes": "Kitchen is visible with wood cabinets and island seating, opening to living areas with sightlines; electric cooktop visible; no private outdoor space shown; living room appears spacious with high ceilings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 27,
-          "lines": [
-            "M31"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "D Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 27,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 17,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T22:02:23.025Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "229 West 60th Street #24R, NEW YORK, NY, 10023",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 4,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-16",
-        "externalScreenshot": "screenshots/streeteasy-com-building-sessanta-229-west-60th-street-new-york-24r.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a940e6a5650577155c6377b4881455fd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/40ddf6a9a5cac974025c9421ff904287-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/13917a1012c1f94f74426b208703c1a9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/04da270b75f97d7c0f2f6ed2b8b4df6a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f413c18758479e7d4903ad62fcefa95e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f972135f3959dad949d50cc6db6157c0-se_large_800_400.webp"
-        ],
-        "price": 5695,
-        "sqft": 771,
-        "title": "229 West 60th Street #24R",
-        "url": "https://streeteasy.com/building/sessanta-229-west-60th-street-new_york/24r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 63.8025,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 54.1,
-          "weight": 0.25,
-          "minutes": 27
-        },
-        "friends": {
-          "score": 44.324999999999996,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 42.75,
-          "weight": 0.15,
-          "sqft": 771,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 63.8025,
-      "visionNotes": "Kitchen is visible with wood cabinetry and opens via a pass-through counter to a living/dining area with sightlines; electric black cooktop visible; no outdoor space shown; living room appears spacious based on open floor plan and furniture placement."
     },
     {
       "commute": {
@@ -12356,34 +11948,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 62.830438277317555,
+        "total": 61.88074239216305,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 54.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.830438277317555,
+      "rankScore": 61.88074239216305,
       "visionNotes": "Kitchen is clearly visible and semi-open to living/dining area; stove is electric (flat stainless steel cooktop visible); no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -12454,34 +12051,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.815438277317554,
+        "total": 61.76749239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.815438277317554,
+      "rankScore": 61.76749239216305,
       "visionNotes": "Kitchen is visible and open to dining/living area; a private terrace/balcony is clearly visible through bedroom doors; living room appears spacious with good furniture ratio and high ceilings."
     },
     {
@@ -12552,34 +12154,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.815438277317554,
+        "total": 61.76749239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.815438277317554,
+      "rankScore": 61.76749239216305,
       "visionNotes": "Kitchen is clearly visible and open to dining/living area; stove appears to be electric with a flat black cooktop; living room is spacious with good proportions; no private outdoor space visible, only interior windows showing adjacent building."
     },
     {
@@ -12650,34 +12257,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.815438277317554,
+        "total": 61.76749239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.815438277317554,
+      "rankScore": 61.76749239216305,
       "visionNotes": "Kitchen is open to dining/living area with electric cooktop visible; living room is spacious with high ceilings; bathroom photo shows a terrace with city views but it's private to the unit (appears to be a balcony/terrace accessed from bathroom)."
     },
     {
@@ -12748,34 +12360,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.815438277317554,
+        "total": 61.76749239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.815438277317554,
+      "rankScore": 61.76749239216305,
       "visionNotes": "Kitchen is visible and opens to a dining area with sightlines to living space; bedroom has a large private terrace with skyline views; living room is spacious with generous furniture layout."
     },
     {
@@ -12846,34 +12463,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 62.68150429449553,
+        "total": 61.711987341529166,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 48.575,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.77669529663686,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1000,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.68150429449553,
+      "rankScore": 61.711987341529166,
       "visionNotes": "Kitchen is clearly visible and open to dining area; gas range with visible burners/grates is evident in photo 2; living room is spacious per floor plan (15' x 20'4\"); no private outdoor space visible."
     },
     {
@@ -12948,34 +12570,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Open-plan kitchen with living/dining area; electric/induction cooktops visible; private terrace/balcony accessible from living room; spacious living room with good furniture-to-space ratio."
     },
     {
@@ -13050,34 +12677,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Kitchen is open to living/dining area with black electric oven visible; living room is spacious with multiple seating areas; no private outdoor space shown, only building views from windows/balcony."
     },
     {
@@ -13152,34 +12784,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Kitchen is visible and opens into living/dining area with a galley-style layout; electric range with flat black cooktop is clearly visible; no private outdoor space shown; living room appears reasonably proportioned for NYC."
     },
     {
@@ -13254,34 +12891,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Kitchen is open to living/dining area with black electric range visible; living room is spacious with high ceilings; no private outdoor space shown, only street views from windows."
     },
     {
@@ -13356,34 +12998,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Open-plan kitchen flows directly into living/dining area; stove appears to be electric/black with flat cooktop; living room is spacious with good furniture-to-room ratio; no private outdoor space visible, only windows showing NYC street views."
     },
     {
@@ -13458,34 +13105,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.64543827731755,
+        "total": 61.61874239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.8,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.64543827731755,
+      "rankScore": 61.61874239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove appears to be electric with dark glass cooktop; no private outdoor space visible; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -13556,34 +13208,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is visible and open to living area; gas range with visible burners and grates clearly shown; no private outdoor space visible; living room appears spacious in photo 3 but limited views overall."
     },
     {
@@ -13654,34 +13311,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and knobs; no outdoor space shown; living room appears spacious with wood floors and minimal furniture."
     },
     {
@@ -13752,34 +13414,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is clearly visible with gas range (visible burner grates), semi-open to living area; no private outdoor space shown; living room appears spacious but only partially visible in photos."
     },
     {
@@ -13850,34 +13517,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is open to living area with island countertop; stove appears to be electric/induction with flat cooktop; no private outdoor space visible; living room appears moderately sized with window."
     },
     {
@@ -13948,34 +13620,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.39043827731756,
+        "total": 61.37649239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.39043827731756,
+      "rankScore": 61.37649239216305,
       "visionNotes": "Kitchen is open to the living area with large windows overlooking a terrace; electric/convection oven is visible; unit has exclusive outdoor terrace space visible in multiple photos."
     },
     {
@@ -14046,34 +13723,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.30543827731755,
+        "total": 61.30849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.30543827731755,
+      "rankScore": 61.30849239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove appears to be electric/induction based on flat cooktop visible in photo 3; outdoor terrace with plants and brick building view visible in photo 7; living room is spacious with good proportions."
     },
     {
@@ -14144,34 +13826,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.30543827731755,
+        "total": 61.30849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.30543827731755,
+      "rankScore": 61.30849239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove appears to be electric/induction with flat cooktop; private outdoor terrace visible with view of brick building; living room is spacious with high ceilings and large windows."
     },
     {
@@ -14242,34 +13929,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 62.087500000000006,
+        "total": 61.18025,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 55.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 13.750000000000002,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 655,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 62.087500000000006,
+      "rankScore": 61.18025,
       "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas cooktop with visible burners; no private outdoor space shown; living room is spacious with ample furniture and ceiling height."
     },
     {
@@ -14341,133 +14033,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.88250000000001,
+        "total": 60.90525,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 34.975,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 31.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 727,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.88250000000001,
+      "rankScore": 60.90525,
       "visionNotes": "Kitchen is visible and open to living room; gas range with visible burner grates is clearly shown; no private outdoor space (last image shows building exterior/street view); living room appears proportionate for NYC with good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B67"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "F Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-19T13:00:00.926Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "55 Willoughby Street #26E, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-house-55-26e.png",
-        "neighborhood": "Downtown Brooklyn",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b53c684e371cb3345090f8b416bbd96f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2e61dfa654800ae15faea62b78a6d2e2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cb0bd548d93dd7f0c18873eaca49ef95-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/369a72cd941f7ccad9ffc44e9585fba6-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e1aee657394d9608eeeabce0376fd8db-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1523e732129af2ae70bafbf7e49e5f56-se_extra_large_1500_800.webp"
-        ],
-        "price": 5720,
-        "sqft": null,
-        "title": "55 Willoughby Street #26E",
-        "url": "https://streeteasy.com/building/house-55/26e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 61.822500000000005,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.25,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 36.675,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 61.822500000000005,
-      "visionNotes": "Kitchen is visible in the last photo, open to living/dining area; no private outdoor space visible; living room is spacious with high ceilings and large windows."
     },
     {
       "commute": {
@@ -14537,35 +14136,246 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 61.78750000000001,
+        "total": 60.90025000000001,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 55.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 11.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 647,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.78750000000001,
+      "rankScore": 60.90025000000001,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas cooktop with visible burners is prominent in multiple photos; no private outdoor space shown; living room appears spacious with good furniture arrangement."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 31,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B67"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "F Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 40,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-19T13:00:00.926Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "55 Willoughby Street #26E, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-house-55-26e.png",
+        "neighborhood": "Downtown Brooklyn",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/b53c684e371cb3345090f8b416bbd96f-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/2e61dfa654800ae15faea62b78a6d2e2-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb0bd548d93dd7f0c18873eaca49ef95-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/369a72cd941f7ccad9ffc44e9585fba6-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e1aee657394d9608eeeabce0376fd8db-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1523e732129af2ae70bafbf7e49e5f56-se_extra_large_1500_800.webp"
+        ],
+        "price": 5720,
+        "sqft": null,
+        "title": "55 Willoughby Street #26E",
+        "url": "https://streeteasy.com/building/house-55/26e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 60.83225,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.23,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 36.675,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 60.83225,
+      "visionNotes": "Kitchen is visible in the last photo, open to living/dining area; no private outdoor space visible; living room is spacious with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 35,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 42,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "gasStove": "unknown",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "22 Lafayette Avenue #15B, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 4,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
+        "externalScreenshot": "screenshots/streeteasy-com-building-22-lafayette-avenue-brooklyn-15b.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/34430076e40503f2c350788aa00ea634-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/98dc1e5dee369ac23877638715156518-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_medium_500_250.webp",
+          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_medium_500_250.webp"
+        ],
+        "price": 4000,
+        "sqft": null,
+        "title": "22 Lafayette Avenue #15B",
+        "url": "https://streeteasy.com/building/22-lafayette-avenue-brooklyn/15b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 60.777,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.23,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 60.777,
+      "visionNotes": "Kitchen is visible and opens into living/dining area with sightline and shared space; stove type unclear due to distance and angle; unit has private terrace with landscaping visible in photo 4."
     },
     {
       "commute": {
@@ -14636,133 +14446,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.737500000000004,
+        "total": 60.76425,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.737500000000004,
+      "rankScore": 60.76425,
       "visionNotes": "Kitchen is open to living area with island; electric stove visible in both photos; no private outdoor space shown; living room is spacious with good natural light and furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 42,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "unknown",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "22 Lafayette Avenue #15B, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 4,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-16",
-        "externalScreenshot": "screenshots/streeteasy-com-building-22-lafayette-avenue-brooklyn-15b.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/34430076e40503f2c350788aa00ea634-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/98dc1e5dee369ac23877638715156518-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_medium_500_250.webp"
-        ],
-        "price": 4000,
-        "sqft": null,
-        "title": "22 Lafayette Avenue #15B",
-        "url": "https://streeteasy.com/building/22-lafayette-avenue-brooklyn/15b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 61.737500000000004,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.25,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 40.5,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 61.737500000000004,
-      "visionNotes": "Kitchen is visible and opens into living/dining area with sightline and shared space; stove type unclear due to distance and angle; unit has private terrace with landscaping visible in photo 4."
     },
     {
       "commute": {
@@ -14832,34 +14549,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.71043827731756,
+        "total": 60.73049239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.71043827731756,
+      "rankScore": 60.73049239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates), opens partially to living room; living room is spacious with good proportions; no private outdoor space visible."
     },
     {
@@ -14930,34 +14652,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.71043827731755,
+        "total": 60.717742392163046,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 32,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.71043827731755,
+      "rankScore": 60.717742392163046,
       "visionNotes": "Kitchen is visible with electric range, opens to living/dining area via counter pass-through; unit has a private balcony/terrace visible in photo 5; living room is spacious with good furniture layout."
     },
     {
@@ -15028,34 +14755,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 61.5825,
+        "total": 60.716,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 54.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.5825,
+      "rankScore": 60.716,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with no separation; stove appears to have burners visible but reflections make it somewhat uncertain; large open floor plan with substantial living space; no outdoor space shown in any photo."
     },
     {
@@ -15126,34 +14858,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.5675,
+        "total": 60.60275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.5675,
+      "rankScore": 60.60275,
       "visionNotes": "Kitchen with visible gas range is open to living area; unit has a balcony/terrace visible through large windows; living room is spacious with high ceilings and modern furnishings."
     },
     {
@@ -15224,34 +14961,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.5675,
+        "total": 60.60275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.5675,
+      "rankScore": 60.60275,
       "visionNotes": "Kitchen is open to living/dining area with electric stove visible; outdoor space is a high-rise balcony (shared building amenity); living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -15322,34 +15064,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.5675,
+        "total": 60.60275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 45.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 32
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.5675,
+      "rankScore": 60.60275,
       "visionNotes": "Kitchen is semi-open to dining area with clear sightlines; electric stove/oven visible; unit has high-rise balcony (shared building amenity, not private garden); living room is spacious with proper furniture scale."
     },
     {
@@ -15420,34 +15167,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to living/dining area with electric range visible; no private outdoor space shown; living room appears spacious with good furniture layout."
     },
     {
@@ -15518,34 +15270,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Last image shows an open-plan kitchen/dining/living area with high-rise views; rooftop terrace visible in fourth image suggests building amenity space rather than private unit garden."
     },
     {
@@ -15616,34 +15373,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to living/dining area with dark cooktop (appears electric), living room is spacious with normal NYC proportions, no private outdoor space visible."
     },
     {
@@ -15714,34 +15476,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is fully open to living/dining area with no separation; stove appears to be electric/induction (flat dark cooktop visible in close-up photo); no private outdoor space shown; living room is spacious with high ceilings and expansive windows."
     },
     {
@@ -15812,34 +15579,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove is electric (flat cooktop visible); no private outdoor space shown, only street views from windows; living room is spacious with ample furniture placement."
     },
     {
@@ -15910,34 +15682,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to living/dining area with gray cabinetry and what appears to be an electric/induction cooktop; living room is spacious with good proportions; no private outdoor space visible, only shared building views."
     },
     {
@@ -16008,34 +15785,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric cooktop/range; living room is spacious with floor-to-ceiling windows and ample seating; no private outdoor space visible, only high-rise windows with city views."
     },
     {
@@ -16106,34 +15888,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is visible and open to living area in first photo; stove appears to have a dark flat cooktop (electric/induction) but angle makes it somewhat difficult to confirm with certainty; remaining photos show building amenities (gym, office, lounge) not the unit; no private outdoor space visible."
     },
     {
@@ -16204,34 +15991,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is visible with a flat black cooktop (electric/induction), semi-open to dining area with table; bedrooms show private balcony/terrace with city views; living spaces appear well-proportioned for NYC."
     },
     {
@@ -16302,34 +16094,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to living/dining area with a black cooktop (appears electric/induction, no visible grates); large living room with floor-to-ceiling windows; no private outdoor space visible, only city views from windows."
     },
     {
@@ -16400,34 +16197,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is visible and open to dining/living area with island seating; stove type unclear from angle; bedroom with high windows overlooks city (no private outdoor space); proportions suggest typical NYC one-bedroom scale."
     },
     {
@@ -16498,34 +16300,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is open to dining/living area with electric stove visible; unit has floor-to-ceiling windows with city views but no private outdoor space; spacious living room with good furniture layout."
     },
     {
@@ -16596,35 +16403,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.227500000000006,
+        "total": 60.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.227500000000006,
+      "rankScore": 60.267,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove appears to be electric/induction (flat dark cooktop visible); living room is spacious with good proportions and sightlines; no private outdoor space shown, only high-rise city views."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 25,
+          "lines": [
+            "1 Line",
+            "D Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 35,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 9,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-17T13:00:06.051Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "241 West 75th Street #5, NEW YORK, NY, 10023",
+        "availableDate": "2026-07-21",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 36,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-14",
+        "externalScreenshot": "screenshots/streeteasy-com-building-241-west-75-street-new-york-5.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f566618c28e270abae3e53fc1ea8d141-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/17bbe8bb91d944b87b5a4284493444ff-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/969c05e38cffbd898da503c2f8aed9cc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c17e94320cc311003cb1b9c574fbbc27-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/756f465f2d75f30688e907c0b6557a14-se_large_800_400.webp"
+        ],
+        "price": 6940,
+        "sqft": 500,
+        "title": "241 West 75th Street #5",
+        "url": "https://streeteasy.com/building/241-west-75-street-new_york/5",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsIdeal",
+      "rankBreakdown": {
+        "total": 60.261750000000006,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "uwsIdeal"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.23,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 52.825,
+          "weight": 0.19
+        },
+        "size": {
+          "score": -25,
+          "weight": 0.14,
+          "sqft": 500,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 60.261750000000006,
+      "visionNotes": "Kitchen is visible and opens partially to living/dining area with a counter interface; appliances appear electric (stainless steel fridge, flat cooktop visible); living room has good proportions with comfortable furniture layout; no private outdoor space visible, only street-view windows."
     },
     {
       "commute": {
@@ -16697,133 +16612,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.20043827731756,
+        "total": 60.24599239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 31.575000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.20043827731756,
+      "rankScore": 60.24599239216305,
       "visionNotes": "Kitchen is visible and clearly open to living/dining areas with sightlines and shared space; gas range visible with exposed burners; no private outdoor space shown; living room is spacious with modern furnishings."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 25,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 9,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-17T13:00:06.051Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "241 West 75th Street #5, NEW YORK, NY, 10023",
-        "availableDate": "2026-07-21",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 36,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-14",
-        "externalScreenshot": "screenshots/streeteasy-com-building-241-west-75-street-new-york-5.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f566618c28e270abae3e53fc1ea8d141-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/17bbe8bb91d944b87b5a4284493444ff-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/969c05e38cffbd898da503c2f8aed9cc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c17e94320cc311003cb1b9c574fbbc27-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/756f465f2d75f30688e907c0b6557a14-se_large_800_400.webp"
-        ],
-        "price": 6940,
-        "sqft": 500,
-        "title": "241 West 75th Street #5",
-        "url": "https://streeteasy.com/building/241-west-75-street-new_york/5",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsIdeal",
-      "rankBreakdown": {
-        "total": 61.19,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "uwsIdeal"
-        },
-        "office": {
-          "score": 57.5,
-          "weight": 0.25,
-          "minutes": 25
-        },
-        "friends": {
-          "score": 52.825,
-          "weight": 0.2
-        },
-        "size": {
-          "score": -25,
-          "weight": 0.15,
-          "sqft": 500,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 61.19,
-      "visionNotes": "Kitchen is visible and opens partially to living/dining area with a counter interface; appliances appear electric (stainless steel fridge, flat cooktop visible); living room has good proportions with comfortable furniture layout; no private outdoor space visible, only street-view windows."
     },
     {
       "commute": {
@@ -16893,34 +16715,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is visible and open to living/dining area; cooktop appears to be electric/induction (flat surface, no visible grates); no private outdoor space shown; living room is spacious with generous windows and furniture layout."
     },
     {
@@ -16991,34 +16818,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is clearly visible and open to dining/living areas; stove appears to be electric with a dark flat cooktop; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -17089,34 +16921,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove type unclear due to reflections and angle; private balcony/terrace visible with city views; spacious living room with generous proportions."
     },
     {
@@ -17187,34 +17024,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove has a flat black glass cooktop (electric); living room is spacious with good furniture-to-space ratio; no private outdoor space visible."
     },
     {
@@ -17285,34 +17127,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is visible with electric oven, open to dining area; spacious living room with floor-to-ceiling windows overlooking NYC skyline; no private outdoor space visible."
     },
     {
@@ -17383,34 +17230,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an electric/induction cooktop, no private outdoor space visible, and the living room is spacious with generous furniture layout."
     },
     {
@@ -17481,34 +17333,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is open to dining area with a flat black glass/ceramic cooktop (electric); living room is spacious with good furniture placement; private outdoor space shows building views only, not exclusive unit terrace."
     },
     {
@@ -17579,34 +17436,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Open-plan kitchen visible in photos 1-2 with island counter; large windows and terrace visible in photo 2; living room is spacious with high-rise views; stove type not clearly visible."
     },
     {
@@ -17677,34 +17539,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; stove has a flat black electric cooktop visible in multiple photos; living room is spacious with floor-to-ceiling windows and ample furniture space; no private outdoor space visible, only city views from windows."
     },
     {
@@ -17775,34 +17642,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is visible and open to living/dining area with island counter; no stove visible in photos; no private outdoor space shown, only high-rise windows; living room is spacious with floor-to-ceiling windows and generous furniture layout."
     },
     {
@@ -17873,34 +17745,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.142500000000005,
+        "total": 60.21175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.142500000000005,
+      "rankScore": 60.21175,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove burners not clearly visible in photos; no private outdoor space shown; living room appears spacious with high ceilings and large windows."
     },
     {
@@ -17971,34 +17848,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.11543827731755,
+        "total": 60.190742392163045,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.11543827731755,
+      "rankScore": 60.190742392163045,
       "visionNotes": "Kitchen is open to living/dining area with clear sightlines; electric oven visible; no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -18069,34 +17951,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.0575,
+        "total": 60.143750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.0575,
+      "rankScore": 60.143750000000004,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas range with visible burners/grates shown in photo 2; private outdoor garden/terrace visible in photo 5 with brick walls and planted area; living rooms appear spacious with high ceilings and generous layouts across multiple photos."
     },
     {
@@ -18167,34 +18054,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.0575,
+        "total": 60.143750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.0575,
+      "rankScore": 60.143750000000004,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with island seating; stove has visible burner grates indicating gas; private outdoor terrace/garden visible through glass doors; living room spacious with high ceilings and multiple seating areas."
     },
     {
@@ -18265,34 +18157,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.0575,
+        "total": 60.143750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.0575,
+      "rankScore": 60.143750000000004,
       "visionNotes": "Kitchen is visible and open to living/dining area with gas range; private outdoor space with plants and brick building view appears to be a private terrace; living rooms are spacious with generous furniture layouts."
     },
     {
@@ -18363,34 +18260,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.0575,
+        "total": 60.143750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.0575,
+      "rankScore": 60.143750000000004,
       "visionNotes": "Kitchen is visible and opens to dining/living area; stove appears to have burner grates but angle/reflection creates some uncertainty; outdoor terrace is visible but appears to be a shared building amenity rather than private unit space."
     },
     {
@@ -18461,34 +18363,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 61.0575,
+        "total": 60.143750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 61.0575,
+      "rankScore": 60.143750000000004,
       "visionNotes": "Kitchen is visible and open to living/dining area; electric/induction cooktop visible; private outdoor terrace with views shown; living room is spacious with ample seating and natural light."
     },
     {
@@ -18560,34 +18467,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.4475,
+        "total": 59.551750000000006,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 22.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 691,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.4475,
+      "rankScore": 59.551750000000006,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove appears to be electric (flat cooktop visible); living room is spacious with floor-to-ceiling windows and good proportions; no private outdoor space, only common building exterior shown."
     },
     {
@@ -18657,34 +18569,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 60.379999999999995,
+        "total": 59.54975,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 57.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 25
         },
         "friends": {
           "score": 46.025000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 12,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 648,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.379999999999995,
+      "rankScore": 59.54975,
       "visionNotes": "Kitchen is open to living area with island counter; stove has a black flat cooktop (electric/induction); terrace visible is shared building space; living room is spacious with high ceilings and abundant natural light."
     },
     {
@@ -18755,34 +18672,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.3775,
+        "total": 59.49775,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.3775,
+      "rankScore": 59.49775,
       "visionNotes": "Open-plan kitchen with electric range visible in multiple photos; large glass doors/windows open to what appears to be a private terrace with city views; spacious living room with good proportions."
     },
     {
@@ -18853,34 +18775,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.3775,
+        "total": 59.49775,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.3775,
+      "rankScore": 59.49775,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and grates; no private outdoor space shown; living room is spacious with large windows and typical NYC proportions."
     },
     {
@@ -18951,34 +18878,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.3775,
+        "total": 59.49775,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.3775,
+      "rankScore": 59.49775,
       "visionNotes": "Kitchen is visible and open to dining/living area with floor-to-ceiling windows; stove type cannot be determined from angles shown; no private outdoor space visible; living room is spacious with high ceilings and panoramic city views."
     },
     {
@@ -19050,35 +18982,142 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.2925,
+        "total": 59.417,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 42.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 34
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.2925,
+      "rankScore": 59.417,
       "visionNotes": "Kitchen is visible and semi-open to living/dining area via counter pass-through; electric stove clearly visible; private terrace/garden shown in first photo; living room appears spacious but only one room shown clearly."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 25,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 50,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "C Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 22,
+          "lines": [
+            "M11"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 14,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "795 Columbus Avenue #5K, NEW YORK, NY, 10025",
+        "availableDate": "2026-07-02",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 71,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-09",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-795-columbus-avenue-new-york-05k.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/fb2bac8f9bacc57c6e04459e974b1480-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e9442fb669cd75749ebc5c94928ed015-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/885fbc655da4783d617795485d1a7ec3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b7052c432827c055807eb137a516e8ff-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
+        ],
+        "price": 5722,
+        "sqft": 637,
+        "title": "795 Columbus Avenue #5K",
+        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 59.164750000000005,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.23,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 9.25,
+          "weight": 0.14,
+          "sqft": 637,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 59.164750000000005,
+      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with clear burner grates; no private outdoor space (photos show high-rise building amenities only); living room appears spacious based on available sight lines."
     },
     {
       "commute": {
@@ -19149,132 +19188,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 60.015,
+        "total": 59.15375,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 12.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 650,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 60.015,
+      "rankScore": 59.15375,
       "visionNotes": "Kitchen is open-plan to living/dining area with electric cooktop; private rooftop terrace with pergola visible; spacious living room with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 25,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 22,
-          "lines": [
-            "M11"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 14,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "795 Columbus Avenue #5K, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-02",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 71,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-05-09",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-795-columbus-avenue-new-york-05k.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fb2bac8f9bacc57c6e04459e974b1480-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e9442fb669cd75749ebc5c94928ed015-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/885fbc655da4783d617795485d1a7ec3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b7052c432827c055807eb137a516e8ff-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
-        ],
-        "price": 5722,
-        "sqft": 637,
-        "title": "795 Columbus Avenue #5K",
-        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 59.9675,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 57.5,
-          "weight": 0.25,
-          "minutes": 25
-        },
-        "friends": {
-          "score": 46.025000000000006,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 9.25,
-          "weight": 0.15,
-          "sqft": 637,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.9675,
-      "visionNotes": "Kitchen is open to living/dining area with island; gas range visible with clear burner grates; no private outdoor space (photos show high-rise building amenities only); living room appears spacious based on available sight lines."
     },
     {
       "commute": {
@@ -19344,34 +19291,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.8675,
+        "total": 59.025999999999996,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.8675,
+      "rankScore": 59.025999999999996,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range; no private outdoor space; living room is spacious with good proportions for NYC."
     },
     {
@@ -19442,34 +19394,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.8675,
+        "total": 59.025999999999996,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.8675,
+      "rankScore": 59.025999999999996,
       "visionNotes": "Kitchen is visible and open to the living/dining area; stove appears to be electric/induction with a flat cooktop; no private outdoor space visible; living room is spacious with large windows."
     },
     {
@@ -19540,34 +19497,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.8675,
+        "total": 59.025999999999996,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.8675,
+      "rankScore": 59.025999999999996,
       "visionNotes": "Kitchen with island is visible and opens into a spacious living/dining area with floor-to-ceiling windows; no private outdoor space visible; stove burners/cooktop type not clearly distinguishable from these angles."
     },
     {
@@ -19640,34 +19602,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.77043827731755,
+        "total": 58.91299239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 28.675000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.77043827731755,
+      "rankScore": 58.91299239216305,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; cooktop appears to be electric/induction (flat dark surface, no visible grates); no private outdoor space shown; living room has decent proportions with high ceilings but furniture arrangement suggests moderate square footage."
     },
     {
@@ -19739,35 +19706,142 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.58543827731755,
+        "total": 58.78824239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 33.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 39
         },
         "friends": {
           "score": 36.25,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.58543827731755,
+      "rankScore": 58.78824239216305,
       "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible grates; private terrace with table and seating; living room appears spacious with multiple seating areas."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 30,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 52,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 17,
+          "lines": [
+            "M11"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 16,
+          "lines": [
+            "M104"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "801 Amsterdam Avenue #3G, NEW YORK, NY, 10025",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-801-amsterdam-ave-new-york-03g.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/196266cc75fbd1b94f8e75823cb8a029-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/eb9a93f1fc9cc680ad2f662eef82ad86-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/60b8b89813c9dccb5e3ebffef7668db1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/fa509ad3c2d47699eabf2d2465954121-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
+        ],
+        "price": 6088,
+        "sqft": 671,
+        "title": "801 Amsterdam Avenue #3G",
+        "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/03g",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 58.642,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.23,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 47.3,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": 671,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 58.642,
+      "visionNotes": "Kitchen is visible and open to living space with island; gas range with visible burners; private terrace with landscaping visible in photo 2; living room appears spacious with good proportions in photos 3-4."
     },
     {
       "commute": {
@@ -19838,34 +19912,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.4525,
+        "total": 58.628750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 8.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 635,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.4525,
+      "rankScore": 58.628750000000004,
       "visionNotes": "Photo 1 shows an open-plan kitchen with a gas range (visible grates) flowing into a spacious living area; photo 5 shows a private rooftop terrace with seating and grill."
     },
     {
@@ -19936,134 +20015,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.4425,
+        "total": 58.622249999999994,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 40.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 35
         },
         "friends": {
           "score": 33.275,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.4425,
+      "rankScore": 58.622249999999994,
       "visionNotes": "Open-plan kitchen visible in first two photos flowing into living/dining area with large windows; private terrace/balcony clearly shown in last photo; living room is spacious with furniture well-distributed; stove type unclear due to distance and angle."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 36,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 29,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 52,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "19 Wyckoff Street #23, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 54,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-05-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-23.png",
-        "neighborhood": "Cobble Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f87a39ac0e89fd4de8dccec3ee830e94-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1aef573b4bd372cc62ef974edc388e9b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d719c11d9234a0d9029bf947c39652cd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c12877b8bdca2354d0799a69cf18f9c9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/515929e1d8b7d8636ac4355392d68b80-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4e8f1176da4babae629ffad421e32040-se_large_800_400.webp"
-        ],
-        "price": 6200,
-        "sqft": null,
-        "title": "19 Wyckoff Street #23",
-        "url": "https://streeteasy.com/building/the-julian/23",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 59.415438277317556,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 38.800000000000004,
-          "weight": 0.25,
-          "minutes": 36
-        },
-        "friends": {
-          "score": 29.025000000000006,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.415438277317556,
-      "visionNotes": "Kitchen is semi-open to living area via counter pass-through; electric cooktop visible; no private outdoor space; living room appears spacious with good furniture layout."
     },
     {
       "commute": {
@@ -20135,132 +20120,246 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.41543827731755,
+        "total": 58.60124239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 31.150000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.41543827731755,
+      "rankScore": 58.60124239216305,
       "visionNotes": "Kitchen with gas range visible in last photo, open to living area via island; living room is spacious with large windows and generous furniture layout; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
         "office": {
-          "minutes": 30,
+          "minutes": 36,
           "lines": [
-            "B Line",
-            "E Line"
+            "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 52,
+          "minutes": 29,
           "lines": [
-            "2 Line"
+            "B65"
           ]
         },
         "longIslandCity": {
           "minutes": 39,
           "lines": [
-            "3 Line",
-            "7"
+            "G Line"
           ]
         },
         "morningsideHeights": {
-          "minutes": 17,
+          "minutes": 52,
           "lines": [
-            "M11"
+            "F Line",
+            "2 Line",
+            "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 16,
+          "minutes": 47,
           "lines": [
-            "M104"
+            "F Line",
+            "B Line",
+            "M86+"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "open",
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
       "listing": {
-        "address": "801 Amsterdam Avenue #3G, NEW YORK, NY, 10025",
+        "address": "19 Wyckoff Street #23, BROOKLYN, NY, 11201",
         "availableDate": "now",
         "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
+        "bedrooms": 2,
+        "daysOnMarket": 54,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-801-amsterdam-ave-new-york-03g.png",
-        "neighborhood": "Upper West Side",
+        "estimatedListingDate": "2026-05-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-23.png",
+        "neighborhood": "Cobble Hill",
         "photos": [
-          "https://photos.zillowstatic.com/fp/196266cc75fbd1b94f8e75823cb8a029-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/eb9a93f1fc9cc680ad2f662eef82ad86-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/60b8b89813c9dccb5e3ebffef7668db1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/fa509ad3c2d47699eabf2d2465954121-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/f87a39ac0e89fd4de8dccec3ee830e94-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1aef573b4bd372cc62ef974edc388e9b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d719c11d9234a0d9029bf947c39652cd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c12877b8bdca2354d0799a69cf18f9c9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/515929e1d8b7d8636ac4355392d68b80-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4e8f1176da4babae629ffad421e32040-se_large_800_400.webp"
         ],
-        "price": 6088,
-        "sqft": 671,
-        "title": "801 Amsterdam Avenue #3G",
-        "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/03g",
+        "price": 6200,
+        "sqft": null,
+        "title": "19 Wyckoff Street #23",
+        "url": "https://streeteasy.com/building/the-julian/23",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
+      "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.3725,
+        "total": 58.58849239216305,
         "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
         },
         "office": {
-          "score": 49,
-          "weight": 0.25,
-          "minutes": 30
+          "score": 38.800000000000004,
+          "weight": 0.23,
+          "minutes": 36
         },
         "friends": {
-          "score": 47.3,
-          "weight": 0.2
+          "score": 29.025000000000006,
+          "weight": 0.19
         },
         "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": 671,
-          "bedrooms": 1
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.3725,
-      "visionNotes": "Kitchen is visible and open to living space with island; gas range with visible burners; private terrace with landscaping visible in photo 2; living room appears spacious with good proportions in photos 3-4."
+      "rankScore": 58.58849239216305,
+      "visionNotes": "Kitchen is semi-open to living area via counter pass-through; electric cooktop visible; no private outdoor space; living room appears spacious with good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 17,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 37,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 30,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "11-39 49th Avenue #720, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 24,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-24",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hunters-landing-lic-720.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/8902b3ea7b8e8b3509b20cc859977a07-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8902b3ea7b8e8b3509b20cc859977a07-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5ee6757174bfb87b62c0ba3b62653562-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6997958aa3da0aa630082630dff9a546-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ffad6a0fe4edd2fcba65971285d1a775-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4a15294dabc310284f199db92021c4d3-se_large_800_400.webp"
+        ],
+        "price": 6600,
+        "sqft": 1200,
+        "title": "11-39 49th Avenue #720",
+        "url": "https://streeteasy.com/building/hunters-landing-lic/720",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 58.506484809834994,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.23,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 45.599999999999994,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 62.13203435596424,
+          "weight": 0.14,
+          "sqft": 1200,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 58.506484809834994,
+      "visionNotes": "Kitchen is visible and open to living area; stove details unclear from angle/reflection; no private outdoor space visible; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -20332,34 +20431,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.260438277317554,
+        "total": 58.44124239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 38.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 36
         },
         "friends": {
           "score": 28.25,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.260438277317554,
+      "rankScore": 58.44124239216305,
       "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas stove with visible burner grates; no private outdoor space visible; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -20432,34 +20536,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.245438277317554,
+        "total": 58.43974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.3,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.245438277317554,
+      "rankScore": 58.43974239216305,
       "visionNotes": "Kitchen is semi-open with a counter pass-through to the living/dining area; electric stove visible; living room appears spacious with good furniture arrangement; no private outdoor space shown."
     },
     {
@@ -20534,132 +20643,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 59.18750000000001,
+        "total": 58.39275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 38.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 36
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 59.18750000000001,
+      "rankScore": 58.39275,
       "visionNotes": "Kitchen is clearly visible and open to the living area; stove is electric with a flat black cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only street-level views and shared building exterior."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 17,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "11-39 49th Avenue #720, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 24,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-24",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hunters-landing-lic-720.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8902b3ea7b8e8b3509b20cc859977a07-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8902b3ea7b8e8b3509b20cc859977a07-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5ee6757174bfb87b62c0ba3b62653562-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6997958aa3da0aa630082630dff9a546-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ffad6a0fe4edd2fcba65971285d1a775-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4a15294dabc310284f199db92021c4d3-se_large_800_400.webp"
-        ],
-        "price": 6600,
-        "sqft": 1200,
-        "title": "11-39 49th Avenue #720",
-        "url": "https://streeteasy.com/building/hunters-landing-lic/720",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 59.13980515339463,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.25,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 45.599999999999994,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 62.13203435596424,
-          "weight": 0.15,
-          "sqft": 1200,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 59.13980515339463,
-      "visionNotes": "Kitchen is visible and open to living area; stove details unclear from angle/reflection; no private outdoor space visible; living room appears spacious with large windows."
     },
     {
       "commute": {
@@ -20728,34 +20745,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.847500000000004,
+        "total": 58.06975,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 38.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 36
         },
         "friends": {
           "score": 32.425000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.847500000000004,
+      "rankScore": 58.06975,
       "visionNotes": "Kitchen is semi-open to living area with a partial divider; gas range visible with visible burner grates; no private outdoor space shown; living room appears typical size for NYC one-bedroom."
     },
     {
@@ -20825,34 +20847,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 58.7775,
+        "total": 58.05125,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 52.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 28
         },
         "friends": {
           "score": 40.075,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.7775,
+      "rankScore": 58.05125,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; gas cooktop with visible burners; no private outdoor space shown; living room appears spacious with high ceilings."
     },
     {
@@ -20923,34 +20950,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.7625,
+        "total": 58.00175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.7625,
+      "rankScore": 58.00175,
       "visionNotes": "Open-plan kitchen with island and gas range visible; living room is spacious with large windows and floor-to-ceiling views; no private outdoor space shown."
     },
     {
@@ -21021,134 +21053,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.7625,
+        "total": 58.00175,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.7625,
+      "rankScore": 58.00175,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove is electric with visible oven controls; unit has a private terrace with Manhattan skyline views; living room is spacious with high ceilings and large furniture pieces."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 34,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 49,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 49,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "461 Dean Street #25A, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 44,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-04",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-461-dean-street-brooklyn-25a.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d56669106f9835b6478afb1d837d1c40-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cf6b869c99aa8c817d9c850e55ae79a9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/367bdeadba564c857bb8e132faea823f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/2fb5e76ca3535de44be25b8f58da5206-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/32cbc07d77e8ff3cc88753c3eccbe3a3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b154bcc7dbd87aac52f960bd64728bbf-se_extra_large_1500_800.webp"
-        ],
-        "price": 5245,
-        "sqft": 644,
-        "title": "461 Dean Street #25A",
-        "url": "https://streeteasy.com/building/461-dean-street-brooklyn/25a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.684999999999995,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 42.2,
-          "weight": 0.25,
-          "minutes": 34
-        },
-        "friends": {
-          "score": 32.425,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 11,
-          "weight": 0.15,
-          "sqft": 644,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 58.684999999999995,
-      "visionNotes": "Kitchen is open to living area with visible gas burners on the range; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -21222,34 +21160,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.6775,
+        "total": 57.921,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.6775,
+      "rankScore": 57.921,
       "visionNotes": "Kitchen is open to dining/living area with electric cooktop; private terrace visible with chair and plants; living room spacious with good furniture placement and NYC skyline views."
     },
     {
@@ -21324,34 +21267,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.6775,
+        "total": 57.921,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.6775,
+      "rankScore": 57.921,
       "visionNotes": "Kitchen is visible with semi-open layout to dining/living areas; stove appears to be electric/induction (flat cooktop visible); private balcony/terrace with glass railing is clearly shown; living room is spacious with high ceilings and modern furnishings."
     },
     {
@@ -21426,34 +21374,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.6775,
+        "total": 57.921,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.6775,
+      "rankScore": 57.921,
       "visionNotes": "Kitchen is open to living/dining area with island; electric cooktop visible; no private outdoor space; living room is spacious with good furniture proportions."
     },
     {
@@ -21528,35 +21481,144 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.6775,
+        "total": 57.921,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.6775,
+      "rankScore": 57.921,
       "visionNotes": "Kitchen is visible with a pass-through counter opening to dining/living area; electric cooktop visible; no private outdoor space shown; living room appears generously proportioned with high ceilings and large windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 34,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 17,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 49,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 49,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 44,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "461 Dean Street #25A, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 44,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-04",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-461-dean-street-brooklyn-25a.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/d56669106f9835b6478afb1d837d1c40-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cf6b869c99aa8c817d9c850e55ae79a9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/367bdeadba564c857bb8e132faea823f-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/2fb5e76ca3535de44be25b8f58da5206-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/32cbc07d77e8ff3cc88753c3eccbe3a3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b154bcc7dbd87aac52f960bd64728bbf-se_extra_large_1500_800.webp"
+        ],
+        "price": 5245,
+        "sqft": 644,
+        "title": "461 Dean Street #25A",
+        "url": "https://streeteasy.com/building/461-dean-street-brooklyn/25a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 57.90675,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 42.2,
+          "weight": 0.23,
+          "minutes": 34
+        },
+        "friends": {
+          "score": 32.425,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 11,
+          "weight": 0.14,
+          "sqft": 644,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 57.90675,
+      "visionNotes": "Kitchen is open to living area with visible gas burners on the range; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
       "commute": {
@@ -21629,131 +21691,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.56048895998109,
+        "total": 57.80353969598235,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 24.424999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 40.66992639987393,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 3
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.56048895998109,
+      "rankScore": 57.80353969598235,
       "visionNotes": "Kitchen is visible with island opening to living/dining area; flat black cooktop visible indicating electric; large orange sofa in living room with good sightlines; windows visible but no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 29,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "400 West 63rd Street #1804, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 12,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-06",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-1804.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/074bb52379164fe4323d2a735f26f523-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7292c7a58a4cf3739276b6625b5f4b3d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/13a24418e3d2d035172d404424531abd-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9546873053c44f2de7fd420af7bd4f6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ea997410fe6c4f5fbf179b78079bd5d0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4f383c53857f2172833efffae7562a25-se_extra_large_1500_800.webp"
-        ],
-        "price": 6028,
-        "sqft": 676,
-        "title": "400 West 63rd Street #1804",
-        "url": "https://streeteasy.com/building/the-ashley/1804",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 58.455000000000005,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.25,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 37.525000000000006,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 19,
-          "weight": 0.15,
-          "sqft": 676,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 58.455000000000005,
-      "visionNotes": "Kitchen is visible and open to living/dining area; no stove/range visible in photos; no private outdoor space; living room is spacious with large windows and comfortable furniture layout."
     },
     {
       "commute": {
@@ -21823,35 +21794,349 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 58.36861873499005,
+        "total": 57.76546081932405,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 39.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 65.49079156660034,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1219,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.36861873499005,
+      "rankScore": 57.76546081932405,
       "visionNotes": "Kitchen is open-plan to living/dining area with visible gas cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 29,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "400 West 63rd Street #1804, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 12,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-ashley-1804.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/074bb52379164fe4323d2a735f26f523-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7292c7a58a4cf3739276b6625b5f4b3d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/13a24418e3d2d035172d404424531abd-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9546873053c44f2de7fd420af7bd4f6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ea997410fe6c4f5fbf179b78079bd5d0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4f383c53857f2172833efffae7562a25-se_extra_large_1500_800.webp"
+        ],
+        "price": 6028,
+        "sqft": 676,
+        "title": "400 West 63rd Street #1804",
+        "url": "https://streeteasy.com/building/the-ashley/1804",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 57.741749999999996,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.23,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 19,
+          "weight": 0.14,
+          "sqft": 676,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 57.741749999999996,
+      "visionNotes": "Kitchen is visible and open to living/dining area; no stove/range visible in photos; no private outdoor space; living room is spacious with large windows and comfortable furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 29,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-19",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
+        ],
+        "price": 4400,
+        "sqft": 600,
+        "title": "52 4th Avenue #506",
+        "url": "https://streeteasy.com/building/the-eleanor/506",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 57.40375,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.23,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 35.825,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 0,
+          "weight": 0.14,
+          "sqft": 600,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 57.40375,
+      "visionNotes": "Kitchen is open-plan to living/dining area with electric range visible; unit has balcony/terrace access but no private garden; living room is spacious with floor-to-ceiling windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T13:13:37.165Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "52 4th Avenue #405, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 9,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-405.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/8364ec3a32916bfa77d851b7fa436c53-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e25ad06708f46369196c74d86b296cc9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/0a8e6a71095d14d9b6c00bea24ae0703-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c66620da56af0c51114da287255a56da-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1ba27867de8816844608efaeefd8218d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/39685e6d53bde5c00464e26f4300dd5f-se_extra_large_1500_800.webp"
+        ],
+        "price": 4250,
+        "sqft": 600,
+        "title": "52 4th Avenue #405",
+        "url": "https://streeteasy.com/building/the-eleanor/405",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 57.40375,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.23,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 35.825,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 0,
+          "weight": 0.14,
+          "sqft": 600,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 57.40375,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (black flat cooktop visible); living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
@@ -21925,233 +22210,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.14043827731756,
+        "total": 57.37724239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 38.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 36
         },
         "friends": {
           "score": 22.650000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.14043827731756,
+      "rankScore": 57.37724239216305,
       "visionNotes": "Kitchen with gas range visible and semi-open to dining area; private terrace accessible from living room; living room is spacious with good furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 29,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-19",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
-        ],
-        "price": 4400,
-        "sqft": 600,
-        "title": "52 4th Avenue #506",
-        "url": "https://streeteasy.com/building/the-eleanor/506",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.14,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.25,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 35.825,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 0,
-          "weight": 0.15,
-          "sqft": 600,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 58.14,
-      "visionNotes": "Kitchen is open-plan to living/dining area with electric range visible; unit has balcony/terrace access but no private garden; living room is spacious with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "52 4th Avenue #405, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 9,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-10",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-405.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/8364ec3a32916bfa77d851b7fa436c53-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e25ad06708f46369196c74d86b296cc9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0a8e6a71095d14d9b6c00bea24ae0703-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c66620da56af0c51114da287255a56da-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1ba27867de8816844608efaeefd8218d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/39685e6d53bde5c00464e26f4300dd5f-se_extra_large_1500_800.webp"
-        ],
-        "price": 4250,
-        "sqft": 600,
-        "title": "52 4th Avenue #405",
-        "url": "https://streeteasy.com/building/the-eleanor/405",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.14,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.25,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 35.825,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 0,
-          "weight": 0.15,
-          "sqft": 600,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 58.14,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (black flat cooktop visible); living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from windows."
     },
     {
       "commute": {
@@ -22223,34 +22315,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 58.0825,
+        "total": 57.35575,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.725,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.0825,
+      "rankScore": 57.35575,
       "visionNotes": "Kitchen is visible with wood cabinetry and open to dining/living area via archway; gas cooktop visible in close-up; bedroom with glass doors suggests outdoor access (likely terrace/patio); living room appears reasonably proportioned for NYC."
     },
     {
@@ -22320,34 +22417,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsAcceptable",
       "rankBreakdown": {
-        "total": 58.024028650321206,
+        "total": 57.35367674029979,
         "neighborhood": {
           "score": 80,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsAcceptable"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 45.175000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 0.2601910021413403,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 850,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 58.024028650321206,
+      "rankScore": 57.35367674029979,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island; a gas cooktop is visible on the stovetop; no private outdoor space shown; living room appears reasonably sized for NYC."
     },
     {
@@ -22420,34 +22522,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.970438277317555,
+        "total": 57.24124239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 35.400000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 38
         },
         "friends": {
           "score": 26.05,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.970438277317555,
+      "rankScore": 57.24124239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burner grates), opens to living/dining area via counter; living room is spacious with good furniture proportion; no private outdoor space shown."
     },
     {
@@ -22520,34 +22627,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.458230483453335,
+        "total": 56.758931784556445,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 21.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 34.55486988968889,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1044,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.458230483453335,
+      "rankScore": 56.758931784556445,
       "visionNotes": "Kitchen is semi-open to dining/living area with island seating; private outdoor space visible through French doors in multiple photos; living room is spacious with large windows and good furniture-to-space ratio; stove type unclear due to angle and reflection."
     },
     {
@@ -22619,34 +22731,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.37480515339463,
+        "total": 56.712734809835,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 18.400000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 48
         },
         "friends": {
           "score": 17.275,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 62.13203435596424,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1200,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.37480515339463,
+      "rankScore": 56.712734809835,
       "visionNotes": "Kitchen is open to living/dining area with dark cabinets and what appears to be a gas range; private fenced yard with grass and patio furniture visible; living room is spacious with comfortable proportions."
     },
     {
@@ -22718,34 +22835,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Open-plan kitchen visible in multiple photos with gas cooktop; large private terrace/balcony with city views; spacious living room with floor-to-ceiling windows."
     },
     {
@@ -22817,34 +22939,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Kitchen is clearly open to living/dining area with island; stove appears to have visible burners suggesting gas, though reflections make it slightly uncertain; no private outdoor space visible, only floor-to-ceiling windows; living room is spacious with good furniture arrangement."
     },
     {
@@ -22916,34 +23043,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Kitchen is visible with island and opens to living room with shared sightlines; electric/induction cooktop visible; large living room with floor-to-ceiling windows; no private outdoor space, only shared high-rise views."
     },
     {
@@ -23015,34 +23147,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Kitchen is semi-open to living/dining area with an island counter; electric/induction cooktop visible; large living room with floor-to-ceiling windows and outdoor terrace (shared building amenity, not private); no private garden."
     },
     {
@@ -23114,34 +23251,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with full sightlines; gas cooktop visible in multiple kitchen photos; large living room with expansive windows; no private outdoor space shown, only NYC skyline views from high-rise windows."
     },
     {
@@ -23213,34 +23355,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 57.03543827731755,
+        "total": 56.37849239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 57.03543827731755,
+      "rankScore": 56.37849239216305,
       "visionNotes": "Kitchen is visible with island counter opening to living/dining area with full sightlines; gas cooktop visible but angle/reflection makes absolute confirmation medium confidence; large living room with floor-to-ceiling windows, no private outdoor space beyond windows; bathroom and bedroom also shown."
     },
     {
@@ -23312,133 +23459,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.95043827731755,
+        "total": 56.297742392163045,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.200000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.95043827731755,
+      "rankScore": 56.297742392163045,
       "visionNotes": "Open-plan kitchen with gas range visible in multiple photos; large living areas with floor-to-ceiling windows overlooking NYC skyline; no private outdoor space visible, only high-rise balconies/windows."
     },
     {
       "commute": {
         "office": {
-          "minutes": 43,
+          "minutes": 9,
           "lines": [
             "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 37,
+          "minutes": 44,
           "lines": [
-            "B65"
+            "G Line",
+            "B69"
           ]
         },
         "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
+          "minutes": 18,
+          "lines": []
         },
         "morningsideHeights": {
-          "minutes": 57,
+          "minutes": 36,
           "lines": [
-            "2 Line",
+            "E Line",
+            "B Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 54,
+          "minutes": 30,
           "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
+            "E Line",
+            "D Line",
+            "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "gasStove": "unknown",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "no",
       "hasGarden": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "listing": {
-        "address": "418 Henry Street #2, BROOKLYN, NY, 11201",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 4,
+        "address": "3 Court Square #613, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-12",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 10,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-16",
-        "externalScreenshot": "screenshots/streeteasy-com-building-418-henry-street-2.png",
-        "neighborhood": "Cobble Hill",
+        "estimatedListingDate": "2026-07-09",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-skyline-tower-613.png",
+        "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/4d7cf9adb794d813f0a0164017a25b5f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/27ac190ce4393bd6970aed98bb5ff453-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2ac0cbc54d26cfe65a7733fbbb7d1c8f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e7fb9b7d7a159a44b65470a871e79ae5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/77b0b6b2e83df6607b9402a6974650f3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/fb97a13ff99eea36d4079301cc2eb3b9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f3bc16e20329d57179e233e2d739af2d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ee4b98fe04fdd9c6393a897153cedbcf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c0a96a1caa3dca376b9cf4e2d00241a9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/61523845949c198256f8a1f46a60b1c1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d3d85f939d6a50229c19f3d68297600e-se_large_800_400.webp"
         ],
-        "price": 6500,
-        "sqft": 1100,
-        "title": "418 Henry Street #2",
-        "url": "https://streeteasy.com/building/418-henry-street/2",
+        "price": 4950,
+        "sqft": 706,
+        "title": "3 Court Square #613",
+        "url": "https://streeteasy.com/building/skyline-tower/613",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 56.90315472394508,
+        "total": 56.255,
         "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
         },
         "office": {
-          "score": 26.900000000000006,
-          "weight": 0.25,
-          "minutes": 43
+          "score": 84.7,
+          "weight": 0.23,
+          "minutes": 9
         },
         "friends": {
-          "score": 17.550000000000004,
-          "weight": 0.2
+          "score": 45.60000000000001,
+          "weight": 0.19
         },
         "size": {
-          "score": 44.45436482630055,
-          "weight": 0.15,
-          "sqft": 1100,
-          "bedrooms": 2
+          "score": 26.5,
+          "weight": 0.14,
+          "sqft": 706,
+          "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.90315472394508,
-      "visionNotes": "Kitchen is visible with island seating overlooking living/dining area; no stove visible in photos; living room appears spacious with multiple windows and well-proportioned furniture layout; no private outdoor space shown."
+      "rankScore": 56.255,
+      "visionNotes": "Kitchen is visible and open to living area with electric range; photos show building amenities (pool, gym, spa) rather than private outdoor space; living room appears spacious in the one kitchen/living photo shown."
     },
     {
       "commute": {
@@ -23510,35 +23667,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.89543827731755,
+        "total": 56.24549239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 24.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.89543827731755,
+      "rankScore": 56.24549239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates), opens to dining/living area through a large opening with wood-framed threshold; living room is spacious with good furniture-to-space ratio; no private outdoor space visible, only windows to shared street views."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 43,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 37,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 57,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 54,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T17:32:47.411Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "418 Henry Street #2, BROOKLYN, NY, 11201",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 4,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
+        "externalScreenshot": "screenshots/streeteasy-com-building-418-henry-street-2.png",
+        "neighborhood": "Cobble Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/4d7cf9adb794d813f0a0164017a25b5f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/27ac190ce4393bd6970aed98bb5ff453-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2ac0cbc54d26cfe65a7733fbbb7d1c8f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e7fb9b7d7a159a44b65470a871e79ae5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/77b0b6b2e83df6607b9402a6974650f3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/de77f80b8879256bc1b5c778e357d193-se_large_800_400.webp"
+        ],
+        "price": 6500,
+        "sqft": 1100,
+        "title": "418 Henry Street #2",
+        "url": "https://streeteasy.com/building/418-henry-street/2",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 56.24511107568208,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.23,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 17.550000000000004,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 44.45436482630055,
+          "weight": 0.14,
+          "sqft": 1100,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 56.24511107568208,
+      "visionNotes": "Kitchen is visible with island seating overlooking living/dining area; no stove visible in photos; living room appears spacious with multiple windows and well-proportioned furniture layout; no private outdoor space shown."
     },
     {
       "commute": {
@@ -23608,34 +23873,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.86543827731756,
+        "total": 56.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.86543827731756,
+      "rankScore": 56.22974239216305,
       "visionNotes": "Kitchen is clearly visible and open to living area with island; stove appears to be electric/induction (flat dark cooktop visible); windows show balcony/outdoor space accessible from living area."
     },
     {
@@ -23706,34 +23976,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.86543827731756,
+        "total": 56.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.86543827731756,
+      "rankScore": 56.22974239216305,
       "visionNotes": "Kitchen is open to living area with island; stove has flat black cooktop (electric/induction); private terrace visible with skyline views and metal railing."
     },
     {
@@ -23804,34 +24079,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.86543827731756,
+        "total": 56.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.86543827731756,
+      "rankScore": 56.22974239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with an island; gas range with visible burners/knobs; no private outdoor space (only window views of other buildings and shared courtyard); living room appears spacious with floor-to-ceiling windows."
     },
     {
@@ -23902,34 +24182,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.86543827731756,
+        "total": 56.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.86543827731756,
+      "rankScore": 56.22974239216305,
       "visionNotes": "Kitchen visible in first photo with open layout to living area; stove appears to have visible grates suggesting gas; outdoor spaces shown are shared building amenities (roof deck), not private unit space; living areas appear spacious in photos 2-4 but these may be common areas rather than unit living room."
     },
     {
@@ -24000,34 +24285,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.86543827731756,
+        "total": 56.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.86543827731756,
+      "rankScore": 56.22974239216305,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living/dining area via island counter; living room appears spacious with floor-to-ceiling windows; no private outdoor space (window AC units and shared building views)."
     },
     {
@@ -24099,34 +24389,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.807500000000005,
+        "total": 56.18275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 30.725000000000005,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.807500000000005,
+      "rankScore": 56.18275,
       "visionNotes": "Kitchen is visible and open to living/dining areas; stove appears to have gas burners visible in photo 4 and 7; living room is generously proportioned with good furniture arrangement; no private outdoor space visible, only building windows/views."
     },
     {
@@ -24198,34 +24493,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.807500000000005,
+        "total": 56.18275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 30.725000000000005,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.807500000000005,
+      "rankScore": 56.18275,
       "visionNotes": "Kitchen visible in photos 4 and 7 with semi-open layout to living areas; gas cooktop visible in photo 7; living room appears spacious in photo 2 and 7; no private outdoor space visible, only windows."
     },
     {
@@ -24297,133 +24597,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.807500000000005,
+        "total": 56.18275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 30.725000000000005,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.807500000000005,
+      "rankScore": 56.18275,
       "visionNotes": "Kitchen visible in multiple photos with pass-through counter to living area; stove appears to have burner grates visible but angle/reflection makes confidence medium; no private outdoor space evident; living room appears spacious in several photos."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 9,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 18,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 36,
-          "lines": [
-            "E Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "3 Court Square #613, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-12",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 10,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-09",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-skyline-tower-613.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/fb97a13ff99eea36d4079301cc2eb3b9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f3bc16e20329d57179e233e2d739af2d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ee4b98fe04fdd9c6393a897153cedbcf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c0a96a1caa3dca376b9cf4e2d00241a9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/61523845949c198256f8a1f46a60b1c1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d3d85f939d6a50229c19f3d68297600e-se_large_800_400.webp"
-        ],
-        "price": 4950,
-        "sqft": 706,
-        "title": "3 Court Square #613",
-        "url": "https://streeteasy.com/building/skyline-tower/613",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 56.77,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 84.7,
-          "weight": 0.25,
-          "minutes": 9
-        },
-        "friends": {
-          "score": 45.60000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.5,
-          "weight": 0.15,
-          "sqft": 706,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 56.77,
-      "visionNotes": "Kitchen is visible and open to living area with electric range; photos show building amenities (pool, gym, spa) rather than private outdoor space; living room appears spacious in the one kitchen/living photo shown."
     },
     {
       "commute": {
@@ -24494,34 +24701,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.610438277317556,
+        "total": 55.97474239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 23.500000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.610438277317556,
+      "rankScore": 55.97474239216305,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; private terrace/balcony clearly shown; spacious living area with floor-to-ceiling windows; stove type obscured by angles and reflections."
     },
     {
@@ -24593,34 +24805,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.610438277317556,
+        "total": 55.97474239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 23.500000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.610438277317556,
+      "rankScore": 55.97474239216305,
       "visionNotes": "Kitchen is open to living area with island layout; electric cooktop visible; private terrace shown in photo 2; spacious living room with expansive windows."
     },
     {
@@ -24692,34 +24909,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.610438277317556,
+        "total": 55.97474239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 23.500000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.610438277317556,
+      "rankScore": 55.97474239216305,
       "visionNotes": "Kitchen is open to living/dining area in photo 3; stove details not clearly visible; private outdoor terrace visible in photo 6; living room appears spacious with multiple seating areas."
     },
     {
@@ -24791,34 +25013,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.440438277317554,
+        "total": 55.81324239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 22.650000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.440438277317554,
+      "rankScore": 55.81324239216305,
       "visionNotes": "Kitchen is visible in multiple photos with a gas range clearly showing burners/grates; it opens to a dining area with sightlines and shared space; living room is spacious with well-proportioned furniture layout; no private outdoor space visible."
     },
     {
@@ -24890,34 +25117,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.3575,
+        "total": 55.74575,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.724999999999998,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 6.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 625,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.3575,
+      "rankScore": 55.74575,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove has a flat cooktop (electric/induction); no private outdoor space visible; living room appears spacious with good furniture arrangement."
     },
     {
@@ -24990,34 +25222,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.21543827731755,
+        "total": 55.59949239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 21.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.21543827731755,
+      "rankScore": 55.59949239216305,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; stove appears to be electric with a flat cooktop; no private outdoor space shown; living room is spacious with modern furniture layout."
     },
     {
@@ -25090,34 +25327,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.21543827731755,
+        "total": 55.59949239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 21.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.21543827731755,
+      "rankScore": 55.59949239216305,
       "visionNotes": "Open-plan kitchen with gas range visible; spacious living areas with no private outdoor space shown; unit appears to be a modern renovation in a multi-unit building."
     },
     {
@@ -25190,34 +25432,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.21543827731755,
+        "total": 55.59949239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 21.525,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 56.21543827731755,
+      "rankScore": 55.59949239216305,
       "visionNotes": "Kitchen is visible with a counter/island that opens to the living/dining area; appears to have an electric cooktop; spacious living room with large windows and adequate furniture spacing; no private outdoor space visible."
     },
     {
@@ -25289,35 +25536,242 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.9575,
+        "total": 55.388000000000005,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 28.600000000000005,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.9575,
+      "rankScore": 55.388000000000005,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with island; electric stove with smooth cooktop visible; no private outdoor space shown; living room is spacious with good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 15,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 40,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 32,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 16,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-02",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-3811.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9dd92d90f25a8c2a16fad38a1af0c7a2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9dd92d90f25a8c2a16fad38a1af0c7a2-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/26a5c290c910a364a3b2cd4aa5ea9edd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4abea091440ec0c9e3bdeff90e5e2f4b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/68f35643ca5c2bfd516116d7a8de4ec4-se_large_800_400.webp"
+        ],
+        "price": 6678,
+        "sqft": null,
+        "title": "22-44 Jackson Avenue #3811",
+        "url": "https://streeteasy.com/building/5pointz-lic/3811",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.33199239216305,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.23,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 45.175,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 55.33199239216305,
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (black grates visible on stovetop), no private outdoor space shown, and living room appears spacious with floor-to-ceiling windows and ample seating."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 15,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 40,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 32,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "22-44 Jackson Avenue #1901, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-20",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 16,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-03",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-1901.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/68572aac69ffdc9a8c6582b765709926-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/54dc6da0ea5b00466e5bbd154493a027-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/26a5c290c910a364a3b2cd4aa5ea9edd-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/25d9d85438cbe27039022ab90bd6b5e0-se_extra_large_1500_800.webp"
+        ],
+        "price": 6395,
+        "sqft": null,
+        "title": "22-44 Jackson Avenue #1901",
+        "url": "https://streeteasy.com/building/5pointz-lic/1901",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 55.33199239216305,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.23,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 45.175,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 55.33199239216305,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with gas range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from high-rise unit."
     },
     {
       "commute": {
@@ -25388,327 +25842,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.7875,
+        "total": 55.21375,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 25.625000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.7875,
+      "rankScore": 55.21375,
       "visionNotes": "Kitchen is visible and open to living area; stove type unclear due to angle/distance; outdoor space appears to be a shared rooftop deck, not private; living room is spacious with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 15,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "22-44 Jackson Avenue #3811, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 16,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-02",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-3811.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9dd92d90f25a8c2a16fad38a1af0c7a2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9dd92d90f25a8c2a16fad38a1af0c7a2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/26a5c290c910a364a3b2cd4aa5ea9edd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4abea091440ec0c9e3bdeff90e5e2f4b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/68f35643ca5c2bfd516116d7a8de4ec4-se_large_800_400.webp"
-        ],
-        "price": 6678,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #3811",
-        "url": "https://streeteasy.com/building/5pointz-lic/3811",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.77043827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.25,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.77043827731755,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range (black grates visible on stovetop), no private outdoor space shown, and living room appears spacious with floor-to-ceiling windows and ample seating."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 15,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "22-44 Jackson Avenue #1901, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-07-20",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 16,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-03",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-1901.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a41dcc9d03ef33f146960f9bdfebd74a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/68572aac69ffdc9a8c6582b765709926-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/54dc6da0ea5b00466e5bbd154493a027-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/26a5c290c910a364a3b2cd4aa5ea9edd-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/25d9d85438cbe27039022ab90bd6b5e0-se_extra_large_1500_800.webp"
-        ],
-        "price": 6395,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #1901",
-        "url": "https://streeteasy.com/building/5pointz-lic/1901",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.77043827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.25,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.77043827731755,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area with gas range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only city views from high-rise unit."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 39,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 34,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "F Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "53 3rd Street #4R, BROOKLYN, NY, 11231",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 1,
-        "daysOnMarket": 35,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-15",
-        "externalScreenshot": "screenshots/streeteasy-com-building-53-3-street-brooklyn-4r.png",
-        "neighborhood": "Carroll Gardens",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9a2c778b41442f61513150be775cb679-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ac74f328109358599b45581c9350272b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c4c186d8f32b2486f1d6d02b44ebea39-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/45e1261344c19c328ac724229c6164bc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/458bda17ec7ba52fe41e7fab6f442859-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9a2c778b41442f61513150be775cb679-se_medium_500_250.webp"
-        ],
-        "price": 4999,
-        "sqft": null,
-        "title": "53 3rd Street #4R",
-        "url": "https://streeteasy.com/building/53-3-street-brooklyn/4r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 55.7025,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 33.7,
-          "weight": 0.25,
-          "minutes": 39
-        },
-        "friends": {
-          "score": 23.075000000000003,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.7025,
-      "visionNotes": "Kitchen is visible with gas range (visible grates), open to dining area via island; living room is spacious with good furniture-to-space ratio; no private outdoor space shown; bedroom and bathrooms also visible."
     },
     {
       "commute": {
@@ -25781,34 +25948,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.69043827731756,
+        "total": 55.12624239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 28.60000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 42
         },
         "friends": {
           "score": 23.150000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.69043827731756,
+      "rankScore": 55.12624239216305,
       "visionNotes": "Kitchen is visible and clearly open to living/dining area with island; stove appears to be built-in electric/induction based on flat black surface visible; outdoor space shown is a shared building amenity (rooftop), not private; living rooms are spacious with generous windows."
     },
     {
@@ -25882,35 +26054,248 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.69043827731756,
+        "total": 55.12624239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 28.60000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 42
         },
         "friends": {
           "score": 23.150000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.69043827731756,
+      "rankScore": 55.12624239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area in photo 4; stove type unclear due to angle/reflection; last image shows shared roof deck amenity, not private garden; living room appears spacious with generous windows and layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 39,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 34,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 42,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 55,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 50,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "53 3rd Street #4R, BROOKLYN, NY, 11231",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 1,
+        "daysOnMarket": 35,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-15",
+        "externalScreenshot": "screenshots/streeteasy-com-building-53-3-street-brooklyn-4r.png",
+        "neighborhood": "Carroll Gardens",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9a2c778b41442f61513150be775cb679-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ac74f328109358599b45581c9350272b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c4c186d8f32b2486f1d6d02b44ebea39-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/45e1261344c19c328ac724229c6164bc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/458bda17ec7ba52fe41e7fab6f442859-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9a2c778b41442f61513150be775cb679-se_medium_500_250.webp"
+        ],
+        "price": 4999,
+        "sqft": null,
+        "title": "53 3rd Street #4R",
+        "url": "https://streeteasy.com/building/53-3-street-brooklyn/4r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 55.12025,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 33.7,
+          "weight": 0.23,
+          "minutes": 39
+        },
+        "friends": {
+          "score": 23.075000000000003,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 55.12025,
+      "visionNotes": "Kitchen is visible with gas range (visible grates), open to dining area via island; living room is spacious with good furniture-to-space ratio; no private outdoor space shown; bedroom and bathrooms also visible."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 13,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 50,
+          "lines": [
+            "R Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 43,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 36,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-20T17:14:21.484Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "42-61 Hunter Street #5F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 3,
+        "bedrooms": 3,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
+        "externalScreenshot": "screenshots/streeteasy-com-building-42-61-hunter-street-long-island-city-5f.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_medium_500_250.webp",
+          "https://photos.zillowstatic.com/fp/b73877268af872460be5ba3da3bc23de-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ae3994b3fcf7cb3437aaa821bee1770b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bcbe033792c3114b3681903e8002f004-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/690d66ee841980f1dfd94dffb83d4894-se_large_800_400.webp"
+        ],
+        "price": 6800,
+        "sqft": null,
+        "title": "42-61 Hunter Street #5F",
+        "url": "https://streeteasy.com/building/42_61-hunter-street-long_island_city/5f",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.97903969598235,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.23,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 36.675000000000004,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 40.66992639987393,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 3
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.97903969598235,
+      "visionNotes": "Kitchen with island counter opens to living/dining area with clear sightlines; gas range visible; no private outdoor space shown; living room appears spacious relative to typical NYC units."
     },
     {
       "commute": {
@@ -25986,133 +26371,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.42043827731756,
+        "total": 54.85699239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 19.674999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.42043827731756,
+      "rankScore": 54.85699239216305,
       "visionNotes": "Kitchen is visible and open to living/dining area with visible gas cooktop; outdoor space visible through window with railing suggests a private terrace; living room is spacious with ample furniture arrangement."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 13,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "42-61 Hunter Street #5F, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 3,
-        "bedrooms": 3,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-17",
-        "externalScreenshot": "screenshots/streeteasy-com-building-42-61-hunter-street-long-island-city-5f.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/517236b3e99a2bebe8e70189bcc96980-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/b73877268af872460be5ba3da3bc23de-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ae3994b3fcf7cb3437aaa821bee1770b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bcbe033792c3114b3681903e8002f004-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/690d66ee841980f1dfd94dffb83d4894-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": null,
-        "title": "42-61 Hunter Street #5F",
-        "url": "https://streeteasy.com/building/42_61-hunter-street-long_island_city/5f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.410488959981095,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 77.9,
-          "weight": 0.25,
-          "minutes": 13
-        },
-        "friends": {
-          "score": 36.675000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 40.66992639987393,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.410488959981095,
-      "visionNotes": "Kitchen with island counter opens to living/dining area with clear sightlines; gas range visible; no private outdoor space shown; living room appears spacious relative to typical NYC units."
     },
     {
       "commute": {
@@ -26183,34 +26475,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.362500000000004,
+        "total": 54.81,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 32,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 40
         },
         "friends": {
           "score": 23.500000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.362500000000004,
+      "rankScore": 54.81,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; electric stove with smooth cooktop visible; no private outdoor space shown; living room appears spacious with large windows and high ceilings."
     },
     {
@@ -26282,134 +26579,141 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.307500000000005,
+        "total": 54.765750000000004,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.724999999999998,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -0.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 597,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.307500000000005,
+      "rankScore": 54.765750000000004,
       "visionNotes": "Kitchen is open to living/dining area with electric stove visible; views show what appear to be trees/building from window but no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
       "commute": {
         "office": {
-          "minutes": 42,
+          "minutes": 10,
           "lines": [
             "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 32,
+          "minutes": 41,
           "lines": [
-            "B65"
+            "G Line",
+            "B69"
           ]
         },
         "longIslandCity": {
-          "minutes": 45,
-          "lines": [
-            "G Line"
-          ]
+          "minutes": 17,
+          "lines": []
         },
         "morningsideHeights": {
-          "minutes": 57,
+          "minutes": 38,
           "lines": [
-            "F Line",
-            "2 Line",
+            "7X",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 53,
+          "minutes": 31,
           "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
+            "7X",
+            "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-16T17:32:47.411Z",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "gasStove": "yes",
       "hasGarden": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "listing": {
-        "address": "326 Bond Street #4F, BROOKLYN, NY, 11231",
+        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
         "availableDate": "now",
         "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 14,
+        "bedrooms": 1,
+        "daysOnMarket": 77,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-06",
-        "externalScreenshot": "screenshots/streeteasy-com-building-326-bond-street-brooklyn-4f.png",
-        "neighborhood": "Carroll Gardens",
+        "estimatedListingDate": "2026-05-03",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
+        "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/8810d6610fe606cc35eb7b16d34d87ae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd843f135872a1b8616b3bb0b26950dc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cc4d2003e7720e69d544c189d481f097-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/02210cd1f33002ef930baf4e2a017d84-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cabc6bb8bd9a72de4ed4d2ac6bcb11f4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f9463c2fadfdb5da196a1997016a2d1a-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
         ],
-        "price": 6800,
+        "price": 4694,
         "sqft": null,
-        "title": "326 Bond Street #4F",
-        "url": "https://streeteasy.com/building/326-bond-street-brooklyn/4f",
+        "title": "8 Court Square #8J",
+        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
+      "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 55.16543827731756,
+        "total": 54.719750000000005,
         "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
         },
         "office": {
-          "score": 28.60000000000001,
-          "weight": 0.25,
-          "minutes": 42
+          "score": 83,
+          "weight": 0.23,
+          "minutes": 10
         },
         "friends": {
-          "score": 20.525000000000006,
-          "weight": 0.2
+          "score": 46.025000000000006,
+          "weight": 0.19
         },
         "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
+          "score": 17.75,
+          "weight": 0.14,
           "sqft": null,
-          "bedrooms": 2
+          "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.16543827731756,
-      "visionNotes": "Kitchen is visible with island counter opening to living area; gas cooktop visible on range; private outdoor space (terrace/balcony) visible from bedroom; living room is spacious with high ceilings."
+      "rankScore": 54.719750000000005,
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement."
     },
     {
       "commute": {
@@ -26481,35 +26785,551 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.165438277317556,
+        "total": 54.64024239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 26.900000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 43
         },
         "friends": {
           "score": 22.650000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.165438277317556,
+      "rankScore": 54.64024239216305,
       "visionNotes": "Kitchen is visible and open to living area; stove appears to be electric/induction with flat cooktop; bedroom shows a door to private outdoor terrace/balcony; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 32,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 45,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 57,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 53,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T17:32:47.411Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "326 Bond Street #4F, BROOKLYN, NY, 11231",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 14,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
+        "externalScreenshot": "screenshots/streeteasy-com-building-326-bond-street-brooklyn-4f.png",
+        "neighborhood": "Carroll Gardens",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/8810d6610fe606cc35eb7b16d34d87ae-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cd843f135872a1b8616b3bb0b26950dc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cc4d2003e7720e69d544c189d481f097-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/02210cd1f33002ef930baf4e2a017d84-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cabc6bb8bd9a72de4ed4d2ac6bcb11f4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f9463c2fadfdb5da196a1997016a2d1a-se_large_800_400.webp"
+        ],
+        "price": 6800,
+        "sqft": null,
+        "title": "326 Bond Street #4F",
+        "url": "https://streeteasy.com/building/326-bond-street-brooklyn/4f",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 54.62749239216305,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.23,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 20.525000000000006,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.62749239216305,
+      "visionNotes": "Kitchen is visible with island counter opening to living area; gas cooktop visible on range; private outdoor space (terrace/balcony) visible from bedroom; living room is spacious with high ceilings."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 17,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 37,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 31,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "11-39 49th Avenue #307, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 38,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-10",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hunters-landing-lic-307.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/3d9aef896b7cc44150a2ddc26cac7b94-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/79d601049b79c0a6a1a1614779bf2686-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/48a09964e575629e7d82af989cc60a11-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4c0edc3b3bda1057a3f6b1f7c421bbf1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/88e2db9036531f4316fed91d24e04a3f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1d3ed3d8497b151b07e868edc7630ea0-se_large_800_400.webp"
+        ],
+        "price": 4250,
+        "sqft": 740,
+        "title": "11-39 49th Avenue #307",
+        "url": "https://streeteasy.com/building/hunters-landing-lic/307",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.62725,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.23,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 45.175,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 35,
+          "weight": 0.14,
+          "sqft": 740,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.62725,
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (flat black cooktop visible); no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 12,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 16,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "22-44 Jackson Avenue #818, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-04",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 16,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-02",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-818.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/ada5c694ecc1f0e5f557ac95d8af2641-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/817266ee3fb9929e7a39fd0629f41cb1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4fe8798e959e6afb45c7a2a8ac1ff04c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ed2d86c1b5da83299e6e6daf617db7a4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/67df8bf168fcd2c504c1dbbff32765fb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e057170e9453424ee18d42eeea022edd-se_large_800_400.webp"
+        ],
+        "price": 6430,
+        "sqft": null,
+        "title": "22-44 Jackson Avenue #818",
+        "url": "https://streeteasy.com/building/5pointz-lic/818",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.617992392163046,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.23,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 43.47500000000001,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.617992392163046,
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas stove clearly visible with burner grates; outdoor space shown is shared building amenity deck, not private; living room is spacious with large windows and minimal furniture clutter."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 12,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 42,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 16,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T11:56:25.226Z",
+      "gasStove": "yes",
+      "hasGarden": true,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "22-18 Jackson Avenue #812, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 33,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-16",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-galerie-condominium-812.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/e7954eed127b0c86b102086f7d2e3432-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5a06f03583bb8c6493c6f65514070a22-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9ee11940347424059e8900da6d04af9c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f02f963042a9f4c817ca8b6d8b5397d1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/14e8e3e16e966c0305d8e1ef900c9847-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a47c65de61ed2cf5e5a0dcb5400374f3-se_large_800_400.webp"
+        ],
+        "price": 6750,
+        "sqft": 996,
+        "title": "22-18 Jackson Avenue #812",
+        "url": "https://streeteasy.com/building/galerie-condominium/812",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.617992392163046,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.23,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 43.47500000000001,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": 996,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.617992392163046,
+      "visionNotes": "Kitchen is visible with island bar seating opening to living area; gas cooktop visible in photo 2; private terrace with railing visible through glass doors in photo 1; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 9,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 18,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 36,
+          "lines": [
+            "E Line",
+            "B Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 30,
+          "lines": [
+            "E Line",
+            "D Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-18T16:35:12.175Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "3 Court Square #1805, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
+        "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-1805.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/b11d1b7329eeb923ba268ffa4e9e5aed-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9b4928e58da48aa4b09685e80037b414-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cdda285cd4aca749e3170b3b6c388ca4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/50fa0b6a33257018575a1412604c7b1b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/309012e0df881580229e64d4fb2938f3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/67bba9c9c06d2f53df672819857d44cf-se_large_800_400.webp"
+        ],
+        "price": 6800,
+        "sqft": 932,
+        "title": "3 Court Square #1805",
+        "url": "https://streeteasy.com/building/skyline-tower/1805",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.610823202305184,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.23,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 45.60000000000001,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 14.755880016465566,
+          "weight": 0.14,
+          "sqft": 932,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.610823202305184,
+      "visionNotes": "Open-plan kitchen with gas range clearly visible, opens directly to living/dining area; no private outdoor space shown; living room appears spacious for NYC."
     },
     {
       "commute": {
@@ -26581,131 +27401,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.12109844909737,
+        "total": 54.580441885824214,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 26.900000000000006,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 43
         },
         "friends": {
           "score": 17.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 33.14065632731581,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1036,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.12109844909737,
+      "rankScore": 54.580441885824214,
       "visionNotes": "Kitchen is visible with gas cooktop (visible burners/grates), semi-open to dining/living area via island counter; living room appears spacious with multiple windows and good furniture-to-space ratio; no private outdoor space visible."
     },
     {
       "commute": {
         "office": {
-          "minutes": 10,
+          "minutes": 18,
           "lines": [
-            "F Line"
+            "6 Train"
           ]
         },
         "prospectHeights": {
-          "minutes": 41,
+          "minutes": 43,
           "lines": [
-            "G Line",
-            "B69"
+            "Q Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 17,
-          "lines": []
+          "minutes": 30,
+          "lines": [
+            "Q Line",
+            "M Line",
+            "AS"
+          ]
         },
         "morningsideHeights": {
-          "minutes": 38,
+          "minutes": 36,
           "lines": [
-            "7X",
+            "Q Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 31,
+          "minutes": 17,
           "lines": [
-            "7X",
-            "1 Line"
+            "M86+"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "firstSeenAt": "2026-07-11T13:01:25.952Z",
       "gasStove": "yes",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
+        "address": "305 East 86th Street #1SE, NEW YORK, NY, 10028",
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
-        "daysOnMarket": 77,
+        "daysOnMarket": 9,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-05-03",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
-        "neighborhood": "Hunters Point",
+        "estimatedListingDate": "2026-07-10",
+        "externalScreenshot": "screenshots/streeteasy-com-building-yorkshire-towers-1se.png",
+        "neighborhood": "Yorkville",
         "photos": [
-          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/11a2ff1786b76e21db484ed59281f9dd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e8d5c5dc35560b00b8680e55f01e3199-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f058f73d253571936b792206a44dae41-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6fd16a3c168b5f446246595aac90bcbc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c426972c7c7c6a7d8839c3a7d240460b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/55d871a74fd92d4983b47ebc92d6e553-se_large_800_400.webp"
         ],
-        "price": 4694,
-        "sqft": null,
-        "title": "8 Court Square #8J",
-        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
+        "price": 5995,
+        "sqft": 754,
+        "title": "305 East 86th Street #1SE",
+        "url": "https://streeteasy.com/building/yorkshire-towers/1se",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 55.1175,
+        "total": 54.5775,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
-          "score": 83,
-          "weight": 0.25,
-          "minutes": 10
+          "score": 69.4,
+          "weight": 0.23,
+          "minutes": 18
         },
         "friends": {
-          "score": 46.025000000000006,
-          "weight": 0.2
+          "score": 46.45,
+          "weight": 0.19
         },
         "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
+          "score": 38.5,
+          "weight": 0.14,
+          "sqft": 754,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.1175,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement."
+      "rankScore": 54.5775,
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; stove appears to have visible burners suggesting gas, though angle and reflection make it not entirely certain; no private outdoor space visible; living room is spacious and well-proportioned for NYC."
     },
     {
       "commute": {
@@ -26779,34 +27611,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.08043827731756,
+        "total": 54.546742392163054,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 28.60000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 42
         },
         "friends": {
           "score": 20.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.08043827731756,
+      "rankScore": 54.546742392163054,
       "visionNotes": "Kitchen is semi-open to living/dining area with island; electric coil stove visible; unit has private rooftop terrace; living room is spacious (18'3\" x 18'9\")."
     },
     {
@@ -26878,520 +27715,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 55.02250000000001,
+        "total": 54.5125,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 28.60000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 42
         },
         "friends": {
           "score": 26.049999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 55.02250000000001,
+      "rankScore": 54.5125,
       "visionNotes": "Kitchen is semi-open to dining area with island counter; stove appears to be electric/induction cooktop but angle makes it somewhat ambiguous; visible greenery through multiple windows suggests outdoor space, likely a terrace or balcony; living room appears spacious with good proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 9,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 18,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 36,
-          "lines": [
-            "E Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-18T16:35:12.175Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "3 Court Square #1805, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-17",
-        "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-1805.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b11d1b7329eeb923ba268ffa4e9e5aed-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9b4928e58da48aa4b09685e80037b414-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cdda285cd4aca749e3170b3b6c388ca4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/50fa0b6a33257018575a1412604c7b1b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/309012e0df881580229e64d4fb2938f3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/67bba9c9c06d2f53df672819857d44cf-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": 932,
-        "title": "3 Court Square #1805",
-        "url": "https://streeteasy.com/building/skyline-tower/1805",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.00838200246984,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 84.7,
-          "weight": 0.25,
-          "minutes": 9
-        },
-        "friends": {
-          "score": 45.60000000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 14.755880016465566,
-          "weight": 0.15,
-          "sqft": 932,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.00838200246984,
-      "visionNotes": "Open-plan kitchen with gas range clearly visible, opens directly to living/dining area; no private outdoor space shown; living room appears spacious for NYC."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 16,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "22-44 Jackson Avenue #818, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-04",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 16,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-02",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-818.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ada5c694ecc1f0e5f557ac95d8af2641-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/817266ee3fb9929e7a39fd0629f41cb1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4fe8798e959e6afb45c7a2a8ac1ff04c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ed2d86c1b5da83299e6e6daf617db7a4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/67df8bf168fcd2c504c1dbbff32765fb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e057170e9453424ee18d42eeea022edd-se_large_800_400.webp"
-        ],
-        "price": 6430,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #818",
-        "url": "https://streeteasy.com/building/5pointz-lic/818",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.00543827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.25,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 43.47500000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.00543827731755,
-      "visionNotes": "Kitchen is visible and open to living/dining area; gas stove clearly visible with burner grates; outdoor space shown is shared building amenity deck, not private; living room is spacious with large windows and minimal furniture clutter."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 16,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "gasStove": "yes",
-      "hasGarden": true,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "22-18 Jackson Avenue #812, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 33,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-16",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-galerie-condominium-812.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e7954eed127b0c86b102086f7d2e3432-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5a06f03583bb8c6493c6f65514070a22-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9ee11940347424059e8900da6d04af9c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f02f963042a9f4c817ca8b6d8b5397d1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/14e8e3e16e966c0305d8e1ef900c9847-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a47c65de61ed2cf5e5a0dcb5400374f3-se_large_800_400.webp"
-        ],
-        "price": 6750,
-        "sqft": 996,
-        "title": "22-18 Jackson Avenue #812",
-        "url": "https://streeteasy.com/building/galerie-condominium/812",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 55.00543827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.25,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 43.47500000000001,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": 996,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 55.00543827731755,
-      "visionNotes": "Kitchen is visible with island bar seating opening to living area; gas cooktop visible in photo 2; private terrace with railing visible through glass doors in photo 1; living room is spacious with good furniture-to-room ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 17,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 31,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "11-39 49th Avenue #307, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 38,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-10",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-hunters-landing-lic-307.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3d9aef896b7cc44150a2ddc26cac7b94-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/79d601049b79c0a6a1a1614779bf2686-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/48a09964e575629e7d82af989cc60a11-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4c0edc3b3bda1057a3f6b1f7c421bbf1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/88e2db9036531f4316fed91d24e04a3f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1d3ed3d8497b151b07e868edc7630ea0-se_large_800_400.webp"
-        ],
-        "price": 4250,
-        "sqft": 740,
-        "title": "11-39 49th Avenue #307",
-        "url": "https://streeteasy.com/building/hunters-landing-lic/307",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.985,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.25,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 35,
-          "weight": 0.15,
-          "sqft": 740,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.985,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area; stove is electric (flat black cooktop visible); no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and good furniture layout."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 43,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 30,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 36,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 17,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "305 East 86th Street #1SE, NEW YORK, NY, 10028",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 9,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-10",
-        "externalScreenshot": "screenshots/streeteasy-com-building-yorkshire-towers-1se.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/11a2ff1786b76e21db484ed59281f9dd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e8d5c5dc35560b00b8680e55f01e3199-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f058f73d253571936b792206a44dae41-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6fd16a3c168b5f446246595aac90bcbc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c426972c7c7c6a7d8839c3a7d240460b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/55d871a74fd92d4983b47ebc92d6e553-se_large_800_400.webp"
-        ],
-        "price": 5995,
-        "sqft": 754,
-        "title": "305 East 86th Street #1SE",
-        "url": "https://streeteasy.com/building/yorkshire-towers/1se",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.915,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.25,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 46.45,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 38.5,
-          "weight": 0.15,
-          "sqft": 754,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.915,
-      "visionNotes": "Open-plan kitchen with island visible in multiple photos; stove appears to have visible burners suggesting gas, though angle and reflection make it not entirely certain; no private outdoor space visible; living room is spacious and well-proportioned for NYC."
     },
     {
       "commute": {
@@ -27460,34 +27817,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 54.70043827731755,
+        "total": 54.180742392163054,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "uwsIdeal"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 50.70000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.70043827731755,
+      "rankScore": 54.180742392163054,
       "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with exposed burners; no private outdoor space shown; living room appears spacious with good furniture arrangement."
     },
     {
@@ -27556,34 +27918,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 54.5225,
+        "total": 54.16725,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 45.175,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.5225,
+      "rankScore": 54.16725,
       "visionNotes": "Kitchen is semi-open to living area with visible gas range; unit has access to shared courtyard, not private outdoor space; living room is spacious with skyline views."
     },
     {
@@ -27652,34 +28019,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 54.5225,
+        "total": 54.16725,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 45.175,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.5225,
+      "rankScore": 54.16725,
       "visionNotes": "Open-plan kitchen with gas range visible; spacious living room with NYC skyline views; no private outdoor space shown; bathroom and bedroom also visible."
     },
     {
@@ -27748,35 +28120,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 54.5225,
+        "total": 54.16725,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 45.175,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.5225,
+      "rankScore": 54.16725,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates; no private outdoor space shown; living room appears spacious with floor-to-ceiling windows and well-proportioned furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 12,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 46,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 17,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 42,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "no",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "27-01 Jackson Avenue #21F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 10,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-08",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-bold-21f.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0efa8954153910c93c8d124d7b58e02f-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aaa51fdd521bd99851beffb37e9d71cb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6a0915d489bd35840695ff3c3d45bc45-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6d4bb76ad3241e18363d669651866c01-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3bed0452e3a016a3284cc67ccb527144-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8d0438c5f294309cb792f2b504536f78-se_extra_large_1500_800.webp"
+        ],
+        "price": 6715,
+        "sqft": null,
+        "title": "27-01 Jackson Avenue #21F",
+        "url": "https://streeteasy.com/building/the-bold/21f",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.05274239216305,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.23,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 54.05274239216305,
+      "visionNotes": "Kitchen is open to dining/living area with what appears to be an electric range; no private outdoor space visible, only building views; living room is spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -27847,133 +28327,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 54.4275,
+        "total": 53.97275,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 25.200000000000003,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 44
         },
         "friends": {
           "score": 27.325,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.4275,
+      "rankScore": 53.97275,
       "visionNotes": "Kitchen is clearly visible and open to the living area with electric range; private roof deck shown in first photo; living room appears spacious with ample natural light."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 17,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "no",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "27-01 Jackson Avenue #21F, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 10,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-08",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-bold-21f.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0efa8954153910c93c8d124d7b58e02f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aaa51fdd521bd99851beffb37e9d71cb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6a0915d489bd35840695ff3c3d45bc45-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6d4bb76ad3241e18363d669651866c01-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bed0452e3a016a3284cc67ccb527144-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8d0438c5f294309cb792f2b504536f78-se_extra_large_1500_800.webp"
-        ],
-        "price": 6715,
-        "sqft": null,
-        "title": "27-01 Jackson Avenue #21F",
-        "url": "https://streeteasy.com/building/the-bold/21f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 54.41043827731755,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.25,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 40.5,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 54.41043827731755,
-      "visionNotes": "Kitchen is open to dining/living area with what appears to be an electric range; no private outdoor space visible, only building views; living room is spacious with generous furniture layout."
     },
     {
       "commute": {
@@ -28043,34 +28430,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 54.165,
+        "total": 53.8775,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 46.45,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 33.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 734,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.165,
+      "rankScore": 53.8775,
       "visionNotes": "Kitchen is visible and opens to living/dining area via a peninsula counter; stove details obscured by angle and distance; no private outdoor space shown; living room appears spacious with good furniture proportions."
     },
     {
@@ -28141,34 +28533,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 54.1075,
+        "total": 53.77,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 84.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 9
         },
         "friends": {
           "score": 45.60000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 8.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 635,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.1075,
+      "rankScore": 53.77,
       "visionNotes": "Kitchen is visible and open to living area with island; gas range visible; living room is spacious with floor-to-ceiling windows; private outdoor space shown is a building amenity pool, not private to unit."
     },
     {
@@ -28240,34 +28637,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 54.07076211353316,
+        "total": 53.62021130596428,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 25.200000000000003,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 44
         },
         "friends": {
           "score": 21.450000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 23.205080756887753,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 1200,
           "bedrooms": 3
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 54.07076211353316,
+      "rankScore": 53.62021130596428,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates), opens to dining and living areas; living room is spacious with good furniture layout; no private outdoor space visible, only windows showing NYC buildings."
     },
     {
@@ -28338,135 +28740,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.9275,
+        "total": 53.602000000000004,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 42.2,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.9275,
+      "rankScore": 53.602000000000004,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range (black stovetop with visible grates); living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views from windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 38,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 14,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 40,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "475 Clermont Avenue #903, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 79,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-04-30",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-475-clermont-0903.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/1fc47334f0a9050f91e575d8261edc5c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c2ea03f41825a93e0c7efce2c0f7607e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/effc74c11a1ed889124125ef47dc1793-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3a03322ed441f6b4186b5ceafc4e0c98-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e63816e9bca929a3e3bdccca9e3b0c2a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c9ddc88488cafa22444cd30750c715a3-se_extra_large_1500_800.webp"
-        ],
-        "price": 4677,
-        "sqft": 549,
-        "title": "475 Clermont Avenue #903",
-        "url": "https://streeteasy.com/building/475-clermont/0903",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 53.847500000000004,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 35.400000000000006,
-          "weight": 0.25,
-          "minutes": 38
-        },
-        "friends": {
-          "score": 34.550000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": -12.75,
-          "weight": 0.15,
-          "sqft": 549,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 53.847500000000004,
-      "visionNotes": "Kitchen is clearly visible and open to the living area; gas range with visible burners is evident; the outdoor space shown is a shared building amenity (rooftop/courtyard), not private; living room is spacious with ample furniture placement."
     },
     {
       "commute": {
@@ -28538,34 +28845,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.8425,
+        "total": 53.52125,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 41.775000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.8425,
+      "rankScore": 53.52125,
       "visionNotes": "Kitchen is visible with a semi-open layout to living area; electric stove with flat cooktop clearly visible; large windows overlook NYC but no private outdoor space; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -28634,34 +28946,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.795,
+        "total": 53.48825,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 43.47500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 18,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 672,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.795,
+      "rankScore": 53.48825,
       "visionNotes": "Kitchen is semi-open to living area with island, gas range visible; large living room with floor-to-ceiling windows and balcony/terrace visible in background photos."
     },
     {
@@ -28732,34 +29049,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.795,
+        "total": 53.471250000000005,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 34.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 35,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 740,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.795,
+      "rankScore": 53.471250000000005,
       "visionNotes": "Kitchen is visible and opens to living area via counter; stove appears to have burners but angle/reflection makes certainty medium; spacious living room with floor-to-ceiling windows and multiple furniture pieces; no private outdoor space visible, only high-rise views."
     },
     {
@@ -28832,35 +29154,145 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.7575,
+        "total": 53.44050000000001,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 41.35000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.7575,
+      "rankScore": 53.44050000000001,
       "visionNotes": "Kitchen is clearly visible and open to living area in photo 1; photo 3 shows gas range with visible burners/grates; outdoor spaces in photos 5-6 are shared building amenities (roof deck/terrace), not private; living room is spacious with good furniture-to-room ratio."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 38,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 14,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 40,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 53,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 47,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "475 Clermont Avenue #903, BROOKLYN, NY, 11238",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 79,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-04-30",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-475-clermont-0903.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/1fc47334f0a9050f91e575d8261edc5c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c2ea03f41825a93e0c7efce2c0f7607e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/effc74c11a1ed889124125ef47dc1793-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3a03322ed441f6b4186b5ceafc4e0c98-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e63816e9bca929a3e3bdccca9e3b0c2a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c9ddc88488cafa22444cd30750c715a3-se_extra_large_1500_800.webp"
+        ],
+        "price": 4677,
+        "sqft": 549,
+        "title": "475 Clermont Avenue #903",
+        "url": "https://streeteasy.com/building/475-clermont/0903",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 53.42150000000001,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.23,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 34.550000000000004,
+          "weight": 0.19
+        },
+        "size": {
+          "score": -12.75,
+          "weight": 0.14,
+          "sqft": 549,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 53.42150000000001,
+      "visionNotes": "Kitchen is clearly visible and open to the living area; gas range with visible burners is evident; the outdoor space shown is a shared building amenity (rooftop/courtyard), not private; living room is spacious with ample furniture placement."
     },
     {
       "commute": {
@@ -28930,34 +29362,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.7325,
+        "total": 53.42,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 84.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 9
         },
         "friends": {
           "score": 45.60000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 6.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 625,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.7325,
+      "rankScore": 53.42,
       "visionNotes": "Kitchen is visible and open to living/dining area; stove has visible burner grates indicating gas; no private outdoor space shown; living room appears reasonably proportioned for NYC one-bedroom."
     },
     {
@@ -29029,34 +29466,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 53.480000000000004,
+        "total": 53.23675000000001,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 46.025000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 29.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 718,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.480000000000004,
+      "rankScore": 53.23675000000001,
       "visionNotes": "Kitchen is open to living/dining area with island; electric slide-in range visible; no private outdoor space shown; living room appears spacious with natural light and comfortable furniture layout."
     },
     {
@@ -29127,34 +29569,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.39543827731755,
+        "total": 53.00974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 20.10000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 47
         },
         "friends": {
           "score": 22.3,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.39543827731755,
+      "rankScore": 53.00974239216305,
       "visionNotes": "Kitchen is semi-open to living area via island counter; electric stove visible; living room is spacious with high ceilings and multiple windows; no private outdoor space shown."
     },
     {
@@ -29227,35 +29674,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.31043827731755,
+        "total": 52.89074239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 25.200000000000003,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 44
         },
         "friends": {
           "score": 15.500000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.31043827731755,
+      "rankScore": 52.89074239216305,
       "visionNotes": "Kitchen is visible with white cabinetry and stainless appliances, opening via counter pass-through into a spacious open living/dining area; gas range visible in last photo; no outdoor space shown; living room appears spacious for NYC."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 15,
+          "lines": [
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 34,
+          "lines": [
+            "Q Line",
+            "M Line",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 30,
+          "lines": [
+            "4 Line",
+            "M60+"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 15,
+          "lines": [
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-11T22:07:05.979Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "201 East 86th Street #21G, NEW YORK, NY, 10028",
+        "availableDate": "2026-08-21",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 9,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-10",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-colorado-21g.png",
+        "neighborhood": "Yorkville",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/cad5dddf136c79f21433501cfdc6b76c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/67f0f444057fe3c4f08c6687aeda5044-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/df6a8b59ef4c247aa520a85b12b1cbdf-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/889122c7dd85ddc5543d84b40f19be40-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d8ec328f4cf7e8303422dda2fa884de0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/10a9f83395a711e2fd55550038405bcc-se_extra_large_1500_800.webp"
+        ],
+        "price": 6345,
+        "sqft": null,
+        "title": "201 East 86th Street #21G",
+        "url": "https://streeteasy.com/building/the-colorado/21g",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.8455,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 74.5,
+          "weight": 0.23,
+          "minutes": 15
+        },
+        "friends": {
+          "score": 46.45,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 52.8455,
+      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; no private outdoor space shown; living room is spacious with good furniture proportions."
     },
     {
       "commute": {
@@ -29327,34 +29882,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.22543827731755,
+        "total": 52.809992392163046,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 25.200000000000003,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 44
         },
         "friends": {
           "score": 15.075000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.22543827731755,
+      "rankScore": 52.809992392163046,
       "visionNotes": "Kitchen is semi-open to dining/living area; gas range visible with visible burners; photo 1 shows ivy-covered outdoor space accessible from living area; living room appears spacious with good furniture-to-space ratio."
     },
     {
@@ -29426,230 +29986,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.1325,
+        "total": 52.73575,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.724999999999998,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -15.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 539,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 53.1325,
+      "rankScore": 52.73575,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area; the stove has a flat glass/ceramic cooktop (electric); no private outdoor space shown; living room is spacious with good furniture-to-room ratio."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 15,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 30,
-          "lines": [
-            "4 Line",
-            "M60+"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 15,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T22:07:05.979Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "201 East 86th Street #21G, NEW YORK, NY, 10028",
-        "availableDate": "2026-08-21",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 9,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-10",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-colorado-21g.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/cad5dddf136c79f21433501cfdc6b76c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/67f0f444057fe3c4f08c6687aeda5044-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/df6a8b59ef4c247aa520a85b12b1cbdf-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/889122c7dd85ddc5543d84b40f19be40-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d8ec328f4cf7e8303422dda2fa884de0-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/10a9f83395a711e2fd55550038405bcc-se_extra_large_1500_800.webp"
-        ],
-        "price": 6345,
-        "sqft": null,
-        "title": "201 East 86th Street #21G",
-        "url": "https://streeteasy.com/building/the-colorado/21g",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 53.0775,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 74.5,
-          "weight": 0.25,
-          "minutes": 15
-        },
-        "friends": {
-          "score": 46.45,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 53.0775,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; no private outdoor space shown; living room is spacious with good furniture proportions."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 28,
-          "lines": [
-            "M57"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 56,
-          "lines": [
-            "M57",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "1 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 26,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 18,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "101 West End Avenue #11Q, NEW YORK, NY, 10069",
-        "availableDate": "2026-07-30",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 42,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-06",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-11q.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d28a24ad9a5fd48214201ada084e2de8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/46e0e73e7fb15c0698ccfebdea7cea72-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d29a09e923d57d2fccc120921c7571e1-se_large_800_400.webp"
-        ],
-        "price": 6770,
-        "sqft": 515,
-        "title": "101 West End Avenue #11Q",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 52.9275,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 52.4,
-          "weight": 0.25,
-          "minutes": 28
-        },
-        "friends": {
-          "score": 40.075,
-          "weight": 0.2
-        },
-        "size": {
-          "score": -21.25,
-          "weight": 0.15,
-          "sqft": 515,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 52.9275,
-      "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
     },
     {
       "commute": {
@@ -29719,34 +30089,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.910000000000004,
+        "total": 52.65375,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 40.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 15.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 662,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.910000000000004,
+      "rankScore": 52.65375,
       "visionNotes": "Kitchen is semi-open to living area with a breakfast bar; stove appears to have visible burners suggesting gas, but angle and lighting create some uncertainty; no private outdoor space visible; living room furnished proportionally for a one-bedroom."
     },
     {
@@ -29818,34 +30193,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.9075,
+        "total": 52.64575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 39.224999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.9075,
+      "rankScore": 52.64575,
       "visionNotes": "Kitchen with gas cooktop is visible and open to living areas; unit has a private terrace with skyline views; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -29917,34 +30297,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.9075,
+        "total": 52.64575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 39.224999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.9075,
+      "rankScore": 52.64575,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range; unit has private terrace with Manhattan views; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -30016,34 +30401,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.9075,
+        "total": 52.64575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 39.224999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.9075,
+      "rankScore": 52.64575,
       "visionNotes": "Kitchen visible with gas cooktop; open to living/dining area; private terrace shown in first three photos; living room is spacious with high ceilings and generous furnishings."
     },
     {
@@ -30115,34 +30505,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.9075,
+        "total": 52.64575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 39.224999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.9075,
+      "rankScore": 52.64575,
       "visionNotes": "Kitchen is open to dining/living area with visible gas range; a terrace/balcony with plants and NYC skyline view is shown; living room is spacious with generous furniture layout."
     },
     {
@@ -30212,35 +30607,142 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.79,
+        "total": 52.605500000000006,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 66,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 20
         },
         "friends": {
           "score": 46.45,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 30,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 720,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.79,
+      "rankScore": 52.605500000000006,
       "visionNotes": "Kitchen is semi-open to living/dining area via island counter; electric cooktop visible; spacious living room with floor-to-ceiling windows; no private outdoor space shown."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "101 West End Avenue #11Q, NEW YORK, NY, 10069",
+        "availableDate": "2026-07-30",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 42,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-06",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-101-west-end-avenue-new-york-11q.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/153e1c6f8a991e9c6cd19489c29d21ae-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d28a24ad9a5fd48214201ada084e2de8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/46e0e73e7fb15c0698ccfebdea7cea72-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d29a09e923d57d2fccc120921c7571e1-se_large_800_400.webp"
+        ],
+        "price": 6770,
+        "sqft": 515,
+        "title": "101 West End Avenue #11Q",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/11q",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 52.59125,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.23,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.19
+        },
+        "size": {
+          "score": -21.25,
+          "weight": 0.14,
+          "sqft": 515,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 52.59125,
+      "visionNotes": "Kitchen visible in photo 4 with white cabinetry opening to living area; living room appears moderately sized with good furniture layout; no outdoor space shown; stove type not clearly visible in any photo."
     },
     {
       "commute": {
@@ -30311,34 +30813,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen is open to living/dining area with visible gas cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
     },
     {
@@ -30410,34 +30917,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen is visible and open to living areas; gas cooktop with visible burners and grates is clearly shown; no private outdoor space visible; living room appears spacious with floor-to-ceiling windows and appropriately scaled furniture."
     },
     {
@@ -30509,34 +31021,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen is clearly visible and open to living area; gas cooktop with visible burners visible in first photo; no private outdoor space shown; living room is spacious with floor-to-ceiling windows and high ceilings."
     },
     {
@@ -30608,34 +31125,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen visible with gas cooktop (visible grates); open to living area; living room appears spacious with large windows; no private outdoor space—only city views from windows."
     },
     {
@@ -30707,34 +31229,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.737500000000004,
+        "total": 52.484249999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.737500000000004,
+      "rankScore": 52.484249999999996,
       "visionNotes": "Kitchen is clearly visible and open to dining/living area with gas cooktop visible; spacious living rooms shown with high-rise views; no private outdoor space visible; appears to be a luxury high-rise unit."
     },
     {
@@ -30805,35 +31332,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.5675,
+        "total": 52.3355,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 77.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 13
         },
         "friends": {
           "score": 39.650000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.5675,
+      "rankScore": 52.3355,
       "visionNotes": "Kitchen is open to living/dining area with island; cooktop appears to be electric/induction (dark flat surface); unit has floor-to-ceiling windows overlooking city but no private outdoor space; living room is spacious and well-proportioned."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 12,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 45,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 19,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "27-21 44th Drive #1503, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 19,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-30",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-harrison-27-21-44-drive-long-island-city-1503.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/5fe0b04f9165d6a28e29bba9d7974326-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3316a6ba69e644f66fd7a3d6814f7ac3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c603266cb0aedabd1074674b55bc9ccd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/89e2a03d596d56d5b897367a35857e7c-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ee4e6c4f3c12c40c749cd3f55130b521-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5841212612473eaa9a8f0f6841e19d85-se_large_800_400.webp"
+        ],
+        "price": 4300,
+        "sqft": 646,
+        "title": "27-21 44th Drive #1503",
+        "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1503",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.09375,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.23,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 40.925,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 11.5,
+          "weight": 0.14,
+          "sqft": 646,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 52.09375,
+      "visionNotes": "Kitchen is open to living/dining area with island counter; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with large windows and reasonable furniture-to-space ratio."
     },
     {
       "commute": {
@@ -30904,34 +31539,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 52.375438277317556,
+        "total": 52.04074239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 20.10000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 47
         },
         "friends": {
           "score": 17.200000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.375438277317556,
+      "rankScore": 52.04074239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burners and grates is prominent in photo 4; no private outdoor space shown; living room appears spacious with good furniture placement."
     },
     {
@@ -31003,133 +31643,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 52.375438277317556,
+        "total": 52.04074239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 20.10000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 47
         },
         "friends": {
           "score": 17.200000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.375438277317556,
+      "rankScore": 52.04074239216305,
       "visionNotes": "Kitchen is open to living area with island; electric stove visible; spacious living room with good furniture fit; no private outdoor space visible, only building exterior."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 19,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "27-21 44th Drive #1503, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 19,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-30",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-harrison-27-21-44-drive-long-island-city-1503.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/5fe0b04f9165d6a28e29bba9d7974326-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3316a6ba69e644f66fd7a3d6814f7ac3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c603266cb0aedabd1074674b55bc9ccd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/89e2a03d596d56d5b897367a35857e7c-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ee4e6c4f3c12c40c749cd3f55130b521-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5841212612473eaa9a8f0f6841e19d85-se_large_800_400.webp"
-        ],
-        "price": 4300,
-        "sqft": 646,
-        "title": "27-21 44th Drive #1503",
-        "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/1503",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 52.31,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.25,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 40.925,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 11.5,
-          "weight": 0.15,
-          "sqft": 646,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 52.31,
-      "visionNotes": "Kitchen is open to living/dining area with island counter; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with large windows and reasonable furniture-to-space ratio."
     },
     {
       "commute": {
@@ -31199,133 +31746,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.2575,
+        "total": 52.03625,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 34.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 24.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 699,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.2575,
+      "rankScore": 52.03625,
       "visionNotes": "Kitchen is visible in multiple photos with a gas range; it opens to a dining/living area with clear sightlines; no private outdoor space; living room appears spacious with floor-to-ceiling windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 49,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 18,
-          "lines": [
-            "B67"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 52,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 62,
-          "lines": [
-            "Q Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 61,
-          "lines": [
-            "B67",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "no",
-      "hasGarden": true,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "196 7th Avenue #5, BROOKLYN, NY, 11215",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 6,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-13",
-        "externalScreenshot": "screenshots/streeteasy-com-building-196-7-avenue-brooklyn-5.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/9a955dbbaed66675479dea2b56860385-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/00cb81125eeab375a7267d7841dfc659-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/98a7d4310322c3b822ba36bf17d0db53-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7bd95871811ef9fbda3587cdeceb85ff-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/066d0e0b490d37953dd6b26d9b61d649-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/af8a31b21bf3f4a9e8189978f8b13a2c-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": null,
-        "title": "196 7th Avenue #5",
-        "url": "https://streeteasy.com/building/196-7-avenue-brooklyn/5",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.135438277317554,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.25,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 16.700000000000003,
-          "weight": 0.25,
-          "minutes": 49
-        },
-        "friends": {
-          "score": 20.250000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 52.135438277317554,
-      "visionNotes": "Kitchen is open to living/dining area with electric stove; unit has a private rooftop terrace with seating and skyline views; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -31395,35 +31849,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 52.1325,
+        "total": 51.921,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 77.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 13
         },
         "friends": {
           "score": 37.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 18.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 673,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 52.1325,
+      "rankScore": 51.921,
       "visionNotes": "Kitchen is open to living/dining areas with visible gas range (burners/grates clearly visible in photos 1-2); living room is spacious with floor-to-ceiling windows and good furniture ratio; no private outdoor space visible, only city views from windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 49,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 18,
+          "lines": [
+            "B67"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 52,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "Q Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 61,
+          "lines": [
+            "B67",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-13T14:51:59.429Z",
+      "gasStove": "no",
+      "hasGarden": true,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "196 7th Avenue #5, BROOKLYN, NY, 11215",
+        "availableDate": "2026-08-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 6,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
+        "externalScreenshot": "screenshots/streeteasy-com-building-196-7-avenue-brooklyn-5.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/9a955dbbaed66675479dea2b56860385-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/00cb81125eeab375a7267d7841dfc659-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/98a7d4310322c3b822ba36bf17d0db53-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7bd95871811ef9fbda3587cdeceb85ff-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/066d0e0b490d37953dd6b26d9b61d649-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/af8a31b21bf3f4a9e8189978f8b13a2c-se_large_800_400.webp"
+        ],
+        "price": 6500,
+        "sqft": null,
+        "title": "196 7th Avenue #5",
+        "url": "https://streeteasy.com/building/196-7-avenue-brooklyn/5",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.838242392163046,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.23,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 16.700000000000003,
+          "weight": 0.23,
+          "minutes": 49
+        },
+        "friends": {
+          "score": 20.250000000000004,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 51.838242392163046,
+      "visionNotes": "Kitchen is open to living/dining area with electric stove; unit has a private rooftop terrace with seating and skyline views; living room is spacious with good furniture layout."
     },
     {
       "commute": {
@@ -31493,34 +32055,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.9575,
+        "total": 51.75625,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 34.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 22.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 691,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.9575,
+      "rankScore": 51.75625,
       "visionNotes": "Kitchen is visible and opens to dining/living area; stove type unclear from angle; no private outdoor space shown; living room is spacious with high ceilings and panoramic windows."
     },
     {
@@ -31591,34 +32158,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.9575,
+        "total": 51.75625,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 34.97500000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 22.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 691,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.9575,
+      "rankScore": 51.75625,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter opening; living room is spacious with generous window and furniture layout; no private outdoor space visible."
     },
     {
@@ -31689,133 +32261,142 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.845000000000006,
+        "total": 51.664,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 83,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 10
         },
         "friends": {
           "score": 45.60000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -3.5000000000000004,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 586,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.845000000000006,
+      "rankScore": 51.664,
       "visionNotes": "Kitchen is clearly visible and open to dining/living areas; gas range with visible burners and grates; no private outdoor space shown; living room is spacious and well-proportioned for NYC."
     },
     {
       "commute": {
         "office": {
-          "minutes": 14,
+          "minutes": 22,
           "lines": [
+            "7",
             "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 52,
+          "minutes": 48,
           "lines": [
-            "N Line",
-            "Q Line"
+            "G Line",
+            "B69"
           ]
         },
         "longIslandCity": {
-          "minutes": 22,
-          "lines": [
-            "7X"
-          ]
+          "minutes": 5,
+          "lines": []
         },
         "morningsideHeights": {
-          "minutes": 43,
+          "minutes": 41,
           "lines": [
             "7X",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 36,
+          "minutes": 35,
           "lines": [
             "7X",
             "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "yes",
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
+      "gasStove": "no",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "42-20 24th Street #4F, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-07-18",
+        "address": "47-05 5th Street #303, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-15",
         "bathrooms": 1,
         "bedrooms": 1,
-        "daysOnMarket": 16,
+        "daysOnMarket": 13,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-02",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1-qps-004f.png",
+        "estimatedListingDate": "2026-07-06",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-monarch-47-05-5th-street-long-island-city-303.png",
         "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/9d051d26628ff03dae92ec4127454763-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/ba06f63bf6c60127ee6dfdc89a411d28-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/42df6b401268fc653deaebdf0f524b7e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd39d9973709cceecd6a567f55b98bd4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f8dba6864beee6b6c7a9e5f634193f76-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7b66b3f49c922f30a5bc2f4441c51a2e-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/6b83942729617cf4d90d7ea519a24d5c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1ee841562df509f44a89cf0980073412-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9d3ec163535d2d17644f0507a468f5d6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/77fd7982c5d7922ce1e43fe1240c1b73-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a925d50b9a00f84d1782e53c84dd48d1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f0fe7c3278a4fc9508d368075e7d264e-se_large_800_400.webp"
         ],
-        "price": 4271,
-        "sqft": 685,
-        "title": "42-20 24th Street #4F",
-        "url": "https://streeteasy.com/building/1-qps/004f",
+        "price": 4250,
+        "sqft": 720,
+        "title": "47-05 5th Street #303",
+        "url": "https://streeteasy.com/building/the-monarch-47_05-5th-street-long_island_city/303",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.7325,
+        "total": 51.581250000000004,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
-          "score": 76.2,
-          "weight": 0.25,
-          "minutes": 14
+          "score": 62.6,
+          "weight": 0.23,
+          "minutes": 22
         },
         "friends": {
-          "score": 34.97500000000001,
-          "weight": 0.2
+          "score": 45.175000000000004,
+          "weight": 0.19
         },
         "size": {
-          "score": 21.25,
-          "weight": 0.15,
-          "sqft": 685,
+          "score": 30,
+          "weight": 0.14,
+          "sqft": 720,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.7325,
-      "visionNotes": "Kitchen is visible and open to living/dining area; gas range clearly visible with burner grates; outdoor space is a shared building terrace, not private; living room is spacious with good furniture proportions."
+      "rankScore": 51.581250000000004,
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; electric stove with flat cooktop visible; no private outdoor space shown; living room appears spacious with well-proportioned furniture layout."
     },
     {
       "commute": {
@@ -31885,132 +32466,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.730000000000004,
+        "total": 51.5595,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 39.650000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 15,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 660,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.730000000000004,
+      "rankScore": 51.5595,
       "visionNotes": "Kitchen is visible with island opening to living/dining area; electric stove with flat cooktop visible; no private outdoor space (only NYC skyline views from windows); living room is spacious with floor-to-ceiling windows and minimal furniture."
     },
     {
       "commute": {
         "office": {
-          "minutes": 22,
+          "minutes": 14,
           "lines": [
-            "7",
             "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 48,
+          "minutes": 52,
           "lines": [
-            "G Line",
-            "B69"
+            "N Line",
+            "Q Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 5,
-          "lines": []
+          "minutes": 22,
+          "lines": [
+            "7X"
+          ]
         },
         "morningsideHeights": {
-          "minutes": 41,
+          "minutes": 43,
           "lines": [
             "7X",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 35,
+          "minutes": 36,
           "lines": [
             "7X",
             "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "gasStove": "no",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "yes",
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "47-05 5th Street #303, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-15",
+        "address": "42-20 24th Street #4F, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-18",
         "bathrooms": 1,
         "bedrooms": 1,
-        "daysOnMarket": 13,
+        "daysOnMarket": 16,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-06",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-monarch-47-05-5th-street-long-island-city-303.png",
+        "estimatedListingDate": "2026-07-02",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1-qps-004f.png",
         "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/6b83942729617cf4d90d7ea519a24d5c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1ee841562df509f44a89cf0980073412-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9d3ec163535d2d17644f0507a468f5d6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/77fd7982c5d7922ce1e43fe1240c1b73-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a925d50b9a00f84d1782e53c84dd48d1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f0fe7c3278a4fc9508d368075e7d264e-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/9d051d26628ff03dae92ec4127454763-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/ba06f63bf6c60127ee6dfdc89a411d28-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/42df6b401268fc653deaebdf0f524b7e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cd39d9973709cceecd6a567f55b98bd4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8dba6864beee6b6c7a9e5f634193f76-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7b66b3f49c922f30a5bc2f4441c51a2e-se_large_800_400.webp"
         ],
-        "price": 4250,
-        "sqft": 720,
-        "title": "47-05 5th Street #303",
-        "url": "https://streeteasy.com/building/the-monarch-47_05-5th-street-long_island_city/303",
+        "price": 4271,
+        "sqft": 685,
+        "title": "42-20 24th Street #4F",
+        "url": "https://streeteasy.com/building/1-qps/004f",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.685,
+        "total": 51.54625,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
-          "score": 62.6,
-          "weight": 0.25,
-          "minutes": 22
+          "score": 76.2,
+          "weight": 0.23,
+          "minutes": 14
         },
         "friends": {
-          "score": 45.175000000000004,
-          "weight": 0.2
+          "score": 34.97500000000001,
+          "weight": 0.19
         },
         "size": {
-          "score": 30,
-          "weight": 0.15,
-          "sqft": 720,
+          "score": 21.25,
+          "weight": 0.14,
+          "sqft": 685,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.685,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; electric stove with flat cooktop visible; no private outdoor space shown; living room appears spacious with well-proportioned furniture layout."
+      "rankScore": 51.54625,
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range clearly visible with burner grates; outdoor space is a shared building terrace, not private; living room is spacious with good furniture proportions."
     },
     {
       "commute": {
@@ -32080,34 +32672,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.52043827731756,
+        "total": 51.38374239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 38.80000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.52043827731756,
+      "rankScore": 51.38374239216305,
       "visionNotes": "Kitchen is semi-open to a spacious living/dining area with floor-to-ceiling windows and terrace access; electric range visible; the outdoor space shown is a shared building roof deck, not private."
     },
     {
@@ -32176,34 +32773,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.43543827731755,
+        "total": 51.32849239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 66,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 20
         },
         "friends": {
           "score": 42.625,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.43543827731755,
+      "rankScore": 51.32849239216305,
       "visionNotes": "Kitchen is visible and open to the living/dining area with a gas cooktop; no private outdoor space shown; living room appears spacious with high ceilings and large windows."
     },
     {
@@ -32274,34 +32876,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.3675,
+        "total": 51.207,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 18.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 673,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.3675,
+      "rankScore": 51.207,
       "visionNotes": "Kitchen is visible in photo 3 with a pass-through counter opening to dining area; cooktop appears to be electric/induction (flat surface); living areas are spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
     },
     {
@@ -32372,34 +32979,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.33231598529186,
+        "total": 51.18407825293906,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 14.048773235279013,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 928,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.33231598529186,
+      "rankScore": 51.18407825293906,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas range with visible burners is evident in multiple photos; no private outdoor space shown; living room is spacious with high ceilings and large windows."
     },
     {
@@ -32470,34 +33082,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.292500000000004,
+        "total": 51.137,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.292500000000004,
+      "rankScore": 51.137,
       "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly shown; private terrace with seating visible in first photo; living room is spacious with high ceilings and expansive windows."
     },
     {
@@ -32568,34 +33185,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.292500000000004,
+        "total": 51.137,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.292500000000004,
+      "rankScore": 51.137,
       "visionNotes": "Kitchen is open to living area with electric stove visible; outdoor terrace with planters visible in photo 5; living spaces are spacious with high ceilings and large windows."
     },
     {
@@ -32666,35 +33288,142 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.292500000000004,
+        "total": 51.137,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 76.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 14
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.292500000000004,
+      "rankScore": 51.137,
       "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas range visible with burner grates; unit has a large terrace/outdoor deck with grill, though shared amenity status is unclear; living room is spacious with floor-to-ceiling windows."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 22,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 5,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-16T22:02:23.025Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "47-27 5th Street #402, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 7,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-13",
+        "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/39fc15769f59114590c0dc201d5fad62-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d328313ef64287c6c701b4e93526d331-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/daaf5a916a0c6b0d4c4c56918e054c35-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e4a4bd7f68487e1b3b033be527afa41d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/960056b63577720deefefb01f4607d87-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f8ab2153d94603439b5e2cc283071315-se_large_800_400.webp"
+        ],
+        "price": 5700,
+        "sqft": null,
+        "title": "47-27 5th Street #402",
+        "url": "https://streeteasy.com/building/47_27-5-street-long_island_city/402",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.03099239216305,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.23,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 45.175000000000004,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 51.03099239216305,
+      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
     },
     {
       "commute": {
@@ -32764,132 +33493,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 51.154358736211115,
+        "total": 51.015151487130375,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 79.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 12
         },
         "friends": {
           "score": 40.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 3.795724908074078,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 870,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 51.154358736211115,
+      "rankScore": 51.015151487130375,
       "visionNotes": "Kitchen is open to living area with island; stovetop appears to have visible burner grates consistent with gas; no private outdoor space visible; living room is spacious relative to typical NYC apartments."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 5,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 35,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-16T22:02:23.025Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "47-27 5th Street #402, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 7,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-13",
-        "externalScreenshot": "screenshots/streeteasy-com-building-47-27-5-street-long-island-city-402.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/39fc15769f59114590c0dc201d5fad62-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d328313ef64287c6c701b4e93526d331-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/daaf5a916a0c6b0d4c4c56918e054c35-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e4a4bd7f68487e1b3b033be527afa41d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/960056b63577720deefefb01f4607d87-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f8ab2153d94603439b5e2cc283071315-se_large_800_400.webp"
-        ],
-        "price": 5700,
-        "sqft": null,
-        "title": "47-27 5th Street #402",
-        "url": "https://streeteasy.com/building/47_27-5-street-long_island_city/402",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 51.095438277317555,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.25,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 45.175000000000004,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 51.095438277317555,
-      "visionNotes": "Kitchen is visible with gas range (visible burners/grates); semi-open to living area via counter pass-through; no private outdoor space visible; living room appears moderate-sized for NYC."
     },
     {
       "commute": {
@@ -32957,34 +33594,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.75543827731756,
+        "total": 50.69524239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 64.30000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 21
         },
         "friends": {
           "score": 41.35000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.75543827731756,
+      "rankScore": 50.69524239216305,
       "visionNotes": "Kitchen is semi-open to living/dining areas with black electric cooktop visible; unit has a private terrace with skyline views; living room is spacious and well-proportioned for NYC."
     },
     {
@@ -33054,34 +33696,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.7225,
+        "total": 50.656,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 47.3,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 3.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 615,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.7225,
+      "rankScore": 50.656,
       "visionNotes": "Kitchen is visible and open to living/dining area with what appears to be a gas range; no private outdoor space shown; living room is spacious with good furniture arrangement."
     },
     {
@@ -33152,133 +33799,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.675,
+        "total": 50.57625,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 74.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 15
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 12.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 650,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.675,
+      "rankScore": 50.57625,
       "visionNotes": "Kitchen is visible and open to living area; window AC unit visible suggesting electric cooking; spacious living room with modern furniture and good proportions; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 16,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-19T13:00:00.926Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "semi-open",
-      "listing": {
-        "address": "43-22 Queens Street #6E, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-07-23",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-18",
-        "externalScreenshot": "screenshots/streeteasy-com-building-eagle-lofts-6e.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/cf51efea4adf821de92e36577602e731-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8eb5a9b321073f1f0f07c77ba50f587b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/91b0f5db17fb2a86dfbdf3b2b370d856-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/16799f4e5ac7a1c7c60a8890adfceaf9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1fd9733a5b632b14469844067904e319-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e5131d565507c39e35a1a655a2230123-se_large_800_400.webp"
-        ],
-        "price": 4445,
-        "sqft": null,
-        "title": "43-22 Queens Street #6E",
-        "url": "https://streeteasy.com/building/eagle-lofts/6e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.612500000000004,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 72.8,
-          "weight": 0.25,
-          "minutes": 16
-        },
-        "friends": {
-          "score": 36.25,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.612500000000004,
-      "visionNotes": "Kitchen visible in photo 1 with gas range; opens to dining area with sightlines to living room (semi-open layout); living room in photo 3 appears spacious; outdoor amenity space shown (pool/rooftop) is shared building facility, not private unit space."
     },
     {
       "commute": {
@@ -33348,35 +33902,245 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.58543827731756,
+        "total": 50.53374239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 64.30000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 21
         },
         "friends": {
           "score": 40.5,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.58543827731756,
+      "rankScore": 50.53374239216305,
       "visionNotes": "Kitchen is semi-open to living area with a counter pass-through; gas stove clearly visible with grates; no private outdoor space shown; living room is spacious with good furniture layout."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 16,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "R Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 37,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-19T13:00:00.926Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "semi-open",
+      "listing": {
+        "address": "43-22 Queens Street #6E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-07-23",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-18",
+        "externalScreenshot": "screenshots/streeteasy-com-building-eagle-lofts-6e.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/cf51efea4adf821de92e36577602e731-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8eb5a9b321073f1f0f07c77ba50f587b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/91b0f5db17fb2a86dfbdf3b2b370d856-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/16799f4e5ac7a1c7c60a8890adfceaf9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1fd9733a5b632b14469844067904e319-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e5131d565507c39e35a1a655a2230123-se_large_800_400.webp"
+        ],
+        "price": 4445,
+        "sqft": null,
+        "title": "43-22 Queens Street #6E",
+        "url": "https://streeteasy.com/building/eagle-lofts/6e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.5165,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 72.8,
+          "weight": 0.23,
+          "minutes": 16
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 50.5165,
+      "visionNotes": "Kitchen visible in photo 1 with gas range; opens to dining area with sightlines to living room (semi-open layout); living room in photo 3 appears spacious; outdoor amenity space shown (pool/rooftop) is shared building facility, not private unit space."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 23,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 49,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 4,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 42,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 36,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "gasStove": "unknown",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 12,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-06",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-47-05-center-blvd-long-island-city-1001.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/bcb7cd364f53671981b4f411034f2a65-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/06ee415271eff2cef71539af9ff59d03-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/15c461dd13a957d6621476bc983c5ae8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f08573cab3b10317aa8a589a8b442c47-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7ffeaf9ed314c2465f8f3cc201c223dc-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a53874e95e207b9bc3fbc461898328ce-se_extra_large_1500_800.webp"
+        ],
+        "price": 6795,
+        "sqft": null,
+        "title": "47-05 Center Boulevard #1001",
+        "url": "https://streeteasy.com/building/47_05-center-blvd-long_island_city/1001",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 50.47849239216305,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.23,
+          "tier": "other"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.23,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 44.325,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.14,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.14,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 50.47849239216305,
+      "visionNotes": "Kitchen visible and open to living/dining area with island; no stove burners clearly visible in kitchen photo; spacious living room with floor-to-ceiling windows and multiple seating areas; no private outdoor space shown."
     },
     {
       "commute": {
@@ -33446,34 +34210,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.5275,
+        "total": 50.43575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.5275,
+      "rankScore": 50.43575,
       "visionNotes": "Kitchen is visible and open to living/dining area with gas range; outdoor space shown is a shared building pool deck, not private; living room appears reasonably sized for NYC."
     },
     {
@@ -33544,34 +34313,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.5275,
+        "total": 50.43575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.5275,
+      "rankScore": 50.43575,
       "visionNotes": "Kitchen is visible and open to dining/living area with visible gas range; no private outdoor space (pool/deck is shared building amenity); living room appears spacious with high ceilings and large windows."
     },
     {
@@ -33642,68 +34416,73 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.5275,
+        "total": 50.43575,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 35.825,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.5275,
+      "rankScore": 50.43575,
       "visionNotes": "Kitchen is visible and semi-open to dining/living area; gas range with visible burners; outdoor space shown is shared rooftop pool deck, not private; living room appears spacious with large windows and open layout."
     },
     {
       "commute": {
         "office": {
-          "minutes": 23,
+          "minutes": 21,
           "lines": [
-            "7",
-            "F Line"
+            "6 Train"
           ]
         },
         "prospectHeights": {
           "minutes": 49,
           "lines": [
-            "G Line",
-            "B69"
+            "Q Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 4,
-          "lines": []
+          "minutes": 35,
+          "lines": [
+            "Q Line",
+            "M Line",
+            "AS"
+          ]
         },
         "morningsideHeights": {
-          "minutes": 42,
+          "minutes": 39,
           "lines": [
-            "7X",
-            "1 Line"
+            "M4"
           ]
         },
         "upperWestSide": {
-          "minutes": 36,
+          "minutes": 20,
           "lines": [
-            "7X",
-            "1 Line"
+            "M86+"
           ]
         }
       },
@@ -33712,62 +34491,67 @@ window.__APARTMENT_REPORT__ = {
       "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
-        "address": "47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109",
+        "address": "1739 2nd Avenue #4S, NEW YORK, NY, 10128",
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
-        "daysOnMarket": 12,
+        "daysOnMarket": 23,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-06",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-47-05-center-blvd-long-island-city-1001.png",
-        "neighborhood": "Hunters Point",
+        "estimatedListingDate": "2026-06-25",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-max-1739-2-avenue-4s.png",
+        "neighborhood": "Yorkville",
         "photos": [
-          "https://photos.zillowstatic.com/fp/bcb7cd364f53671981b4f411034f2a65-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/06ee415271eff2cef71539af9ff59d03-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/15c461dd13a957d6621476bc983c5ae8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f08573cab3b10317aa8a589a8b442c47-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7ffeaf9ed314c2465f8f3cc201c223dc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a53874e95e207b9bc3fbc461898328ce-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/08c4fc11cc27f3c139f35311363d9164-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d32852e1e1731641610faecfc27ad7d5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/50a818c79a72dfa853fa3f0e6eb56a2d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b31559d6728c132a94964cbee1226fd2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e2c3ad877af9d3ba949e31466b934a80-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/28d694f77c4f3f048a125f3ea767128b-se_large_800_400.webp"
         ],
-        "price": 6795,
+        "price": 6142,
         "sqft": null,
-        "title": "47-05 Center Boulevard #1001",
-        "url": "https://streeteasy.com/building/47_05-center-blvd-long_island_city/1001",
+        "title": "1739 2nd Avenue #4S",
+        "url": "https://streeteasy.com/building/the-max-1739-2-avenue/4s",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.500438277317556,
+        "total": 50.29149239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
-          "score": 60.9,
-          "weight": 0.25,
-          "minutes": 23
+          "score": 64.30000000000001,
+          "weight": 0.23,
+          "minutes": 21
         },
         "friends": {
-          "score": 44.325,
-          "weight": 0.2
+          "score": 39.224999999999994,
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.500438277317556,
-      "visionNotes": "Kitchen visible and open to living/dining area with island; no stove burners clearly visible in kitchen photo; spacious living room with floor-to-ceiling windows and multiple seating areas; no private outdoor space shown."
+      "rankScore": 50.29149239216305,
+      "visionNotes": "Kitchen is visible and open to living area in last photo; no stove details visible; large windows overlook building/trees, not private outdoor space; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -33837,132 +34621,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.370000000000005,
+        "total": 50.275999999999996,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 77.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 13
         },
         "friends": {
           "score": 37.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 6.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 626,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.370000000000005,
+      "rankScore": 50.275999999999996,
       "visionNotes": "Kitchen visible with gas range (visible burner grates), open to living area; outdoor space shown is shared building amenity deck, not private; living room appears spacious with large windows."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 21,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "M4"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 20,
-          "lines": [
-            "M86+"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "gasStove": "unknown",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "1739 2nd Avenue #4S, NEW YORK, NY, 10128",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 23,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-25",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-max-1739-2-avenue-4s.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/08c4fc11cc27f3c139f35311363d9164-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d32852e1e1731641610faecfc27ad7d5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/50a818c79a72dfa853fa3f0e6eb56a2d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b31559d6728c132a94964cbee1226fd2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e2c3ad877af9d3ba949e31466b934a80-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/28d694f77c4f3f048a125f3ea767128b-se_large_800_400.webp"
-        ],
-        "price": 6142,
-        "sqft": null,
-        "title": "1739 2nd Avenue #4S",
-        "url": "https://streeteasy.com/building/the-max-1739-2-avenue/4s",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.330438277317555,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.25,
-          "tier": "other"
-        },
-        "office": {
-          "score": 64.30000000000001,
-          "weight": 0.25,
-          "minutes": 21
-        },
-        "friends": {
-          "score": 39.224999999999994,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.15,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.15,
-          "small": false
-        }
-      },
-      "rankScore": 50.330438277317555,
-      "visionNotes": "Kitchen is visible and open to living area in last photo; no stove details visible; large windows overlook building/trees, not private outdoor space; living room is spacious with good furniture arrangement."
     },
     {
       "commute": {
@@ -34030,34 +34722,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.245438277317554,
+        "total": 50.223492392163045,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 40.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.245438277317554,
+      "rankScore": 50.223492392163045,
       "visionNotes": "Kitchen is open to living area with black cooktop (appears electric/induction); photos 2-6 show shared building amenities, not private outdoor space; living room is spacious with large windows and properly furnished."
     },
     {
@@ -34126,34 +34823,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.245438277317554,
+        "total": 50.223492392163045,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 40.925,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.245438277317554,
+      "rankScore": 50.223492392163045,
       "visionNotes": "Kitchen is visible and open to the living area with floor-to-ceiling windows; stove type unclear due to angle and reflection; outdoor spaces shown are shared building amenities, not private; living room is spacious with high ceilings and panoramic city views."
     },
     {
@@ -34225,34 +34927,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 50.017500000000005,
+        "total": 49.964,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 71.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 17
         },
         "friends": {
           "score": 35.400000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 50.017500000000005,
+      "rankScore": 49.964,
       "visionNotes": "Kitchen is visible with a pass-through counter opening to the living/dining area; electric cooktop and oven clearly visible; no outdoor space shown; living room appears spacious with open sightlines."
     },
     {
@@ -34323,34 +35030,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.90543827731755,
+        "total": 49.84949239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 30.725,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.90543827731755,
+      "rankScore": 49.84949239216305,
       "visionNotes": "Kitchen is open to living/dining area with visible gas range; unit has private terrace/balcony accessible from living room; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -34421,34 +35133,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.90543827731755,
+        "total": 49.84949239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 30.725,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.90543827731755,
+      "rankScore": 49.84949239216305,
       "visionNotes": "Open-plan kitchen with gas range visible; spacious living room with large windows and no private outdoor space—only street-facing balconies/windows."
     },
     {
@@ -34520,34 +35237,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.82043827731756,
+        "total": 49.76874239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 30.3,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.82043827731756,
+      "rankScore": 49.76874239216305,
       "visionNotes": "Open-plan kitchen with island visible in first photos; private terrace/balcony with glass railing shown in photo 5; living room appears spacious with good furniture layout and natural light."
     },
     {
@@ -34619,34 +35341,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.650438277317555,
+        "total": 49.60724239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 29.450000000000003,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.650438277317555,
+      "rankScore": 49.60724239216305,
       "visionNotes": "Kitchen is semi-open with island counter facing living area; electric/black range visible; private rooftop terrace with seating and NYC skyline views; living room is spacious with good furniture-to-room ratio."
     },
     {
@@ -34717,34 +35444,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.545,
+        "total": 49.506,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 77.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 13
         },
         "friends": {
           "score": 37.10000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 1,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 604,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.545,
+      "rankScore": 49.506,
       "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric/induction cooktop; outdoor spaces shown are shared building amenities (roof deck, gym), not private to the unit; living room is spacious with large windows."
     },
     {
@@ -34815,34 +35547,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.42250000000001,
+        "total": 49.411500000000004,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 69.4,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 18
         },
         "friends": {
           "score": 34.55000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.42250000000001,
+      "rankScore": 49.411500000000004,
       "visionNotes": "Kitchen is open to living area with visible gas range; unit has private terrace/balcony with city views; spacious living room with floor-to-ceiling windows."
     },
     {
@@ -34911,34 +35648,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.167500000000004,
+        "total": 49.22025000000001,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 41.775000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.167500000000004,
+      "rankScore": 49.22025000000001,
       "visionNotes": "Kitchen is visible in photo 5 with a pass-through counter opening to the living/dining area; no private outdoor space (photo 6 shows shared building courtyard); living room is spacious with good furniture proportions."
     },
     {
@@ -35010,34 +35752,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.14043827731755,
+        "total": 49.13549239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 67.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 19
         },
         "friends": {
           "score": 29.025,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.14043827731755,
+      "rankScore": 49.13549239216305,
       "visionNotes": "Kitchen is semi-open to living area with a partial wall dividing them; stove has a flat black electric/induction cooktop; no private outdoor space visible; living room appears spacious with ample square footage."
     },
     {
@@ -35109,133 +35856,40 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.14043827731755,
+        "total": 49.13549239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 67.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 19
         },
         "friends": {
           "score": 29.025,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 49.14043827731755,
+      "rankScore": 49.13549239216305,
       "visionNotes": "Kitchen is semi-open to living/dining area with a partial wall divider; electric oven visible; living room appears spacious with large windows and open floor plan; no private outdoor space shown."
-    },
-    {
-      "commute": {
-        "office": {
-          "minutes": 23,
-          "lines": [
-            "1 Line",
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 20,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M11"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "gasStove": "yes",
-      "hasGarden": false,
-      "kitchenLayout": "open",
-      "listing": {
-        "address": "170 Amsterdam Avenue #7I, NEW YORK, NY, 10023",
-        "availableDate": "2026-07-13",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-16",
-        "externalScreenshot": "screenshots/streeteasy-com-building-170-amsterdam-07i.png",
-        "neighborhood": "Lincoln Square",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4261349dcd3bad8d4bcca36f3236ba02-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b8c78b60c8ce827914ff88b0d8b83971-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6a667ec17fd93ab58282132710fd7fb6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cce36a2d318cb69d005de098effa5da7-se_large_800_400.webp"
-        ],
-        "price": 6790,
-        "sqft": 689,
-        "title": "170 Amsterdam Avenue #7I",
-        "url": "https://streeteasy.com/building/170-amsterdam/07i",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 49.042500000000004,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.25,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.25,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 52.400000000000006,
-          "weight": 0.2
-        },
-        "size": {
-          "score": 22.25,
-          "weight": 0.15,
-          "sqft": 689,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.15,
-          "small": true
-        }
-      },
-      "rankScore": 49.042500000000004,
-      "visionNotes": "Kitchen is visible and open to living area with island counter; gas cooktop with visible burner grates; no private outdoor space shown; building appears to be modern high-rise with shared amenities only."
     },
     {
       "commute": {
@@ -35305,34 +35959,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.9975,
+        "total": 48.98225,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 28.174999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.9975,
+      "rankScore": 48.98225,
       "visionNotes": "Kitchen is clearly visible and open to living area; stove type unclear from angles shown; no private outdoor space visible; living room appears spacious with good ceiling height and natural light."
     },
     {
@@ -35403,35 +36062,143 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.9975,
+        "total": 48.98225,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 28.174999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.9975,
+      "rankScore": 48.98225,
       "visionNotes": "Kitchen is clearly visible and open to the living/dining area with an island; stove type cannot be determined from the angle and reflection; no outdoor space visible in any photos; living room appears moderately sized for NYC."
+    },
+    {
+      "commute": {
+        "office": {
+          "minutes": 23,
+          "lines": [
+            "1 Line",
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 34,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 20,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 11,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-13T14:51:59.429Z",
+      "gasStove": "yes",
+      "hasGarden": false,
+      "kitchenLayout": "open",
+      "listing": {
+        "address": "170 Amsterdam Avenue #7I, NEW YORK, NY, 10023",
+        "availableDate": "2026-07-13",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
+        "externalScreenshot": "screenshots/streeteasy-com-building-170-amsterdam-07i.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f0066d52dd1aec025df1863290a22b82-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4261349dcd3bad8d4bcca36f3236ba02-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b8c78b60c8ce827914ff88b0d8b83971-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6a667ec17fd93ab58282132710fd7fb6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dbd3a52531ecac7f5470edc9051d351d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cce36a2d318cb69d005de098effa5da7-se_large_800_400.webp"
+        ],
+        "price": 6790,
+        "sqft": 689,
+        "title": "170 Amsterdam Avenue #7I",
+        "url": "https://streeteasy.com/building/170-amsterdam/07i",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 48.97800000000001,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.23,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 60.9,
+          "weight": 0.23,
+          "minutes": 23
+        },
+        "friends": {
+          "score": 52.400000000000006,
+          "weight": 0.19
+        },
+        "size": {
+          "score": 22.25,
+          "weight": 0.14,
+          "sqft": 689,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.14,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
+        }
+      },
+      "rankScore": 48.97800000000001,
+      "visionNotes": "Kitchen is visible and open to living area with island counter; gas cooktop with visible burner grates; no private outdoor space shown; building appears to be modern high-rise with shared amenities only."
     },
     {
       "commute": {
@@ -35500,34 +36267,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.885438277317554,
+        "total": 48.95699239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.885438277317554,
+      "rankScore": 48.95699239216305,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; flat cooktop suggests electric/induction; spacious living areas with floor-to-ceiling windows; no private outdoor space visible, only interior rooms."
     },
     {
@@ -35597,34 +36369,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.885438277317554,
+        "total": 48.95699239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.885438277317554,
+      "rankScore": 48.95699239216305,
       "visionNotes": "Kitchen is open to living/dining areas with what appears to be electric cooktop; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
@@ -35694,34 +36471,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.885438277317554,
+        "total": 48.95699239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.885438277317554,
+      "rankScore": 48.95699239216305,
       "visionNotes": "Open-plan kitchen with island visible in multiple photos; cooktop appears to be electric/induction (flat surface); no private outdoor space shown; living rooms are spacious with floor-to-ceiling windows."
     },
     {
@@ -35791,34 +36573,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.885438277317554,
+        "total": 48.95699239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.885438277317554,
+      "rankScore": 48.95699239216305,
       "visionNotes": "Kitchen is clearly visible and open to living areas; stove appears to be electric/induction cooktop but reflection makes it slightly hard to confirm; no private outdoor space visible; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -35888,34 +36675,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.885438277317554,
+        "total": 48.95699239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 38.375,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.885438277317554,
+      "rankScore": 48.95699239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island counter; stove appears to be electric/induction (flat cooktop); no private outdoor space shown; living room is spacious with floor-to-ceiling windows and ample seating."
     },
     {
@@ -35985,34 +36777,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.46043827731755,
+        "total": 48.55324239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 59.2,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 24
         },
         "friends": {
           "score": 36.25,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.46043827731755,
+      "rankScore": 48.55324239216305,
       "visionNotes": "Kitchen is visible in photo 2 with white cabinetry and opens to living/dining area; stove appears to have dark grates suggesting gas but angle and reflection create some uncertainty; living room is spacious; bedrooms and bathroom shown but no private outdoor space visible."
     },
     {
@@ -36082,34 +36879,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 48.035000000000004,
+        "total": 48.18025000000001,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 60.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 23
         },
         "friends": {
           "score": 45.175000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 8.5,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 634,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 48.035000000000004,
+      "rankScore": 48.18025000000001,
       "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly shown; no private outdoor space visible; living room is spacious with high ceilings and large windows."
     },
     {
@@ -36180,34 +36982,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 47.37252973988815,
+        "total": 47.3696944238956,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -37.21646840074568,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 638,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 47.37252973988815,
+      "rankScore": 47.3696944238956,
       "visionNotes": "Kitchen is clearly visible and open to living areas with an island; gas range with visible burners/knobs; no private outdoor space shown; living room appears moderate-sized with windows but furniture not fully visible."
     },
     {
@@ -36279,34 +37086,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 47.348203435596425,
+        "total": 47.35148987322333,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 20.10000000000001,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 47
         },
         "friends": {
           "score": 18.049999999999997,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -8.578643762690518,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 800,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 47.348203435596425,
+      "rankScore": 47.35148987322333,
       "visionNotes": "Kitchen is visible and open to living area with clear gas range/cooktop; no private outdoor space shown; living room appears reasonably sized with good furniture arrangement."
     },
     {
@@ -36377,34 +37189,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 46.93043827731755,
+        "total": 47.11249239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 57.5,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 25
         },
         "friends": {
           "score": 30.725000000000005,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 46.93043827731755,
+      "rankScore": 47.11249239216305,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area; gas range with visible burner grates; no private outdoor space shown; living room is spacious with good proportions for NYC."
     },
     {
@@ -36474,34 +37291,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 46.50543827731755,
+        "total": 46.734242392163054,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.85,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 46.50543827731755,
+      "rankScore": 46.734242392163054,
       "visionNotes": "Kitchen is open to living area with electric range visible; outdoor spaces shown are shared building amenities (rooftop terrace and pool); living room appears spacious and well-proportioned for NYC."
     },
     {
@@ -36571,34 +37393,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 46.420438277317544,
+        "total": 46.65349239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 46.420438277317544,
+      "rankScore": 46.65349239216305,
       "visionNotes": "Kitchen is visible and semi-open to living area with island counter; gas range clearly visible with burner grates; photo 1 shows shared roof deck amenity (not private); living room appears spacious with high ceilings and expansive windows."
     },
     {
@@ -36668,34 +37495,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 46.420438277317544,
+        "total": 46.65349239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 46.420438277317544,
+      "rankScore": 46.65349239216305,
       "visionNotes": "Kitchen is clearly visible and open to living area with gas range visible; living room is spacious with floor-to-ceiling windows; photo 1 shows shared building amenity space, not private outdoor space."
     },
     {
@@ -36766,34 +37598,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 46.227500000000006,
+        "total": 46.267,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 46.227500000000006,
+      "rankScore": 46.267,
       "visionNotes": "Kitchen is visible in photo 5 with wood cabinetry and appears semi-open to the living/dining area; stove appears to be electric/induction based on flat cooktop visible; no private outdoor space shown; living room is spacious with good furniture proportion."
     },
     {
@@ -36863,34 +37700,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.852500000000006,
+        "total": 46.122,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.852500000000006,
+      "rankScore": 46.122,
       "visionNotes": "Kitchen is semi-open to living/dining area with island counter; visible gas range with burners; shared rooftop terrace visible in first photo; spacious living room with floor-to-ceiling windows and generous furniture layout."
     },
     {
@@ -36960,34 +37802,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.852500000000006,
+        "total": 46.122,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.852500000000006,
+      "rankScore": 46.122,
       "visionNotes": "Kitchen is visible and open to living/dining area with island; gas range visible with burner grates; shared rooftop terrace shown in first photo; living room is spacious with floor-to-ceiling windows and substantial furniture layout."
     },
     {
@@ -37057,34 +37904,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.852500000000006,
+        "total": 46.122,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.852500000000006,
+      "rankScore": 46.122,
       "visionNotes": "Kitchen is open to living/dining area with clear sightlines; gas range visible with burner grates; rooftop terrace shown in first photo appears to be building amenity space rather than private unit space, so marked as true for outdoor but with understanding it may be shared."
     },
     {
@@ -37154,34 +38006,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.852500000000006,
+        "total": 46.122,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.852500000000006,
+      "rankScore": 46.122,
       "visionNotes": "Kitchen is semi-open to living/dining area with island counter (photo 3); gas range with visible burners/grates (photo 4); shared rooftop terrace with building amenities visible in photo 1; living room is spacious with major windows and generous furniture layout (photo 3)."
     },
     {
@@ -37255,34 +38112,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.5275,
+        "total": 45.813250000000004,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 32.075,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.5275,
+      "rankScore": 45.813250000000004,
       "visionNotes": "Kitchen is clearly visible and open to living area in photo 2; stove is electric (black flat-top range); outdoor spaces shown are shared building amenities, not private; living rooms appear spacious with high ceilings and large windows."
     },
     {
@@ -37356,34 +38218,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.3575,
+        "total": 45.65175,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 31.225,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.3575,
+      "rankScore": 45.65175,
       "visionNotes": "Kitchen is clearly visible and open to living area with electric stove; outdoor space shown is a shared building amenity deck, not private; living rooms are spacious with plenty of furniture space."
     },
     {
@@ -37453,34 +38320,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.2575,
+        "total": 45.569500000000005,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.85,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.2575,
+      "rankScore": 45.569500000000005,
       "visionNotes": "Kitchen is clearly visible and open to living area; electric range with smooth cooktop and microwave visible; outdoor spaces shown are shared building amenities (rooftop terrace, pool); living room appears spacious with good furniture-to-room ratio."
     },
     {
@@ -37550,34 +38422,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.2575,
+        "total": 45.569500000000005,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.85,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.2575,
+      "rankScore": 45.569500000000005,
       "visionNotes": "Kitchen is clearly visible and open to living/dining area with electric range; outdoor spaces shown are shared building amenities (rooftop terrace and pool); living room is spacious with ample furniture arrangement."
     },
     {
@@ -37647,34 +38524,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.2575,
+        "total": 45.569500000000005,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.85,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.2575,
+      "rankScore": 45.569500000000005,
       "visionNotes": "Kitchen is open to living/dining area with island counter; electric oven/range visible; outdoor spaces shown are shared building amenities (terrace, pool); living room is spacious with large windows."
     },
     {
@@ -37744,34 +38626,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.2575,
+        "total": 45.569500000000005,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.85,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.2575,
+      "rankScore": 45.569500000000005,
       "visionNotes": "Kitchen is visible and open to living/dining area; electric stove (flat cooktop visible); shared building amenities (pool, terrace) shown but no private garden; living room is spacious with floor-to-ceiling windows."
     },
     {
@@ -37841,34 +38728,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is semi-open to living/dining area with island seating; gas cooktop visible in photo 4; large living room with city views; first photo shows shared building rooftop amenity, not private outdoor space."
     },
     {
@@ -37938,34 +38830,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is semi-open to living area with gas range clearly visible; living room is spacious with expansive windows; first photo shows building amenity terrace (shared), not private unit outdoor space."
     },
     {
@@ -38035,34 +38932,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is visible in photos 3-4 with gas range (visible burners/grates); semi-open to living area with island counter; living room is spacious with floor-to-ceiling windows; outdoor space in photo 1 is a shared building rooftop amenity, not private."
     },
     {
@@ -38132,34 +39034,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is clearly visible and open to living area with gas range visible; living room is spacious with floor-to-ceiling windows; outdoor space shown is shared building amenity, not private unit space."
     },
     {
@@ -38229,34 +39136,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is semi-open to living area with island; gas range clearly visible with burner grates; shared roof terrace shown in first photo is building amenity, not private; living room is spacious with floor-to-ceiling windows and comfortable furniture layout."
     },
     {
@@ -38326,34 +39238,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is open to living area with island; gas range clearly visible with burners; large living room with floor-to-ceiling windows; no private outdoor space (first photo shows shared rooftop amenity)."
     },
     {
@@ -38423,34 +39340,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.1725,
+        "total": 45.48875,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 54.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 27
         },
         "friends": {
           "score": 32.425,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.1725,
+      "rankScore": 45.48875,
       "visionNotes": "Kitchen is open to living area with gas range visible; shared rooftop terrace with outdoor furniture and grilling area; spacious living room with floor-to-ceiling windows and Manhattan views."
     },
     {
@@ -38521,34 +39443,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 45.06043827731755,
+        "total": 45.41249239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 47.300000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 31
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 45.06043827731755,
+      "rankScore": 45.41249239216305,
       "visionNotes": "Open-plan kitchen with visible gas range (burner grates visible); no outdoor space shown; living room appears spacious based on kitchen photos showing open floor plan."
     },
     {
@@ -38623,34 +39550,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 43.6775,
+        "total": 43.921,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 43.6775,
+      "rankScore": 43.921,
       "visionNotes": "Kitchen is clearly visible and open to the dining/living area; stove appears to be electric with a flat black cooktop; living spaces are generous; windows show high-rise views but no private outdoor space visible."
     },
     {
@@ -38722,34 +39654,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 43.432500000000005,
+        "total": 43.681,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 37.099999999999994,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 0.25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 601,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 43.432500000000005,
+      "rankScore": 43.681,
       "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with visible burners/grates; private terrace with NYC skyline view shown in first photo; living room is spacious with high ceilings and large windows."
     },
     {
@@ -38820,34 +39757,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 41.86543827731756,
+        "total": 42.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 41.86543827731756,
+      "rankScore": 42.22974239216305,
       "visionNotes": "Kitchen is open to living area with visible gas range (burners/grates visible on cooktop), unit has a private terrace, and living room appears spacious with floor-to-ceiling windows."
     },
     {
@@ -38918,34 +39860,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 41.86543827731756,
+        "total": 42.22974239216305,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 30.299999999999997,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 41
         },
         "friends": {
           "score": 26.900000000000002,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 41.86543827731756,
+      "rankScore": 42.22974239216305,
       "visionNotes": "Kitchen has gas range visible with open sightline to living/dining area; rooftop terrace shown in first photo is exclusive to this unit; living room appears spacious with floor-to-ceiling windows."
     },
     {
@@ -39014,34 +39961,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 41.2,
+        "total": 41.83775000000001,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 38.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 36
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 14.499999999999998,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 658,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 41.2,
+      "rankScore": 41.83775000000001,
       "visionNotes": "Kitchen is semi-open to living area with an island counter; stove appears to be electric with a flat black cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
@@ -39113,34 +40065,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 40.51206165891019,
+        "total": 40.95667421498285,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 30.724999999999998,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 0.6137443927346169,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 852,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 40.51206165891019,
+      "rankScore": 40.95667421498285,
       "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burners clearly seen in photo 2; private terrace with skyline views shown in photo 5; living room appears spacious with good proportions."
     },
     {
@@ -39211,34 +40168,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 39.83543827731755,
+        "total": 40.44374239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 81.3,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 11
         },
         "friends": {
           "score": 40.5,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 39.83543827731755,
+      "rankScore": 40.44374239216305,
       "visionNotes": "Kitchen is open to dining/living area with island; gas range visible with exposed burners; spacious living room with large windows; no private outdoor space visible."
     },
     {
@@ -39312,34 +40274,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 39.440000000000005,
+        "total": 40.137,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 55.800000000000004,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 26
         },
         "friends": {
           "score": 33.7,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -25,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 500,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 100,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 39.440000000000005,
+      "rankScore": 40.137,
       "visionNotes": "Kitchen is visible with gas range (visible burners/grates), semi-open to dining/living areas via pass-through counters; living room appears spacious with large windows and typical NYC proportions; no private outdoor space visible."
     },
     {
@@ -39410,34 +40377,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 39.1075,
+        "total": 39.77,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 84.7,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 9
         },
         "friends": {
           "score": 45.60000000000001,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 8.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 635,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 39.1075,
+      "rankScore": 39.77,
       "visionNotes": "Kitchen is visible in multiple photos with gas burners; it opens to a living/dining area via an island counter; no private outdoor space visible; living room appears compact for NYC with tight furniture arrangement."
     },
     {
@@ -39509,34 +40481,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 38.80410440982945,
+        "total": 39.35974744917416,
         "neighborhood": {
           "score": 100,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "brooklyn"
         },
         "office": {
           "score": 37.1,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 37
         },
         "friends": {
           "score": 29.875,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": -9.63930393447032,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 794,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 38.80410440982945,
+      "rankScore": 39.35974744917416,
       "visionNotes": "Open-plan kitchen with gas range visible; private balcony/terrace with city views; spacious living areas with good proportions."
     },
     {
@@ -39607,34 +40584,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 37.54043827731755,
+        "total": 38.32724239216304,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 72.8,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 16
         },
         "friends": {
           "score": 39.65,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 37.54043827731755,
+      "rankScore": 38.32724239216304,
       "visionNotes": "Kitchen is semi-open to living area with visible gas cooktop; no private outdoor space visible; living room is quite compact relative to furniture placement."
     },
     {
@@ -39703,34 +40685,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 35.415438277317556,
+        "total": 36.38499239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 62.6,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 22
         },
         "friends": {
           "score": 41.775000000000006,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 35.415438277317556,
+      "rankScore": 36.38499239216305,
       "visionNotes": "Kitchen is visible and open to living area; stove details not clearly visible; private outdoor space shown in photo 3 appears to be a shared waterfront amenity area rather than exclusive unit space; living room is spacious with high ceilings and large windows."
     },
     {
@@ -39801,34 +40788,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 32.722500000000004,
+        "total": 33.9495,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 49,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 30
         },
         "friends": {
           "score": 51.55,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 17.75,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 32.722500000000004,
+      "rankScore": 33.9495,
       "visionNotes": "Open-plan kitchen with electric range/oven visible; living room is compact with furniture filling most of the space; no private outdoor space shown, only windows overlooking NYC streets."
     },
     {
@@ -39897,34 +40889,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 30.145438277317552,
+        "total": 31.51874239216305,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 38.800000000000004,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 26.069588515450338,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": null,
           "bedrooms": 2
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 30.145438277317552,
+      "rankScore": 31.51874239216305,
       "visionNotes": "Kitchen is semi-open to living area with a peninsula counter; gas range with visible burners clearly visible; no private outdoor space shown; living room is appropriately sized for a NYC one-bedroom with good furniture proportions."
     },
     {
@@ -39993,34 +40990,39 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 27.475,
+        "total": 29.01075,
         "neighborhood": {
           "score": 30,
-          "weight": 0.25,
+          "weight": 0.23,
           "tier": "other"
         },
         "office": {
           "score": 43.9,
-          "weight": 0.25,
+          "weight": 0.23,
           "minutes": 33
         },
         "friends": {
           "score": 34.125,
-          "weight": 0.2
+          "weight": 0.19
         },
         "size": {
           "score": 14.499999999999998,
-          "weight": 0.15,
+          "weight": 0.14,
           "sqft": 658,
           "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
-          "weight": 0.15,
+          "weight": 0.14,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.07,
+          "size": "unknown"
         }
       },
-      "rankScore": 27.475,
+      "rankScore": 29.01075,
       "visionNotes": "Kitchen is semi-open to living area with visible gas range; windows show street-level exterior only; living room appears compact relative to typical NYC one-bedrooms."
     }
   ]
