@@ -781,11 +781,44 @@ function buildListingCard(entry, flags = []) {
   return node;
 }
 
+// The same listing can be built as an independent card in several tabs at
+// once (Act Now + New + All Qualifying all show a fresh listing
+// simultaneously) — each buildListingCard/buildExcludedRow call produces its
+// own DOM node with the note/star baked in at build time. Editing one copy
+// only updates feedbackState; without this, every *other* already-rendered
+// copy goes stale until the next full reload. data-listing-url tags every
+// card so syncFeedbackUI can find and update all of them together.
+function syncFeedbackUI(url) {
+  const feedback = getFeedback(url);
+  document.querySelectorAll(`[data-listing-url="${CSS.escape(url)}"]`).forEach((node) => {
+    const starButton = node.querySelector(".monitor-star, .excluded-star");
+    if (starButton) {
+      starButton.textContent = feedback.starred ? "★" : "☆";
+      starButton.classList.toggle("starred", feedback.starred);
+    }
+    const noteField = node.querySelector(".monitor-note, .excluded-note");
+    // Skip the field currently being typed in — this only ever runs after a
+    // `change` (blur) event elsewhere, but guards against clobbering an
+    // in-progress edit in the unlikely case the same listing is open for
+    // editing in two places at once.
+    if (noteField && document.activeElement !== noteField) {
+      noteField.value = feedback.note || "";
+    }
+    const unavailableButton = node.querySelector(".monitor-unavailable, .excluded-unavailable");
+    if (unavailableButton) {
+      unavailableButton.textContent = feedback.unavailable ? "Available again" : "Mark unavailable";
+      unavailableButton.classList.toggle("marked-unavailable", Boolean(feedback.unavailable));
+    }
+  });
+}
+
 // Shared by the full card template and the excluded-row template — reads
 // current state from feedbackState, wires the star toggle and note field to
 // write straight back through setFeedback (which persists to localStorage
 // immediately, no separate save step).
 function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailableSelector) {
+  node.dataset.listingUrl = url;
+
   const starButton = node.querySelector(starSelector);
   const noteField = node.querySelector(noteSelector);
   const unavailableButton = unavailableSelector ? node.querySelector(unavailableSelector) : null;
@@ -795,10 +828,8 @@ function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailab
     starButton.textContent = feedback.starred ? "★" : "☆";
     starButton.classList.toggle("starred", feedback.starred);
     starButton.addEventListener("click", () => {
-      const next = !getFeedback(url).starred;
-      setFeedback(url, title, { starred: next });
-      starButton.textContent = next ? "★" : "☆";
-      starButton.classList.toggle("starred", next);
+      setFeedback(url, title, { starred: !getFeedback(url).starred });
+      syncFeedbackUI(url);
       refreshStarredTab();
     });
   }
@@ -807,6 +838,7 @@ function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailab
     noteField.value = feedback.note || "";
     noteField.addEventListener("change", () => {
       setFeedback(url, title, { note: noteField.value.trim() });
+      syncFeedbackUI(url);
       refreshStarredTab();
     });
   }
