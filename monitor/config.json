@@ -15,9 +15,9 @@
   },
   "sources": [
     {
-      "name": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
+      "name": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "source": "streeteasy",
-      "url": "https://streeteasy.com/for-rent/nyc/price:4000-7000%7Carea:137,140,304,306,319,321,322,326,364,478%7Cbeds:1-2%7Camenities:washer_dryer?sort_by=se_score",
+      "url": "https://streeteasy.com/for-rent/nyc/price:4000-7000%7Carea:137,140,304,306,319,321,322,326,364,478%7Cbeds:1-%7Camenities:washer_dryer?sort_by=se_score",
       "enabled": true
     }
   ],
