@@ -123,10 +123,12 @@ function buildReport(state, runAt, config, newListings) {
 
 function toClientReport(report) {
   const serializeEntry = (entry) => ({
+    buildingType: entry.buildingType,
     commute: entry.commute,
     firstSeenAt: entry.firstSeenAt,
     gasStove: entry.gasStove,
     hasGarden: entry.hasGarden,
+    isCondo: entry.isCondo,
     kitchenLayout: entry.kitchenLayout,
     kitchenSize: entry.kitchenSize,
     listing: {
@@ -399,7 +401,9 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
         } else {
           state.catalog[entryId] = {
             commute: {},
+            buildingType: null,
             gasStove: "unknown",
+            isCondo: false,
             kitchenLayout: "unknown",
             kitchenSize: "unknown",
             listing: {

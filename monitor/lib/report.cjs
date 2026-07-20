@@ -30,6 +30,7 @@ function buildFactPills(entry) {
     `Gas: ${entry.gasStove}`,
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
+    entry.isCondo ? "Condo" : null,
   ];
 }
 
@@ -60,6 +61,7 @@ function buildScorePills(entry) {
     `Size: ${Math.round(breakdown.size.score)} · ${Math.round(breakdown.size.weight * 100)}% weight`,
     `Living room: ${Math.round(breakdown.livingRoom.score)} · ${Math.round(breakdown.livingRoom.weight * 100)}% weight`,
     `Kitchen size: ${Math.round(breakdown.kitchenSize.score)} · ${Math.round(breakdown.kitchenSize.weight * 100)}% weight`,
+    `Condo: ${Math.round(breakdown.condo.score)} · ${Math.round(breakdown.condo.weight * 100)}% weight`,
   ];
 }
 
