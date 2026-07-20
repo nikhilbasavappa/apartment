@@ -97,18 +97,24 @@ const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandC
 // repeated evidence behind them. The other five weights are shaved down
 // proportionally (each ~8% lower than before) rather than left untouched,
 // so the new dimension isn't just free extra weight on top of 100%.
-// condo added at 6% per an explicit direct instruction ("for those which are
-// condos, I would add a boost") — unlike kitchenSize/livingRoom this wasn't
-// inferred from a recurring review pattern, it's a stated preference, so no
-// "wait for more evidence" caution applies. All six prior weights shaved
-// down proportionally again to make room.
+// condo added at a flat 6% per an explicit direct instruction ("for those
+// which are condos, I would add a boost") — unlike kitchenSize/livingRoom
+// this wasn't inferred from a recurring review pattern, it's a stated
+// preference, so no "wait for more evidence" caution applies.
+// value added after noticing the #1-ranked listing ($6,900 for a 788sqft
+// 1bd, $8.76/sqft — expensive even within budget) had nothing pulling it
+// down for that. kitchenSize explicitly raised above every other dimension
+// per direct instruction ("kitchen size is very important" / "the single
+// top dimension") when value was proposed — not the modest treatment it got
+// when it first shipped as a single-data-point addition.
 const RANK_WEIGHTS = {
-  neighborhood: 0.22,
-  office: 0.22,
-  friends: 0.18,
-  size: 0.13,
-  livingRoom: 0.13,
-  kitchenSize: 0.06,
+  neighborhood: 0.16,
+  office: 0.16,
+  friends: 0.13,
+  size: 0.1,
+  livingRoom: 0.12,
+  kitchenSize: 0.17,
+  value: 0.1,
   condo: 0.06,
 };
 
@@ -170,6 +176,14 @@ function estimateSqftForBedrooms(bedrooms) {
   return SQFT_BASELINE_1BD + SQFT_PER_EXTRA_BEDROOM * (bd - 1);
 }
 
+// Real sqft when the listing has it, otherwise the bedroom-typical estimate
+// above. Shared by sqftScore (spaciousness) and valueScore (price
+// efficiency) below, so both dimensions agree on how big an unknown-sqft
+// listing is assumed to be rather than each guessing independently.
+function effectiveSqft(sqft, bedrooms) {
+  return Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(bedrooms);
+}
+
 // A bigger apartment is always at least as good, but the same sqft feels
 // much roomier split across fewer bedrooms — an 800sqft 1bd is spacious, an
 // 800sqft 2bd is cramped. Dividing by sqrt(bedrooms) applies that penalty
@@ -187,8 +201,7 @@ function estimateSqftForBedrooms(bedrooms) {
 // can't blow up the weighted average.
 function sqftScore(sqft, bedrooms) {
   const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
-  const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
-  const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
+  const perBedroomSqft = effectiveSqft(sqft, effectiveBedrooms) / Math.sqrt(effectiveBedrooms);
   const SCORE_ZERO_POINT_SQFT = 600;
   const SCORE_CEILING_SQFT = 1000;
   const SCORE_FLOOR = -100;
@@ -196,14 +209,37 @@ function sqftScore(sqft, bedrooms) {
   return Math.max(SCORE_FLOOR, Math.min(100, raw));
 }
 
+// Price per real-or-estimated sqft — reusing sqftScore's own bedroom-typical
+// imputation as the denominator rather than a separate "price per bedroom"
+// formula. When real sqft is missing (~75% of listings), this collapses to
+// price divided by a bedroom-typical size, which already correctly weights
+// a 2nd bedroom as worth more than half a 1bd's price (996 estimated sqft
+// for 2bd vs 671 for 1bd) instead of naively halving the price.
+//
+// Calibrated against the real $/sqft distribution among the ~77 qualifying
+// listings with actual sqft on record: median $7.16, cheap end (10th
+// percentile) $5.78, expensive end (90th percentile) $9.07. 25 Central Park
+// West #19U — $6,900 for 788sqft, $8.76/sqft, the listing that prompted this
+// dimension — lands near the expensive tail and scores well below 50.
+const VALUE_GOOD_PER_SQFT = 5.5;
+const VALUE_POOR_PER_SQFT = 9.5;
+
+function valueScore(price, sqft, bedrooms) {
+  if (!Number.isFinite(price) || price <= 0) return 50;
+  const pricePerSqft = price / effectiveSqft(sqft, bedrooms);
+  const raw = 100 - ((pricePerSqft - VALUE_GOOD_PER_SQFT) / (VALUE_POOR_PER_SQFT - VALUE_GOOD_PER_SQFT)) * 100;
+  return Math.max(0, Math.min(100, raw));
+}
+
 // Blended ranking score used to sort qualifying listings — separate from the
-// qualify/exclude hard filters above. Weighted 22% neighborhood preference,
-// 22% office commute (the daily one), 18% average commute to the four
-// friends' neighborhoods, 13% size (bedroom-normalized sqft), 13% living
-// room size, 6% kitchen size, 6% condo boost. Returns the components
-// alongside the total so the UI can show why a listing ranked where it did,
-// not just the number.
-function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo) {
+// qualify/exclude hard filters above. Weighted 16% neighborhood preference,
+// 16% office commute (the daily one), 13% average commute to the four
+// friends' neighborhoods, 10% size (bedroom-normalized sqft), 12% living
+// room size, 17% kitchen size (the single highest dimension), 10% value
+// (price efficiency), 6% condo boost. Returns the components alongside the
+// total so the UI can show why a listing ranked where it did, not just the
+// number.
+function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
@@ -212,6 +248,7 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
   const livingRoomScoreValue = livingRoomScore(livingRoomSmall);
   const kitchenSizeScoreValue = kitchenSizeScore(kitchenSize);
   const condoScoreValue = condoScore(isCondo);
+  const valueScoreValue = valueScore(price, sqft, bedrooms);
 
   const total =
     RANK_WEIGHTS.neighborhood * neighborhoodScore +
@@ -220,7 +257,8 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
     RANK_WEIGHTS.size * sizeScore +
     RANK_WEIGHTS.livingRoom * livingRoomScoreValue +
     RANK_WEIGHTS.kitchenSize * kitchenSizeScoreValue +
-    RANK_WEIGHTS.condo * condoScoreValue;
+    RANK_WEIGHTS.condo * condoScoreValue +
+    RANK_WEIGHTS.value * valueScoreValue;
 
   return {
     total,
@@ -231,11 +269,12 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
     livingRoom: { score: livingRoomScoreValue, weight: RANK_WEIGHTS.livingRoom, small: Boolean(livingRoomSmall) },
     kitchenSize: { score: kitchenSizeScoreValue, weight: RANK_WEIGHTS.kitchenSize, size: kitchenSize || "unknown" },
     condo: { score: condoScoreValue, weight: RANK_WEIGHTS.condo, isCondo: Boolean(isCondo) },
+    value: { score: valueScoreValue, weight: RANK_WEIGHTS.value, price: price ?? null },
   };
 }
 
-function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo) {
-  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo).total;
+function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price) {
+  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price).total;
 }
 
 function extractNumber(text, regex) {
@@ -459,7 +498,16 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
 
   const commute = commuteResult?.commutes || {};
   const tier = neighborhoodTier(listing.neighborhood, listing.borough, listing.address, lat);
-  const breakdown = rankBreakdown(commute, tier, listing.sqft, listing.bedrooms, livingRoomSmall, kitchenSize, isCondo);
+  const breakdown = rankBreakdown(
+    commute,
+    tier,
+    listing.sqft,
+    listing.bedrooms,
+    livingRoomSmall,
+    kitchenSize,
+    isCondo,
+    listing.price
+  );
 
   // Not a hard filter — just a signal that a listing's availability date is
   // close enough to warrant deciding on it sooner rather than letting it

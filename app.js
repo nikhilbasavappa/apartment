@@ -3,7 +3,16 @@ let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
 registerServiceWorker();
 
 const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
-const DEFAULT_WEIGHTS = { neighborhood: 22, office: 22, friends: 18, size: 13, livingRoom: 13, kitchenSize: 6, condo: 6 };
+const DEFAULT_WEIGHTS = {
+  neighborhood: 16,
+  office: 16,
+  friends: 13,
+  size: 10,
+  livingRoom: 12,
+  kitchenSize: 17,
+  condo: 6,
+  value: 10,
+};
 let currentWeights = loadWeights();
 
 // Not persisted (unlike weights) — resets each visit, since this is more a
@@ -49,6 +58,7 @@ const els = {
   weightLivingRoom: document.querySelector("#weightLivingRoom"),
   weightKitchenSize: document.querySelector("#weightKitchenSize"),
   weightCondo: document.querySelector("#weightCondo"),
+  weightValue: document.querySelector("#weightValue"),
   weightNeighborhoodValue: document.querySelector("#weightNeighborhoodValue"),
   weightOfficeValue: document.querySelector("#weightOfficeValue"),
   weightFriendsValue: document.querySelector("#weightFriendsValue"),
@@ -56,6 +66,7 @@ const els = {
   weightLivingRoomValue: document.querySelector("#weightLivingRoomValue"),
   weightKitchenSizeValue: document.querySelector("#weightKitchenSizeValue"),
   weightCondoValue: document.querySelector("#weightCondoValue"),
+  weightValueValue: document.querySelector("#weightValueValue"),
   weightReset: document.querySelector("#weightReset"),
   tabCountStarred: document.querySelector("#tabCountStarred"),
   starredFeed: document.querySelector("#starredFeed"),
@@ -253,7 +264,8 @@ function loadWeights() {
       Number.isFinite(parsed.size) &&
       Number.isFinite(parsed.livingRoom) &&
       Number.isFinite(parsed.kitchenSize) &&
-      Number.isFinite(parsed.condo)
+      Number.isFinite(parsed.condo) &&
+      Number.isFinite(parsed.value)
     ) {
       return parsed;
     }
@@ -303,7 +315,8 @@ function initWeightSliders() {
     !els.weightSize ||
     !els.weightLivingRoom ||
     !els.weightKitchenSize ||
-    !els.weightCondo
+    !els.weightCondo ||
+    !els.weightValue
   )
     return;
 
@@ -317,6 +330,7 @@ function initWeightSliders() {
     [els.weightLivingRoom.id]: "livingRoom",
     [els.weightKitchenSize.id]: "kitchenSize",
     [els.weightCondo.id]: "condo",
+    [els.weightValue.id]: "value",
   };
 
   [
@@ -327,6 +341,7 @@ function initWeightSliders() {
     els.weightLivingRoom,
     els.weightKitchenSize,
     els.weightCondo,
+    els.weightValue,
   ].forEach((slider) => {
     slider.addEventListener("input", () => {
       const key = sliderKeys[slider.id];
@@ -338,6 +353,7 @@ function initWeightSliders() {
         livingRoom: Number(els.weightLivingRoom.value),
         kitchenSize: Number(els.weightKitchenSize.value),
         condo: Number(els.weightCondo.value),
+        value: Number(els.weightValue.value),
       });
       saveWeights(currentWeights);
       updateSliderUI();
@@ -361,6 +377,7 @@ function updateSliderUI() {
   els.weightLivingRoom.value = Math.round(currentWeights.livingRoom);
   els.weightKitchenSize.value = Math.round(currentWeights.kitchenSize);
   els.weightCondo.value = Math.round(currentWeights.condo);
+  els.weightValue.value = Math.round(currentWeights.value);
   els.weightNeighborhoodValue.textContent = `${Math.round(currentWeights.neighborhood)}%`;
   els.weightOfficeValue.textContent = `${Math.round(currentWeights.office)}%`;
   els.weightFriendsValue.textContent = `${Math.round(currentWeights.friends)}%`;
@@ -368,6 +385,7 @@ function updateSliderUI() {
   els.weightSizeValue.textContent = `${Math.round(currentWeights.size)}%`;
   els.weightKitchenSizeValue.textContent = `${Math.round(currentWeights.kitchenSize)}%`;
   els.weightCondoValue.textContent = `${Math.round(currentWeights.condo)}%`;
+  els.weightValueValue.textContent = `${Math.round(currentWeights.value)}%`;
 }
 
 // Mirrors monitor/lib/scoring.cjs's rankBreakdown so weight adjustments can
@@ -398,12 +416,28 @@ function estimateSqftForBedrooms(bedrooms) {
   return SQFT_BASELINE_1BD + SQFT_PER_EXTRA_BEDROOM * (bd - 1);
 }
 
+function effectiveSqft(sqft, bedrooms) {
+  return Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(bedrooms);
+}
+
 function sqftScore(sqft, bedrooms) {
   const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
-  const actualOrEstimatedSqft = Number.isFinite(sqft) && sqft > 0 ? sqft : estimateSqftForBedrooms(effectiveBedrooms);
-  const perBedroomSqft = actualOrEstimatedSqft / Math.sqrt(effectiveBedrooms);
+  const perBedroomSqft = effectiveSqft(sqft, effectiveBedrooms) / Math.sqrt(effectiveBedrooms);
   const raw = ((perBedroomSqft - SQFT_SCORE_ZERO_POINT) / (SQFT_SCORE_CEILING - SQFT_SCORE_ZERO_POINT)) * 100;
   return Math.max(SQFT_SCORE_FLOOR, Math.min(100, raw));
+}
+
+// Same calibration as monitor/lib/scoring.cjs's valueScore — price per
+// real-or-estimated sqft, cheap end ($5.50/sqft) scores 100, expensive end
+// ($9.50/sqft) scores 0.
+const VALUE_GOOD_PER_SQFT = 5.5;
+const VALUE_POOR_PER_SQFT = 9.5;
+
+function valueScore(price, sqft, bedrooms) {
+  if (!Number.isFinite(price) || price <= 0) return 50;
+  const pricePerSqft = price / effectiveSqft(sqft, bedrooms);
+  const raw = 100 - ((pricePerSqft - VALUE_GOOD_PER_SQFT) / (VALUE_POOR_PER_SQFT - VALUE_GOOD_PER_SQFT)) * 100;
+  return Math.max(0, Math.min(100, raw));
 }
 
 function livingRoomScore(livingRoomSmall) {
@@ -430,6 +464,7 @@ function computeClientRankBreakdown(entry, weights) {
   const livingRoomScoreValue = livingRoomScore(entry.livingRoomSmall);
   const kitchenSizeScoreValue = kitchenSizeScore(entry.kitchenSize);
   const condoScoreValue = condoScore(entry.isCondo);
+  const valueScoreValue = valueScore(entry.listing?.price, entry.listing?.sqft, entry.listing?.bedrooms);
 
   const nWeight = weights.neighborhood / 100;
   const oWeight = weights.office / 100;
@@ -438,6 +473,7 @@ function computeClientRankBreakdown(entry, weights) {
   const lWeight = weights.livingRoom / 100;
   const kWeight = weights.kitchenSize / 100;
   const cWeight = weights.condo / 100;
+  const vWeight = weights.value / 100;
 
   return {
     total:
@@ -447,7 +483,8 @@ function computeClientRankBreakdown(entry, weights) {
       sWeight * sizeScore +
       lWeight * livingRoomScoreValue +
       kWeight * kitchenSizeScoreValue +
-      cWeight * condoScoreValue,
+      cWeight * condoScoreValue +
+      vWeight * valueScoreValue,
     neighborhood: { score: neighborhoodScore, weight: nWeight, tier },
     office: { score: officeScore, weight: oWeight },
     friends: { score: avgFriendScore, weight: fWeight },
@@ -455,6 +492,7 @@ function computeClientRankBreakdown(entry, weights) {
     livingRoom: { score: livingRoomScoreValue, weight: lWeight, small: Boolean(entry.livingRoomSmall) },
     kitchenSize: { score: kitchenSizeScoreValue, weight: kWeight, size: entry.kitchenSize || "unknown" },
     condo: { score: condoScoreValue, weight: cWeight, isCondo: Boolean(entry.isCondo) },
+    value: { score: valueScoreValue, weight: vWeight, price: entry.listing?.price ?? null },
   };
 }
 
@@ -727,6 +765,7 @@ function buildListingCard(entry, flags = []) {
       `Living room: ${Math.round(breakdown.livingRoom.score)} · ${Math.round(breakdown.livingRoom.weight * 100)}% weight`,
       `Kitchen size: ${Math.round(breakdown.kitchenSize.score)} · ${Math.round(breakdown.kitchenSize.weight * 100)}% weight`,
       `Condo: ${Math.round(breakdown.condo.score)} · ${Math.round(breakdown.condo.weight * 100)}% weight`,
+      `Value: ${Math.round(breakdown.value.score)} · ${Math.round(breakdown.value.weight * 100)}% weight`,
     ].forEach((label) => breakdownEl.append(createPill(label, "score-pill")));
   } else if (breakdownLabel) {
     breakdownLabel.style.display = "none";

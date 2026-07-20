@@ -66,7 +66,7 @@
             None of that is weighted or negotiable &mdash; it's pass/fail.
           </p>
           <p class="rubric-copy">
-            Everything that clears those gets a <strong>match score out of 100</strong>, blending seven things:
+            Everything that clears those gets a <strong>match score out of 100</strong>, blending eight things:
           </p>
           <ul class="rubric-list">
             <li><strong>Neighborhood preference</strong> &mdash; Brooklyn and Upper West Side in the 72nd&ndash;89th
@@ -97,63 +97,68 @@
               &mdash; entertaining space matters enough to weight it comparably to size, not just as a tiebreaker.</li>
             <li><strong>Kitchen size</strong> &mdash; also from the photo-based check, judging counter/cabinet run
               and floor space rather than open-vs-closed layout (that's a separate hard requirement above): large
-              scores 100, small scores 0, standard or unclassifiable scores 50. Weighted lighter than the others
-              (6%) since it's only come up once so far as an explicit callout, versus living room's four &mdash;
-              real, but not yet a proven recurring pattern.</li>
+              scores 100, small scores 0, standard or unclassifiable scores 50. The single highest-weighted
+              dimension (17%) per direct instruction &mdash; "kitchen size is very important."</li>
             <li><strong>Condo</strong> &mdash; a boost, not a hard requirement: condos score 100, everything else
               (rental buildings, co-ops, mixed-use, multi-family) scores a neutral 50, so non-condos aren't
               penalized, condos just get lifted above the baseline. Detected directly from StreetEasy's own listing
-              text. Added per explicit instruction rather than an observed review pattern, so weighted the same as
-              kitchen size (6%) without waiting for repeat evidence.</li>
+              text. Added per explicit instruction rather than an observed review pattern, weighted lightest of the
+              eight (6%) since it's a boost rather than a core priority.</li>
+            <li><strong>Value</strong> &mdash; price per real-or-estimated square foot (reusing the same
+              bedroom-typical sqft estimate as the size dimension above when real sqft isn't listed, so it degrades
+              to a price-per-bedroom-equivalent rather than a separate guess). Cheap end ($5.50/sqft) scores 100,
+              expensive end ($9.50/sqft) scores 0, calibrated against the real range across qualifying listings with
+              known sqft. Added after noticing the highest-ranked listing at the time ($6,900 for a 788sqft
+              1-bedroom, $8.76/sqft) had nothing pulling its score down for being expensive within budget.</li>
           </ul>
           <p class="rubric-copy">
-            The default weighting is 22% neighborhood, 22% office, 18% friends, 13% size, 13% living room, 6% kitchen
-            size, 6% condo. If that balance feels off, adjust it below; it re-sorts the New and All Qualifying tabs
-            immediately and remembers your setting on this device.
+            The default weighting is 16% neighborhood, 16% office, 13% friends, 10% size, 12% living room, 17%
+            kitchen size, 6% condo, 10% value. If that balance feels off, adjust it below; it re-sorts the New and
+            All Qualifying tabs immediately and remembers your setting on this device.
           </p>
 
           <div class="weight-sliders">
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Neighborhood</span>
-                <strong id="weightNeighborhoodValue">22%</strong>
+                <strong id="weightNeighborhoodValue">16%</strong>
               </div>
-              <input type="range" min="0" max="100" value="22" id="weightNeighborhood" class="weight-slider" />
+              <input type="range" min="0" max="100" value="16" id="weightNeighborhood" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Office commute</span>
-                <strong id="weightOfficeValue">22%</strong>
+                <strong id="weightOfficeValue">16%</strong>
               </div>
-              <input type="range" min="0" max="100" value="22" id="weightOffice" class="weight-slider" />
+              <input type="range" min="0" max="100" value="16" id="weightOffice" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Friends commute</span>
-                <strong id="weightFriendsValue">18%</strong>
+                <strong id="weightFriendsValue">13%</strong>
               </div>
-              <input type="range" min="0" max="100" value="18" id="weightFriends" class="weight-slider" />
+              <input type="range" min="0" max="100" value="13" id="weightFriends" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Size</span>
-                <strong id="weightSizeValue">13%</strong>
+                <strong id="weightSizeValue">10%</strong>
               </div>
-              <input type="range" min="0" max="100" value="13" id="weightSize" class="weight-slider" />
+              <input type="range" min="0" max="100" value="10" id="weightSize" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Living room</span>
-                <strong id="weightLivingRoomValue">13%</strong>
+                <strong id="weightLivingRoomValue">12%</strong>
               </div>
-              <input type="range" min="0" max="100" value="13" id="weightLivingRoom" class="weight-slider" />
+              <input type="range" min="0" max="100" value="12" id="weightLivingRoom" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Kitchen size</span>
-                <strong id="weightKitchenSizeValue">6%</strong>
+                <strong id="weightKitchenSizeValue">17%</strong>
               </div>
-              <input type="range" min="0" max="100" value="6" id="weightKitchenSize" class="weight-slider" />
+              <input type="range" min="0" max="100" value="17" id="weightKitchenSize" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
@@ -162,7 +167,14 @@
               </div>
               <input type="range" min="0" max="100" value="6" id="weightCondo" class="weight-slider" />
             </div>
-            <button type="button" class="ghost-button" id="weightReset">Reset to default (22 / 22 / 18 / 13 / 13 / 6 / 6)</button>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Value</span>
+                <strong id="weightValueValue">10%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="10" id="weightValue" class="weight-slider" />
+            </div>
+            <button type="button" class="ghost-button" id="weightReset">Reset to default (16 / 16 / 13 / 10 / 12 / 17 / 6 / 10)</button>
           </div>
         </div>
 

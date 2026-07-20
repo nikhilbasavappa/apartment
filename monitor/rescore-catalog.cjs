@@ -33,7 +33,8 @@ for (const entry of Object.values(state.catalog)) {
     entry.listing.bedrooms,
     entry.livingRoomSmall,
     entry.kitchenSize,
-    isCondo
+    isCondo,
+    entry.listing.price
   );
   entry.rankScore = breakdown.total;
   entry.rankBreakdown = breakdown;
@@ -41,4 +42,4 @@ for (const entry of Object.values(state.catalog)) {
 }
 
 writeJson(statePath, state);
-console.log(`Rescored ${updated} catalog entries with the 7-dimension weighting.`);
+console.log(`Rescored ${updated} catalog entries with the 8-dimension weighting.`);
