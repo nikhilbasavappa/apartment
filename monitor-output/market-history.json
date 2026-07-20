@@ -574,5 +574,149 @@
       "sampleSize": 79,
       "medianDaysOnMarket": 2.5
     }
+  },
+  {
+    "runAt": "2026-07-20T22:00:05.338Z",
+    "areas": [
+      {
+        "name": "Hunters Point",
+        "tier": "other",
+        "count": 90,
+        "medianPrice": 5221,
+        "medianPricePerSqft": 7.0039592377379645,
+        "medianDaysOnMarket": 12,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Boerum Hill",
+        "tier": "brooklyn",
+        "count": 31,
+        "medianPrice": 5019,
+        "medianPricePerSqft": 7.40734338358459,
+        "medianDaysOnMarket": 9.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Fort Greene",
+        "tier": "brooklyn",
+        "count": 29,
+        "medianPrice": 5592,
+        "medianPricePerSqft": 7.836197475032975,
+        "medianDaysOnMarket": 4,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Downtown Brooklyn",
+        "tier": "brooklyn",
+        "count": 26,
+        "medianPrice": 5230,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 58,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Prospect Heights",
+        "tier": "brooklyn",
+        "count": 22,
+        "medianPrice": 4674.5,
+        "medianPricePerSqft": 6.57726975039663,
+        "medianDaysOnMarket": 10.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Clinton Hill",
+        "tier": "brooklyn",
+        "count": 18,
+        "medianPrice": 5537.5,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 2.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Long Island City",
+        "tier": "other",
+        "count": 15,
+        "medianPrice": 5200,
+        "medianPricePerSqft": 5.12715340442986,
+        "medianDaysOnMarket": 8,
+        "medianLeadTimeDays": 7.5
+      },
+      {
+        "name": "Upper West Side",
+        "tier": "uwsAcceptable",
+        "count": 15,
+        "medianPrice": 6044,
+        "medianPricePerSqft": 9.200092914573789,
+        "medianDaysOnMarket": 21,
+        "medianLeadTimeDays": 17
+      },
+      {
+        "name": "Park Slope",
+        "tier": "brooklyn",
+        "count": 15,
+        "medianPrice": 5433,
+        "medianPricePerSqft": 6.097791798107256,
+        "medianDaysOnMarket": 5.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Lincoln Square",
+        "tier": "uwsAcceptable",
+        "count": 13,
+        "medianPrice": 6350,
+        "medianPricePerSqft": 8.430895647928663,
+        "medianDaysOnMarket": 4,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Yorkville",
+        "tier": "other",
+        "count": 12,
+        "medianPrice": 5795,
+        "medianPricePerSqft": 8.145896656534955,
+        "medianDaysOnMarket": 5,
+        "medianLeadTimeDays": 15.5
+      },
+      {
+        "name": "Carroll Gardens",
+        "tier": "brooklyn",
+        "count": 9,
+        "medianPrice": 6490,
+        "medianPricePerSqft": 6.264478764478764,
+        "medianDaysOnMarket": 10,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Cobble Hill",
+        "tier": "brooklyn",
+        "count": 5,
+        "medianPrice": 6150,
+        "medianPricePerSqft": 5.909090909090909,
+        "medianDaysOnMarket": 38,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Lenox Hill",
+        "tier": "other",
+        "count": 4,
+        "medianPrice": 4582.5,
+        "medianPricePerSqft": 6.723076923076923,
+        "medianDaysOnMarket": 3.5,
+        "medianLeadTimeDays": 17.5
+      },
+      {
+        "name": "Manhattan",
+        "tier": "other",
+        "count": 1,
+        "medianPrice": 4375,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 5,
+        "medianLeadTimeDays": 19
+      }
+    ],
+    "contractSpeed": {
+      "sampleSize": 79,
+      "medianDaysOnMarket": 2.5
+    }
   }
 ]
