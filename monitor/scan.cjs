@@ -126,11 +126,11 @@ function toClientReport(report) {
     buildingType: entry.buildingType,
     commute: entry.commute,
     firstSeenAt: entry.firstSeenAt,
-    gasStove: entry.gasStove,
     hasGarden: entry.hasGarden,
     isCondo: entry.isCondo,
     kitchenLayout: entry.kitchenLayout,
     kitchenSize: entry.kitchenSize,
+    stoveType: entry.stoveType,
     listing: {
       address: entry.listing.address,
       availableDate: entry.listing.availableDate,
@@ -402,10 +402,10 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
           state.catalog[entryId] = {
             commute: {},
             buildingType: null,
-            gasStove: "unknown",
             isCondo: false,
             kitchenLayout: "unknown",
             kitchenSize: "unknown",
+            stoveType: "unknown",
             listing: {
               ...candidate,
               description: candidate.searchSnippet || "",

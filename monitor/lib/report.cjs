@@ -16,6 +16,13 @@ function renderPills(values, className) {
     .join("");
 }
 
+const STOVE_TYPE_LABEL = {
+  gas: "Gas",
+  smoothElectric: "Smooth-top electric",
+  coilElectric: "Coil electric",
+  unknown: "Stove type unknown",
+};
+
 function buildFactPills(entry) {
   const listing = entry.listing;
   return [
@@ -27,7 +34,7 @@ function buildFactPills(entry) {
     `W/D: ${listing.washerDryer}`,
     `Kitchen: ${entry.kitchenLayout}`,
     entry.kitchenSize && entry.kitchenSize !== "unknown" ? `Kitchen size: ${entry.kitchenSize}` : null,
-    `Gas: ${entry.gasStove}`,
+    `Stove: ${STOVE_TYPE_LABEL[entry.stoveType] || entry.stoveType}`,
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
     entry.isCondo ? "Condo" : null,

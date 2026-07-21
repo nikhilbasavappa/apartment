@@ -7,15 +7,15 @@ const PROMPT = `You are looking at photos from a NYC apartment rental listing. B
 Answer these questions:
 1. Is a kitchen visible in any of these photos?
 2. Is the kitchen open-plan (open or semi-open to a living/dining area) or enclosed in its own separate room (closed or a narrow galley layout)? A pass-through counter/opening to a hallway, foyer, or other non-living space does NOT count as open or semi-open — classify that as "closed". Only count it as open/semi-open if the kitchen shares real sightline and space with an actual living or dining area.
-3. Is the stove/range gas or electric? Look for visible burners/grates (gas) versus a flat glass/ceramic cooktop or coil burners (electric/induction). This is genuinely hard to tell in many photos (reflections, angle, resolution) — if you're not confident, say so via stoveConfidence rather than picking one at random.
+3. Is the stove/range gas, smooth-top electric (glass/ceramic or induction — flat, no visible elements), or coil electric (old-style, visible spiral metal coil burners sitting proud of the surface)? Do NOT infer gas from the presence of knobs alone — smooth-top electric and coil electric ranges often have knobs too. The actual signal for gas is visible burner grates (metal grates sitting over the burner openings). If the surface is flat with no grates, it's smooth-top electric, not gas, regardless of knobs. This is genuinely hard to tell in many photos (reflections, angle, resolution) — if you're not confident, say so via stoveConfidence rather than picking one at random.
 4. Does the unit have its own private outdoor space (a garden, yard, or terrace exclusively for this unit) — not a shared building courtyard, roof deck, or amenity space?
 5. Does the living room look notably small/cramped based on the furniture-to-room ratio and how tight the framing is, versus a typical NYC one-bedroom living room?
 6. How large does the kitchen itself look — judged by counter/cabinet run length and floor space, not by whether it's open or closed to the living area (that's a separate question above). "large" means genuinely spacious with real counter and storage space; "small" means a cramped galley or a kitchenette squeezed into a corner; anything in between is "standard".
 
 Respond with ONLY strict JSON, no other text, in this exact shape:
-{"kitchenVisible": true|false, "kitchenLayout": "open"|"semi-open"|"closed"|"galley"|"unknown", "kitchenConfidence": "high"|"medium"|"low", "kitchenSize": "large"|"standard"|"small"|"unknown", "kitchenSizeConfidence": "high"|"medium"|"low", "gasStove": "yes"|"no"|"unknown", "stoveConfidence": "high"|"medium"|"low", "hasGarden": true|false, "gardenConfidence": "high"|"medium"|"low", "livingRoomSmall": true|false, "livingRoomConfidence": "high"|"medium"|"low", "notes": "one short sentence explaining what you saw"}
+{"kitchenVisible": true|false, "kitchenLayout": "open"|"semi-open"|"closed"|"galley"|"unknown", "kitchenConfidence": "high"|"medium"|"low", "kitchenSize": "large"|"standard"|"small"|"unknown", "kitchenSizeConfidence": "high"|"medium"|"low", "stoveType": "gas"|"smoothElectric"|"coilElectric"|"unknown", "stoveConfidence": "high"|"medium"|"low", "hasGarden": true|false, "gardenConfidence": "high"|"medium"|"low", "livingRoomSmall": true|false, "livingRoomConfidence": "high"|"medium"|"low", "notes": "one short sentence explaining what you saw"}
 
-If no kitchen is visible in any photo, set kitchenVisible to false and kitchenLayout/kitchenSize/gasStove to "unknown". If no living room or outdoor space is visible in any photo, set the corresponding field to false and its confidence to "low".`;
+If no kitchen is visible in any photo, set kitchenVisible to false and kitchenLayout/kitchenSize/stoveType to "unknown". If no living room or outdoor space is visible in any photo, set the corresponding field to false and its confidence to "low".`;
 
 function apiKey() {
   const key = process.env.ANTHROPIC_API_KEY;
@@ -59,7 +59,7 @@ function unknownResult(notes) {
     kitchenConfidence: "low",
     kitchenSize: "unknown",
     kitchenSizeConfidence: "low",
-    gasStove: "unknown",
+    stoveType: "unknown",
     stoveConfidence: "low",
     hasGarden: false,
     gardenConfidence: "low",

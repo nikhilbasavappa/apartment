@@ -195,7 +195,7 @@ function applySortFilter(entries) {
       if (actual === null) return false;
       if (wanted === 3 ? actual < 3 : actual !== wanted) return false;
     }
-    if (currentSortFilter.gas !== "any" && entry.gasStove !== currentSortFilter.gas) return false;
+    if (currentSortFilter.gas !== "any" && entry.stoveType !== currentSortFilter.gas) return false;
     const unavailable = isUnavailable(entry);
     if (currentSortFilter.availability === "available" && unavailable) return false;
     if (currentSortFilter.availability === "unavailable" && !unavailable) return false;
@@ -726,7 +726,7 @@ function buildListingCard(entry, flags = []) {
     formatLabel("W/D", entry.listing.washerDryer),
     formatLabel("Kitchen", entry.kitchenLayout),
     entry.kitchenSize && entry.kitchenSize !== "unknown" ? formatLabel("Kitchen size", entry.kitchenSize) : null,
-    formatLabel("Gas", entry.gasStove),
+    `Stove: ${STOVE_TYPE_LABEL[entry.stoveType] || entry.stoveType}`,
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
     entry.isCondo ? "Condo" : null,
@@ -1194,6 +1194,13 @@ function formatCurrency(value) {
     maximumFractionDigits: 0,
   }).format(value);
 }
+
+const STOVE_TYPE_LABEL = {
+  gas: "gas",
+  smoothElectric: "smooth-top electric",
+  coilElectric: "coil electric",
+  unknown: "unknown",
+};
 
 function formatLabel(label, value) {
   if (!value) return null;

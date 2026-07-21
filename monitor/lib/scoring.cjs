@@ -438,7 +438,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     kitchenVisible: false,
     kitchenLayout: "unknown",
     kitchenSize: "unknown",
-    gasStove: "unknown",
+    stoveType: "unknown",
     hasGarden: false,
     livingRoomSmall: false,
     notes: "",
@@ -452,7 +452,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   // The listing's own description outranks a photo-based guess: a "separate
   // chef's kitchen" can still be framed to look open-ish in a single shot.
   const kitchenLayout = hasSeparateKitchenText(listing.bodyText) ? "closed" : visionKitchenLayout;
-  const gasStove = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.gasStove : "unknown";
+  const stoveType = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.stoveType : "unknown";
   // "Private garden" specifically (not a shared courtyard) is an easy claim
   // to get subtly wrong from a photo alone — require high confidence, not
   // just "not low", before showing it as a fact.
@@ -481,6 +481,14 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
         ? `Kitchen photo shows a ${kitchenLayout} layout`
         : "Kitchen layout could not be confirmed from photos"
     );
+  }
+
+  // Explicit user rejection ("under no circumstances accept"), specifically
+  // of coil electric — the old-style visible-spiral-burner kind. Smooth-top
+  // electric/induction and gas both stay acceptable; only coil is a hard
+  // exclude, not "anything that isn't gas."
+  if (stoveType === "coilElectric") {
+    reasons.push("Coil electric stove (explicitly rejected)");
   }
 
   if (isExcludedNeighborhood(listing.neighborhood)) {
@@ -521,11 +529,11 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   return {
     buildingType,
     commute,
-    gasStove,
     hasGarden,
     isCondo,
     kitchenLayout,
     kitchenSize,
+    stoveType,
     listing: {
       ...listing,
       lat,
