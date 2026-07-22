@@ -1,3 +1,5 @@
+const { withTimeout } = require("./util.cjs");
+
 const GEOCODE_ENDPOINT = "https://maps.googleapis.com/maps/api/geocode/json";
 const DIRECTIONS_ENDPOINT = "https://maps.googleapis.com/maps/api/directions/json";
 
@@ -15,13 +17,31 @@ function apiKey() {
 // and this ran unguarded for weeks before a hang traced back to it.
 const REQUEST_TIMEOUT_MS = 20000;
 
+// AbortSignal on the fetch() call alone doesn't reliably guard a stalled
+// body read once headers already arrived — traced two multi-hour scan
+// hangs to exactly this pattern in the Bright Data fetch (see
+// unlocker.cjs). withTimeout wraps the whole fetch+json() attempt in its
+// own deadline instead of trusting the signal to cover the body phase too.
+async function fetchJsonWithTimeout(url) {
+  const controller = new AbortController();
+  const abortTimer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    return await withTimeout(
+      fetch(url, { signal: controller.signal }).then((response) => response.json()),
+      REQUEST_TIMEOUT_MS,
+      `Google Maps request timed out for ${url}: no response within ${REQUEST_TIMEOUT_MS}ms`
+    );
+  } finally {
+    clearTimeout(abortTimer);
+  }
+}
+
 async function geocodeAddress(address) {
   const url = new URL(GEOCODE_ENDPOINT);
   url.searchParams.set("address", address);
   url.searchParams.set("key", apiKey());
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-  const payload = await response.json();
+  const payload = await fetchJsonWithTimeout(url);
 
   if (payload.status !== "OK" || !payload.results?.length) {
     return null;
@@ -73,8 +93,7 @@ async function getTransitDirections(origin, destinationAddress, arrivalTime) {
   }
   url.searchParams.set("key", apiKey());
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-  const payload = await response.json();
+  const payload = await fetchJsonWithTimeout(url);
 
   if (payload.status !== "OK" || !payload.routes?.length) {
     return null;

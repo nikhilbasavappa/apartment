@@ -1,4 +1,7 @@
+const { withTimeout } = require("./util.cjs");
+
 const UNLOCKER_ENDPOINT = "https://api.brightdata.com/request";
+const REQUEST_TIMEOUT_MS = 45000;
 
 function apiKey() {
   const key = process.env.BRIGHTDATA_API_KEY;
@@ -21,39 +24,59 @@ function sleep(ms) {
 }
 
 async function requestOnce(url) {
-  let response;
+  // controller.abort() is still wired up as a best-effort attempt to tear
+  // down the underlying socket, but the actual guarantee that this function
+  // returns within REQUEST_TIMEOUT_MS comes from withTimeout wrapping the
+  // whole attempt below — two hangs in one day showed the abort signal
+  // alone doesn't reliably cut off a stalled body read.
+  const controller = new AbortController();
+  const abortTimer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  const attempt = (async () => {
+    let response;
+    try {
+      response = await fetch(UNLOCKER_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey()}`,
+        },
+        body: JSON.stringify({
+          zone: zoneName(),
+          url,
+          format: "raw",
+        }),
+        signal: controller.signal,
+      });
+    } catch (error) {
+      const timeoutError = new Error(`Bright Data unlocker request timed out or failed for ${url}: ${error.message}`);
+      timeoutError.retryable = true;
+      throw timeoutError;
+    }
+
+    if (!response.ok) {
+      const body = await response.text().catch(() => "");
+      const error = new Error(`Bright Data unlocker request failed (${response.status}) for ${url}: ${body.slice(0, 300)}`);
+      error.status = response.status;
+      error.retryable = response.status >= 500 && response.status < 600;
+      throw error;
+    }
+
+    return response.text();
+  })();
+
   try {
-    response = await fetch(UNLOCKER_ENDPOINT, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey()}`,
-      },
-      body: JSON.stringify({
-        zone: zoneName(),
-        url,
-        format: "raw",
-      }),
-      // Without this, an unlock request that hangs on Bright Data's end
-      // (observed happening with some regularity) hangs the whole scan
-      // forever — fetch() has no default timeout of its own.
-      signal: AbortSignal.timeout(45000),
+    return await withTimeout(
+      attempt,
+      REQUEST_TIMEOUT_MS,
+      `Bright Data unlocker request timed out for ${url}: no response within ${REQUEST_TIMEOUT_MS}ms (body read stalled)`
+    ).catch((error) => {
+      error.retryable = error.retryable ?? true;
+      throw error;
     });
-  } catch (error) {
-    const timeoutError = new Error(`Bright Data unlocker request timed out or failed for ${url}: ${error.message}`);
-    timeoutError.retryable = true;
-    throw timeoutError;
+  } finally {
+    clearTimeout(abortTimer);
   }
-
-  if (!response.ok) {
-    const body = await response.text().catch(() => "");
-    const error = new Error(`Bright Data unlocker request failed (${response.status}) for ${url}: ${body.slice(0, 300)}`);
-    error.status = response.status;
-    error.retryable = response.status >= 500 && response.status < 600;
-    throw error;
-  }
-
-  return response.text();
 }
 
 // Fetches a URL through Bright Data's Web Unlocker: their infrastructure

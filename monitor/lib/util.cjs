@@ -84,6 +84,23 @@ function randomDelay(minMs, maxMs) {
   return sleep(Math.round(ms));
 }
 
+// AbortSignal.timeout() passed to fetch() reliably guards the wait for
+// response headers, but has been observed NOT to reliably guard a
+// subsequent stalled body read (.text()/.json()/.arrayBuffer()) — a
+// connection can sit fully ESTABLISHED with zero data movement well past
+// the abort point (two multi-hour hangs in one day traced back to exactly
+// this: fetch() resolved, then response.text() never did). Race the whole
+// operation — not just the initial fetch — against its own wall-clock
+// deadline so the caller is guaranteed to hear back one way or the other,
+// regardless of which phase actually stalled.
+function withTimeout(promise, ms, message) {
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => reject(new Error(message)), ms);
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+}
+
 function escapeHtml(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -105,6 +122,7 @@ module.exports = {
   sanitizeFilename,
   sleep,
   slugify,
+  withTimeout,
   writeJson,
   writeText,
 };

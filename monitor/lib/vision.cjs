@@ -1,6 +1,10 @@
+const { withTimeout } = require("./util.cjs");
+
 const MESSAGES_ENDPOINT = "https://api.anthropic.com/v1/messages";
 const MODEL = "claude-haiku-4-5-20251001";
 const MAX_PHOTOS = 6;
+const IMAGE_FETCH_TIMEOUT_MS = 15000;
+const CLASSIFY_TIMEOUT_MS = 45000;
 
 const PROMPT = `You are looking at photos from a NYC apartment rental listing. Based only on what is visible in the photos, judge the following. If a photo is ambiguous, blurry, taken from an angle that hides the detail, or the relevant room/feature simply isn't shown, answer "unknown"/false rather than guessing — a wrong confident-sounding answer is worse than an honest "can't tell here".
 
@@ -26,20 +30,36 @@ function apiKey() {
 }
 
 async function fetchImageAsBase64(url) {
-  const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
-  if (!response.ok) return null;
+  // AbortSignal on the fetch() call alone doesn't reliably guard a stalled
+  // body read after headers already arrived (traced two hangs to exactly
+  // this in the Bright Data fetch — see unlocker.cjs) — withTimeout wraps
+  // the whole attempt, including arrayBuffer(), in its own deadline.
+  return withTimeout(
+    (async () => {
+      const controller = new AbortController();
+      const abortTimer = setTimeout(() => controller.abort(), IMAGE_FETCH_TIMEOUT_MS);
+      try {
+        const response = await fetch(url, { signal: controller.signal });
+        if (!response.ok) return null;
 
-  const contentType = response.headers.get("content-type") || "image/jpeg";
-  if (!contentType.startsWith("image/")) return null;
+        const contentType = response.headers.get("content-type") || "image/jpeg";
+        if (!contentType.startsWith("image/")) return null;
 
-  const buffer = Buffer.from(await response.arrayBuffer());
-  // Tracking pixels/spacer gifs are typically well under 1KB; real listing photos never are.
-  if (buffer.length < 2048 || buffer.length > 5 * 1024 * 1024) return null;
+        const buffer = Buffer.from(await response.arrayBuffer());
+        // Tracking pixels/spacer gifs are typically well under 1KB; real listing photos never are.
+        if (buffer.length < 2048 || buffer.length > 5 * 1024 * 1024) return null;
 
-  return {
-    mediaType: contentType.split(";")[0].trim(),
-    data: buffer.toString("base64"),
-  };
+        return {
+          mediaType: contentType.split(";")[0].trim(),
+          data: buffer.toString("base64"),
+        };
+      } finally {
+        clearTimeout(abortTimer);
+      }
+    })(),
+    IMAGE_FETCH_TIMEOUT_MS,
+    `Photo fetch timed out for ${url}: no response within ${IMAGE_FETCH_TIMEOUT_MS}ms`
+  ).catch(() => null);
 }
 
 function extractJson(text) {
@@ -90,32 +110,41 @@ async function classifyKitchenPhotos(photoUrls) {
     })),
   ];
 
-  const response = await fetch(MESSAGES_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "x-api-key": apiKey(),
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 300,
-      messages: [{ role: "user", content }],
-    }),
-    // Without this, a request that hangs mid-flight (observed happening
-    // after a network blip while the scan is already running) hangs the
-    // whole scan forever — fetch() has no default timeout of its own. 45s
-    // gives a multi-photo classification real room to run, unlike the 15s
-    // used for the plain photo-fetch above.
-    signal: AbortSignal.timeout(45000),
-  });
+  // withTimeout wraps fetch + response.json(), not just the initial fetch —
+  // AbortSignal alone doesn't reliably guard a stalled body read once
+  // headers already arrived (see unlocker.cjs). 45s gives a multi-photo
+  // classification real room to run, same as before.
+  const controller = new AbortController();
+  const abortTimer = setTimeout(() => controller.abort(), CLASSIFY_TIMEOUT_MS);
 
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`Anthropic API error (${response.status}): ${body.slice(0, 300)}`);
-  }
+  const payload = await withTimeout(
+    (async () => {
+      const response = await fetch(MESSAGES_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "x-api-key": apiKey(),
+          "anthropic-version": "2023-06-01",
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          model: MODEL,
+          max_tokens: 300,
+          messages: [{ role: "user", content }],
+        }),
+        signal: controller.signal,
+      });
 
-  const payload = await response.json();
+      if (!response.ok) {
+        const body = await response.text();
+        throw new Error(`Anthropic API error (${response.status}): ${body.slice(0, 300)}`);
+      }
+
+      return response.json();
+    })(),
+    CLASSIFY_TIMEOUT_MS,
+    `Vision classification timed out: no response within ${CLASSIFY_TIMEOUT_MS}ms`
+  ).finally(() => clearTimeout(abortTimer));
+
   const text = payload.content?.find((block) => block.type === "text")?.text || "";
   const parsed = extractJson(text);
 
