@@ -33,20 +33,40 @@ done
 echo "=== Scan started at $(date) ===" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
 
 # Backgrounded with a watchdog instead of a plain foreground pipe: three
-# separate multi-hour hangs happened this week (a network blip mid-run
-# leaving some fetch() stalled forever with no default timeout — most of
-# those now have one, but there's no guarantee the next hang looks the
-# same). Without a wall-clock ceiling, a hang like that just runs silently
-# until a human happens to notice the site is stale. 90 minutes is
-# generous headroom above the normal 10-70 minute range.
+# separate multi-hour hangs happened in a single day (a network blip mid-run
+# leaving some fetch() stalled forever — each one produced literally zero
+# new log output for the entire time it sat stuck, unlike a healthy run
+# which keeps producing revalidation/classification lines throughout even
+# on its slower end). An INACTIVITY check on the log — not just a flat
+# wall-clock ceiling — kills a truly stalled run fast without punishing a
+# legitimately slow-but-working one: 15 minutes with zero new bytes written
+# is never normal, whereas the normal healthy range is 10-70 minutes total
+# with output the whole way through. The 90-minute absolute ceiling stays
+# as a final backstop in case a hang somehow still produces trickling
+# output (unobserved so far, but cheap insurance).
 node "$SCRIPT_DIR/scan.cjs" > >(tee -a "$LOG_FILE" "$RUN_LOG") 2>&1 &
 SCAN_PID=$!
 
 SCAN_TIMEOUT_SECONDS=$((90 * 60))
+INACTIVITY_TIMEOUT_SECONDS=$((15 * 60))
 waited_for_scan=0
+last_size=$(wc -c < "$RUN_LOG" 2>/dev/null || echo 0)
+inactive_for=0
 while kill -0 "$SCAN_PID" 2>/dev/null; do
   if [[ "$waited_for_scan" -ge "$SCAN_TIMEOUT_SECONDS" ]]; then
     echo "SCAN_TIMEOUT: scan.cjs exceeded ${SCAN_TIMEOUT_SECONDS}s (PID $SCAN_PID) — killing" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
+    kill -9 "$SCAN_PID" 2>/dev/null || true
+    break
+  fi
+  current_size=$(wc -c < "$RUN_LOG" 2>/dev/null || echo 0)
+  if [[ "$current_size" -gt "$last_size" ]]; then
+    last_size="$current_size"
+    inactive_for=0
+  else
+    inactive_for=$((inactive_for + 30))
+  fi
+  if [[ "$inactive_for" -ge "$INACTIVITY_TIMEOUT_SECONDS" ]]; then
+    echo "SCAN_STALLED: no new log output for ${INACTIVITY_TIMEOUT_SECONDS}s (PID $SCAN_PID) — killing" | tee -a "$LOG_FILE" "$RUN_LOG" >/dev/null
     kill -9 "$SCAN_PID" 2>/dev/null || true
     break
   fi
