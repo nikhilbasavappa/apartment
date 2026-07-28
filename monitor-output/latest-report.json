@@ -448,7 +448,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -1538,7 +1538,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -1941,7 +1941,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -3706,7 +3706,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -4245,7 +4245,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -4783,7 +4783,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -4920,7 +4920,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -6071,7 +6071,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -6111,7 +6112,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/645-park-place/8c",
@@ -6526,7 +6527,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -6591,9 +6593,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-28T13:00:01.613Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 45.59537181663838,
+      "rankScore": 37.59537181663838,
       "rankBreakdown": {
-        "total": 45.59537181663838,
+        "total": 37.59537181663838,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -6619,9 +6621,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -6641,7 +6643,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "small"
     },
     {
       "commute": {
@@ -6990,7 +6993,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -7786,7 +7790,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -8453,7 +8458,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -8725,7 +8731,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/645-park-place/7h",
@@ -9389,7 +9395,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -9456,9 +9463,9 @@
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "lastSeenAt": "2026-07-28T13:00:01.613Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 50.91201909250889,
+      "rankScore": 58.91201909250889,
       "rankBreakdown": {
-        "total": 50.91201909250889,
+        "total": 58.91201909250889,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -9484,9 +9491,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -9506,7 +9513,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -10149,9 +10157,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 49.769,
+      "rankScore": 57.769,
       "rankBreakdown": {
-        "total": 49.769,
+        "total": 57.769,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -10178,9 +10186,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -10207,7 +10215,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -10492,9 +10501,9 @@
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "lastSeenAt": "2026-07-28T13:00:01.613Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 52.367291390728475,
+      "rankScore": 60.367291390728475,
       "rankBreakdown": {
-        "total": 52.367291390728475,
+        "total": 60.367291390728475,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -10520,9 +10529,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -10542,7 +10551,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -10849,9 +10859,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 49.769,
+      "rankScore": 57.769,
       "rankBreakdown": {
-        "total": 49.769,
+        "total": 57.769,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -10878,9 +10888,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -10907,7 +10917,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -10974,9 +10985,9 @@
       "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "lastSeenAt": "2026-07-28T13:00:01.613Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 57.9673129657228,
+      "rankScore": 65.9673129657228,
       "rankBreakdown": {
-        "total": 57.9673129657228,
+        "total": 65.9673129657228,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -11002,9 +11013,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -11024,7 +11035,9 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -11551,7 +11564,8 @@
       },
       "buildingType": null,
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -11965,7 +11979,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "galley",
       "listing": {
         "cardImage": "",
@@ -13479,9 +13493,9 @@
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsIdeal",
       "qualifies": false,
-      "rankScore": 71.5335,
+      "rankScore": 79.5335,
       "rankBreakdown": {
-        "total": 71.5335,
+        "total": 79.5335,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -13508,9 +13522,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -13537,7 +13551,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Four-family home",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -20160,7 +20175,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "closed",
-      "kitchenSize": "standard",
+      "kitchenSize": "large",
       "listing": {
         "cardImage": "",
         "searchSnippet": "Rental unit in Hunters Point 5-11 47th Avenue #12L",
@@ -20197,9 +20212,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 52.24667249602544,
+      "rankScore": 60.24667249602544,
       "rankBreakdown": {
-        "total": 52.24667249602544,
+        "total": 60.24667249602544,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -20226,9 +20241,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "standard"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -20604,13 +20619,13 @@
         "lng": -73.9649993,
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 39.489000000000004,
+      "rankScore": 51.489000000000004,
       "rankBreakdown": {
-        "total": 39.489000000000004,
+        "total": 51.489000000000004,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -20632,9 +20647,9 @@
           "bedrooms": 4
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
           "score": 0,
@@ -23155,7 +23170,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "closed",
       "kitchenSize": "small",
@@ -26551,7 +26566,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "closed",
       "kitchenSize": "small",
@@ -28180,7 +28195,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "galley",
-      "kitchenSize": "small",
+      "kitchenSize": "large",
       "stoveType": "smoothElectric",
       "listing": {
         "cardImage": "",
@@ -28218,9 +28233,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 41.667,
+      "rankScore": 57.667,
       "rankBreakdown": {
-        "total": 41.667,
+        "total": 57.667,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -28247,9 +28262,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 100,
           "weight": 0.16,
-          "size": "small"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -28316,7 +28331,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "closed",
-      "kitchenSize": "small",
+      "kitchenSize": "large",
       "stoveType": "smoothElectric",
       "listing": {
         "cardImage": "",
@@ -28354,9 +28369,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 41.667,
+      "rankScore": 57.667,
       "rankBreakdown": {
-        "total": 41.667,
+        "total": 57.667,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -28383,9 +28398,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 100,
           "weight": 0.16,
-          "size": "small"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -30749,7 +30764,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "closed",
-      "kitchenSize": "standard",
+      "kitchenSize": "large",
       "stoveType": "smoothElectric",
       "listing": {
         "cardImage": "",
@@ -30787,9 +30802,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 56.93651415797318,
+      "rankScore": 64.93651415797318,
       "rankBreakdown": {
-        "total": 56.93651415797318,
+        "total": 64.93651415797318,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -30816,9 +30831,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "standard"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -30958,7 +30973,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -31205,7 +31221,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {},
@@ -31333,7 +31350,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "galley",
       "listing": {
         "cardImage": "",
@@ -32176,9 +32193,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-25T22:03:25.019Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 58.615941860465114,
+      "rankScore": 66.61594186046511,
       "rankBreakdown": {
-        "total": 58.615941860465114,
+        "total": 66.61594186046511,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -32204,9 +32221,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -32226,7 +32243,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -33478,9 +33496,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-25T13:00:05.514Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 46.25213445378151,
+      "rankScore": 38.25213445378151,
       "rankBreakdown": {
-        "total": 46.25213445378151,
+        "total": 38.25213445378151,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -33506,9 +33524,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -33528,7 +33546,9 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false,
+      "kitchenSize": "small"
     },
     {
       "commute": {
@@ -33644,7 +33664,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -33798,7 +33819,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "closed",
       "listing": {
         "url": "https://streeteasy.com/building/the-cole-by-stonehenge/1009",
@@ -34005,7 +34026,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -34237,7 +34259,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -35276,9 +35299,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 49.769,
+      "rankScore": 57.769,
       "rankBreakdown": {
-        "total": 49.769,
+        "total": 57.769,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -35305,9 +35328,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -35334,7 +35357,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -35632,9 +35656,9 @@
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "lastSeenAt": "2026-07-25T13:00:05.514Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "rankScore": 50.47040935672515,
+      "rankScore": 58.47040935672515,
       "rankBreakdown": {
-        "total": 50.47040935672515,
+        "total": 58.47040935672515,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -35660,9 +35684,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -35682,7 +35706,9 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -35849,7 +35875,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "url": "https://streeteasy.com/building/4720-center-boulevard/926",
@@ -36174,7 +36200,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -36392,7 +36419,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "galley",
       "listing": {
         "cardImage": "",
@@ -37200,7 +37227,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -38919,9 +38946,9 @@
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsIdeal",
       "qualifies": false,
-      "rankScore": 69.01372993588238,
+      "rankScore": 77.01372993588238,
       "rankBreakdown": {
-        "total": 69.01372993588238,
+        "total": 77.01372993588238,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -38948,9 +38975,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -38977,7 +39004,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -39320,9 +39348,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 53.658870342771976,
+      "rankScore": 61.658870342771976,
       "rankBreakdown": {
-        "total": 53.658870342771976,
+        "total": 61.658870342771976,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -39349,9 +39377,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -39378,7 +39406,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Two-family home",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -39417,7 +39446,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -39959,7 +39988,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -40406,9 +40435,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 59.552958851545036,
+      "rankScore": 67.55295885154504,
       "rankBreakdown": {
-        "total": 59.552958851545036,
+        "total": 67.55295885154504,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -40435,9 +40464,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -40464,7 +40493,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -41353,13 +41383,13 @@
         "lng": -73.9662544,
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 32.72495885154503,
+      "rankScore": 44.72495885154503,
       "rankBreakdown": {
-        "total": 32.72495885154503,
+        "total": 44.72495885154503,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -41381,9 +41411,9 @@
           "bedrooms": 2
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
           "score": 0,
@@ -42813,7 +42843,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "closed",
       "kitchenSize": "small",
@@ -44580,7 +44610,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "closed",
       "kitchenSize": "small",
@@ -44848,7 +44878,7 @@
           "lines": []
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "closed",
       "kitchenSize": "small",
@@ -48014,7 +48044,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "unknown",
       "kitchenSize": "unknown",
@@ -50112,7 +50142,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -50243,7 +50273,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -50649,7 +50679,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
+      "kitchenSize": "large",
       "stoveType": "gas",
       "listing": {
         "cardImage": "",
@@ -50687,9 +50717,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 63.29795885154503,
+      "rankScore": 71.29795885154503,
       "rankBreakdown": {
-        "total": 63.29795885154503,
+        "total": 71.29795885154503,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -50716,9 +50746,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "standard"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -52000,7 +52030,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -52276,7 +52306,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -54500,7 +54530,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "galley",
       "listing": {
         "cardImage": "",
@@ -54632,7 +54662,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -55175,7 +55205,7 @@
       "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
+      "kitchenSize": "large",
       "stoveType": "gas",
       "listing": {
         "url": "https://streeteasy.com/building/218-east-74-street-new_york/4w",
@@ -55212,9 +55242,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 39.729737968010895,
+      "rankScore": 55.729737968010895,
       "rankBreakdown": {
-        "total": 39.729737968010895,
+        "total": 55.729737968010895,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -55241,9 +55271,9 @@
           "small": true
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 100,
           "weight": 0.16,
-          "size": "small"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -56111,7 +56141,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -58239,7 +58269,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "buildingType": "Rental unit",
@@ -61821,7 +61852,8 @@
       },
       "buildingType": "Three-family home",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -61938,7 +61970,9 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false,
+      "livingRoomSmall": false
     },
     {
       "buildingType": "Rental unit",
@@ -62804,7 +62838,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "large",
@@ -65014,7 +65048,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -65629,7 +65663,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -67248,7 +67283,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -67705,9 +67741,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-19T13:00:00.926Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 58.584713859910586,
+      "rankScore": 66.58471385991058,
       "rankBreakdown": {
-        "total": 58.584713859910586,
+        "total": 66.58471385991058,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -67733,9 +67769,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -67755,7 +67791,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -68077,7 +68114,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -68234,7 +68272,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -68374,7 +68412,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "cardImage": "",
@@ -69317,7 +69355,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "cardImage": "",
@@ -69873,7 +69911,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -70373,7 +70412,9 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -72137,7 +72178,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "unknown",
       "listing": {
         "cardImage": "",
@@ -72403,7 +72444,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/66-rockwell-place-brooklyn/26j",
@@ -73829,9 +73870,9 @@
       "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "lastSeenAt": "2026-07-17T13:00:06.051Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 58.14211111111111,
+      "rankScore": 66.1421111111111,
       "rankBreakdown": {
-        "total": 58.14211111111111,
+        "total": 66.1421111111111,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -73857,9 +73898,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -73879,7 +73920,9 @@
       },
       "buildingType": "Two-family home",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -74863,9 +74906,9 @@
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 65.89366952966368,
+      "rankScore": 73.89366952966368,
       "rankBreakdown": {
-        "total": 65.89366952966368,
+        "total": 73.89366952966368,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -74892,9 +74935,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 100,
@@ -74921,7 +74964,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -75307,7 +75351,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -77064,7 +77109,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -77229,9 +77275,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 59.88120784752897,
+      "rankScore": 67.88120784752897,
       "rankBreakdown": {
-        "total": 59.88120784752897,
+        "total": 67.88120784752897,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -77258,9 +77304,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -77288,7 +77334,8 @@
       "lastRevalidatedAt": "2026-07-17T14:48:54.016Z",
       "buildingType": "Two-family home",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -77839,9 +77886,9 @@
       "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "lastSeenAt": "2026-07-16T17:32:47.411Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 61.22,
+      "rankScore": 69.22,
       "rankBreakdown": {
-        "total": 61.22,
+        "total": 69.22,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -77867,9 +77914,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -77889,7 +77936,8 @@
       },
       "buildingType": null,
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -78063,7 +78111,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "cardImage": "",
@@ -78334,7 +78382,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "galley",
       "listing": {
         "cardImage": "",
@@ -78370,9 +78418,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "qualifies": false,
-      "rankScore": 49.474000000000004,
+      "rankScore": 41.474000000000004,
       "rankBreakdown": {
-        "total": 49.474000000000004,
+        "total": 41.474000000000004,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -78399,9 +78447,9 @@
           "small": true
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -78428,7 +78476,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
       "buildingType": "Four-family home",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "kitchenSize": "small"
     },
     {
       "commute": {
@@ -79552,7 +79601,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -81649,9 +81699,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-14T17:07:28.916Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 54.07613562373095,
+      "rankScore": 62.07613562373095,
       "rankBreakdown": {
-        "total": 54.07613562373095,
+        "total": 62.07613562373095,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -81677,9 +81727,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -81699,7 +81749,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -82065,7 +82116,8 @@
       },
       "buildingType": "Co-op",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -82241,7 +82293,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -82686,7 +82738,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -82845,7 +82898,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "url": "https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/4e",
@@ -83884,7 +83937,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -85070,7 +85124,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -85185,7 +85240,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -85313,7 +85369,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {},
@@ -85533,7 +85590,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -85776,7 +85834,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -85938,7 +85997,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "closed",
       "listing": {
         "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3813",
@@ -86154,7 +86213,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -86270,7 +86330,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -86398,7 +86459,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -86513,7 +86575,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -86629,7 +86692,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -86967,7 +87031,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -87838,7 +87903,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -87966,7 +88032,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -88134,7 +88201,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "cardImage": "",
@@ -89114,7 +89181,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -89245,7 +89313,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -89501,7 +89570,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -89619,7 +89689,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -90125,7 +90196,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -90241,7 +90313,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -91095,7 +91168,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {},
@@ -91402,7 +91476,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -91664,7 +91739,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -91789,7 +91865,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "buildingType": "Condo",
@@ -91828,7 +91905,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": true,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -92057,7 +92134,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -92302,7 +92380,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -92728,7 +92807,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "cardImage": "",
@@ -93134,7 +93213,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "cardImage": "",
@@ -95576,7 +95655,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -95615,7 +95695,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "url": "https://streeteasy.com/building/the-northern-ii/901",
@@ -95825,7 +95905,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -95864,7 +95945,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "semi-open",
       "listing": {
         "url": "https://streeteasy.com/building/the-baltic-canal/12a",
@@ -96388,7 +96469,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "url": "https://streeteasy.com/building/the-bergen/0711",
@@ -96855,7 +96936,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -96971,7 +97053,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -97584,7 +97667,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -98041,7 +98125,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -98284,7 +98369,8 @@
       },
       "buildingType": null,
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -98399,7 +98485,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -99134,7 +99221,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -99394,7 +99482,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/raina/4d",
@@ -99854,7 +99942,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -100560,7 +100649,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": true,
+      "hasGarden": false,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/the-pecora-lic/1012",
@@ -103100,7 +103189,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "semi-open",
       "listing": {
         "url": "https://streeteasy.com/building/243-8-street-brooklyn/3r",
@@ -103903,7 +103992,7 @@
         }
       },
       "gasStove": "no",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "listing": {
         "url": "https://streeteasy.com/building/159-3-avenue/5e",
@@ -104208,9 +104297,9 @@
       "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "qualifies": false,
-      "rankScore": 49.769,
+      "rankScore": 57.769,
       "rankBreakdown": {
-        "total": 49.769,
+        "total": 57.769,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -104237,9 +104326,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -104266,7 +104355,8 @@
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -104923,7 +105013,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -105038,7 +105129,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {},
@@ -105429,9 +105521,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-12T13:00:06.156Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 65.21170343559642,
+      "rankScore": 73.21170343559642,
       "rankBreakdown": {
-        "total": 65.21170343559642,
+        "total": 73.21170343559642,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -105457,9 +105549,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 100,
@@ -105479,7 +105571,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -105712,7 +105805,8 @@
       },
       "buildingType": "Two-family home",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {},
@@ -106411,7 +106505,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -106891,7 +106986,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -107791,7 +107887,7 @@
         }
       },
       "gasStove": "unknown",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "unknown",
       "listing": {
         "url": "https://streeteasy.com/building/170-amsterdam/02i",
@@ -108128,7 +108224,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -108360,7 +108457,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -108488,7 +108586,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -108617,7 +108716,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -108996,7 +109096,8 @@
       },
       "buildingType": "Mixed-use building",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -109211,7 +109312,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -109894,7 +109996,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -110151,7 +110254,8 @@
       },
       "buildingType": "Mixed-use building",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -110530,7 +110634,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -110877,7 +110982,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {},
@@ -111220,7 +111326,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {},
@@ -111525,7 +111632,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -111871,7 +111979,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -112000,7 +112109,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -112475,7 +112585,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -112602,7 +112713,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -112858,7 +112970,8 @@
       },
       "buildingType": null,
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -112986,7 +113099,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -113707,7 +113821,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": true
+      "isGroundFloor": true,
+      "hasGarden": true
     },
     {
       "commute": {
@@ -113837,7 +113952,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -113965,7 +114081,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -114559,7 +114676,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -114971,7 +115089,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -115323,7 +115442,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -116375,7 +116495,9 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": true,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -116442,9 +116564,9 @@
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "lastSeenAt": "2026-07-10T14:02:26.759Z",
       "lastSourceName": "StreetEasy — $3.5k-7k, 1-2bd, in-unit W/D",
-      "rankScore": 55.97545156482861,
+      "rankScore": 63.97545156482861,
       "rankBreakdown": {
-        "total": 55.97545156482861,
+        "total": 63.97545156482861,
         "neighborhood": {
           "score": 50,
           "weight": 0.15
@@ -116470,9 +116592,9 @@
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 100,
           "weight": 0.16,
-          "size": "unknown"
+          "size": "large"
         },
         "condo": {
           "score": 50,
@@ -116492,7 +116614,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "kitchenSize": "large"
     },
     {
       "commute": {
@@ -116724,7 +116847,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -116840,7 +116964,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -116957,7 +117082,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -117306,7 +117432,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -117540,7 +117667,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {},
@@ -118661,7 +118789,9 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false,
+      "livingRoomSmall": false
     },
     {
       "commute": {
@@ -118894,7 +119024,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -119128,7 +119259,8 @@
       },
       "buildingType": "Rental unit",
       "isCondo": false,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     },
     {
       "commute": {
@@ -119245,7 +119377,8 @@
       },
       "buildingType": "Condo",
       "isCondo": true,
-      "isGroundFloor": false
+      "isGroundFloor": false,
+      "hasGarden": false
     }
   ],
   "htmlPath": "/Users/nikhilbasavappa/CBS Dropbox/Nikhil Basavappa/Personal Files/Home/Apartment/monitor-output/latest-report.html",
@@ -119434,7 +119567,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -119843,7 +119976,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -120351,6 +120484,143 @@
       "isGroundFloor": true
     },
     {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 38,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 14,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 51,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 52,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "hasGarden": false,
+      "isCondo": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "large",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "cardImage": "",
+        "searchSnippet": "Rental unit in Boerum Hill 595 Baltic Street #5I",
+        "title": "595 Baltic Street #5I",
+        "url": "https://streeteasy.com/building/595-baltic-street-brooklyn/5i",
+        "source": "streeteasy",
+        "address": "595 Baltic Street #5I, BROOKLYN, NY, 11217",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "bodyText": "Skip Navigation Advertise Sign up / Log in Rent Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular neighborhoods Tribeca All Upper East Side All Upper West Side East Village Williamsburg Astoria Hoboken Jersey City All Neighborhoods Browse Pet-Friendly Rentals Buy Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular neighborhoods All Upper East Side Tribeca Williamsburg Brooklyn Heights Park Slope Ditmas Park Hoboken Jersey City All Neighborhoods Sell Selling with StreetEasy Explore your options Sell with a real estate agent Sell on your own Your Home See how much your home is worth Resources StreetEasy Concierge Market data Guide to selling in NYC Buildings Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular buildings VIA 57 West 63 Wall Street 2621 Palisade Avenue 101 Warren Street 49 Chambers 15 Central Park West MiMA 10 Madison Square West View All New developments 85 Jay Street 128 West 23rd Street 77 Charlton Street 150 East 78th Street 200 Amsterdam Avenue 1059 Third Avenue 368 Third Avenue 202 Broome Street 252 South Street View All Resources Guides Buying Your First Home in NYC Neighborhood Guides Renting in NYC: The Ultimate Guide Mortgage Mortgage Rates Mortgage Calculator Tools StreetEasy Forums Open House Planner Industry Hub Data Dashboard Market Data Market Reports Comparables Reports Q&A Should You Rent or Buy? Co-op or Condo? How Much Rent Can You Afford? Why Work With a Buyer's Agent? Blog Browse Market Data Rental Deals Sales Deals First-Time Buyer's Guide Neighborhood Guides The latest What NYC buyers actually care about right now Marvelous Midtown East homes under $700K Lower East Side 1BR with bonus room asks $759K Most popular sale of the week July 20, 2026 Post-closing liquidity for NYC co-ops: What it means and how much you need Most popular Most popular sale of the week July 20, 2026 Most popular sale of the week July 13, 2026 Most popular sale of the week July 6, 2026 Most popular sale of the week June 29, 2026 Most popular sale of the week June 22, 2026 e.g. address, building, agentSearch Rentals Brooklyn Boerum Hill 595 Baltic Street #5I Image preview button, 1 of 14Use arrow keys to navigate Image preview button, 2 of 14 Image preview button, 3 of 14 Image preview button, 4 of 14 Image preview button, 5 of 14 Image preview button, 6 of 14 Image preview button, 7 of 14 Image preview button, 8 of 14 Image preview button, 9 of 14 Image preview button, 10 of 14 Image preview button, 11 of 14 Image preview button, 12 of 14 preview button, 13 of 14 Map preview button, 14 of 14 Floor planMap 595 Baltic Street #5I $4,350 for rent Base rent only. Price may not include required fees and charges. See cost breakdown - ft² 3 rooms 1 bed 1 bath Rental unit Boerum Hill Under NYC law, you can't be charged a broker fee if you didn't hire a broker. Learn more Request a tour Ask a question Listed by Hanna Datsko Licensed Real Estate Salesperson Living New York Show phone number SaveWANT TO STAY UPDATED?Save this home for email and push notifications on price and more.ShareHide This home has been saved by 19 users. 1 Open house Fri, Jul 24 3–4 PM ET By appt only Add to calendar Add notes Listing by Living New York, Limited Liability Broker, 225 West 35th Street Ste, New York, NY 10001 Report listing Available 8/21/2026 Days on market 2 days Last price change No changes About 595 Baltic Street | Boerum Hill’s | Luxury Rent Stabilized Building Unit Features -Large 1BR with PRIVATE OUTDOOR SPACE -Condo-quality studio residence in the heart of Boerum Hill -Gourmet kitchen with premium stainless steel appliances -Dishwasher, microwave, and 5-burner gas range with convection oven -In-unit washer and dryer for ultimate convenience -Hardwood floors throughout -Large windows offering... Policies Pets allowed Home features Central air Dishwasher Hardwood floors Private outdoor space Balcony Washer/dryer Building amenities Services and facilities Bike room Concierge Doorman Elevator Laundry in building Parking Storage space Wellness and recreation Gym Shared outdoor space Deck Patio Roof deck About the building 595 Baltic Street 595 Baltic Street, Brooklyn, NY 11217 Rental building inBoerum Hill 70 units 9 stories 2016 built For rent 2 available units for rent Documents and permits View documents and permits Learn more about 595 Baltic Street Property history Prices shown are base rent only. For total monthly price and additional fees, see full breakdown. PRICE HISTORY RECENT RENTALS Date Base rent Event 7/21/2026 $4,350 Listed by Living New York 5/19/2026 $9,000 Delisted by Living New York 5/11/2026 $9,000 ↑ Price increased by 0% 5/11/2026 $8,960 ↓ Price decreased by 8% 5/7/2026 $9,750 ↓ Price decreased by 5% Show more Past listing photos 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 Image preview button, 1 of 51Use arrow keys to navigate Image preview button, 2 of 51 Image preview button, 3 of 51 Image preview button, 4 of 51 Image preview button, 5 of 51 Image preview button, 6 of 51 Image preview button, 7 of 51 Image preview button, 8 of 51 Image preview button, 9 of 51 Image preview button, 10 of 51 Image preview button, 11 of 51 Image preview button, 12 of 51 Image preview button, 13 of 51 Image preview button, 14 of 51 Image preview button, 15 of 51 Image preview button, 16 of 51 Image preview button, 17 of 51 Image preview button, 18 of 51 Image preview button, 19 of 51 Image preview button, 20 of 51 Image preview button, 21 of 51 Image preview button, 22 of 51 Image preview button, 23 of 51 Image preview button, 24 of 51 Image preview button, 25 of 51 Image preview button, 26 of 51 Image preview button, 27 of 51 Image preview button, 28 of 51 Image preview button, 29 of 51 Image preview button, 30 of 51 Image preview button, 31 of 51 Image preview button, 32 of 51 Image preview button, 33 of 51 Image preview button, 34 of 51 Image preview button, 35 of 51 Image preview button, 36 of 51 Image preview button, 37 of 51 Image preview button, 38 of 51 Image preview button, 39 of 51 Image preview button, 40 of 51 Image preview button, 41 of 51 Image preview button, 42 of 51 Image preview button, 43 of 51 Image preview button, 44 of 51 Image preview button, 45 of 51 Image preview button, 46 of 51 Image preview button, 47 of 51 Image preview button, 48 of 51 Image preview button, 49 of 51 Image preview button, 50 of 51 Image preview button, 51 of 51 Sign in to take a closer look at how this home compares to similar homes. Log in Explore Boerum Hill TRANSIT SCHOOLS COLLEGES PARKS MUSEUMS Transit Location Distance BDNQR2345at Atlantic Av–Barclays Ctr 0.24 miles Rat Union St 0.28 miles 23at Bergen St 0.31 miles LIRRat Atlantic Terminal 0.35 miles 2345at Nevins St 0.48 miles View transit on Google Maps View on Google Maps About Boerum Hill Sales Median asking price 1 bed $975K Rentals Median asking base rent 1 bed $4,395 Energetic and inviting, Boerum Hill continues its run as one of New York City's most desirable neighborhoods, all while remaining a secret quietly shared amongst its happy residents. Its appeal and vibrancy stem from its housing stock. Handsome Greek revival and Italianate townhouses line the wide, tree-lined streets. These beautiful brick and limestone buildings have long been a mecca for Brooklynites seeking an enclave close to Downtown Brooklyn and lower Manhattan — but far from crowds and highrises. Main drags like Bergen Street, Atlantic Avenue, and Smith Street are peppered with charming boutiques like Collier West in addition to welcoming cafes, bars, and restaurants, including Rucola, French Louie, and Bacchus, to name a few. Fans of new construction will find new condo developments too. Saint Marks Place, The Hendrick, The Boerum, and The Bergen have expanded buyers' opportunities. Renters will also find plenty of options here in a broad range of prices, from the genuinely affordable to the luxurious. Learn more about Boerum Hill Similar Homes looks at ad spend and other factors like location, price, and number of beds and baths. Boerum Hill rentals Studios in Boerum Hill 1 bedrooms in Boerum Hill 2 bedrooms in Boerum Hill 3 bedrooms in Boerum Hill Rental listings in Boerum Hill Nearby Boerum Hill Park Slope apartments for rent Carroll Gardens apartments for rent Fort Greene apartments for rent Downtown Brooklyn apartments for rent More homes Pet friendly for rent Blog We're hiring! Submit your listings Work with us NYC rental network Press room Browse all homes Near me Help Terms of Use Do Not Sell or Share My Personal Information Cookie Preferences Privacy Notice Ad Choices Listing Access Standards + Show NYC Neighborhoods Manhattan Roosevelt Island All Downtown Civic Center Financial District Fulton/Seaport Tribeca Stuyvesant Town/PCV Soho Hudson Square Little Italy + Show more Bronx Mott Haven North New York Melrose Port Morris Hunts Point Longwood Morrisania Claremont Crotona Park East Highbridge + Show more Brooklyn Greenpoint Williamsburg East Williamsburg Downtown Brooklyn Fort Greene Brooklyn Heights Boerum Hill DUMBO Vinegar Hill Bedford-Stuyvesant + Show more Queens Astoria Ditmars-Steinway Long Island City Hunters Point Sunnyside Woodside Jackson Heights East Elmhurst North Corona Elmhurst + Show more Staten Island North Shore Arlington Clifton Elm Park Grymes Hill Howland Hook Mariners Harbor New Brighton Park Hill Port Richmond + Show more New Jersey Cliffside Park Edgewater Fort Lee Jersey City Historic Downtown Waterfront Paulus Hook The Heights Journal Square McGinley Square + Show more StreetEasy is a brand of Zillow, Inc. and registered trademark of MFTB Hold Co Inc. Zillow, Inc. has a real estate brokerage license in multiple states. See a list of these real estate licenses. § 442-H New York Standard Operating Procedures. Zillow Trulia Hotpads Out East Zillow Inc. Sites © 2006-2026 ZillowMade in NYCPowered by Bikes, Coffee, and Doughnuts.",
+        "borough": "Brooklyn",
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "neighborhood": "Boerum Hill",
+        "externalScreenshot": "screenshots/streeteasy-com-building-595-baltic-street-brooklyn-5i.png",
+        "id": "streeteasy-com-building-595-baltic-street-brooklyn-5i",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/390ab52be4bba536348606ed4454e78b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8d734feeb78cdb21669b881379aaffac-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/67c36451dbcebb470844ff73f8c1d0c5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c3fc30511332c47811e802f92df9bfa3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6a2951f582f7492ec4a8807e8f0a6ccd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4e8dce7ee73f1352f45d0bb939534a20-se_large_800_400.webp"
+        ],
+        "price": 4350,
+        "sqft": null,
+        "availableDate": "2026-08-21",
+        "daysOnMarket": 3,
+        "estimatedListingDate": "2026-07-21",
+        "lat": 40.6809428,
+        "lng": -73.98155299999999,
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "qualifies": true,
+      "rankScore": 68.31484649776453,
+      "rankBreakdown": {
+        "total": 68.31484649776453,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.15,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 30.725,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 100,
+          "weight": 0.16,
+          "size": "large"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 75.4284649776453,
+          "weight": 0.1,
+          "price": 4350
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "reasons": [],
+      "visionNotes": "Kitchen visible with pass-through counter to living/dining area; smooth-top cooktop with microwave visible; unit has private terrace; living room is spacious with good furniture layout and natural light.",
+      "firstSeenAt": "2026-07-23T22:11:31.390Z",
+      "lastSeenAt": "2026-07-24T22:00:05.507Z",
+      "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
+      "lastRevalidatedAt": "2026-07-24T18:44:16.820Z",
+      "lastRevalidatedLogicVersion": 2,
+      "isGroundFloor": false
+    },
+    {
       "buildingType": "Four-family home",
       "commute": {
         "office": {
@@ -120660,7 +120930,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -120796,7 +121066,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -121340,7 +121610,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -121710,6 +121980,139 @@
       "lastSeenAt": "2026-07-25T13:00:05.514Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "lastRevalidatedAt": "2026-07-27T20:47:20.538Z",
+      "lastRevalidatedLogicVersion": 2,
+      "isGroundFloor": false
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 10,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 41,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 17,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 38,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 31,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "hasGarden": false,
+      "isCondo": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "large",
+      "stoveType": "gas",
+      "listing": {
+        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
+        "title": "8 Court Square #8J",
+        "searchSnippet": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "cardImage": "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
+        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "bodyText": "Skip Navigation AdvertiseSign up / Log in RentBuySellBuildingsResourcesBlog e.g. address, building, agent Search Slide 1 of 18 Skip to the end of the carousel 1 of 18 Skip to the top of the carousel Floor plan Map View all media Under NYC law, you can't be charged a broker fee if you didn't hire a broker. Learn more Request a tour Ask a question Listed by 8 Court Square Apartments Rose Associates, Inc. Show phone number Save WANT TO STAY UPDATED? Save this home for email and push notifications on price and more. Share Hide This home has been saved by 41 users. 1 Open house Sat, Jul 11 12–3 PM ET By appt only Add to calendar Add notes Listing by Rose Associates, Inc. | Brokerage Listing ID: 6264468242 Report listing 8 Court Square #8J $4,694 for rent Price Drop $124 Base rent only. For total monthly price and additional fees, see full breakdown. - ft² 3 rooms 1 bed 1 bath Rental unit Hunters Point Available Available now Days on market 69 days Last price change ↓ $124 (-2.6%) on 7/1/26 About Starting at $4694 One of a kind premium one bedroom with private terrace featuring open LIC views! This great apartment also includes expansive floor-to-ceiling windows, natural oak wood floors, and a gourmet kitchen with full-sized stainless steel appliances and a gas range. Also enjoy thoughtful and convenient details including an in-unit washer/dryer, recessed quartz shower niche, oversized medicine cabinet, individually controlled heating and cooling system and keyless entry and more. Policies Pets allowed Home features Dishwasher Hardwood floors Washer/dryer Building amenities Services and facilities Doorman Elevator Package room Storage space Wheelchair access Wellness and recreation Gym Media room Shared outdoor space Garden Roof deck About the building 8 Court Square 8 Court Square, Long Island City, NY 11101 Rental building in Hunters Point 109 units 23 stories 2023 built For rent 2 available units for rent Documents and permits View documents and permits Learn more about 8 Court Square Property history Prices shown are base rent only. For total monthly price and additional fees, see full breakdown. Price history Date Base rent Event 7/1/2026 $4,694 ↓ Price decreased by 3% 7/1/2026 $4,818 ↑ Price increased by 4% 6/1/2026 $4,644 ↓ Price decreased by 1% 5/3/2026 $4,694 ↑ Price increased by 0% 5/2/2026 $4,693 Listed by Rose Associates, Inc. Show more Sign in to take a closer look at how this home compares to similar homes. Log in Explore Hunters Point Transit Schools Colleges Parks Museums Transit Location Distance E G M 7 at 23rd St–Ely Av 0.1 miles G at Long Island City–Court Square 0.15 miles E G M 7 at 45 Rd–Court House Sq 0.16 miles E M R at Queens Plaza 0.25 miles N W 7 at Queensboro Plaza 0.26 miles View transit on Google Maps View on Google Maps Similar Homes looks at ad spend and other factors like location, price, and number of beds and baths. Hunters Point rentals Studios in Hunters Point 1 bedrooms in Hunters Point 2 bedrooms in Hunters Point 3 bedrooms in Hunters Point Rental listings in Hunters Point Nearby Hunters Point Long Island City apartments for rent Astoria apartments for rent Sunnyside apartments for rent Roosevelt Island apartments for rent More homes Pet friendly for rent Blog We're hiring! Submit your listings Work with us NYC rental network Press room Browse all homes Near me Help Terms of use Do not sell or share my personal information Cookie preferences Privacy notice Ad Choices Listing access standards + Show NYC Neighborhoods StreetEasy is a brand of Zillow, Inc. and registered trademark of MFTB Hold Co Inc. Zillow, Inc. has a real estate brokerage license in multiple states. See a list of these real estate licenses. § 442-H New York Standard Operating Procedures. Zillow Trulia Hotpads Out East Zillow Inc. Sites © 2006-2026 ZillowMade in NYCPowered by Bikes, Coffee, and Doughnuts.",
+        "borough": "Queens",
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "neighborhood": "Hunters Point",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
+        "id": "streeteasy-com-building-8-court-square-long-island-city-08j",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
+        ],
+        "price": 4694,
+        "sqft": null,
+        "washerDryer": "yes",
+        "availableDate": "now",
+        "lat": 40.7461963,
+        "lng": -73.9441143,
+        "daysOnMarket": 84,
+        "estimatedListingDate": "2026-05-02"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "qualifies": true,
+      "rankScore": 65.50917734724291,
+      "rankBreakdown": {
+        "total": 65.50917734724291,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.15,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 100,
+          "weight": 0.16,
+          "size": "large"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 62.61177347242921,
+          "weight": 0.1,
+          "price": 4694
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "reasons": [],
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement.",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "lastSeenAt": "2026-07-27T19:57:54.208Z",
+      "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
+      "lastRevalidatedAt": "2026-07-25T22:03:25.019Z",
       "lastRevalidatedLogicVersion": 2,
       "isGroundFloor": false
     },
@@ -123935,7 +124338,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -124072,7 +124475,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -126118,7 +126521,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -126388,7 +126791,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -126527,7 +126930,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -128291,7 +128694,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -128428,7 +128831,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -128565,7 +128968,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -128975,7 +129378,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -129110,7 +129513,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -129651,7 +130054,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -129788,7 +130191,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -130736,7 +131139,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -131012,7 +131415,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -132508,7 +132911,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -132645,7 +133048,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -132779,7 +133182,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -133598,7 +134001,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -134273,7 +134676,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -134408,7 +134811,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -135087,7 +135490,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -135223,7 +135626,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -135495,7 +135898,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -135901,7 +136304,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -136310,7 +136713,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -136449,7 +136852,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -136815,143 +137218,6 @@
       "lastSeenAt": "2026-07-28T13:00:01.613Z",
       "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
       "lastRevalidatedAt": "2026-07-27T19:57:54.208Z",
-      "lastRevalidatedLogicVersion": 2,
-      "isGroundFloor": false
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 38,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 14,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 51,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 52,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 46,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "hasGarden": true,
-      "isCondo": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "cardImage": "",
-        "searchSnippet": "Rental unit in Boerum Hill 595 Baltic Street #5I",
-        "title": "595 Baltic Street #5I",
-        "url": "https://streeteasy.com/building/595-baltic-street-brooklyn/5i",
-        "source": "streeteasy",
-        "address": "595 Baltic Street #5I, BROOKLYN, NY, 11217",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "bodyText": "Skip Navigation Advertise Sign up / Log in Rent Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular neighborhoods Tribeca All Upper East Side All Upper West Side East Village Williamsburg Astoria Hoboken Jersey City All Neighborhoods Browse Pet-Friendly Rentals Buy Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular neighborhoods All Upper East Side Tribeca Williamsburg Brooklyn Heights Park Slope Ditmas Park Hoboken Jersey City All Neighborhoods Sell Selling with StreetEasy Explore your options Sell with a real estate agent Sell on your own Your Home See how much your home is worth Resources StreetEasy Concierge Market data Guide to selling in NYC Buildings Areas Manhattan Brooklyn Queens Bronx Staten Island New Jersey All NYC + NJ Popular buildings VIA 57 West 63 Wall Street 2621 Palisade Avenue 101 Warren Street 49 Chambers 15 Central Park West MiMA 10 Madison Square West View All New developments 85 Jay Street 128 West 23rd Street 77 Charlton Street 150 East 78th Street 200 Amsterdam Avenue 1059 Third Avenue 368 Third Avenue 202 Broome Street 252 South Street View All Resources Guides Buying Your First Home in NYC Neighborhood Guides Renting in NYC: The Ultimate Guide Mortgage Mortgage Rates Mortgage Calculator Tools StreetEasy Forums Open House Planner Industry Hub Data Dashboard Market Data Market Reports Comparables Reports Q&A Should You Rent or Buy? Co-op or Condo? How Much Rent Can You Afford? Why Work With a Buyer's Agent? Blog Browse Market Data Rental Deals Sales Deals First-Time Buyer's Guide Neighborhood Guides The latest What NYC buyers actually care about right now Marvelous Midtown East homes under $700K Lower East Side 1BR with bonus room asks $759K Most popular sale of the week July 20, 2026 Post-closing liquidity for NYC co-ops: What it means and how much you need Most popular Most popular sale of the week July 20, 2026 Most popular sale of the week July 13, 2026 Most popular sale of the week July 6, 2026 Most popular sale of the week June 29, 2026 Most popular sale of the week June 22, 2026 e.g. address, building, agentSearch Rentals Brooklyn Boerum Hill 595 Baltic Street #5I Image preview button, 1 of 14Use arrow keys to navigate Image preview button, 2 of 14 Image preview button, 3 of 14 Image preview button, 4 of 14 Image preview button, 5 of 14 Image preview button, 6 of 14 Image preview button, 7 of 14 Image preview button, 8 of 14 Image preview button, 9 of 14 Image preview button, 10 of 14 Image preview button, 11 of 14 Image preview button, 12 of 14 preview button, 13 of 14 Map preview button, 14 of 14 Floor planMap 595 Baltic Street #5I $4,350 for rent Base rent only. Price may not include required fees and charges. See cost breakdown - ft² 3 rooms 1 bed 1 bath Rental unit Boerum Hill Under NYC law, you can't be charged a broker fee if you didn't hire a broker. Learn more Request a tour Ask a question Listed by Hanna Datsko Licensed Real Estate Salesperson Living New York Show phone number SaveWANT TO STAY UPDATED?Save this home for email and push notifications on price and more.ShareHide This home has been saved by 19 users. 1 Open house Fri, Jul 24 3–4 PM ET By appt only Add to calendar Add notes Listing by Living New York, Limited Liability Broker, 225 West 35th Street Ste, New York, NY 10001 Report listing Available 8/21/2026 Days on market 2 days Last price change No changes About 595 Baltic Street | Boerum Hill’s | Luxury Rent Stabilized Building Unit Features -Large 1BR with PRIVATE OUTDOOR SPACE -Condo-quality studio residence in the heart of Boerum Hill -Gourmet kitchen with premium stainless steel appliances -Dishwasher, microwave, and 5-burner gas range with convection oven -In-unit washer and dryer for ultimate convenience -Hardwood floors throughout -Large windows offering... Policies Pets allowed Home features Central air Dishwasher Hardwood floors Private outdoor space Balcony Washer/dryer Building amenities Services and facilities Bike room Concierge Doorman Elevator Laundry in building Parking Storage space Wellness and recreation Gym Shared outdoor space Deck Patio Roof deck About the building 595 Baltic Street 595 Baltic Street, Brooklyn, NY 11217 Rental building inBoerum Hill 70 units 9 stories 2016 built For rent 2 available units for rent Documents and permits View documents and permits Learn more about 595 Baltic Street Property history Prices shown are base rent only. For total monthly price and additional fees, see full breakdown. PRICE HISTORY RECENT RENTALS Date Base rent Event 7/21/2026 $4,350 Listed by Living New York 5/19/2026 $9,000 Delisted by Living New York 5/11/2026 $9,000 ↑ Price increased by 0% 5/11/2026 $8,960 ↓ Price decreased by 8% 5/7/2026 $9,750 ↓ Price decreased by 5% Show more Past listing photos 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 8/11/2024 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 5/19/2023 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 2/14/2017 Image preview button, 1 of 51Use arrow keys to navigate Image preview button, 2 of 51 Image preview button, 3 of 51 Image preview button, 4 of 51 Image preview button, 5 of 51 Image preview button, 6 of 51 Image preview button, 7 of 51 Image preview button, 8 of 51 Image preview button, 9 of 51 Image preview button, 10 of 51 Image preview button, 11 of 51 Image preview button, 12 of 51 Image preview button, 13 of 51 Image preview button, 14 of 51 Image preview button, 15 of 51 Image preview button, 16 of 51 Image preview button, 17 of 51 Image preview button, 18 of 51 Image preview button, 19 of 51 Image preview button, 20 of 51 Image preview button, 21 of 51 Image preview button, 22 of 51 Image preview button, 23 of 51 Image preview button, 24 of 51 Image preview button, 25 of 51 Image preview button, 26 of 51 Image preview button, 27 of 51 Image preview button, 28 of 51 Image preview button, 29 of 51 Image preview button, 30 of 51 Image preview button, 31 of 51 Image preview button, 32 of 51 Image preview button, 33 of 51 Image preview button, 34 of 51 Image preview button, 35 of 51 Image preview button, 36 of 51 Image preview button, 37 of 51 Image preview button, 38 of 51 Image preview button, 39 of 51 Image preview button, 40 of 51 Image preview button, 41 of 51 Image preview button, 42 of 51 Image preview button, 43 of 51 Image preview button, 44 of 51 Image preview button, 45 of 51 Image preview button, 46 of 51 Image preview button, 47 of 51 Image preview button, 48 of 51 Image preview button, 49 of 51 Image preview button, 50 of 51 Image preview button, 51 of 51 Sign in to take a closer look at how this home compares to similar homes. Log in Explore Boerum Hill TRANSIT SCHOOLS COLLEGES PARKS MUSEUMS Transit Location Distance BDNQR2345at Atlantic Av–Barclays Ctr 0.24 miles Rat Union St 0.28 miles 23at Bergen St 0.31 miles LIRRat Atlantic Terminal 0.35 miles 2345at Nevins St 0.48 miles View transit on Google Maps View on Google Maps About Boerum Hill Sales Median asking price 1 bed $975K Rentals Median asking base rent 1 bed $4,395 Energetic and inviting, Boerum Hill continues its run as one of New York City's most desirable neighborhoods, all while remaining a secret quietly shared amongst its happy residents. Its appeal and vibrancy stem from its housing stock. Handsome Greek revival and Italianate townhouses line the wide, tree-lined streets. These beautiful brick and limestone buildings have long been a mecca for Brooklynites seeking an enclave close to Downtown Brooklyn and lower Manhattan — but far from crowds and highrises. Main drags like Bergen Street, Atlantic Avenue, and Smith Street are peppered with charming boutiques like Collier West in addition to welcoming cafes, bars, and restaurants, including Rucola, French Louie, and Bacchus, to name a few. Fans of new construction will find new condo developments too. Saint Marks Place, The Hendrick, The Boerum, and The Bergen have expanded buyers' opportunities. Renters will also find plenty of options here in a broad range of prices, from the genuinely affordable to the luxurious. Learn more about Boerum Hill Similar Homes looks at ad spend and other factors like location, price, and number of beds and baths. Boerum Hill rentals Studios in Boerum Hill 1 bedrooms in Boerum Hill 2 bedrooms in Boerum Hill 3 bedrooms in Boerum Hill Rental listings in Boerum Hill Nearby Boerum Hill Park Slope apartments for rent Carroll Gardens apartments for rent Fort Greene apartments for rent Downtown Brooklyn apartments for rent More homes Pet friendly for rent Blog We're hiring! Submit your listings Work with us NYC rental network Press room Browse all homes Near me Help Terms of Use Do Not Sell or Share My Personal Information Cookie Preferences Privacy Notice Ad Choices Listing Access Standards + Show NYC Neighborhoods Manhattan Roosevelt Island All Downtown Civic Center Financial District Fulton/Seaport Tribeca Stuyvesant Town/PCV Soho Hudson Square Little Italy + Show more Bronx Mott Haven North New York Melrose Port Morris Hunts Point Longwood Morrisania Claremont Crotona Park East Highbridge + Show more Brooklyn Greenpoint Williamsburg East Williamsburg Downtown Brooklyn Fort Greene Brooklyn Heights Boerum Hill DUMBO Vinegar Hill Bedford-Stuyvesant + Show more Queens Astoria Ditmars-Steinway Long Island City Hunters Point Sunnyside Woodside Jackson Heights East Elmhurst North Corona Elmhurst + Show more Staten Island North Shore Arlington Clifton Elm Park Grymes Hill Howland Hook Mariners Harbor New Brighton Park Hill Port Richmond + Show more New Jersey Cliffside Park Edgewater Fort Lee Jersey City Historic Downtown Waterfront Paulus Hook The Heights Journal Square McGinley Square + Show more StreetEasy is a brand of Zillow, Inc. and registered trademark of MFTB Hold Co Inc. Zillow, Inc. has a real estate brokerage license in multiple states. See a list of these real estate licenses. § 442-H New York Standard Operating Procedures. Zillow Trulia Hotpads Out East Zillow Inc. Sites © 2006-2026 ZillowMade in NYCPowered by Bikes, Coffee, and Doughnuts.",
-        "borough": "Brooklyn",
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "neighborhood": "Boerum Hill",
-        "externalScreenshot": "screenshots/streeteasy-com-building-595-baltic-street-brooklyn-5i.png",
-        "id": "streeteasy-com-building-595-baltic-street-brooklyn-5i",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/390ab52be4bba536348606ed4454e78b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8d734feeb78cdb21669b881379aaffac-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/67c36451dbcebb470844ff73f8c1d0c5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c3fc30511332c47811e802f92df9bfa3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6a2951f582f7492ec4a8807e8f0a6ccd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4e8dce7ee73f1352f45d0bb939534a20-se_large_800_400.webp"
-        ],
-        "price": 4350,
-        "sqft": null,
-        "availableDate": "2026-08-21",
-        "daysOnMarket": 3,
-        "estimatedListingDate": "2026-07-21",
-        "lat": 40.6809428,
-        "lng": -73.98155299999999,
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "qualifies": true,
-      "rankScore": 60.314846497764535,
-      "rankBreakdown": {
-        "total": 60.314846497764535,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 35.400000000000006,
-          "weight": 0.15,
-          "minutes": 38
-        },
-        "friends": {
-          "score": 30.725,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 75.4284649776453,
-          "weight": 0.1,
-          "price": 4350
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "reasons": [],
-      "visionNotes": "Kitchen visible with pass-through counter to living/dining area; smooth-top cooktop with microwave visible; unit has private terrace; living room is spacious with good furniture layout and natural light.",
-      "firstSeenAt": "2026-07-23T22:11:31.390Z",
-      "lastSeenAt": "2026-07-24T22:00:05.507Z",
-      "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "lastRevalidatedAt": "2026-07-24T18:44:16.820Z",
       "lastRevalidatedLogicVersion": 2,
       "isGroundFloor": false
     },
@@ -137671,7 +137937,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -141589,7 +141855,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -141724,7 +141990,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -143212,7 +143478,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -143349,7 +143615,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -143891,7 +144157,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -145210,139 +145476,6 @@
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 10,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 41,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 17,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 38,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 31,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "hasGarden": false,
-      "isCondo": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
-        "title": "8 Court Square #8J",
-        "searchSnippet": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "cardImage": "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
-        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "bodyText": "Skip Navigation AdvertiseSign up / Log in RentBuySellBuildingsResourcesBlog e.g. address, building, agent Search Slide 1 of 18 Skip to the end of the carousel 1 of 18 Skip to the top of the carousel Floor plan Map View all media Under NYC law, you can't be charged a broker fee if you didn't hire a broker. Learn more Request a tour Ask a question Listed by 8 Court Square Apartments Rose Associates, Inc. Show phone number Save WANT TO STAY UPDATED? Save this home for email and push notifications on price and more. Share Hide This home has been saved by 41 users. 1 Open house Sat, Jul 11 12–3 PM ET By appt only Add to calendar Add notes Listing by Rose Associates, Inc. | Brokerage Listing ID: 6264468242 Report listing 8 Court Square #8J $4,694 for rent Price Drop $124 Base rent only. For total monthly price and additional fees, see full breakdown. - ft² 3 rooms 1 bed 1 bath Rental unit Hunters Point Available Available now Days on market 69 days Last price change ↓ $124 (-2.6%) on 7/1/26 About Starting at $4694 One of a kind premium one bedroom with private terrace featuring open LIC views! This great apartment also includes expansive floor-to-ceiling windows, natural oak wood floors, and a gourmet kitchen with full-sized stainless steel appliances and a gas range. Also enjoy thoughtful and convenient details including an in-unit washer/dryer, recessed quartz shower niche, oversized medicine cabinet, individually controlled heating and cooling system and keyless entry and more. Policies Pets allowed Home features Dishwasher Hardwood floors Washer/dryer Building amenities Services and facilities Doorman Elevator Package room Storage space Wheelchair access Wellness and recreation Gym Media room Shared outdoor space Garden Roof deck About the building 8 Court Square 8 Court Square, Long Island City, NY 11101 Rental building in Hunters Point 109 units 23 stories 2023 built For rent 2 available units for rent Documents and permits View documents and permits Learn more about 8 Court Square Property history Prices shown are base rent only. For total monthly price and additional fees, see full breakdown. Price history Date Base rent Event 7/1/2026 $4,694 ↓ Price decreased by 3% 7/1/2026 $4,818 ↑ Price increased by 4% 6/1/2026 $4,644 ↓ Price decreased by 1% 5/3/2026 $4,694 ↑ Price increased by 0% 5/2/2026 $4,693 Listed by Rose Associates, Inc. Show more Sign in to take a closer look at how this home compares to similar homes. Log in Explore Hunters Point Transit Schools Colleges Parks Museums Transit Location Distance E G M 7 at 23rd St–Ely Av 0.1 miles G at Long Island City–Court Square 0.15 miles E G M 7 at 45 Rd–Court House Sq 0.16 miles E M R at Queens Plaza 0.25 miles N W 7 at Queensboro Plaza 0.26 miles View transit on Google Maps View on Google Maps Similar Homes looks at ad spend and other factors like location, price, and number of beds and baths. Hunters Point rentals Studios in Hunters Point 1 bedrooms in Hunters Point 2 bedrooms in Hunters Point 3 bedrooms in Hunters Point Rental listings in Hunters Point Nearby Hunters Point Long Island City apartments for rent Astoria apartments for rent Sunnyside apartments for rent Roosevelt Island apartments for rent More homes Pet friendly for rent Blog We're hiring! Submit your listings Work with us NYC rental network Press room Browse all homes Near me Help Terms of use Do not sell or share my personal information Cookie preferences Privacy notice Ad Choices Listing access standards + Show NYC Neighborhoods StreetEasy is a brand of Zillow, Inc. and registered trademark of MFTB Hold Co Inc. Zillow, Inc. has a real estate brokerage license in multiple states. See a list of these real estate licenses. § 442-H New York Standard Operating Procedures. Zillow Trulia Hotpads Out East Zillow Inc. Sites © 2006-2026 ZillowMade in NYCPowered by Bikes, Coffee, and Doughnuts.",
-        "borough": "Queens",
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "neighborhood": "Hunters Point",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
-        "id": "streeteasy-com-building-8-court-square-long-island-city-08j",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
-        ],
-        "price": 4694,
-        "sqft": null,
-        "washerDryer": "yes",
-        "availableDate": "now",
-        "lat": 40.7461963,
-        "lng": -73.9441143,
-        "daysOnMarket": 84,
-        "estimatedListingDate": "2026-05-02"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "qualifies": true,
-      "rankScore": 57.50917734724292,
-      "rankBreakdown": {
-        "total": 57.50917734724292,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 83,
-          "weight": 0.15,
-          "minutes": 10
-        },
-        "friends": {
-          "score": 46.025000000000006,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 62.61177347242921,
-          "weight": 0.1,
-          "price": 4694
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "reasons": [],
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement.",
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "lastSeenAt": "2026-07-27T19:57:54.208Z",
-      "lastSourceName": "StreetEasy — $4k-7k, 1bd+, in-unit W/D",
-      "lastRevalidatedAt": "2026-07-25T22:03:25.019Z",
-      "lastRevalidatedLogicVersion": 2,
-      "isGroundFloor": false
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -145782,7 +145915,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -146187,7 +146320,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -147544,7 +147677,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -147815,7 +147948,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -148493,7 +148626,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -148898,7 +149031,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -149303,7 +149436,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "large",
@@ -150254,7 +150387,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -153082,7 +153215,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -153352,7 +153485,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -153621,7 +153754,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -154029,7 +154162,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -154297,7 +154430,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -155110,7 +155243,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -155515,7 +155648,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -156057,7 +156190,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -156462,7 +156595,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -157001,7 +157134,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -157545,7 +157678,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -158771,7 +158904,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -158906,7 +159039,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -159310,7 +159443,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -160128,7 +160261,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -160262,7 +160395,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -161758,7 +161891,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -162027,7 +162160,7 @@
         }
       },
       "gasStove": "yes",
-      "hasGarden": false,
+      "hasGarden": true,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
       "listing": {
@@ -162296,7 +162429,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -162972,7 +163105,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -163241,7 +163374,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -163376,7 +163509,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -163511,7 +163644,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "standard",
@@ -163645,7 +163778,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -163914,7 +164047,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -164049,7 +164182,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -164455,7 +164588,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -164729,7 +164862,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -165002,7 +165135,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
@@ -165139,7 +165272,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "small",
@@ -165275,7 +165408,7 @@
           ]
         }
       },
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "small",
@@ -165408,7 +165541,7 @@
           ]
         }
       },
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",

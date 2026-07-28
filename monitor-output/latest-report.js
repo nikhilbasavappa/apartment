@@ -409,7 +409,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -1387,7 +1387,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-21T13:00:05.902Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
@@ -1748,7 +1748,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-23T13:00:04.638Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -3331,7 +3331,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -3816,7 +3816,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -4300,7 +4300,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-12T13:00:06.156Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -4423,7 +4423,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -14804,7 +14804,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-21T22:05:01.318Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -15171,7 +15171,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-14T14:56:39.488Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -15624,6 +15624,129 @@ window.__APARTMENT_REPORT__ = {
       "visionNotes": "Kitchen is visible with gas range (red knobs visible); opens to dining area with shared sightlines; living room is spacious with good furniture ratio; no private outdoor space visible."
     },
     {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 38,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 14,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 51,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 52,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-23T22:11:31.390Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "large",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "595 Baltic Street #5I, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-21",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-21",
+        "externalScreenshot": "screenshots/streeteasy-com-building-595-baltic-street-brooklyn-5i.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/390ab52be4bba536348606ed4454e78b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8d734feeb78cdb21669b881379aaffac-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/67c36451dbcebb470844ff73f8c1d0c5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c3fc30511332c47811e802f92df9bfa3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6a2951f582f7492ec4a8807e8f0a6ccd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4e8dce7ee73f1352f45d0bb939534a20-se_large_800_400.webp"
+        ],
+        "price": 4350,
+        "sqft": null,
+        "title": "595 Baltic Street #5I",
+        "url": "https://streeteasy.com/building/595-baltic-street-brooklyn/5i",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 68.31484649776453,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.15,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 30.725,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 100,
+          "weight": 0.16,
+          "size": "large"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 75.4284649776453,
+          "weight": 0.1,
+          "price": 4350
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 68.31484649776453,
+      "visionNotes": "Kitchen visible with pass-through counter to living/dining area; smooth-top cooktop with microwave visible; unit has private terrace; living room is spacious with good furniture layout and natural light."
+    },
+    {
       "buildingType": "Four-family home",
       "commute": {
         "office": {
@@ -15907,7 +16030,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -16030,7 +16153,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -16522,7 +16645,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -16853,6 +16976,126 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 65.51680132450332,
       "visionNotes": "Kitchen is open to living/dining area with what appears to be an electric/induction cooktop; outdoor spaces shown are shared building amenities (roof deck, gym), not private to the unit; living room is spacious with large windows."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 10,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 41,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 17,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 38,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 31,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "large",
+      "stoveType": "gas",
+      "listing": {
+        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 84,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-05-02",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
+        ],
+        "price": 4694,
+        "sqft": null,
+        "title": "8 Court Square #8J",
+        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 65.50917734724291,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.15,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 100,
+          "weight": 0.16,
+          "size": "large"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 62.61177347242921,
+          "weight": 0.1,
+          "price": 4694
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 65.50917734724291,
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement."
     },
     {
       "buildingType": "Rental unit",
@@ -18859,7 +19102,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -18982,7 +19225,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -20823,7 +21066,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -21066,7 +21309,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -21192,7 +21435,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -22780,7 +23023,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -22903,7 +23146,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-18T13:00:07.561Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -23026,7 +23269,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-18T13:00:07.561Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -23394,7 +23637,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -23516,7 +23759,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -24004,7 +24247,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -24127,7 +24370,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T13:13:37.165Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -24979,7 +25222,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -25228,7 +25471,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-28T13:00:01.613Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -26574,7 +26817,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -26697,7 +26940,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -26818,7 +27061,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-21T22:05:01.318Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -27555,7 +27798,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-23T22:11:31.390Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -28164,7 +28407,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -28285,7 +28528,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -28895,7 +29138,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -29018,7 +29261,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -29262,7 +29505,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-23T13:00:04.638Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -29627,7 +29870,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -29995,7 +30238,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -30121,7 +30364,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -30448,129 +30691,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 60.356666169895675,
       "visionNotes": "Kitchen is visible and open to living/dining area with island counter; no stove visible in photos; no private outdoor space shown, only high-rise windows; living room is spacious with floor-to-ceiling windows and generous furniture layout."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 38,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 14,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 51,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 52,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 46,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-23T22:11:31.390Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "595 Baltic Street #5I, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-21",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-21",
-        "externalScreenshot": "screenshots/streeteasy-com-building-595-baltic-street-brooklyn-5i.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/390ab52be4bba536348606ed4454e78b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8d734feeb78cdb21669b881379aaffac-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/67c36451dbcebb470844ff73f8c1d0c5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c3fc30511332c47811e802f92df9bfa3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6a2951f582f7492ec4a8807e8f0a6ccd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4e8dce7ee73f1352f45d0bb939534a20-se_large_800_400.webp"
-        ],
-        "price": 4350,
-        "sqft": null,
-        "title": "595 Baltic Street #5I",
-        "url": "https://streeteasy.com/building/595-baltic-street-brooklyn/5i",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 60.314846497764535,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 35.400000000000006,
-          "weight": 0.15,
-          "minutes": 38
-        },
-        "friends": {
-          "score": 30.725,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 75.4284649776453,
-          "weight": 0.1,
-          "price": 4350
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 60.314846497764535,
-      "visionNotes": "Kitchen visible with pass-through counter to living/dining area; smooth-top cooktop with microwave visible; unit has private terrace; living room is spacious with good furniture layout and natural light."
     },
     {
       "buildingType": "Rental unit",
@@ -31221,7 +31341,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-28T13:00:01.613Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -34748,7 +34868,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-21T22:05:01.318Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -34869,7 +34989,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -36208,7 +36328,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-18T16:35:12.175Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
@@ -36331,7 +36451,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-16T17:32:47.411Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -36820,7 +36940,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -38004,126 +38124,6 @@ window.__APARTMENT_REPORT__ = {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 10,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 41,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 17,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 38,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 31,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "8 Court Square #8J, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 84,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-05-02",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-8-court-square-long-island-city-08j.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ebd66cc6ad61c83a61babe9b48407d46-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6a29809e361ff03b361d137f796550fe-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/951a70d5ff603f0f69cd8506d37c7616-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/1603d8afafdcd37b254064f7cb8db711-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/37bcdaf90159b52ca950c46591120c7a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f09a4228c26f69d7c8ad0751865318d8-se_extra_large_1500_800.webp"
-        ],
-        "price": 4694,
-        "sqft": null,
-        "title": "8 Court Square #8J",
-        "url": "https://streeteasy.com/building/8-court-square-long_island_city/08j",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 57.50917734724292,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 83,
-          "weight": 0.15,
-          "minutes": 10
-        },
-        "friends": {
-          "score": 46.025000000000006,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 62.61177347242921,
-          "weight": 0.1,
-          "price": 4694
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 57.50917734724292,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible burners and grates is prominent; no private outdoor space shown, only building courtyard/street view; living room is spacious with good furniture placement."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -38525,7 +38525,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-12T22:00:06.051Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -38888,7 +38888,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -40111,7 +40111,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -40356,7 +40356,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -40966,7 +40966,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -41330,7 +41330,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-21T13:00:05.902Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
@@ -41695,7 +41695,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -42551,7 +42551,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-19T13:00:00.926Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -45098,7 +45098,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -45341,7 +45341,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -45584,7 +45584,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -45952,7 +45952,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -46194,7 +46194,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -46924,7 +46924,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-18T13:00:07.561Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -47289,7 +47289,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -47777,7 +47777,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -48143,7 +48143,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -48629,7 +48629,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-09T23:56:55.413Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -49121,7 +49121,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -50223,7 +50223,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-17T13:00:06.051Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
@@ -50344,7 +50344,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -50709,7 +50709,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -51445,7 +51445,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -51566,7 +51566,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-09T23:56:55.413Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -52912,7 +52912,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -53155,7 +53155,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -53396,7 +53396,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -54004,7 +54004,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -54247,7 +54247,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -54368,7 +54368,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-17T13:00:06.051Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -54489,7 +54489,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
@@ -54610,7 +54610,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -54852,7 +54852,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-17T13:00:06.051Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -54973,7 +54973,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -55338,7 +55338,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -55586,7 +55586,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -55832,7 +55832,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-12T13:00:06.156Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -55955,7 +55955,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -56078,7 +56078,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
@@ -56198,7 +56198,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-23T13:00:04.638Z",
-      "hasGarden": true,
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",

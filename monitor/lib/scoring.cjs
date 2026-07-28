@@ -386,6 +386,70 @@ function hasSeparateKitchenText(bodyText) {
   return false;
 }
 
+// The listing's own marketing copy makes a stronger, more specific claim
+// about its own kitchen than a photo can — a photo showing a big island can
+// look "large" even when the actual counter/cabinet run is small (see the
+// kitchenSize prompt fix above), but real estate copy describing a
+// "chef's kitchen" or "gourmet kitchen" is a genuine claim about the unit,
+// not a photo-framing artifact. "kitchenette" was tested against the real
+// catalog and dropped — its only two real occurrences were both the same
+// building's shared co-working-lounge amenity copy ("cubicles, couches,
+// tables... kitchenette"), not the unit's own kitchen; "galley kitchen"
+// tested clean and is kept.
+function hasSpaciousKitchenText(bodyText) {
+  const pattern = /\b(?:chef'?s|gourmet|eat-?in|oversized|expansive)\b[\w\s']{0,15}\bkitchen\b/gi;
+  const text = String(bodyText || "");
+  let match;
+  while ((match = pattern.exec(text))) {
+    if (!/\bnot\b|n't\b|\bno\b/i.test(match[0])) return true;
+  }
+  return false;
+}
+
+function hasSmallKitchenText(bodyText) {
+  return /\bgalley\b[\w\s']{0,15}\bkitchen\b/i.test(String(bodyText || ""));
+}
+
+// Same reasoning as the kitchen text signals above — a listing's own claim
+// of "spacious living room" or "great room" isn't subject to the same
+// furniture-scale illusion a photo can create. There's no equivalent
+// "small living room" text signal to look for: real estate copy oversells,
+// it doesn't self-report a room as small, so this can only ever push
+// toward "not small," never confirm a genuinely small one — that direction
+// still depends on the (now-tightened) vision prompt alone.
+function hasSpaciousLivingRoomText(bodyText) {
+  return /\b(?:spacious|expansive|oversized)\b[\w\s']{0,15}\bliving\s*room\b|\bgreat\s*room\b/i.test(
+    String(bodyText || "")
+  );
+}
+
+// StreetEasy's own structured "Home features" section lists private
+// outdoor space by type (Garden, Terrace, Balcony, Patio, Roof rights, Roof
+// deck) when a unit has any, and simply omits the line when it doesn't —
+// this is StreetEasy's own submitted listing data, not marketing prose, so
+// it's more reliable than a vision guess from a photo that might actually
+// show a shared building amenity. Confirmed directly: 20 Rockwell Place
+// #2627Q's vision-detected "private terrace" (photo 5) was the building's
+// shared roof deck, not a private garden/terrace attached to the unit —
+// this listing's own structured data lists only "Roof rights", no
+// Garden/Terrace/Yard/Patio, which is why those specific types (not roof
+// rights/roof deck, which read as a lesser, possibly-shared claim) are what
+// count as a genuine private garden here.
+function extractOutdoorSpaceTypes(bodyText) {
+  const match = String(bodyText || "").match(
+    /\bPrivate outdoor space\s+([A-Za-z,\s]{2,40}?)(?=\s+(?:Washer\/dryer|View|Central air|Dishwasher|Hardwood|Storage|Elevator|Doorman|Laundry|Fireplace|Smoke-free|Building amenities|Wheelchair|Pets|Cats|Dogs|$))/i
+  );
+  if (!match) return [];
+  return match[1]
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function hasPrivateGardenText(bodyText) {
+  return extractOutdoorSpaceTypes(bodyText).some((type) => /^(garden|terrace|yard|patio)$/i.test(type));
+}
+
 function normalizeListing(rawListing) {
   const rawText = [rawListing.title, rawListing.description, rawListing.bodyText]
     .filter(Boolean)
@@ -490,13 +554,31 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
   // chef's kitchen" can still be framed to look open-ish in a single shot.
   const kitchenLayout = hasSeparateKitchenText(listing.bodyText) ? "closed" : visionKitchenLayout;
   const stoveType = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.stoveType : "unknown";
-  // "Private garden" specifically (not a shared courtyard) is an easy claim
-  // to get subtly wrong from a photo alone — require high confidence, not
-  // just "not low", before showing it as a fact.
-  const hasGarden = vision.gardenConfidence === "high" ? Boolean(vision.hasGarden) : false;
-  const livingRoomSmall = vision.livingRoomConfidence !== "low" ? Boolean(vision.livingRoomSmall) : false;
-  const kitchenSize =
-    vision.kitchenVisible && vision.kitchenSizeConfidence !== "low" ? vision.kitchenSize : "unknown";
+  // StreetEasy's own structured "Home features" field is a more reliable
+  // source than a photo for private outdoor space (see
+  // extractOutdoorSpaceTypes above) — trust it outright whenever it's
+  // present at all (whether it lists a real garden/terrace/yard/patio, or
+  // only roof rights/roof deck, which don't count), only falling back to
+  // the photo-based guess when the listing has no structured data on this
+  // at all.
+  const outdoorSpaceTypes = extractOutdoorSpaceTypes(listing.bodyText);
+  const hasGarden =
+    outdoorSpaceTypes.length > 0
+      ? hasPrivateGardenText(listing.bodyText)
+      : vision.gardenConfidence === "high" && Boolean(vision.hasGarden);
+  // Text can only push toward "not small" (a listing won't market its own
+  // living room as small) — it never confirms a genuinely small one, that
+  // direction still depends on the vision prompt alone.
+  const livingRoomSmall = hasSpaciousLivingRoomText(listing.bodyText)
+    ? false
+    : vision.livingRoomConfidence !== "low" && Boolean(vision.livingRoomSmall);
+  const kitchenSize = hasSpaciousKitchenText(listing.bodyText)
+    ? "large"
+    : hasSmallKitchenText(listing.bodyText)
+      ? "small"
+      : vision.kitchenVisible && vision.kitchenSizeConfidence !== "low"
+        ? vision.kitchenSize
+        : "unknown";
   const buildingType = extractBuildingType(listing.bodyText);
   const isCondo = /^condo(minium)?$/i.test(buildingType || "");
   const isGroundFloor = isGroundFloorUnit(listing.title);
@@ -598,7 +680,12 @@ module.exports = {
   extractAvailableDate,
   extractBuildingType,
   extractDaysOnMarket,
+  extractOutdoorSpaceTypes,
+  hasPrivateGardenText,
   hasSeparateKitchenText,
+  hasSmallKitchenText,
+  hasSpaciousKitchenText,
+  hasSpaciousLivingRoomText,
   isExcludedNeighborhood,
   isGroundFloorUnit,
   neighborhoodTier,

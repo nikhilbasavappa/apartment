@@ -12,7 +12,16 @@
 // their neutral default rather than erroring.
 
 const { loadState, statePath } = require("./scan.cjs");
-const { rankBreakdown, extractBuildingType, isGroundFloorUnit } = require("./lib/scoring.cjs");
+const {
+  rankBreakdown,
+  extractBuildingType,
+  isGroundFloorUnit,
+  extractOutdoorSpaceTypes,
+  hasPrivateGardenText,
+  hasSpaciousLivingRoomText,
+  hasSpaciousKitchenText,
+  hasSmallKitchenText,
+} = require("./lib/scoring.cjs");
 const { writeJson } = require("./lib/util.cjs");
 
 const state = loadState();
@@ -21,12 +30,26 @@ let updated = 0;
 for (const entry of Object.values(state.catalog)) {
   if (!entry.listing) continue;
 
-  const buildingType = extractBuildingType(entry.listing.bodyText);
+  const bodyText = entry.listing.bodyText;
+  const buildingType = extractBuildingType(bodyText);
   const isCondo = /^condo(minium)?$/i.test(buildingType || "");
   const isGroundFloor = isGroundFloorUnit(entry.listing.title);
   entry.buildingType = buildingType;
   entry.isCondo = isCondo;
   entry.isGroundFloor = isGroundFloor;
+
+  // Text overrides layered on top of whatever's already cached from the
+  // last real vision pass — same effect as evaluateListing's own gating
+  // without needing to re-call vision, since the cached value already IS
+  // the vision-gated fallback these overrides compose with.
+  const outdoorSpaceTypes = extractOutdoorSpaceTypes(bodyText);
+  entry.hasGarden = outdoorSpaceTypes.length > 0 ? hasPrivateGardenText(bodyText) : entry.hasGarden;
+  entry.livingRoomSmall = hasSpaciousLivingRoomText(bodyText) ? false : entry.livingRoomSmall;
+  entry.kitchenSize = hasSpaciousKitchenText(bodyText)
+    ? "large"
+    : hasSmallKitchenText(bodyText)
+      ? "small"
+      : entry.kitchenSize;
 
   const breakdown = rankBreakdown(
     entry.commute || {},
@@ -45,4 +68,4 @@ for (const entry of Object.values(state.catalog)) {
 }
 
 writeJson(statePath, state);
-console.log(`Rescored ${updated} catalog entries with the 9-dimension weighting.`);
+console.log(`Rescored ${updated} catalog entries with the 9-dimension weighting plus text-based corroboration.`);

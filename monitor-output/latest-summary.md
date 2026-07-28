@@ -15,6 +15,7 @@ No new qualifying listings this run.
 - 17 Hanover Place #19E | $4,495 | 17 Hanover Place #19E, BROOKLYN, NY, 11201 | 33 min to office | score 70/100
 - 20 Rockwell Place #2327C | $4,867 | 20 Rockwell Place #2327C, BROOKLYN, NY, 11201 | 34 min to office | score 68/100
 - 45 Garnet Street #1B | $4,900 | 45 Garnet Street #1B, BROOKLYN, NY, 11231 | 40 min to office | score 68/100
+- 595 Baltic Street #5I | $4,350 | 595 Baltic Street #5I, BROOKLYN, NY, 11217 | 38 min to office | score 68/100
 - 140 President Street #3 | $5,500 | 140 President Street #3, BROOKLYN, NY, 11231 | 44 min to office | score 68/100
 - 244 West 72nd Street #9B | $6,500 | 244 West 72nd Street #9B, NEW YORK, NY, 10023 | 22 min to office | score 68/100
 - 20 Rockwell Place #561S | $5,080 | 20 Rockwell Place #561S, BROOKLYN, NY, 11201 | 34 min to office | score 68/100
@@ -25,6 +26,7 @@ No new qualifying listings this run.
 - 899 Fulton Street #2I | $5,575 | 899 Fulton Street #2I, BROOKLYN, NY, 11238 | 33 min to office | score 66/100
 - 899 Fulton Street #2G | $5,575 | 899 Fulton Street #2G, BROOKLYN, NY, 11238 | 33 min to office | score 66/100
 - 27-17 42nd Road #17H | $4,100 | 27-17 42nd Road #17H, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 66/100
+- 8 Court Square #8J | $4,694 | 8 Court Square #8J, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 66/100
 - 55 Willoughby Street #24G | $5,690 | 55 Willoughby Street #24G, BROOKLYN, NY, 11201 | 31 min to office | score 65/100
 - 131 Smith Street #3B | $5,350 | 131 Smith Street #3B, BROOKLYN, NY, 11201 | 34 min to office | score 65/100
 - 232 Atlantic Avenue #2 | $4,043 | 232 Atlantic Avenue #2, BROOKLYN, NY, 11201 | 33 min to office | score 65/100
@@ -136,7 +138,6 @@ No new qualifying listings this run.
 - 880 Atlantic Avenue #4H | $4,475 | 880 Atlantic Avenue #4H, BROOKLYN, NY, 11238 | 37 min to office | score 60/100
 - 20 Rockwell Place #2327C | $4,867 | 20 Rockwell Place #2327C, BROOKLYN, NY, 11201 | 34 min to office | score 60/100
 - 17 Hanover Place #14D | $4,900 | 17 Hanover Place #14D, BROOKLYN, NY, 11201 | 33 min to office | score 60/100
-- 595 Baltic Street #5I | $4,350 | 595 Baltic Street #5I, BROOKLYN, NY, 11217 | 38 min to office | score 60/100
 - 18 Sixth Avenue #3305 | $4,900 | 18 Sixth Avenue #3305, BROOKLYN, NY, 11217 | 34 min to office | score 60/100
 - 214 Garfield Place #3 | $5,250 | 214 Garfield Place #3, BROOKLYN, NY, 11215 | 47 min to office | score 60/100
 - 666 West End Avenue #15AB | $4,995 | 666 West End Avenue #15AB, NEW YORK, NY, 10025 | 28 min to office | score 60/100
@@ -198,7 +199,6 @@ No new qualifying listings this run.
 - 22-44 Jackson Avenue #3423 | $4,664 | 22-44 Jackson Avenue #3423, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 58/100
 - 10-63 Jackson Avenue #5E | $4,350 | 10-63 Jackson Avenue #5E, LONG ISLAND CITY, NY, 11101 | 16 min to office | score 58/100
 - 38-38 32nd Street #914 | $5,750 | 38-38 32nd Street #914, LONG ISLAND CITY, NY, 11101 | 18 min to office | score 58/100
-- 8 Court Square #8J | $4,694 | 8 Court Square #8J, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 58/100
 - 42-20 24th Street #4F | $4,271 | 42-20 24th Street #4F, LONG ISLAND CITY, NY, 11101 | 14 min to office | score 57/100
 - 151 South Elliott Place #3K | $5,592 | 151 South Elliott Place #3K, BROOKLYN, NY, 11217 | 33 min to office | score 57/100
 - 240 Willoughby Street #18U | $5,325 | 240 Willoughby Street #18U, BROOKLYN, NY, 11201 | 37 min to office | score 57/100
