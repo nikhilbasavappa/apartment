@@ -3171,131 +3171,6 @@ window.__APARTMENT_REPORT__ = {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 35,
-          "lines": [
-            "R Line",
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "R Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "223 Fourth Avenue #11B, BROOKLYN, NY, 11215",
-        "availableDate": "2026-09-05",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-223-park-slope-11b.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/cbe3a455bd3b4f85c78f02fdd0a34aeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c2beedf8014fcbdc286d651e1051da62-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/02fe5263ac705baf86c72fbdad892bc5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/530c3a5e54a0518589f55b32d92cae82-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e41ec528f3544836affdcc85f7f00306-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8ac899a705591c2fa14fe18775161d5b-se_large_800_400.webp"
-        ],
-        "price": 5710,
-        "sqft": 1000,
-        "title": "223 Fourth Avenue #11B",
-        "url": "https://streeteasy.com/building/223-park-slope/11b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 63.71066952966368,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 40.5,
-          "weight": 0.15,
-          "minutes": 35
-        },
-        "friends": {
-          "score": 29.025,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.77669529663686,
-          "weight": 0.1,
-          "sqft": 1000,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 94.75,
-          "weight": 0.1,
-          "price": 5710
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 63.71066952966368,
-      "visionNotes": "Kitchen is visible with a peninsula/island opening to living/dining area; gas range with visible burner grates; living room has substantial floor area; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
           "minutes": 36,
           "lines": [
             "N Line",
@@ -7931,6 +7806,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "223 Fourth Avenue #11B, BROOKLYN, NY, 11215",
+        "price": 5710,
+        "title": "223 Fourth Avenue #11B",
+        "url": "https://streeteasy.com/building/223-park-slope/11b"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -14688,9 +14574,9 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Park Slope",
         "tier": "brooklyn",
-        "count": 17,
-        "medianPrice": 5500,
-        "medianPricePerSqft": 5.71,
+        "count": 16,
+        "medianPrice": 5375,
+        "medianPricePerSqft": 5.757229232386962,
         "medianDaysOnMarket": 2,
         "medianLeadTimeDays": 0
       },
@@ -14759,8 +14645,8 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 124,
-      "medianDaysOnMarket": 6
+      "sampleSize": 125,
+      "medianDaysOnMarket": 5
     }
   },
   "newListings": [],
@@ -17964,131 +17850,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 63.80795885154504,
       "visionNotes": "Kitchen is visible with semi-open layout to living room via counter opening; flat-top electric range; no outdoor space visible; living room has adequate floor area."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 35,
-          "lines": [
-            "R Line",
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "R Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 50,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "223 Fourth Avenue #11B, BROOKLYN, NY, 11215",
-        "availableDate": "2026-09-05",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-223-park-slope-11b.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/cbe3a455bd3b4f85c78f02fdd0a34aeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c2beedf8014fcbdc286d651e1051da62-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/02fe5263ac705baf86c72fbdad892bc5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/530c3a5e54a0518589f55b32d92cae82-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e41ec528f3544836affdcc85f7f00306-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8ac899a705591c2fa14fe18775161d5b-se_large_800_400.webp"
-        ],
-        "price": 5710,
-        "sqft": 1000,
-        "title": "223 Fourth Avenue #11B",
-        "url": "https://streeteasy.com/building/223-park-slope/11b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 63.71066952966368,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 40.5,
-          "weight": 0.15,
-          "minutes": 35
-        },
-        "friends": {
-          "score": 29.025,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.77669529663686,
-          "weight": 0.1,
-          "sqft": 1000,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 94.75,
-          "weight": 0.1,
-          "price": 5710
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 63.71066952966368,
-      "visionNotes": "Kitchen is visible with a peninsula/island opening to living/dining area; gas range with visible burner grates; living room has substantial floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",

@@ -1,7 +1,5 @@
 # Future Elmo's World Monitor
 
-Scan needs attention: the apartment scan could not run because Node.js (`node`) is unavailable in the environment. Previous results are preserved.
-
 Run time: Jul 28, 2026, 1:40 PM
 Configured sources: 1
 New listings inspected this run: 0
@@ -36,7 +34,6 @@ No new qualifying listings this run.
 - 570 Fulton Street #2L | $4,000 | 570 Fulton Street #2L, BROOKLYN, NY, 11217 | 32 min to office | score 64/100
 - 122 Willoughby Avenue #3 | $5,000 | 122 Willoughby Avenue #3, BROOKLYN, NY, 11205 | 36 min to office | score 64/100
 - 1004 Fulton Street #4A | $4,000 | 1004 Fulton Street #4A, BROOKLYN, NY, 11238 | 37 min to office | score 64/100
-- 223 Fourth Avenue #11B | $5,710 | 223 Fourth Avenue #11B, BROOKLYN, NY, 11215 | 35 min to office | score 64/100
 - 20 Rockwell Place #2627Q | $4,197 | 20 Rockwell Place #2627Q, BROOKLYN, NY, 11201 | 31 min to office | score 64/100
 - 150 Clermont Avenue #4C | $5,250 | 150 Clermont Avenue #4C, BROOKLYN, NY, 11205 | 47 min to office | score 64/100
 - 354 Myrtle Avenue #2A | $6,750 | 354 Myrtle Avenue #2A, BROOKLYN, NY, 11205 | 41 min to office | score 64/100
@@ -355,7 +352,7 @@ No new qualifying listings this run.
 - 443 East 88th Street #12 | $4,700 | 443 East 88th Street #12, NEW YORK, NY, 10128 | 33 min to office | score 35/100
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 23/100
 
-## Excluded (907)
+## Excluded (908)
 
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 55 Willoughby Street #24C | 55 Willoughby Street #24C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
@@ -663,6 +660,7 @@ No new qualifying listings this run.
 - 231 East 76th Street #3H | 231 East 76th Street #3H, NEW YORK, NY, 10021 — Kitchen photo shows a closed layout
 - 1308 8th Avenue #2 | 1308 8th Avenue #2, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
 - 21-45 44th Drive #3B | 21-45 44th Drive #3B, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
+- 223 Fourth Avenue #11B | 223 Fourth Avenue #11B, BROOKLYN, NY, 11215 — In contract on StreetEasy (auto-detected during periodic revalidation)
 - 2785 Broadway #3I | 2785 Broadway #3I, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout; Upper West Side north of 96th St is outside the comfort zone
 - 348 East 66th Street #2G | 348 East 66th Street #2G, NEW YORK, NY, 10065 — Kitchen photo shows a closed layout
 - 14 Webster Place #1 | 14 Webster Place #1, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
