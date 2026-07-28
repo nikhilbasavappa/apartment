@@ -107,15 +107,21 @@ const FRIEND_COMMUTE_KEYS = ["upperWestSide", "morningsideHeights", "longIslandC
 // per direct instruction ("kitchen size is very important" / "the single
 // top dimension") when value was proposed — not the modest treatment it got
 // when it first shipped as a single-data-point addition.
+// groundFloor added at a small 4% after the same "ground floor could be a
+// problem" complaint recurred across 3 independent listings (45 Garnet St
+// #1B, 390 15th St #1A, 314 West 71st St #1) — crossed the same
+// recurring-pattern threshold that got livingRoom built, but deliberately
+// kept small per direct instruction ("a small penalty").
 const RANK_WEIGHTS = {
-  neighborhood: 0.16,
-  office: 0.16,
-  friends: 0.13,
+  neighborhood: 0.15,
+  office: 0.15,
+  friends: 0.12,
   size: 0.1,
   livingRoom: 0.12,
-  kitchenSize: 0.17,
+  kitchenSize: 0.16,
   value: 0.1,
   condo: 0.06,
+  groundFloor: 0.04,
 };
 
 // Binary rather than continuous — vision only ever classifies living room
@@ -161,6 +167,34 @@ function extractBuildingType(bodyText) {
 // Only condos themselves get lifted above the baseline.
 function condoScore(isCondo) {
   return isCondo ? 100 : 50;
+}
+
+// StreetEasy unit numbers conventionally start with the floor number (a
+// building convention, not something the listing states outright) — e.g.
+// "#1B" is floor 1, "#12A" is floor 12. Calibrated against 3 real
+// user-confirmed ground-floor units, all literally unit "1" with at most a
+// single-letter suffix and no other digits: 45 Garnet St #1B, 390 15th St
+// #1A, 314 West 71st St #1. The regex requires only letters after the
+// leading "1" specifically so "10", "11B", "100" etc. (any digit
+// immediately following the 1, meaning floor 10+) don't false-match. This
+// is a heuristic on a convention, not a certainty — buildings that don't
+// number units by floor (letter-only unit names, townhouses) simply won't
+// get flagged either way, rather than guessing wrong.
+function extractUnitNumber(title) {
+  const match = String(title || "").match(/#([A-Za-z0-9]+)\s*$/);
+  return match ? match[1] : null;
+}
+
+function isGroundFloorUnit(title) {
+  const unit = extractUnitNumber(title);
+  return unit ? /^1[a-zA-Z]{0,3}$/.test(unit) : false;
+}
+
+// Small penalty by direct instruction — the smallness comes from the 4%
+// weight above, not a partial score; binary here for consistency with the
+// other confidence-free signals (condo, living room).
+function groundFloorScore(isGroundFloor) {
+  return isGroundFloor ? 0 : 100;
 }
 
 // Median real sqft among qualifying listings, by bedroom count (from the
@@ -232,14 +266,14 @@ function valueScore(price, sqft, bedrooms) {
 }
 
 // Blended ranking score used to sort qualifying listings — separate from the
-// qualify/exclude hard filters above. Weighted 16% neighborhood preference,
-// 16% office commute (the daily one), 13% average commute to the four
+// qualify/exclude hard filters above. Weighted 15% neighborhood preference,
+// 15% office commute (the daily one), 12% average commute to the four
 // friends' neighborhoods, 10% size (bedroom-normalized sqft), 12% living
-// room size, 17% kitchen size (the single highest dimension), 10% value
-// (price efficiency), 6% condo boost. Returns the components alongside the
-// total so the UI can show why a listing ranked where it did, not just the
-// number.
-function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price) {
+// room size, 16% kitchen size (the single highest dimension), 10% value
+// (price efficiency), 6% condo boost, 4% ground floor. Returns the
+// components alongside the total so the UI can show why a listing ranked
+// where it did, not just the number.
+function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price, isGroundFloor) {
   const neighborhoodScore = NEIGHBORHOOD_TIER_SCORE[tier] ?? NEIGHBORHOOD_TIER_SCORE.unknown;
   const officeScore = commuteScore(commute.office?.minutes);
   const friendScores = FRIEND_COMMUTE_KEYS.map((key) => commuteScore(commute[key]?.minutes));
@@ -249,6 +283,7 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
   const kitchenSizeScoreValue = kitchenSizeScore(kitchenSize);
   const condoScoreValue = condoScore(isCondo);
   const valueScoreValue = valueScore(price, sqft, bedrooms);
+  const groundFloorScoreValue = groundFloorScore(isGroundFloor);
 
   const total =
     RANK_WEIGHTS.neighborhood * neighborhoodScore +
@@ -258,7 +293,8 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
     RANK_WEIGHTS.livingRoom * livingRoomScoreValue +
     RANK_WEIGHTS.kitchenSize * kitchenSizeScoreValue +
     RANK_WEIGHTS.condo * condoScoreValue +
-    RANK_WEIGHTS.value * valueScoreValue;
+    RANK_WEIGHTS.value * valueScoreValue +
+    RANK_WEIGHTS.groundFloor * groundFloorScoreValue;
 
   return {
     total,
@@ -270,11 +306,12 @@ function rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSi
     kitchenSize: { score: kitchenSizeScoreValue, weight: RANK_WEIGHTS.kitchenSize, size: kitchenSize || "unknown" },
     condo: { score: condoScoreValue, weight: RANK_WEIGHTS.condo, isCondo: Boolean(isCondo) },
     value: { score: valueScoreValue, weight: RANK_WEIGHTS.value, price: price ?? null },
+    groundFloor: { score: groundFloorScoreValue, weight: RANK_WEIGHTS.groundFloor, isGroundFloor: Boolean(isGroundFloor) },
   };
 }
 
-function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price) {
-  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price).total;
+function computeRankScore(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price, isGroundFloor) {
+  return rankBreakdown(commute, tier, sqft, bedrooms, livingRoomSmall, kitchenSize, isCondo, price, isGroundFloor).total;
 }
 
 function extractNumber(text, regex) {
@@ -462,6 +499,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     vision.kitchenVisible && vision.kitchenSizeConfidence !== "low" ? vision.kitchenSize : "unknown";
   const buildingType = extractBuildingType(listing.bodyText);
   const isCondo = /^condo(minium)?$/i.test(buildingType || "");
+  const isGroundFloor = isGroundFloorUnit(listing.title);
 
   if (listing.price === null) {
     reasons.push("Rent could not be confirmed");
@@ -514,7 +552,8 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     livingRoomSmall,
     kitchenSize,
     isCondo,
-    listing.price
+    listing.price,
+    isGroundFloor
   );
 
   // Not a hard filter — just a signal that a listing's availability date is
@@ -531,6 +570,7 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     commute,
     hasGarden,
     isCondo,
+    isGroundFloor,
     kitchenLayout,
     kitchenSize,
     stoveType,
@@ -560,6 +600,7 @@ module.exports = {
   extractDaysOnMarket,
   hasSeparateKitchenText,
   isExcludedNeighborhood,
+  isGroundFloorUnit,
   neighborhoodTier,
   rankBreakdown,
 };

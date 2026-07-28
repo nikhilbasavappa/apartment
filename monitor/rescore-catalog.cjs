@@ -12,7 +12,7 @@
 // their neutral default rather than erroring.
 
 const { loadState, statePath } = require("./scan.cjs");
-const { rankBreakdown, extractBuildingType } = require("./lib/scoring.cjs");
+const { rankBreakdown, extractBuildingType, isGroundFloorUnit } = require("./lib/scoring.cjs");
 const { writeJson } = require("./lib/util.cjs");
 
 const state = loadState();
@@ -23,8 +23,10 @@ for (const entry of Object.values(state.catalog)) {
 
   const buildingType = extractBuildingType(entry.listing.bodyText);
   const isCondo = /^condo(minium)?$/i.test(buildingType || "");
+  const isGroundFloor = isGroundFloorUnit(entry.listing.title);
   entry.buildingType = buildingType;
   entry.isCondo = isCondo;
+  entry.isGroundFloor = isGroundFloor;
 
   const breakdown = rankBreakdown(
     entry.commute || {},
@@ -34,7 +36,8 @@ for (const entry of Object.values(state.catalog)) {
     entry.livingRoomSmall,
     entry.kitchenSize,
     isCondo,
-    entry.listing.price
+    entry.listing.price,
+    isGroundFloor
   );
   entry.rankScore = breakdown.total;
   entry.rankBreakdown = breakdown;
@@ -42,4 +45,4 @@ for (const entry of Object.values(state.catalog)) {
 }
 
 writeJson(statePath, state);
-console.log(`Rescored ${updated} catalog entries with the 8-dimension weighting.`);
+console.log(`Rescored ${updated} catalog entries with the 9-dimension weighting.`);

@@ -38,6 +38,7 @@ function buildFactPills(entry) {
     entry.hasGarden ? "Private garden" : null,
     entry.livingRoomSmall ? "Living room looks small" : null,
     entry.isCondo ? "Condo" : null,
+    entry.isGroundFloor ? "Ground floor (unit number suggests)" : null,
   ];
 }
 
@@ -70,6 +71,7 @@ function buildScorePills(entry) {
     `Kitchen size: ${Math.round(breakdown.kitchenSize.score)} · ${Math.round(breakdown.kitchenSize.weight * 100)}% weight`,
     `Condo: ${Math.round(breakdown.condo.score)} · ${Math.round(breakdown.condo.weight * 100)}% weight`,
     `Value: ${Math.round(breakdown.value.score)} · ${Math.round(breakdown.value.weight * 100)}% weight`,
+    `Ground floor: ${Math.round(breakdown.groundFloor.score)} · ${Math.round(breakdown.groundFloor.weight * 100)}% weight`,
   ];
 }
 

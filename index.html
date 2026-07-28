@@ -67,7 +67,7 @@
             None of that is weighted or negotiable &mdash; it's pass/fail.
           </p>
           <p class="rubric-copy">
-            Everything that clears those gets a <strong>match score out of 100</strong>, blending eight things:
+            Everything that clears those gets a <strong>match score out of 100</strong>, blending nine things:
           </p>
           <ul class="rubric-list">
             <li><strong>Neighborhood preference</strong> &mdash; Brooklyn and Upper West Side in the 72nd&ndash;89th
@@ -96,49 +96,58 @@
               that already flags it elsewhere): a small living room scores 0, anything else scores 100. Came up
               repeatedly across directed listing reviews as the single biggest drag on an otherwise-good listing
               &mdash; entertaining space matters enough to weight it comparably to size, not just as a tiebreaker.</li>
-            <li><strong>Kitchen size</strong> &mdash; also from the photo-based check, judging counter/cabinet run
-              and floor space rather than open-vs-closed layout (that's a separate hard requirement above): large
-              scores 100, small scores 0, standard or unclassifiable scores 50. The single highest-weighted
-              dimension (17%) per direct instruction &mdash; "kitchen size is very important."</li>
+            <li><strong>Kitchen size</strong> &mdash; also from the photo-based check, judging the fixed
+              counter/cabinet run and appliances rather than open-vs-closed layout (that's a separate hard
+              requirement above) &mdash; explicitly not counting a kitchen island or peninsula toward size, since
+              that's dining/seating furniture, not kitchen work space: large scores 100, small scores 0, standard or
+              unclassifiable scores 50. The single highest-weighted dimension (16%) per direct instruction &mdash;
+              "kitchen size is very important."</li>
             <li><strong>Condo</strong> &mdash; a boost, not a hard requirement: condos score 100, everything else
               (rental buildings, co-ops, mixed-use, multi-family) scores a neutral 50, so non-condos aren't
               penalized, condos just get lifted above the baseline. Detected directly from StreetEasy's own listing
-              text. Added per explicit instruction rather than an observed review pattern, weighted lightest of the
-              eight (6%) since it's a boost rather than a core priority.</li>
+              text. Added per explicit instruction rather than an observed review pattern, weighted lightly (6%)
+              since it's a boost rather than a core priority.</li>
             <li><strong>Value</strong> &mdash; price per real-or-estimated square foot (reusing the same
               bedroom-typical sqft estimate as the size dimension above when real sqft isn't listed, so it degrades
               to a price-per-bedroom-equivalent rather than a separate guess). Cheap end ($5.50/sqft) scores 100,
               expensive end ($9.50/sqft) scores 0, calibrated against the real range across qualifying listings with
               known sqft. Added after noticing the highest-ranked listing at the time ($6,900 for a 788sqft
               1-bedroom, $8.76/sqft) had nothing pulling its score down for being expensive within budget.</li>
+            <li><strong>Ground floor</strong> &mdash; a small penalty: anything else scores 100, a suspected
+              ground-floor unit scores 0. Detected from StreetEasy's own unit-number convention (unit numbers
+              conventionally start with the floor number, so "#1B" reads as floor 1, while "#11B"/"#100" etc. don't
+              match since a digit right after the leading "1" means floor 10+) &mdash; a heuristic on a naming
+              convention, not a certainty; buildings that don't number units by floor simply won't get flagged.
+              Added after "ground floor could be a problem" recurred across 3 independent listings, weighted lightest
+              of the nine (4%) per direct instruction for "a small penalty."</li>
           </ul>
           <p class="rubric-copy">
-            The default weighting is 16% neighborhood, 16% office, 13% friends, 10% size, 12% living room, 17%
-            kitchen size, 6% condo, 10% value. If that balance feels off, adjust it below; it re-sorts the New and
-            All Qualifying tabs immediately and remembers your setting on this device.
+            The default weighting is 15% neighborhood, 15% office, 12% friends, 10% size, 12% living room, 16%
+            kitchen size, 6% condo, 10% value, 4% ground floor. If that balance feels off, adjust it below; it
+            re-sorts the New and All Qualifying tabs immediately and remembers your setting on this device.
           </p>
 
           <div class="weight-sliders">
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Neighborhood</span>
-                <strong id="weightNeighborhoodValue">16%</strong>
+                <strong id="weightNeighborhoodValue">15%</strong>
               </div>
-              <input type="range" min="0" max="100" value="16" id="weightNeighborhood" class="weight-slider" />
+              <input type="range" min="0" max="100" value="15" id="weightNeighborhood" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Office commute</span>
-                <strong id="weightOfficeValue">16%</strong>
+                <strong id="weightOfficeValue">15%</strong>
               </div>
-              <input type="range" min="0" max="100" value="16" id="weightOffice" class="weight-slider" />
+              <input type="range" min="0" max="100" value="15" id="weightOffice" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Friends commute</span>
-                <strong id="weightFriendsValue">13%</strong>
+                <strong id="weightFriendsValue">12%</strong>
               </div>
-              <input type="range" min="0" max="100" value="13" id="weightFriends" class="weight-slider" />
+              <input type="range" min="0" max="100" value="12" id="weightFriends" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
@@ -157,9 +166,9 @@
             <div class="weight-slider-row">
               <div class="weight-slider-label">
                 <span>Kitchen size</span>
-                <strong id="weightKitchenSizeValue">17%</strong>
+                <strong id="weightKitchenSizeValue">16%</strong>
               </div>
-              <input type="range" min="0" max="100" value="17" id="weightKitchenSize" class="weight-slider" />
+              <input type="range" min="0" max="100" value="16" id="weightKitchenSize" class="weight-slider" />
             </div>
             <div class="weight-slider-row">
               <div class="weight-slider-label">
@@ -175,7 +184,14 @@
               </div>
               <input type="range" min="0" max="100" value="10" id="weightValue" class="weight-slider" />
             </div>
-            <button type="button" class="ghost-button" id="weightReset">Reset to default (16 / 16 / 13 / 10 / 12 / 17 / 6 / 10)</button>
+            <div class="weight-slider-row">
+              <div class="weight-slider-label">
+                <span>Ground floor</span>
+                <strong id="weightGroundFloorValue">4%</strong>
+              </div>
+              <input type="range" min="0" max="100" value="4" id="weightGroundFloor" class="weight-slider" />
+            </div>
+            <button type="button" class="ghost-button" id="weightReset">Reset to default (15 / 15 / 12 / 10 / 12 / 16 / 6 / 10 / 4)</button>
           </div>
         </div>
 
