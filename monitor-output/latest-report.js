@@ -13044,6 +13044,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
+        "price": 6700,
+        "title": "53 West 94th Street #2R",
+        "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r"
+      },
+      "reasons": [
+        "Temporarily off market on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "159 3rd Avenue #5E, BROOKLYN, NY, 11217",
         "price": 5325,
         "title": "159 3rd Avenue #5E",
@@ -14565,11 +14576,11 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Upper West Side",
         "tier": "uwsAcceptable",
-        "count": 18,
-        "medianPrice": 5858.5,
+        "count": 17,
+        "medianPrice": 5722,
         "medianPricePerSqft": 9.891808346213292,
-        "medianDaysOnMarket": 11,
-        "medianLeadTimeDays": 19
+        "medianDaysOnMarket": 6.5,
+        "medianLeadTimeDays": 21
       },
       {
         "name": "Park Slope",
@@ -14645,8 +14656,8 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 125,
-      "medianDaysOnMarket": 5
+      "sampleSize": 126,
+      "medianDaysOnMarket": 6
     }
   },
   "newListings": [],
@@ -17359,127 +17370,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 64.06687034277198,
       "visionNotes": "Kitchen is visible in photo 1, semi-open to living/dining area with good sightlines; smooth-top range visible but at an angle making absolute certainty difficult; photo 4 shows a private rooftop terrace with planters and seating; living room has generous floor area with multiple furniture pieces and clear sightlines."
-    },
-    {
-      "buildingType": "Townhouse",
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 11,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-17",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-53-west-94-street-new-york-2r.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e2f576889609063ad007cf340eb7f3e6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9a75e803057f0b6c165af1236afa8ef1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/48d116d38495e5dc3ee3f6d5c67a3039-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/832768e63b9ea7ff2d1226a29593dd4c-se_large_800_400.webp"
-        ],
-        "price": 6700,
-        "sqft": null,
-        "title": "53 West 94th Street #2R",
-        "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 64.06468977523981,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.15,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.15,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 51.12499999999999,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 69.32730923694778,
-          "weight": 0.1,
-          "price": 6700
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 64.06468977523981,
-      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to the living area; stove appears flat-top but angle and reflection make it moderately hard to confirm; living room has good floor area with generous seating arrangement; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",

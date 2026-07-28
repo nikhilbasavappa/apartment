@@ -30,7 +30,6 @@ No new qualifying listings this run.
 - 570 Fulton Street #15J | $6,440 | 570 Fulton Street #15J, BROOKLYN, NY, 11217 | 31 min to office | score 64/100
 - 151 South Elliott Place #6N | $6,105 | 151 South Elliott Place #6N, BROOKLYN, NY, 11217 | 33 min to office | score 64/100
 - 22 Lafayette Avenue #15B | $4,000 | 22 Lafayette Avenue #15B, BROOKLYN, NY, 11217 | 33 min to office | score 64/100
-- 53 West 94th Street #2R | $6,700 | 53 West 94th Street #2R, NEW YORK, NY, 10025 | 22 min to office | score 64/100
 - 570 Fulton Street #2L | $4,000 | 570 Fulton Street #2L, BROOKLYN, NY, 11217 | 32 min to office | score 64/100
 - 122 Willoughby Avenue #3 | $5,000 | 122 Willoughby Avenue #3, BROOKLYN, NY, 11205 | 36 min to office | score 64/100
 - 1004 Fulton Street #4A | $4,000 | 1004 Fulton Street #4A, BROOKLYN, NY, 11238 | 37 min to office | score 64/100
@@ -352,7 +351,7 @@ No new qualifying listings this run.
 - 443 East 88th Street #12 | $4,700 | 443 East 88th Street #12, NEW YORK, NY, 10128 | 33 min to office | score 35/100
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 23/100
 
-## Excluded (908)
+## Excluded (909)
 
 - 52 4th Avenue #802 | 52 4th Avenue #802, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
 - 55 Willoughby Street #24C | 55 Willoughby Street #24C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
@@ -1132,6 +1131,7 @@ No new qualifying listings this run.
 - 180 Fifth Avenue #1 | 180 Fifth Avenue #1, BROOKLYN, NY, 11217 — In contract on StreetEasy as of 7/10/2026 (confirmed live)
 - 700 West End Avenue #1A | 700 West End Avenue #1A, NEW YORK, NY, 10025 — Rented on StreetEasy (auto-detected during periodic revalidation)
 - 218 West 103rd Street #6B | 218 West 103rd Street #6B, NEW YORK, NY, 10025 — Neighborhood excluded: Manhattan Valley
+- 53 West 94th Street #2R | 53 West 94th Street #2R, NEW YORK, NY, 10025 — Temporarily off market on StreetEasy (auto-detected during periodic revalidation)
 - 159 3rd Avenue #5E | 159 3rd Avenue #5E, BROOKLYN, NY, 11217 — Rented on StreetEasy (auto-detected during periodic revalidation)
 - 503 4th Avenue #3G | 503 4th Avenue #3G, BROOKLYN, NY, 11215 — Rented on StreetEasy (auto-detected during periodic revalidation)
 - 255 East 39th Street #8H | 255 East 39th Street #8H, NEW YORK, NY, 10016 — Neighborhood excluded: Murray Hill
