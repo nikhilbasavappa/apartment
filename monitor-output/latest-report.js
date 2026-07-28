@@ -120,7 +120,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.3305324232082,
-      "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas range with visible burner grates; living room has good floor space with appropriately scaled furniture; no private outdoor space visible, only windows with city views; bedroom shown in final photo."
+      "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas range visible with burner grates; living room has generous floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -168,7 +168,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
         "address": "354 2nd Street #3A, BROOKLYN, NY, 11215",
@@ -198,7 +198,7 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 56.30895885154503,
+        "total": 64.30895885154503,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -225,9 +225,9 @@ window.__APARTMENT_REPORT__ = {
           "small": false
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 50,
           "weight": 0.16,
-          "size": "small"
+          "size": "standard"
         },
         "condo": {
           "score": 100,
@@ -245,8 +245,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 56.30895885154503,
-      "visionNotes": "Kitchen is small and closed-off with a pass-through to the living/dining area; coil electric range visible but reflections make confidence medium; rooftop terrace is private outdoor space; living room at 18'3\" x 18'9\" is standard-to-large size."
+      "rankScore": 64.30895885154503,
+      "visionNotes": "Kitchen is visible and closed off from living/dining area; coil electric range visible in photo 2; private rooftop terrace shown in photo 5; living room is spacious at 18'3\" x 18'9\" per floor plan."
     },
     {
       "buildingType": "Rental unit",
@@ -368,7 +368,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.24817170295066,
-      "visionNotes": "Kitchen is a small closed galley with smooth-top electric range and white quartz island counter; living room visible in photo 2 is narrow and compact with minimal floor space; no outdoor space shown."
+      "visionNotes": "Kitchen is visible with a closed layout (isolated from living areas), compact with island counter, smooth-top stove; living room appears cramped with limited floor area; no outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -412,7 +412,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
-      "kitchenSize": "small",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
         "address": "151 South Elliott Place #6K, BROOKLYN, NY, 11217",
@@ -442,7 +442,7 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 43.8827098555611,
+        "total": 51.8827098555611,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -469,9 +469,9 @@ window.__APARTMENT_REPORT__ = {
           "small": true
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 50,
           "weight": 0.16,
-          "size": "small"
+          "size": "standard"
         },
         "condo": {
           "score": 50,
@@ -489,8 +489,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 43.8827098555611,
-      "visionNotes": "Kitchen is a narrow galley with limited counter/cabinet run along one wall; stove is smooth-top electric with flat surface; unit has large windows with city views but no private outdoor space; living areas are compact with modest floor dimensions."
+      "rankScore": 51.8827098555611,
+      "visionNotes": "Kitchen is visible and closed off from living areas; smooth-top electric range with knobs visible; no private outdoor space; living room floor area is notably compact for a NYC unit."
     },
     {
       "buildingType": "Rental unit",
@@ -534,7 +534,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "large",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
         "address": "26-04 Jackson Avenue #3B, LONG ISLAND CITY, NY, 11101",
@@ -564,7 +564,7 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 66.7598504178101,
+        "total": 58.7598504178101,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -591,9 +591,9 @@ window.__APARTMENT_REPORT__ = {
           "small": false
         },
         "kitchenSize": {
-          "score": 100,
+          "score": 50,
           "weight": 0.16,
-          "size": "large"
+          "size": "standard"
         },
         "condo": {
           "score": 50,
@@ -611,8 +611,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 66.7598504178101,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; flat-top electric range visible; spacious living room with generous floor area; no private outdoor space shown."
+      "rankScore": 58.7598504178101,
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via island counter; smooth-top electric range visible; no private outdoor space; spacious living room with good floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -735,7 +735,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 70.31752050473186,
-      "visionNotes": "Kitchen is visible and open to living/dining area; smooth-top range evident; unit has private balcony/terrace with NYC skyline view; living room is spacious with good floor area."
+      "visionNotes": "Kitchen is visible with counter and island opening to living/dining area; private terrace/balcony visible in photo 5; living room has generous floor area with good sightlines."
     },
     {
       "buildingType": "Rental unit",
@@ -858,7 +858,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.34527787021631,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; gas range with visible burner grates; private rooftop terrace shown in first photo; living room has generous floor space and floor-to-ceiling windows."
+      "visionNotes": "Kitchen is clearly visible with gas range (visible burner grates), semi-open to living area; large private terrace visible in first photo; living room has substantial floor area with high ceilings and floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -979,7 +979,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.36072993588239,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area via island counter; living areas appear spacious with no private outdoor space visible."
+      "visionNotes": "Kitchen visible in first and last photos with gas range (visible burner grates), semi-open to living area via peninsula counter; living room floor area appears standard for NYC; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -1103,7 +1103,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.342737968010894,
-      "visionNotes": "Kitchen is semi-open to dining/living area with visible gas burner grates; living room is genuinely compact despite staged furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is open to dining/living area with visible gas range; living room floor area is notably compact with tight furniture placement typical of a small NYC apartment."
     },
     {
       "buildingType": "Three-family home",
@@ -1146,7 +1146,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
+      "kitchenSize": "small",
       "stoveType": "smoothElectric",
       "listing": {
         "address": "576 Washington Avenue #1B, BROOKLYN, NY, 11238",
@@ -1176,7 +1176,7 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 44.35957142857143,
+        "total": 36.35957142857143,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -1203,9 +1203,9 @@ window.__APARTMENT_REPORT__ = {
           "small": true
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "standard"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -1223,8 +1223,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": true
         }
       },
-      "rankScore": 44.35957142857143,
-      "visionNotes": "Open-plan kitchen with island counter visible in multiple shots; kitchen has standard-length counter run but no stove/range clearly visible in any photo; living room is noticeably compact with modest floor area; no private outdoor space shown."
+      "rankScore": 36.35957142857143,
+      "visionNotes": "Kitchen is visible with island opening to living area; compact galley-style counter run with limited cabinetry; smooth-top range visible but angle makes full certainty difficult; living room floor area is genuinely constrained despite good staging; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -1343,7 +1343,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.05673796801091,
-      "visionNotes": "Kitchen is visible and open to living area with visible gas burner grates; small one-wall layout; private brick-enclosed outdoor terrace visible in first photo; living room is genuinely compact despite professional staging."
+      "visionNotes": "Kitchen is visible with gas range (visible grates), semi-open to living area; small galley-style counter run; living room is notably compact with modest floor area; private garden/terrace visible in first photo."
     },
     {
       "buildingType": "Condo",
@@ -1463,7 +1463,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.12812630014859,
-      "visionNotes": "Kitchen visible with island peninsula opening to living area; private terrace with city views; living room spacious with multiple large windows; smooth-top range visible but reflections make stove type moderately confident."
+      "visionNotes": "Unit has a private terrace with city views, open-plan kitchen with island adjoining living areas, smooth-top electric range visible on right wall, and spacious living room with floor-to-ceiling windows."
     },
     {
       "buildingType": "Condo",
@@ -1585,7 +1585,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.936697807368326,
-      "visionNotes": "Kitchen is visible with L-shaped counter/cabinet layout opening to a dining table and living room beyond; stove appears to be smooth-top electric but angle/reflection makes complete certainty difficult; unit has a rooftop terrace with furniture and plantings; living room has good floor space with multiple seating areas."
+      "visionNotes": "Kitchen is visible with white cabinetry and appears semi-open to a dining area; a rooftop terrace with outdoor furniture is shown; living room has good floor area with fireplace and multiple seating pieces."
     },
     {
       "buildingType": "Mixed-use building",
@@ -1708,7 +1708,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.33950807568877,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range visible; living room is spacious with good floor area; no outdoor space visible; bedroom and bathroom also shown."
+      "visionNotes": "Kitchen is visible with L-shaped counter layout opening to living/dining area via a partial wall; smooth-top electric stove visible; no private outdoor space; living room has good floor area with furniture appropriately scaled; bedroom with window visible but no garden/yard/terrace."
     },
     {
       "buildingType": "Rental unit",
@@ -1829,7 +1829,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.11499263998739,
-      "visionNotes": "Kitchen with island is clearly visible and opens into a spacious living/dining area; flat-top stove visible but some reflective glare makes confidence medium; no private outdoor space; living room is generously sized with multiple seating areas."
+      "visionNotes": "Open-plan kitchen with island peninsula opening to living/dining area; smooth-top electric range visible; spacious living room with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -1951,7 +1951,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.12121186359323,
-      "visionNotes": "Kitchen is visible with a large marble island opening to the living/dining area; flat-top electric range with no visible grates; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only street views from windows."
+      "visionNotes": "Kitchen is visible with a white quartz island opening to the living/dining area; smooth-top electric range with flat surface and knobs; living room has generous floor space with large windows; no private outdoor space visible, only urban views from windows."
     },
     {
       "buildingType": "Condo",
@@ -2072,7 +2072,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.63486140089419,
-      "visionNotes": "Kitchen is visible and open to the living/dining area with a visible gas range (burner grates visible); living room has good floor space with multiple furniture pieces; no private outdoor space visible."
+      "visionNotes": "Kitchen has a pass-through counter opening to the living/dining area; gas range visible with burner grates; living room has generous floor space with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -2193,7 +2193,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.48523248882265,
-      "visionNotes": "Kitchen is visible with a pass-through counter opening to the living room; counter run is short and compact (small kitchen); stove not clearly visible in any photo; living room is genuinely cramped with modest floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a counter opening to living area (semi-open); small counter run with limited built-in space; living room is notably compact with tight floor area despite high ceilings; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -2314,7 +2314,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.257857142857134,
-      "visionNotes": "Kitchen is L-shaped with wood cabinetry, open to a spacious living/dining area with large windows; smooth-top electric range visible; no private outdoor space, only shared building roof deck shown in first photo; living room has generous floor area with good proportions."
+      "visionNotes": "Kitchen is visible and opens directly into a spacious living area with large windows; flat-top electric stove with no visible grates; no private outdoor space shown (first photo is a shared building amenity pool/deck); living room has generous floor area with good wall-to-furniture spacing."
     },
     {
       "buildingType": "Rental unit",
@@ -2436,7 +2436,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.44387034277199,
-      "visionNotes": "Kitchen is visible and open to the living area; black smooth-top range is visible but angle makes stove type assessment slightly uncertain; living room has good floor area with properly scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and open to living area with a black built-in counter run; stove appears to be smooth-top electric based on flat surface visible, though angle makes full confirmation difficult; living room has generous floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -2478,7 +2478,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": false,
       "isGroundFloor": true,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
+      "kitchenSize": "small",
       "stoveType": "gas",
       "listing": {
         "address": "343 West End Avenue #1, NEW YORK, NY, 10024",
@@ -2508,7 +2508,7 @@ window.__APARTMENT_REPORT__ = {
       "needsEarlyAction": true,
       "neighborhoodTier": "uwsIdeal",
       "rankBreakdown": {
-        "total": 59.92026825633383,
+        "total": 51.92026825633383,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -2535,9 +2535,9 @@ window.__APARTMENT_REPORT__ = {
           "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "standard"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -2555,8 +2555,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": true
         }
       },
-      "rankScore": 59.92026825633383,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living room via partial wall; living room is spacious with fireplace and multiple windows; no private outdoor space visible."
+      "rankScore": 51.92026825633383,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area with a pass-through; small counter/cabinet run; spacious living room with fireplace and multiple windows, no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -2678,7 +2678,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.45913561847988,
-      "visionNotes": "Kitchen is visible with white cabinets and stainless steel appliances; semi-open to dining area with island; smooth-top electric range visible; unit has high-rise terrace (not private garden); living room is spacious with large windows and proportional furnishings."
+      "visionNotes": "Kitchen is semi-open to dining area with island; smooth-top electric range visible; living room has generous floor area; unit has a shared building terrace, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -2799,7 +2799,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.254000000000005,
-      "visionNotes": "Kitchen with gas range is semi-open to dining area with island; living room is spacious with good floor area; no private outdoor space visible; last photo shows shared building amenity space, not unit-specific garden."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area; gas range with visible burner grates; living room has good floor area with high ceilings; no private outdoor space visible; last photo shows common area, not unit space."
     },
     {
       "buildingType": "Rental unit",
@@ -2920,7 +2920,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.39849776453055,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible grates; living room has good floor space; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible and open to dining/living area with a white counter run; stove has a flat black smooth-top surface with no visible grates; living room has adequate floor space with sofa and seating; no private outdoor space visible, only urban street-facing windows."
     },
     {
       "buildingType": "Rental unit",
@@ -3043,7 +3043,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.10210683363966,
-      "visionNotes": "Open-plan kitchen with island counter overlooking spacious living area; smooth-top electric range visible; private balcony/terrace with NYC skyline view; living room has generous floor space."
+      "visionNotes": "Open kitchen with standard counter/cabinet run and smooth-top electric range; large private terrace with NYC skyline views; spacious living room with good floor area."
     },
     {
       "buildingType": "Three-family home",
@@ -3165,7 +3165,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.29795885154503,
-      "visionNotes": "Kitchen visible with island peninsula opening to living area; flat-top electric range; living room is spacious with multiple windows and good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with wooden cabinetry, island, and smooth-top electric range; opens semi-openly to living area; living room has generous floor space with multiple windows and comfortable furniture layout; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -3290,7 +3290,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.71066952966368,
-      "visionNotes": "Kitchen is visible with a peninsula/pass-through counter opening to a living/dining area, gas stove with visible burner grates, and the living room has ample floor space with appropriate furnishings for a standard NYC one-bedroom."
+      "visionNotes": "Kitchen is visible with a peninsula/island opening to living/dining area; gas range with visible burner grates; living room has substantial floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -3413,7 +3413,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.80143547213731,
-      "visionNotes": "Open-plan kitchen with island peninsula shares real sightline with spacious living/dining area; smooth-top electric range visible but angle creates some reflection ambiguity; living room has ample floor space; no private outdoor space, only views of trees/buildings through windows."
+      "visionNotes": "Kitchen is semi-open to living/dining area via a peninsula counter; smooth-top electric range visible with no grates; generous living room floor area; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -3536,7 +3536,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.85464977645305,
-      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), separate from living areas; living room is spacious with floor-to-ceiling windows; no private outdoor space, only city views from building windows."
+      "visionNotes": "Kitchen visible in photo 3 with gas cooktop (visible burner grates), open to living area; living room in photo 1 is spacious with floor-to-ceiling windows; no private outdoor space beyond the windows which show shared cityscape; bathroom and bedroom also visible."
     },
     {
       "buildingType": "Rental unit",
@@ -3658,7 +3658,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.39,
-      "visionNotes": "Kitchen is visible in photos 2 and 4; it's semi-open to the dining area with a visible pass-through, has a standard-length counter run with good cabinetry, and the stove clearly shows gas burner grates; living room is spacious with generous floor area; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible in photos 2 and 4 with gas range (visible burner grates), semi-open layout to dining area; living room in photo 1 shows spacious open floor plan with generous sightlines; no private outdoor space visible, only city views from windows; photo 5-6 are building amenities (gym, common area) not part of unit."
     },
     {
       "buildingType": "Rental unit",
@@ -3778,7 +3778,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.50117966903073,
-      "visionNotes": "Kitchen is open to living/dining area with island peninsula; gas stove visible with burner grates; living room has generous floor space; unit is high-rise with street views, no private outdoor space."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via peninsula counter; living room has good floor area; unit overlooks building courtyard/street, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -3898,7 +3898,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.30011949411532,
-      "visionNotes": "Kitchen visible in last photo with pass-through counter to living area; private outdoor terrace shown in photo 3; living room is spacious with extensive windows and good floor area."
+      "visionNotes": "Kitchen is visible in the last photo with a pass-through counter to the living area; it has a compact footprint with minimal counter run, and there is private outdoor waterfront terrace access visible in photo 3."
     },
     {
       "buildingType": "Condo",
@@ -3940,7 +3940,7 @@ window.__APARTMENT_REPORT__ = {
       "isCondo": true,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
         "address": "21-45 44th Drive #2G, LONG ISLAND CITY, NY, 11101",
@@ -3966,11 +3966,11 @@ window.__APARTMENT_REPORT__ = {
         "url": "https://streeteasy.com/building/the-industry/2g",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": true,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 44.50446492644186,
+        "total": 64.50446492644187,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -3992,14 +3992,14 @@ window.__APARTMENT_REPORT__ = {
           "bedrooms": 2
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 50,
           "weight": 0.16,
-          "size": "small"
+          "size": "standard"
         },
         "condo": {
           "score": 100,
@@ -4017,8 +4017,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 44.50446492644186,
-      "visionNotes": "Kitchen is visible in photo 3 and 7, with a small counter run and island; semi-open to living/dining; smooth-top electric range visible; living room in photo 1 and 3 shows compact floor space typical of a small NYC studio/one-bed; no private outdoor space visible."
+      "rankScore": 64.50446492644187,
+      "visionNotes": "Kitchen is visible with counter/island opening to living area; smooth-top range visible; no private outdoor space shown; living room has generous floor area with standard NYC one-bedroom proportions."
     },
     {
       "buildingType": "Rental unit",
@@ -4138,7 +4138,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.30566616989567,
-      "visionNotes": "Kitchen is visible with a one-wall counter run open to a dining/living area with floor-to-ceiling windows; stove appears flat-topped electric but angle and reflections reduce certainty; no private outdoor space visible; living room is spacious with excellent natural light and clear floor area."
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with full sightlines; the flat-surface stove shows no visible burner grates indicating smooth-top electric; no private outdoor space evident; living room has substantial floor area with high ceilings and large windows."
     },
     {
       "buildingType": "Condo",
@@ -4259,7 +4259,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 66.63413705583756,
-      "visionNotes": "Kitchen is visible with island; gas range evident from red knobs and burner grates; semi-open to dining/living area via pass-through; living room appears standard-sized with adequate floor space; no private outdoor space visible, only building entrance shown."
+      "visionNotes": "Kitchen is fully enclosed with dark cabinetry, island, and visible gas range with red knobs/grates; living room appears to be standard size with good floor area; no private outdoor space, only building entrance shown."
     },
     {
       "buildingType": "Rental unit",
@@ -4382,7 +4382,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.831535601515185,
-      "visionNotes": "Kitchen is semi-open to living area with peninsula counter; gas range visible with metal grates; unit has private balcony/terrace; living room has good floor space with hardwood floors and large windows."
+      "visionNotes": "Kitchen is semi-open to living/dining area with an island counter; gas range visible with clear burner grates; living room has generous floor space with floor-to-ceiling windows; balcony is private outdoor space but not a garden/yard."
     },
     {
       "buildingType": "Rental unit",
@@ -4505,7 +4505,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.26177922077922,
-      "visionNotes": "Kitchen is visible with a dark island peninsula opening to the living/dining area; appliances appear to be smooth-top electric; living room has generous floor space; windows overlook neighboring buildings with no private outdoor space."
+      "visionNotes": "Kitchen is open to living/dining area with island peninsula; smooth-top appliances visible; living room has generous floor space; windows show urban building views (no private outdoor space); appears to be a one-bedroom unit."
     }
   ],
   "excludedListings": [
@@ -14764,7 +14764,7 @@ window.__APARTMENT_REPORT__ = {
     }
   },
   "newListings": [],
-  "runAt": "2026-07-28T17:16:40.287Z",
+  "runAt": "2026-07-28T17:40:53.075Z",
   "sourcesConfigured": 1,
   "topListings": [
     {
@@ -14888,7 +14888,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 70.31752050473186,
-      "visionNotes": "Kitchen is visible and open to living/dining area; smooth-top range evident; unit has private balcony/terrace with NYC skyline view; living room is spacious with good floor area."
+      "visionNotes": "Kitchen is visible with counter and island opening to living/dining area; private terrace/balcony visible in photo 5; living room has generous floor area with good sightlines."
     },
     {
       "buildingType": "Rental unit",
@@ -15009,7 +15009,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 68.78326808849283,
-      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with burner grates; living room has good floor space; no private outdoor space visible; laundry in-unit is stacked."
+      "visionNotes": "Kitchen is semi-open to living/dining area with visible sightline; gas range with visible burner grates; living room has generous floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -15133,7 +15133,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 68.36500000000001,
-      "visionNotes": "Kitchen is clearly visible with gas range (red knobs and visible grates), semi-open to dining area via island; living room is spacious with good sightlines; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to dining area with island seating; gas range clearly visible with red knobs and burner grates; living room has comfortable floor area with multiple seating zones; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -15256,7 +15256,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 68.31484649776453,
-      "visionNotes": "Kitchen is visible with a pass-through counter to living/dining area (semi-open); small galley-style counter run with island seating; smooth-top electric range visible; unit has a private balcony/terrace with outdoor furniture and city views; living room is spacious with good floor area."
+      "visionNotes": "Kitchen visible with pass-through counter to living/dining area; compact galley-style with limited counter/cabinet run; smooth-top cooktop visible; unit has terrace (shared building amenity, not private); living room floor area is adequate for a NYC one-bedroom."
     },
     {
       "buildingType": "Rental unit",
@@ -15378,129 +15378,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 68.02569780736833,
-      "visionNotes": "Kitchen is visible with an island/peninsula opening to the living/dining area; smooth-top electric range visible with flat surface and no burner grates; living room has generous floor space with properly scaled furniture; no private outdoor space shown."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 45,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 20,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "large",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "26-04 Jackson Avenue #3B, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-clairemont-3b.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f4258f8516acdc9af6bfd904fbb2fe97-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a114bdaea3aac0303bc1bc03222091c4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e2b20bafd6ce8ac9d26bc02f1fbc3809-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/12c5a533d2f99aa275198be05fe64a0b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fcd774682e23b0b88ebae865bf5fefef-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/364a663f2fbe1e360833acebe605b455-se_large_800_400.webp"
-        ],
-        "price": 6435,
-        "sqft": null,
-        "title": "26-04 Jackson Avenue #3B",
-        "url": "https://streeteasy.com/building/the-clairemont/3b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 66.7598504178101,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.15,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 40.5,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 100,
-          "weight": 0.16,
-          "size": "large"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 75.9789156626506,
-          "weight": 0.1,
-          "price": 6435
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 66.7598504178101,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; flat-top electric range visible; spacious living room with generous floor area; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with a flat smooth-top electric range; it opens to a dining/living area via counter peninsula creating semi-open layout; living room has good floor area with windows; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -15621,7 +15499,130 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 66.63413705583756,
-      "visionNotes": "Kitchen is visible with island; gas range evident from red knobs and burner grates; semi-open to dining/living area via pass-through; living room appears standard-sized with adequate floor space; no private outdoor space visible, only building entrance shown."
+      "visionNotes": "Kitchen is fully enclosed with dark cabinetry, island, and visible gas range with red knobs/grates; living room appears to be standard size with good floor area; no private outdoor space, only building entrance shown."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "N Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 47,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "large",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 21,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-07",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
+        ],
+        "price": 4400,
+        "sqft": 600,
+        "title": "52 4th Avenue #506",
+        "url": "https://streeteasy.com/building/the-eleanor/506",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 66.30066666666667,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 35.825,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 0,
+          "weight": 0.1,
+          "sqft": 600,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 100,
+          "weight": 0.16,
+          "size": "large"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 54.16666666666667,
+          "weight": 0.1,
+          "price": 4400
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 66.30066666666667,
+      "visionNotes": "Kitchen is visible and open to living/dining area with a large island; smooth-top electric stove with knobs visible; unit has a private terrace/balcony accessible from living area; living room has generous floor space."
     },
     {
       "buildingType": "Rental unit",
@@ -15668,31 +15669,31 @@ window.__APARTMENT_REPORT__ = {
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "899 Fulton Street #2G, BROOKLYN, NY, 11238",
+        "address": "899 Fulton Street #2I, BROOKLYN, NY, 11238",
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
-        "daysOnMarket": 21,
+        "daysOnMarket": 10,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-07",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2g.png",
+        "estimatedListingDate": "2026-07-18",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2i.png",
         "neighborhood": "Clinton Hill",
         "photos": [
           "https://photos.zillowstatic.com/fp/123f75274670175a5f5f906089b3ad27-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/07137219b1de1b70d80818b22c68fc23-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cd6fb05e63b674eb9991aa798d3b88b4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cb1c8a7bee2fd18a8e4c8508b1c68d56-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5bf946f71d979032bbd472e24cd1a9cb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/076a6b34d5f7e4c4a988dfc31a14d026-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/123f75274670175a5f5f906089b3ad27-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/07137219b1de1b70d80818b22c68fc23-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7627d4884b30790e56c9e97e98e582ba-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/5bf946f71d979032bbd472e24cd1a9cb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb1c8a7bee2fd18a8e4c8508b1c68d56-se_extra_large_1500_800.webp"
         ],
         "price": 5575,
         "sqft": null,
-        "title": "899 Fulton Street #2G",
-        "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2g",
+        "title": "899 Fulton Street #2I",
+        "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2i",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
@@ -15747,7 +15748,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 65.6044849559627,
-      "visionNotes": "Kitchen is visible in first and fourth photos, showing a closed galley-style layout with white counters and black appliances; smooth-top electric range visible; no outdoor space shown; living areas appear standard-sized for NYC with appropriate furnishings."
+      "visionNotes": "Kitchen is fully enclosed with a closed door entry, has a flat smooth-top electric range with no visible burner grates, standard-length counter run; living room is spacious with good floor area; unit has a private balcony/terrace visible in multiple photos."
     },
     {
       "buildingType": "Rental unit",
@@ -15867,7 +15868,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 65.50917734724291,
-      "visionNotes": "Kitchen is visible in photo 1 with visible gas burner grates on the range; it's a closed galley layout; the living/dining area in photo 2 is spacious with good floor area; no private outdoor space visible, only building courtyard below in exterior shot."
+      "visionNotes": "Kitchen is galley-style with counters along one wall, gas range with visible grates visible, opens to hallway not living area; living room is a spacious combined living/dining area with good floor space and high ceilings; no private outdoor space visible, only street-view from windows."
     },
     {
       "buildingType": "Mixed-use building",
@@ -15989,7 +15990,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 65.43995885154503,
-      "visionNotes": "Kitchen is semi-open to dining area with island; smooth-top range visible; living room is spacious with good floor area; no private outdoor space visible, only interior views."
+      "visionNotes": "Kitchen is visible in multiple photos with a moderate counter/cabinet run; semi-open layout with dining table adjacent; smooth-top electric range visible; no private outdoor space; living room has good floor area with standard NYC proportions."
     },
     {
       "buildingType": "Mixed-use building",
@@ -16111,7 +16112,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 65.28695885154504,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area via counter opening; gas range clearly visible with burner grates; living room has generous floor space; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via counter pass-through; living room has good floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -16237,7 +16238,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.97697491580206,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; smooth-top electric range with black finish is visible but angle makes burner type confirmation medium confidence; no private outdoor space shown, only interior urban views; living room is spacious with generous floor area."
+      "visionNotes": "Kitchen is visible and fully open to the living/dining area; smooth-top electric range visible (flat black surface, no grates); living room has generous floor area with sofa and dining table; no private outdoor space visible, only urban building views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -16363,7 +16364,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.97697491580206,
-      "visionNotes": "Kitchen is open to living/dining area with visible counter run and stainless appliances; stove appears to be smooth-top electric but angle/reflection makes certainty medium; living room has substantial floor space; no private outdoor space visible, only shared building views from windows."
+      "visionNotes": "Kitchen is open to living/dining area with standard counter run; stove appears to be smooth-top electric (flat black surface, no visible grates); living room has good floor space with multiple seating areas; no private outdoor space visible, only NYC street views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -16489,7 +16490,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.914223911786,
-      "visionNotes": "Kitchen is visible in photo 1, open to living/dining area with flat-top electric stove; living room has substantial floor space; no private outdoor space visible, only urban building views."
+      "visionNotes": "Kitchen is visible in photo 1, open to living/dining area with standard counter run; stove appears flat-top but angle/reflection makes confidence medium; living room has generous floor space; no private outdoor space visible, only street-facing windows."
     },
     {
       "buildingType": "Condo",
@@ -16614,7 +16615,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.65123194391451,
-      "visionNotes": "Kitchen is semi-open to living area via island peninsula; gas range visible with burner grates; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with island peninsula opening to living area; gas range with visible burner grates; living room has generous floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -16736,7 +16737,127 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.56998294793058,
-      "visionNotes": "Kitchen is visible with black cabinetry and open sightline to living area; smooth-top range visible but angle makes burner type somewhat difficult to confirm; living room has good floor space with properly scaled furniture; no private outdoor space visible, only window views."
+      "visionNotes": "Kitchen is open to living area with black cabinetry and appears to have a smooth-top electric range; living room has generous floor area with multiple seating zones; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 9,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 45,
+          "lines": [
+            "F Line",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 16,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-25T13:00:05.514Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "21-45 44th Drive #2G, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-11",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-industry-2g.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/b36f400f2eda6e4b237282dc62141fee-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3e9b485bbd9efcdc5276f7126f85edd8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/20fc8d99ee60ed79ebb47cdc0750c490-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1d86177dcd7dd31e77767eefe7af9fcf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/09ff95c84850b2d7d34c75ca0bfa2ec8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7a7e5213b163499b440bdce31f2246cc-se_large_800_400.webp"
+        ],
+        "price": 6000,
+        "sqft": 1025,
+        "title": "21-45 44th Drive #2G",
+        "url": "https://streeteasy.com/building/the-industry/2g",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 64.50446492644187,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.15,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 42.2,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 31.19611267905279,
+          "weight": 0.1,
+          "sqft": 1025,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 91.15853658536585,
+          "weight": 0.1,
+          "price": 6000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 64.50446492644187,
+      "visionNotes": "Kitchen is visible with counter/island opening to living area; smooth-top range visible; no private outdoor space shown; living room has generous floor area with standard NYC one-bedroom proportions."
     },
     {
       "buildingType": "Rental unit",
@@ -16859,7 +16980,133 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.48728763040238,
-      "visionNotes": "Kitchen is visible in photo 3 with a long wood-cabinetry run, gas cooktop with visible burner grates, and open sightlines to dining area; living room in photo 1 is spacious with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), long wood-cabinet counter run, and opens directly into dining/living area; living rooms are spacious with high ceilings and generous floor area; no private outdoor space visible, only interior unit."
+    },
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 42,
+          "lines": [
+            "R Line",
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 26,
+          "lines": [
+            "R Line",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 53,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 57,
+          "lines": [
+            "R Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 52,
+          "lines": [
+            "R Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-11T13:01:25.952Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "354 2nd Street #3A, BROOKLYN, NY, 11215",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-354-2-street-brooklyn-3a.png",
+        "neighborhood": "Park Slope",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0e8d5c53f684958a3dea28c70197564e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f5e2a20f9976497d8702d47aa4ed5b2a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/eac3bf4faf3277f01cbe78fceb54d689-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e10e1eaf62ec1832c17e765dcec5f602-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/75ef905feee1aab07e6baceb067f2ff8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f650c58313edaa07aa5271415021dfb0-se_extra_large_1500_800.webp"
+        ],
+        "price": 4800,
+        "sqft": null,
+        "title": "354 2nd Street #3A",
+        "url": "https://streeteasy.com/building/354-2-street-brooklyn/3a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 64.30895885154503,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 28.60000000000001,
+          "weight": 0.15,
+          "minutes": 42
+        },
+        "friends": {
+          "score": 20.10000000000001,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 100,
+          "weight": 0.1,
+          "price": 4800
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 64.30895885154503,
+      "visionNotes": "Kitchen is visible and closed off from living/dining area; coil electric range visible in photo 2; private rooftop terrace shown in photo 5; living room is spacious at 18'3\" x 18'9\" per floor plan."
     },
     {
       "buildingType": "Rental unit",
@@ -16981,7 +17228,494 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 64.14730021700689,
-      "visionNotes": "Kitchen is visible and open to dining/living area with standard counter run; smooth-top electric range visible; bedroom has private terrace/balcony with city views; living room has substantial floor space."
+      "visionNotes": "Kitchen is visible and open to a dining/living area with a large floor plan; a terrace/balcony is visible from the bedroom; stove appears to be smooth-top electric based on the flat surface visible in photo 3."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 37,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 48,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 43,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "151 South Elliott Place #6N, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 9,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-19",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-6n.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8cedb0fdab4a89c14d023fad36af6861-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/37ab7502cc4231dae6e1653f7158dccc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d3bb5c2081eb7f5b903acd0e0e20f65f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4928a19c7de81c7f544329152db9147f-se_large_800_400.webp"
+        ],
+        "price": 6105,
+        "sqft": null,
+        "title": "151 South Elliott Place #6N",
+        "url": "https://streeteasy.com/building/the-elliot/6n",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 64.12116367082214,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 84.26204819277108,
+          "weight": 0.1,
+          "price": 6105
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 64.12116367082214,
+      "visionNotes": "Kitchen is semi-open with island to living/dining area; gas range visible with metal grates and knobs; no outdoor space shown; living room appears moderate-sized based on floor footage visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 16,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 35,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 42,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "22 Lafayette Avenue #15B, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-22-lafayette-avenue-brooklyn-15b.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/34430076e40503f2c350788aa00ea634-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/98dc1e5dee369ac23877638715156518-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_medium_500_250.webp",
+          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_medium_500_250.webp"
+        ],
+        "price": 4000,
+        "sqft": null,
+        "title": "22 Lafayette Avenue #15B",
+        "url": "https://streeteasy.com/building/22-lafayette-avenue-brooklyn/15b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 64.06687034277198,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 88.46870342771982,
+          "weight": 0.1,
+          "price": 4000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 64.06687034277198,
+      "visionNotes": "Kitchen is visible in photo 1, semi-open to living/dining area with good sightlines; smooth-top range visible but at an angle making absolute certainty difficult; photo 4 shows a private rooftop terrace with planters and seating; living room has generous floor area with multiple furniture pieces and clear sightlines."
+    },
+    {
+      "buildingType": "Townhouse",
+      "commute": {
+        "office": {
+          "minutes": 22,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 48,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "C Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 17,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 11,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
+        "availableDate": "2026-07-20",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 11,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-17",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-53-west-94-street-new-york-2r.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e2f576889609063ad007cf340eb7f3e6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9a75e803057f0b6c165af1236afa8ef1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/48d116d38495e5dc3ee3f6d5c67a3039-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/832768e63b9ea7ff2d1226a29593dd4c-se_large_800_400.webp"
+        ],
+        "price": 6700,
+        "sqft": null,
+        "title": "53 West 94th Street #2R",
+        "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 64.06468977523981,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.15,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 62.6,
+          "weight": 0.15,
+          "minutes": 22
+        },
+        "friends": {
+          "score": 51.12499999999999,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 69.32730923694778,
+          "weight": 0.1,
+          "price": 6700
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 64.06468977523981,
+      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to the living area; stove appears flat-top but angle and reflection make it moderately hard to confirm; living room has good floor area with generous seating arrangement; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 32,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 23,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 37,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 41,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "570 Fulton Street #2L, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-fulton-greene-2l.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/105025c7642f9549fc2974f0815ea6cf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/105025c7642f9549fc2974f0815ea6cf-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/5907f08a6f273a46fa1e7eed2d8073d6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/823b8782159520244f485e7875bfa672-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/fd238d29546e24496150566aa81d06ed-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/937e0522b0e3451718d2f800c70fdad6-se_large_800_400.webp"
+        ],
+        "price": 4000,
+        "sqft": null,
+        "title": "570 Fulton Street #2L",
+        "url": "https://streeteasy.com/building/fulton-greene/2l",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 63.964870342771974,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 45.6,
+          "weight": 0.15,
+          "minutes": 32
+        },
+        "friends": {
+          "score": 37.525,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 88.46870342771982,
+          "weight": 0.1,
+          "price": 4000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 63.964870342771974,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via a marble counter/backsplash divider; unit has private terrace accessible via sliding glass doors; living room has generous floor area with multiple seating pieces and good sightlines."
     },
     {
       "buildingType": "Four-family home",
@@ -17105,7 +17839,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.81695885154504,
-      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via peninsula counter; smooth-top electric range with flat black surface and visible knobs; living room is spacious with ample floor area and large windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area with white counter peninsula; smooth-top black electric range visible; living room has generous floor space with multiple seating areas; no private outdoor space visible, only windows to shared green space."
     },
     {
       "buildingType": "Mixed-use building",
@@ -17229,7 +17963,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.80795885154504,
-      "visionNotes": "Kitchen is semi-open to living area via a counter opening; smooth-top electric range visible; living room is spacious with good sightlines; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to living room via counter opening; flat-top electric range; no outdoor space visible; living room has adequate floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -17354,7 +18088,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.71066952966368,
-      "visionNotes": "Kitchen is visible with a peninsula/pass-through counter opening to a living/dining area, gas stove with visible burner grates, and the living room has ample floor space with appropriate furnishings for a standard NYC one-bedroom."
+      "visionNotes": "Kitchen is visible with a peninsula/island opening to living/dining area; gas range with visible burner grates; living room has substantial floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -17475,7 +18209,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.6388912071535,
-      "visionNotes": "Kitchen visible in photo 2 with island seating to living area; stove appears flat-top electric (no visible grates, though angle/reflection creates some ambiguity); large private garden/terrace visible in photo 6; living room is spacious with high ceilings and ample floor area."
+      "visionNotes": "Kitchen is open to living/dining area with island seating; smooth-top stove visible but some angle reflection reduces confidence; private outdoor garden/terrace visible with abundant plantings and brick building backdrop; living room has substantial floor area with multiple seating zones."
     },
     {
       "buildingType": "Condo",
@@ -17600,7 +18334,132 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.552958851545036,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island; gas range visible with burner grates; living room is spacious; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area with island peninsula; gas range visible with metal grates; living room has generous floor space with multiple seating areas; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 41,
+          "lines": [
+            "G Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 17,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "B69",
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 62,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 56,
+          "lines": [
+            "B54",
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-20T17:14:21.484Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "354 Myrtle Avenue #2A, BROOKLYN, NY, 11205",
+        "availableDate": "2026-08-01",
+        "bathrooms": 2,
+        "bedrooms": 3,
+        "daysOnMarket": 7,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-21",
+        "externalScreenshot": "screenshots/streeteasy-com-building-154-adelphi-street-brooklyn-2a.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/0d1fa3aff8b59165a1f35e05dc8e5275-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7134c2058654510b720801ff08b435f9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3befa8c29f5677b56dfc1efce1515b67-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/22db9aaffe44ead492e8ddb1576b4a3b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1737668a571270c6ce5e1ac898c431e9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/84382702ba66dcf78cc3a63f21c6f8af-se_large_800_400.webp"
+        ],
+        "price": 6750,
+        "sqft": null,
+        "title": "354 Myrtle Avenue #2A",
+        "url": "https://streeteasy.com/building/154-adelphi-street-brooklyn/2a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 63.54299263998739,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.15,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 24.424999999999997,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 40.66992639987393,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 3
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 100,
+          "weight": 0.1,
+          "price": 6750
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 63.54299263998739,
+      "visionNotes": "Kitchen is visible with white cabinetry and marble island, semi-open to living/dining area; smooth-top electric range appears flat with no visible grates; living room has good sightlines and floor area with large sectional sofa; no private outdoor space visible, only windows."
     },
     {
       "buildingType": "Rental unit",
@@ -17722,7 +18581,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.535300217006885,
-      "visionNotes": "Kitchen is open to dining/living area with a standard-length counter run; smooth-top electric range visible in photo 1; living room has good floor space with moderate-scaled furniture; bathroom with outdoor terrace visible but no private garden for the unit."
+      "visionNotes": "Kitchen is open to dining/living area with L-shaped counter run; smooth-top electric range visible; living room has good floor area with dining table; no private outdoor space visible, only a shared terrace through bathroom window."
     },
     {
       "buildingType": "Rental unit",
@@ -17844,7 +18703,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.535300217006885,
-      "visionNotes": "Kitchen visible in photo 3 with white cabinetry and smooth cooktop; semi-open to dining area; living room has ample floor space; bedroom in photo 4 shows private terrace/balcony with outdoor space."
+      "visionNotes": "Kitchen is visible and open to dining/living area with island; smooth-top range visible in photo 3; bedroom has large terrace with skyline view; living room has generous floor space."
     },
     {
       "buildingType": "Rental unit",
@@ -17966,7 +18825,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.45913561847988,
-      "visionNotes": "Kitchen is visible with white cabinets and stainless steel appliances; semi-open to dining area with island; smooth-top electric range visible; unit has high-rise terrace (not private garden); living room is spacious with large windows and proportional furnishings."
+      "visionNotes": "Kitchen is semi-open to dining area with island; smooth-top electric range visible; living room has generous floor area; unit has a shared building terrace, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -18089,7 +18948,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.45208792846498,
-      "visionNotes": "Kitchen is visible with island opening to living/dining area; stove appears to be smooth-top electric (flat surface, no visible grates), though angle makes full certainty difficult; living room has good proportional floor space; no private outdoor space, only street-facing windows."
+      "visionNotes": "Open-plan kitchen with island overlooking living room; smooth-top electric range visible; living room has generous floor area; no private outdoor space, only building exterior visible."
     },
     {
       "buildingType": "Rental unit",
@@ -18211,7 +19070,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.44767371098279,
-      "visionNotes": "Kitchen is clearly visible in photo 3, open to living/dining area with wood cabinetry and smooth-top electric stove; living room is spacious with abundant floor area; private outdoor garden/terrace visible in photo 6."
+      "visionNotes": "Kitchen is visible and open to living/dining area with direct sightlines; standard-length counter run with flat smooth-top electric range; private outdoor garden/terrace visible through large glass doors; living room has generous floor area with multiple seating areas."
     },
     {
       "buildingType": "Condo",
@@ -18332,7 +19191,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.257857142857134,
-      "visionNotes": "Kitchen is L-shaped with wood cabinetry, open to a spacious living/dining area with large windows; smooth-top electric range visible; no private outdoor space, only shared building roof deck shown in first photo; living room has generous floor area with good proportions."
+      "visionNotes": "Kitchen is visible and opens directly into a spacious living area with large windows; flat-top electric stove with no visible grates; no private outdoor space shown (first photo is a shared building amenity pool/deck); living room has generous floor area with good wall-to-furniture spacing."
     },
     {
       "buildingType": "Rental unit",
@@ -18454,7 +19313,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.15901909250889,
-      "visionNotes": "Kitchen is visible and open to living/dining area with continuous sightline; smooth-top electric range visible; private outdoor terrace with plants and brick building view clearly shown; living room has generous floor space with appropriately scaled furniture."
+      "visionNotes": "Kitchen is open to the living/dining area with clear sightlines; stove has flat smooth-top surface with no visible grates; private outdoor terrace visible with sitting area and direct access from living space."
     },
     {
       "buildingType": "Rental unit",
@@ -18580,7 +19439,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 63.144958851545034,
-      "visionNotes": "Kitchen is enclosed with white cabinetry and wood drawers; smooth-top electric stove visible; unit has private balcony/terrace accessed via glass doors; living room is modest but not cramped with appropriately scaled furnishings."
+      "visionNotes": "Kitchen is enclosed with a door visible; gas range with visible burner grates; private balcony/terrace visible; living room has adequate floor area with professional staging."
     },
     {
       "buildingType": "Condo",
@@ -18701,7 +19560,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.93773395194665,
-      "visionNotes": "Kitchen is open to living area with island; smooth-top electric stove visible; private terrace with wood railings; spacious living room with large windows and generous floor area."
+      "visionNotes": "Kitchen is semi-open to living area via island; smooth-top electric range visible; private terrace with wood slat railing shown in first photo; living room has generous floor space with large windows."
     },
     {
       "buildingType": "Rental unit",
@@ -18821,7 +19680,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.87469780736832,
-      "visionNotes": "Kitchen is visible with dark cabinetry and a smooth-top electric range; it opens to a living/dining area with sightlines; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a flat smooth-top electric range, semi-open to a dining/living area via a pass-through counter; living room has good floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -18944,7 +19803,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.862749656121046,
-      "visionNotes": "Kitchen is a closed galley layout with a standard-length counter run; gas range with visible burner grates; living room has good floor space with appropriate furniture scale; outdoor view shows shared street/building courtyard, not private space."
+      "visionNotes": "Kitchen is fully enclosed with white lower cabinets and brown upper cabinets; gas range visible with burner grates; living room has good floor area with standard furnishings; outdoor view shows street/building, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -19064,7 +19923,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.84272993588239,
-      "visionNotes": "Kitchen is visible in photo 1 with semi-open layout to dining/living area; appears to have a smooth-top electric range (flat black surface visible, no grates); living room has generous floor space with appropriate furniture scale; no private outdoor space visible, only urban building views from windows."
+      "visionNotes": "Kitchen is visible in first photo with semi-open layout to dining/living area; smooth-top electric range visible (no grates); living room has substantial floor area; no private outdoor space shown, only urban building views."
     },
     {
       "buildingType": "Rental unit",
@@ -19188,92 +20047,93 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.82526808849283,
-      "visionNotes": "Kitchen is visible with a counter/island opening to the living/dining area; smooth-top electric range visible but at an angle making full certainty difficult; living room has decent floor space with comfortable furniture arrangement; no private outdoor space visible, only windows."
+      "visionNotes": "Kitchen is visible with gray cabinetry and counter run; it opens partially to the living/dining area via a counter peninsula but has significant separation; living room has good floor area with multiple furniture pieces; no private outdoor space visible; stove appears flat-top but angle/reflections make exact type slightly unclear."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 36,
+          "minutes": 32,
           "lines": [
-            "F Line"
+            "4 Line",
+            "6 Train"
           ]
         },
         "prospectHeights": {
-          "minutes": 21,
+          "minutes": 23,
           "lines": [
-            "B65"
+            "B45"
           ]
         },
         "longIslandCity": {
-          "minutes": 39,
+          "minutes": 37,
           "lines": [
             "G Line"
           ]
         },
         "morningsideHeights": {
-          "minutes": 51,
+          "minutes": 46,
           "lines": [
             "2 Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 46,
+          "minutes": 41,
           "lines": [
             "2 Line",
             "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-23T22:11:31.390Z",
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "19 Wyckoff Street #22, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
+        "address": "570 Fulton Street #16E, BROOKLYN, NY, 11217",
+        "availableDate": "2025-07-26",
+        "bathrooms": 2,
         "bedrooms": 2,
-        "daysOnMarket": null,
+        "daysOnMarket": 8,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-22.png",
-        "neighborhood": "Cobble Hill",
+        "estimatedListingDate": "2026-07-20",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-fulton-greene-16e.png",
+        "neighborhood": "Fort Greene",
         "photos": [
-          "https://photos.zillowstatic.com/fp/88375ebb15decb634f38b5013d51f675-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dc37ee24bb043eee1e0e77d2fe672c72-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cae53e58bb56d98478b3dd39558d2f60-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/26d184d0ac4a294b48a1377f1f4bd528-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1e3a86c75eb83deaae1f0da7f38fe596-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a72c56d13c4c436c5077a10fd03b7417-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/ff2b046b99eb60487e3e02edc8b94794-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b8e8740fb4987f6a1b672d4771ddc3ef-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/311d607b62550b874b211d10ea2cd798-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a582ee4c0fd0f96e5b89ff08a3c517d5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7c09e5633b7153ab67b58c97dcde3a7f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/76176771bd6fccd78298084fe21b5b3a-se_large_800_400.webp"
         ],
-        "price": 6200,
+        "price": 6750,
         "sqft": null,
-        "title": "19 Wyckoff Street #22",
-        "url": "https://streeteasy.com/building/the-julian/22",
+        "title": "570 Fulton Street #16E",
+        "url": "https://streeteasy.com/building/fulton-greene/16e",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 62.6077098555611,
+        "total": 62.75718776720768,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
           "tier": "brooklyn"
         },
         "office": {
-          "score": 38.800000000000004,
+          "score": 45.6,
           "weight": 0.15,
-          "minutes": 36
+          "minutes": 32
         },
         "friends": {
-          "score": 33.275000000000006,
+          "score": 37.525,
           "weight": 0.12
         },
         "size": {
@@ -19298,9 +20158,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 81.87751004016064,
+          "score": 68.07228915662651,
           "weight": 0.1,
-          "price": 6200
+          "price": 6750
         },
         "groundFloor": {
           "score": 100,
@@ -19308,8 +20168,131 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 62.6077098555611,
-      "visionNotes": "Kitchen is visible with an island peninsula opening to the living room; flat smooth-top electric range; no private outdoor space; living room has good floor area with appropriately scaled furniture."
+      "rankScore": 62.75718776720768,
+      "visionNotes": "Kitchen is semi-open to dining/living area via counter opening; smooth-top electric range visible; living room has generous floor space; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 18,
+          "lines": [
+            "7",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 46,
+          "lines": [
+            "7",
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 14,
+          "lines": [
+            "Q103"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 37,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 30,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-13T14:51:59.429Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "11-02 49th Avenue #7L, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 7,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-21",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-l-haus-7l.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/3c82aa116cfdfd9384bd180fe5cb2511-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9f389269421a9bb22bc6584da2a35025-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b2cce0c2cd9104a684968128157e2757-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c15c566ab150044e7da733c9971cf622-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3c2a363d781097edebcfc7175e431695-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/86297f3275ae8f8d41617b08293fc47f-se_large_800_400.webp"
+        ],
+        "price": 4150,
+        "sqft": 718,
+        "title": "11-02 49th Avenue #7L",
+        "url": "https://streeteasy.com/building/the-l-haus/7l",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 62.68313927576601,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 69.4,
+          "weight": 0.15,
+          "minutes": 18
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 29.5,
+          "weight": 0.1,
+          "sqft": 718,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 93.00139275766017,
+          "weight": 0.1,
+          "price": 4150
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 62.68313927576601,
+      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to the living/dining area; smooth-top electric stove visible; living room has good floor space with sofa, dining table, and TV area; no private outdoor space shown; bedroom and bathroom also visible."
     },
     {
       "buildingType": "Rental unit",
@@ -19433,7 +20416,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.599717887689614,
-      "visionNotes": "Kitchen is semi-open to living area via island with seating; gas range visible with grates; living room is spacious with multiple seating areas and large windows; outdoor space visible through terrace doors in living room photos."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via island; living room has generous floor space with multiple seating areas; no private outdoor space visible, only windows/views to exterior."
     },
     {
       "buildingType": "Mixed-use building",
@@ -19556,7 +20539,131 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.583958851545034,
-      "visionNotes": "Kitchen is visible with island peninsula opening to living room; flat-top electric range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space, only high-rise views."
+      "visionNotes": "Kitchen is visible with semi-open layout via peninsula/island to living area; smooth-top electric range visible; living room has generous floor space with floor-to-ceiling windows; no private outdoor space shown."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 38,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 29,
+          "lines": [
+            "F Line",
+            "R Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 54,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 50,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-20T17:14:21.484Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "44 3rd Street #2L, BROOKLYN, NY, 11231",
+        "availableDate": "2026-08-18",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-44-3-street-brooklyn-2l.png",
+        "neighborhood": "Carroll Gardens",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/856ad23eade3ea883cbdfe93fe744be2-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4844f5550f76c130895797283bd4e5bf-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/fbbd6a44dee8eb8b2b029c8484b12a5a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/81c7e96c0ef3b7dc2c4a32bafb50fa8b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/404c27a1d92f5b5fad10d95df5a6a990-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2a5e350e5c0dc8b9eeafdc43d6b40d17-se_large_800_400.webp"
+        ],
+        "price": 5670,
+        "sqft": null,
+        "title": "44 3rd Street #2L",
+        "url": "https://streeteasy.com/building/44-3-street-brooklyn/2l",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 62.561031140701665,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.15,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 26.05,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 95.18072289156628,
+          "weight": 0.1,
+          "price": 5670
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 62.561031140701665,
+      "visionNotes": "Kitchen is visible in photos 1-2 with gas range (visible burner grates), semi-open to living/dining area via counter opening; living room has substantial floor area with multiple seating areas; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -19676,7 +20783,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.50117966903073,
-      "visionNotes": "Kitchen is open to living/dining area with island peninsula; gas stove visible with burner grates; living room has generous floor space; unit is high-rise with street views, no private outdoor space."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via peninsula counter; living room has good floor area; unit overlooks building courtyard/street, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -19799,7 +20906,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.48195885154503,
-      "visionNotes": "Kitchen is visible and semi-open to living/dining area with island; smooth-top range visible; large private terrace with city views; living room has generous floor space with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is clearly visible with wood cabinetry, island seating, and opens to living/dining area via counter; large terrace visible from multiple angles; living room has generous floor space with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -19922,7 +21029,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.48195885154503,
-      "visionNotes": "Kitchen is open to living area via island/peninsula; flat-top range visible but angle/reflection makes burner type moderately hard to confirm; living room is spacious with floor-to-ceiling windows; no private outdoor space, only city views from high-rise unit."
+      "visionNotes": "Kitchen is semi-open to living area via island peninsula; smooth-top electric range visible; living room has generous floor area with floor-to-ceiling windows; no private outdoor space, only terrace views from high-rise windows."
     },
     {
       "buildingType": "Rental unit",
@@ -20045,7 +21152,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.48195885154503,
-      "visionNotes": "Open-plan kitchen with island counter opening to living/dining area; smooth-top electric range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space, only city views from shared high-rise windows."
+      "visionNotes": "Open-plan kitchen with island shares clear sightlines with spacious living/dining area; flat smooth-top electric range visible; large floor plan with floor-to-ceiling windows; no private outdoor space (high-rise building)."
     },
     {
       "buildingType": "Rental unit",
@@ -20168,7 +21275,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.48195885154503,
-      "visionNotes": "Kitchen is visible with an island counter opening to the living/dining area; smooth-top range visible but reflections prevent complete certainty; living room is spacious with floor-to-ceiling windows; no private outdoor space, only high-rise windows."
+      "visionNotes": "Kitchen is visible with island peninsula opening to living/dining area with floor-to-ceiling windows; gas range visible with burner grates; spacious living room with expansive skyline views; no private outdoor space (only shared building views from balcony/terrace)."
     },
     {
       "buildingType": "Rental unit",
@@ -20291,7 +21398,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.48195885154503,
-      "visionNotes": "Kitchen with island peninsula opens to living/dining area with skyline views; smooth-top range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space, only terrace views from windows."
+      "visionNotes": "Kitchen is visible with island peninsula opening to living/dining area; smooth-top electric range visible; spacious living room with floor-to-ceiling windows; no private outdoor space (high-rise unit with NYC skyline views only)."
     },
     {
       "buildingType": "Rental unit",
@@ -20413,7 +21520,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.44387034277199,
-      "visionNotes": "Kitchen is visible and open to the living area; black smooth-top range is visible but angle makes stove type assessment slightly uncertain; living room has good floor area with properly scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and open to living area with a black built-in counter run; stove appears to be smooth-top electric based on flat surface visible, though angle makes full confirmation difficult; living room has generous floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -20536,7 +21643,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.430958851545036,
-      "visionNotes": "Kitchen is open to living/dining area with floor-to-ceiling windows; smooth-top electric range visible; living room is spacious with generous sightlines and floor area; no private outdoor space, only floor-to-ceiling windows overlooking NYC skyline."
+      "visionNotes": "Kitchen is visible with a peninsula/island open to living/dining area; smooth-top electric range; living room has substantial floor space with large windows; no private outdoor space, only floor-to-ceiling windows overlooking cityscape."
     },
     {
       "buildingType": "Rental unit",
@@ -20658,7 +21765,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island peninsula; smooth-top electric range visible; unit has private balcony/terrace with glass doors; living room has good floor space and natural light."
+      "visionNotes": "Kitchen is visible with island opening to living/dining area; stove appears to be smooth-top electric with knobs but no visible grates; living room has decent floor space; no private outdoor space visible, only shared windows/views."
     },
     {
       "buildingType": "Rental unit",
@@ -20780,7 +21887,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; smooth-top electric range visible; private terrace with city views; living room appears spacious based on visible floor plan."
+      "visionNotes": "Kitchen is semi-open to living area via island counter; smooth-top electric range visible; private terrace with skyline views shown; living room appears to have reasonable floor space though exact dimensions hard to judge from angles."
     },
     {
       "buildingType": "Rental unit",
@@ -20820,156 +21927,34 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "526 Baltic Street #11E, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 4,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-24",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-11e.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/558158031d23b8080fb4c1de20216558-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a0e27840fe9ba36fb59e7d1ee73b068f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/93b53ec62fc52917150d6631f25bbfd3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9d6c5406b7438b22bcaec1199a97978a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e55b6844c89ce41517ffca3c9b772345-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b40058e733b3233ef4775dac2049bb0c-se_large_800_400.webp"
-        ],
-        "price": 5100,
-        "sqft": null,
-        "title": "526 Baltic Street #11E",
-        "url": "https://streeteasy.com/building/the-baltic-canal/11e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 62.379958851545034,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.15,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 26.900000000000002,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 100,
-          "weight": 0.1,
-          "price": 5100
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen is semi-open to a spacious living area with direct sightlines; smooth-top electric range visible; unit has a large private terrace; living room has generous floor space with large windows."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 21,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 55,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 50,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-12T13:00:06.156Z",
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
+      "stoveType": "gas",
       "listing": {
-        "address": "526 Baltic Street #7E, BROOKLYN, NY, 11217",
-        "availableDate": "2026-07-15",
-        "bathrooms": 1,
+        "address": "526 Baltic Street #3B, BROOKLYN, NY, 11217",
+        "availableDate": "now",
+        "bathrooms": 2,
         "bedrooms": 2,
-        "daysOnMarket": 12,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-16",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-7e.png",
+        "estimatedListingDate": "2026-07-24",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-3b.png",
         "neighborhood": "Boerum Hill",
         "photos": [
-          "https://photos.zillowstatic.com/fp/e3676c64ee00914a63ce88a3da9c5948-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8950bb2a707757dbe68d7a44f4a01dcc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5eee474e76594ffd0049aaa570f934f2-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5448ad198819f897fc91b6ec32da1d45-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d0d835305dc74c1254ba871da5ee5c0e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2fab7c2b8ecaf717b68d0bf239d7fc2a-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/efea1a6b15d816008dc96d9b23299e06-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/522dd2a1928d9463611dbbdcf9cf9f49-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5c4b02917d0798495ab69bf46b8c4724-se_large_800_400.webp"
         ],
-        "price": 5000,
+        "price": 5019,
         "sqft": null,
-        "title": "526 Baltic Street #7E",
-        "url": "https://streeteasy.com/building/the-baltic-canal/7e",
+        "title": "526 Baltic Street #3B",
+        "url": "https://streeteasy.com/building/the-baltic-canal/3b",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
@@ -21015,7 +22000,7 @@ window.__APARTMENT_REPORT__ = {
         "value": {
           "score": 100,
           "weight": 0.1,
-          "price": 5000
+          "price": 5019
         },
         "groundFloor": {
           "score": 100,
@@ -21024,7 +22009,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen visible in photo 1 with pass-through to living area; smooth-top range visible but angle/reflection make certainty medium; photos 2-4 show common areas (not private unit); photo 5 is shared courtyard; photo 6 is shared rooftop deck—no private outdoor space for unit."
+      "visionNotes": "Kitchen visible with island opening to living/dining area; gas range with visible burner grates; no private outdoor space; living room appears standard-sized with good floor area visible."
     },
     {
       "buildingType": "Rental unit",
@@ -21146,7 +22131,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen with island opens to living areas; smooth-top electric range visible; shared rooftop terrace shown in first photo; living room appears standard-sized with good floor space."
+      "visionNotes": "Kitchen with gas range and island opens to living area; rooftop terrace visible in first photo; living room has substantial floor area with multiple windows."
     },
     {
       "buildingType": "Rental unit",
@@ -21268,7 +22253,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.379958851545034,
-      "visionNotes": "Kitchen with island/peninsula opens to living area with windows; gas range visible with burner grates; living room has good floor space; unit has window access to outdoor views but no private garden/terrace."
+      "visionNotes": "Kitchen is visible with gas range (visible grates), open to living/dining area via island counter; living room is spacious with high ceilings and outdoor terrace access visible through glass doors."
     },
     {
       "buildingType": "Rental unit",
@@ -21391,7 +22376,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.36398696399483,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island; smooth-top electric range visible; large living area with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
+      "visionNotes": "Kitchen is open to living/dining area with island; smooth-top electric range visible; living room has generous floor space with floor-to-ceiling windows; no private outdoor space, only city views from apartment windows."
     },
     {
       "buildingType": "Rental unit",
@@ -21633,7 +22618,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.29285842026825,
-      "visionNotes": "Kitchen is visible with a flat, smooth-top electric range; it opens to a dining area with a shared space layout; living room is spacious with good sightlines and floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with open layout to living/dining area; smooth-top electric range visible; private terrace with NYC skyline visible; living room has generous floor space with multiple seating zones."
     },
     {
       "buildingType": "Rental unit",
@@ -22119,7 +23104,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.26177922077922,
-      "visionNotes": "Kitchen is visible with a dark island peninsula opening to the living/dining area; appliances appear to be smooth-top electric; living room has generous floor space; windows overlook neighboring buildings with no private outdoor space."
+      "visionNotes": "Kitchen is open to living/dining area with island peninsula; smooth-top appliances visible; living room has generous floor space; windows show urban building views (no private outdoor space); appears to be a one-bedroom unit."
     },
     {
       "buildingType": "Mixed-use building",
@@ -22242,7 +23227,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.226958851545035,
-      "visionNotes": "Kitchen is semi-open to living area via island counter; smooth-top electric range visible; unit has a private terrace/balcony; living room is spacious with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is semi-open to living area via island peninsula; smooth-top range visible; unit has private terrace; living room has ample floor space with floor-to-ceiling windows."
     },
     {
       "buildingType": "Mixed-use building",
@@ -22365,7 +23350,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.226958851545035,
-      "visionNotes": "Kitchen visible in photo 3 with counter/island opening to living area; smooth-top range visible; photo 7 shows a private outdoor terrace with wooden deck; living room is spacious with ample floor area."
+      "visionNotes": "Kitchen visible in photo 3 (common area rendering) with open layout to living/dining space; terrace with dining table visible in photo 7; living room has substantial floor area with multiple seating zones."
     },
     {
       "buildingType": "Condo",
@@ -22491,7 +23476,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.162151134570095,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to dining/living area via island; bedroom has access to private outdoor terrace with vegetation; living room appears spacious with good floor area."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to dining/living area via island; bedroom has private outdoor space (glass doors to what appears to be a private terrace/garden); living room has adequate floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -22613,7 +23598,130 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.12121186359323,
-      "visionNotes": "Kitchen is visible with a large marble island opening to the living/dining area; flat-top electric range with no visible grates; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only street views from windows."
+      "visionNotes": "Kitchen is visible with a white quartz island opening to the living/dining area; smooth-top electric range with flat surface and knobs; living room has generous floor space with large windows; no private outdoor space visible, only urban views from windows."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 36,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 29,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 39,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 52,
+          "lines": [
+            "F Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 47,
+          "lines": [
+            "F Line",
+            "B Line",
+            "M86+"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "19 Wyckoff Street #23, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 51,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-07",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-23.png",
+        "neighborhood": "Cobble Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f87a39ac0e89fd4de8dccec3ee830e94-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1aef573b4bd372cc62ef974edc388e9b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d719c11d9234a0d9029bf947c39652cd-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c12877b8bdca2354d0799a69cf18f9c9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/515929e1d8b7d8636ac4355392d68b80-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4e8f1176da4babae629ffad421e32040-se_large_800_400.webp"
+        ],
+        "price": 6200,
+        "sqft": null,
+        "title": "19 Wyckoff Street #23",
+        "url": "https://streeteasy.com/building/the-julian/23",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 62.0977098555611,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 38.800000000000004,
+          "weight": 0.15,
+          "minutes": 36
+        },
+        "friends": {
+          "score": 29.025000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 81.87751004016064,
+          "weight": 0.1,
+          "price": 6200
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 62.0977098555611,
+      "visionNotes": "Kitchen with island peninsula opens to living/dining area with good sightlines; smooth-top cooktop visible but angle makes burner detail slightly unclear; living room has ample floor area; no private outdoor space visible, only windows with city views."
     },
     {
       "buildingType": "Rental unit",
@@ -22735,7 +23843,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 62.0399910581222,
-      "visionNotes": "Kitchen is visible and open to the living/dining area with floor-to-ceiling windows; smooth-top electric range with flat surface and no visible grates; standard-sized counter/cabinet run; living room has generous floor space despite high-rise location with no private outdoor space."
+      "visionNotes": "Kitchen is visible with a solid counter run along one wall; it opens to the living area via a wide opening with clear sightlines, making it semi-open; the stove has a flat smooth-top surface with no visible grates; living room has ample floor space with windows and multiple furniture pieces; no private outdoor space visible, only high-rise unit with city views."
     },
     {
       "buildingType": "Rental unit",
@@ -22859,7 +23967,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.98995885154503,
-      "visionNotes": "Kitchen is visible in photo 3 with a semi-open layout to the living/dining area; smooth-top electric range visible but angle and reflection make full confidence difficult; living room has generous floor space with appropriately scaled furniture; no outdoor private space visible; bedroom and laundry room also shown."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area; smooth-top electric range clearly visible; living room has ample floor space with properly scaled furniture; no outdoor private space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -22983,7 +24091,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.98995885154503,
-      "visionNotes": "Kitchen is fully enclosed with separate entrance; gas range with visible burner grates; living areas are spacious; no outdoor space visible."
+      "visionNotes": "Kitchen is visible and fully enclosed with a door; gas range has visible burner grates; living areas are spacious with good floor-to-wall distance; no outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -23103,7 +24211,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.982268256333825,
-      "visionNotes": "Kitchen is open to living/dining area with good sightlines; smooth flat stovetop visible (no grates); unit has floor-to-ceiling windows with city views but no private outdoor space; living room has generous floor area with appropriate furniture scale."
+      "visionNotes": "Kitchen is visible with a one-wall layout that opens to the living/dining area with clear sightlines; the stove appears to be smooth-top electric based on the flat surface visible, though angle and reflection make full certainty difficult; living room has substantial floor area; no private outdoor space visible, only a high-rise balcony/terrace."
     },
     {
       "buildingType": "Rental unit",
@@ -23227,7 +24335,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.93473796801089,
-      "visionNotes": "Kitchen with island/peninsula opens to living/dining area; smooth-top range visible but angle/reflection makes burner confirmation difficult; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via counter opening; standard-sized counter run with island; smooth-top electric range visible; living room has generous floor area with multiple seating zones; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -23348,7 +24456,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.93248286140089,
-      "visionNotes": "Kitchen visible in photo 2 with island/peninsula opening to living area; stove appears flat-top electric but some reflectivity limits confidence; photo 5 shows private outdoor garden/courtyard space accessed from unit; living room in photo 1 has ample floor space and is not cramped."
+      "visionNotes": "Kitchen visible in photo 2 with island peninsula connecting to living area; stove appears flat-top but angle/reflection makes gas vs. electric uncertain; living room has substantial floor area; last two images show common building areas/amenities, not private unit space; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -23470,7 +24578,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.86560804769002,
-      "visionNotes": "Kitchen is open to living/dining area with a standard-length counter run; smooth-top electric range visible; living room is spacious with good floor area; no private outdoor space visible, only NYC skyline views from windows."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with standard counter run; smooth-top electric stove visible; spacious living room with floor-to-ceiling windows and generous seating area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -23592,7 +24700,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.862689775239815,
-      "visionNotes": "Kitchen is semi-open to living/dining area with island seating; smooth-top electric range visible; living room has generous floor space with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area with dark cabinetry and wood counters; smooth-top electric range visible but at an angle making burner type moderately difficult to confirm; spacious living room with large windows and adequate floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -23715,7 +24823,128 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.815901639344254,
-      "visionNotes": "Kitchen is fully visible and open to the living/dining area with expansive counter runs; gas cooktop has visible burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space shown (only cityscape views from high-rise unit)."
+      "visionNotes": "Kitchen is fully visible and open to a spacious living area with floor-to-ceiling windows; gas range with visible burner grates; no private outdoor space; generous living room floor area with high-rise city views."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 28,
+          "lines": [
+            "M57"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 56,
+          "lines": [
+            "M57",
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "1 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 26,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 18,
+          "lines": [
+            "M11"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-15T15:18:49.252Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "101 West End Avenue #17A, NEW YORK, NY, 10069",
+        "availableDate": "now",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "daysOnMarket": 9,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-19",
+        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
+        "neighborhood": "Lincoln Square",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/4fc2b7088043ab3bb617fa0e84e5be8a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d07cae5ea47fa615ded40ff1fcfe6818-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/035532b16c2162bdf7f8e64b34fc046e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c32f02a8641cda30556cecd678b8ccf4-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+        ],
+        "price": 6995,
+        "sqft": 863,
+        "title": "101 West End Avenue #17A",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/17a",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 61.73038470451912,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.15,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 52.4,
+          "weight": 0.15,
+          "minutes": 28
+        },
+        "friends": {
+          "score": 40.075,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 65.75,
+          "weight": 0.1,
+          "sqft": 863,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 34.86384704519119,
+          "weight": 0.1,
+          "price": 6995
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 61.73038470451912,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living space via counter peninsula; living room has generous floor area; no private outdoor space, only building courtyard/amenity visible."
     },
     {
       "buildingType": "Rental unit",
@@ -23838,7 +25067,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.693901591895795,
-      "visionNotes": "Kitchen is enclosed with a U-shaped counter layout; smooth-top electric stove visible; living room has generous floor space with large windows; no private outdoor space, only building views."
+      "visionNotes": "Kitchen visible in photo 2 with U-shaped counter layout and smooth-top electric stove; first photo shows spacious open-plan living/dining area with large windows; no private outdoor space visible, only building exterior in final image."
     },
     {
       "buildingType": "Rental unit",
@@ -23959,7 +25188,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.645597615499256,
-      "visionNotes": "Kitchen visible in photo 4 with island peninsula open to living area; smooth-top stove (no visible grates); private outdoor garden/courtyard visible in photo 5; living room is spacious with generous floor area and high ceilings."
+      "visionNotes": "Kitchen with island is semi-open to living/dining area; stove appears smooth-top electric based on flat dark surface visible in photo 4; large outdoor terrace visible in photo 5; living room has substantial floor area with multiple seating zones."
     },
     {
       "buildingType": "Rental unit",
@@ -24080,7 +25309,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.62328017883756,
-      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area; smooth-top range with flat surface visible; living room is generous with wood flooring; last photo shows a street view from window, not private outdoor space."
+      "visionNotes": "Kitchen is open to dining/living area with a one-wall counter run; smooth-top electric range visible; living room has good floor space; last photo shows street view from window, not private outdoor space."
     },
     {
       "buildingType": "Condo",
@@ -24202,128 +25431,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.54867138810198,
-      "visionNotes": "Kitchen visible in photo 5 with L-shaped counter layout, smooth-top electric range, and open sightline to living area; no private outdoor space visible; living room appears standard-sized based on visible floor area."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 13,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 51,
-          "lines": [
-            "N Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 22,
-          "lines": [
-            "7X"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-24T18:04:15.826Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "large",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "23-10 42nd Road #29E, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-27",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-aura-lic-29e.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/701db23d364800d3147ddad14a8c8368-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d86767e7ae7be19cf92144d3a4926111-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c1f3ef31933921cb3b9067ab3cf32c8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6b7cc853169f98dc73c50d4d9cffcb57-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bb5d1e6b13a19dcbbef8854392b901c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4a08f32dbba0d9aaf6f929dd385816ea-se_extra_large_1500_800.webp"
-        ],
-        "price": 5225,
-        "sqft": null,
-        "title": "23-10 42nd Road #29E",
-        "url": "https://streeteasy.com/building/aura-lic/29e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 61.541786885245905,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 77.9,
-          "weight": 0.15,
-          "minutes": 13
-        },
-        "friends": {
-          "score": 35.825,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 100,
-          "weight": 0.16,
-          "size": "large"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 42.82786885245902,
-          "weight": 0.1,
-          "price": 5225
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 61.541786885245905,
-      "visionNotes": "Kitchen is fully open to living/dining area with extensive white cabinetry and counter run; stove appears to be smooth-top electric (no visible grates); living room is spacious with floor-to-ceiling windows and ample seating area; no private outdoor space, only building amenity spaces visible."
+      "visionNotes": "Kitchen visible with L-shaped counter layout and smooth-top electric range; opens directly to spacious living area; no private outdoor space shown, only building amenities (pool, gym); living room appears to have generous floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -24451,7 +25559,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.51295885154504,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; gas range visible with burner grates; private terrace with railing visible in second photo; living room has generous floor space."
+      "visionNotes": "Kitchen is visible and open to living/dining area with a wood island; stove appears to have visible burner grates suggesting gas; private balcony/terrace visible through windows; living room has generous floor area despite professional staging."
     },
     {
       "buildingType": "Mixed-use building",
@@ -24574,129 +25682,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.461958851545035,
-      "visionNotes": "Kitchen visible in first photo with island counter opening to living/dining area (semi-open); flat smooth-top electric range; living room shows generous open floor space with furniture appropriately scaled; no private outdoor space visible; bedroom photos show well-proportioned spaces."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 49,
-          "lines": [
-            "F Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 44,
-          "lines": [
-            "F Line",
-            "B Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-23T22:11:31.390Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "333 Warren Street #4F, BROOKLYN, NY, 11201",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-333-warren-street-brooklyn-4f.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/903c21797d2fcfd5fe1f4d583c775063-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/36df71ea70634b31599570d3ca97ac78-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/74a26f646a37d5e8bc8c8ea9e8c416f8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/acb508ab19574bf96b679aa3054232ed-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2f87bf19ba5af11bfa0aa86be7278e0d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/21217af737dd75cc7dd4eaada26b787e-se_large_800_400.webp"
-        ],
-        "price": 4595,
-        "sqft": null,
-        "title": "333 Warren Street #4F",
-        "url": "https://streeteasy.com/building/333-warren-street-brooklyn/4f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 61.44202980625931,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 37.10000000000001,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 66.30029806259314,
-          "weight": 0.1,
-          "price": 4595
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 61.44202980625931,
-      "visionNotes": "Kitchen is visible in photos 5-6, open to living/dining area with white cabinetry and built-in appliances; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living area via peninsula/pass-through counter; smooth-top electric range visible; living room has good floor area with comfortable seating; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -24818,7 +25804,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.38797913561848,
-      "visionNotes": "Kitchen is semi-open to dining/living area with island peninsula; stove appears to be smooth-top electric but reflections make it slightly difficult to confirm; no private outdoor space visible; living room has substantial floor area with large windows."
+      "visionNotes": "Kitchen is open to dining/living area with clear sightlines; gas range visible with metal grates and knobs; living room has substantial floor area with windows; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -24939,7 +25925,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.30405555555556,
-      "visionNotes": "Kitchen with wood cabinetry and smooth-top electric range is semi-open to living/dining area; living room is spacious with good floor area; no private outdoor space visible, only street views from windows."
+      "visionNotes": "Kitchen is visible in photos 3 and 4, with a flat-top electric range and semi-open layout to dining area; living room has substantial floor space with large sectional; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -25061,7 +26047,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.268268256333826,
-      "visionNotes": "Kitchen is visible with dark cabinetry and stainless steel appliances, open to the living/dining area; living room is spacious with large floor-to-ceiling windows; no private outdoor space visible, only cityscape views."
+      "visionNotes": "Kitchen with dark cabinetry and stainless steel appliances is visible and opens into a spacious living/dining area with floor-to-ceiling windows; smooth-top electric range evident, no outdoor private space, and living area is notably generous with clear sightlines."
     },
     {
       "buildingType": "Rental unit",
@@ -25183,7 +26169,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.23222503725783,
-      "visionNotes": "Kitchen is open to living/dining area with smooth-top electric cooktop; living room is spacious with floor-to-ceiling windows; no private outdoor space visible; this is a city apartment with high-rise views."
+      "visionNotes": "Kitchen is open to living/dining area with a modern smooth-top electric stove; living room has generous floor space with high ceilings and large windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -25305,7 +26291,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.19985394932936,
-      "visionNotes": "Kitchen is semi-open to living/dining area with good counter/cabinet run; smooth-top electric stove visible but reflective; private outdoor garden/terrace visible through large windows; living room is spacious with generous floor area."
+      "visionNotes": "Kitchen visible in photo 2 with semi-open layout to living/dining area; smooth-top electric stove visible; private terrace/outdoor space visible in photos 2-3; living room has generous floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -25431,7 +26417,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.12107302533532,
-      "visionNotes": "Kitchen visible in photo 2 with flat smooth-top electric range and flat cabinet/counter run; opens directly to living/dining area; living room has substantial floor space with appropriate furniture scaling; no private outdoor space visible, only street-facing windows."
+      "visionNotes": "Kitchen is visible in photo 2, showing an open-plan layout directly adjacent to living area with shared sightlines; flat-top electric range with no visible grates; living room has substantial floor area with multiple seating zones; no private outdoor space visible, only street-level views."
     },
     {
       "buildingType": "Rental unit",
@@ -25552,7 +26538,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.11499263998739,
-      "visionNotes": "Kitchen with island is clearly visible and opens into a spacious living/dining area; flat-top stove visible but some reflective glare makes confidence medium; no private outdoor space; living room is generously sized with multiple seating areas."
+      "visionNotes": "Open-plan kitchen with island peninsula opening to living/dining area; smooth-top electric range visible; spacious living room with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -25795,7 +26781,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.08197913561848,
-      "visionNotes": "Kitchen with island is semi-open to living/dining area with direct sightlines; smooth-top cooktop visible but reflection makes burner type slightly hard to confirm; no private outdoor space visible, only city views from windows; living room is generously sized with floor-to-ceiling windows."
+      "visionNotes": "Kitchen with island peninsula is semi-open to living/dining areas; no private outdoor space visible; living room has substantial floor area with floor-to-ceiling windows; stove type not clearly visible in any photo."
     },
     {
       "buildingType": "Condo",
@@ -25915,7 +26901,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.071187767207675,
-      "visionNotes": "Kitchen is visible with island peninsula opening to living area; gas stove with visible burner grates; terrace visible through glass doors in first photo; living room has generous floor space with appropriate-scale furniture."
+      "visionNotes": "Kitchen with island opens to living area via counter pass-through; gas range visible with burner grates; unit has private terrace visible in first photo; living room has substantial floor space with sofa, media console, and clear sightlines."
     },
     {
       "buildingType": "Condo",
@@ -26038,7 +27024,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 61.05095885154503,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area via peninsula counter; smooth-top electric stove confirmed by flat surface with no visible grates; private rooftop terrace visible in first photo; living room is spacious with ample floor area."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area via island counter; flat-top electric range; unit has private rooftop terrace; living room has generous floor area."
     },
     {
       "buildingType": "Condo",
@@ -26160,7 +27146,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.936697807368326,
-      "visionNotes": "Kitchen is visible with L-shaped counter/cabinet layout opening to a dining table and living room beyond; stove appears to be smooth-top electric but angle/reflection makes complete certainty difficult; unit has a rooftop terrace with furniture and plantings; living room has good floor space with multiple seating areas."
+      "visionNotes": "Kitchen is visible with white cabinetry and appears semi-open to a dining area; a rooftop terrace with outdoor furniture is shown; living room has good floor area with fireplace and multiple seating pieces."
     },
     {
       "buildingType": "Rental unit",
@@ -26280,7 +27266,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.90195081941651,
-      "visionNotes": "Kitchen visible in photo 3 with island counter opening to dining/living area; smooth-top electric range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space shown, only high-rise views."
+      "visionNotes": "Kitchen is visible in photo 3 with a one-wall layout plus island, smooth-top electric range, opening into living/dining area; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
     },
     {
       "buildingType": "Two-family home",
@@ -26402,7 +27388,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.75166952966369,
-      "visionNotes": "Kitchen is visible and open to the dining/living area; stove appears to be smooth-top electric with visible white surface but angle/reflection makes it not entirely certain; living room is a generous 15' x 20'4\" per floor plan; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible in photo 2, appears semi-open to the dining/living area with a standard-sized counter run; smooth-top electric range visible; living room is spacious at 15'x20'4\" per floor plan; no private outdoor space shown."
     },
     {
       "buildingType": "Condo",
@@ -26525,7 +27511,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.72123194391452,
-      "visionNotes": "Open kitchen with island peninsula opens to living/dining area; standard counter/cabinet run visible; terrace shown in photo 5 appears to be private outdoor space; living room has generous floor space with large windows."
+      "visionNotes": "Kitchen is open to living/dining area via island counter; smooth cooktop visible but angle makes burner details slightly unclear; private terrace visible in photos; spacious living room with ample floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -26645,129 +27631,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.601958851545035,
-      "visionNotes": "Kitchen is visible with a pass-through counter to the living room; narrow galley-style layout with limited counter run; living room is genuinely small with modest floor area; no outdoor space visible; stove not clearly visible in photos."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 41,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 19,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 41,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 34,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-28T13:00:01.613Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "27-21 44th Drive #406, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-16",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 3,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-25",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-harrison-27-21-44-drive-long-island-city-406.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/99c0b6402d0da1aaa2178ec74031fe12-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1482533367e491a4d246d837f03af2b9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/06a2bc7eb87428ad9db9e78a07aca0d9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/753a1b832397ecaea3fa8fc71a958113-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2f72aecd1078f17ea5c41590a7de719b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8245096e1c8f7d182930cd461a4d4b04-se_large_800_400.webp"
-        ],
-        "price": 4000,
-        "sqft": 632,
-        "title": "27-21 44th Drive #406",
-        "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/406",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 60.53721518987342,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.15,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 42.625,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 8,
-          "weight": 0.1,
-          "sqft": 632,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 79.27215189873418,
-          "weight": 0.1,
-          "price": 4000
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 60.53721518987342,
-      "visionNotes": "Kitchen visible in first photo with pass-through counter to living area; living room has good floor space with large window; no outdoor space visible, and last two photos show building gym/amenities, not the unit itself."
+      "visionNotes": "Kitchen is semi-open to living area via counter pass-through but quite compact; living room floor area is notably tight for a NYC one-bedroom; no stove visible in kitchen photos; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -26893,7 +27757,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.51701043219076,
-      "visionNotes": "Kitchen is visible with semi-open layout to dining area via island counter; smooth-top electric range visible; private terrace/balcony with city views; living room has good floor space with appropriately scaled furniture."
+      "visionNotes": "Kitchen visible with open layout to living/dining area; smooth-top electric stove with no visible grates; private outdoor terrace with views; living room has generous floor space with dining area."
     },
     {
       "buildingType": "Rental unit",
@@ -27019,7 +27883,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.461123695976156,
-      "visionNotes": "Kitchen visible in photo 7 with light wood cabinetry, white counters, and a smooth-top electric range; semi-open to dining/living area via island counter. Living areas are spacious with high ceilings. Private balcony/terrace visible in photo 6 with exclusive outdoor space."
+      "visionNotes": "Kitchen is semi-open to dining/living areas with island peninsula; smooth-top electric range visible; unit has private balcony/terrace with skyline views; living room has ample floor space with multiple seating zones."
     },
     {
       "buildingType": "Rental unit",
@@ -27141,7 +28005,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.42861698956781,
-      "visionNotes": "Kitchen visible in photo 2 with open layout to living/dining area; stove surface appears flat but angle and reflection make definitive gas vs. electric identification difficult; living room is spacious; outdoor space shown is shared building courtyard/plaza, not private unit space; bedroom, bathroom, and amenity spaces also visible."
+      "visionNotes": "Kitchen visible in photo 2 is open to living/dining area with island; stove has flat smooth-top surface with no visible grates; photo 5 shows a private garden/courtyard space accessible from interior; living rooms shown have good floor area and are not cramped."
     },
     {
       "buildingType": "Rental unit",
@@ -27263,7 +28127,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.42861698956781,
-      "visionNotes": "Kitchen visible in photo 2 with island, open to living/dining area; stove appears flat-top but angle/reflection make certainty medium; photo 5 shows private outdoor garden space accessible via glass doors; living room in photos 3 and 6 shows spacious floor area, not cramped."
+      "visionNotes": "Kitchen visible in photo 2 with island peninsula opening to living/dining area (semi-open); smooth-top electric range with flat surface visible; no private garden detected; living room appears spacious with good floor area; photos 5-7 appear to be common building areas, not the unit itself."
     },
     {
       "buildingType": "Rental unit",
@@ -27385,7 +28249,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.356666169895675,
-      "visionNotes": "Kitchen is open to living/dining area with island counter; smooth-top electric range visible but slightly obscured; living room has generous floor space with floor-to-ceiling windows; no private outdoor space, only building windows/views."
+      "visionNotes": "Kitchen is visible with island counter opening to living/dining area; smooth flat cooktop visible; living room has generous floor space with floor-to-ceiling windows; no private outdoor space visible, only shared high-rise views."
     },
     {
       "buildingType": "Rental unit",
@@ -27505,7 +28369,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.30566616989567,
-      "visionNotes": "Kitchen is visible with a one-wall counter run open to a dining/living area with floor-to-ceiling windows; stove appears flat-topped electric but angle and reflections reduce certainty; no private outdoor space visible; living room is spacious with excellent natural light and clear floor area."
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with full sightlines; the flat-surface stove shows no visible burner grates indicating smooth-top electric; no private outdoor space evident; living room has substantial floor area with high ceilings and large windows."
     },
     {
       "buildingType": "Three-family home",
@@ -27627,7 +28491,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.29795885154503,
-      "visionNotes": "Kitchen visible with island peninsula opening to living area; flat-top electric range; living room is spacious with multiple windows and good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with wooden cabinetry, island, and smooth-top electric range; opens semi-openly to living area; living room has generous floor space with multiple windows and comfortable furniture layout; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -27749,7 +28613,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.26671684053651,
-      "visionNotes": "Kitchen visible with blue-painted lower cabinetry opens directly into a spacious living/dining area; stove appears to be smooth-top electric but reflections make it somewhat difficult to confirm; no outdoor space visible; living room is generously proportioned for NYC."
+      "visionNotes": "Kitchen is visible in first two photos, open to the living area with a blue-paneled counter run and smooth-top electric stove; living room has generous floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -27871,7 +28735,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.22285991058122,
-      "visionNotes": "Kitchen is visible with a long counter run and appears semi-open to a dining area via an island; smooth-top electric range visible; living room is spacious with good proportions; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with a flat smooth-top electric range; it opens to a dining area with a small round table and has semi-open sightline to the living room; living room has good floor area with multiple furniture pieces arranged comfortably; no private outdoor space visible."
     },
     {
       "buildingType": "Four-family home",
@@ -27995,7 +28859,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 60.140737968010896,
-      "visionNotes": "Kitchen is open to living/dining area with visible smooth-top electric range; living room is spacious with good floor area; outdoor space visible through windows (appears to be a private balcony or terrace based on the green ivy wall visible in multiple photos)."
+      "visionNotes": "Kitchen is visible and fully open to a dining/living area with good sightlines; flat-top electric range with no visible grates; private outdoor space visible through windows on brick building exterior; living room has substantial floor area with multiple furniture pieces."
     },
     {
       "buildingType": "Rental unit",
@@ -28117,7 +28981,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.99081073025335,
-      "visionNotes": "Kitchen is visible with a decent counter/cabinet run along one wall, opening semi-openly to the dining/living area; stove appears to be smooth-top electric (flat surface, no visible grates); living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views."
+      "visionNotes": "Kitchen is semi-open to dining/living area with a counter pass-through; smooth-top cooktop visible but angle/reflection makes type moderately hard to confirm; spacious open-plan living area with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -28242,127 +29106,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.9367379680109,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; appears to be smooth-top electric range (flat surface visible, no grates); living room is spacious with good sightlines; no private outdoor space visible, only city views from windows."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "M5"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 18,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 10,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-28T13:00:01.613Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": true,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "343 West End Avenue #1, NEW YORK, NY, 10024",
-        "availableDate": "2026-09-01",
-        "bathrooms": 1.5,
-        "bedrooms": 1,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-343-west-end-avenue-new-york-1.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/2995923f75edcc1447c7e589e0a99ac9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/366cf1e19e1aa5c38c4f7f114cb4936b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e5943a078c23981ab35a663f5aac1e30-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4f331122b8f999f0f4d71c661f45ca26-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/10c7929cedf2b2cafab98e7b2f3c9610-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f835eb40ea368f1dce0f858b39f80fde-se_large_800_400.webp"
-        ],
-        "price": 4450,
-        "sqft": null,
-        "title": "343 West End Avenue #1",
-        "url": "https://streeteasy.com/building/343-west-end-avenue-new_york/1",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "uwsIdeal",
-      "rankBreakdown": {
-        "total": 59.92026825633383,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "uwsIdeal"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 53.25,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 71.7026825633383,
-          "weight": 0.1,
-          "price": 4450
-        },
-        "groundFloor": {
-          "score": 0,
-          "weight": 0.04,
-          "isGroundFloor": true
-        }
-      },
-      "rankScore": 59.92026825633383,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living room via partial wall; living room is spacious with fireplace and multiple windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island; standard counter/cabinet run on right wall with smooth-top electric range visible; living room has good floor area with expansive windows; no private outdoor space visible, only urban views from windows/balconies."
     },
     {
       "buildingType": "Rental unit",
@@ -28484,7 +29228,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.85028166915052,
-      "visionNotes": "Kitchen is semi-open to living/dining area with peninsula counter; gas range visible with grates; living room is spacious; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area via a peninsula counter; gas range visible with burner grates; living room has generous floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -28606,7 +29350,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.751982116244406,
-      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to living area; gas range with visible burner grates; living room has good floor space with appropriately scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living area via large peninsula/island with seating; gas range with visible burner grates; living room has generous floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -28730,7 +29474,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.731870342771984,
-      "visionNotes": "Kitchen visible in photo 1 with semi-open layout to living area, standard-sized counter run with smooth-top electric range; living room has good floor space; outdoor space appears to be a shared building terrace/balcony visible through door, not private."
+      "visionNotes": "Kitchen is visible and open to living/dining area; stove has flat smooth-top surface with no visible grates; a terrace/balcony is visible through the glass door in the kitchen photo; living room has generous floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -28851,7 +29595,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.72541579731744,
-      "visionNotes": "Kitchen visible in photo 3 with semi-open layout to dining area; smooth-top electric range; living room appears spacious with high ceilings; no private garden (shared roof/terrace spaces shown in photos 5-6)."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area; smooth-top electric stove; living room has substantial floor area with large windows overlooking NYC; no private garden visible, only shared building amenities shown."
     },
     {
       "buildingType": "Condo",
@@ -28973,7 +29717,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.66224465400707,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; stove has a flat smooth-top surface with no visible grates; living room has adequate floor space with appropriate furnishings; no private outdoor space visible, and bedroom/bathroom photos show interior rooms only."
+      "visionNotes": "Kitchen is open to living/dining area with a flat smooth-top electric range; no private outdoor space visible; living room has generous floor area with windows."
     },
     {
       "buildingType": "Rental unit",
@@ -29095,7 +29839,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.635025335320414,
-      "visionNotes": "Kitchen is clearly visible in photo 2 with open layout to living area; smooth-top stove visible but reflection makes confidence medium; private terrace/garden visible in photo 5; living room is spacious with large windows and generous floor space."
+      "visionNotes": "Kitchen is clearly visible in photo 2, open to living/dining area with island seating; smooth-top electric range visible; living room has generous floor space; photo 6 shows a shared courtyard/garden space rather than private outdoor area for this unit."
     },
     {
       "buildingType": "Condo",
@@ -29216,7 +29960,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.63486140089419,
-      "visionNotes": "Kitchen is visible and open to the living/dining area with a visible gas range (burner grates visible); living room has good floor space with multiple furniture pieces; no private outdoor space visible."
+      "visionNotes": "Kitchen has a pass-through counter opening to the living/dining area; gas range visible with burner grates; living room has generous floor space with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": null,
@@ -29339,7 +30083,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.630737968010905,
-      "visionNotes": "Kitchen is visible with a counter/peninsula opening to the living area; stove appears to be smooth-top electric but angle and lighting create some uncertainty; living room is spacious with good floor area; no private outdoor space visible, only building facade."
+      "visionNotes": "Kitchen is visible with a counter pass-through to the living area; stove appears to be smooth-top electric but reflections make it somewhat difficult to confirm; living room has substantial open floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -29459,7 +30203,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.535869047619045,
-      "visionNotes": "Kitchen with island peninsula opens to living room; gas range visible with burner grates; large terrace/balcony accessed via glass doors; spacious living room with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is visible with gas cooktop (visible grates), semi-open to living area via island counter; living room is spacious with large floor area and floor-to-ceiling windows; no private outdoor space, only shared terrace visible through windows."
     },
     {
       "buildingType": "Rental unit",
@@ -29581,7 +30325,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.43896274217586,
-      "visionNotes": "Kitchen is open to living/dining area with island peninsula; smooth-top electric range visible; living room is generous in size with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining/living area; smooth-top electric range with dark flat surface; no visible outdoor garden/terrace (only high-rise city views); living room has generous floor space with proper dimensions."
     },
     {
       "buildingType": "Rental unit",
@@ -29701,7 +30445,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.42125202423579,
-      "visionNotes": "Kitchen visible in photo 3 with semi-open layout to living/dining area via island counter; smooth-top electric stove confirmed by flat glass surface; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise building views."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; stove has flat smooth-top surface with no visible grates; living room has generous floor space with high ceilings and expansive windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -29823,7 +30567,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.40659165424739,
-      "visionNotes": "Kitchen is fully enclosed with a single entry point, features a smooth-top electric stove with no visible grates, standard counter/cabinet length along walls, and the spacious living room with floor-to-ceiling windows overlooks NYC skyline with no private outdoor space."
+      "visionNotes": "Kitchen is separate enclosed room with U-shaped counter layout and smooth-top electric range; living room is spacious with floor-to-ceiling windows and adequate floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -29943,7 +30687,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.37584640174583,
-      "visionNotes": "Kitchen is visible and open to living/dining area in photos 1-2; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only high-rise views; stove details not clearly visible in photos."
+      "visionNotes": "Kitchen visible in photos 2 and 1, appears semi-open to living/dining area with a counter pass-through; smooth-top electric range visible but angle/reflection makes stove type moderately confident; living room has substantial floor area with floor-to-ceiling windows; no private outdoor space, only views from windows; bathroom and bedroom also shown."
     },
     {
       "buildingType": "Rental unit",
@@ -30065,7 +30809,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.36444709388972,
-      "visionNotes": "Kitchen is visible with L-shaped counter run (gray and wood cabinets), semi-open to dining/living area with a round table in between; stove appears to be smooth-top electric based on flat surface visible; living room is spacious with high ceilings and floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is open to living/dining area with clear sightlines; counter/cabinet run is moderate length with standard depth; smooth-top range visible but reflections make absolute certainty difficult; living room has generous floor area with high ceilings; no private outdoor space visible, only high-rise city views."
     },
     {
       "buildingType": "Rental unit",
@@ -30187,7 +30931,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.34581818181818,
-      "visionNotes": "Kitchen is semi-open to dining/living area with an L-shaped counter run; smooth-top electric range visible (flat surface, no visible grates); large living room with high ceilings and floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and opens to dining/living area with clear sightlines; stove appears to be smooth-top electric (flat surface, no visible grates), though reflections make it somewhat difficult to confirm with absolute certainty; living room has substantial floor area with good wall spacing; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -30310,7 +31054,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.34527787021631,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; gas range with visible burner grates; private rooftop terrace shown in first photo; living room has generous floor space and floor-to-ceiling windows."
+      "visionNotes": "Kitchen is clearly visible with gas range (visible burner grates), semi-open to living area; large private terrace visible in first photo; living room has substantial floor area with high ceilings and floor-to-ceiling windows."
     },
     {
       "buildingType": "Mixed-use building",
@@ -30433,7 +31177,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.33950807568877,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range visible; living room is spacious with good floor area; no outdoor space visible; bedroom and bathroom also shown."
+      "visionNotes": "Kitchen is visible with L-shaped counter layout opening to living/dining area via a partial wall; smooth-top electric stove visible; no private outdoor space; living room has good floor area with furniture appropriately scaled; bedroom with window visible but no garden/yard/terrace."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 31,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 26,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "F Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 40,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-18T16:35:12.175Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "55 Willoughby Street #30F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-house-55-30f.png",
+        "neighborhood": "Downtown Brooklyn",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a4e263c494148d9546f13385414decbc-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e8e17807ecbf3ebbf74b8566ad7cff46-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c5cb472f467f68b268032c9ac5709b32-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/79f0b2077e0d2dfafea0dc34ba6e272a-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/67727a9f8a0f74cbc6a722a519de275f-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/29324d6d914fd0c7ac49ef06495762b6-se_extra_large_1500_800.webp"
+        ],
+        "price": 5200,
+        "sqft": null,
+        "title": "55 Willoughby Street #30F",
+        "url": "https://streeteasy.com/building/house-55/30f",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 59.28993144560358,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.15,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 43.75931445603576,
+          "weight": 0.1,
+          "price": 5200
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 59.28993144560358,
+      "visionNotes": "Kitchen visible in photo 5 with wood and gray cabinetry, semi-open to living/dining area with clear sightlines; standard-sized counter run; smooth-top electric stove visible but at an angle; living room has good floor area with sofa and furnishings; no private outdoor space visible, only window views of city."
     },
     {
       "buildingType": "Rental unit",
@@ -30555,7 +31421,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.238931445603576,
-      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to the living/dining area; smooth-top electric range visible but reflections make full certainty difficult; spacious living area with floor-to-ceiling windows; no private outdoor space, only high-rise city views."
+      "visionNotes": "Kitchen is open to dining/living area with a peninsula counter; smooth-top electric range visible; spacious living room with floor-to-ceiling windows and no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -30678,7 +31544,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.20191338582677,
-      "visionNotes": "Kitchen is visible in photo 1 with semi-open layout to living/dining area; smooth-top electric range confirmed; private rooftop terrace visible in photo 5; living room appears spacious with good floor area in photos 2-3."
+      "visionNotes": "Kitchen is visible in photo 1 with a semi-open layout to the living/dining area via a marble island; smooth-top electric stove is clearly visible; living room has generous floor space; photo 5 shows a private rooftop terrace with dining and lounge areas exclusive to the unit."
     },
     {
       "buildingType": "Rental unit",
@@ -30800,7 +31666,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.196786885245906,
-      "visionNotes": "Kitchen is visible in the last photo with wood cabinetry and black counters, open to the living/dining area; stove appears to be smooth-top electric; living room is spacious with adequate floor space; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible in the last photo, open to living/dining area; stove appears to be smooth-top electric but angle and reflection create some uncertainty; living room has good floor area with comfortable furniture layout; only bedroom and interior views shown, no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -30922,7 +31788,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.15952906110283,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining area with good sightlines; stove not clearly visible from the angles shown; unit has floor-to-ceiling windows with NYC skyline views but no private outdoor space; living room has generous floor space with proper furniture scale."
+      "visionNotes": "Kitchen is visible and semi-open to living/dining area with shared sightline; stove type unclear from angle; no private outdoor space visible; living room has generous floor area with standard NYC one-bedroom proportions."
     },
     {
       "buildingType": "Condo",
@@ -31042,7 +31908,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.12812630014859,
-      "visionNotes": "Kitchen visible with island peninsula opening to living area; private terrace with city views; living room spacious with multiple large windows; smooth-top range visible but reflections make stove type moderately confident."
+      "visionNotes": "Unit has a private terrace with city views, open-plan kitchen with island adjoining living areas, smooth-top electric range visible on right wall, and spacious living room with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -31162,7 +32028,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.08719178327193,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; smooth-top electric range visible; living room is spacious with large windows; outdoor space shown is shared building courtyard, not private."
+      "visionNotes": "Kitchen visible in photo 3 with semi-open layout to living/dining area via island counter; smooth-top electric range; living room in photos 2-3 shows generous floor area; outdoor space in photo 1 is shared building courtyard, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -31285,129 +32151,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 59.046203435596425,
-      "visionNotes": "Kitchen is visible with dark cabinetry and shares open sightline with living/dining area; stove appears flat-top electric but angle and reflection make full confidence difficult; private fenced garden with seating and turf is clearly visible; living room has good floor space with proportionate furnishings."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "F Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "55 Willoughby Street #35F, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-house-55-35f.png",
-        "neighborhood": "Downtown Brooklyn",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/d5aff62562c8bb44beaada2e2c6ad73e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d55e651252cdc9b2877ce42505bb6455-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ba5c9b6bc8cb498395a3a64b53573673-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a4e263c494148d9546f13385414decbc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e8e17807ecbf3ebbf74b8566ad7cff46-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c5cb472f467f68b268032c9ac5709b32-se_extra_large_1500_800.webp"
-        ],
-        "price": 5275,
-        "sqft": null,
-        "title": "55 Willoughby Street #35F",
-        "url": "https://streeteasy.com/building/house-55/35f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 59.010497764530555,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.15,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 33.7,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 40.96497764530551,
-          "weight": 0.1,
-          "price": 5275
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 59.010497764530555,
-      "visionNotes": "Kitchen is visible in photo 1 with a U-shaped closed layout; stove has a flat smooth-top surface with no visible burner grates; unit has a private balcony/terrace visible in photos 4-7 with NYC skyline views; living room appears spacious based on the kitchen view showing good sightlines and the bedroom photos showing generous proportions."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining/living area; stove surface appears flat without visible grates (smooth-top electric); private fenced garden/yard with furniture and landscaping is clearly visible; living room has good floor area with sofa, round table, and dining space."
     },
     {
       "buildingType": "Condo",
@@ -31527,7 +32271,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.88355900621118,
-      "visionNotes": "Kitchen is semi-open to living/dining area with island; smooth-top range visible; no private outdoor space; living room has adequate floor space with large windows overlooking city."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area; smooth-top stove visible but reflections make certainty moderate; living room has substantial floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -31647,7 +32391,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.8744006186133,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area via counter peninsula; shared building roof deck visible, not private garden; living room is spacious with extensive floor area and floor-to-ceiling windows."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; gas range visible with burner grates; living room has expansive floor area with multiple seating areas and floor-to-ceiling windows; outdoor space shown is shared building amenity deck, not private."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 45,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "26-04 Jackson Avenue #3B, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-clairemont-3b.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f4258f8516acdc9af6bfd904fbb2fe97-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a114bdaea3aac0303bc1bc03222091c4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e2b20bafd6ce8ac9d26bc02f1fbc3809-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/12c5a533d2f99aa275198be05fe64a0b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/fcd774682e23b0b88ebae865bf5fefef-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/364a663f2fbe1e360833acebe605b455-se_large_800_400.webp"
+        ],
+        "price": 6435,
+        "sqft": null,
+        "title": "26-04 Jackson Avenue #3B",
+        "url": "https://streeteasy.com/building/the-clairemont/3b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 58.7598504178101,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.15,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 40.5,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 75.9789156626506,
+          "weight": 0.1,
+          "price": 6435
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 58.7598504178101,
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via island counter; smooth-top electric range visible; no private outdoor space; spacious living room with good floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -31769,7 +32635,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.75781828929604,
-      "visionNotes": "Kitchen is visible with gas range (visible grates), semi-open to dining area; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area; gas range with visible burner grates; living room has generous floor space; no private outdoor space shown; virtually staged images."
     },
     {
       "buildingType": "Rental unit",
@@ -31889,7 +32755,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.71091065877395,
-      "visionNotes": "Kitchen is visible with a gas range (visible burner grates), enclosed layout with white subway tile backsplash; living room is spacious with floor-to-ceiling windows and city views; no private outdoor space visible."
+      "visionNotes": "Kitchen is enclosed with light wood cabinetry and stainless steel appliances including a visible gas range with burner grates; living room in photo 3 is spacious with floor-to-ceiling windows and ample floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -32011,7 +32877,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.69869299552906,
-      "visionNotes": "Kitchen visible in photos 1 and 2 with semi-open layout to dining/living areas; no stove visible in kitchen views; large living/dining room with floor-to-ceiling windows; no private outdoor space visible, only high-rise balcony views."
+      "visionNotes": "Kitchen is open to living/dining area with island counter; stove not clearly visible in any photo; living room has substantial floor area with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -32136,7 +33002,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.681717887689615,
-      "visionNotes": "Kitchen is open to living/dining area with island; no stove visible in photos; living room is generously sized with floor-to-ceiling windows; no private outdoor space, only street-facing windows."
+      "visionNotes": "Kitchen visible in final photo with island peninsula connecting to living area; no stove/range visible in any photo; living room is spacious with multiple seating areas; no private outdoor space shown, only street-facing windows."
     },
     {
       "buildingType": "Rental unit",
@@ -32257,7 +33123,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.41187034277198,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; smooth-top range visible; living room is spacious; outdoor space shown is a shared building courtyard/deck, not private."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; stove appears to be smooth-top electric (white appliance, no visible grates); outdoor space shown is a shared building courtyard/roof deck, not private; living room has generous floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -32378,7 +33244,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.39849776453055,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area; gas range with visible grates; living room has good floor space; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible and open to dining/living area with a white counter run; stove has a flat black smooth-top surface with no visible grates; living room has adequate floor space with sofa and seating; no private outdoor space visible, only urban street-facing windows."
     },
     {
       "buildingType": "Mixed-use building",
@@ -32501,7 +33367,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.37897913561848,
-      "visionNotes": "Kitchen is visible with open sightlines to the living/dining area; smooth-top electric range with stainless steel appliances; living room has generous floor space with large windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with open layout to living/dining area; flat smooth-top electric stove visible; living room has good floor area with multiple zones; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -32622,7 +33488,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.36072993588239,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area via island counter; living areas appear spacious with no private outdoor space visible."
+      "visionNotes": "Kitchen visible in first and last photos with gas range (visible burner grates), semi-open to living area via peninsula counter; living room floor area appears standard for NYC; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -32744,130 +33610,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.3305324232082,
-      "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas range with visible burner grates; living room has good floor space with appropriately scaled furniture; no private outdoor space visible, only windows with city views; bedroom shown in final photo."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "N Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 47,
-          "lines": [
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "52 4th Avenue #506, BROOKLYN, NY, 11217",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 21,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-07",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-eleanor-506.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0f3b42c569ef2ab4e3dcbac9c1fb68bb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f99bf38c17a22ad210521f2d0eb3fda5-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/022cdb9b808fe8ec9f0030e8afe226be-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/381873c1377ca69d7674a9584e3a4ad9-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f2566b0feb4ba7a980bff77dceb39286-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9bf6fe9f3021018fa5481e0f46dbea8d-se_extra_large_1500_800.webp"
-        ],
-        "price": 4400,
-        "sqft": 600,
-        "title": "52 4th Avenue #506",
-        "url": "https://streeteasy.com/building/the-eleanor/506",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 58.30066666666667,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 35.825,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 0,
-          "weight": 0.1,
-          "sqft": 600,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 54.16666666666667,
-          "weight": 0.1,
-          "price": 4400
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 58.30066666666667,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; smooth-top electric range with visible flat surface; unit has private terrace visible in first photo; living room is spacious with generous floor area."
+      "visionNotes": "Kitchen is semi-open to dining/living area with clear sightlines; gas range visible with burner grates; living room has generous floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -32989,7 +33732,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.23919318046258,
-      "visionNotes": "Open kitchen with island peninsula shares full sightlines with living area; gas range visible with metal grates; spacious living room with substantial floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living area via a peninsula/counter island; stove appears to be smooth-top electric but angle makes it somewhat hard to confirm; no private outdoor space visible; living room has substantial floor area with good wall spacing."
     },
     {
       "buildingType": "Rental unit",
@@ -33109,7 +33852,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.16143676319162,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range (metal grates visible), standard-sized counter run; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible in multiple photos with open sightlines to living/dining area, gas range with visible burner grates, standard-length counter run, spacious living room with floor-to-ceiling windows, no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -33231,7 +33974,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.13982563338301,
-      "visionNotes": "Open-plan kitchen with standard counter/cabinet run visible in multiple photos; smooth-top electric range (flat reflective surface, no visible grates); spacious living/dining area with floor-to-ceiling windows overlooking NYC; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining/living areas; smooth-top electric stove with flat surface visible; spacious living room with abundant floor area; no private outdoor space evident, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -33353,7 +34096,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.12784649776453,
-      "visionNotes": "Kitchen with island is semi-open to living/dining area; no stove visible in photos; no private outdoor space; living room has good floor area with NYC-appropriate proportions."
+      "visionNotes": "Kitchen is visible with island opening to living/dining area; stove not clearly visible in photos; living room has good floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -33475,7 +34218,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.12627210455708,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; gas range visible with burner grates; terrace shown is shared building roof deck, not private outdoor space; living room has generous floor space and sightlines."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island pass-through; gas range visible with burner grates; living areas are spacious with good floor area; outdoor space shown is a shared roof deck, not private."
     },
     {
       "buildingType": "Mixed-use building",
@@ -33598,7 +34341,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.082135618479874,
-      "visionNotes": "Kitchen is semi-open to living area via an island peninsula; smooth-top electric range visible; private outdoor terrace with furniture and hedging; living room appears spacious based on visible floor area."
+      "visionNotes": "Kitchen is enclosed with a peninsula/island; smooth-top electric stove visible; private rooftop terrace with furniture and greenery; living area appears spacious based on visible floor plan."
     },
     {
       "buildingType": "Rental unit",
@@ -33721,7 +34464,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 58.04168575917555,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via island/peninsula; living room is spacious with high ceilings and large windows; bedroom has access to a private terrace/balcony visible through glass doors."
+      "visionNotes": "Kitchen is semi-open to living area via island counter; smooth-top electric range visible; bedroom has access to what appears to be a private terrace/balcony; living room has generous floor space with high ceilings and large windows."
     },
     {
       "buildingType": "Rental unit",
@@ -33843,7 +34586,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.972165424739195,
-      "visionNotes": "Kitchen is visible with a flat smooth-top electric range (no visible grates), semi-open to a dining/living area via a peninsula counter; living room is spacious with ample floor area and appropriately scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a galley/one-wall layout that opens to a dining area with island seating; smooth-top electric stove is clearly visible with flat black surface; living room has generous floor area with large windows and proper furniture spacing; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -33965,7 +34708,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.91627868852459,
-      "visionNotes": "Kitchen is clearly visible with a standard-length counter/cabinet run; open to dining area with sightlines to living room; smooth-top electric stove visible in multiple angles with flat black surface and no grates; living room is spacious with good floor area and appropriately scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and clearly open to a dining/living area with generous sightlines; smooth-top electric range with flat black surface visible in multiple angles; living room has substantial floor area with proper furniture spacing; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -34087,7 +34830,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.82956035767511,
-      "visionNotes": "Kitchen is visible with L-shaped counter/cabinet run, smooth-top electric range with no visible grates, and is separated from living areas; private terrace visible with glass railing overlooking NYC skyline; living room is spacious with high ceilings and generous floor area."
+      "visionNotes": "Kitchen is visible with a closed layout (separate from living area), smooth-top electric range, standard counter run; unit has a private terrace with skyline views; living room has generous floor space with high ceilings."
     },
     {
       "buildingType": "Rental unit",
@@ -34209,7 +34952,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.80203917283017,
-      "visionNotes": "Kitchen is visible in photos 1 and 5, open to a dining table area with clear sightlines to living space; flat-top electric stove visible but angle/reflection makes type assessment moderately confident; living areas are spacious with generous floor space; no private outdoor space visible, only high-rise NYC views from windows."
+      "visionNotes": "Kitchen is semi-open to dining area with smooth-top electric range; living room has spacious floor area with multiple furniture pieces; no private outdoor space visible, only urban high-rise views."
     },
     {
       "buildingType": "Rental unit",
@@ -34332,130 +35075,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.744958851545036,
-      "visionNotes": "Kitchen is visible with L-shaped counter layout opening to living/dining area via partial wall; smooth-top electric range visible; living room is spacious with large windows; no private outdoor space shown."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 19,
-          "lines": [
-            "R Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 27,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "37-25 32nd Street #4C, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-20",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-26",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-auberge-4c.png",
-        "neighborhood": "Long Island City",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/23f2bd67d208bbe3d91ed0a0e58e6079-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/68754074c84d561c6815f338cfe36fb4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bfb50cbca35e82e74174fe7242949546-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f4587b981854e8bd6b9318c7b9b260ff-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d30dee19105966302ba2875f6cb07ff3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dcd4db0f8d5d1b529f3ad6f5f85152ed-se_large_800_400.webp"
-        ],
-        "price": 5200,
-        "sqft": null,
-        "title": "37-25 32nd Street #4C",
-        "url": "https://streeteasy.com/building/the-auberge/4c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 57.744958851545036,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 67.7,
-          "weight": 0.15,
-          "minutes": 19
-        },
-        "friends": {
-          "score": 29.025,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 100,
-          "weight": 0.1,
-          "price": 5200
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 57.744958851545036,
-      "visionNotes": "Kitchen is a galley-style closed room with standard counter/cabinet run; stove appears flat-top electric (no visible grates); living room is spacious with large windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is a closed galley layout with L-shaped counter run; smooth-top electric range visible; living room has generous floor space with large windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -34577,7 +35197,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.70952459016394,
-      "visionNotes": "Photos show bathroom, two bedroom views, and living room; kitchen is not visible despite multiple interior photos; living room appears spacious with large windows and open layout."
+      "visionNotes": "Photos show a bathroom, two bedroom views, and a living room with floor-to-ceiling windows; no kitchen is visible in any photo, and no private outdoor space is shown."
     },
     {
       "buildingType": "Rental unit",
@@ -34699,7 +35319,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.687845007451564,
-      "visionNotes": "Kitchen is open to living/dining area with standard counter run and smooth-top electric range; living room is spacious; no private outdoor space visible, only urban views from windows."
+      "visionNotes": "Kitchen is visible and open to living/dining area with a standard-length counter run; stove appears smooth-top electric but angle makes confirmation difficult; living room has generous floor space with proper furniture arrangement; no private outdoor space visible, only high-rise urban views."
+    },
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 9,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 18,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 36,
+          "lines": [
+            "E Line",
+            "B Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 30,
+          "lines": [
+            "E Line",
+            "D Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-18T13:00:07.561Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "3 Court Square #6004, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-6004.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/4f2b5e66354ac0802257301f7b19c433-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/0850340342cc9e25386101696c7dad61-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/faf9ff5e745247b0445beaf48fd923c5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bbb8a5038b3a83c70eb06b51f91f3c63-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/0d9d75c14ddb7bbef873a93e0d81c2ac-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bd8576c7d9e8f5ebb806070f8b26122f-se_large_800_400.webp"
+        ],
+        "price": 5000,
+        "sqft": 635,
+        "title": "3 Court Square #6004",
+        "url": "https://streeteasy.com/building/skyline-tower/6004",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 57.61696062992126,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 84.7,
+          "weight": 0.15,
+          "minutes": 9
+        },
+        "friends": {
+          "score": 45.60000000000001,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 8.75,
+          "weight": 0.1,
+          "sqft": 635,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 40.64960629921259,
+          "weight": 0.1,
+          "price": 5000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 57.61696062992126,
+      "visionNotes": "Kitchen is semi-open to living/dining area with a pass-through counter island; smooth-top electric range visible; living room has good floor area with high ceilings; no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -34819,7 +35561,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.56995081967213,
-      "visionNotes": "Kitchen is visible and semi-open to dining area; gas range with visible grates is clearly shown; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area; gas stove visible with grates; living room has substantial floor area with large windows; no private outdoor space, only high-rise views."
     },
     {
       "buildingType": "Condo",
@@ -34940,7 +35682,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.538073170731714,
-      "visionNotes": "Kitchen is visible with counter opening to living/dining area via peninsula; stove appears to be smooth-top electric based on flat surface visible in photo 3; living room is spacious with good floor area and high ceilings; no private outdoor space, only windows with city views."
+      "visionNotes": "Kitchen is visible with a peninsula counter opening to living/dining area; smooth-top range visible; living room has good floor space with multiple furniture pieces; no private outdoor space, only views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -35062,7 +35804,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.52122792785026,
-      "visionNotes": "Kitchen is visible with L-shaped counter run and standard cabinetry; it opens to living/dining area with a pass-through or opening; stove appears to be smooth-top electric based on flat surface visible, though angle makes full certainty difficult; living room is spacious with clear sightlines and proper scale; no private outdoor space visible, only street-facing windows."
+      "visionNotes": "Kitchen is visible with a semi-open layout to the living/dining area via a pass-through opening; stove appears to be smooth-top electric based on flat surface visible, though angle and reflection make definitive confirmation moderate confidence; living room has substantial floor area with large windows and good sightlines; no private outdoor space visible, only city views through windows."
     },
     {
       "buildingType": "Condo",
@@ -35184,7 +35926,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.51680132450332,
-      "visionNotes": "Kitchen is visible in photo 1 with a flat-top electric range, semi-open to living/dining area; living room is spacious; outdoor space shown in photo 6 is a shared building rooftop amenity, not private."
+      "visionNotes": "Kitchen is visible and open to living/dining area with standard counter run; stove appears to be smooth-top electric but reflection makes it somewhat hard to confirm; outdoor spaces shown are shared building amenities (rooftop gym, roof deck), not private; living room has generous floor space."
     },
     {
       "buildingType": "Rental unit",
@@ -35306,7 +36048,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.464298062593144,
-      "visionNotes": "These are renderings of luxury building amenities (gym, lounge, rooftop terrace), not an individual apartment, so standard rental questions don't apply meaningfully."
+      "visionNotes": "These are luxury building amenity spaces (office, gym, lounge, terrace) not an apartment rental unit; kitchen visible in last image is open to dining/living area with good counter space; rooftop terrace with skyline views is shared building amenity, not private outdoor space."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 37,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 48,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 43,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "small",
+      "stoveType": "gas",
+      "listing": {
+        "address": "151 South Elliott Place #3K, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-25",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-3k.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/8cedb0fdab4a89c14d023fad36af6861-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/31ae8115ca8687be00a99258265bc308-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/37ab7502cc4231dae6e1653f7158dccc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5b94148ec4001549c3c619987d2dfc52-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e25a934c8b8c75ef9c533893df361c4f-se_large_800_400.webp"
+        ],
+        "price": 5592,
+        "sqft": null,
+        "title": "151 South Elliott Place #3K",
+        "url": "https://streeteasy.com/building/the-elliot/3k",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 57.40881427323178,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 97.13855421686748,
+          "weight": 0.1,
+          "price": 5592
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 57.40881427323178,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates and knobs), small galley layout with limited counter/cabinet run; no living room or outdoor space shown in photos provided."
     },
     {
       "buildingType": "Rental unit",
@@ -35428,7 +36292,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.345208643815205,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; smooth-top electric range visible; living room is spacious with good floor area and large windows overlooking exterior greenery; no private garden or terrace."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via island counter; smooth-top electric range with visible flat surface; living room has generous floor space; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -35551,7 +36415,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.267,
-      "visionNotes": "Kitchen visible with semi-open layout via peninsula counter to living area; smooth-top electric range; no private outdoor space; living room is spacious with good proportions."
+      "visionNotes": "Kitchen is visible and open to the living/dining area with a pass-through counter; smooth-top electric stove visible; living room has good floor space with sofa, dining area, and comfortable layout; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -35671,7 +36535,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.249533532041724,
-      "visionNotes": "Kitchen is visible and open to living room with a peninsula island; flat-top electric range visible; living room is generously proportioned with skyline views; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range is clearly visible; living room has substantial floor space with NYC skyline views; no private outdoor space visible; last image is a building amenity space, not unit space."
     },
     {
       "buildingType": "Rental unit",
@@ -35792,7 +36656,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.21076453055141,
-      "visionNotes": "Kitchen is visible in photo 4, open to dining area with island; smooth-top electric range visible; living room has good floor space with appropriately scaled furniture; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with white cabinetry and shares visual and spatial connection to dining area via island; smooth-top electric range evident; living room has substantial floor area with multiple furniture pieces comfortably spaced; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -35914,7 +36778,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.1698223053603,
-      "visionNotes": "Kitchen is visible with a one-wall counter run featuring white cabinets and a smooth-top electric stove; it opens partially to the dining/living area via a partial wall/pass-through rather than being fully enclosed, qualifying as semi-open; the living room has substantial floor area with large windows and balcony doors but no private outdoor space for this unit."
+      "visionNotes": "Kitchen is visible with a defined counter/cabinet run along one wall, open to the living/dining area via a clear sightline; stove appears to be a smooth-top electric range with visible knobs; large living room with generous floor area and floor-to-ceiling windows; no private outdoor space visible beyond windows."
     },
     {
       "buildingType": "Rental unit",
@@ -36037,7 +36901,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.15047690014902,
-      "visionNotes": "Kitchen is a closed galley-style layout with a long counter run, gas cooktop with visible grates, and proper appliances; living room is spacious with floor-to-ceiling windows and adequate seating area; no private outdoor space, only high-rise views."
+      "visionNotes": "Kitchen is a separate enclosed room with a long counter run and gas cooktop with visible grates; living room has generous floor area with floor-to-ceiling windows and city views; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -36161,7 +37025,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.136545454545455,
-      "visionNotes": "Kitchen is visible in photos 1 and 3; semi-open to living/dining area with visible sightline; gas range with visible burner grates clearly shown; living room is spacious with good floor area; outdoor space is shared building amenity (rooftop), not private."
+      "visionNotes": "Kitchen is semi-open to living/dining area with visible gas range (metal grates visible on burners); living room has ample floor space; outdoor space shown is a shared building terrace, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -36281,7 +37145,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.09256482861401,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range with flat surface; living room has good floor area with large windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range clearly visible; living room has generous floor area with multiple seating; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -36403,7 +37267,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.070265254562386,
-      "visionNotes": "Kitchen is visible in multiple photos with semi-open layout to dining/living area via island; stove has visible burner grates indicating gas; living room is spacious with large windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area via a peninsula island; gas stove visible with metal grates; spacious living room with generous floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -36529,7 +37393,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 57.033403874813715,
-      "visionNotes": "Kitchen is visible with light wood cabinetry and an island peninsula; it opens to the dining/living area with clear sightlines; smooth-top electric range visible with flat black surface and no grates; living areas are spacious with floor-to-ceiling windows but no private outdoor garden space."
+      "visionNotes": "Kitchen is visible with open layout to living/dining area, smooth-top electric range, standard counter/cabinet run with island, no private outdoor space, and spacious living room with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -36649,7 +37513,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.98127719821162,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area; living room is spacious with large windows; no private outdoor space; first photo appears to be building amenity gym, not part of unit."
+      "visionNotes": "Kitchen is semi-open to living/dining area with island counter; gas range visible with burner grates; living room has generous floor area with high ceilings and expansive windows overlooking Manhattan skyline; no private outdoor space visible."
     },
     {
       "buildingType": "Mixed-use building",
@@ -36771,7 +37635,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.976697807368325,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas range (metal grates visible), standard-sized counter run; large private rooftop terrace visible; living room has good floor space and natural light."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (black with grates); generous rooftop terrace with NYC views; spacious living room with good floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -36893,7 +37757,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.973,
-      "visionNotes": "Kitchen is visible with a peninsula/counter opening to the living/dining area (semi-open); the built-in counter run is compact (small kitchen); stove appears flat-top but angle/reflection makes full certainty difficult; private terrace/balcony visible with city views; living room is spacious with high ceilings and large windows."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining/living area; small counter run; smooth-top electric range visible; unit has private terrace/balcony visible in multiple photos; living room has generous floor area with multiple windows."
     },
     {
       "buildingType": "Rental unit",
@@ -37019,7 +37883,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.86574366616989,
-      "visionNotes": "Kitchen is visible with an island/peninsula that opens to dining/living areas; flat smooth-top electric stove with no visible grates; no private outdoor space visible; living room is spacious with floor-to-ceiling windows and ample floor area."
+      "visionNotes": "Kitchen is visible with a peninsula/island creating semi-open layout to dining area; smooth-top electric range; living/dining areas show generous floor space; no private outdoor space visible, though windows show city views from upper floors."
     },
     {
       "buildingType": "Rental unit",
@@ -37142,129 +38006,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.84073534338359,
-      "visionNotes": "Kitchen is visible in photos 3-4 with a smooth-top electric stove, semi-open to living/dining area via a counter peninsula; living room is standard-sized; no private outdoor space shown."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 9,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 18,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 36,
-          "lines": [
-            "E Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "3 Court Square #5604, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 23,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-05",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-skyline-tower-5604.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/93b36a81a2dded79d96a499bbbf8b2b7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/93b36a81a2dded79d96a499bbbf8b2b7-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6e01c86e09a106b71b6def79de58466d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1d5b6d90d1a286d858455155bbee9892-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/67047b6efcbfa02bc4e23b18e8dd7e99-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/134684df64ee0a4c04e138a5a107256a-se_large_800_400.webp"
-        ],
-        "price": 5200,
-        "sqft": 635,
-        "title": "3 Court Square #5604",
-        "url": "https://streeteasy.com/building/skyline-tower/5604",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 56.82955905511811,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 84.7,
-          "weight": 0.15,
-          "minutes": 9
-        },
-        "friends": {
-          "score": 45.60000000000001,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 8.75,
-          "weight": 0.1,
-          "sqft": 635,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 32.77559055118111,
-          "weight": 0.1,
-          "price": 5200
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 56.82955905511811,
-      "visionNotes": "Kitchen visible with island peninsula opening to dining/living area; smooth-top stove visible but angle/reflection makes full confidence difficult; no private outdoor space (pool is shared building amenity); living room has generous floor space with high ceilings and large windows."
+      "visionNotes": "Kitchen is open to living/dining area with island; smooth-top electric stove visible; living room has substantial floor area; no private outdoor space visible, only urban building views."
     },
     {
       "buildingType": "Rental unit",
@@ -37387,7 +38129,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.80143547213731,
-      "visionNotes": "Open-plan kitchen with island peninsula shares real sightline with spacious living/dining area; smooth-top electric range visible but angle creates some reflection ambiguity; living room has ample floor space; no private outdoor space, only views of trees/buildings through windows."
+      "visionNotes": "Kitchen is semi-open to living/dining area via a peninsula counter; smooth-top electric range visible with no grates; generous living room floor area; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -37509,7 +38251,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.77502831594635,
-      "visionNotes": "Open-plan kitchen with wood and gray cabinetry, smooth-top electric stove visible in close-up; living room is spacious with direct sightlines to kitchen; no private outdoor space, only city views from windows."
+      "visionNotes": "Kitchen is clearly visible with a semi-open layout to the living/dining area; smooth-top electric stove visible; living room has generous floor space with proper separation; no private outdoor space—views show urban street/buildings only."
     },
     {
       "buildingType": "Rental unit",
@@ -37629,7 +38371,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.72600704431612,
-      "visionNotes": "Kitchen is visible with a pass-through counter opening to living area; smooth-top electric stove visible; unit has a private terrace with skyline views; living room is spacious with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area via counter opening; smooth-top electric range visible; private terrace with city views; spacious living room with generous floor area and high ceilings."
     },
     {
       "buildingType": "Rental unit",
@@ -37753,7 +38495,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.723813710879284,
-      "visionNotes": "Kitchen is visible with island/peninsula opening to living area; gas range with visible grates; living room has generous floor space with dining and seating areas; no private outdoor space visible."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; gas range visible with grates; living room has generous floor area with dining and lounge zones; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -37876,7 +38618,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.7099751552795,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area; living room is spacious with floor-to-ceiling windows; no private outdoor space, only building views from high-rise unit."
+      "visionNotes": "Kitchen is enclosed with a column/wall separation from living area; gas range visible with burner grates; generous living room floor area with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -37998,7 +38740,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.66906060606061,
-      "visionNotes": "Kitchen is visible with island opening to living area; stove appears to be smooth-top electric but angle/reflection creates some uncertainty; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only shared building amenities."
+      "visionNotes": "Kitchen is visible with island peninsula opening to living area; smooth-top range visible; large living room with floor-to-ceiling windows; no private outdoor space (shared building gym visible in last photo); bedrooms and bathrooms shown but not counted toward living room assessment."
     },
     {
       "buildingType": "Rental unit",
@@ -38120,7 +38862,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.647999999999996,
-      "visionNotes": "Kitchen visible in final photo with white cabinetry, island, and smooth-top electric stove; opens to living area via island counter; no private outdoor space visible, only building exteriors shown."
+      "visionNotes": "Kitchen visible with island opening to living area; smooth-top electric range; no private outdoor space; building exterior shots show high-rise apartment building with no unit-specific gardens."
     },
     {
       "buildingType": "Rental unit",
@@ -38241,7 +38983,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.59997913561848,
-      "visionNotes": "Kitchen is visible and open to the living/dining area; stove appears to be smooth-top electric but angle and reflection make confidence only medium; living room has substantial floor area; no private outdoor space visible, only shared building views from windows."
+      "visionNotes": "Kitchen is visible and open to living area with peninsula counter; stove appears to be smooth-top electric but angle makes it slightly hard to confirm; living room has substantial floor area; no private outdoor space visible, only windows overlooking building exteriors."
     },
     {
       "buildingType": "Rental unit",
@@ -38363,133 +39105,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.49580386329867,
-      "visionNotes": "Kitchen is open to living/dining area with visible gas burner grates on the range, island with bar seating, standard counter run; living room is spacious with floor-to-ceiling windows and good sightlines; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "R Line",
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 53,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 57,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 52,
-          "lines": [
-            "R Line",
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-11T13:01:25.952Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "354 2nd Street #3A, BROOKLYN, NY, 11215",
-        "availableDate": "2026-09-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-354-2-street-brooklyn-3a.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0e8d5c53f684958a3dea28c70197564e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f5e2a20f9976497d8702d47aa4ed5b2a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/eac3bf4faf3277f01cbe78fceb54d689-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e10e1eaf62ec1832c17e765dcec5f602-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/75ef905feee1aab07e6baceb067f2ff8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f650c58313edaa07aa5271415021dfb0-se_extra_large_1500_800.webp"
-        ],
-        "price": 4800,
-        "sqft": null,
-        "title": "354 2nd Street #3A",
-        "url": "https://streeteasy.com/building/354-2-street-brooklyn/3a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.30895885154503,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.15,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 20.10000000000001,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 100,
-          "weight": 0.1,
-          "price": 4800
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 56.30895885154503,
-      "visionNotes": "Kitchen is small and closed-off with a pass-through to the living/dining area; coil electric range visible but reflections make confidence medium; rooftop terrace is private outdoor space; living room at 18'3\" x 18'9\" is standard-to-large size."
+      "visionNotes": "Kitchen is clearly visible with semi-open layout to living/dining area via island counter; gas range visible with burner grates in photo 1; standard-sized counter run with good storage; living room has generous floor area with multiple seating areas and large windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -38611,7 +39227,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.2769344262295,
-      "visionNotes": "Kitchen visible with L-shaped counter/cabinet run opening to dining table and living area; stove appears to be smooth-top electric but angle/reflection makes definitive identification challenging; spacious living room with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and semi-open to dining area with island; stove appears flat-top but angle/reflection makes burner type moderately difficult to confirm; spacious living room with extensive floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -38734,7 +39350,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.153230769230774,
-      "visionNotes": "Kitchen is open to living/dining area with island; stove appears to be smooth-top electric based on flat surface visible; private rooftop terrace with furniture and grill; living room has generous floor space with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is open to living/dining area with island; stove appears smooth-top electric but angle/reflection makes confidence medium; rooftop terrace visible as private outdoor space; living room has generous floor area with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -38857,7 +39473,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.10210683363966,
-      "visionNotes": "Open-plan kitchen with island counter overlooking spacious living area; smooth-top electric range visible; private balcony/terrace with NYC skyline view; living room has generous floor space."
+      "visionNotes": "Open kitchen with standard counter/cabinet run and smooth-top electric range; large private terrace with NYC skyline views; spacious living room with good floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -38983,7 +39599,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.10195827123696,
-      "visionNotes": "Kitchen is visible and open to dining/living areas with a peninsula island; smooth-top electric stove visible; living room has adequate floor space; no private outdoor space shown, only street views from windows."
+      "visionNotes": "Kitchen is visible with a two-sided counter layout (island with seating plus wall-run with sink/stove); opens to dining/living area; smooth-top electric stove visible; living areas are spacious with good floor area; no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -39103,250 +39719,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.086603576751116,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area; living room is spacious; outdoor space shown is shared building courtyard, not private; bedroom and bathroom also visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 16,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 42,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "22 Lafayette Avenue #15B, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-22-lafayette-avenue-brooklyn-15b.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/34430076e40503f2c350788aa00ea634-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/98dc1e5dee369ac23877638715156518-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/12c3b2c065d1127803ed95ad3483454f-se_medium_500_250.webp",
-          "https://photos.zillowstatic.com/fp/6625deb7811e3931c24ab7596275736e-se_medium_500_250.webp"
-        ],
-        "price": 4000,
-        "sqft": null,
-        "title": "22 Lafayette Avenue #15B",
-        "url": "https://streeteasy.com/building/22-lafayette-avenue-brooklyn/15b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 56.06687034277198,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 40.5,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 88.46870342771982,
-          "weight": 0.1,
-          "price": 4000
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 56.06687034277198,
-      "visionNotes": "Kitchen is visible in first photo as a compact counter/cabinet run with stainless appliances, semi-open to the living/dining area; unit has a private terrace with landscaping visible in fourth photo; living room has decent proportions with good sightlines."
-    },
-    {
-      "buildingType": "Townhouse",
-      "commute": {
-        "office": {
-          "minutes": 22,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 39,
-          "lines": [
-            "C Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 17,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "gas",
-      "listing": {
-        "address": "53 West 94th Street #2R, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-20",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 11,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-17",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-53-west-94-street-new-york-2r.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b74310300df86a0738ead37b968d92e4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e2f576889609063ad007cf340eb7f3e6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9a75e803057f0b6c165af1236afa8ef1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/48d116d38495e5dc3ee3f6d5c67a3039-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/832768e63b9ea7ff2d1226a29593dd4c-se_large_800_400.webp"
-        ],
-        "price": 6700,
-        "sqft": null,
-        "title": "53 West 94th Street #2R",
-        "url": "https://streeteasy.com/building/53-west-94-street-new_york/2r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 56.06468977523981,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.15,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 62.6,
-          "weight": 0.15,
-          "minutes": 22
-        },
-        "friends": {
-          "score": 51.12499999999999,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 69.32730923694778,
-          "weight": 0.1,
-          "price": 6700
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 56.06468977523981,
-      "visionNotes": "Kitchen is visible with a pass-through counter to the living area; gas stove with visible burner grates; small galley-style counter run; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area via island counter; gas range with visible grates; living room has generous floor space; building courtyard visible but not private to unit."
     },
     {
       "buildingType": "Rental unit",
@@ -39468,100 +39841,100 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 56.06255910543132,
-      "visionNotes": "Kitchen visible in last photo with island opening to living space; gas range with visible burner grates; living room is spacious with floor-to-ceiling windows; outdoor space shown is shared building amenity, not private."
+      "visionNotes": "Kitchen visible in last image with gas range (visible burner grates), semi-open to living/dining via island counter; living room is spacious with ample floor area; third image shows shared building rooftop amenity, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 32,
+          "minutes": 20,
           "lines": [
-            "4 Line",
             "6 Train"
           ]
         },
         "prospectHeights": {
-          "minutes": 23,
+          "minutes": 48,
           "lines": [
-            "B45"
+            "Q Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 37,
+          "minutes": 36,
           "lines": [
-            "G Line"
+            "Q Line",
+            "M Line",
+            "AS"
           ]
         },
         "morningsideHeights": {
-          "minutes": 46,
+          "minutes": 39,
           "lines": [
-            "2 Line",
+            "M79-SBS",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 41,
+          "minutes": 23,
           "lines": [
-            "2 Line",
-            "1 Line"
+            "M86-SBS"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "firstSeenAt": "2026-07-27T22:00:05.452Z",
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
       "stoveType": "gas",
       "listing": {
-        "address": "570 Fulton Street #2L, BROOKLYN, NY, 11217",
+        "address": "331 East 81st Street #2R, NEW YORK, NY, 10028",
         "availableDate": "2026-08-01",
         "bathrooms": 1,
-        "bedrooms": 1,
+        "bedrooms": 2,
         "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
         "estimatedListingDate": null,
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-fulton-greene-2l.png",
-        "neighborhood": "Fort Greene",
+        "externalScreenshot": "screenshots/streeteasy-com-building-331-east-81-street-new-york-2r.png",
+        "neighborhood": "Yorkville",
         "photos": [
-          "https://photos.zillowstatic.com/fp/105025c7642f9549fc2974f0815ea6cf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/105025c7642f9549fc2974f0815ea6cf-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5907f08a6f273a46fa1e7eed2d8073d6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/823b8782159520244f485e7875bfa672-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fd238d29546e24496150566aa81d06ed-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/937e0522b0e3451718d2f800c70fdad6-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/780011f6a28e3bdffa49fb9353d02fa3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a34e90da092557c679f4c74526c321d5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c351556d227fdfffcf1ca9d7e8a1d661-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/77712cd548498e07edd21c1f166a09a6-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/43c08b2c8082677cfd9df9270d273370-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/50c5af4eea45113c6c66f3ac47f3c1f4-se_large_800_400.webp"
         ],
-        "price": 4000,
+        "price": 6500,
         "sqft": null,
-        "title": "570 Fulton Street #2L",
-        "url": "https://streeteasy.com/building/fulton-greene/2l",
+        "title": "331 East 81st Street #2R",
+        "url": "https://streeteasy.com/building/331-east-81-street-new_york/2r",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
+      "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 55.964870342771974,
+        "total": 55.99569780736833,
         "neighborhood": {
-          "score": 100,
+          "score": 30,
           "weight": 0.15,
-          "tier": "brooklyn"
+          "tier": "other"
         },
         "office": {
-          "score": 45.6,
+          "score": 66,
           "weight": 0.15,
-          "minutes": 32
+          "minutes": 20
         },
         "friends": {
-          "score": 37.525,
+          "score": 37.95,
           "weight": 0.12
         },
         "size": {
-          "score": 17.75,
+          "score": 26.069588515450338,
           "weight": 0.1,
           "sqft": null,
-          "bedrooms": 1
+          "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
@@ -39569,9 +39942,9 @@ window.__APARTMENT_REPORT__ = {
           "small": false
         },
         "kitchenSize": {
-          "score": 0,
+          "score": 50,
           "weight": 0.16,
-          "size": "small"
+          "size": "standard"
         },
         "condo": {
           "score": 50,
@@ -39579,9 +39952,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 88.46870342771982,
+          "score": 74.34738955823292,
           "weight": 0.1,
-          "price": 4000
+          "price": 6500
         },
         "groundFloor": {
           "score": 100,
@@ -39589,8 +39962,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 55.964870342771974,
-      "visionNotes": "Kitchen is a small, closed galley-style space with gas range (visible burner grates); outdoor terrace visible through doors; living room is spacious with floor-to-ceiling windows and generous layout."
+      "rankScore": 55.99569780736833,
+      "visionNotes": "Kitchen is visible with gas stove (visible burner grates), semi-open to living area via counter pass-through; living room has substantial floor area; no private outdoor space visible, only a window view to street-level greenery."
     },
     {
       "buildingType": "Rental unit",
@@ -39710,7 +40083,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.9417379680109,
-      "visionNotes": "Kitchen visible in photo 4 with pass-through counter to living area; gas stove visible but some angle/reflection uncertainty; no private outdoor space; living room appears spacious with large windows."
+      "visionNotes": "Kitchen visible in photo 4 with open counter/peninsula to living area; smooth-top electric stove visible; no private outdoor space; living room appears spacious with floor-to-ceiling windows and adequate floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -39833,7 +40206,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.831535601515185,
-      "visionNotes": "Kitchen is semi-open to living area with peninsula counter; gas range visible with metal grates; unit has private balcony/terrace; living room has good floor space with hardwood floors and large windows."
+      "visionNotes": "Kitchen is semi-open to living/dining area with an island counter; gas range visible with clear burner grates; living room has generous floor space with floor-to-ceiling windows; balcony is private outdoor space but not a garden/yard."
     },
     {
       "buildingType": "Rental unit",
@@ -39955,7 +40328,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.73389716840537,
-      "visionNotes": "Kitchen visible in photo 1 with gas stove (visible grates), semi-open to dining area via counter seating; living room in photo 3 shows spacious floor area with standard dimensions; no private garden (photo 5 shows shared building amenity pool/deck)."
+      "visionNotes": "Kitchen is semi-open to dining area with wooden round table; gas range visible with metal grates; living room has good floor space with high ceilings; no private outdoor space (rooftop pool is shared building amenity)."
     },
     {
       "buildingType": "Rental unit",
@@ -40075,7 +40448,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.604243992107286,
-      "visionNotes": "Kitchen is open to the living/dining area with a black countertop island; the cooktop appears to be smooth-top electric with a flat surface, though reflections make absolute certainty difficult; the unit has high-floor windows with city views and shared building amenities (pool, courtyard) visible in other photos, not private outdoor space; living room is spacious with generous floor area."
+      "visionNotes": "Kitchen is open to living/dining area with shared sightline; black smooth countertop with flat cooktop visible; living room has substantial floor area with multiple seating pieces; outdoor space shown is shared building amenity, not private unit space."
     },
     {
       "buildingType": "Two-family home",
@@ -40198,7 +40571,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.57224800817154,
-      "visionNotes": "Kitchen is visible in multiple photos with a galley/L-shaped layout opening to a dining area with round table; gas range with visible burner grates; no private outdoor space shown; living rooms are spacious with good floor area."
+      "visionNotes": "Kitchen is visible in multiple photos with a galley-style closed layout; gas stove with visible grates is clearly shown; living room is spacious with substantial floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -40319,7 +40692,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.3906536306615,
-      "visionNotes": "Kitchen with island is open to expansive living area with floor-to-ceiling windows; smooth-top range visible but reflection makes absolute confirmation medium confidence; no private outdoor space; living room is generously sized with excellent sightlines."
+      "visionNotes": "Kitchen is visible and open to living/dining areas with island; smooth-top electric range; living room has generous floor space with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -40441,41 +40814,41 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.39,
-      "visionNotes": "Kitchen is visible in photos 2 and 4; it's semi-open to the dining area with a visible pass-through, has a standard-length counter run with good cabinetry, and the stove clearly shows gas burner grates; living room is spacious with generous floor area; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible in photos 2 and 4 with gas range (visible burner grates), semi-open layout to dining area; living room in photo 1 shows spacious open floor plan with generous sightlines; no private outdoor space visible, only city views from windows; photo 5-6 are building amenities (gym, common area) not part of unit."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 25,
+          "minutes": 23,
           "lines": [
-            "B Line",
-            "E Line"
+            "7",
+            "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 50,
+          "minutes": 49,
           "lines": [
-            "B Line"
+            "G Line",
+            "B69"
           ]
         },
         "longIslandCity": {
-          "minutes": 41,
-          "lines": [
-            "C Line",
-            "7"
-          ]
+          "minutes": 4,
+          "lines": []
         },
         "morningsideHeights": {
-          "minutes": 22,
+          "minutes": 42,
           "lines": [
-            "M11"
+            "7X",
+            "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 14,
+          "minutes": 36,
           "lines": [
-            "M7"
+            "7X",
+            "1 Line"
           ]
         }
       },
@@ -40485,55 +40858,55 @@ window.__APARTMENT_REPORT__ = {
       "isGroundFloor": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
-      "stoveType": "gas",
+      "stoveType": "smoothElectric",
       "listing": {
-        "address": "795 Columbus Avenue #5K, NEW YORK, NY, 10025",
+        "address": "47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109",
         "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-795-columbus-avenue-new-york-05k.png",
-        "neighborhood": "Upper West Side",
+        "estimatedListingDate": "2026-07-24",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-47-05-center-blvd-long-island-city-1001.png",
+        "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/fb2bac8f9bacc57c6e04459e974b1480-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e9442fb669cd75749ebc5c94928ed015-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/885fbc655da4783d617795485d1a7ec3-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b7052c432827c055807eb137a516e8ff-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/bcb7cd364f53671981b4f411034f2a65-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/06ee415271eff2cef71539af9ff59d03-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/15c461dd13a957d6621476bc983c5ae8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/f08573cab3b10317aa8a589a8b442c47-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7ffeaf9ed314c2465f8f3cc201c223dc-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a53874e95e207b9bc3fbc461898328ce-se_extra_large_1500_800.webp"
         ],
-        "price": 5722,
-        "sqft": 637,
-        "title": "795 Columbus Avenue #5K",
-        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
+        "price": 6795,
+        "sqft": null,
+        "title": "47-05 Center Boulevard #1001",
+        "url": "https://streeteasy.com/building/47_05-center-blvd-long_island_city/1001",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
+      "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 55.36617111459969,
+        "total": 55.255235959978776,
         "neighborhood": {
-          "score": 80,
+          "score": 30,
           "weight": 0.15,
-          "tier": "uwsAcceptable"
+          "tier": "other"
         },
         "office": {
-          "score": 57.5,
+          "score": 60.9,
           "weight": 0.15,
-          "minutes": 25
+          "minutes": 23
         },
         "friends": {
-          "score": 46.025000000000006,
+          "score": 44.325,
           "weight": 0.12
         },
         "size": {
-          "score": 9.25,
+          "score": 26.069588515450338,
           "weight": 0.1,
-          "sqft": 637,
-          "bedrooms": 1
+          "sqft": null,
+          "bedrooms": 2
         },
         "livingRoom": {
           "score": 100,
@@ -40551,9 +40924,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 12.931711145996871,
+          "score": 66.94277108433735,
           "weight": 0.1,
-          "price": 5722
+          "price": 6795
         },
         "groundFloor": {
           "score": 100,
@@ -40561,8 +40934,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 55.36617111459969,
-      "visionNotes": "Kitchen visible in photo 1 with gas range (visible grates), semi-open to the space with an island counter; living room appears moderate-sized with standard proportions; no private outdoor space, only building amenities visible."
+      "rankScore": 55.255235959978776,
+      "visionNotes": "Kitchen visible in photo 2 with smooth-top electric range, semi-open to living/dining area via counter pass-through; spacious living room with floor-to-ceiling windows and ample seating visible in photo 1; no private outdoor space evident; bathroom and secondary bedroom also shown."
     },
     {
       "buildingType": "Rental unit",
@@ -40684,7 +41057,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.21019970193741,
-      "visionNotes": "First image shows an open-plan kitchen with wood cabinetry and stainless steel appliances opening directly to a living/dining area; remaining photos appear to be building amenity spaces (gym, offices, rooftop lounge) not the rental unit itself."
+      "visionNotes": "Kitchen visible in first photo with open layout to living/dining area; smooth-top electric range visible with no burner grates; living room has substantial floor area; second-fourth photos show building amenities (gym, rooftop terrace) not private unit space; no private garden visible."
     },
     {
       "buildingType": "Rental unit",
@@ -40804,7 +41177,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.19008736560126,
-      "visionNotes": "Kitchen with black countertops and smooth-top electric range is semi-open to living/dining area; living room is generously proportioned with floor-to-ceiling windows; shared building amenities visible but no private outdoor space for the unit."
+      "visionNotes": "Kitchen visible in first photo with black countertop and appliances, opening into living area with clear sightlines; smooth-top electric range visible; outdoor spaces shown are shared building amenities, not private; living room has generous floor area with multiple seating pieces and wide sightlines."
     },
     {
       "buildingType": "Rental unit",
@@ -40926,7 +41299,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.19,
-      "visionNotes": "Kitchen is clearly visible with gas cooktop (visible grates visible in photo 4), semi-open to dining/living areas via a peninsula counter; living room has ample floor space with appropriately scaled furnishings; no private outdoor space visible, only windows showing other buildings."
+      "visionNotes": "Kitchen is visible across multiple photos with gas cooktop (visible burner grates), semi-open to dining/living area via island counter; living room has generous floor area with multiple furniture pieces and clear sightlines; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -41047,7 +41420,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.12524441132638,
-      "visionNotes": "Kitchen is visible and open to living/dining area; smooth-top electric range confirmed; no private outdoor space visible; living room has generous floor space with large windows and appropriate furniture scale."
+      "visionNotes": "Kitchen visible in multiple photos—open to living/dining area with island, gas range with visible grates, spacious living room with floor-to-ceiling windows, no private outdoor space shown (high-rise apartment)."
     },
     {
       "buildingType": "Rental unit",
@@ -41167,7 +41540,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 55.11044858420268,
-      "visionNotes": "Kitchen is semi-open to living/dining area with island peninsula; gas range visible with burner grates; living room has ample floor space with floor-to-ceiling windows; no private outdoor space visible, only shared city views."
+      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with burner grates; standard-sized counter run; living room has generous floor area with large windows and furniture well-spaced; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -41289,7 +41662,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.93255737704917,
-      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with shared sightlines; counters appear standard length with island; stove surface appears flat but reflection makes definitive identification moderately challenging; no private outdoor space visible; living room has good proportions with substantial floor area."
+      "visionNotes": "Kitchen is visible with an island that opens to a dining/living area; counter runs are moderate length; stove details obscured by angle and reflection; no private outdoor space visible; living room has adequate floor space with multiple furniture pieces fitting comfortably."
     },
     {
       "buildingType": "Rental unit",
@@ -41410,7 +41783,128 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.92929210134128,
-      "visionNotes": "Kitchen is a small galley with a pass-through counter to the living area; gas range with visible burner grates; living room is spacious with good floor area; no outdoor space visible."
+      "visionNotes": "Kitchen is visible with gas stove (visible burner grates), separated from living area by a counter/peninsula but with visual sightline; small galley-style counter run; living room has generous floor area with hardwood floors and comfortable furniture layout."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 26,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 53,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 40,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 21,
+          "lines": [
+            "M11"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 15,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": true,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "788 Columbus Avenue #1R, NEW YORK, NY, 10025",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 30,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-28",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-788-columbus-avenue-new-york-1r.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/af8582c1a386101a2b5785a9d0961a99-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/af8582c1a386101a2b5785a9d0961a99-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6b6ff2afba09c483aeb34818e720b785-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d5c365b1f5cc7b19bd62824b7466476d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/289c30687e8e169deb1885879bbc6126-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/363e41a9398b512ac79e3e6d317139a9-se_large_800_400.webp"
+        ],
+        "price": 6000,
+        "sqft": 850,
+        "title": "788 Columbus Avenue #1R",
+        "url": "https://streeteasy.com/building/788-columbus-avenue-new_york/1r",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 54.919960276684726,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.15,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 55.800000000000004,
+          "weight": 0.15,
+          "minutes": 26
+        },
+        "friends": {
+          "score": 45.175000000000004,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 0.2601910021413403,
+          "weight": 0.1,
+          "sqft": 850,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 61.029411764705884,
+          "weight": 0.1,
+          "price": 6000
+        },
+        "groundFloor": {
+          "score": 0,
+          "weight": 0.04,
+          "isGroundFloor": true
+        }
+      },
+      "rankScore": 54.919960276684726,
+      "visionNotes": "Kitchen is visible with a peninsula island opening to the living/dining area; gas stove visible with burner grates; spacious living room with good floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -41530,7 +42024,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.86843666169896,
-      "visionNotes": "Kitchen visible in photo 1 with smooth-top electric range and island; private terrace garden shown in photo 2; living/bedroom spaces in photos 3-4 appear spacious with good natural light; building amenities (pool) shown but not unit-specific."
+      "visionNotes": "Kitchen is visible in first photo with a flat-top range (no visible grates), standard counter/cabinet run, and appears closed off from living areas; private terrace with landscaping visible in second photo; living/bedroom spaces appear moderately sized in photos 3-4."
     },
     {
       "buildingType": "Rental unit",
@@ -41651,7 +42145,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.829,
-      "visionNotes": "Kitchen is visible and open to living/dining area with visible gas burner grates; living room has ample floor space; no private outdoor space visible (only urban views from windows)."
+      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), semi-open to dining/living area; living room has substantial floor area with proper furniture spacing; no private outdoor space visible, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -41773,7 +42267,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.78870938897168,
-      "visionNotes": "Kitchen visible with gas range (visible burner grates), semi-open to dining/living area via counter; living room appears standard-sized with floor-to-ceiling windows; shared building pool/amenity space shown, not private outdoor space."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), opens to dining area with round wood table; living room is spacious with floor-to-ceiling windows; outdoor space shown is shared building roof deck, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -41894,7 +42388,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.78824399210728,
-      "visionNotes": "Kitchen is visible and open to living/dining areas with island; smooth-top electric range visible in multiple photos; spacious living room with floor-to-ceiling windows; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with direct sightlines; stove appears to be smooth-top electric but reflections make it hard to be certain; no private outdoor space visible; living room has generous floor area with multiple windows."
     },
     {
       "buildingType": "Rental unit",
@@ -42016,7 +42510,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.78125782414307,
-      "visionNotes": "Kitchen is semi-open to living/dining area with visible sightline; gas range with visible burner grates; living room has good proportions; outdoor space shown is shared building roof deck, not private."
+      "visionNotes": "Kitchen is semi-open to living/dining area with sightlines; gas range visible with metal grates; living room has generous floor space; outdoor space shown is shared building amenity pool, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -42137,7 +42631,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.7800987654321,
-      "visionNotes": "Kitchen visible in first photo with semi-open layout to living area via counter opening; smooth-top electric range with no visible grates; living room spacious with multiple windows; outdoor space is a shared building terrace, not private; building amenities (pool) shown but not part of unit."
+      "visionNotes": "Kitchen is open to living area with island counter; smooth-top electric stove visible; outdoor space is a shared building terrace/amenity, not private; living room has generous floor area with multiple windows."
     },
     {
       "buildingType": "Rental unit",
@@ -42259,130 +42753,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.77008047690015,
-      "visionNotes": "Kitchen is visible in photo 1 with semi-open layout to dining area; gas range evident from visible burner grates; living room shown in photo 3 is spacious with generous floor area; outdoor space in photo 5 is a shared building pool deck, not private."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 13,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 54,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T11:56:25.226Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "882 Union Street #4D, BROOKLYN, NY, 11215",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-882-union-street-brooklyn-4d.png",
-        "neighborhood": "Park Slope",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a44025afffb258def2fd38d677b7ef55-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3b7bb405ad0dffe4b5e0798c45ab9582-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5707c1b8400728299b8347d18818e078-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f472a19229d948fa5b17842e218fcf1e-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7bae373657edefd114f4aa00eb1ead78-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/609b3aba23c2387180a475f0f2532fec-se_large_800_400.webp"
-        ],
-        "price": 6800,
-        "sqft": null,
-        "title": "882 Union Street #4D",
-        "url": "https://streeteasy.com/building/882-union-street-brooklyn/4d",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 54.751999999999995,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.15,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 28.600000000000005,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 0,
-          "weight": 0.1,
-          "price": 6800
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 54.751999999999995,
-      "visionNotes": "Kitchen is visible with island counter open to living/dining area; smooth-top electric range visible; living room is spacious with good floor area; no private outdoor space evident."
+      "visionNotes": "Kitchen with gas range is semi-open to dining/living area via counter; living room has good floor space; building amenity pool is shared, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -42505,7 +42876,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.72931910946197,
-      "visionNotes": "Kitchen is visible with open layout to living/dining area, smooth-top electric range, standard counter/cabinet run; living room has good proportional floor space; no private outdoor space visible, only street views from windows."
+      "visionNotes": "Kitchen is visible with an open layout to the living/dining area; smooth-top electric stove with no visible grates; living room has adequate floor space; no private outdoor space visible, only street views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -42625,7 +42996,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.720100591715976,
-      "visionNotes": "Kitchen visible with island, opens to living/dining area; no stove visible in photos; living room is spacious with large windows; no private outdoor space, only urban cityscape views."
+      "visionNotes": "Kitchen with island is semi-open to living/dining area; stove not clearly visible in any photo; living room has generous floor space with large windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -42747,7 +43118,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.67943815201192,
-      "visionNotes": "Open-plan kitchen visible in first photo with glass cooktop and dark cabinetry; living room is spacious with large windows and terrace; private outdoor terrace shown in final photo."
+      "visionNotes": "Kitchen is visible in photo 1 with semi-open layout to living/dining area; smooth-top electric range visible; private terrace/balcony shown in photo 6; spacious living room with generous floor area."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 14,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 52,
+          "lines": [
+            "N Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 22,
+          "lines": [
+            "7X"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 43,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 36,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "42-20 24th Street #36J, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 29,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-29",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1-qps-036j.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/a1f82394cab036d22e11fd553ca277f4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f209b93f3cbb043440a65682cf912fa7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9fabda02ebccfc30c74ab57645da4f5f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/834e316ccd2fa1811aadd9b44fb9a285-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e2fe61fda27f03c48569c486d42d7120-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8abb124017f572a484b086ce2d7838e7-se_large_800_400.webp"
+        ],
+        "price": 5109,
+        "sqft": 691,
+        "title": "42-20 24th Street #36J",
+        "url": "https://streeteasy.com/building/1-qps/036j",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 54.66791895803184,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 76.2,
+          "weight": 0.15,
+          "minutes": 14
+        },
+        "friends": {
+          "score": 34.97500000000001,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 22.75,
+          "weight": 0.1,
+          "sqft": 691,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 52.65918958031839,
+          "weight": 0.1,
+          "price": 5109
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 54.66791895803184,
+      "visionNotes": "Kitchen is semi-open to living/dining area with an island; smooth-top electric range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -42867,95 +43360,92 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.63449478390462,
-      "visionNotes": "Kitchen is visible and semi-open to living/dining area via counter; stove type unclear due to angle/reflection; unit has access to shared building amenities (pool, lawn, rooftop) but no private outdoor space; living room is spacious with floor-to-ceiling windows and generous seating areas."
+      "visionNotes": "Kitchen is visible in the first photo with a black countertop and white cabinetry, semi-open to the living/dining area; stove details are not clear enough to determine type; unit has access to shared building amenities (pool, lawn) but no private outdoor space; living room is spacious with high ceilings and floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 38,
+          "minutes": 36,
           "lines": [
             "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 29,
+          "minutes": 21,
           "lines": [
-            "F Line",
-            "R Line"
+            "B65"
           ]
         },
         "longIslandCity": {
-          "minutes": 41,
+          "minutes": 39,
           "lines": [
             "G Line"
           ]
         },
         "morningsideHeights": {
-          "minutes": 54,
+          "minutes": 51,
           "lines": [
-            "F Line",
             "2 Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 50,
+          "minutes": 46,
           "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
+            "2 Line",
+            "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
+      "firstSeenAt": "2026-07-23T22:11:31.390Z",
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
       "kitchenSize": "small",
-      "stoveType": "gas",
+      "stoveType": "smoothElectric",
       "listing": {
-        "address": "44 3rd Street #2L, BROOKLYN, NY, 11231",
-        "availableDate": "2026-08-18",
+        "address": "19 Wyckoff Street #22, BROOKLYN, NY, 11201",
+        "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 2,
         "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
         "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-44-3-street-brooklyn-2l.png",
-        "neighborhood": "Carroll Gardens",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-22.png",
+        "neighborhood": "Cobble Hill",
         "photos": [
-          "https://photos.zillowstatic.com/fp/856ad23eade3ea883cbdfe93fe744be2-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/4844f5550f76c130895797283bd4e5bf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/fbbd6a44dee8eb8b2b029c8484b12a5a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/81c7e96c0ef3b7dc2c4a32bafb50fa8b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/404c27a1d92f5b5fad10d95df5a6a990-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2a5e350e5c0dc8b9eeafdc43d6b40d17-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/88375ebb15decb634f38b5013d51f675-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dc37ee24bb043eee1e0e77d2fe672c72-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cae53e58bb56d98478b3dd39558d2f60-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/26d184d0ac4a294b48a1377f1f4bd528-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1e3a86c75eb83deaae1f0da7f38fe596-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/a72c56d13c4c436c5077a10fd03b7417-se_large_800_400.webp"
         ],
-        "price": 5670,
+        "price": 6200,
         "sqft": null,
-        "title": "44 3rd Street #2L",
-        "url": "https://streeteasy.com/building/44-3-street-brooklyn/2l",
+        "title": "19 Wyckoff Street #22",
+        "url": "https://streeteasy.com/building/the-julian/22",
         "washerDryer": "yes"
       },
       "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 54.561031140701665,
+        "total": 54.6077098555611,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
           "tier": "brooklyn"
         },
         "office": {
-          "score": 35.400000000000006,
+          "score": 38.800000000000004,
           "weight": 0.15,
-          "minutes": 38
+          "minutes": 36
         },
         "friends": {
-          "score": 26.05,
+          "score": 33.275000000000006,
           "weight": 0.12
         },
         "size": {
@@ -42980,9 +43470,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 95.18072289156628,
+          "score": 81.87751004016064,
           "weight": 0.1,
-          "price": 5670
+          "price": 6200
         },
         "groundFloor": {
           "score": 100,
@@ -42990,8 +43480,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 54.561031140701665,
-      "visionNotes": "Kitchen is a narrow galley layout completely enclosed from the living area; gas range with visible burner grates; living room is spacious and open-plan with dining area; no private outdoor space visible."
+      "rankScore": 54.6077098555611,
+      "visionNotes": "Kitchen is visible with a large island peninsula opening to the living/dining area; flat-top electric stove with no visible grates; actual built-in counter/cabinet run is compact/small; living room has adequate floor space despite professional staging."
     },
     {
       "buildingType": "Three-family home",
@@ -43113,7 +43603,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.528825501211024,
-      "visionNotes": "Kitchen is visible with a one-wall cabinet/counter run plus island; opens into a generous living/dining area with direct sightlines; stove appears to be smooth-top but angle and reflection make it moderately difficult to confirm with complete certainty; living room is spacious; no private outdoor space visible, only interior windows."
+      "visionNotes": "Kitchen is visible with white cabinetry and dark countertop, semi-open to living/dining area via island counter; living room has generous floor area; no private outdoor space visible; stove appears to be smooth-top electric based on flat surface visible in photos but angle/reflections create some uncertainty."
     },
     {
       "buildingType": "Rental unit",
@@ -43236,7 +43726,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.41575260804768,
-      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), open to living/dining area; living room is spacious with floor-to-ceiling windows; no private outdoor space; bedroom and bathroom also visible."
+      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), semi-open to living/dining area via counter; living room is spacious with floor-to-ceiling windows; no private outdoor space shown."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 41,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 21,
+          "lines": [
+            "B65"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 46,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 55,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-12T13:00:06.156Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "small",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "526 Baltic Street #7E, BROOKLYN, NY, 11217",
+        "availableDate": "2026-07-15",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 12,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-16",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-baltic-canal-7e.png",
+        "neighborhood": "Boerum Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/e3676c64ee00914a63ce88a3da9c5948-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8950bb2a707757dbe68d7a44f4a01dcc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5eee474e76594ffd0049aaa570f934f2-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5448ad198819f897fc91b6ec32da1d45-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d0d835305dc74c1254ba871da5ee5c0e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2fab7c2b8ecaf717b68d0bf239d7fc2a-se_large_800_400.webp"
+        ],
+        "price": 5000,
+        "sqft": null,
+        "title": "526 Baltic Street #7E",
+        "url": "https://streeteasy.com/building/the-baltic-canal/7e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 54.379958851545034,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 30.299999999999997,
+          "weight": 0.15,
+          "minutes": 41
+        },
+        "friends": {
+          "score": 26.900000000000002,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 100,
+          "weight": 0.1,
+          "price": 5000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 54.379958851545034,
+      "visionNotes": "Kitchen is visible in first photo with pass-through counter to living area; small one-wall galley layout with limited counter run; stove appears flat-top electric but angle/reflection makes it hard to confirm with full certainty; outdoor space shown is shared rooftop amenity, not private unit garden."
     },
     {
       "buildingType": "Rental unit",
@@ -43357,7 +43969,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.336436763191614,
-      "visionNotes": "Kitchen is visible and open to living/dining areas with island; stove appears to have a flat smooth-top surface but angle/reflections make confidence medium; living room is spacious with expansive windows and open floor plan; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and open to living/dining areas with island; stove appears to be smooth-top electric but angle/reflection makes it not completely certain; no private outdoor space; living room has substantial floor area with large windows."
     },
     {
       "buildingType": "Rental unit",
@@ -43478,7 +44090,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.31133636158519,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; stove appears to be smooth-top electric based on flat surface visible; no private outdoor space; living room is spacious with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is visible and open to the living/dining area with island; smooth-top electric stove evident; living room has generous floor area with multiple seating zones; no private outdoor space visible, only high-rise views from windows."
     },
     {
       "buildingType": "Two-family home",
@@ -43601,7 +44213,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.27717973507917,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), open to dining area via counter pass-through; living room is spacious with fireplace and multiple windows; no private outdoor space shown."
+      "visionNotes": "Kitchen is visible with a galley layout that opens to a dining/living area through a peninsula counter; gas range visible with metal grates; generous living room floor space with fireplace and multiple seating areas; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -43721,7 +44333,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.1785171385991,
-      "visionNotes": "Kitchen is visible and open to the living/dining area with a gas range (visible burner grates), standard-length counter run; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
+      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with a gas range (visible burner grates); living room has generous floor space with floor-to-ceiling windows and good sightlines; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -43845,7 +44457,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.117500745156484,
-      "visionNotes": "Kitchen is visible with pass-through counter to living area; gas range visible with metal grates; living room has generous floor space with high ceilings; no private outdoor space visible, windows only."
+      "visionNotes": "Kitchen is visible with semi-open layout via pass-through counter to living area; gas range with visible grates; living room has good floor area with multiple furniture pieces; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -43966,7 +44578,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.11325604030005,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; smooth-top electric range visible; outdoor spaces are shared building amenities (terrace, pool); living room is generously sized."
+      "visionNotes": "Kitchen is visible with standard counter/cabinet run and smooth-top electric range; it opens to living area via island but no private garden—outdoor spaces shown are shared building amenities; living room has spacious floor area with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -44088,7 +44700,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 54.112560357675115,
-      "visionNotes": "Kitchen is semi-open to living/dining area with island peninsula; smooth-top cooktop visible but angle makes it hard to be certain; living room has good floor space with floor-to-ceiling windows; no private outdoor space, only city views from windows."
+      "visionNotes": "Kitchen is semi-open with island peninsula to living/dining area; smooth-top electric stove visible (flat black surface, no grates); living room has decent floor space; no private outdoor space, only high-rise windows with city views."
     },
     {
       "buildingType": "Rental unit",
@@ -44209,7 +44821,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.96029210134129,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), opens semi-openly to living area via a pass-through counter; living room has good floor space with proper-scaled furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a pass-through counter opening to the living area; gas range with visible burner grates; compact galley-style kitchen; no private outdoor space visible; living room has decent floor area with hardwood floors."
     },
     {
       "buildingType": "Rental unit",
@@ -44332,7 +44944,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.943982116244406,
-      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burner grates; private terrace visible in first photo; living room has generous floor space with appropriately scaled furniture."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (burner grates visible), standard counter run; living room has substantial floor area; unit has private terrace with skyline views."
     },
     {
       "buildingType": "Rental unit",
@@ -44453,7 +45065,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.809328329456676,
-      "visionNotes": "Kitchen is clearly visible and open to living/dining areas with island seating; smooth-top electric range visible; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only building views."
+      "visionNotes": "Open-plan kitchen with island visible in multiple photos; flat smooth-top electric range with no visible grates; spacious living room with floor-to-ceiling windows; no private outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -44575,7 +45187,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.70150968703428,
-      "visionNotes": "Kitchen visible in photo 2 with open layout to living/dining area; gas range with visible burner grates; private terrace with seating visible in photo 1; living room spacious with floor-to-ceiling windows and ample seating area."
+      "visionNotes": "Kitchen visible in photo 2 with gas range (visible burner grates), open to living/dining area with good sightlines; large private terrace shown in photo 1; living room has generous floor area with multiple seating zones and floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -44697,7 +45309,254 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.66425186289121,
-      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with burner grates; generous living room with floor-to-ceiling windows; private terrace with grill and seating area."
+      "visionNotes": "Kitchen is visible and open to the living/dining area; gas range with visible burner grates; generous living room floor space; private terrace with outdoor furnishings and grill."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "C Line",
+            "5 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 10,
+          "lines": [
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "C Line",
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 49,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 44,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "899 Fulton Street #2G, BROOKLYN, NY, 11238",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 2,
+        "daysOnMarket": 21,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-07",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2g.png",
+        "neighborhood": "Clinton Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/123f75274670175a5f5f906089b3ad27-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/07137219b1de1b70d80818b22c68fc23-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cd6fb05e63b674eb9991aa798d3b88b4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cb1c8a7bee2fd18a8e4c8508b1c68d56-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5bf946f71d979032bbd472e24cd1a9cb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/076a6b34d5f7e4c4a988dfc31a14d026-se_large_800_400.webp"
+        ],
+        "price": 5575,
+        "sqft": null,
+        "title": "899 Fulton Street #2G",
+        "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2g",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 53.604484955962704,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 38.8,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 97.56526104417671,
+          "weight": 0.1,
+          "price": 5575
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 53.604484955962704,
+      "visionNotes": "Kitchen is visible in photos 1 and 4, appears to be a closed galley-style layout with a one-wall counter run; stove has a flat black smooth-top surface with no visible grates; living room visible in photo 1 is clearly cramped with limited floor area relative to NYC standards."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 13,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 51,
+          "lines": [
+            "N Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 22,
+          "lines": [
+            "7X"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 42,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 36,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-24T18:04:15.826Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "23-10 42nd Road #29E, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-27",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-aura-lic-29e.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/701db23d364800d3147ddad14a8c8368-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d86767e7ae7be19cf92144d3a4926111-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c1f3ef31933921cb3b9067ab3cf32c8b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6b7cc853169f98dc73c50d4d9cffcb57-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3bb5d1e6b13a19dcbbef8854392b901c-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/4a08f32dbba0d9aaf6f929dd385816ea-se_extra_large_1500_800.webp"
+        ],
+        "price": 5225,
+        "sqft": null,
+        "title": "23-10 42nd Road #29E",
+        "url": "https://streeteasy.com/building/aura-lic/29e",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 53.541786885245905,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 77.9,
+          "weight": 0.15,
+          "minutes": 13
+        },
+        "friends": {
+          "score": 35.825,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 42.82786885245902,
+          "weight": 0.1,
+          "price": 5225
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 53.541786885245905,
+      "visionNotes": "Open-plan kitchen with dining and living areas visible in first photo; smooth-top electric range with visible knobs but flat surface; living room is spacious with ample floor area and large windows; no private outdoor space shown, only building amenities (gym) visible."
     },
     {
       "buildingType": "Rental unit",
@@ -44818,7 +45677,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.53528166915052,
-      "visionNotes": "Kitchen is visible with island peninsula opening to living area; gas range with visible burner grates; spacious living room with large windows; no private outdoor space visible; includes bathroom and bedroom photos."
+      "visionNotes": "Kitchen is visible with an island peninsula opening to living area; stove appears to be smooth-top electric with no visible burner grates; living room shows generous floor space across multiple photos; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -44943,7 +45802,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.51234277198211,
-      "visionNotes": "Kitchen visible in photo 2 with open-plan layout to living area, smooth-top electric stove, standard counter run; outdoor space in photo 5 is a shared building amenity deck, not private; living room is spacious with high ceilings and expansive windows."
+      "visionNotes": "Kitchen visible in photo 2 with open-plan layout to living area; flat-top electric stove with no visible grates; outdoor space in photo 5 is a shared building amenity (playground/rec area), not private; living room is spacious with ample floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -44951,73 +45810,73 @@ window.__APARTMENT_REPORT__ = {
         "office": {
           "minutes": 33,
           "lines": [
-            "4 Line",
-            "6 Train"
+            "F Line"
           ]
         },
         "prospectHeights": {
           "minutes": 19,
           "lines": [
-            "B45"
+            "B65"
           ]
         },
         "longIslandCity": {
-          "minutes": 37,
+          "minutes": 36,
           "lines": [
             "G Line"
           ]
         },
         "morningsideHeights": {
-          "minutes": 48,
+          "minutes": 49,
           "lines": [
-            "2 Line",
+            "F Line",
+            "B Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 43,
+          "minutes": 44,
           "lines": [
-            "2 Line",
-            "1 Line"
+            "F Line",
+            "B Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
+      "firstSeenAt": "2026-07-23T22:11:31.390Z",
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
+      "kitchenSize": "small",
+      "stoveType": "smoothElectric",
       "listing": {
-        "address": "151 South Elliott Place #3K, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 3,
+        "address": "333 Warren Street #4F, BROOKLYN, NY, 11201",
+        "availableDate": "2026-08-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-25",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-3k.png",
-        "neighborhood": "Fort Greene",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-333-warren-street-brooklyn-4f.png",
+        "neighborhood": "Boerum Hill",
         "photos": [
-          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/8cedb0fdab4a89c14d023fad36af6861-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/31ae8115ca8687be00a99258265bc308-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/37ab7502cc4231dae6e1653f7158dccc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5b94148ec4001549c3c619987d2dfc52-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e25a934c8b8c75ef9c533893df361c4f-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/903c21797d2fcfd5fe1f4d583c775063-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/36df71ea70634b31599570d3ca97ac78-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/74a26f646a37d5e8bc8c8ea9e8c416f8-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/acb508ab19574bf96b679aa3054232ed-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2f87bf19ba5af11bfa0aa86be7278e0d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/21217af737dd75cc7dd4eaada26b787e-se_large_800_400.webp"
         ],
-        "price": 5592,
+        "price": 4595,
         "sqft": null,
-        "title": "151 South Elliott Place #3K",
-        "url": "https://streeteasy.com/building/the-elliot/3k",
+        "title": "333 Warren Street #4F",
+        "url": "https://streeteasy.com/building/333-warren-street-brooklyn/4f",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 53.40881427323178,
+        "total": 53.44202980625931,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
@@ -45029,24 +45888,24 @@ window.__APARTMENT_REPORT__ = {
           "minutes": 33
         },
         "friends": {
-          "score": 37.525000000000006,
+          "score": 37.10000000000001,
           "weight": 0.12
         },
         "size": {
-          "score": 26.069588515450338,
+          "score": 17.75,
           "weight": 0.1,
           "sqft": null,
-          "bedrooms": 2
+          "bedrooms": 1
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "standard"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -45054,9 +45913,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 97.13855421686748,
+          "score": 66.30029806259314,
           "weight": 0.1,
-          "price": 5592
+          "price": 4595
         },
         "groundFloor": {
           "score": 100,
@@ -45064,8 +45923,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 53.40881427323178,
-      "visionNotes": "Kitchen is visible with gas range (visible burner knobs and grates), closed layout with pass-through to hallway/foyer only; living room appears modest in floor area; no outdoor space visible."
+      "rankScore": 53.44202980625931,
+      "visionNotes": "Kitchen is visible in photos 5-6 as a small open galley-style counter running along one wall, adjacent to and visually connected to the living/dining area; stove appears to be a smooth-top electric unit but angle and resolution make full certainty difficult; no private outdoor space visible; living room is spacious with good floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -45187,7 +46046,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.3253695976155,
-      "visionNotes": "Kitchen is visible in photos 1 and 4, showing a compact galley-style layout with limited counter/cabinet runs along two walls, closed off from the living area; the stove appears to have a flat black surface with no visible grates (smooth-top electric); living room is spacious with large floor area; no private outdoor space, only high-rise building views visible."
+      "visionNotes": "Kitchen is a small galley-style closed space with smooth-top electric range; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only shared city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -45308,7 +46167,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.309243992107284,
-      "visionNotes": "Kitchen is visible and open to a large living/dining area with full sightlines; gas range visible with burner grates; living room is spacious with expansive windows and generous floor area; no private outdoor space (rooftop shown in first image is shared building amenity)."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; gas range with visible burner grates; spacious living room with expansive floor area and skyline views; outdoor space shown is a shared building terrace, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -45554,7 +46413,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.15887853025989,
-      "visionNotes": "Kitchen is clearly visible in multiple photos with semi-open layout to living area; gas range with visible burner grates visible in photo 2; standard-length counter runs; large living room with extensive floor space visible across photos."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining areas; gas range with visible burner grates visible in photo 2; no private outdoor space shown; living room has spacious open floor plan."
     },
     {
       "buildingType": "Rental unit",
@@ -45675,7 +46534,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 53.08979724219315,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range with visible knobs; large terrace/outdoor space visible through glass doors; living room has generous floor space with appropriately-scaled furniture."
+      "visionNotes": "Kitchen is semi-open to living area via a partial wall/counter opening; smooth-top electric stove visible with control knobs; private terrace/outdoor space visible in photos 1-2; living room has generous floor area with multiple furniture pieces comfortably spaced."
     },
     {
       "buildingType": "Rental unit",
@@ -45797,7 +46656,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.95635320417288,
-      "visionNotes": "Kitchen is visible in photo 2, open to living/dining area with standard-length counter run; stove has flat smooth-top surface with knobs; living spaces are spacious; private outdoor terrace visible in photo 5."
+      "visionNotes": "Kitchen is visible in photo 2 with a flat smooth-top electric range and open layout to living area; living room is spacious with large floor area; outdoor space visible in photo 5 appears to be a private terrace."
     },
     {
       "buildingType": "Rental unit",
@@ -45919,7 +46778,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.925412666806075,
-      "visionNotes": "Kitchen is open to dining/living area with L-shaped counter run; smooth-top electric range visible; living room is genuinely compact despite professional staging; no private outdoor space visible."
+      "visionNotes": "Kitchen is L-shaped with good counter/cabinet run, semi-open to dining area; stove appears flat-top (no visible grates); living room has compact floor area despite high ceilings and professional staging; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -46042,7 +46901,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.85464977645305,
-      "visionNotes": "Kitchen is visible with gas cooktop (visible burner grates), separate from living areas; living room is spacious with floor-to-ceiling windows; no private outdoor space, only city views from building windows."
+      "visionNotes": "Kitchen visible in photo 3 with gas cooktop (visible burner grates), open to living area; living room in photo 1 is spacious with floor-to-ceiling windows; no private outdoor space beyond the windows which show shared cityscape; bathroom and bedroom also visible."
     },
     {
       "buildingType": "Rental unit",
@@ -46164,7 +47023,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.80266485013624,
-      "visionNotes": "Kitchen is visible and semi-open to living/dining area via island counter; galley portion shown in separate photo appears to be standard size with smooth-top electric range; living room has adequate floor space with hardwood floors; no outdoor space visible in any photos."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; galley layout visible in separate photo shows standard counter run; smooth-top range visible but at an angle making stove type moderately confident; no outdoor space shown; living room has good floor area with multiple furniture pieces fitting comfortably."
     },
     {
       "buildingType": "Rental unit",
@@ -46285,7 +47144,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.779627802690584,
-      "visionNotes": "Kitchen with island counter opens to living/dining area via pass-through; smooth-top electric range visible; living room is spacious with good floor area; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible with a pass-through counter to the living/dining area; smooth-top electric stove visible; living room has generous floor area with multiple seating zones; no private outdoor space visible."
     },
     {
       "buildingType": "Mixed-use building",
@@ -46408,7 +47267,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.77695885154503,
-      "visionNotes": "Kitchen is visible across multiple photos with gas range (visible grates), semi-open to dining/living areas via pass-through counter; living rooms appear cramped with modest floor space relative to NYC standards; no private outdoor space visible."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas range (burner grates visible); living room has notably constrained floor area with multiple furniture pieces filling the space tightly; no private outdoor space visible, only street-facing windows."
+    },
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 11,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 41,
+          "lines": [
+            "G Line",
+            "B69"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 19,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 41,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 34,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-28T13:00:01.613Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "small",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "27-21 44th Drive #406, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-16",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 3,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-25",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-harrison-27-21-44-drive-long-island-city-406.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/99c0b6402d0da1aaa2178ec74031fe12-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1482533367e491a4d246d837f03af2b9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/06a2bc7eb87428ad9db9e78a07aca0d9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/753a1b832397ecaea3fa8fc71a958113-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/2f72aecd1078f17ea5c41590a7de719b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/8245096e1c8f7d182930cd461a4d4b04-se_large_800_400.webp"
+        ],
+        "price": 4000,
+        "sqft": 632,
+        "title": "27-21 44th Drive #406",
+        "url": "https://streeteasy.com/building/the-harrison-27_21-44-drive-long_island_city/406",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 52.53721518987342,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 81.3,
+          "weight": 0.15,
+          "minutes": 11
+        },
+        "friends": {
+          "score": 42.625,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 8,
+          "weight": 0.1,
+          "sqft": 632,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 79.27215189873418,
+          "weight": 0.1,
+          "price": 4000
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 52.53721518987342,
+      "visionNotes": "Kitchen is visible with pass-through counter to living area; flat-top electric range; living room has good floor area despite high ceilings; no private outdoor space visible; last two photos are building amenities (gym), not unit."
     },
     {
       "buildingType": "Four-family home",
@@ -46532,7 +47513,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.426677727047036,
-      "visionNotes": "Open-plan kitchen with island peninsula opening to living/dining area; smooth-top electric range visible; no private outdoor space; spacious living room with generous floor area."
+      "visionNotes": "Kitchen is open to living/dining area with island peninsula; smooth-top range visible; spacious open floor plan with no private outdoor space evident."
     },
     {
       "buildingType": "Rental unit",
@@ -46653,7 +47634,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.36797893186632,
-      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; gas range visible with burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space (first image shows shared building roof deck/amenity space, not unit-exclusive garden)."
+      "visionNotes": "Kitchen is visible and open to a spacious living/dining area with NYC skyline views; gas stove with visible burner grates; no private outdoor space; living room has generous floor area with sofa, accent chairs, and island seating."
     },
     {
       "buildingType": "Rental unit",
@@ -46775,129 +47756,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.17148137108793,
-      "visionNotes": "Kitchen visible in photo 4 and 5 with semi-open layout to living/dining area; gas range with visible burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space visible, only shared building amenities (gym)."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 43,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "151 South Elliott Place #6N, BROOKLYN, NY, 11217",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 9,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-19",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-elliot-6n.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/472910d32bfca3a45814e1913bc30ee1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8cedb0fdab4a89c14d023fad36af6861-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/37ab7502cc4231dae6e1653f7158dccc-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d3bb5c2081eb7f5b903acd0e0e20f65f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4928a19c7de81c7f544329152db9147f-se_large_800_400.webp"
-        ],
-        "price": 6105,
-        "sqft": null,
-        "title": "151 South Elliott Place #6N",
-        "url": "https://streeteasy.com/building/the-elliot/6n",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 52.12116367082215,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 37.525000000000006,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 84.26204819277108,
-          "weight": 0.1,
-          "price": 6105
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 52.12116367082215,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), standard counter/cabinet run along two walls with island; living/dining area visible in photo 3 appears notably small with limited floor space; no outdoor space visible; no garden amenities shown."
+      "visionNotes": "Kitchen is visible and clearly open to the living/dining area with sightlines and shared space; gas range has visible burner grates; generous living room floor area with substantial walls distance and multiple furnishings; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -47020,7 +47879,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.06246199701937,
-      "visionNotes": "Kitchen is visible in photo 3 with gas range (visible burner grates), standard-length counter/cabinet run, semi-open to dining area; living room is spacious with ample floor area; outdoor space shown is a shared high-rise balcony/terrace, not private."
+      "visionNotes": "Kitchen is visible in photo 3 with a gas range (visible burner grates), semi-open to dining area; living room is spacious with generous floor area; outdoor space is a shared building terrace, not private garden."
     },
     {
       "buildingType": "Rental unit",
@@ -47140,7 +47999,249 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 52.05271684053651,
-      "visionNotes": "Kitchen visible in photo 1 with island peninsula opening to living area; smooth-top range visible but angle makes confirmation medium confidence; large living room with NYC skyline views; outdoor spaces shown are shared building amenities (gym, roof deck, courtyard), not private unit space."
+      "visionNotes": "First photo shows a modern kitchen with island that opens to a spacious living/dining area with NYC skyline views; stove appears to be smooth-top electric but angle makes it somewhat hard to confirm; outdoor spaces visible are shared building amenities (gym, rooftop deck, courtyard), not private unit space."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "M5"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 46,
+          "lines": [
+            "2 Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 36,
+          "lines": [
+            "3 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 18,
+          "lines": [
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 10,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-28T13:00:01.613Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": true,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "small",
+      "stoveType": "gas",
+      "listing": {
+        "address": "343 West End Avenue #1, NEW YORK, NY, 10024",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1.5,
+        "bedrooms": 1,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-343-west-end-avenue-new-york-1.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/2995923f75edcc1447c7e589e0a99ac9-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/366cf1e19e1aa5c38c4f7f114cb4936b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e5943a078c23981ab35a663f5aac1e30-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4f331122b8f999f0f4d71c661f45ca26-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/10c7929cedf2b2cafab98e7b2f3c9610-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f835eb40ea368f1dce0f858b39f80fde-se_large_800_400.webp"
+        ],
+        "price": 4450,
+        "sqft": null,
+        "title": "343 West End Avenue #1",
+        "url": "https://streeteasy.com/building/343-west-end-avenue-new_york/1",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "uwsIdeal",
+      "rankBreakdown": {
+        "total": 51.92026825633383,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "uwsIdeal"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 53.25,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 71.7026825633383,
+          "weight": 0.1,
+          "price": 4450
+        },
+        "groundFloor": {
+          "score": 0,
+          "weight": 0.04,
+          "isGroundFloor": true
+        }
+      },
+      "rankScore": 51.92026825633383,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area with a pass-through; small counter/cabinet run; spacious living room with fireplace and multiple windows, no private outdoor space."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 33,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 19,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 37,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 48,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 43,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-13T14:51:59.429Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "151 South Elliott Place #6K, BROOKLYN, NY, 11217",
+        "availableDate": "2026-09-01",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-6k.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/f504975ea78a1efc0b96dd7f3c138139-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9476675f69d7e5755624961fda2bca48-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5172f358c41c6d66bc46824308781bfb-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e689af4c481b7e9e6625fa5fca35738a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/73b14554393ddc686c959fa83fa2c3b3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3186f258ac0607c2712623f74f768e61-se_large_800_400.webp"
+        ],
+        "price": 6200,
+        "sqft": null,
+        "title": "151 South Elliott Place #6K",
+        "url": "https://streeteasy.com/building/the-elliot/6k",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 51.8827098555611,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 43.9,
+          "weight": 0.15,
+          "minutes": 33
+        },
+        "friends": {
+          "score": 37.525000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 81.87751004016064,
+          "weight": 0.1,
+          "price": 6200
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 51.8827098555611,
+      "visionNotes": "Kitchen is visible and closed off from living areas; smooth-top electric range with knobs visible; no private outdoor space; living room floor area is notably compact for a NYC unit."
     },
     {
       "buildingType": "Rental unit",
@@ -47264,7 +48365,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.86360473588343,
-      "visionNotes": "Kitchen is a closed galley layout with visible gas burner grates on the range; living room is spacious with multiple windows; last image shows shared building courtyard, not private outdoor space."
+      "visionNotes": "Kitchen is visible in photo 1 as a closed galley-style layout along one wall; stove has visible grates indicating gas; living room in photo 2 is spacious with multiple windows and good floor area; last photo shows shared building amenity space, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -47389,7 +48490,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.82229508196721,
-      "visionNotes": "Kitchen is visible in photo 4 with gas range (visible burner grates), open to dining area with island; living rooms are spacious with ample floor area; no private outdoor space visible, only high-rise views."
+      "visionNotes": "Kitchen visible in photo 4 with gas range (visible burner grates), semi-open to dining area via peninsula counter; living rooms appear spacious with ample floor area and high ceilings; no private outdoor space visible, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -47510,7 +48611,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.499357675111774,
-      "visionNotes": "Kitchen is clearly visible and open to the living/dining area with island seating; gas range with visible burner grates; spacious living room with Manhattan views; no private outdoor space for unit (first photo shows shared building amenity deck)."
+      "visionNotes": "Kitchen is visible and open to living/dining area with NYC skyline views; gas range confirmed by visible burner grates; living room is spacious with generous floor area and floor-to-ceiling windows; no private outdoor space (first image shows shared building terrace/roof deck)."
     },
     {
       "buildingType": "Rental unit",
@@ -47632,7 +48733,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.45999263998739,
-      "visionNotes": "Kitchen is visible in photo 2 with a small galley/one-wall layout opening to a dining area with a wooden table; the stove has a flat smooth-top surface with knobs and no visible grates; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible in photo 2, appears to be a small galley-style kitchen with pass-through to a dining area with table; stove surface looks flat but angle and reflection make it moderately hard to confirm type; living room in photo 1 shows decent floor area with sofa and chair; no outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -47754,129 +48855,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.42451713859911,
-      "visionNotes": "Kitchen is visible with island peninsula opening to living/dining area; smooth-top electric range; private terrace with floor-to-ceiling glass doors; spacious living room with high ceilings and panoramic city views."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 31,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 26,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 44,
-          "lines": [
-            "F Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 40,
-          "lines": [
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-18T16:35:12.175Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "55 Willoughby Street #30F, BROOKLYN, NY, 11201",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-house-55-30f.png",
-        "neighborhood": "Downtown Brooklyn",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a4e263c494148d9546f13385414decbc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/e8e17807ecbf3ebbf74b8566ad7cff46-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c5cb472f467f68b268032c9ac5709b32-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/79f0b2077e0d2dfafea0dc34ba6e272a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/67727a9f8a0f74cbc6a722a519de275f-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/29324d6d914fd0c7ac49ef06495762b6-se_extra_large_1500_800.webp"
-        ],
-        "price": 5200,
-        "sqft": null,
-        "title": "55 Willoughby Street #30F",
-        "url": "https://streeteasy.com/building/house-55/30f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 51.28993144560358,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 47.300000000000004,
-          "weight": 0.15,
-          "minutes": 31
-        },
-        "friends": {
-          "score": 33.7,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 43.75931445603576,
-          "weight": 0.1,
-          "price": 5200
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 51.28993144560358,
-      "visionNotes": "Kitchen visible in photo 5 with wood cabinetry and open layout to living/dining area; smooth-top stove inferred from flat dark surface (some glare/angle obscures certainty); living room is spacious with good floor area; no private outdoor space visible, only city views from windows."
+      "visionNotes": "Kitchen is visible and semi-open to living area via island counter; smooth-top electric stove visible; large terrace/balcony is private outdoor space; living room has generous floor area with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -47997,7 +48976,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.277646795827124,
-      "visionNotes": "Kitchen is open to living/dining area with island seating; gas range visible with burner grates; spacious open-plan layout with floor-to-ceiling windows; outdoor space is shared building rooftop amenity, not private."
+      "visionNotes": "Kitchen is visible and open to living area with island seating; gas range with visible burner grates; spacious living room with floor-to-ceiling windows; first photo shows shared building rooftop amenity, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -48118,7 +49097,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.254000000000005,
-      "visionNotes": "Kitchen with gas range is semi-open to dining area with island; living room is spacious with good floor area; no private outdoor space visible; last photo shows shared building amenity space, not unit-specific garden."
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area; gas range with visible burner grates; living room has good floor area with high ceilings; no private outdoor space visible; last photo shows common area, not unit space."
     },
     {
       "buildingType": "Rental unit",
@@ -48239,7 +49218,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.21992399403875,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; gas range with visible burner grates; living room is spacious with good floor area; no private outdoor space (only shared roof deck visible in first photo)."
+      "visionNotes": "Kitchen is clearly visible and open to a large living/dining area with NYC skyline views; gas range with visible burner grates; living room has spacious floor plan with multiple seating areas; first photo shows shared building rooftop amenity, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -48361,7 +49340,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.20667904509284,
-      "visionNotes": "Kitchen is visible in photos 1 and 2 with a peninsula/island opening to the living area; the stovetop appears smooth-top electric based on the flat surface visible, though angle makes full certainty difficult; living room is spacious with good floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with white cabinetry and smooth-top range, open via peninsula/island to living/dining area; living room has substantial floor area with multiple seating zones; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -48486,7 +49465,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 51.05850968703428,
-      "visionNotes": "Kitchen visible in photo 4 with gas range (visible burner grates), open to dining area with island; living room in photo 1 shows spacious layout with good floor area; no private outdoor space visible, only NYC skyline views from windows."
+      "visionNotes": "Kitchen visible in photo 4 with gas range (visible burner grates), semi-open to dining area; living room in photo 1 has substantial floor area; no private outdoor space visible (windows show city views but no terrace/garden)."
     },
     {
       "buildingType": "Rental unit",
@@ -48609,375 +49588,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.92566666666667,
-      "visionNotes": "Kitchen is visible with a small galley-style layout opening to living/dining area through an island counter; stove appears to be smooth-top electric (flat black surface, no visible grates); large floor-to-ceiling windows overlook cityscape but no private outdoor space; living room is spacious with appropriately scaled furniture."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 53,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "gas",
-      "listing": {
-        "address": "595 Dean Street #632, BROOKLYN, NY, 11238",
-        "availableDate": "2026-07-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 38,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-20",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-632.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
-        ],
-        "price": 4595,
-        "sqft": null,
-        "title": "595 Dean Street #632",
-        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/632",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 50.892029806259316,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.15,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 30.725000000000005,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 66.30029806259314,
-          "weight": 0.1,
-          "price": 4595
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 50.892029806259316,
-      "visionNotes": "Kitchen is visible in photos 4 and 7 with a pass-through window to living area (semi-open); compact galley-style layout with limited counter run; smooth-top electric range visible; living room is spacious with good floor area; no private outdoor space shown, only city views from windows."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 32,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 23,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 46,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 41,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "570 Fulton Street #16E, BROOKLYN, NY, 11217",
-        "availableDate": "2025-07-26",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 8,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-20",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-fulton-greene-16e.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/ff2b046b99eb60487e3e02edc8b94794-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/b8e8740fb4987f6a1b672d4771ddc3ef-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/311d607b62550b874b211d10ea2cd798-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a582ee4c0fd0f96e5b89ff08a3c517d5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7c09e5633b7153ab67b58c97dcde3a7f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/76176771bd6fccd78298084fe21b5b3a-se_large_800_400.webp"
-        ],
-        "price": 6750,
-        "sqft": null,
-        "title": "570 Fulton Street #16E",
-        "url": "https://streeteasy.com/building/fulton-greene/16e",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 50.75718776720768,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 45.6,
-          "weight": 0.15,
-          "minutes": 32
-        },
-        "friends": {
-          "score": 37.525,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 68.07228915662651,
-          "weight": 0.1,
-          "price": 6750
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 50.75718776720768,
-      "visionNotes": "Kitchen is L-shaped with counter run on two walls, smooth-top electric range visible; opens to dining area with shared sightline but separated by dining table placement; living room has limited floor space despite professional staging with appropriately scaled furniture."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 18,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 46,
-          "lines": [
-            "7",
-            "B Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 14,
-          "lines": [
-            "Q103"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 37,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 30,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "11-02 49th Avenue #7L, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 7,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-21",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-l-haus-7l.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/3c82aa116cfdfd9384bd180fe5cb2511-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9f389269421a9bb22bc6584da2a35025-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b2cce0c2cd9104a684968128157e2757-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c15c566ab150044e7da733c9971cf622-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3c2a363d781097edebcfc7175e431695-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/86297f3275ae8f8d41617b08293fc47f-se_large_800_400.webp"
-        ],
-        "price": 4150,
-        "sqft": 718,
-        "title": "11-02 49th Avenue #7L",
-        "url": "https://streeteasy.com/building/the-l-haus/7l",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 50.68313927576601,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 69.4,
-          "weight": 0.15,
-          "minutes": 18
-        },
-        "friends": {
-          "score": 46.025000000000006,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 29.5,
-          "weight": 0.1,
-          "sqft": 718,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 93.00139275766017,
-          "weight": 0.1,
-          "price": 4150
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 50.68313927576601,
-      "visionNotes": "Kitchen is visible with semi-open layout (counter peninsula opens to living/dining area); smooth-top electric range confirmed by flat cooktop surface with no visible grates; living room is genuinely compact despite minimal furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and opens to living area with island counter; stove is a flat smooth-top electric with no visible grates; the actual kitchen counter/cabinet run is compact; living room has generous floor space despite professional staging; no private outdoor space visible, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -49102,7 +49713,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.633716840536515,
-      "visionNotes": "Kitchen visible in photo 2 with open layout to living area, smooth-top electric range, standard counter/cabinet run; photo 5 shows shared building rooftop (not private garden); living rooms in photos 1, 4, 6 are spacious with ample floor area."
+      "visionNotes": "Kitchen visible in photo 2 with open layout to living area, smooth-top electric range, standard counter/cabinet run; outdoor space in photo 5 is shared building amenity, not private unit space; living room is spacious with ample floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -49223,7 +49834,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.573192429022086,
-      "visionNotes": "Kitchen visible in photo 2 with gas range (visible burner grates), closed layout separated from living areas; living room in photo 1 is spacious with good floor area and high ceilings; no private outdoor space visible; unit appears to be a high-rise apartment."
+      "visionNotes": "Kitchen is visible and enclosed with a window; gas range with visible burner grates; living room is spacious with good floor area; no private outdoor space visible, only high-rise views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -49344,7 +49955,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.56486140089419,
-      "visionNotes": "Kitchen is visible and open to living area with island; smooth-top electric range visible; outdoor spaces are shared building amenities (roof deck, pool), not private; living room is spacious with large windows."
+      "visionNotes": "Kitchen is visible in final photo with standard counter/cabinet run and smooth-top electric range; it opens to living/dining area via island; shared building amenities (pool, terrace) are not private outdoor space; living room has ample floor area with good sightlines."
     },
     {
       "buildingType": "Rental unit",
@@ -49384,34 +49995,34 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
+      "hasGarden": true,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "open",
       "kitchenSize": "standard",
-      "stoveType": "gas",
+      "stoveType": "smoothElectric",
       "listing": {
-        "address": "526 Baltic Street #3B, BROOKLYN, NY, 11217",
+        "address": "526 Baltic Street #11E, BROOKLYN, NY, 11217",
         "availableDate": "now",
-        "bathrooms": 2,
+        "bathrooms": 1,
         "bedrooms": 2,
         "daysOnMarket": 4,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
         "estimatedListingDate": "2026-07-24",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-3b.png",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-baltic-canal-11e.png",
         "neighborhood": "Boerum Hill",
         "photos": [
-          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d1f26f0114d14a9b2fbc73713e6f241d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/efea1a6b15d816008dc96d9b23299e06-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/119970b3d87a2e27920769a65c5f1ca0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/522dd2a1928d9463611dbbdcf9cf9f49-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5c4b02917d0798495ab69bf46b8c4724-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/558158031d23b8080fb4c1de20216558-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a0e27840fe9ba36fb59e7d1ee73b068f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/93b53ec62fc52917150d6631f25bbfd3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/9d6c5406b7438b22bcaec1199a97978a-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e55b6844c89ce41517ffca3c9b772345-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b40058e733b3233ef4775dac2049bb0c-se_large_800_400.webp"
         ],
-        "price": 5019,
+        "price": 5100,
         "sqft": null,
-        "title": "526 Baltic Street #3B",
-        "url": "https://streeteasy.com/building/the-baltic-canal/3b",
+        "title": "526 Baltic Street #11E",
+        "url": "https://streeteasy.com/building/the-baltic-canal/11e",
         "washerDryer": "yes"
       },
       "livingRoomSmall": true,
@@ -49457,7 +50068,7 @@ window.__APARTMENT_REPORT__ = {
         "value": {
           "score": 100,
           "weight": 0.1,
-          "price": 5019
+          "price": 5100
         },
         "groundFloor": {
           "score": 100,
@@ -49466,7 +50077,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.379958851545034,
-      "visionNotes": "Kitchen is visible with a gas range (visible burner grates), semi-open to the living/dining area via an island counter; living room is notably cramped with limited floor space; no private outdoor space, only building windows overlooking the street."
+      "visionNotes": "Kitchen is visible and closed-off from living areas; stove has a flat black cooktop surface with visible knobs (smooth-top electric); unit has a private terrace visible in photo 6; living room footprint is notably compact."
     },
     {
       "buildingType": "Rental unit",
@@ -49590,7 +50201,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.342737968010894,
-      "visionNotes": "Kitchen is semi-open to dining/living area with visible gas burner grates; living room is genuinely compact despite staged furniture; no private outdoor space visible."
+      "visionNotes": "Kitchen is open to dining/living area with visible gas range; living room floor area is notably compact with tight furniture placement typical of a small NYC apartment."
     },
     {
       "buildingType": "Rental unit",
@@ -49713,7 +50324,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.295904619970194,
-      "visionNotes": "Kitchen is visible in photos 4 and 7 with a pass-through counter to living area (semi-open); small galley-style kitchen with limited counter/cabinet run; gas stove visible with grates; living room is spacious with standard NYC proportions; no private outdoor space visible, only urban views from windows."
+      "visionNotes": "Kitchen visible in photos 4 and 7 with pass-through counter to living area; galley-style with limited counter run; smooth-top stove visible; living room is spacious with good floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -49834,253 +50445,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 50.15991207153502,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; gas range with visible burner grates; spacious living room with floor-to-ceiling windows; no private outdoor space (first image shows shared building rooftop amenity)."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 12,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "R Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 19,
-          "lines": [
-            "Q101"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "R Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 33,
-          "lines": [
-            "E Line",
-            "D Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "unknown",
-      "listing": {
-        "address": "42-06 Orchard Street #7C, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-orchard-42-06-orchard-street-7c.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e805d79e6a99617393ff28ef9695ae1b-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/211c16d987180f2cf3e89598b0b96e67-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/ef29331aff1290981ec26837c1d9dfc1-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/fa1399a612f36c3c85fa0fc2253c7b22-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/9dd7c18664039c01dee173e3a0e443fc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/84e6e5e943fbb9f6e4a52357aa395ffb-se_extra_large_1500_800.webp"
-        ],
-        "price": 6450,
-        "sqft": null,
-        "title": "42-06 Orchard Street #7C",
-        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/7c",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 49.922,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 79.6,
-          "weight": 0.15,
-          "minutes": 12
-        },
-        "friends": {
-          "score": 39.224999999999994,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 0,
-          "weight": 0.1,
-          "price": 6450
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 49.922,
-      "visionNotes": "Kitchen is visible in photo 5 with white cabinets and wood upper cabinetry; appears closed-off from living areas; smooth-top electric cooktop visible; living room in photo 4 is spacious with floor-to-ceiling windows; outdoor spaces in photos 1-3 are shared building amenities (rooftop terraces), not private."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 44,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 7,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 57,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 56,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "372 Saint John's Place #53, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 82,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-05-07",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-372-st-johns-place-brooklyn-53.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/6817acfe561c137d3145b6b6a73ba0cb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cb5f03ad261d91d096caf7a48f305155-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4d35c0b2a10b58cb9a9f9b79abb65a7b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5ed3759dac5682d4d83784d9c07b02ea-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dde40c043ea5a0e4859261a8aea38fc5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/34404d1e5bb6269561c1203f657f539d-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": null,
-        "title": "372 Saint John's Place #53",
-        "url": "https://streeteasy.com/building/372-st-johns-place-brooklyn/53",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 49.81797913561849,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 25.200000000000003,
-          "weight": 0.15,
-          "minutes": 44
-        },
-        "friends": {
-          "score": 27.325,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 69.83979135618479,
-          "weight": 0.1,
-          "price": 4500
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 49.81797913561849,
-      "visionNotes": "Kitchen is visible in multiple angles showing a compact galley-style layout with white cabinetry and smooth-top electric range; unit has a private rooftop deck; living areas appear spacious with good floor footage."
+      "visionNotes": "Kitchen is visible and open to living area with island; gas stove with visible grates; living room is spacious with large floor area; first photo shows shared building amenity space (rooftop), not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -50200,109 +50565,111 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.80596274217586,
-      "visionNotes": "Kitchen is visible and open to living/dining area with island; gas range with visible grates; living room has substantial floor space; outdoor space shown is a shared building amenity deck, not private."
+      "visionNotes": "Kitchen is visible and open to living/dining area with gas range (visible burner grates); living room is spacious with large windows and open floor plan; first image shows shared building rooftop amenity, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 28,
+          "minutes": 19,
           "lines": [
-            "M57"
+            "R Line",
+            "F Line"
           ]
         },
         "prospectHeights": {
-          "minutes": 56,
+          "minutes": 53,
           "lines": [
-            "M57",
-            "2 Line"
+            "R Line",
+            "Q Line"
           ]
         },
         "longIslandCity": {
-          "minutes": 41,
+          "minutes": 27,
           "lines": [
-            "1 Line",
-            "7"
+            "Q101"
           ]
         },
         "morningsideHeights": {
-          "minutes": 26,
+          "minutes": 46,
           "lines": [
+            "R Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 18,
+          "minutes": 41,
           "lines": [
-            "M11"
+            "R Line",
+            "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-15T15:18:49.252Z",
-      "hasGarden": true,
+      "firstSeenAt": "2026-07-10T11:56:25.226Z",
+      "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
       "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
+      "kitchenSize": "small",
+      "stoveType": "smoothElectric",
       "listing": {
-        "address": "101 West End Avenue #17A, NEW YORK, NY, 10069",
-        "availableDate": "now",
-        "bathrooms": 1.5,
-        "bedrooms": 1,
-        "daysOnMarket": 9,
+        "address": "37-25 32nd Street #4C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-20",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 2,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-19",
-        "externalScreenshot": "screenshots/streeteasy-com-building-101-west-end-avenue-new-york-17a.png",
-        "neighborhood": "Lincoln Square",
+        "estimatedListingDate": "2026-07-26",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-auberge-4c.png",
+        "neighborhood": "Long Island City",
         "photos": [
-          "https://photos.zillowstatic.com/fp/4fc2b7088043ab3bb617fa0e84e5be8a-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d07cae5ea47fa615ded40ff1fcfe6818-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/035532b16c2162bdf7f8e64b34fc046e-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/c32f02a8641cda30556cecd678b8ccf4-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/651d13baf1addbda4eedcb7818072b0c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/d3f0c6d3109d994b2231d63e633d232e-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/23f2bd67d208bbe3d91ed0a0e58e6079-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/68754074c84d561c6815f338cfe36fb4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/bfb50cbca35e82e74174fe7242949546-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f4587b981854e8bd6b9318c7b9b260ff-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/d30dee19105966302ba2875f6cb07ff3-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dcd4db0f8d5d1b529f3ad6f5f85152ed-se_large_800_400.webp"
         ],
-        "price": 6995,
-        "sqft": 863,
-        "title": "101 West End Avenue #17A",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/17a",
+        "price": 5200,
+        "sqft": null,
+        "title": "37-25 32nd Street #4C",
+        "url": "https://streeteasy.com/building/the-auberge/4c",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
+      "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 49.73038470451912,
+        "total": 49.744958851545036,
         "neighborhood": {
-          "score": 80,
+          "score": 30,
           "weight": 0.15,
-          "tier": "uwsAcceptable"
+          "tier": "other"
         },
         "office": {
-          "score": 52.4,
+          "score": 67.7,
           "weight": 0.15,
-          "minutes": 28
+          "minutes": 19
         },
         "friends": {
-          "score": 40.075,
+          "score": 29.025,
           "weight": 0.12
         },
         "size": {
-          "score": 65.75,
+          "score": 26.069588515450338,
           "weight": 0.1,
-          "sqft": 863,
-          "bedrooms": 1
+          "sqft": null,
+          "bedrooms": 2
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
-          "score": 50,
+          "score": 0,
           "weight": 0.16,
-          "size": "standard"
+          "size": "small"
         },
         "condo": {
           "score": 50,
@@ -50310,9 +50677,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 34.86384704519119,
+          "score": 100,
           "weight": 0.1,
-          "price": 6995
+          "price": 5200
         },
         "groundFloor": {
           "score": 100,
@@ -50320,8 +50687,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 49.73038470451912,
-      "visionNotes": "Kitchen is visible and open to living space with gas range (visible grates); living room appears compact with modest floor area; last photo shows shared building courtyard/playground, not private outdoor space."
+      "rankScore": 49.744958851545036,
+      "visionNotes": "Galley kitchen fully enclosed from living areas; flat-top electric range visible but at an angle making full confidence difficult; living room appears spacious with large windows and good floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Condo",
@@ -50442,7 +50809,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.68859887798036,
-      "visionNotes": "Kitchen is visible with a counter island opening to the living/dining area; gas range clearly visible with metal grates; living room is notably compact with limited floor space typical of a micro/junior one-bedroom; no private outdoor space evident."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via counter pass-through; smooth-top electric range with flat surface and no visible grates; living room floor area is notably compact with limited space between walls and furniture despite high ceilings; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -50563,7 +50930,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.626,
-      "visionNotes": "Kitchen is visible in first photo, appears to be open to the dining/living area with minimal counter run; no stove visible in any photo; living room is spacious with good sightlines and floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen visible in first photo, open to dining/living area with a short counter run, but no stove/appliances clearly visible; living room has generous floor area despite high ceilings; no outdoor space evident."
     },
     {
       "buildingType": "Rental unit",
@@ -50685,7 +51052,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.414408759124086,
-      "visionNotes": "Kitchen is visible with gas range (visible grates), semi-open to dining/living area; outdoor space is a shared building terrace, not private; living room has good sightlines and floor area despite professional staging."
+      "visionNotes": "Kitchen is visible and open to living/dining area; gas range with visible burner grates; private terrace/balcony visible with city views; living room has adequate floor area with multiple furniture pieces fitting comfortably."
     },
     {
       "buildingType": "Rental unit",
@@ -50806,7 +51173,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.39612667660209,
-      "visionNotes": "Kitchen is visible and semi-open to living/dining area with island; gas range with visible burner grates; spacious living room with NYC skyline views; no private outdoor space for unit (first photo shows shared building amenity deck)."
+      "visionNotes": "Kitchen is visible with semi-open layout to living/dining area via island counter; gas range with visible burner grates; living room is spacious with good floor area; first image shows shared building terrace, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -50926,7 +51293,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.30011949411532,
-      "visionNotes": "Kitchen visible in last photo with pass-through counter to living area; private outdoor terrace shown in photo 3; living room is spacious with extensive windows and good floor area."
+      "visionNotes": "Kitchen is visible in the last photo with a pass-through counter to the living area; it has a compact footprint with minimal counter run, and there is private outdoor waterfront terrace access visible in photo 3."
     },
     {
       "buildingType": "Rental unit",
@@ -51046,7 +51413,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 49.06646085957716,
-      "visionNotes": "Kitchen is visible in photo 3 with a pass-through counter to living/dining area; compact single-wall layout; stove appears to have burner grates visible but angle/reflection makes confidence medium; no private outdoor space; living room is generously proportioned with multiple seating areas and floor space."
+      "visionNotes": "Kitchen is visible in photo 3 with a compact counter run and bar seating opening to the living/dining area; stove appears to be smooth-top electric but angle limits certainty; living rooms are spacious with large windows and significant floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -51167,129 +51534,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 48.18157526080477,
-      "visionNotes": "Kitchen is visible and open to living/dining areas with island seating; gas range with visible burner grates; living room is spacious with multiple seating zones; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 20,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 48,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "Q Line",
-            "M Line",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 39,
-          "lines": [
-            "M79-SBS",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 23,
-          "lines": [
-            "M86-SBS"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-27T22:00:05.452Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "gas",
-      "listing": {
-        "address": "331 East 81st Street #2R, NEW YORK, NY, 10028",
-        "availableDate": "2026-08-01",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-331-east-81-street-new-york-2r.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/780011f6a28e3bdffa49fb9353d02fa3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/a34e90da092557c679f4c74526c321d5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c351556d227fdfffcf1ca9d7e8a1d661-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/77712cd548498e07edd21c1f166a09a6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/43c08b2c8082677cfd9df9270d273370-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/50c5af4eea45113c6c66f3ac47f3c1f4-se_large_800_400.webp"
-        ],
-        "price": 6500,
-        "sqft": null,
-        "title": "331 East 81st Street #2R",
-        "url": "https://streeteasy.com/building/331-east-81-street-new_york/2r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 47.99569780736833,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 66,
-          "weight": 0.15,
-          "minutes": 20
-        },
-        "friends": {
-          "score": 37.95,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 74.34738955823292,
-          "weight": 0.1,
-          "price": 6500
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 47.99569780736833,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), compact galley-style layout with island peninsula opening to living area; living room appears spacious with exposed brick; outdoor space visible through large sliding glass doors showing tree/vegetation (likely fire escape or shared outdoor area rather than private garden, but some outdoor access present)."
+      "visionNotes": "Kitchen is clearly visible and open to living/dining area with island seating; gas stove with visible burner grates seen in photo 2; living room has generous floor space with multiple furniture pieces; no private outdoor space visible, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -51410,7 +51655,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.849926974664676,
-      "visionNotes": "Kitchen is visible in photo 3 with open sightline to living/dining area; stove has visible burner grates indicating gas; living room is spacious with floor-to-ceiling windows; first photo shows shared building terrace, not private outdoor space."
+      "visionNotes": "Kitchen is semi-open to living/dining area via island counter; gas range visible with burner grates; living room has expansive floor area with floor-to-ceiling windows; first photo shows shared building terrace, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -51531,7 +51776,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.81083308494784,
-      "visionNotes": "Kitchen is visible and open to living area with island seating; gas range with visible burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space (shared rooftop shown in first photo)."
+      "visionNotes": "Kitchen is visible and open to living/dining area with island seating; gas range with visible grates; living room has spacious floor area; first photo shows shared building terrace, not private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -51653,128 +51898,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.26126193921853,
-      "visionNotes": "Kitchen is a small galley-style enclosed space with gas range visible; living room is spacious with floor-to-ceiling windows and ample floor area; no outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 23,
-          "lines": [
-            "7",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 49,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 4,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 42,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109",
-        "availableDate": "now",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 4,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-24",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-47-05-center-blvd-long-island-city-1001.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/bcb7cd364f53671981b4f411034f2a65-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/06ee415271eff2cef71539af9ff59d03-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/15c461dd13a957d6621476bc983c5ae8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/f08573cab3b10317aa8a589a8b442c47-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7ffeaf9ed314c2465f8f3cc201c223dc-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a53874e95e207b9bc3fbc461898328ce-se_extra_large_1500_800.webp"
-        ],
-        "price": 6795,
-        "sqft": null,
-        "title": "47-05 Center Boulevard #1001",
-        "url": "https://streeteasy.com/building/47_05-center-blvd-long_island_city/1001",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 47.255235959978776,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 60.9,
-          "weight": 0.15,
-          "minutes": 23
-        },
-        "friends": {
-          "score": 44.325,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 66.94277108433735,
-          "weight": 0.1,
-          "price": 6795
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 47.255235959978776,
-      "visionNotes": "Kitchen is visible with a peninsula counter opening to living/dining area (semi-open); compact counter/cabinet run indicates small kitchen; smooth glass cooktop visible with no grates; large living room with floor-to-ceiling windows and abundant space; no private outdoor space visible."
+      "visionNotes": "Kitchen is a narrow galley with limited counter run separated from living area; gas stove visible with burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -51895,7 +52019,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.25380178837556,
-      "visionNotes": "Kitchen is clearly visible and open to a spacious living/dining area with Manhattan skyline views; gas range with visible burner grates; living room is generous in size; first photo shows a shared rooftop amenity space, not private outdoor space."
+      "visionNotes": "Kitchen is visible and open to a large living/dining area with skyline views; gas range with visible burner grates; living room has expansive floor space; first image shows shared building rooftop amenity space, not private garden."
     },
     {
       "buildingType": "Rental unit",
@@ -52017,7 +52141,129 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 47.24756509298999,
-      "visionNotes": "Kitchen is visible across multiple photos with a one-wall counter run opening to the living/dining area; stove appears to have burner grates visible but angle/resolution makes confidence medium; no private outdoor space visible; living room is spacious with floor-to-ceiling windows and adequate floor area."
+      "visionNotes": "Kitchen is visible in multiple photos with a one-wall layout opening to living/dining area; gas range with visible burner grates; no private outdoor space visible; living room has substantial floor area with floor-to-ceiling windows."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 31,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 26,
+          "lines": [
+            "B45"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 44,
+          "lines": [
+            "F Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 40,
+          "lines": [
+            "A Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "55 Willoughby Street #35F, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-house-55-35f.png",
+        "neighborhood": "Downtown Brooklyn",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/d5aff62562c8bb44beaada2e2c6ad73e-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/d55e651252cdc9b2877ce42505bb6455-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ba5c9b6bc8cb498395a3a64b53573673-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a4e263c494148d9546f13385414decbc-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e8e17807ecbf3ebbf74b8566ad7cff46-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/c5cb472f467f68b268032c9ac5709b32-se_extra_large_1500_800.webp"
+        ],
+        "price": 5275,
+        "sqft": null,
+        "title": "55 Willoughby Street #35F",
+        "url": "https://streeteasy.com/building/house-55/35f",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 47.010497764530555,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 47.300000000000004,
+          "weight": 0.15,
+          "minutes": 31
+        },
+        "friends": {
+          "score": 33.7,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 40.96497764530551,
+          "weight": 0.1,
+          "price": 5275
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 47.010497764530555,
+      "visionNotes": "Kitchen is visible in photo 1 with U-shaped closed layout and smooth-top electric range; no outdoor space visible; bedroom photos show high ceilings but living area appears compact based on visible furniture configuration and counter run."
     },
     {
       "buildingType": "Rental unit",
@@ -52139,7 +52385,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.9242972972973,
-      "visionNotes": "Kitchen is visible with a pass-through counter opening to living area; compact counter/cabinet run with small appliances; stove appears flat-top but angle and reflection make confirmation moderately difficult; living room is spacious with floor-to-ceiling windows and substantial seating area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a pass-through counter to the living area; compact galley-style layout with limited counter run; stove appears to be smooth-top electric but angle and reflection make it somewhat difficult to confirm; living room is spacious with floor-to-ceiling windows and ample floor area; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -52260,7 +52506,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.878469448584205,
-      "visionNotes": "Kitchen is visible and open to the living area with a peninsula island; smooth-top electric range visible; living room is spacious with floor-to-ceiling windows overlooking water; no private garden/yard, only shared rooftop pool amenity visible in first photo."
+      "visionNotes": "Kitchen is visible and open to the living area with island; smooth-top electric range visible; living room has generous floor space; no private garden, though building has shared amenities including rooftop pool."
     },
     {
       "buildingType": "Rental unit",
@@ -52381,7 +52627,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.72730551415797,
-      "visionNotes": "Kitchen is visible and open to living area with island; smooth-top electric range; building has shared amenity spaces (pool, terrace) not private outdoor space; living room is spacious with good floor area."
+      "visionNotes": "Kitchen is visible and open to living area with island; smooth-top electric range visible; outdoor spaces shown are shared building amenities (terrace/pool deck, not private); living room has generous floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -52502,7 +52748,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.6949344262295,
-      "visionNotes": "Kitchen is open to living/dining area with island peninsula; gas range visible with burner grates; living room has generous floor space; no private outdoor space (terrace shown is shared building amenity)."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas burner grates; living room is spacious with floor-to-ceiling windows; no private outdoor space for the unit (first image shows shared rooftop amenity area, not a private garden)."
     },
     {
       "buildingType": "Rental unit",
@@ -52623,7 +52869,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.6900476900149,
-      "visionNotes": "Kitchen is open to living/dining area with island; smooth-top electric range visible; shared building amenities (terrace, pool) not private outdoor space; living room appears spacious with good floor area."
+      "visionNotes": "Kitchen is visible and open to a spacious living/dining area with an island; smooth-top electric range visible; outdoor spaces are shared building amenities (rooftop terrace and pool), not private; living room has generous floor space with floor-to-ceiling windows."
     },
     {
       "buildingType": "Rental unit",
@@ -52756,128 +53002,6 @@ window.__APARTMENT_REPORT__ = {
           ]
         },
         "prospectHeights": {
-          "minutes": 52,
-          "lines": [
-            "N Line",
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 22,
-          "lines": [
-            "7X"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 43,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 36,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "42-20 24th Street #36J, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 29,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-29",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-1-qps-036j.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/a1f82394cab036d22e11fd553ca277f4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f209b93f3cbb043440a65682cf912fa7-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9fabda02ebccfc30c74ab57645da4f5f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/834e316ccd2fa1811aadd9b44fb9a285-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e2fe61fda27f03c48569c486d42d7120-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/8abb124017f572a484b086ce2d7838e7-se_large_800_400.webp"
-        ],
-        "price": 5109,
-        "sqft": 691,
-        "title": "42-20 24th Street #36J",
-        "url": "https://streeteasy.com/building/1-qps/036j",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 46.66791895803184,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 76.2,
-          "weight": 0.15,
-          "minutes": 14
-        },
-        "friends": {
-          "score": 34.97500000000001,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 22.75,
-          "weight": 0.1,
-          "sqft": 691,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 52.65918958031839,
-          "weight": 0.1,
-          "price": 5109
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 46.66791895803184,
-      "visionNotes": "Kitchen is visible with a small counter run and island; it opens semi-openly to dining area but is somewhat confined; smooth-top electric range visible but at an angle; living room is spacious with floor-to-ceiling windows; no outdoor private space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 14,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
           "minutes": 51,
           "lines": [
             "N Line",
@@ -52988,7 +53112,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.63635809806835,
-      "visionNotes": "Kitchen is visible in photo 3 with a small counter/cabinet run and island peninsula; it opens partially to a dining area but with limited built-in work surface; living room is spacious with floor-to-ceiling windows and generous floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible in photo 3 with a peninsula opening to dining area; it has a short counter run with limited storage, appearing small despite the island; smooth-top cooktop visible; living areas are spacious high-rise rooms with floor-to-ceiling windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -53109,7 +53233,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.541016393442625,
-      "visionNotes": "Kitchen is open to living/dining area with standard counter run; smooth-top electric range visible; outdoor spaces are shared building amenities (rooftop terrace, pool deck); living room is spacious with floor-to-ceiling windows."
+      "visionNotes": "Kitchen is visible in final photo with semi-open layout to living area; smooth-top electric range visible; living room appears spacious with generous floor area; outdoor spaces shown are shared building amenities (rooftop terrace, pool deck), not private."
     },
     {
       "buildingType": "Rental unit",
@@ -53231,7 +53355,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.464,
-      "visionNotes": "Kitchen is visible with stainless appliances and a small counter run; it opens partially into the living/dining area via a peninsula counter; living room appears standard-sized for NYC with good floor space; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible and opens directly into the living/dining area with clear sightlines; the built-in counter and appliance run is compact and short, indicating a small kitchen; the stove appears to be smooth-top electric based on flat surface visible, though angle makes full confirmation difficult; living room has ample floor space despite professional staging; no private outdoor space visible, only building exterior through windows."
     },
     {
       "buildingType": "Rental unit",
@@ -53351,7 +53475,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.41980327868852,
-      "visionNotes": "Kitchen is visible in photo 5 with a small counter run and bar seating; it opens partially to the living area but feels compact; living room is spacious with good floor area and river views; no private outdoor space, only shared building amenities."
+      "visionNotes": "Kitchen is visible in photo 5 with a pass-through counter opening to living area; small galley-style layout with limited counter run; living room is spacious with multiple seating areas and large windows; outdoor space shown is shared building courtyard/waterfront amenity, not private."
     },
     {
       "buildingType": "Rental unit",
@@ -53471,7 +53595,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 46.117279635258356,
-      "visionNotes": "Kitchen is visible with a peninsula/island counter opening to living area; smooth-top electric stove with flat black surface and no visible grates; spacious living room with expansive windows and adequate floor space; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a peninsula/island opening to living area; smooth-top electric range; living room has substantial floor area with full-wall windows; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -53592,44 +53716,41 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.893,
-      "visionNotes": "Kitchen is visible with open layout to living area; smooth-top electric range visible; living room has generous floor space with waterfront views; no private outdoor space (shared amenity pool shown in first image)."
+      "visionNotes": "Kitchen is visible and open to living area with island; smooth-top electric range; living room has generous floor space; no private outdoor space visible, though building has shared amenities (pool/deck in photo 1)."
     },
     {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 33,
+          "minutes": 40,
           "lines": [
-            "C Line",
-            "5 Line",
+            "2 Line",
+            "4 Line",
             "6 Train"
           ]
         },
         "prospectHeights": {
           "minutes": 10,
-          "lines": [
-            "B69"
-          ]
+          "lines": []
         },
         "longIslandCity": {
-          "minutes": 41,
+          "minutes": 53,
           "lines": [
-            "C Line",
-            "G Line"
+            "3 Line",
+            "5 Line",
+            "7"
           ]
         },
         "morningsideHeights": {
-          "minutes": 49,
+          "minutes": 53,
           "lines": [
-            "C Line",
             "2 Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 44,
+          "minutes": 47,
           "lines": [
-            "C Line",
             "2 Line",
             "1 Line"
           ]
@@ -53639,62 +53760,62 @@ window.__APARTMENT_REPORT__ = {
       "hasGarden": false,
       "isCondo": false,
       "isGroundFloor": false,
-      "kitchenLayout": "open",
+      "kitchenLayout": "semi-open",
       "kitchenSize": "small",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "899 Fulton Street #2I, BROOKLYN, NY, 11238",
+        "address": "595 Dean Street #834, BROOKLYN, NY, 11238",
         "availableDate": "now",
         "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 10,
+        "bedrooms": 1,
+        "daysOnMarket": 24,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-18",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-899-fulton-street-brooklyn-2i.png",
-        "neighborhood": "Clinton Hill",
+        "estimatedListingDate": "2026-07-04",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-834.png",
+        "neighborhood": "Prospect Heights",
         "photos": [
-          "https://photos.zillowstatic.com/fp/123f75274670175a5f5f906089b3ad27-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/123f75274670175a5f5f906089b3ad27-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/07137219b1de1b70d80818b22c68fc23-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/7627d4884b30790e56c9e97e98e582ba-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/5bf946f71d979032bbd472e24cd1a9cb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/cb1c8a7bee2fd18a8e4c8508b1c68d56-se_extra_large_1500_800.webp"
+          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
         ],
-        "price": 5575,
+        "price": 5985,
         "sqft": null,
-        "title": "899 Fulton Street #2I",
-        "url": "https://streeteasy.com/building/899-fulton-street-brooklyn/2i",
+        "title": "595 Dean Street #834",
+        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/834",
         "washerDryer": "yes"
       },
-      "livingRoomSmall": true,
+      "livingRoomSmall": false,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 45.604484955962704,
+        "total": 45.71319225037258,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
           "tier": "brooklyn"
         },
         "office": {
-          "score": 43.9,
+          "score": 32,
           "weight": 0.15,
-          "minutes": 33
+          "minutes": 40
         },
         "friends": {
-          "score": 38.8,
+          "score": 30.725000000000005,
           "weight": 0.12
         },
         "size": {
-          "score": 26.069588515450338,
+          "score": 17.75,
           "weight": 0.1,
           "sqft": null,
-          "bedrooms": 2
+          "bedrooms": 1
         },
         "livingRoom": {
-          "score": 0,
+          "score": 100,
           "weight": 0.12,
-          "small": true
+          "small": false
         },
         "kitchenSize": {
           "score": 0,
@@ -53707,9 +53828,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 97.56526104417671,
+          "score": 14.511922503725799,
           "weight": 0.1,
-          "price": 5575
+          "price": 5985
         },
         "groundFloor": {
           "score": 100,
@@ -53717,8 +53838,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 45.604484955962704,
-      "visionNotes": "Kitchen is a closed galley with a short single-wall counter run and smooth-top electric range; living areas are compact; unit has private balcony/terrace visible in photos."
+      "rankScore": 45.71319225037258,
+      "visionNotes": "Kitchen is visible in photos 4 and 7—a small galley-style with limited counter run, semi-open to living area via pass-through counter; stove appears smooth-top electric (flat surface, no visible grates); living room has substantial floor area with generous spacing; no private outdoor space visible, only city views from windows."
     },
     {
       "buildingType": "Rental unit",
@@ -53840,7 +53961,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.24817170295066,
-      "visionNotes": "Kitchen is a small closed galley with smooth-top electric range and white quartz island counter; living room visible in photo 2 is narrow and compact with minimal floor space; no outdoor space shown."
+      "visionNotes": "Kitchen is visible with a closed layout (isolated from living areas), compact with island counter, smooth-top stove; living room appears cramped with limited floor area; no outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -53962,7 +54083,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.180400618613305,
-      "visionNotes": "Kitchen is a small galley/closed layout with gas range visible in first two photos; living room is cramped with minimal floor space; no outdoor space shown."
+      "visionNotes": "Kitchen is visible with a stove showing visible burner grates (gas), compact single-wall layout with island; living room visible beyond is notably cramped with minimal floor area."
     },
     {
       "buildingType": "Rental unit",
@@ -54081,7 +54202,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 45.05673796801091,
-      "visionNotes": "Kitchen is visible and open to living area with visible gas burner grates; small one-wall layout; private brick-enclosed outdoor terrace visible in first photo; living room is genuinely compact despite professional staging."
+      "visionNotes": "Kitchen is visible with gas range (visible grates), semi-open to living area; small galley-style counter run; living room is notably compact with modest floor area; private garden/terrace visible in first photo."
     },
     {
       "buildingType": "Condo",
@@ -54093,67 +54214,69 @@ window.__APARTMENT_REPORT__ = {
           ]
         },
         "prospectHeights": {
-          "minutes": 45,
+          "minutes": 44,
           "lines": [
-            "F Line",
-            "B Line"
+            "G Line",
+            "B69"
           ]
         },
         "longIslandCity": {
-          "minutes": 16,
+          "minutes": 18,
           "lines": []
         },
         "morningsideHeights": {
-          "minutes": 41,
+          "minutes": 36,
           "lines": [
-            "7X",
+            "E Line",
+            "B Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 34,
+          "minutes": 30,
           "lines": [
-            "7X",
+            "E Line",
+            "D Line",
             "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-25T13:00:05.514Z",
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
       "hasGarden": false,
       "isCondo": true,
       "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "21-45 44th Drive #2G, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "2026-09-11",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 1,
+        "address": "3 Court Square #5604, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 23,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-industry-2g.png",
+        "estimatedListingDate": "2026-07-05",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-skyline-tower-5604.png",
         "neighborhood": "Hunters Point",
         "photos": [
-          "https://photos.zillowstatic.com/fp/b36f400f2eda6e4b237282dc62141fee-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3e9b485bbd9efcdc5276f7126f85edd8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/20fc8d99ee60ed79ebb47cdc0750c490-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1d86177dcd7dd31e77767eefe7af9fcf-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/09ff95c84850b2d7d34c75ca0bfa2ec8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7a7e5213b163499b440bdce31f2246cc-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/93b36a81a2dded79d96a499bbbf8b2b7-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/93b36a81a2dded79d96a499bbbf8b2b7-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/6e01c86e09a106b71b6def79de58466d-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/1d5b6d90d1a286d858455155bbee9892-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/67047b6efcbfa02bc4e23b18e8dd7e99-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/134684df64ee0a4c04e138a5a107256a-se_large_800_400.webp"
         ],
-        "price": 6000,
-        "sqft": 1025,
-        "title": "21-45 44th Drive #2G",
-        "url": "https://streeteasy.com/building/the-industry/2g",
+        "price": 5200,
+        "sqft": 635,
+        "title": "3 Court Square #5604",
+        "url": "https://streeteasy.com/building/skyline-tower/5604",
         "washerDryer": "yes"
       },
       "livingRoomSmall": true,
-      "needsEarlyAction": true,
+      "needsEarlyAction": false,
       "neighborhoodTier": "other",
       "rankBreakdown": {
-        "total": 44.50446492644186,
+        "total": 44.82955905511811,
         "neighborhood": {
           "score": 30,
           "weight": 0.15,
@@ -54165,134 +54288,13 @@ window.__APARTMENT_REPORT__ = {
           "minutes": 9
         },
         "friends": {
-          "score": 42.2,
+          "score": 45.60000000000001,
           "weight": 0.12
         },
         "size": {
-          "score": 31.19611267905279,
+          "score": 8.75,
           "weight": 0.1,
-          "sqft": 1025,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 91.15853658536585,
-          "weight": 0.1,
-          "price": 6000
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 44.50446492644186,
-      "visionNotes": "Kitchen is visible in photo 3 and 7, with a small counter run and island; semi-open to living/dining; smooth-top electric range visible; living room in photo 1 and 3 shows compact floor space typical of a small NYC studio/one-bed; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Three-family home",
-      "commute": {
-        "office": {
-          "minutes": 43,
-          "lines": [
-            "C Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 42,
-          "lines": [
-            "C Line",
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 51,
-          "lines": [
-            "C Line",
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 51,
-          "lines": [
-            "C Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-21T13:00:05.902Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": true,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "576 Washington Avenue #1B, BROOKLYN, NY, 11238",
-        "availableDate": "2026-09-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-576-washington-avenue-brooklyn-1b.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/e25ca4b042860da78fcc7f46267bcbc1-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7affe3f6acb9dc7dbcf32331c155a372-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/f26bcc4f9fd869d4cb04a4f1cafef806-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e60bde6be233c852365b8f59ac0f9083-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/dba9d7d80f9af861b438025cedaa38e0-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/93515223e192aa4de60eecc43a042c43-se_large_800_400.webp"
-        ],
-        "price": 4500,
-        "sqft": 700,
-        "title": "576 Washington Avenue #1B",
-        "url": "https://streeteasy.com/building/576-washington-avenue-brooklyn/1b",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 44.35957142857143,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 26.900000000000006,
-          "weight": 0.15,
-          "minutes": 43
-        },
-        "friends": {
-          "score": 34.55,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 25,
-          "weight": 0.1,
-          "sqft": 700,
+          "sqft": 635,
           "bedrooms": 1
         },
         "livingRoom": {
@@ -54306,23 +54308,23 @@ window.__APARTMENT_REPORT__ = {
           "size": "standard"
         },
         "condo": {
-          "score": 50,
+          "score": 100,
           "weight": 0.06,
-          "isCondo": false
+          "isCondo": true
         },
         "value": {
-          "score": 76.78571428571428,
+          "score": 32.77559055118111,
           "weight": 0.1,
-          "price": 4500
+          "price": 5200
         },
         "groundFloor": {
-          "score": 0,
+          "score": 100,
           "weight": 0.04,
-          "isGroundFloor": true
+          "isGroundFloor": false
         }
       },
-      "rankScore": 44.35957142857143,
-      "visionNotes": "Open-plan kitchen with island counter visible in multiple shots; kitchen has standard-length counter run but no stove/range clearly visible in any photo; living room is noticeably compact with modest floor area; no private outdoor space shown."
+      "rankScore": 44.82955905511811,
+      "visionNotes": "Kitchen is visible with semi-open layout to dining area via island; smooth-top electric range visible; living room floor area is compact for NYC; no private outdoor space, only shared building amenities (pool shown)."
     },
     {
       "buildingType": "Condo",
@@ -54444,129 +54446,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 44.252,
-      "visionNotes": "Kitchen is semi-open to living/dining area with clear sightlines; gas range visible with burner grates; living room floor space is notably compact for a NYC one-bedroom; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B45"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 37,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 48,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 43,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-13T14:51:59.429Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "151 South Elliott Place #6K, BROOKLYN, NY, 11217",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 1,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-elliot-6k.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/f504975ea78a1efc0b96dd7f3c138139-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/9476675f69d7e5755624961fda2bca48-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5172f358c41c6d66bc46824308781bfb-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/e689af4c481b7e9e6625fa5fca35738a-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/73b14554393ddc686c959fa83fa2c3b3-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3186f258ac0607c2712623f74f768e61-se_large_800_400.webp"
-        ],
-        "price": 6200,
-        "sqft": null,
-        "title": "151 South Elliott Place #6K",
-        "url": "https://streeteasy.com/building/the-elliot/6k",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 43.8827098555611,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 37.525000000000006,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 26.069588515450338,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 81.87751004016064,
-          "weight": 0.1,
-          "price": 6200
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 43.8827098555611,
-      "visionNotes": "Kitchen is a narrow galley with limited counter/cabinet run along one wall; stove is smooth-top electric with flat surface; unit has large windows with city views but no private outdoor space; living areas are compact with modest floor dimensions."
+      "visionNotes": "Kitchen is open to living/dining area with visible gas burner grates; modest counter run suggests standard size; living room floor area is notably compact for a NYC one-bedroom with limited wall-to-wall space despite high ceilings; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -54688,7 +54568,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.80824399210729,
-      "visionNotes": "Kitchen is visible with a pass-through counter to the living/dining area (semi-open); small galley-style with limited counter/cabinet run; gas range with visible burner grates; living room has good floor space with wood throughout; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with pass-through counter to living area, small galley-style with gas range visible in detailed shot, living room has generous floor area with full seating arrangement."
     },
     {
       "buildingType": "Rental unit",
@@ -54809,132 +54689,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.65495885154503,
-      "visionNotes": "Kitchen is visible and opens directly into the living area; it has a small counter/cabinet run with white cabinets and wood accents; stove appears to be smooth-top electric but angle/reflection makes full certainty difficult; living room is noticeably compact with limited floor space; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 41,
-          "lines": [
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 17,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 46,
-          "lines": [
-            "B69",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 62,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 56,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-20T17:14:21.484Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "354 Myrtle Avenue #2A, BROOKLYN, NY, 11205",
-        "availableDate": "2026-08-01",
-        "bathrooms": 2,
-        "bedrooms": 3,
-        "daysOnMarket": 7,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-21",
-        "externalScreenshot": "screenshots/streeteasy-com-building-154-adelphi-street-brooklyn-2a.png",
-        "neighborhood": "Fort Greene",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/0d1fa3aff8b59165a1f35e05dc8e5275-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/7134c2058654510b720801ff08b435f9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3befa8c29f5677b56dfc1efce1515b67-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/22db9aaffe44ead492e8ddb1576b4a3b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1737668a571270c6ce5e1ac898c431e9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/84382702ba66dcf78cc3a63f21c6f8af-se_large_800_400.webp"
-        ],
-        "price": 6750,
-        "sqft": null,
-        "title": "354 Myrtle Avenue #2A",
-        "url": "https://streeteasy.com/building/154-adelphi-street-brooklyn/2a",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 43.54299263998739,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 30.299999999999997,
-          "weight": 0.15,
-          "minutes": 41
-        },
-        "friends": {
-          "score": 24.424999999999997,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 40.66992639987393,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 3
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 100,
-          "weight": 0.1,
-          "price": 6750
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 43.54299263998739,
-      "visionNotes": "Kitchen is visible with island opening to living/dining area; galley-style with limited counter run; smooth-top range visible; living room is notably compact with appropriately scaled furniture; no private outdoor space evident."
+      "visionNotes": "Kitchen is visible with white cabinetry and wood accents, semi-open to living area with a partial wall/counter separation; small galley-style footprint; smooth-top electric range visible but reflections make absolute confirmation difficult; living room has compact floor area despite high ceilings and professional staging; no outdoor space shown."
     },
     {
       "buildingType": "Rental unit",
@@ -55056,7 +54811,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 43.296958851545035,
-      "visionNotes": "Kitchen is visible with a gas range (visible burner grates), standard-length counter/cabinet run; galley-style closed layout opening to a foyer/hallway not a living area; the visible living room appears notably small with limited floor space."
+      "visionNotes": "Kitchen is closed off with a glass partition wall separating it from a living area; gas range visible with burner grates; living room floor space appears quite small/cramped relative to typical NYC apartments; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -55179,106 +54934,229 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 42.87021162444113,
-      "visionNotes": "Kitchen is visible as a compact closed galley with wood cabinetry and limited counter run; living room is spacious with floor-to-ceiling windows and outdoor terrace/balcony with city views."
+      "visionNotes": "Kitchen is visible but enclosed/galley-style with limited counter run; large private terrace visible; living room has spacious floor area with floor-to-ceiling windows; stove not clearly visible in kitchen photo."
     },
     {
-      "buildingType": "Rental unit",
+      "buildingType": "Condo",
       "commute": {
         "office": {
-          "minutes": 36,
+          "minutes": 41,
           "lines": [
-            "F Line"
+            "2 Line",
+            "4 Line",
+            "6 Train"
           ]
         },
         "prospectHeights": {
-          "minutes": 29,
-          "lines": [
-            "B65"
-          ]
+          "minutes": 13,
+          "lines": []
         },
         "longIslandCity": {
-          "minutes": 39,
+          "minutes": 54,
           "lines": [
-            "G Line"
+            "3 Line",
+            "5 Line",
+            "7"
           ]
         },
         "morningsideHeights": {
-          "minutes": 52,
+          "minutes": 53,
           "lines": [
-            "F Line",
             "2 Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 47,
+          "minutes": 48,
           "lines": [
-            "F Line",
-            "B Line",
-            "M86+"
+            "2 Line",
+            "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-14T17:07:28.916Z",
+      "firstSeenAt": "2026-07-10T11:56:25.226Z",
       "hasGarden": false,
-      "isCondo": false,
+      "isCondo": true,
       "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "19 Wyckoff Street #23, BROOKLYN, NY, 11201",
+        "address": "882 Union Street #4D, BROOKLYN, NY, 11215",
         "availableDate": "now",
         "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 51,
+        "bedrooms": 1,
+        "daysOnMarket": 1,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-07",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-julian-23.png",
-        "neighborhood": "Cobble Hill",
+        "estimatedListingDate": "2026-07-27",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-882-union-street-brooklyn-4d.png",
+        "neighborhood": "Park Slope",
         "photos": [
-          "https://photos.zillowstatic.com/fp/f87a39ac0e89fd4de8dccec3ee830e94-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/1aef573b4bd372cc62ef974edc388e9b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d719c11d9234a0d9029bf947c39652cd-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c12877b8bdca2354d0799a69cf18f9c9-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/515929e1d8b7d8636ac4355392d68b80-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4e8f1176da4babae629ffad421e32040-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/a44025afffb258def2fd38d677b7ef55-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/3b7bb405ad0dffe4b5e0798c45ab9582-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5707c1b8400728299b8347d18818e078-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f472a19229d948fa5b17842e218fcf1e-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7bae373657edefd114f4aa00eb1ead78-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/609b3aba23c2387180a475f0f2532fec-se_large_800_400.webp"
         ],
-        "price": 6200,
+        "price": 6800,
         "sqft": null,
-        "title": "19 Wyckoff Street #23",
-        "url": "https://streeteasy.com/building/the-julian/23",
+        "title": "882 Union Street #4D",
+        "url": "https://streeteasy.com/building/882-union-street-brooklyn/4d",
         "washerDryer": "yes"
       },
       "livingRoomSmall": true,
       "needsEarlyAction": false,
       "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 42.0977098555611,
+        "total": 42.751999999999995,
         "neighborhood": {
           "score": 100,
           "weight": 0.15,
           "tier": "brooklyn"
         },
         "office": {
-          "score": 38.800000000000004,
+          "score": 30.299999999999997,
           "weight": 0.15,
-          "minutes": 36
+          "minutes": 41
         },
         "friends": {
-          "score": 29.025000000000006,
+          "score": 28.600000000000005,
           "weight": 0.12
         },
         "size": {
-          "score": 26.069588515450338,
+          "score": 17.75,
           "weight": 0.1,
           "sqft": null,
-          "bedrooms": 2
+          "bedrooms": 1
         },
         "livingRoom": {
           "score": 0,
           "weight": 0.12,
           "small": true
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 0,
+          "weight": 0.1,
+          "price": 6800
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 42.751999999999995,
+      "visionNotes": "Kitchen is semi-open with island peninsula to living area; smooth-top electric range visible; living room floor area is compact though well-proportioned with good ceiling height; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 12,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 49,
+          "lines": [
+            "R Line",
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 19,
+          "lines": [
+            "Q101"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 42,
+          "lines": [
+            "R Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 33,
+          "lines": [
+            "E Line",
+            "D Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "small",
+      "stoveType": "unknown",
+      "listing": {
+        "address": "42-06 Orchard Street #7C, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-the-orchard-42-06-orchard-street-7c.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/e805d79e6a99617393ff28ef9695ae1b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/211c16d987180f2cf3e89598b0b96e67-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/ef29331aff1290981ec26837c1d9dfc1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/fa1399a612f36c3c85fa0fc2253c7b22-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/9dd7c18664039c01dee173e3a0e443fc-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/84e6e5e943fbb9f6e4a52357aa395ffb-se_extra_large_1500_800.webp"
+        ],
+        "price": 6450,
+        "sqft": null,
+        "title": "42-06 Orchard Street #7C",
+        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/7c",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.922,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 79.6,
+          "weight": 0.15,
+          "minutes": 12
+        },
+        "friends": {
+          "score": 39.224999999999994,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
         },
         "kitchenSize": {
           "score": 0,
@@ -55291,9 +55169,9 @@ window.__APARTMENT_REPORT__ = {
           "isCondo": false
         },
         "value": {
-          "score": 81.87751004016064,
+          "score": 0,
           "weight": 0.1,
-          "price": 6200
+          "price": 6450
         },
         "groundFloor": {
           "score": 100,
@@ -55301,8 +55179,128 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 42.0977098555611,
-      "visionNotes": "Kitchen is visible with a peninsula/island opening to living area; the built-in counter run itself is quite compact/galley-like; no stove visible in any photo; no private outdoor space shown; living room has notably limited floor space."
+      "rankScore": 41.922,
+      "visionNotes": "Kitchen visible as a closed galley with white quartz counters and wood cabinetry; smooth-top stove visible but angle/reflections make certainty medium; outdoor terraces shown are shared amenity spaces, not private, but unit appears to have access to them; living room is spacious with floor-to-ceiling windows overlooking the city."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 25,
+          "lines": [
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 50,
+          "lines": [
+            "Q Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 34,
+          "lines": [
+            "AS"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 44,
+          "lines": [
+            "M86-SBS",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 25,
+          "lines": [
+            "M86-SBS"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-23T13:00:04.638Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "354 East 91st Street #2202, NEW YORK, NY, 10128",
+        "availableDate": "2026-08-11",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 2,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-26",
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-cole-by-stonehenge-2202.png",
+        "neighborhood": "Yorkville",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/42bf23d752702294833ac656943f8b93-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/b5d647816bc0b3744ab7142d0ff38c2f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/c677e69cafc3b1f6e5ce50c88e5f5bca-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5afcd9c612c08ffb96f4591c85150ea4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cb010de5dec7b51cf378379ce27de228-se_large_800_400.webp"
+        ],
+        "price": 5340,
+        "sqft": 500,
+        "title": "354 East 91st Street #2202",
+        "url": "https://streeteasy.com/building/the-cole-by-stonehenge/2202",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 41.822,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.15,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 34.975,
+          "weight": 0.12
+        },
+        "size": {
+          "score": -25,
+          "weight": 0.1,
+          "sqft": 500,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 0,
+          "weight": 0.1,
+          "price": 5340
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 41.822,
+      "visionNotes": "Kitchen with wood cabinetry visible and open to living area; smooth-top electric range evident; private balcony with city views shown; living room has adequate floor space for furniture arrangement."
     },
     {
       "buildingType": "Rental unit",
@@ -55551,7 +55549,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 41.35995885154503,
-      "visionNotes": "Kitchen is small and enclosed with only a pass-through counter to living area; stove appears to be smooth-top electric but angle makes confirmation difficult; bedroom has access to what appears to be a private outdoor terrace; living room is compact despite professional staging with appropriately scaled furniture."
+      "visionNotes": "Kitchen is visible but enclosed/galley-style with limited counter run; living room floor area is notably compact despite high ceilings and professional staging; bedroom shows access to what appears to be a private outdoor terrace/balcony."
     },
     {
       "buildingType": "Condo",
@@ -55673,7 +55671,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.97879456193353,
-      "visionNotes": "Kitchen is semi-open to living area via a peninsula counter with seating; small footprint with limited counter/cabinet run; stove appears to be smooth-top electric but angle/reflection makes it not entirely certain; living room is genuinely compact for NYC; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a counter-pass-through opening to a living area; the actual kitchen counter/cabinet run is cramped and small; the living room floor area is notably compact despite the staged furniture and pendant lighting."
     },
     {
       "buildingType": "Rental unit",
@@ -55794,7 +55792,130 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 40.48523248882265,
-      "visionNotes": "Kitchen is visible with a pass-through counter opening to the living room; counter run is short and compact (small kitchen); stove not clearly visible in any photo; living room is genuinely cramped with modest floor area; no private outdoor space visible."
+      "visionNotes": "Kitchen is visible with a counter opening to living area (semi-open); small counter run with limited built-in space; living room is notably compact with tight floor area despite high ceilings; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 40,
+          "lines": [
+            "2 Line",
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 10,
+          "lines": []
+        },
+        "longIslandCity": {
+          "minutes": 53,
+          "lines": [
+            "3 Line",
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 53,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 47,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "small",
+      "stoveType": "gas",
+      "listing": {
+        "address": "595 Dean Street #632, BROOKLYN, NY, 11238",
+        "availableDate": "2026-07-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": 38,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-06-20",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-632.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
+        ],
+        "price": 4595,
+        "sqft": null,
+        "title": "595 Dean Street #632",
+        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/632",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 38.892029806259316,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 32,
+          "weight": 0.15,
+          "minutes": 40
+        },
+        "friends": {
+          "score": 30.725000000000005,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 66.30029806259314,
+          "weight": 0.1,
+          "price": 4595
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 38.892029806259316,
+      "visionNotes": "Kitchen is visible with pass-through counter to living area; small footprint with limited counter/cabinet run; stove appears to be smooth-top electric but angle/reflection creates slight ambiguity; living room has tight floor space despite high ceilings and appropriate furniture scaling; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -55916,99 +56037,100 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 38.13442526023891,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living area via island counter; living room appears notably cramped with limited floor space; no private outdoor space visible, only windows with city views."
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to living/dining area via island counter; living rooms shown are small with limited floor area; no private outdoor space visible, only building views from windows."
     },
     {
-      "buildingType": "Condo",
+      "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 9,
+          "minutes": 44,
           "lines": [
-            "F Line"
+            "2 Line",
+            "4 Line",
+            "6 Train"
           ]
         },
         "prospectHeights": {
-          "minutes": 44,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 18,
+          "minutes": 7,
           "lines": []
         },
-        "morningsideHeights": {
-          "minutes": 36,
+        "longIslandCity": {
+          "minutes": 57,
           "lines": [
-            "E Line",
-            "B Line",
+            "3 Line",
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 56,
+          "lines": [
+            "2 Line",
             "1 Line"
           ]
         },
         "upperWestSide": {
-          "minutes": 30,
+          "minutes": 51,
           "lines": [
-            "E Line",
-            "D Line",
+            "2 Line",
             "1 Line"
           ]
         }
       },
-      "firstSeenAt": "2026-07-18T13:00:07.561Z",
+      "firstSeenAt": "2026-07-10T09:20:32.822Z",
       "hasGarden": false,
-      "isCondo": true,
+      "isCondo": false,
       "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
+      "kitchenLayout": "open",
       "kitchenSize": "small",
       "stoveType": "smoothElectric",
       "listing": {
-        "address": "3 Court Square #6004, LONG ISLAND CITY, NY, 11101",
+        "address": "372 Saint John's Place #53, BROOKLYN, NY, 11238",
         "availableDate": "now",
         "bathrooms": 1,
         "bedrooms": 1,
-        "daysOnMarket": 1,
+        "daysOnMarket": 82,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-27",
-        "externalScreenshot": "screenshots/streeteasy-com-building-skyline-tower-6004.png",
-        "neighborhood": "Hunters Point",
+        "estimatedListingDate": "2026-05-07",
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-372-st-johns-place-brooklyn-53.png",
+        "neighborhood": "Prospect Heights",
         "photos": [
-          "https://photos.zillowstatic.com/fp/4f2b5e66354ac0802257301f7b19c433-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0850340342cc9e25386101696c7dad61-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/faf9ff5e745247b0445beaf48fd923c5-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bbb8a5038b3a83c70eb06b51f91f3c63-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0d9d75c14ddb7bbef873a93e0d81c2ac-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/bd8576c7d9e8f5ebb806070f8b26122f-se_large_800_400.webp"
+          "https://photos.zillowstatic.com/fp/6817acfe561c137d3145b6b6a73ba0cb-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/cb5f03ad261d91d096caf7a48f305155-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/4d35c0b2a10b58cb9a9f9b79abb65a7b-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/5ed3759dac5682d4d83784d9c07b02ea-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dde40c043ea5a0e4859261a8aea38fc5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/34404d1e5bb6269561c1203f657f539d-se_large_800_400.webp"
         ],
-        "price": 5000,
-        "sqft": 635,
-        "title": "3 Court Square #6004",
-        "url": "https://streeteasy.com/building/skyline-tower/6004",
+        "price": 4500,
+        "sqft": null,
+        "title": "372 Saint John's Place #53",
+        "url": "https://streeteasy.com/building/372-st-johns-place-brooklyn/53",
         "washerDryer": "yes"
       },
       "livingRoomSmall": true,
       "needsEarlyAction": false,
-      "neighborhoodTier": "other",
+      "neighborhoodTier": "brooklyn",
       "rankBreakdown": {
-        "total": 37.61696062992126,
+        "total": 37.81797913561848,
         "neighborhood": {
-          "score": 30,
+          "score": 100,
           "weight": 0.15,
-          "tier": "other"
+          "tier": "brooklyn"
         },
         "office": {
-          "score": 84.7,
+          "score": 25.200000000000003,
           "weight": 0.15,
-          "minutes": 9
+          "minutes": 44
         },
         "friends": {
-          "score": 45.60000000000001,
+          "score": 27.325,
           "weight": 0.12
         },
         "size": {
-          "score": 8.75,
+          "score": 17.75,
           "weight": 0.1,
-          "sqft": 635,
+          "sqft": null,
           "bedrooms": 1
         },
         "livingRoom": {
@@ -56022,14 +56144,14 @@ window.__APARTMENT_REPORT__ = {
           "size": "small"
         },
         "condo": {
-          "score": 100,
+          "score": 50,
           "weight": 0.06,
-          "isCondo": true
+          "isCondo": false
         },
         "value": {
-          "score": 40.64960629921259,
+          "score": 69.83979135618479,
           "weight": 0.1,
-          "price": 5000
+          "price": 4500
         },
         "groundFloor": {
           "score": 100,
@@ -56037,8 +56159,8 @@ window.__APARTMENT_REPORT__ = {
           "isGroundFloor": false
         }
       },
-      "rankScore": 37.61696062992126,
-      "visionNotes": "Kitchen is a compact galley with one counter run and smooth-top electric stove, semi-open to living/dining area; living room is distinctly small; high-rise unit with no private outdoor space."
+      "rankScore": 37.81797913561848,
+      "visionNotes": "Private roof deck visible in first photo; kitchen is a small galley-style space separated from living area; smooth-top electric stove with no visible burner grates; living room footprint is notably compact for a NYC apartment."
     },
     {
       "buildingType": "Rental unit",
@@ -56161,7 +56283,249 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 37.14366616989568,
-      "visionNotes": "Kitchen visible with island peninsula opening to living room; single counter run is compact; stove obscured by angle/distance; no private outdoor space; living room is genuinely small despite professional staging."
+      "visionNotes": "Kitchen is visible with island layout opening to living area; small fixed counter run; living room has compact footprint despite high ceilings and large windows; no private outdoor space visible, only rooftop/shared terrace beyond windows."
+    },
+    {
+      "buildingType": "Three-family home",
+      "commute": {
+        "office": {
+          "minutes": 43,
+          "lines": [
+            "C Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 10,
+          "lines": []
+        },
+        "longIslandCity": {
+          "minutes": 42,
+          "lines": [
+            "C Line",
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 51,
+          "lines": [
+            "C Line",
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 51,
+          "lines": [
+            "C Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-21T13:00:05.902Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": true,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "small",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "576 Washington Avenue #1B, BROOKLYN, NY, 11238",
+        "availableDate": "2026-09-01",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-576-washington-avenue-brooklyn-1b.png",
+        "neighborhood": "Clinton Hill",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/e25ca4b042860da78fcc7f46267bcbc1-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/7affe3f6acb9dc7dbcf32331c155a372-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/f26bcc4f9fd869d4cb04a4f1cafef806-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/e60bde6be233c852365b8f59ac0f9083-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/dba9d7d80f9af861b438025cedaa38e0-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/93515223e192aa4de60eecc43a042c43-se_large_800_400.webp"
+        ],
+        "price": 4500,
+        "sqft": 700,
+        "title": "576 Washington Avenue #1B",
+        "url": "https://streeteasy.com/building/576-washington-avenue-brooklyn/1b",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": true,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 36.35957142857143,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 26.900000000000006,
+          "weight": 0.15,
+          "minutes": 43
+        },
+        "friends": {
+          "score": 34.55,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 25,
+          "weight": 0.1,
+          "sqft": 700,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 76.78571428571428,
+          "weight": 0.1,
+          "price": 4500
+        },
+        "groundFloor": {
+          "score": 0,
+          "weight": 0.04,
+          "isGroundFloor": true
+        }
+      },
+      "rankScore": 36.35957142857143,
+      "visionNotes": "Kitchen is visible with island opening to living area; compact galley-style counter run with limited cabinetry; smooth-top range visible but angle makes full certainty difficult; living room floor area is genuinely constrained despite good staging; no private outdoor space visible."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 25,
+          "lines": [
+            "B Line",
+            "E Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 50,
+          "lines": [
+            "B Line"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 41,
+          "lines": [
+            "C Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 22,
+          "lines": [
+            "M11"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 14,
+          "lines": [
+            "M7"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-10T03:42:11.818Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "small",
+      "stoveType": "gas",
+      "listing": {
+        "address": "795 Columbus Avenue #5K, NEW YORK, NY, 10025",
+        "availableDate": "now",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-795-columbus-avenue-new-york-05k.png",
+        "neighborhood": "Upper West Side",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/fb2bac8f9bacc57c6e04459e974b1480-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/e9442fb669cd75749ebc5c94928ed015-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/885fbc655da4783d617795485d1a7ec3-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/b7052c432827c055807eb137a516e8ff-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/aa746dc90e99d357287cfeea545dbe8b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/3c5253892469c6b361a3ef60786feff9-se_extra_large_1500_800.webp"
+        ],
+        "price": 5722,
+        "sqft": 637,
+        "title": "795 Columbus Avenue #5K",
+        "url": "https://streeteasy.com/building/795-columbus-avenue-new_york/05k",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": true,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "uwsAcceptable",
+      "rankBreakdown": {
+        "total": 35.36617111459969,
+        "neighborhood": {
+          "score": 80,
+          "weight": 0.15,
+          "tier": "uwsAcceptable"
+        },
+        "office": {
+          "score": 57.5,
+          "weight": 0.15,
+          "minutes": 25
+        },
+        "friends": {
+          "score": 46.025000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 9.25,
+          "weight": 0.1,
+          "sqft": 637,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 0,
+          "weight": 0.12,
+          "small": true
+        },
+        "kitchenSize": {
+          "score": 0,
+          "weight": 0.16,
+          "size": "small"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 12.931711145996871,
+          "weight": 0.1,
+          "price": 5722
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 35.36617111459969,
+      "visionNotes": "Kitchen is visible with gas range (visible burner grates), closed-off galley layout with counter run against walls; living room visible is modest in floor area; unit appears high-rise with no private outdoor space."
     },
     {
       "buildingType": "Rental unit",
@@ -56281,251 +56645,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 35.34795885154504,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), small built-in counter run, and semi-open to living area via island/peninsula; living room is notably compact with limited floor space for furnishings."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "B Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 40,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 21,
-          "lines": [
-            "M11"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 15,
-          "lines": [
-            "M7"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": true,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "gas",
-      "listing": {
-        "address": "788 Columbus Avenue #1R, NEW YORK, NY, 10025",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 2,
-        "daysOnMarket": 30,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-28",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-788-columbus-avenue-new-york-1r.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/af8582c1a386101a2b5785a9d0961a99-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/af8582c1a386101a2b5785a9d0961a99-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6b6ff2afba09c483aeb34818e720b785-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d5c365b1f5cc7b19bd62824b7466476d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/289c30687e8e169deb1885879bbc6126-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/363e41a9398b512ac79e3e6d317139a9-se_large_800_400.webp"
-        ],
-        "price": 6000,
-        "sqft": 850,
-        "title": "788 Columbus Avenue #1R",
-        "url": "https://streeteasy.com/building/788-columbus-avenue-new_york/1r",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 34.919960276684726,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.15,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.15,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 45.175000000000004,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 0.2601910021413403,
-          "weight": 0.1,
-          "sqft": 850,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 61.029411764705884,
-          "weight": 0.1,
-          "price": 6000
-        },
-        "groundFloor": {
-          "score": 0,
-          "weight": 0.04,
-          "isGroundFloor": true
-        }
-      },
-      "rankScore": 34.919960276684726,
-      "visionNotes": "Kitchen has a peninsula/island open to living area with limited counter/cabinet run; gas cooktop visible with knobs and burner grates; living room is narrow/rectangular with modest floor space; no outdoor space visible, windows only overlook cityscape."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 53,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "595 Dean Street #834, BROOKLYN, NY, 11238",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 24,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-04",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-834.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
-        ],
-        "price": 5985,
-        "sqft": null,
-        "title": "595 Dean Street #834",
-        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/834",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 33.71319225037258,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.15,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 30.725000000000005,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 14.511922503725799,
-          "weight": 0.1,
-          "price": 5985
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 33.71319225037258,
-      "visionNotes": "Kitchen is small and enclosed with a pass-through counter to living area; stove appears to be smooth-top electric with flat surface; living room is visibly compact with appropriately scaled furniture."
+      "visionNotes": "Kitchen is visible with semi-open layout to living area via island counter; small galley-style with limited counter run; gas stove with visible burner grates; living room floor area is notably compact for NYC one-bedroom; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
@@ -56645,127 +56765,7 @@ window.__APARTMENT_REPORT__ = {
         }
       },
       "rankScore": 23.14823708206687,
-      "visionNotes": "Kitchen is visible and fully enclosed; galley-style with compact counter run; gas range with visible burner grates; living room is notably cramped with minimal floor space; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 25,
-          "lines": [
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 50,
-          "lines": [
-            "Q Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 34,
-          "lines": [
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 44,
-          "lines": [
-            "M86-SBS",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 25,
-          "lines": [
-            "M86-SBS"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-23T13:00:04.638Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "354 East 91st Street #2202, NEW YORK, NY, 10128",
-        "availableDate": "2026-08-11",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 2,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-26",
-        "externalScreenshot": "screenshots/streeteasy-com-building-the-cole-by-stonehenge-2202.png",
-        "neighborhood": "Yorkville",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/42bf23d752702294833ac656943f8b93-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/4991d518a21fb9692cc782a1021ff904-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b5d647816bc0b3744ab7142d0ff38c2f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/c677e69cafc3b1f6e5ce50c88e5f5bca-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/5afcd9c612c08ffb96f4591c85150ea4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/cb010de5dec7b51cf378379ce27de228-se_large_800_400.webp"
-        ],
-        "price": 5340,
-        "sqft": 500,
-        "title": "354 East 91st Street #2202",
-        "url": "https://streeteasy.com/building/the-cole-by-stonehenge/2202",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 21.822,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 57.5,
-          "weight": 0.15,
-          "minutes": 25
-        },
-        "friends": {
-          "score": 34.975,
-          "weight": 0.12
-        },
-        "size": {
-          "score": -25,
-          "weight": 0.1,
-          "sqft": 500,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 0,
-          "weight": 0.1,
-          "price": 5340
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 21.822,
-      "visionNotes": "Kitchen visible in photo 4 with dark wood cabinets and stainless appliances, semi-open to living area; small counter run; smooth-top electric range; private balcony/terrace visible in photos 5-6; living room is noticeably compact with modest furniture scale."
+      "visionNotes": "Kitchen is a small enclosed galley with gas range (visible burner grates); living room is cramped with limited floor area and minimal seating space; no private outdoor space visible."
     }
   ]
 };
