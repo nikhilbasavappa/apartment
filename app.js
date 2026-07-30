@@ -1002,7 +1002,12 @@ function renderStarred(qualifyingEntries, excludedEntries) {
 // gone/in-contract on StreetEasy (tracked server-side via the exclusion
 // reason). Both mean the same thing to you — a unit you once considered
 // isn't gettable anymore — so both belong in the same tab.
-const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy|rented on streeteasy|temporarily off market on streeteasy|no longer available on streeteasy/i;
+// Matches the trailing marker text scan.cjs writes onto every auto-detected
+// reason rather than enumerating each specific status phrase — the status
+// label is dynamic (whatever StreetEasy's page literally says), so a fixed
+// phrase list would need editing every time scan.cjs's detector catches a
+// new one.
+const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|\(auto-detected during periodic revalidation\)/i;
 
 function isAutoDetectedUnavailable(entry) {
   return (entry.reasons || []).some((reason) => AUTO_UNAVAILABLE_REASON_PATTERN.test(reason));

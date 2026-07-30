@@ -444,58 +444,37 @@ async function inspectSource(sourceConfig, context, state, config, runAt, counte
 const FOR_RENT_MARKER = /\$([\d,]+)\s+for rent\b/i;
 const FOR_RENT_MARKER_WINDOW = 6000;
 
-// A listing that's had an offer accepted but hasn't closed yet still shows
-// "$X for rent" (so FOR_RENT_MARKER alone misses it) but StreetEasy tags it
-// "In contract DATE" immediately after — confirmed against a real listing:
-// '$6,700 for rent Base rent only. For total... breakdown. In contract
-// 7/10/2026 962 ft² ...'. Requiring tight proximity to the "for rent"
-// marker (not just presence anywhere in the page) matters: "in contract"
-// also shows up in every listing's own price-history table for unrelated
-// past cycles, and separately in an unrelated "Similar Homes" sidebar
-// listing sale properties — a plain substring match misfired on 47 of 370
-// currently-active listings in testing. Anchoring to the ~100 characters
-// right after "for rent" (verified against 3 real in-contract listings) has
-// zero false positives against the full catalog.
-const IN_CONTRACT_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bin contract\b/is;
+// StreetEasy renders a short status label + date immediately after the price
+// disclaimer/"See cost breakdown" boilerplate whenever a unit isn't simply
+// on the market — "In contract DATE", "Rented DATE", "Temporarily off market
+// DATE", "No longer available DATE", "Delisted DATE" have all been observed
+// on real listings, discovered one at a time (each one a listing the user
+// caught still showing as qualifying) before it became clear this is a
+// small enumerable set behind one StreetEasy UI component, not a fixed list
+// worth whack-a-moling forever. Matching the *shape* — a capitalized label
+// followed by a date, tightly anchored right after "for rent" — catches all
+// of the above plus whatever StreetEasy phrases next without needing another
+// investigation cycle each time.
+//
+// The one label that must NOT trigger exclusion is a bare "Available DATE"
+// — that's the normal move-in-date field, not a status warning (e.g. "...
+// Rental unit Downtown Brooklyn Available 7/23/2026" — a real match on a
+// genuinely fine listing). Excluding exact label "Available" handles this;
+// deliberately case-sensitive (no /i flag) so an all-lowercase run like
+// "no longer available" still resolves to the real 3-word label "No longer
+// available", not to a spurious bare "available" mid-phrase.
+//
+// Anchoring to the ~120 characters right after "for rent" (same window
+// verified safe for the four predecessor patterns this replaces) keeps this
+// from matching the unrelated "Available DATE"/status text that shows up
+// further down in every listing's own price-history table and "Similar
+// Homes" sidebar. Verified zero false positives against the 337 listings
+// currently marked qualifying — the only two real matches were both
+// genuine "Delisted" catches (38-38 32nd Street #907, 570 Fulton Street
+// #16E) that had been slipping through undetected.
+const STATUS_LABEL_PATTERN = /\$[\d,]+\s+for rent\b.{0,120}?\b([A-Z][a-z]*(?: [a-z]+){0,4}) \d{1,2}\/\d{1,2}\/\d{2,4}\b/s;
 
-// Same idea, different status: StreetEasy sometimes marks a listing
-// "Rented DATE" in the same spot instead of "In contract DATE" — a real
-// listing (475 Central Park West #1C) showed "$4,800 for rent ... Rented
-// 7/17/2026" and neither FOR_RENT_MARKER nor IN_CONTRACT_PATTERN caught it,
-// since the page still had a "for rent" marker and "rented" isn't "in
-// contract". Verified zero false positives against the full catalog
-// (nothing currently cached has "rented" this close to its own "for rent"
-// marker — the only matches are always in the separate price-history table
-// further down the page, outside this window).
-const RENTED_PATTERN = /\$[\d,]+\s+for rent\b.{0,200}?\brented\b/is;
-
-// A fourth distinct status, found on 53 West 94th Street #2R: revalidated
-// 7/27 and still passed as qualifying, yet the live page already showed
-// "$6,700 for rent ... Temporarily off market 7/12/2026" — a status this
-// far predating the check. Neither FOR_RENT_MARKER (still present) nor
-// IN_CONTRACT_PATTERN nor RENTED_PATTERN cover "off market" at all; this is
-// StreetEasy's way of saying the listing is paused, not actually rented or
-// in contract. Same tight-proximity anchoring as the other two — the exact
-// phrase also appears in every listing's own price-history table for past
-// cycles (82 occurrences across the catalog checked, all in that table, far
-// outside this window), which is why a bare substring match would misfire.
-const OFF_MARKET_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\btemporarily off market\b/is;
-
-// A fifth distinct status, found on 266 West 96th Street #1706: user flagged
-// it as unavailable since 7/25, but it had already been revalidated on 7/29
-// under logic version 3 (which covers off-market) and still passed. The live
-// page reads "$6,550 for rent ... No longer available 7/25/2026" — StreetEasy's
-// own "Unavailable" status label, distinct from off-market (which implies it
-// may return) and from FOR_RENT_MARKER's absence check (the marker is still
-// present here; the page just also carries this explicit status line right
-// after it). Same anchoring approach caught a second live case for free —
-// 595 Dean Street #632, cached from a 7/29 revalidation, also reads "No
-// longer available 7/1/2026" this close to its own for-rent marker. Verified
-// zero false positives against the other 342 currently-qualifying entries.
-const NO_LONGER_AVAILABLE_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bno longer available\b/is;
-
-// Bumped whenever the detection logic itself gains a new capability (e.g.
-// adding RENTED_PATTERN after IN_CONTRACT_PATTERN already existed) — an
+// Bumped whenever the detection logic itself gains a new capability — an
 // entry last checked under an older version got a "still qualifies" result
 // from a check that couldn't have caught what the newer version catches,
 // so that clearance is stale even though the entry itself looks "recently
@@ -505,7 +484,7 @@ const NO_LONGER_AVAILABLE_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bno longer a
 // any time detection logic changes, so previously-cleared entries
 // automatically fall back to "needs a real check" without a manual
 // one-off backlog sweep every time.
-const REVALIDATION_LOGIC_VERSION = 4;
+const REVALIDATION_LOGIC_VERSION = 5;
 
 // The catalog only ever grows — nothing previously re-checks whether a
 // qualifying listing is still actually live on StreetEasy. Re-verifying the
@@ -548,10 +527,8 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
 
       const forRentMatch = FOR_RENT_MARKER.exec(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
       const stillListed = Boolean(forRentMatch);
-      const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
-      const rented = RENTED_PATTERN.test(details.bodyText);
-      const offMarket = OFF_MARKET_PATTERN.test(details.bodyText);
-      const noLongerAvailable = NO_LONGER_AVAILABLE_PATTERN.test(details.bodyText);
+      const statusMatch = STATUS_LABEL_PATTERN.exec(details.bodyText);
+      const statusLabel = statusMatch && statusMatch[1] !== "Available" ? statusMatch[1] : null;
       entry.lastRevalidatedAt = runAt;
       entry.lastRevalidatedLogicVersion = REVALIDATION_LOGIC_VERSION;
       checked += 1;
@@ -561,26 +538,11 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         entry.reasons = ["No longer listed on StreetEasy (auto-detected during periodic revalidation)"];
         removed += 1;
         console.log(`REVALIDATED_REMOVED: ${entry.listing.title}`);
-      } else if (inContract) {
+      } else if (statusLabel) {
         entry.qualifies = false;
-        entry.reasons = ["In contract on StreetEasy (auto-detected during periodic revalidation)"];
+        entry.reasons = [`${statusLabel} on StreetEasy (auto-detected during periodic revalidation)`];
         removed += 1;
-        console.log(`REVALIDATED_IN_CONTRACT: ${entry.listing.title}`);
-      } else if (rented) {
-        entry.qualifies = false;
-        entry.reasons = ["Rented on StreetEasy (auto-detected during periodic revalidation)"];
-        removed += 1;
-        console.log(`REVALIDATED_RENTED: ${entry.listing.title}`);
-      } else if (offMarket) {
-        entry.qualifies = false;
-        entry.reasons = ["Temporarily off market on StreetEasy (auto-detected during periodic revalidation)"];
-        removed += 1;
-        console.log(`REVALIDATED_OFF_MARKET: ${entry.listing.title}`);
-      } else if (noLongerAvailable) {
-        entry.qualifies = false;
-        entry.reasons = ["No longer available on StreetEasy (auto-detected during periodic revalidation)"];
-        removed += 1;
-        console.log(`REVALIDATED_NO_LONGER_AVAILABLE: ${entry.listing.title}`);
+        console.log(`REVALIDATED_STATUS_${statusLabel.toUpperCase().replace(/\s+/g, "_")}: ${entry.listing.title}`);
       } else {
         // Price and availability date are the only listing fields that
         // legitimately drift over time (a landlord's decision, not a fixed

@@ -31,7 +31,14 @@ function leadTimeDays(availableDate, estimatedListingDate) {
   return Math.max(0, days);
 }
 
-const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|in contract on streeteasy|rented on streeteasy|temporarily off market on streeteasy|no longer available on streeteasy/i;
+// Matches the trailing marker text scan.cjs's revalidation writes onto
+// every reason it generates itself (both the "no longer listed" absence
+// check and the general STATUS_LABEL_PATTERN branch), rather than
+// enumerating each specific status phrase — the status label is dynamic
+// now (whatever StreetEasy's page literally says: "In contract", "Rented",
+// "Delisted", etc.), so a fixed phrase list would need editing every time
+// scan.cjs's detector catches a new one.
+const AUTO_UNAVAILABLE_REASON_PATTERN = /no longer listed on streeteasy|\(auto-detected during periodic revalidation\)/i;
 
 function computeMarketStats(qualifying, excludedListings) {
   const byNeighborhood = {};
