@@ -2926,6 +2926,195 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "31 West 94th Street #3B, NEW YORK, NY, 10025",
+        "price": 5000,
+        "title": "31 West 94th Street #3B",
+        "url": "https://streeteasy.com/building/31-west-94-street-new_york/3b"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "5-11 47th Avenue #5E, LONG ISLAND CITY, NY, 11101",
+        "price": 4449,
+        "title": "5-11 47th Avenue #5E",
+        "url": "https://streeteasy.com/building/the-maximilian/05e"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "801 Amsterdam Avenue #8G, NEW YORK, NY, 10025",
+        "price": 6061,
+        "title": "801 Amsterdam Avenue #8G",
+        "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/08g"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "52 4th Avenue #705, BROOKLYN, NY, 11217",
+        "price": 4450,
+        "title": "52 4th Avenue #705",
+        "url": "https://streeteasy.com/building/the-eleanor/705"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "23-10 42nd Road #33D, LONG ISLAND CITY, NY, 11101",
+        "price": 5311,
+        "title": "23-10 42nd Road #33D",
+        "url": "https://streeteasy.com/building/aura-lic/33d"
+      },
+      "reasons": [
+        "Kitchen layout could not be confirmed from photos"
+      ]
+    },
+    {
+      "listing": {
+        "address": "645 Park Place #7H, BROOKLYN, NY, 11238",
+        "price": 6500,
+        "title": "645 Park Place #7H",
+        "url": "https://streeteasy.com/building/645-park-place/7h"
+      },
+      "reasons": [
+        "Neighborhood excluded: Crown Heights"
+      ]
+    },
+    {
+      "listing": {
+        "address": "595 Dean Street #213, BROOKLYN, NY, 11238",
+        "price": 4410,
+        "title": "595 Dean Street #213",
+        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/213"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "808 Columbus Avenue #8C, NEW YORK, NY, 10025",
+        "price": 6635,
+        "title": "808 Columbus Avenue #8C",
+        "url": "https://streeteasy.com/building/808-columbus-avenue-new_york/08c"
+      },
+      "reasons": [
+        "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": null,
+        "price": null,
+        "title": "400 West 63rd Street #1408",
+        "url": "https://streeteasy.com/building/the-ashley/1408"
+      },
+      "reasons": [
+        "Rent could not be confirmed",
+        "Bedroom count could not be confirmed",
+        "No street address parsed; commute not calculated"
+      ]
+    },
+    {
+      "listing": {
+        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
+        "price": 6325,
+        "title": "101 West End Avenue #14D",
+        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d"
+      },
+      "reasons": [
+        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
+      ]
+    },
+    {
+      "listing": {
+        "address": "56-27 2nd Street #408, QUEENS, NY, 11101",
+        "price": 4925,
+        "title": "56-27 2nd Street #408",
+        "url": "https://streeteasy.com/building/gotham-point-south/408"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "475 Clermont Avenue #714, BROOKLYN, NY, 11238",
+        "price": 5282,
+        "title": "475 Clermont Avenue #714",
+        "url": "https://streeteasy.com/building/475-clermont/0714"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "21 West End Avenue #3611, NEW YORK, NY, 10023",
+        "price": 6150,
+        "title": "21 West End Avenue #3611",
+        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3611"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "42-06 Orchard Street #41B, LONG ISLAND CITY, NY, 11101",
+        "price": 5475,
+        "title": "42-06 Orchard Street #41B",
+        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/41b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "52 4th Avenue #502, BROOKLYN, NY, 11217",
+        "price": 4300,
+        "title": "52 4th Avenue #502",
+        "url": "https://streeteasy.com/building/the-eleanor/502"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "238 Eight Street #4R, BROOKLYN, NY, 11215",
+        "price": 5250,
+        "title": "238 Eight Street #4R",
+        "url": "https://streeteasy.com/building/238-8-street-brooklyn/4r"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "461 Dean Street #30B, BROOKLYN, NY, 11217",
+        "price": 4875,
+        "title": "461 Dean Street #30B",
+        "url": "https://streeteasy.com/building/461-dean-street-brooklyn/30b"
+      },
+      "reasons": [
+        "Kitchen photo shows a closed layout"
+      ]
+    },
+    {
+      "listing": {
         "address": "400 West 61st Street #307, NEW YORK, NY, 10023",
         "price": 7385,
         "title": "400 West 61st Street #307",
@@ -2945,28 +3134,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "52 4th Avenue #705, BROOKLYN, NY, 11217",
-        "price": 4450,
-        "title": "52 4th Avenue #705",
-        "url": "https://streeteasy.com/building/the-eleanor/705"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "808 Columbus Avenue #8C, NEW YORK, NY, 10025",
-        "price": 6635,
-        "title": "808 Columbus Avenue #8C",
-        "url": "https://streeteasy.com/building/808-columbus-avenue-new_york/08c"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3038,17 +3205,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "475 Clermont Avenue #714, BROOKLYN, NY, 11238",
-        "price": 5282,
-        "title": "475 Clermont Avenue #714",
-        "url": "https://streeteasy.com/building/475-clermont/0714"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "801 Amsterdam Avenue #5E, NEW YORK, NY, 10025",
         "price": 5595,
         "title": "801 Amsterdam Avenue #5E",
@@ -3064,17 +3220,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 5230,
         "title": "23-15 44th Road #44R",
         "url": "https://streeteasy.com/building/lumen-lic/44r"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "52 4th Avenue #502, BROOKLYN, NY, 11217",
-        "price": 4300,
-        "title": "52 4th Avenue #502",
-        "url": "https://streeteasy.com/building/the-eleanor/502"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3146,17 +3291,6 @@ window.__APARTMENT_REPORT__ = {
         "Rent could not be confirmed",
         "Bedroom count could not be confirmed",
         "No street address parsed; commute not calculated"
-      ]
-    },
-    {
-      "listing": {
-        "address": "31 West 94th Street #3B, NEW YORK, NY, 10025",
-        "price": 5000,
-        "title": "31 West 94th Street #3B",
-        "url": "https://streeteasy.com/building/31-west-94-street-new_york/3b"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -3262,28 +3396,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "23-10 42nd Road #33D, LONG ISLAND CITY, NY, 11101",
-        "price": 5311,
-        "title": "23-10 42nd Road #33D",
-        "url": "https://streeteasy.com/building/aura-lic/33d"
-      },
-      "reasons": [
-        "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "595 Dean Street #213, BROOKLYN, NY, 11238",
-        "price": 4410,
-        "title": "595 Dean Street #213",
-        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/213"
-      },
-      "reasons": [
-        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
       ]
     },
     {
@@ -3574,17 +3686,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "56-27 2nd Street #408, QUEENS, NY, 11101",
-        "price": 4925,
-        "title": "56-27 2nd Street #408",
-        "url": "https://streeteasy.com/building/gotham-point-south/408"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "22-44 Jackson Avenue #3911, LONG ISLAND CITY, NY, 11101",
         "price": 6713,
         "title": "22-44 Jackson Avenue #3911",
@@ -3651,17 +3752,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "21 West End Avenue #3611, NEW YORK, NY, 10023",
-        "price": 6150,
-        "title": "21 West End Avenue #3611",
-        "url": "https://streeteasy.com/building/21-west-end-avenue-new_york/3611"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "525 4th Street #2E, BROOKLYN, NY, 11215",
         "price": 4395,
         "title": "525 4th Street #2E",
@@ -3700,17 +3790,6 @@ window.__APARTMENT_REPORT__ = {
         "price": 4950,
         "title": "300 East 96th Street #6A",
         "url": "https://streeteasy.com/building/1854-2-avenue-new_york/6a"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": "42-06 Orchard Street #41B, LONG ISLAND CITY, NY, 11101",
-        "price": 5475,
-        "title": "42-06 Orchard Street #41B",
-        "url": "https://streeteasy.com/building/the-orchard-42-06-orchard-street/41b"
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -3791,17 +3870,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
-      ]
-    },
-    {
-      "listing": {
-        "address": "801 Amsterdam Avenue #8G, NEW YORK, NY, 10025",
-        "price": 6061,
-        "title": "801 Amsterdam Avenue #8G",
-        "url": "https://streeteasy.com/building/801-amsterdam-ave-new_york/08g"
-      },
-      "reasons": [
-        "Kitchen photo shows a galley layout"
       ]
     },
     {
@@ -4045,17 +4113,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "645 Park Place #7H, BROOKLYN, NY, 11238",
-        "price": 6500,
-        "title": "645 Park Place #7H",
-        "url": "https://streeteasy.com/building/645-park-place/7h"
-      },
-      "reasons": [
-        "Neighborhood excluded: Crown Heights"
-      ]
-    },
-    {
-      "listing": {
         "address": "333 East 83rd Street #5W, NEW YORK, NY, 10028",
         "price": 4860,
         "title": "333 East 83rd Street #5W",
@@ -4279,19 +4336,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
-        "address": null,
-        "price": null,
-        "title": "400 West 63rd Street #1408",
-        "url": "https://streeteasy.com/building/the-ashley/1408"
-      },
-      "reasons": [
-        "Rent could not be confirmed",
-        "Bedroom count could not be confirmed",
-        "No street address parsed; commute not calculated"
       ]
     },
     {
@@ -5798,17 +5842,6 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
-        "address": "5-11 47th Avenue #5E, LONG ISLAND CITY, NY, 11101",
-        "price": 4449,
-        "title": "5-11 47th Avenue #5E",
-        "url": "https://streeteasy.com/building/the-maximilian/05e"
-      },
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
-    },
-    {
-      "listing": {
         "address": "168 Prospect Place #4, BROOKLYN, NY, 11238",
         "price": 5500,
         "title": "168 Prospect Place #4",
@@ -6856,6 +6889,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "333 Warren Street #4F, BROOKLYN, NY, 11201",
+        "price": 4595,
+        "title": "333 Warren Street #4F",
+        "url": "https://streeteasy.com/building/333-warren-street-brooklyn/4f"
+      },
+      "reasons": [
+        "In contract on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "231 East 76th Street #3H, NEW YORK, NY, 10021",
         "price": 5995,
         "title": "231 East 76th Street #3H",
@@ -7467,17 +7511,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "No longer available on StreetEasy (auto-detected during periodic revalidation)"
-      ]
-    },
-    {
-      "listing": {
-        "address": "101 West End Avenue #14D, NEW YORK, NY, 10069",
-        "price": 6325,
-        "title": "101 West End Avenue #14D",
-        "url": "https://streeteasy.com/building/101-west-end-avenue-new_york/14d"
-      },
-      "reasons": [
-        "Listing text describes the kitchen as separate/closed, overriding vision (user-caught)"
       ]
     },
     {
@@ -8426,6 +8459,17 @@ window.__APARTMENT_REPORT__ = {
       },
       "reasons": [
         "Kitchen photo shows a galley layout"
+      ]
+    },
+    {
+      "listing": {
+        "address": "22-44 Jackson Avenue #3412, LONG ISLAND CITY, NY, 11101",
+        "price": 4710,
+        "title": "22-44 Jackson Avenue #3412",
+        "url": "https://streeteasy.com/building/5pointz-lic/3412"
+      },
+      "reasons": [
+        "Delisted on StreetEasy (auto-detected during periodic revalidation)"
       ]
     },
     {
@@ -14691,7 +14735,7 @@ window.__APARTMENT_REPORT__ = {
         "name": "Hunters Point",
         "tier": "other",
         "count": 81,
-        "medianPrice": 5110,
+        "medianPrice": 5160,
         "medianPricePerSqft": 7.073170731707317,
         "medianDaysOnMarket": 17,
         "medianLeadTimeDays": 0
@@ -14708,8 +14752,8 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Fort Greene",
         "tier": "brooklyn",
-        "count": 19,
-        "medianPrice": 5325,
+        "count": 20,
+        "medianPrice": 5412.5,
         "medianPricePerSqft": 7.517122040072859,
         "medianDaysOnMarket": 8,
         "medianLeadTimeDays": 6
@@ -14717,7 +14761,7 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Boerum Hill",
         "tier": "brooklyn",
-        "count": 17,
+        "count": 16,
         "medianPrice": 5381,
         "medianPricePerSqft": 7.328083989501312,
         "medianDaysOnMarket": 14,
@@ -14824,12 +14868,254 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 259,
-      "medianDaysOnMarket": 9.5
+      "sampleSize": 261,
+      "medianDaysOnMarket": 9
     }
   },
-  "newListings": [],
-  "runAt": "2026-07-30T16:03:48.622Z",
+  "newListings": [
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 30,
+          "lines": [
+            "B Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 17,
+          "lines": [
+            "B52"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 38,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "Q Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 43,
+          "lines": [
+            "B Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-30T22:00:05.285Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "20 Rockwell Place #2132X, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-rocklyn-2132x.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/13e8cfa640552828332edaa632820ba8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bdd0b73c2fef5a86d98344f4f9f90d53-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/69f078ef5e116b7ebadbb65daa5865a0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/18b721b3cfda8bae66a0139ee775033b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/eedaf3cb634726d3e618e295a02eaa6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/44cb363a924c28729a794cb9b7633a80-se_extra_large_1500_800.webp"
+        ],
+        "price": 5996,
+        "sqft": null,
+        "title": "20 Rockwell Place #2132X",
+        "url": "https://streeteasy.com/building/the-rocklyn/2132x",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 65.31275804833217,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.15,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 38.8,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 86.99799196787149,
+          "weight": 0.1,
+          "price": 5996
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 65.31275804833217,
+      "visionNotes": "Kitchen is visible with open layout to living/dining area; smooth-top electric stove; private terrace with seating; living room has good floor area with comfortable spacing."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 10,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B52"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 43,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-30T22:00:05.285Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "23-15 44th Road #47H, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-lumen-lic-47h.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/c4e5e3ef38059965368fa2473f3519d1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a45e096b818d89d38afad173a21b4273-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a6db5e694a28fd3e41e5ed1cf62d2f93-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/75eb036ac53ee7b852f110cd46826651-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7635273070128adc804aa8111d1802a6-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/564edf8c99bc3e7f197ba8a81dfe5f87-se_extra_large_1500_800.webp"
+        ],
+        "price": 5985,
+        "sqft": null,
+        "title": "23-15 44th Road #47H",
+        "url": "https://streeteasy.com/building/lumen-lic/47h",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.934192250372575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.15,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 14.511922503725799,
+          "weight": 0.1,
+          "price": 5985
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 51.934192250372575,
+      "visionNotes": "Kitchen is visible with island peninsula open to living/dining area; gas range with visible burner grates clearly seen; living room has generous floor area with multiple seating zones; no private outdoor space visible."
+    }
+  ],
+  "runAt": "2026-07-30T22:00:05.285Z",
   "sourcesConfigured": 1,
   "topListings": [
     {
@@ -15808,6 +16094,127 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 65.43995885154503,
       "visionNotes": "Kitchen is visible in multiple photos with a moderate counter/cabinet run; semi-open layout with dining table adjacent; smooth-top electric range visible; no private outdoor space; living room has good floor area with standard NYC proportions."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 30,
+          "lines": [
+            "B Line",
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 17,
+          "lines": [
+            "B52"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 38,
+          "lines": [
+            "G Line"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 46,
+          "lines": [
+            "Q Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 43,
+          "lines": [
+            "B Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-30T22:00:05.285Z",
+      "hasGarden": true,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "smoothElectric",
+      "listing": {
+        "address": "20 Rockwell Place #2132X, BROOKLYN, NY, 11201",
+        "availableDate": "now",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-the-rocklyn-2132x.png",
+        "neighborhood": "Fort Greene",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/13e8cfa640552828332edaa632820ba8-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/bdd0b73c2fef5a86d98344f4f9f90d53-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/69f078ef5e116b7ebadbb65daa5865a0-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/18b721b3cfda8bae66a0139ee775033b-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/eedaf3cb634726d3e618e295a02eaa6d-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/44cb363a924c28729a794cb9b7633a80-se_extra_large_1500_800.webp"
+        ],
+        "price": 5996,
+        "sqft": null,
+        "title": "20 Rockwell Place #2132X",
+        "url": "https://streeteasy.com/building/the-rocklyn/2132x",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 65.31275804833217,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 49,
+          "weight": 0.15,
+          "minutes": 30
+        },
+        "friends": {
+          "score": 38.8,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 26.069588515450338,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 86.99799196787149,
+          "weight": 0.1,
+          "price": 5996
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 65.31275804833217,
+      "visionNotes": "Kitchen is visible with open layout to living/dining area; smooth-top electric stove; private terrace with seating; living room has good floor area with comfortable spacing."
     },
     {
       "buildingType": "Condo",
@@ -28038,126 +28445,6 @@ window.__APARTMENT_REPORT__ = {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 11,
-          "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 42,
-          "lines": [
-            "G Line",
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 15,
-          "lines": []
-        },
-        "morningsideHeights": {
-          "minutes": 40,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 32,
-          "lines": [
-            "7X",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T09:20:32.822Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "22-44 Jackson Avenue #3412, LONG ISLAND CITY, NY, 11101",
-        "availableDate": "now",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 8,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-20",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-5pointz-lic-3412.png",
-        "neighborhood": "Hunters Point",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/10a98a1bf720140a7c29a035808bc496-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/50718e756dd590b7922ab6c06f921869-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0567b00135fa30085ca5e599e39b123f-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/0084003bd6d6d3bc7f92dec28a559bed-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/68f35643ca5c2bfd516116d7a8de4ec4-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3f7988fdf376ae2041a93cd8f7f92ece-se_large_800_400.webp"
-        ],
-        "price": 4710,
-        "sqft": null,
-        "title": "22-44 Jackson Avenue #3412",
-        "url": "https://streeteasy.com/building/5pointz-lic/3412",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "other",
-      "rankBreakdown": {
-        "total": 57.09256482861401,
-        "neighborhood": {
-          "score": 30,
-          "weight": 0.15,
-          "tier": "other"
-        },
-        "office": {
-          "score": 81.3,
-          "weight": 0.15,
-          "minutes": 11
-        },
-        "friends": {
-          "score": 45.175,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 62.01564828614008,
-          "weight": 0.1,
-          "price": 4710
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 57.09256482861401,
-      "visionNotes": "Kitchen is visible with semi-open layout to living area; smooth-top electric range clearly visible; living room has generous floor area with multiple seating; no private outdoor space shown."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
           "minutes": 14,
           "lines": [
             "F Line"
@@ -33394,128 +33681,6 @@ window.__APARTMENT_REPORT__ = {
         "office": {
           "minutes": 33,
           "lines": [
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 19,
-          "lines": [
-            "B65"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 36,
-          "lines": [
-            "G Line"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 49,
-          "lines": [
-            "F Line",
-            "B Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 44,
-          "lines": [
-            "F Line",
-            "B Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-23T22:11:31.390Z",
-      "hasGarden": true,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "smoothElectric",
-      "listing": {
-        "address": "333 Warren Street #4F, BROOKLYN, NY, 11201",
-        "availableDate": "2026-08-15",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": null,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": null,
-        "externalScreenshot": "screenshots/streeteasy-com-building-333-warren-street-brooklyn-4f.png",
-        "neighborhood": "Boerum Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/903c21797d2fcfd5fe1f4d583c775063-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/36df71ea70634b31599570d3ca97ac78-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/74a26f646a37d5e8bc8c8ea9e8c416f8-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/acb508ab19574bf96b679aa3054232ed-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/2f87bf19ba5af11bfa0aa86be7278e0d-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/21217af737dd75cc7dd4eaada26b787e-se_large_800_400.webp"
-        ],
-        "price": 4595,
-        "sqft": null,
-        "title": "333 Warren Street #4F",
-        "url": "https://streeteasy.com/building/333-warren-street-brooklyn/4f",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 53.44202980625931,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 43.9,
-          "weight": 0.15,
-          "minutes": 33
-        },
-        "friends": {
-          "score": 37.10000000000001,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 66.30029806259314,
-          "weight": 0.1,
-          "price": 4595
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 53.44202980625931,
-      "visionNotes": "Kitchen is visible in photos 5-6 as a small open galley-style counter running along one wall, adjacent to and visually connected to the living/dining area; stove appears to be a smooth-top electric unit but angle and resolution make full certainty difficult; no private outdoor space visible; living room is spacious with good floor area."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 33,
-          "lines": [
             "4 Line",
             "6 Train"
           ]
@@ -35095,6 +35260,126 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 52.05271684053651,
       "visionNotes": "First photo shows a modern kitchen with island that opens to a spacious living/dining area with NYC skyline views; stove appears to be smooth-top electric but angle makes it somewhat hard to confirm; outdoor spaces visible are shared building amenities (gym, rooftop deck, courtyard), not private unit space."
+    },
+    {
+      "buildingType": "Rental unit",
+      "commute": {
+        "office": {
+          "minutes": 10,
+          "lines": [
+            "F Line"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 44,
+          "lines": [
+            "G Line",
+            "B52"
+          ]
+        },
+        "longIslandCity": {
+          "minutes": 20,
+          "lines": []
+        },
+        "morningsideHeights": {
+          "minutes": 43,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 35,
+          "lines": [
+            "7X",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-30T22:00:05.285Z",
+      "hasGarden": false,
+      "isCondo": false,
+      "isGroundFloor": false,
+      "kitchenLayout": "semi-open",
+      "kitchenSize": "standard",
+      "stoveType": "gas",
+      "listing": {
+        "address": "23-15 44th Road #47H, LONG ISLAND CITY, NY, 11101",
+        "availableDate": "2026-08-15",
+        "bathrooms": 1,
+        "bedrooms": 1,
+        "daysOnMarket": null,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": null,
+        "externalScreenshot": "screenshots/streeteasy-com-building-lumen-lic-47h.png",
+        "neighborhood": "Hunters Point",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/c4e5e3ef38059965368fa2473f3519d1-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a45e096b818d89d38afad173a21b4273-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/a6db5e694a28fd3e41e5ed1cf62d2f93-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/75eb036ac53ee7b852f110cd46826651-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/7635273070128adc804aa8111d1802a6-se_extra_large_1500_800.webp",
+          "https://photos.zillowstatic.com/fp/564edf8c99bc3e7f197ba8a81dfe5f87-se_extra_large_1500_800.webp"
+        ],
+        "price": 5985,
+        "sqft": null,
+        "title": "23-15 44th Road #47H",
+        "url": "https://streeteasy.com/building/lumen-lic/47h",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "other",
+      "rankBreakdown": {
+        "total": 51.934192250372575,
+        "neighborhood": {
+          "score": 30,
+          "weight": 0.15,
+          "tier": "other"
+        },
+        "office": {
+          "score": 83,
+          "weight": 0.15,
+          "minutes": 10
+        },
+        "friends": {
+          "score": 39.650000000000006,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 17.75,
+          "weight": 0.1,
+          "sqft": null,
+          "bedrooms": 1
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 50,
+          "weight": 0.06,
+          "isCondo": false
+        },
+        "value": {
+          "score": 14.511922503725799,
+          "weight": 0.1,
+          "price": 5985
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 51.934192250372575,
+      "visionNotes": "Kitchen is visible with island peninsula open to living/dining area; gas range with visible burner grates clearly seen; living room has generous floor area with multiple seating zones; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
