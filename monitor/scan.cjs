@@ -698,4 +698,13 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildReport, createPersistentContext, loadConfig, loadState, revalidateQualifyingListings, saveReport, statePath };
+module.exports = {
+  buildReport,
+  createPersistentContext,
+  inspectListing,
+  loadConfig,
+  loadState,
+  revalidateQualifyingListings,
+  saveReport,
+  statePath,
+};

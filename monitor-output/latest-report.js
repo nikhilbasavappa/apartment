@@ -14724,6 +14724,15 @@ window.__APARTMENT_REPORT__ = {
         "medianLeadTimeDays": 0
       },
       {
+        "name": "Prospect Heights",
+        "tier": "brooklyn",
+        "count": 14,
+        "medianPrice": 4825,
+        "medianPricePerSqft": 6.57726975039663,
+        "medianDaysOnMarket": 24,
+        "medianLeadTimeDays": 10
+      },
+      {
         "name": "Clinton Hill",
         "tier": "brooklyn",
         "count": 14,
@@ -14731,15 +14740,6 @@ window.__APARTMENT_REPORT__ = {
         "medianPricePerSqft": 6.3373292085589075,
         "medianDaysOnMarket": 13,
         "medianLeadTimeDays": 8
-      },
-      {
-        "name": "Prospect Heights",
-        "tier": "brooklyn",
-        "count": 13,
-        "medianPrice": 4750,
-        "medianPricePerSqft": 6.620839363241679,
-        "medianDaysOnMarket": 24,
-        "medianLeadTimeDays": 5
       },
       {
         "name": "Park Slope",
@@ -14832,6 +14832,127 @@ window.__APARTMENT_REPORT__ = {
   "runAt": "2026-07-30T16:03:48.622Z",
   "sourcesConfigured": 1,
   "topListings": [
+    {
+      "buildingType": "Condo",
+      "commute": {
+        "office": {
+          "minutes": 38,
+          "lines": [
+            "4 Line",
+            "6 Train"
+          ]
+        },
+        "prospectHeights": {
+          "minutes": 3,
+          "lines": []
+        },
+        "longIslandCity": {
+          "minutes": 52,
+          "lines": [
+            "5 Line",
+            "7"
+          ]
+        },
+        "morningsideHeights": {
+          "minutes": 50,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        },
+        "upperWestSide": {
+          "minutes": 45,
+          "lines": [
+            "2 Line",
+            "1 Line"
+          ]
+        }
+      },
+      "firstSeenAt": "2026-07-30T20:06:37.043Z",
+      "hasGarden": false,
+      "isCondo": true,
+      "isGroundFloor": false,
+      "kitchenLayout": "open",
+      "kitchenSize": "standard",
+      "stoveType": "unknown",
+      "listing": {
+        "address": "535 Dean Street #913, BROOKLYN, NY, 11217",
+        "availableDate": "2026-08-15",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "daysOnMarket": 1,
+        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
+        "estimatedListingDate": "2026-07-29",
+        "externalScreenshot": "screenshots/streeteasy-com-building-newswalk-phase-3-913.png",
+        "neighborhood": "Prospect Heights",
+        "photos": [
+          "https://photos.zillowstatic.com/fp/45522b878429ad6368084e6e0cffcac4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/35062829a230eb6613452be30781e2b4-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/11e2c2e3f3815484e1019977ab7531a5-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/60e34ff8d8ff8c3c6c8d69d43c25b5bc-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/32f5489b679573efecb08144186b7e8f-se_large_800_400.webp",
+          "https://photos.zillowstatic.com/fp/cb8437b0d3ad6afe5d8810c886d0712e-se_large_800_400.webp"
+        ],
+        "price": 6500,
+        "sqft": 1400,
+        "title": "535 Dean Street #913",
+        "url": "https://streeteasy.com/building/newswalk-phase-3/913",
+        "washerDryer": "yes"
+      },
+      "livingRoomSmall": false,
+      "needsEarlyAction": false,
+      "neighborhoodTier": "brooklyn",
+      "rankBreakdown": {
+        "total": 74.40873734152916,
+        "neighborhood": {
+          "score": 100,
+          "weight": 0.15,
+          "tier": "brooklyn"
+        },
+        "office": {
+          "score": 35.400000000000006,
+          "weight": 0.15,
+          "minutes": 38
+        },
+        "friends": {
+          "score": 36.25,
+          "weight": 0.12
+        },
+        "size": {
+          "score": 97.48737341529161,
+          "weight": 0.1,
+          "sqft": 1400,
+          "bedrooms": 2
+        },
+        "livingRoom": {
+          "score": 100,
+          "weight": 0.12,
+          "small": false
+        },
+        "kitchenSize": {
+          "score": 50,
+          "weight": 0.16,
+          "size": "standard"
+        },
+        "condo": {
+          "score": 100,
+          "weight": 0.06,
+          "isCondo": true
+        },
+        "value": {
+          "score": 100,
+          "weight": 0.1,
+          "price": 6500
+        },
+        "groundFloor": {
+          "score": 100,
+          "weight": 0.04,
+          "isGroundFloor": false
+        }
+      },
+      "rankScore": 74.40873734152916,
+      "visionNotes": "Kitchen is visible and open to living area with island; stove type unclear from photos; unit has a private terrace (not garden); living room floor area is spacious with expansive windows."
+    },
     {
       "buildingType": "Rental unit",
       "commute": {

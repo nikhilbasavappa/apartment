@@ -8,6 +8,7 @@ No new qualifying listings this run.
 
 ## Qualifying Listings
 
+- 535 Dean Street #913 | $6,500 | 535 Dean Street #913, BROOKLYN, NY, 11217 | 38 min to office | score 74/100
 - 375 Dean Street #403 | $5,799 | 375 Dean Street #403, BROOKLYN, NY, 11217 | 33 min to office | score 70/100
 - 103 West 77th Street #4C | $5,995 | 103 West 77th Street #4C, NEW YORK, NY, 10024 | 22 min to office | score 69/100
 - 45 Garnet Street #1B | $4,900 | 45 Garnet Street #1B, BROOKLYN, NY, 11231 | 40 min to office | score 68/100
