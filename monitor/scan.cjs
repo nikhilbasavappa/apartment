@@ -481,6 +481,19 @@ const RENTED_PATTERN = /\$[\d,]+\s+for rent\b.{0,200}?\brented\b/is;
 // outside this window), which is why a bare substring match would misfire.
 const OFF_MARKET_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\btemporarily off market\b/is;
 
+// A fifth distinct status, found on 266 West 96th Street #1706: user flagged
+// it as unavailable since 7/25, but it had already been revalidated on 7/29
+// under logic version 3 (which covers off-market) and still passed. The live
+// page reads "$6,550 for rent ... No longer available 7/25/2026" — StreetEasy's
+// own "Unavailable" status label, distinct from off-market (which implies it
+// may return) and from FOR_RENT_MARKER's absence check (the marker is still
+// present here; the page just also carries this explicit status line right
+// after it). Same anchoring approach caught a second live case for free —
+// 595 Dean Street #632, cached from a 7/29 revalidation, also reads "No
+// longer available 7/1/2026" this close to its own for-rent marker. Verified
+// zero false positives against the other 342 currently-qualifying entries.
+const NO_LONGER_AVAILABLE_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\bno longer available\b/is;
+
 // Bumped whenever the detection logic itself gains a new capability (e.g.
 // adding RENTED_PATTERN after IN_CONTRACT_PATTERN already existed) — an
 // entry last checked under an older version got a "still qualifies" result
@@ -492,7 +505,7 @@ const OFF_MARKET_PATTERN = /\$[\d,]+\s+for rent\b.{0,150}?\btemporarily off mark
 // any time detection logic changes, so previously-cleared entries
 // automatically fall back to "needs a real check" without a manual
 // one-off backlog sweep every time.
-const REVALIDATION_LOGIC_VERSION = 3;
+const REVALIDATION_LOGIC_VERSION = 4;
 
 // The catalog only ever grows — nothing previously re-checks whether a
 // qualifying listing is still actually live on StreetEasy. Re-verifying the
@@ -538,6 +551,7 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
       const inContract = IN_CONTRACT_PATTERN.test(details.bodyText);
       const rented = RENTED_PATTERN.test(details.bodyText);
       const offMarket = OFF_MARKET_PATTERN.test(details.bodyText);
+      const noLongerAvailable = NO_LONGER_AVAILABLE_PATTERN.test(details.bodyText);
       entry.lastRevalidatedAt = runAt;
       entry.lastRevalidatedLogicVersion = REVALIDATION_LOGIC_VERSION;
       checked += 1;
@@ -562,6 +576,11 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         entry.reasons = ["Temporarily off market on StreetEasy (auto-detected during periodic revalidation)"];
         removed += 1;
         console.log(`REVALIDATED_OFF_MARKET: ${entry.listing.title}`);
+      } else if (noLongerAvailable) {
+        entry.qualifies = false;
+        entry.reasons = ["No longer available on StreetEasy (auto-detected during periodic revalidation)"];
+        removed += 1;
+        console.log(`REVALIDATED_NO_LONGER_AVAILABLE: ${entry.listing.title}`);
       } else {
         // Price and availability date are the only listing fields that
         // legitimately drift over time (a landlord's decision, not a fixed

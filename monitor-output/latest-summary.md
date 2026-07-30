@@ -215,7 +215,6 @@ No new qualifying listings this run.
 - 4545 Center Boulevard #2501 | $6,595 | 4545 Center Boulevard #2501, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 56/100
 - 411 Sackett Street #1 | $6,495 | 411 Sackett Street #1, BROOKLYN, NY, 11231 | 40 min to office | score 56/100
 - 5203 Center Boulevard #5006 | $6,355 | 5203 Center Boulevard #5006, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 55/100
-- 266 West 96th Street #1706 | $6,550 | 266 West 96th Street #1706, NEW YORK, NY, 10025 | 26 min to office | score 55/100
 - 47-05 Center Boulevard #1001 | $6,795 | 47-05 Center Boulevard #1001, LONG ISLAND CITY, NY, 11109 | 23 min to office | score 55/100
 - 55 Willoughby Street #41C | $6,295 | 55 Willoughby Street #41C, BROOKLYN, NY, 11201 | 31 min to office | score 55/100
 - 4545 Center Boulevard #3902 | $6,760 | 4545 Center Boulevard #3902, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 55/100
@@ -339,7 +338,6 @@ No new qualifying listings this run.
 - 225 13th Street #13 | $4,727 | 225 13th Street #13, BROOKLYN, NY, 11215 | 43 min to office | score 41/100
 - 27-21 44th Drive #1301 | $4,150 | 27-21 44th Drive #1301, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 41/100
 - 334 West 88th Street #9 | $4,975 | 334 West 88th Street #9, NEW YORK, NY, 10024 | 38 min to office | score 40/100
-- 595 Dean Street #632 | $4,595 | 595 Dean Street #632, BROOKLYN, NY, 11238 | 40 min to office | score 39/100
 - 526 Baltic Street #5B | $5,019 | 526 Baltic Street #5B, BROOKLYN, NY, 11217 | 41 min to office | score 38/100
 - 372 Saint John's Place #53 | $4,500 | 372 Saint John's Place #53, BROOKLYN, NY, 11238 | 44 min to office | score 38/100
 - 556 Baltic Street #901 | $4,900 | 556 Baltic Street #901, NEW YORK, NY, 11217 | 40 min to office | score 37/100
@@ -348,7 +346,7 @@ No new qualifying listings this run.
 - 443 East 88th Street #12 | $4,700 | 443 East 88th Street #12, NEW YORK, NY, 10128 | 33 min to office | score 35/100
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 23/100
 
-## Excluded (932)
+## Excluded (934)
 
 - 2-20 Malt Drive #3203 | 2-20 Malt Drive #3203, LONG ISLAND CITY, NY, 11101 — Rent $7195 outside $3500-7000
 - 400 West 61st Street #307 | 400 West 61st Street #307, NEW YORK, NY, 10023 — Rent $7385 outside $3500-7000; Kitchen layout could not be confirmed from photos
@@ -589,6 +587,7 @@ No new qualifying listings this run.
 - 22-44 Jackson Avenue #4701 | 22-44 Jackson Avenue #4701, LONG ISLAND CITY, NY, 11101 — Rent $7375 outside $3500-7000; Kitchen layout could not be confirmed from photos
 - 22-44 Jackson Avenue #1018 | 22-44 Jackson Avenue #1018, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
 - 55 Willoughby Street #24B | 55 Willoughby Street #24B, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 266 West 96th Street #1706 | 266 West 96th Street #1706, NEW YORK, NY, 10025 — No longer available on StreetEasy (auto-detected during periodic revalidation)
 - 262 9th Street #706 | 262 9th Street #706, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
 - 55 Willoughby Street #25C | 55 Willoughby Street #25C, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 4545 Center Boulevard #3601 | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
@@ -1129,6 +1128,7 @@ No new qualifying listings this run.
 - 41-15 24th Street #1012 | 41-15 24th Street #1012, LONG ISLAND CITY, NY, 11101 — Rented on StreetEasy (auto-detected during periodic revalidation)
 - 304 East 77th Street #5 | 304 East 77th Street #5, NEW YORK, NY, 10075 — Listing text describes the kitchen as separate/closed, overriding vision (user-caught)
 - 29-18 41st Avenue #24B | 29-18 41st Avenue #24B, LONG ISLAND CITY, NY, 11101 — In contract on StreetEasy (auto-detected during periodic revalidation)
+- 595 Dean Street #632 | 595 Dean Street #632, BROOKLYN, NY, 11238 — No longer available on StreetEasy (auto-detected during periodic revalidation)
 - 159 3rd Avenue #5L | 159 3rd Avenue #5L, BROOKLYN, NY, 11217 — In contract on StreetEasy (auto-detected during periodic revalidation)
 - 80 Dekalb Avenue #22D | 80 Dekalb Avenue #22D, BROOKLYN, NY, 11201 — Rented on StreetEasy (auto-detected during periodic revalidation)
 - 5-09 48th Avenue #4H | 5-09 48th Avenue #4H, LONG ISLAND CITY, NY, 11101 — In contract on StreetEasy (auto-detected during periodic revalidation)

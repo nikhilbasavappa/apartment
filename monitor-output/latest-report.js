@@ -124,128 +124,6 @@ window.__APARTMENT_REPORT__ = {
       "visionNotes": "Open kitchen with standard counter/cabinet run and smooth-top electric range; large private terrace with NYC skyline views; spacious living room with good floor area."
     },
     {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 26,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 12,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "266 West 96th Street #1706, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-25",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 26,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-03",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-266-west-96th-1706.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/baa68ed72581e44eaf84c0329d6d2409-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6c724084255238b6e7620b7fe076868c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bc1c50002cb72b9e30703a28e7355e88-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a4b5401b0be383f11e44b68221e967ed-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/529e9877fa806f7a44c0e408b5c4d60d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
-        ],
-        "price": 6550,
-        "sqft": 655,
-        "title": "266 West 96th Street #1706",
-        "url": "https://streeteasy.com/building/266-west-96th/1706",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 55.39,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.15,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.15,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 55.375,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 13.750000000000002,
-          "weight": 0.1,
-          "sqft": 655,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 0,
-          "weight": 0.1,
-          "price": 6550
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 55.39,
-      "visionNotes": "Kitchen is visible in photos 2 and 4 with gas range (visible burner grates), semi-open layout to dining area; living room in photo 1 shows spacious open floor plan with generous sightlines; no private outdoor space visible, only city views from windows; photo 5-6 are building amenities (gym, common area) not part of unit."
-    },
-    {
       "buildingType": "Condo",
       "commute": {
         "office": {
@@ -7301,6 +7179,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "266 West 96th Street #1706, NEW YORK, NY, 10025",
+        "price": 6550,
+        "title": "266 West 96th Street #1706",
+        "url": "https://streeteasy.com/building/266-west-96th/1706"
+      },
+      "reasons": [
+        "No longer available on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "262 9th Street #706, BROOKLYN, NY, 11215",
         "price": 5199,
         "title": "262 9th Street #706",
@@ -13294,6 +13183,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "595 Dean Street #632, BROOKLYN, NY, 11238",
+        "price": 4595,
+        "title": "595 Dean Street #632",
+        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/632"
+      },
+      "reasons": [
+        "No longer available on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "159 3rd Avenue #5L, BROOKLYN, NY, 11217",
         "price": 6000,
         "title": "159 3rd Avenue #5L",
@@ -15042,10 +14942,10 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Prospect Heights",
         "tier": "brooklyn",
-        "count": 25,
-        "medianPrice": 4575,
+        "count": 24,
+        "medianPrice": 4537.5,
         "medianPricePerSqft": 6.620839363241679,
-        "medianDaysOnMarket": 16,
+        "medianDaysOnMarket": 15,
         "medianLeadTimeDays": 0
       },
       {
@@ -15067,15 +14967,6 @@ window.__APARTMENT_REPORT__ = {
         "medianLeadTimeDays": 0
       },
       {
-        "name": "Upper West Side",
-        "tier": "uwsAcceptable",
-        "count": 16,
-        "medianPrice": 5761,
-        "medianPricePerSqft": 9.891808346213292,
-        "medianDaysOnMarket": 25,
-        "medianLeadTimeDays": 22.5
-      },
-      {
         "name": "Park Slope",
         "tier": "brooklyn",
         "count": 16,
@@ -15083,6 +14974,15 @@ window.__APARTMENT_REPORT__ = {
         "medianPricePerSqft": 5.757229232386962,
         "medianDaysOnMarket": 2,
         "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Upper West Side",
+        "tier": "uwsAcceptable",
+        "count": 15,
+        "medianPrice": 5722,
+        "medianPricePerSqft": 9.609484420020227,
+        "medianDaysOnMarket": 24,
+        "medianLeadTimeDays": 23
       },
       {
         "name": "Long Island City",
@@ -15149,8 +15049,8 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 136,
-      "medianDaysOnMarket": 8
+      "sampleSize": 138,
+      "medianDaysOnMarket": 9
     }
   },
   "newListings": [],
@@ -40468,128 +40368,6 @@ window.__APARTMENT_REPORT__ = {
       "buildingType": "Rental unit",
       "commute": {
         "office": {
-          "minutes": 26,
-          "lines": [
-            "1 Line",
-            "D Line",
-            "E Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 47,
-          "lines": [
-            "2 Line"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 35,
-          "lines": [
-            "3 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 12,
-          "lines": [
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 11,
-          "lines": [
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "266 West 96th Street #1706, NEW YORK, NY, 10025",
-        "availableDate": "2026-07-25",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 26,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-03",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-266-west-96th-1706.png",
-        "neighborhood": "Upper West Side",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/baa68ed72581e44eaf84c0329d6d2409-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/6c724084255238b6e7620b7fe076868c-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bc1c50002cb72b9e30703a28e7355e88-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/a4b5401b0be383f11e44b68221e967ed-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/529e9877fa806f7a44c0e408b5c4d60d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/bcceef77afcf27220c18e201b4bafcb8-se_extra_large_1500_800.webp"
-        ],
-        "price": 6550,
-        "sqft": 655,
-        "title": "266 West 96th Street #1706",
-        "url": "https://streeteasy.com/building/266-west-96th/1706",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": true,
-      "neighborhoodTier": "uwsAcceptable",
-      "rankBreakdown": {
-        "total": 55.39,
-        "neighborhood": {
-          "score": 80,
-          "weight": 0.15,
-          "tier": "uwsAcceptable"
-        },
-        "office": {
-          "score": 55.800000000000004,
-          "weight": 0.15,
-          "minutes": 26
-        },
-        "friends": {
-          "score": 55.375,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 13.750000000000002,
-          "weight": 0.1,
-          "sqft": 655,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 0,
-          "weight": 0.1,
-          "price": 6550
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 55.39,
-      "visionNotes": "Kitchen is visible in photos 2 and 4 with gas range (visible burner grates), semi-open layout to dining area; living room in photo 1 shows spacious open floor plan with generous sightlines; no private outdoor space visible, only city views from windows; photo 5-6 are building amenities (gym, common area) not part of unit."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
           "minutes": 23,
           "lines": [
             "7",
@@ -55559,129 +55337,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 40.48523248882265,
       "visionNotes": "Kitchen is visible with a counter opening to living area (semi-open); small counter run with limited built-in space; living room is notably compact with tight floor area despite high ceilings; no private outdoor space visible."
-    },
-    {
-      "buildingType": "Rental unit",
-      "commute": {
-        "office": {
-          "minutes": 40,
-          "lines": [
-            "2 Line",
-            "4 Line",
-            "6 Train"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 10,
-          "lines": []
-        },
-        "longIslandCity": {
-          "minutes": 53,
-          "lines": [
-            "3 Line",
-            "5 Line",
-            "7"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 53,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 47,
-          "lines": [
-            "2 Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-10T03:42:11.818Z",
-      "hasGarden": false,
-      "isCondo": false,
-      "isGroundFloor": false,
-      "kitchenLayout": "open",
-      "kitchenSize": "small",
-      "stoveType": "gas",
-      "listing": {
-        "address": "595 Dean Street #632, BROOKLYN, NY, 11238",
-        "availableDate": "2026-07-01",
-        "bathrooms": 1,
-        "bedrooms": 1,
-        "daysOnMarket": 38,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-06-21",
-        "externalScreenshot": "monitor-output/screenshots/streeteasy-com-building-595-dean-street-brooklyn-632.png",
-        "neighborhood": "Prospect Heights",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/03a118ca61ed1f3fbb99f575bd43baeb-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/0905947380aaaa4aeb9f79a27350da6d-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/214ad7645c7b628171962c54db9a1200-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/279e88a72971ff114f8f62f68df85080-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3575bcca18a98561260bdbea1ea735b8-se_extra_large_1500_800.webp",
-          "https://photos.zillowstatic.com/fp/3bd8aa6596059907096b236bc67988ce-se_extra_large_1500_800.webp"
-        ],
-        "price": 4595,
-        "sqft": null,
-        "title": "595 Dean Street #632",
-        "url": "https://streeteasy.com/building/595-dean-street-brooklyn/632",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": true,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 38.892029806259316,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 32,
-          "weight": 0.15,
-          "minutes": 40
-        },
-        "friends": {
-          "score": 30.725000000000005,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 17.75,
-          "weight": 0.1,
-          "sqft": null,
-          "bedrooms": 1
-        },
-        "livingRoom": {
-          "score": 0,
-          "weight": 0.12,
-          "small": true
-        },
-        "kitchenSize": {
-          "score": 0,
-          "weight": 0.16,
-          "size": "small"
-        },
-        "condo": {
-          "score": 50,
-          "weight": 0.06,
-          "isCondo": false
-        },
-        "value": {
-          "score": 66.30029806259314,
-          "weight": 0.1,
-          "price": 4595
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 38.892029806259316,
-      "visionNotes": "Kitchen is visible with pass-through counter to living area; small footprint with limited counter/cabinet run; stove appears to be smooth-top electric but angle/reflection creates slight ambiguity; living room has tight floor space despite high ceilings and appropriate furniture scaling; no private outdoor space visible."
     },
     {
       "buildingType": "Rental unit",
