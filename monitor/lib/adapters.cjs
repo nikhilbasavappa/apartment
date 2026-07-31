@@ -228,7 +228,13 @@ async function extractSearchListings(page, sourceConfig, pageUrl) {
     }
   });
 
-  return Array.from(deduped.values());
+  // bodyLength lets the caller (collectSearchCandidates) tell a genuinely
+  // empty last page apart from a degraded response that happened to parse
+  // to zero listings — a real "no more results" page still has substantial
+  // page chrome/nav text, while a Bright Data 200-with-0-bytes response
+  // (seen in practice — status 200, empty body, no error to catch) collapses
+  // to almost nothing.
+  return { listings: Array.from(deduped.values()), bodyLength: raw.bodyText.length };
 }
 
 function flattenObjects(input, output = []) {

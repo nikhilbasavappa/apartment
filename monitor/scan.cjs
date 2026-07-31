@@ -19,7 +19,7 @@ const { estimateListingDate, evaluateListing, extractAvailableDate, extractDaysO
 const { computeMarketStats } = require("./lib/trends.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
-const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
+const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, sleep, writeJson, writeText } = require("./lib/util.cjs");
 
 const workspaceRoot = path.resolve(__dirname, "..");
 const outputRoot = path.join(workspaceRoot, "monitor-output");
@@ -274,39 +274,75 @@ async function inspectListing(candidate, listingPage, config, runAt) {
   };
 }
 
+// A real search-results page always has substantial nav/filter/footer text
+// even when zero listings are shown; a degraded Bright Data response — seen
+// in practice as status 200 with a genuinely empty body, which the unlocker
+// layer doesn't treat as an error at all, so nothing throws or retries below
+// it — collapses to almost nothing. Below this, treat the page as "failed to
+// load," not "confirmed empty."
+const SEARCH_PAGE_MIN_BODY_LENGTH = 500;
+const SEARCH_PAGE_RETRIES = 2;
+
 // StreetEasy paginates search results (?page=2, ?page=3, ...) rather than
 // infinite-scrolling; a single page load only ever exposes a small slice
 // (~11-20) of what can be several hundred total matches. Walk pages until
-// one comes back with nothing new, or the configured cap is hit.
+// one comes back genuinely empty, or the configured cap is hit.
 async function collectSearchCandidates(searchPage, sourceConfig, config) {
   const collected = [];
   const seenUrls = new Set();
   const maxCandidates = config.scanner.maxListingsPerSource || 20;
+  let consecutiveBadPages = 0;
 
   for (let pageNumber = 1; pageNumber <= 100; pageNumber += 1) {
     const pageUrl = buildPageUrl(sourceConfig.url, pageNumber);
 
-    let pageResults;
-    try {
-      await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
-      await randomDelay(300, 700);
-      pageResults = await extractSearchListings(searchPage, sourceConfig, pageUrl);
-    } catch (error) {
-      // Was only catching BotChallengeError here before, with the fetch
-      // itself (loadViaUnlocker) outside the try entirely — a raw Bright
-      // Data timeout/5xx on the search page propagated all the way out of
-      // main() uncaught, silently killing the whole scheduled run with no
-      // notification (scheduled-scan.sh's broken-run check only looks at
-      // the report file, which never got touched if the crash happened this
-      // early). Now any per-page failure — challenge or otherwise — just
-      // stops pagination and keeps whatever was already collected, the same
-      // way a bot-challenge always did; on page 1 that surfaces as the
-      // existing, already-notification-worthy ZERO_SEARCH_RESULTS case
-      // instead of an unannounced crash.
-      const label = error instanceof BotChallengeError ? "SEARCH_BOT_CHALLENGE" : "SEARCH_FETCH_ERROR";
-      console.warn(`${label}: ${error.message} (page ${pageNumber})`);
-      break;
+    // A single degraded response used to be indistinguishable from "no more
+    // results" and stopped pagination outright — on a search with 500+
+    // matches (confirmed by a real run reaching page 19), that silently
+    // truncated every page past whichever one happened to glitch, discarding
+    // listings that were never actually exhausted. Retry the SAME page a
+    // few times (both on a thrown error and on a suspiciously short body)
+    // before treating it as a real signal.
+    let pageResults = null;
+    let sawBotChallenge = false;
+    for (let attempt = 0; attempt <= SEARCH_PAGE_RETRIES; attempt += 1) {
+      try {
+        await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
+        await randomDelay(300, 700);
+        const result = await extractSearchListings(searchPage, sourceConfig, pageUrl);
+        if (result.bodyLength < SEARCH_PAGE_MIN_BODY_LENGTH) {
+          throw new Error(`degraded response (${result.bodyLength} chars body)`);
+        }
+        pageResults = result.listings;
+        break;
+      } catch (error) {
+        if (error instanceof BotChallengeError) {
+          sawBotChallenge = true;
+          console.warn(`SEARCH_BOT_CHALLENGE: ${error.message} (page ${pageNumber})`);
+          break;
+        }
+        console.warn(
+          `SEARCH_PAGE_RETRY: ${error.message} (page ${pageNumber}, attempt ${attempt + 1}/${SEARCH_PAGE_RETRIES + 1})`
+        );
+        if (attempt < SEARCH_PAGE_RETRIES) {
+          await sleep(1000 * 2 ** attempt);
+        }
+      }
     }
+
+    if (pageResults === null) {
+      // Every attempt on this page failed (or hit a bot challenge). Three
+      // consecutive bad pages is a much stronger "the source itself is
+      // down/blocked" signal than one flaky page — stop the whole run
+      // rather than grinding through up to 100 pages that'll all fail the
+      // same way, but don't give up on the very first one the way the old
+      // code did.
+      consecutiveBadPages += 1;
+      console.warn(`SEARCH_PAGE_FAILED: giving up on page ${pageNumber} after retries (${consecutiveBadPages} consecutive)`);
+      if (sawBotChallenge || consecutiveBadPages >= 3) break;
+      continue;
+    }
+    consecutiveBadPages = 0;
 
     const newOnes = pageResults.filter((item) => !seenUrls.has(item.url));
 

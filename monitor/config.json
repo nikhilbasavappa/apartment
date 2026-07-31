@@ -23,8 +23,8 @@
   ],
   "scanner": {
     "headless": true,
-    "maxListingsPerSource": 500,
-    "maxNewListingsPerRun": 500,
+    "maxListingsPerSource": 1000,
+    "maxNewListingsPerRun": 1000,
     "waitAfterLoadMs": 1800,
     "captureScreenshots": true,
     "captureRemotePhotos": 6,
