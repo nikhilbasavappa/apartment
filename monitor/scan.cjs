@@ -19,7 +19,7 @@ const { estimateListingDate, evaluateListing, extractAvailableDate, extractDaysO
 const { computeMarketStats } = require("./lib/trends.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
-const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, sleep, writeJson, writeText } = require("./lib/util.cjs");
+const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
 
 const workspaceRoot = path.resolve(__dirname, "..");
 const outputRoot = path.join(workspaceRoot, "monitor-output");
@@ -281,7 +281,25 @@ async function inspectListing(candidate, listingPage, config, runAt) {
 // it — collapses to almost nothing. Below this, treat the page as "failed to
 // load," not "confirmed empty."
 const SEARCH_PAGE_MIN_BODY_LENGTH = 500;
-const SEARCH_PAGE_RETRIES = 2;
+
+// Only ONE retry, and only for the degraded-response case — fetchViaUnlocker
+// already retries a thrown fetch error 3 times internally with backoff
+// before it ever surfaces here, so retrying again on top of that stacks
+// multiplicatively. A first version of this fix retried both cases here and
+// ran into exactly that: one bad morning on Bright Data's end, retries on
+// retries turned a normal run into 90+ minutes stuck on pages 7-41, blew
+// through the scheduled-scan.sh wall-clock ceiling, and got its whole run
+// discarded as "broken" — a full scan lost to the fix meant to prevent lost
+// data. A thrown error gets exactly one shot (already-retried) before moving
+// on; only the never-retried degraded-200 case gets a deliberate extra try.
+const SEARCH_PAGE_RETRIES = 1;
+
+// Total time this function will spend on search-page collection before
+// cutting its losses and returning whatever it has — a systemically rough
+// patch (many pages each eating a full internal-retry cycle) can otherwise
+// consume the entire 90-minute scan budget on pagination alone, leaving
+// nothing for the revalidation/inspection work the rest of the run needs.
+const SEARCH_COLLECTION_BUDGET_MS = 15 * 60 * 1000;
 
 // StreetEasy paginates search results (?page=2, ?page=3, ...) rather than
 // infinite-scrolling; a single page load only ever exposes a small slice
@@ -292,25 +310,35 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
   const seenUrls = new Set();
   const maxCandidates = config.scanner.maxListingsPerSource || 20;
   let consecutiveBadPages = 0;
+  const startedAt = Date.now();
 
   for (let pageNumber = 1; pageNumber <= 100; pageNumber += 1) {
+    if (Date.now() - startedAt > SEARCH_COLLECTION_BUDGET_MS) {
+      console.warn(
+        `SEARCH_COLLECTION_BUDGET_EXCEEDED: stopping at page ${pageNumber} with ${collected.length} collected so far`
+      );
+      break;
+    }
+
     const pageUrl = buildPageUrl(sourceConfig.url, pageNumber);
 
     // A single degraded response used to be indistinguishable from "no more
     // results" and stopped pagination outright — on a search with 500+
     // matches (confirmed by a real run reaching page 19), that silently
     // truncated every page past whichever one happened to glitch, discarding
-    // listings that were never actually exhausted. Retry the SAME page a
-    // few times (both on a thrown error and on a suspiciously short body)
-    // before treating it as a real signal.
+    // listings that were never actually exhausted. Retry the degraded-200
+    // case (the one kind of failure the unlocker layer never retries on its
+    // own) before treating it as a real signal.
     let pageResults = null;
     let sawBotChallenge = false;
     for (let attempt = 0; attempt <= SEARCH_PAGE_RETRIES; attempt += 1) {
+      let degraded = false;
       try {
         await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
         await randomDelay(300, 700);
         const result = await extractSearchListings(searchPage, sourceConfig, pageUrl);
         if (result.bodyLength < SEARCH_PAGE_MIN_BODY_LENGTH) {
+          degraded = true;
           throw new Error(`degraded response (${result.bodyLength} chars body)`);
         }
         pageResults = result.listings;
@@ -324,9 +352,13 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
         console.warn(
           `SEARCH_PAGE_RETRY: ${error.message} (page ${pageNumber}, attempt ${attempt + 1}/${SEARCH_PAGE_RETRIES + 1})`
         );
-        if (attempt < SEARCH_PAGE_RETRIES) {
-          await sleep(1000 * 2 ** attempt);
-        }
+        // A thrown, non-degraded error already went through fetchViaUnlocker's
+        // own 3-retry backoff before ever landing here — retrying it again at
+        // this layer stacks multiplicatively (this is what turned one rough
+        // Bright Data morning into a 90+ minute run stuck on pages 7-41, see
+        // comment above). Only the degraded-response case — never retried
+        // below this point — gets the extra attempt.
+        if (!degraded) break;
       }
     }
 
