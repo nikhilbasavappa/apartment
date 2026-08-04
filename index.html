@@ -26,6 +26,7 @@
           <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
           <button type="button" class="tab-button" data-tab="starred">Starred <span class="tab-count" id="tabCountStarred"></span></button>
           <button type="button" class="tab-button" data-tab="unavailable">Unavailable <span class="tab-count" id="tabCountUnavailable"></span></button>
+          <button type="button" class="tab-button" data-tab="watchlist">Building Watch <span class="tab-count" id="tabCountWatchlist"></span></button>
           <button type="button" class="tab-button" data-tab="market">Market</button>
         </nav>
         <p class="last-scan-banner">Last scan: <strong id="globalLastScan">Waiting for first scan</strong></p>
@@ -372,6 +373,20 @@
           <div id="unavailableFeed" class="monitor-grid"></div>
           <div id="unavailableExcludedList" class="excluded-list"></div>
           <p id="unavailableEmptyState" class="empty-state"></p>
+        </section>
+      </section>
+
+      <section class="tab-page" id="page-watchlist" data-tab="watchlist">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Building Watch</h2>
+            <p>Specific buildings checked directly on their own leasing sites, not filtered by price, bedrooms, or
+              amenities — you already like these buildings, so every unit they're currently showing is listed here.
+              Some units don't always make it onto StreetEasy, or show up there later than on the building's own
+              site.</p>
+          </div>
+          <div id="watchlistFeed" class="watchlist-grid"></div>
+          <p id="watchlistEmptyState" class="empty-state"></p>
         </section>
       </section>
 

@@ -81,6 +81,9 @@ const els = {
   unavailableExcludedList: document.querySelector("#unavailableExcludedList"),
   unavailableCount: document.querySelector("#unavailableCount"),
   unavailableEmptyState: document.querySelector("#unavailableEmptyState"),
+  tabCountWatchlist: document.querySelector("#tabCountWatchlist"),
+  watchlistFeed: document.querySelector("#watchlistFeed"),
+  watchlistEmptyState: document.querySelector("#watchlistEmptyState"),
   marketTiers: document.querySelector("#marketTiers"),
   marketContractSpeed: document.querySelector("#marketContractSpeed"),
   marketTrendChart: document.querySelector("#marketTrendChart"),
@@ -238,7 +241,9 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all", "starred", "unavailable", "market"].includes(hash) ? hash : "all";
+  return ["criteria", "act-now", "new", "all", "starred", "unavailable", "watchlist", "market"].includes(hash)
+    ? hash
+    : "all";
 }
 
 function switchTab(tab) {
@@ -593,6 +598,7 @@ function renderMonitor() {
     renderNew([]);
     renderStarred([], []);
     renderUnavailable([], []);
+    renderWatchlist([]);
     renderMarket(null);
 
     if (monitorLoadState === "loading") {
@@ -630,6 +636,7 @@ function renderMonitor() {
   renderExcluded(excludedListings);
   renderStarred(topListings, excludedListings);
   renderUnavailable(topListings, excludedListings);
+  renderWatchlist(Array.isArray(report.buildingWatch) ? report.buildingWatch : []);
   renderMarket(report.marketStats);
 
   // "New" is based on firstSeenAt falling on the same calendar day as the
@@ -1044,6 +1051,128 @@ function renderUnavailable(qualifyingEntries, excludedEntries) {
     unavailableExcluded.forEach((entry) => excludedFragment.append(buildExcludedRow(entry)));
     els.unavailableExcludedList.append(excludedFragment);
   }
+}
+
+// Specific buildings checked directly (not via the general StreetEasy
+// search), deliberately unfiltered by price/bedrooms/amenities — see
+// monitor/lib/building-watch.cjs. Every unit each building's own site is
+// currently showing gets listed, since the building itself is already
+// pre-vetted by having been added here.
+function renderWatchlist(buildings) {
+  if (!els.watchlistFeed) return;
+  els.watchlistFeed.innerHTML = "";
+
+  const totalUnits = buildings.reduce((sum, b) => sum + (b.units || []).length, 0);
+  if (els.tabCountWatchlist) els.tabCountWatchlist.textContent = totalUnits ? `(${totalUnits})` : "";
+
+  if (!buildings.length) {
+    if (els.watchlistEmptyState) els.watchlistEmptyState.textContent = "No buildings configured yet.";
+    return;
+  }
+
+  const hasAnyUnits = buildings.some((b) => (b.units || []).length > 0);
+  if (els.watchlistEmptyState) {
+    els.watchlistEmptyState.textContent = hasAnyUnits ? "" : "Nothing currently available at any watched building.";
+  }
+
+  const fragment = document.createDocumentFragment();
+  buildings.forEach((building) => fragment.append(buildWatchlistCard(building)));
+  els.watchlistFeed.append(fragment);
+}
+
+function buildWatchlistCard(building) {
+  const card = document.createElement("article");
+  card.className = "watchlist-card";
+
+  const header = document.createElement("div");
+  header.className = "watchlist-card-header";
+
+  const nameLink = document.createElement("a");
+  nameLink.href = building.url;
+  nameLink.target = "_blank";
+  nameLink.rel = "noreferrer";
+  nameLink.className = "watchlist-name";
+  nameLink.textContent = building.name;
+  header.append(nameLink);
+
+  const units = building.units || [];
+  const count = document.createElement("span");
+  count.className = "watchlist-unit-count";
+  count.textContent = units.length ? `${units.length} available` : "None available";
+  header.append(count);
+  card.append(header);
+
+  const address = document.createElement("p");
+  address.className = "watchlist-address";
+  address.textContent = building.address;
+  card.append(address);
+
+  if (building.error) {
+    const err = document.createElement("p");
+    err.className = "watchlist-error";
+    err.textContent = `Couldn't check this run: ${building.error}`;
+    card.append(err);
+  }
+
+  if (units.length) {
+    const list = document.createElement("div");
+    list.className = "watchlist-units";
+    units.forEach((unit) => list.append(buildWatchlistUnitRow(unit)));
+    card.append(list);
+  } else if (!building.error) {
+    const empty = document.createElement("p");
+    empty.className = "watchlist-card-empty";
+    empty.textContent = "Nothing available right now.";
+    card.append(empty);
+  }
+
+  return card;
+}
+
+function buildWatchlistUnitRow(unit) {
+  const row = document.createElement("div");
+  row.className = "watchlist-unit-row";
+
+  const main = document.createElement("div");
+  main.className = "watchlist-unit-main";
+
+  const unitLabel = document.createElement("span");
+  unitLabel.className = "watchlist-unit-number";
+  unitLabel.textContent = unit.unitNumber;
+  main.append(unitLabel);
+
+  if (unit.isNew) {
+    const badge = document.createElement("span");
+    badge.className = "card-flag flag-new";
+    badge.textContent = "New";
+    main.append(badge);
+  }
+
+  const details = [];
+  if (Number.isFinite(unit.beds)) details.push(unit.beds === 0 ? "Studio" : `${unit.beds} bed`);
+  if (Number.isFinite(unit.baths)) details.push(`${unit.baths} bath`);
+  if (Number.isFinite(unit.sqft)) details.push(`${unit.sqft} sqft`);
+  if (unit.hasTerrace) details.push("terrace");
+  if (unit.hasPrivateOutdoorSpace) details.push("private outdoor space");
+  if (Array.isArray(unit.amenities) && unit.amenities.includes("WasherDryer")) details.push("W/D");
+  if (unit.isFloorplanOnly) details.push("floorplan type, not a specific unit");
+  if (unit.availableText) details.push(unit.availableText);
+  if (unit.needsManualVerification) details.push("⚠️ unverified — check by hand");
+
+  if (details.length) {
+    const detailsEl = document.createElement("span");
+    detailsEl.className = "watchlist-unit-details";
+    detailsEl.textContent = details.join(" · ");
+    main.append(detailsEl);
+  }
+  row.append(main);
+
+  const price = document.createElement("span");
+  price.className = "watchlist-unit-price";
+  price.textContent = Number.isFinite(unit.price) ? formatCurrency(unit.price) : "—";
+  row.append(price);
+
+  return row;
 }
 
 function formatStat(value, suffix) {

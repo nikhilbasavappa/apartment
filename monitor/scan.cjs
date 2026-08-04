@@ -12,6 +12,7 @@ const {
   loadViaUnlocker,
   resolveChromeExecutable,
 } = require("./lib/adapters.cjs");
+const { checkAllBuildings, mergeBuildingWatchState, serializeBuildingWatch } = require("./lib/building-watch.cjs");
 const { computeCommutes } = require("./lib/geo.cjs");
 const { generateHtmlReport, generateMarkdownReport } = require("./lib/report.cjs");
 const { sendNotifications } = require("./lib/notify.cjs");
@@ -31,6 +32,7 @@ const jsonPath = path.join(outputRoot, "latest-report.json");
 const marketHistoryPath = path.join(outputRoot, "market-history.json");
 const jsPath = path.join(outputRoot, "latest-report.js");
 const configPath = path.join(__dirname, "config.json");
+const buildingsPath = path.join(__dirname, "buildings.json");
 const browserProfileDir = path.join(__dirname, ".browser-profile");
 
 loadEnvFile(path.join(__dirname, ".env"));
@@ -108,6 +110,7 @@ function buildReport(state, runAt, config, newListings) {
     .sort((a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime());
 
   return {
+    buildingWatch: serializeBuildingWatch(state.buildingWatch, runAt),
     earlyActionListings,
     excludedListings,
     htmlPath,
@@ -168,6 +171,7 @@ function toClientReport(report) {
   });
 
   return {
+    buildingWatch: report.buildingWatch,
     earlyActionListings: report.earlyActionListings.map(serializeEntry),
     excludedListings: report.excludedListings.map(serializeExcluded),
     marketStats: report.marketStats,
@@ -729,6 +733,27 @@ async function main() {
     }
   } finally {
     await context.close();
+  }
+
+  // Specific buildings the user already likes, checked directly on their own
+  // leasing sites — some post availability there before (or instead of)
+  // StreetEasy. Deliberately outside the try/finally above and wrapped in
+  // its own try/catch: this uses a completely separate, disposable browser
+  // (see building-watch.cjs) and must never be able to break the real scan
+  // above it, however badly one of these 17 different third-party sites
+  // misbehaves.
+  try {
+    const buildings = readJson(buildingsPath, []);
+    if (buildings.length) {
+      const results = await checkAllBuildings(buildings);
+      mergeBuildingWatchState(state, buildings, results, runAt);
+      const failed = Object.entries(results).filter(([, r]) => r.error);
+      if (failed.length) {
+        console.warn(`BUILDING_WATCH: ${failed.length}/${buildings.length} buildings failed this run`);
+      }
+    }
+  } catch (error) {
+    console.warn(`BUILDING_WATCH_RUN_FAILED: ${error.message}`);
   }
 
   // Only advance "last scan" on a run where at least one source's search

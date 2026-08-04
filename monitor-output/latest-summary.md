@@ -2,16 +2,9 @@
 
 Run time: Aug 4, 2026, 6:00 PM
 Configured sources: 1
-New listings inspected this run: 21
-Qualifying new listings: 21
-- 375 Dean Street #423 | $5,799 | 375 Dean Street #423, BROOKLYN, NY, 11217 | 32 min to office | score 71/100
-- 20 Rockwell Place #3303X | $6,300 | 20 Rockwell Place #3303X, BROOKLYN, NY, 11201 | 30 min to office | score 65/100
-- 328 West 77th Street #2 | $4,200 | 328 West 77th Street #2, NEW YORK, NY, 10024 | 33 min to office | score 64/100
-- 20 Rockwell Place #1124F | $6,468 | 20 Rockwell Place #1124F, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- 20 Rockwell Place #1409F | $4,200 | 20 Rockwell Place #1409F, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- 700 West End Avenue #4A | $6,400 | 700 West End Avenue #4A, NEW YORK, NY, 10025 | 29 min to office | score 64/100
-- 20 Rockwell Place #1708D | $4,253 | 20 Rockwell Place #1708D, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- 20 Rockwell Place #1121C | $6,972 | 20 Rockwell Place #1121C, BROOKLYN, NY, 11201 | 30 min to office | score 63/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 
