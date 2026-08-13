@@ -5,7 +5,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "300 Ashland Place",
       "address": "300 Ashland Pl, Brooklyn, NY 11217",
       "url": "https://www.300ashland.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": []
     },
@@ -14,7 +14,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "363 Bond Street",
       "address": "363 Bond St, Brooklyn, NY 11231",
       "url": "https://www.363bondstreet.com/residences/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -25,7 +25,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "9/1",
           "url": "https://www.363bondstreet.com/residences/",
           "firstSeenAt": "2026-08-11T22:00:06.390Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -36,7 +36,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "8/15",
           "url": "https://www.363bondstreet.com/residences/",
           "firstSeenAt": "2026-08-11T22:00:06.390Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -47,7 +47,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "8/15",
           "url": "https://www.363bondstreet.com/residences/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -57,7 +57,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "420 Carroll",
       "address": "420 Carroll St, Brooklyn, NY 11215",
       "url": "https://420bk.com/availability/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -68,7 +68,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -79,7 +79,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -90,7 +90,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -101,7 +101,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -112,7 +112,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -123,7 +123,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -134,7 +134,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -145,7 +145,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-07T22:00:05.920Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -156,7 +156,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -167,7 +167,7 @@ window.__APARTMENT_REPORT__ = {
           "isFloorplanOnly": true,
           "url": "https://420bk.com/availability/",
           "firstSeenAt": "2026-08-12T22:00:05.523Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -177,7 +177,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "470 Dean Street",
       "address": "470 Dean St, Brooklyn, NY 11217",
       "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -185,7 +185,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4750,
           "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -193,7 +193,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4750,
           "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
           "firstSeenAt": "2026-08-10T13:06:36.603Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -201,7 +201,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4550,
           "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
           "firstSeenAt": "2026-08-10T13:06:36.603Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -209,7 +209,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3750,
           "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -217,7 +217,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3300,
           "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
           "firstSeenAt": "2026-08-10T13:06:36.603Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -227,7 +227,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "540 Waverly Ave",
       "address": "540 Waverly Ave, Brooklyn, NY 11238",
       "url": "https://540waverly.mns.com/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -237,7 +237,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6350,
           "url": "https://540waverly.mns.com/",
           "firstSeenAt": "2026-08-07T22:00:05.920Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -247,7 +247,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5950,
           "url": "https://540waverly.mns.com/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -257,7 +257,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4198,
           "url": "https://540waverly.mns.com/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -267,7 +267,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3200,
           "url": "https://540waverly.mns.com/",
           "firstSeenAt": "2026-08-12T13:00:06.838Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -277,7 +277,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "544 Carroll",
       "address": "544 Carroll St, Brooklyn, NY 11215",
       "url": "https://www.544carroll.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": []
     },
@@ -286,7 +286,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "595 Dean Street",
       "address": "595 Dean St, Brooklyn, NY 11238",
       "url": "https://tfc.com/595-dean",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -306,7 +306,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-07-02 22:58:13",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -328,7 +328,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-06-18 20:40:29",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -344,7 +344,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -361,7 +361,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -381,7 +381,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-07-16 23:41:16",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -398,7 +398,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -416,7 +416,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -432,7 +432,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -448,7 +448,7 @@ window.__APARTMENT_REPORT__ = {
           "dateListed": "2026-08-07 00:46:49",
           "url": "https://tfc.com/595-dean",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -458,7 +458,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "89 Dekalb",
       "address": "89 Dekalb Ave, Brooklyn, NY 11201",
       "url": "https://www.eightyninedekalb.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": []
     },
@@ -467,7 +467,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "AVA Fort Greene",
       "address": "343 Gold St, Brooklyn, NY 11201",
       "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -479,7 +479,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-29T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3215",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -491,7 +491,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-11T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1915",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -503,7 +503,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2515",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -515,7 +515,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-15T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2708",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -527,7 +527,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-18T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2704",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -539,7 +539,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-09T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2917",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -551,7 +551,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-30T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2508",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -563,7 +563,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3217",
           "firstSeenAt": "2026-08-12T22:00:05.523Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -575,7 +575,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-04T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3417",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -587,7 +587,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-13T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-404",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -599,7 +599,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-10T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3905",
           "firstSeenAt": "2026-08-05T22:00:05.696Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -611,7 +611,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-19T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3804",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -623,7 +623,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-12-18T05:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3402",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -635,7 +635,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-11T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-4104",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -647,7 +647,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1510",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -659,7 +659,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-25T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-715",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -671,7 +671,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2510",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -683,7 +683,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1810",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -695,7 +695,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2410",
           "firstSeenAt": "2026-08-10T22:00:05.036Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -707,7 +707,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-03T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-215",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -719,7 +719,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-28T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2303",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -731,7 +731,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3410",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -743,7 +743,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-02T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2314",
           "firstSeenAt": "2026-08-05T22:00:05.696Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -755,7 +755,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-203",
           "firstSeenAt": "2026-08-05T22:00:05.696Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -767,7 +767,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1713",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -779,7 +779,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-918",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -791,7 +791,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-22T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1218",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -803,7 +803,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-15T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1215",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -815,7 +815,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-29T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-2801",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -827,7 +827,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-17T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1205",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -839,7 +839,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-08T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1605",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -851,7 +851,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-08-14T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-406",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -863,7 +863,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-10-05T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-1001",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -875,7 +875,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-04T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-405",
           "firstSeenAt": "2026-08-12T22:00:05.523Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -887,7 +887,7 @@ window.__APARTMENT_REPORT__ = {
           "availableDate": "2026-09-17T04:00:00+00:00",
           "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/apartment/NY026-NY026-001-3411",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -897,7 +897,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "Eight80 BK",
       "address": "880 Atlantic Ave, Brooklyn, NY 11238",
       "url": "https://eight80bk.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -907,7 +907,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4741,
           "url": "https://eight80bk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -917,7 +917,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4647,
           "url": "https://eight80bk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -927,7 +927,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3916,
           "url": "https://eight80bk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -937,7 +937,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3903,
           "url": "https://eight80bk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -947,7 +947,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "Longview",
       "address": "380 4th Ave, Brooklyn, NY 11215",
       "url": "https://longviewbk.com/availability/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -957,7 +957,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5125,
           "url": "https://longviewbk.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -967,7 +967,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4999,
           "url": "https://longviewbk.com/availability/",
           "firstSeenAt": "2026-08-06T13:00:05.904Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -977,7 +977,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4399,
           "url": "https://longviewbk.com/availability/",
           "firstSeenAt": "2026-08-06T13:00:05.904Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -987,7 +987,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "One Boerum Place",
       "address": "1 Boerum Pl, Brooklyn, NY 11201",
       "url": "https://oneboerum.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -999,7 +999,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6400,
           "url": "https://oneboerum.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -1009,7 +1009,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "Society Brooklyn",
       "address": "500 Degraw St / 504 Sackett St, Brooklyn, NY 11231",
       "url": "https://societybrooklyn.com/availability.html",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -1019,7 +1019,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 9384,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1029,7 +1029,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 9225,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1039,7 +1039,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 8890,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1049,7 +1049,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6770,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1059,7 +1059,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6609,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1069,7 +1069,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6304,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1079,7 +1079,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6300,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1089,7 +1089,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6222,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1099,7 +1099,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6176,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1109,7 +1109,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6152,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1119,7 +1119,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6049,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1129,7 +1129,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5987,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1139,7 +1139,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5983,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1149,7 +1149,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5692,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1159,7 +1159,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5670,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1169,7 +1169,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5654,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1179,7 +1179,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5633,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1189,7 +1189,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5283,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1199,7 +1199,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5184,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1209,7 +1209,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4672,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1219,7 +1219,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4566,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1229,7 +1229,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4344,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1239,7 +1239,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4179,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1249,7 +1249,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4109,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1259,7 +1259,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3854,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1269,7 +1269,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3847,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1279,7 +1279,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3821,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1289,7 +1289,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3809,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1299,7 +1299,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3796,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1309,7 +1309,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3739,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1319,7 +1319,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3652,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1329,7 +1329,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3636,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1339,7 +1339,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3595,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1349,7 +1349,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3591,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1359,7 +1359,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3591,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1369,7 +1369,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3586,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1379,7 +1379,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3586,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1389,7 +1389,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3574,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1399,7 +1399,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3549,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1409,7 +1409,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3537,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1419,7 +1419,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3537,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1429,7 +1429,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3537,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1439,7 +1439,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3516,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1449,7 +1449,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3492,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1459,7 +1459,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3290,
           "url": "https://societybrooklyn.com/availability.html",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -1469,7 +1469,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "The Deermar",
       "address": "262 Ninth St, Brooklyn, NY 11215",
       "url": "https://thedeermar.com/availability/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": []
     },
@@ -1478,7 +1478,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "The Elliot",
       "address": "151 S Elliott Pl, Brooklyn, NY 11217",
       "url": "https://theelliotbk.com/availability",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -1488,7 +1488,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5894,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1498,7 +1498,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5651,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1508,7 +1508,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5547,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1518,7 +1518,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5391,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1528,7 +1528,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5001,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1538,7 +1538,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3987,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1548,7 +1548,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3342,
           "url": "https://theelliotbk.com/availability",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -1558,7 +1558,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "The Rocklyn",
       "address": "20 Rockwell Pl, Brooklyn, NY 11201",
       "url": "https://therocklyn.com/availability/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -1569,7 +1569,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 8824,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1580,7 +1580,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 7517,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1591,7 +1591,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 7300,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1602,7 +1602,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6972,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1613,7 +1613,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 6300,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1624,7 +1624,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 5996,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-11T22:00:06.390Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1635,7 +1635,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 4127,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-11T22:00:06.390Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1646,7 +1646,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3598,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1657,7 +1657,7 @@ window.__APARTMENT_REPORT__ = {
           "price": 3514,
           "url": "https://therocklyn.com/availability/",
           "firstSeenAt": "2026-08-11T22:00:06.390Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -1667,7 +1667,7 @@ window.__APARTMENT_REPORT__ = {
       "name": "Willoughby BK",
       "address": "196 Willoughby St, Brooklyn, NY 11201",
       "url": "https://www.willoughbybk.com/floor-plans/",
-      "lastCheckedAt": "2026-08-13T13:09:51.080Z",
+      "lastCheckedAt": "2026-08-13T17:22:07.491Z",
       "error": null,
       "units": [
         {
@@ -1679,7 +1679,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 09/25/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-12T22:00:05.523Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1691,7 +1691,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 09/16/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1703,7 +1703,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/18/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-12T13:00:06.838Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1715,7 +1715,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/28/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-07T13:00:05.973Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1727,7 +1727,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 09/03/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1739,7 +1739,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/23/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1751,7 +1751,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/24/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1763,7 +1763,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/26/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1775,7 +1775,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/21/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1787,7 +1787,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/21/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1799,7 +1799,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 09/02/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1811,7 +1811,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available Now",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1823,7 +1823,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 08/18/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-12T13:00:06.838Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1835,7 +1835,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available 09/01/26",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         },
         {
@@ -1847,7 +1847,7 @@ window.__APARTMENT_REPORT__ = {
           "availableText": "Available Now",
           "url": "https://www.willoughbybk.com/floor-plans/",
           "firstSeenAt": "2026-08-04T22:48:56.756Z",
-          "lastSeenAt": "2026-08-13T13:09:51.080Z",
+          "lastSeenAt": "2026-08-13T17:22:07.491Z",
           "isNew": false
         }
       ]
@@ -17454,7 +17454,7 @@ window.__APARTMENT_REPORT__ = {
     }
   },
   "newListings": [],
-  "runAt": "2026-08-13T13:09:51.080Z",
+  "runAt": "2026-08-13T17:22:07.491Z",
   "sourcesConfigured": 1,
   "topListings": [
     {
@@ -22258,7 +22258,7 @@ window.__APARTMENT_REPORT__ = {
         "availableDate": "now",
         "bathrooms": 2,
         "bedrooms": 2,
-        "daysOnMarket": 2,
+        "daysOnMarket": 6,
         "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
         "estimatedListingDate": "2026-08-07",
         "externalScreenshot": "screenshots/streeteasy-com-building-159-3-avenue-4l.png",

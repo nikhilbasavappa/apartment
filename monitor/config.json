@@ -29,7 +29,8 @@
     "captureScreenshots": true,
     "captureRemotePhotos": 6,
     "retainDays": 21,
-    "revalidateBatchSize": 45
+    "revalidateBatchSize": 45,
+    "revalidateBatchSizeFull": 500
   },
   "notifications": {
     "enabled": true,

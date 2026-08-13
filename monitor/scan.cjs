@@ -681,17 +681,42 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
   return { checked, removed };
 }
 
+// With N qualifying listings and a fixed per-run revalidation batch, a full
+// re-check cycle takes N/batchSize runs — at 45/run against ~250 qualifying,
+// that's 3+ days between checks for any given listing, which is how 85
+// Ryerson St #3 sat "temporarily off market" for 3 days before self-
+// correcting (confirmed: the detection regex itself was fine, this was
+// purely a coverage-cadence gap). Rather than make every run slower to
+// shrink that window, split the two daily runs by role: the morning run
+// searches for new listings (with its existing light revalidation batch),
+// the evening run skips the new-listing search entirely and spends that
+// time on a much bigger revalidation batch instead — new-listing discovery
+// lag goes from ~12h to ~24h worst case, but revalidation staleness drops
+// from ~3 days to ~24h worst case, which is the one that was actually
+// getting reported as a bug. SCAN_MODE env var overrides the time-based
+// default for manual/backfill runs.
+function resolveScanMode() {
+  if (process.env.SCAN_MODE === "revalidate-only" || process.env.SCAN_MODE === "full") {
+    return process.env.SCAN_MODE;
+  }
+  return new Date().getHours() < 13 ? "full" : "revalidate-only";
+}
+
 async function main() {
   const config = loadConfig();
   const state = loadState();
   const runAt = new Date().toISOString();
-  const activeSources = config.sources.filter((source) => source.enabled && source.url);
+  const scanMode = resolveScanMode();
+  const isRevalidateOnly = scanMode === "revalidate-only";
+  const activeSources = isRevalidateOnly ? [] : config.sources.filter((source) => source.enabled && source.url);
+
+  console.log(`SCAN_MODE: ${scanMode}`);
 
   ensureDir(outputRoot);
   ensureDir(screenshotDir);
   pruneCatalog(state, config.scanner.retainDays || 21);
 
-  if (!activeSources.length) {
+  if (!activeSources.length && !isRevalidateOnly) {
     const report = buildReport(state, runAt, config, []);
     saveReport(report);
     writeText(
@@ -712,7 +737,15 @@ async function main() {
   const context = await createPersistentContext(config);
   const counters = { newListingsInspected: 0 };
   const newListings = [];
-  let anySourceSucceeded = false;
+  // In revalidate-only mode there's no search step to gauge brokenness from
+  // (that's the whole point — it's skipped), so there's nothing to gate
+  // revalidation on; treat it as vacuously "succeeded" rather than
+  // reusing the search-outcome flag for a search that never ran.
+  let anySourceSucceeded = isRevalidateOnly;
+
+  if (isRevalidateOnly) {
+    config.scanner.revalidateBatchSize = config.scanner.revalidateBatchSizeFull || 500;
+  }
 
   let revalidation = { checked: 0, removed: 0 };
   try {
@@ -724,7 +757,9 @@ async function main() {
 
     // Skip on a day the search itself is already struggling (Bright Data
     // outage, bot wall) — piling on another batch of fetches that are
-    // likely to fail the same way just burns quota for nothing.
+    // likely to fail the same way just burns quota for nothing. Doesn't
+    // apply in revalidate-only mode, where anySourceSucceeded is forced
+    // true above since there's no search to have failed.
     if (anySourceSucceeded) {
       revalidation = await revalidateQualifyingListings(context, state, config, runAt);
       if (revalidation.checked > 0) {
