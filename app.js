@@ -633,7 +633,14 @@ function renderMonitor() {
     ? `${best.commute.office.minutes} min to office`
     : "No qualifying listings yet";
   const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
-  renderExcluded(excludedListings);
+  // Auto-detected-unavailable listings (went off-market/rented/in-contract
+  // since being scanned) are dropped from this page's excluded section —
+  // they're already fully covered by the dedicated Unavailable tab, and
+  // showing them here read as "this looks like it's still being treated as
+  // available" even though the reason text said otherwise. #all's excluded
+  // section is now just genuine fit failures (kitchen, price, neighborhood,
+  // etc.), not "gone from the market" ones.
+  renderExcluded(excludedListings.filter((entry) => !isAutoDetectedUnavailable(entry)));
   renderStarred(topListings, excludedListings);
   renderUnavailable(topListings, excludedListings);
   renderWatchlist(Array.isArray(report.buildingWatch) ? report.buildingWatch : []);

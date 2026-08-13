@@ -12381,6 +12381,17 @@ window.__APARTMENT_REPORT__ = {
     },
     {
       "listing": {
+        "address": "85 Ryerson Street #3, BROOKLYN, NY, 11205",
+        "price": 4700,
+        "title": "85 Ryerson Street #3",
+        "url": "https://streeteasy.com/building/85-ryerson-street-brooklyn/3"
+      },
+      "reasons": [
+        "Temporarily off market on StreetEasy (auto-detected during periodic revalidation)"
+      ]
+    },
+    {
+      "listing": {
         "address": "334 West 88th Street #9, NEW YORK, NY, 10024",
         "price": 4975,
         "title": "334 West 88th Street #9",
@@ -17340,10 +17351,10 @@ window.__APARTMENT_REPORT__ = {
       {
         "name": "Clinton Hill",
         "tier": "brooklyn",
-        "count": 19,
-        "medianPrice": 5400,
-        "medianPricePerSqft": 6.658157602663707,
-        "medianDaysOnMarket": 11.5,
+        "count": 18,
+        "medianPrice": 5425,
+        "medianPricePerSqft": 6.949768456504267,
+        "medianDaysOnMarket": 9,
         "medianLeadTimeDays": 0
       },
       {
@@ -17438,7 +17449,7 @@ window.__APARTMENT_REPORT__ = {
       }
     ],
     "contractSpeed": {
-      "sampleSize": 217,
+      "sampleSize": 218,
       "medianDaysOnMarket": 10
     }
   },
@@ -23295,132 +23306,6 @@ window.__APARTMENT_REPORT__ = {
       },
       "rankScore": 62.226958851545035,
       "visionNotes": "Kitchen is semi-open to living area via island peninsula; smooth-top range visible; unit has private terrace; living room has ample floor space with floor-to-ceiling windows."
-    },
-    {
-      "buildingType": "Condo",
-      "commute": {
-        "office": {
-          "minutes": 42,
-          "lines": [
-            "B54",
-            "G Line",
-            "F Line"
-          ]
-        },
-        "prospectHeights": {
-          "minutes": 23,
-          "lines": [
-            "B69"
-          ]
-        },
-        "longIslandCity": {
-          "minutes": 43,
-          "lines": [
-            "B62",
-            "AS"
-          ]
-        },
-        "morningsideHeights": {
-          "minutes": 70,
-          "lines": [
-            "B62",
-            "A Line",
-            "1 Line"
-          ]
-        },
-        "upperWestSide": {
-          "minutes": 64,
-          "lines": [
-            "B54",
-            "A Line",
-            "1 Line"
-          ]
-        }
-      },
-      "firstSeenAt": "2026-07-28T13:00:01.613Z",
-      "hasGarden": false,
-      "isCondo": true,
-      "isGroundFloor": false,
-      "kitchenLayout": "semi-open",
-      "kitchenSize": "standard",
-      "stoveType": "gas",
-      "listing": {
-        "address": "85 Ryerson Street #3, BROOKLYN, NY, 11205",
-        "availableDate": "2026-09-01",
-        "bathrooms": 2,
-        "bedrooms": 2,
-        "daysOnMarket": 19,
-        "description": "Find New York City apartments for rent and for sale at StreetEasy. StreetEasy is a Real Estate Search Engine for apartments and real estate in Manhattan and New York City. Search our site for apartments, condos, coops, lofts, townhouses and new construction homes in Manhattan, Brooklyn, Bronx, Queens and Staten Island.",
-        "estimatedListingDate": "2026-07-22",
-        "externalScreenshot": "screenshots/streeteasy-com-building-85-ryerson-street-brooklyn-3.png",
-        "neighborhood": "Clinton Hill",
-        "photos": [
-          "https://photos.zillowstatic.com/fp/97125af11576ed6385b500d970649148-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/274381483700d0255288d7e15945bda6-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/6409f3879c2e87f3438d8c445d1f250b-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/d89d3c193c84e29851d1720ae813dcef-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/b27193c57ae3ca0028ac17dd5403f715-se_large_800_400.webp",
-          "https://photos.zillowstatic.com/fp/3701cd7fa6ffa8d6e575fe962a240bfc-se_large_800_400.webp"
-        ],
-        "price": 4700,
-        "sqft": 862,
-        "title": "85 Ryerson Street #3",
-        "url": "https://streeteasy.com/building/85-ryerson-street-brooklyn/3",
-        "washerDryer": "yes"
-      },
-      "livingRoomSmall": false,
-      "needsEarlyAction": false,
-      "neighborhoodTier": "brooklyn",
-      "rankBreakdown": {
-        "total": 62.162151134570095,
-        "neighborhood": {
-          "score": 100,
-          "weight": 0.15,
-          "tier": "brooklyn"
-        },
-        "office": {
-          "score": 28.60000000000001,
-          "weight": 0.15,
-          "minutes": 42
-        },
-        "friends": {
-          "score": 21.950000000000003,
-          "weight": 0.12
-        },
-        "size": {
-          "score": 2.3815113457009716,
-          "weight": 0.1,
-          "sqft": 862,
-          "bedrooms": 2
-        },
-        "livingRoom": {
-          "score": 100,
-          "weight": 0.12,
-          "small": false
-        },
-        "kitchenSize": {
-          "score": 50,
-          "weight": 0.16,
-          "size": "standard"
-        },
-        "condo": {
-          "score": 100,
-          "weight": 0.06,
-          "isCondo": true
-        },
-        "value": {
-          "score": 100,
-          "weight": 0.1,
-          "price": 4700
-        },
-        "groundFloor": {
-          "score": 100,
-          "weight": 0.04,
-          "isGroundFloor": false
-        }
-      },
-      "rankScore": 62.162151134570095,
-      "visionNotes": "Kitchen is visible with gas range (visible burner grates), semi-open to dining/living area via island; bedroom has private outdoor space (glass doors to what appears to be a private terrace/garden); living room has adequate floor area."
     },
     {
       "buildingType": "Two-family home",
