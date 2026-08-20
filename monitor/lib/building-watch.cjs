@@ -533,7 +533,27 @@ async function checkAllBuildings(buildings) {
       results[building.id] = await checkBuilding(building, context);
     }
   } finally {
-    if (browser) await browser.close();
+    // browser.close() has no built-in timeout, and a page left mid-navigation
+    // by a timed-out goto (rocklynText/oneBoerumText/longviewText all use
+    // one) can leave the underlying Chromium process in a state where
+    // close() itself hangs forever. Confirmed in production: a run where
+    // rocklynText's goto timed out normally (caught, logged) sat completely
+    // silent for the rest of its 90-minute budget right after — no further
+    // log output at all — until scheduled-scan.sh's outer watchdog finally
+    // killed the whole process, discarding that run's real work (228
+    // revalidated listings) along with it. A stuck close() here should
+    // never be able to cost more than a few seconds.
+    if (browser) {
+      await withTimeout(browser.close(), 10000, "browser.close() timed out").catch((error) => {
+        console.warn(`BUILDING_WATCH_BROWSER_CLOSE_FAILED: ${error.message}`);
+        // withTimeout only stops waiting on the promise — it doesn't touch
+        // the underlying Chromium child process, which would otherwise be
+        // abandoned as an orphan and keep accumulating across runs (2/day)
+        // if close() never actually finishes on its own.
+        const proc = browser.process();
+        if (proc) proc.kill("SIGKILL");
+      });
+    }
   }
   return results;
 }
