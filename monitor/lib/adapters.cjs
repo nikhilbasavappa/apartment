@@ -31,6 +31,7 @@ const SOURCE_PATTERNS = {
   streeteasy: [/streeteasy\.com\/rental\//i, /streeteasy\.com\/building\/[^/]+\/\d+/i],
   zillow: [/zillow\.com\/homedetails\//i, /zillow\.com\/b\//i],
   compass: [/compass\.com\/listing\//i],
+  corcoran: [/corcoran\.com\/listing\/for-rent\//i],
   generic: [/\/rental\//i, /\/apartments?\//i, /\/listing\//i, /\/homedetails\//i, /\/property\//i],
 };
 
@@ -39,6 +40,7 @@ function detectSource(value) {
   if (text.includes("streeteasy")) return "streeteasy";
   if (text.includes("zillow")) return "zillow";
   if (text.includes("compass")) return "compass";
+  if (text.includes("corcoran")) return "corcoran";
   return "generic";
 }
 
@@ -296,10 +298,28 @@ function formatStructuredAddress(address) {
 // depending on which fallback produced them).
 const PAGE_TITLE_NEIGHBORHOOD_PATTERN = /\bin\s+([^,|]+),\s*([^|]+?)\s*\|/i;
 
-function extractNeighborhood(pageTitle) {
+function extractNeighborhood(pageTitle, structuredObjects = []) {
   const match = String(pageTitle || "").match(PAGE_TITLE_NEIGHBORHOOD_PATTERN);
-  if (!match) return { neighborhood: null, borough: null };
-  return { neighborhood: match[1].trim(), borough: match[2].trim() };
+  if (match) return { neighborhood: match[1].trim(), borough: match[2].trim() };
+
+  // Fallback for sources whose page title doesn't follow StreetEasy's "in
+  // X, Y |" convention (e.g. Corcoran) but do expose the fields directly in
+  // their own structured data — confirmed present as `neighborhood: {name}`
+  // and a plain `borough` string on Corcoran listing pages. Without this,
+  // every Corcoran listing scored "other" neighborhood tier regardless of
+  // how good the actual neighborhood was, since the tier lookup had nothing
+  // to go on.
+  const structuredNeighborhood = firstStructuredValue(structuredObjects, ["neighborhood"]);
+  const structuredBorough = firstStructuredValue(structuredObjects, ["borough"]);
+  const neighborhood =
+    structuredNeighborhood && typeof structuredNeighborhood === "object"
+      ? structuredNeighborhood.name
+      : structuredNeighborhood;
+  if (!neighborhood && !structuredBorough) return { neighborhood: null, borough: null };
+  return {
+    neighborhood: neighborhood ? String(neighborhood).trim() : null,
+    borough: structuredBorough ? String(structuredBorough).trim() : null,
+  };
 }
 
 const STREET_ADDRESS_PATTERN =
@@ -400,13 +420,26 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
     throw new ExtractionIncompleteError(candidate.url);
   }
 
-  const { neighborhood, borough } = extractNeighborhood(raw.pageTitle);
+  const { neighborhood, borough } = extractNeighborhood(raw.pageTitle, structuredObjects);
   const structuredName = firstStructuredValue(structuredObjects, ["name", "headline"]);
   const structuredDescription = firstStructuredValue(structuredObjects, ["description"]);
   const structuredPrice = firstStructuredValue(structuredObjects, ["price", "rent"]);
   const structuredBedrooms = firstStructuredValue(structuredObjects, ["numberOfBedrooms", "bedrooms"]);
   const structuredBathrooms = firstStructuredValue(structuredObjects, ["numberOfBathroomsTotal", "bathrooms"]);
-  const structuredFloorSize = firstStructuredValue(structuredObjects, ["floorSize"]);
+  const structuredFloorSize = firstStructuredValue(structuredObjects, ["floorSize", "squareFootage"]);
+  // Not used by StreetEasy (its own gone/rented/in-contract detection reads
+  // bodyText instead) — added for sources like Corcoran that expose a plain
+  // status field directly in their own page data (data.props.pageProps.
+  // listing.listingStatus, e.g. "AVAIL"), which is more reliable than
+  // regexing prose when it's available at all. null wherever a source
+  // doesn't have anything under these keys, same fallback-friendly pattern
+  // as every other structured field here.
+  // Deliberately just "listingStatus", not a bare "status" — this scans
+  // every flattened structured object on the page (Next.js's own __NEXT_DATA__
+  // tree included), and a generic key like "status" risks an early false
+  // match from something unrelated (an ad component's status prop, etc.)
+  // before ever reaching the real listing.
+  const structuredStatus = firstStructuredValue(structuredObjects, ["listingStatus"]);
   const structuredImages = structuredObjects.flatMap((object) => {
     const images = object.image || object.images || object.photos;
     if (!images) return [];
@@ -440,6 +473,7 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
       structuredFloorSize && typeof structuredFloorSize === "object"
         ? Number.parseFloat(structuredFloorSize.value)
         : Number.parseFloat(structuredFloorSize) || null,
+    structuredStatus: typeof structuredStatus === "string" ? structuredStatus : null,
     title: candidate.title || raw.h1 || structuredName || raw.pageTitle || candidate.url,
     url: candidate.url,
   };

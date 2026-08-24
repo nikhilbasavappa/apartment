@@ -597,13 +597,59 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
         { rootDir: outputRoot, screenshotDir }
       );
 
+      entry.lastRevalidatedAt = runAt;
+      entry.lastRevalidatedLogicVersion = REVALIDATION_LOGIC_VERSION;
+      checked += 1;
+
+      // Corcoran (and any future non-StreetEasy source) branches off here:
+      // its pages carry a plain listingStatus field in their own structured
+      // data (extractListingDetail surfaces it as details.structuredStatus)
+      // rather than StreetEasy's prose-status-label convention, which is
+      // more reliable when available at all — no regex needed. Only "AVAIL"
+      // is confirmed from a real example so far; anything else (including a
+      // missing field on a page that otherwise loaded fine) is treated
+      // conservatively as off-market rather than assumed benign, same
+      // "trust an unfamiliar value over silence" instinct that caught every
+      // StreetEasy status this way — refine the known-active value set as
+      // real non-AVAIL examples turn up. availableDate/daysOnMarket refresh
+      // isn't implemented for this path yet (StreetEasy's extractAvailableDate/
+      // extractDaysOnMarket are prose regexes tuned to StreetEasy's own
+      // wording) — a known gap, not an oversight.
+      if (entry.listing.source && entry.listing.source !== "streeteasy") {
+        const stillListed = Boolean(details.structuredStatus);
+        const statusLabel = stillListed && details.structuredStatus !== "AVAIL" ? details.structuredStatus : null;
+
+        if (!stillListed) {
+          entry.qualifies = false;
+          entry.reasons = [`No longer listed on ${entry.listing.source} (auto-detected during periodic revalidation)`];
+          removed += 1;
+          console.log(`REVALIDATED_REMOVED: ${entry.listing.title}`);
+        } else if (statusLabel) {
+          entry.qualifies = false;
+          entry.reasons = [`Status: ${statusLabel} on ${entry.listing.source} (auto-detected during periodic revalidation)`];
+          removed += 1;
+          console.log(`REVALIDATED_STATUS_${statusLabel.toUpperCase().replace(/\s+/g, "_")}: ${entry.listing.title}`);
+        } else if (Number.isFinite(details.price) && details.price > 0 && details.price !== entry.listing.price) {
+          console.log(`REVALIDATED_PRICE_CHANGED: ${entry.listing.title} — ${entry.listing.price} -> ${details.price}`);
+          entry.listing.price = details.price;
+          if (details.price < config.profile.budgetMin || details.price > config.profile.budgetMax) {
+            entry.qualifies = false;
+            entry.reasons = [
+              `Rent $${details.price} outside $${config.profile.budgetMin}-${config.profile.budgetMax} (price changed since last check)`,
+            ];
+            removed += 1;
+            console.log(`REVALIDATED_PRICE_OUT_OF_BUDGET: ${entry.listing.title}`);
+          }
+        }
+
+        writeJson(statePath, state);
+        continue;
+      }
+
       const forRentMatch = FOR_RENT_MARKER.exec(details.bodyText.slice(0, FOR_RENT_MARKER_WINDOW));
       const stillListed = Boolean(forRentMatch);
       const statusMatch = STATUS_LABEL_PATTERN.exec(details.bodyText);
       const statusLabel = statusMatch && statusMatch[1] !== "Available" ? statusMatch[1] : null;
-      entry.lastRevalidatedAt = runAt;
-      entry.lastRevalidatedLogicVersion = REVALIDATION_LOGIC_VERSION;
-      checked += 1;
 
       if (!stillListed) {
         entry.qualifies = false;

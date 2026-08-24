@@ -19,6 +19,12 @@
       "source": "streeteasy",
       "url": "https://streeteasy.com/for-rent/nyc/price:4000-7000%7Carea:137,140,304,306,319,321,322,326,364,478%7Cbeds:1-%7Camenities:washer_dryer?sort_by=se_score",
       "enabled": true
+    },
+    {
+      "name": "Corcoran — Park Slope/Prospect Heights/Fort Greene/Clinton Hill/Carroll Gardens/Boerum Hill/Cobble Hill, $6.5k max, 1bd+, W/D",
+      "source": "corcoran",
+      "url": "https://www.corcoran.com/search/for-rent/location/park-slope-ny-7608,prospect-heights-ny-7609,fort-greene-ny-7596,clinton-hill-ny-7584,carroll-gardens-ny-7583,boerum-hill-ny-7576,cobble-hill-ny-a1028528/regionId/1?priceMax=6500&bedMin=1&features=washer-dryer",
+      "enabled": true
     }
   ],
   "scanner": {
