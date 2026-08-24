@@ -30,7 +30,12 @@ async function loadViaUnlocker(page, url, settleMs = 400) {
 const SOURCE_PATTERNS = {
   streeteasy: [/streeteasy\.com\/rental\//i, /streeteasy\.com\/building\/[^/]+\/\d+/i],
   zillow: [/zillow\.com\/homedetails\//i, /zillow\.com\/b\//i],
-  compass: [/compass\.com\/listing\//i],
+  // The pre-existing pattern here (/compass\.com\/listing\//) never matched
+  // anything real — confirmed Compass's actual listing URLs are
+  // /homedetails/{street}-{City}-{State}-{zip}/{id}_pid/, same convention
+  // as Zillow's (both already covered by generic's own /\/homedetails\//,
+  // this entry is just for source-detection clarity, not new coverage).
+  compass: [/compass\.com\/homedetails\//i],
   corcoran: [/corcoran\.com\/listing\/for-rent\//i],
   openigloo: [/openigloo\.com\/unit\//i],
   generic: [/\/rental\//i, /\/apartments?\//i, /\/listing\//i, /\/homedetails\//i, /\/property\//i],
@@ -326,16 +331,39 @@ function extractNeighborhood(pageTitle, structuredObjects = []) {
   // how good the actual neighborhood was, since the tier lookup had nothing
   // to go on.
   const structuredNeighborhood = firstStructuredValue(structuredObjects, ["neighborhood"]);
+  // Compass has no "neighborhood"/"borough" fields at all — its schema.org
+  // PostalAddress uses addressLocality for the *neighborhood* name instead
+  // of the city ("addressLocality": "Prospect Heights" on a real listing),
+  // which firstStructuredValue's flatten-everything search reaches fine
+  // since the address object itself is one of the flattened entries.
   const structuredBorough = firstStructuredValue(structuredObjects, ["borough"]);
   const neighborhood =
-    structuredNeighborhood && typeof structuredNeighborhood === "object"
+    (structuredNeighborhood && typeof structuredNeighborhood === "object"
       ? structuredNeighborhood.name
-      : structuredNeighborhood;
-  if (!neighborhood && !structuredBorough) return { neighborhood: null, borough: null };
+      : structuredNeighborhood) || firstStructuredValue(structuredObjects, ["addressLocality"]);
+  const borough = structuredBorough || boroughFromZip(firstStructuredValue(structuredObjects, ["postalCode"]));
+  if (!neighborhood && !borough) return { neighborhood: null, borough: null };
   return {
     neighborhood: neighborhood ? String(neighborhood).trim() : null,
-    borough: structuredBorough ? String(structuredBorough).trim() : null,
+    borough: borough ? String(borough).trim() : null,
   };
+}
+
+// NYC ZIP prefixes map to boroughs cleanly and stably — a general fallback
+// for any source (Compass confirmed) that gives a postal code but no
+// explicit borough field anywhere in its own data. Queens is the one
+// non-contiguous case (several disjoint prefix groups, historically tied to
+// the borough's old postal-town system) — the rest are simple 3-digit
+// prefix matches.
+function boroughFromZip(zip) {
+  const prefix = String(zip || "").slice(0, 3);
+  if (!prefix) return null;
+  if (["100", "101", "102"].includes(prefix)) return "Manhattan";
+  if (prefix === "104") return "Bronx";
+  if (prefix === "112") return "Brooklyn";
+  if (prefix === "103") return "Staten Island";
+  if (["110", "111", "113", "114", "116"].includes(prefix)) return "Queens";
+  return null;
 }
 
 const STREET_ADDRESS_PATTERN =

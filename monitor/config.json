@@ -32,6 +32,13 @@
       "url": "https://www.openigloo.com/listings/borough:brooklyn%7Cnbr:cobble-hill,clinton-hill,prospect-heights,carroll-gardens,boerum-hill,park-slope,fort-greene%7Cprice:-6000%7Cbedrooms:1,2,3,4%7Camenities:washer-dryer%7Cstatus:verified",
       "browserRender": true,
       "enabled": true
+    },
+    {
+      "name": "Compass — Prospect Heights/Brooklyn, $6.5k max, 1bd+ 1ba+, washer",
+      "source": "compass",
+      "url": "https://www.compass.com/for-rent/prospect-heights-brooklyn-ny/locations=21455,21446,21447,21556,21555/?searchQuery=%7B%22price%22%3A%7B%22max%22%3A%7B%22num%22%3A6500%7D%7D%2C%22beds%22%3A%7B%22min%22%3A%7B%22num%22%3A1%7D%7D%2C%22baths%22%3A%7B%22min%22%3A%7B%22num%22%3A1%7D%7D%2C%22has-washer%22%3Atrue%7D",
+      "browserRender": true,
+      "enabled": true
     }
   ],
   "scanner": {
