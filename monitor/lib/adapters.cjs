@@ -32,6 +32,7 @@ const SOURCE_PATTERNS = {
   zillow: [/zillow\.com\/homedetails\//i, /zillow\.com\/b\//i],
   compass: [/compass\.com\/listing\//i],
   corcoran: [/corcoran\.com\/listing\/for-rent\//i],
+  openigloo: [/openigloo\.com\/unit\//i],
   generic: [/\/rental\//i, /\/apartments?\//i, /\/listing\//i, /\/homedetails\//i, /\/property\//i],
 };
 
@@ -41,6 +42,7 @@ function detectSource(value) {
   if (text.includes("zillow")) return "zillow";
   if (text.includes("compass")) return "compass";
   if (text.includes("corcoran")) return "corcoran";
+  if (text.includes("openigloo")) return "openigloo";
   return "generic";
 }
 
@@ -298,9 +300,23 @@ function formatStructuredAddress(address) {
 // depending on which fallback produced them).
 const PAGE_TITLE_NEIGHBORHOOD_PATTERN = /\bin\s+([^,|]+),\s*([^|]+?)\s*\|/i;
 
+// OpenIgloo's title follows a different but equally regular convention:
+// "... at {address}, {Neighborhood}, {Borough}, NY {zip}" — confirmed
+// against a real listing ("1 bedroom apartment for Rent at 20 Rockwell
+// Place #1427, Fort Greene, Brooklyn, NY 11201"). Anchored on one of the
+// five boroughs by name right before ", NY" so it doesn't misfire on a
+// title from some other, unrelated site that happens to have two
+// comma-separated segments before "NY" for a different reason.
+const PAGE_TITLE_BOROUGH_NEIGHBORHOOD_PATTERN =
+  /,\s*([^,]+),\s*(Manhattan|Brooklyn|Queens|Bronx|Staten Island),\s*NY\b/i;
+
 function extractNeighborhood(pageTitle, structuredObjects = []) {
-  const match = String(pageTitle || "").match(PAGE_TITLE_NEIGHBORHOOD_PATTERN);
+  const title = String(pageTitle || "");
+  const match = title.match(PAGE_TITLE_NEIGHBORHOOD_PATTERN);
   if (match) return { neighborhood: match[1].trim(), borough: match[2].trim() };
+
+  const boroughMatch = title.match(PAGE_TITLE_BOROUGH_NEIGHBORHOOD_PATTERN);
+  if (boroughMatch) return { neighborhood: boroughMatch[1].trim(), borough: boroughMatch[2].trim() };
 
   // Fallback for sources whose page title doesn't follow StreetEasy's "in
   // X, Y |" convention (e.g. Corcoran) but do expose the fields directly in

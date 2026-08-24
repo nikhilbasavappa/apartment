@@ -20,7 +20,7 @@ const { estimateListingDate, evaluateListing, extractAvailableDate, extractDaysO
 const { computeMarketStats } = require("./lib/trends.cjs");
 const { classifyKitchenPhotos } = require("./lib/vision.cjs");
 const fs = require("fs");
-const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, writeJson, writeText } = require("./lib/util.cjs");
+const { ensureDir, formatTimestamp, loadEnvFile, randomDelay, readJson, withTimeout, writeJson, writeText } = require("./lib/util.cjs");
 
 const workspaceRoot = path.resolve(__dirname, "..");
 const outputRoot = path.join(workspaceRoot, "monitor-output");
@@ -338,7 +338,23 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
     for (let attempt = 0; attempt <= SEARCH_PAGE_RETRIES; attempt += 1) {
       let degraded = false;
       try {
-        await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
+        // browserRender sources (OpenIgloo, Compass) render their listing
+        // links client-side — Bright Data's unlocker hands back real HTML
+        // but with javaScriptEnabled:false these pages never hydrate, so
+        // the anchor hrefs (added by React/Next during hydration) simply
+        // aren't in the DOM to find. Confirmed directly: OpenIgloo's cards
+        // have no href attribute at all until JS runs. These sources also
+        // didn't show any bot-wall resistance to a plain, un-proxied
+        // Playwright navigation when checked, so real navigation is used
+        // instead of the unlocker entirely for this step (searchPage comes
+        // from a separate JS-enabled context for these sources — see
+        // inspectSource/main).
+        if (sourceConfig.browserRender) {
+          await searchPage.goto(pageUrl, { waitUntil: "domcontentloaded", timeout: 25000 });
+          await searchPage.waitForTimeout(Math.max(config.scanner.waitAfterLoadMs || 1800, 3000));
+        } else {
+          await loadViaUnlocker(searchPage, pageUrl, config.scanner.waitAfterLoadMs);
+        }
         await randomDelay(300, 700);
         const result = await extractSearchListings(searchPage, sourceConfig, pageUrl);
         if (result.bodyLength < SEARCH_PAGE_MIN_BODY_LENGTH) {
@@ -399,8 +415,12 @@ async function collectSearchCandidates(searchPage, sourceConfig, config) {
   return collected;
 }
 
-async function inspectSource(sourceConfig, context, state, config, runAt, counters) {
-  const searchPage = await context.newPage();
+async function inspectSource(sourceConfig, context, state, config, runAt, counters, searchContext = context) {
+  // searchContext differs from `context` only for browserRender sources
+  // (see main()) — everything past search-results collection (candidate
+  // detail fetches, revalidation) always uses the regular `context`, since
+  // those work fine on the fast static-fetch path regardless of source.
+  const searchPage = await searchContext.newPage();
   const freshEntries = [];
   let searchSucceeded = true;
 
@@ -616,8 +636,18 @@ async function revalidateQualifyingListings(context, state, config, runAt) {
       // extractDaysOnMarket are prose regexes tuned to StreetEasy's own
       // wording) — a known gap, not an oversight.
       if (entry.listing.source && entry.listing.source !== "streeteasy") {
-        const stillListed = Boolean(details.structuredStatus);
-        const statusLabel = stillListed && details.structuredStatus !== "AVAIL" ? details.structuredStatus : null;
+        // Not every source exposes listingStatus the way Corcoran does —
+        // confirmed OpenIgloo's detail pages simply don't have that field
+        // at all, so requiring it here would mark every one of its listings
+        // "gone" on the very first check. Fall back to "did the page still
+        // come back with a price" when there's no explicit status field —
+        // weaker than a real status (misses e.g. a listing marked pending
+        // that still displays its old price), but a defensible default
+        // signal for a source we haven't reverse-engineered a real status
+        // convention for yet, and it degrades safely (a genuinely dead page
+        // has no price to find either).
+        const stillListed = details.structuredStatus ? true : Boolean(details.price);
+        const statusLabel = details.structuredStatus && details.structuredStatus !== "AVAIL" ? details.structuredStatus : null;
 
         if (!stillListed) {
           entry.qualifies = false;
@@ -781,6 +811,21 @@ async function main() {
   }
 
   const context = await createPersistentContext(config);
+  // A second, disposable, JS-enabled browser — completely separate from the
+  // persistent StreetEasy-tuned context above (javaScriptEnabled:false is
+  // set once at the context level and can't be toggled per-page). Only
+  // launched if an active source actually needs it (browserRender: true —
+  // sources like OpenIgloo/Compass whose listing links only exist in the
+  // DOM after client-side hydration), same disposable-browser pattern as
+  // building-watch.cjs. Left null and never launched otherwise, so sources
+  // that don't need this cost nothing extra.
+  let renderBrowser = null;
+  let renderContext = null;
+  if (!isRevalidateOnly && activeSources.some((source) => source.browserRender)) {
+    const { chromium: playwrightChromium } = require("playwright");
+    renderBrowser = await playwrightChromium.launch();
+    renderContext = await renderBrowser.newContext();
+  }
   const counters = { newListingsInspected: 0 };
   const newListings = [];
   // In revalidate-only mode there's no search step to gauge brokenness from
@@ -796,7 +841,16 @@ async function main() {
   let revalidation = { checked: 0, removed: 0 };
   try {
     for (const source of activeSources) {
-      const { freshEntries, searchSucceeded } = await inspectSource(source, context, state, config, runAt, counters);
+      const searchContext = source.browserRender ? renderContext : context;
+      const { freshEntries, searchSucceeded } = await inspectSource(
+        source,
+        context,
+        state,
+        config,
+        runAt,
+        counters,
+        searchContext
+      );
       newListings.push(...freshEntries);
       anySourceSucceeded = anySourceSucceeded || searchSucceeded;
     }
@@ -814,6 +868,18 @@ async function main() {
     }
   } finally {
     await context.close();
+    // Same close()-can-hang-forever risk already hit once in building-watch.cjs
+    // (a page left mid-navigation by a timed-out goto can leave close()
+    // waiting indefinitely) — bounded here too, with a SIGKILL fallback
+    // against the underlying process so a stuck close can't also leak an
+    // orphaned Chromium across runs.
+    if (renderBrowser) {
+      await withTimeout(renderBrowser.close(), 10000, "renderBrowser.close() timed out").catch((error) => {
+        console.warn(`RENDER_BROWSER_CLOSE_FAILED: ${error.message}`);
+        const proc = renderBrowser.process();
+        if (proc) proc.kill("SIGKILL");
+      });
+    }
   }
 
   // Specific buildings the user already likes, checked directly on their own
