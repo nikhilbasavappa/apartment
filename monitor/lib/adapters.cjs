@@ -199,8 +199,15 @@ async function extractSearchListings(page, sourceConfig, pageUrl) {
       return {
         cardImage: img ? img.src : "",
         searchSnippet: cardText.slice(0, 700),
+        // .innerText, not .textContent — confirmed on a real Compass card:
+        // adjacent sibling elements ("267 6th Street, Unit 6K" and "Park
+        // Slope" in separate nodes) render with real visual spacing between
+        // them, but .textContent just concatenates every text node with
+        // nothing in between ("...Unit 6KPark Slope"), producing a garbled
+        // title. .innerText respects layout the way cardText already does
+        // right above.
         title:
-          anchor.textContent.replace(/\s+/g, " ").trim() ||
+          anchor.innerText.replace(/\s+/g, " ").trim() ||
           anchor.getAttribute("title") ||
           anchor.getAttribute("aria-label") ||
           "",

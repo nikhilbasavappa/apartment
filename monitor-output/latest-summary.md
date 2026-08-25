@@ -1,21 +1,14 @@
 # Future Elmo's World Monitor
 
 Run time: Aug 25, 2026, 11:53 AM
-Configured sources: 4
-New listings inspected this run: 59
-Qualifying new listings: 59
-- 267 6th Street, Unit 6KPark Slope | $6,000 | 267 6th Street, Unit 6K, Park Slope, NY, 11215 | 43 min to office | score 69/100
-- 344 Dean Street, Unit 1Boerum Hill | $5,000 | 344 Dean Street, Unit 1, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
-- 344 Dean Street, Unit GARDENBoerum Hill | $5,550 | 344 Dean Street, Unit GARDEN, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #1427$4,777$4,095 | $4,095 | 20 Rockwell Place #1427, Brooklyn, NY, 11201 | 30 min to office | score 64/100
-- 20 Rockwell Place #1827X | $4,129 | 20 Rockwell Place #1827X, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- Fort Greene 108 Flushing Avenue, 5, Brooklyn, NY 11205 | $4,200 | 108 Flushing Avenue, 5, Brooklyn, NY, 11205 | 41 min to office | score 64/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2609$4,930$4,226 | $4,226 | 20 Rockwell Place #2609, Brooklyn, NY, 11201 | 30 min to office | score 64/100
-- 45 North Oxford Street #3 | $4,250 | 45 North Oxford Street #3, BROOKLYN, NY, 11205 | 42 min to office | score 64/100
+Configured sources: 5
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 
-- 267 6th Street, Unit 6KPark Slope | $6,000 | 267 6th Street, Unit 6K, Park Slope, NY, 11215 | 43 min to office | score 69/100
+- 267 6th Street, Unit 6K | $6,000 | 267 6th Street, Unit 6K, Park Slope, NY, 11215 | 43 min to office | score 69/100
 - 45 Garnet Street #1B | $4,900 | 45 Garnet Street #1B, BROOKLYN, NY, 11231 | 40 min to office | score 68/100
 - 244 West 72nd Street #9B | $6,500 | 244 West 72nd Street #9B, NEW YORK, NY, 10023 | 22 min to office | score 68/100
 - 574 Henry Street #1 | $5,500 | 574 Henry Street #1, BROOKLYN, NY, 11231 | 43 min to office | score 68/100
@@ -24,14 +17,14 @@ Qualifying new listings: 59
 - 52 4th Avenue #506 | $4,400 | 52 4th Avenue #506, BROOKLYN, NY, 11217 | 33 min to office | score 66/100
 - 151 South Elliott Place #4K | $5,546 | 151 South Elliott Place #4K, BROOKLYN, NY, 11217 | 33 min to office | score 66/100
 - 321 Warren Street #2 | $5,200 | 321 Warren Street #2, BROOKLYN, NY, 11201 | 32 min to office | score 66/100
-- 344 Dean Street, Unit 1Boerum Hill | $5,000 | 344 Dean Street, Unit 1, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
-- 344 Dean Street, Unit GARDENBoerum Hill | $5,550 | 344 Dean Street, Unit GARDEN, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
+- 344 Dean Street, Unit 1 | $5,000 | 344 Dean Street, Unit 1, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
+- 344 Dean Street, Unit GARDEN | $5,550 | 344 Dean Street, Unit GARDEN, Boerum Hill, NY, 11217 | 34 min to office | score 65/100
 - 470 Classon Avenue #3 | $5,250 | 470 Classon Avenue #3, BROOKLYN, NY, 11238 | 33 min to office | score 65/100
 - 150 Clermont Avenue #5E | $5,650 | 150 Clermont Avenue #5E, BROOKLYN, NY, 11205 | 41 min to office | score 65/100
 - 21-45 44th Drive #2G | $6,000 | 21-45 44th Drive #2G, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 65/100
 - 26 Quincy Street #502 | $5,400 | 26 Quincy Street #502, BROOKLYN, NY, 11238 | 33 min to office | score 64/100
 - 20 Rockwell Place #2432V | $6,380 | 20 Rockwell Place #2432V, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #1427$4,777$4,095 | $4,095 | 20 Rockwell Place #1427, Brooklyn, NY, 11201 | 30 min to office | score 64/100
+- 20 Rockwell Place #1427 | $4,095 | 20 Rockwell Place #1427, Brooklyn, NY, 11201 | 30 min to office | score 64/100
 - 20 Rockwell Place #1827U | $4,129 | 20 Rockwell Place #1827U, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
 - 20 Rockwell Place #1827X | $4,129 | 20 Rockwell Place #1827X, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
 - 208 West 88th Street #1G | $5,300 | 208 West 88th Street #1G, NEW YORK, NY, 10024 | 31 min to office | score 64/100
@@ -39,18 +32,18 @@ Qualifying new listings: 59
 - Fort Greene 108 Flushing Avenue, 5, Brooklyn, NY 11205 | $4,200 | 108 Flushing Avenue, 5, Brooklyn, NY, 11205 | 41 min to office | score 64/100
 - 662 Pacific Street #21M | $6,050 | 662 Pacific Street #21M, BROOKLYN, NY, 11217 | 35 min to office | score 64/100
 - 20 Rockwell Place #1409G | $4,200 | 20 Rockwell Place #1409G, BROOKLYN, NY, 11201 | 30 min to office | score 64/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2609$4,930$4,226 | $4,226 | 20 Rockwell Place #2609, Brooklyn, NY, 11201 | 30 min to office | score 64/100
+- 20 Rockwell Place #2609 | $4,226 | 20 Rockwell Place #2609, Brooklyn, NY, 11201 | 30 min to office | score 64/100
 - 45 North Oxford Street #3 | $4,250 | 45 North Oxford Street #3, BROOKLYN, NY, 11205 | 42 min to office | score 64/100
 - 19 Wyckoff Street #5 | $5,800 | 19 Wyckoff Street #5, BROOKLYN, NY, 11201 | 36 min to office | score 64/100
 - 150 Clermont Avenue #4C | $5,500 | 150 Clermont Avenue #4C, BROOKLYN, NY, 11205 | 47 min to office | score 63/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #338$5,095$4,367 | $4,367 | 20 Rockwell Place #338, Brooklyn, NY, 11201 | 30 min to office | score 63/100
+- 20 Rockwell Place #338 | $4,367 | 20 Rockwell Place #338, Brooklyn, NY, 11201 | 30 min to office | score 63/100
 - 204 West 96th Street #3C | $4,250 | 204 West 96th Street #3C, NEW YORK, NY, 10025 | 29 min to office | score 63/100
 - 525 Pacific Street #309 | $6,580 | 525 Pacific Street #309, BROOKLYN, NY, 11217 | 33 min to office | score 63/100
 - 1280 5th Avenue #15E | $4,950 | 1280 5th Avenue #15E, NEW YORK, NY, 10029 | 23 min to office | score 63/100
 - 656 Dean Street #2 | $4,750 | 656 Dean Street #2, BROOKLYN, NY, 11238 | 42 min to office | score 63/100
 - Prospect Heights 656 Dean Street, Brooklyn, NY 11238 | $4,750 | 656 Dean Street, Brooklyn, NY, 11238 | 42 min to office | score 63/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2813$5,150$4,414 | $4,414 | 20 Rockwell Place #2813, Brooklyn, NY, 11201 | 30 min to office | score 63/100
-- 97 Prospect Place, Unit 3Park Slope | $5,958 | 97 Prospect Place, Unit 3, Park Slope, NY, 11217 | 37 min to office | score 63/100
+- 20 Rockwell Place #2813 | $4,414 | 20 Rockwell Place #2813, Brooklyn, NY, 11201 | 30 min to office | score 63/100
+- 97 Prospect Place, Unit 3 | $5,958 | 97 Prospect Place, Unit 3, Park Slope, NY, 11217 | 37 min to office | score 63/100
 - 556 Baltic Street #909 | $5,250 | 556 Baltic Street #909, NEW YORK, NY, 11217 | 40 min to office | score 63/100
 - 556 Baltic Street #1004 | $5,250 | 556 Baltic Street #1004, NEW YORK, NY, 11217 | 40 min to office | score 63/100
 - 556 Baltic Street #1101 | $5,250 | 556 Baltic Street #1101, NEW YORK, NY, 11217 | 40 min to office | score 63/100
@@ -66,9 +59,9 @@ Qualifying new listings: 59
 - 44 3rd Street #2L | $5,500 | 44 3rd Street #2L, BROOKLYN, NY, 11231 | 38 min to office | score 63/100
 - 400 West 63rd Street #314 | $6,489 | 400 West 63rd Street #314, NEW YORK, NY, 10069 | 28 min to office | score 62/100
 - 556 Baltic Street #708 | $5,250 | 556 Baltic Street #708, NEW YORK, NY, 11217 | 40 min to office | score 62/100
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.5(21)66 Rockwell Place #26E$4,495 | $4,495 | 66 Rockwell Place #26E, Brooklyn, NY, 11217 | 32 min to office | score 62/100
+- 66 Rockwell Place #26E | $4,495 | 66 Rockwell Place #26E, Brooklyn, NY, 11217 | 32 min to office | score 62/100
 - 27-17 42nd Road #11D | $4,300 | 27-17 42nd Road #11D, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 62/100
-- 180 Ashland Place, Unit 1401Fort Greene | $4,575 | 180 Ashland Place, Unit 1401, Fort Greene, NY, 11217 | 31 min to office | score 62/100
+- 180 Ashland Place, Unit 1401 | $4,575 | 180 Ashland Place, Unit 1401, Fort Greene, NY, 11217 | 31 min to office | score 62/100
 - 27-17 42nd Road #18D | $4,400 | 27-17 42nd Road #18D, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 62/100
 - Carroll Gardens 22 4th Street, 1, Brooklyn, NY 11231 | $5,900 | 22 4th Street, 1, Brooklyn, NY, 11231 | 38 min to office | score 62/100
 - 20 Rockwell Place #1914F | $4,746 | 20 Rockwell Place #1914F, BROOKLYN, NY, 11201 | 30 min to office | score 62/100
@@ -101,7 +94,7 @@ Qualifying new listings: 59
 - Clinton Hill 87 Irving Place, 3C, Brooklyn, NY 11238 | $4,250 | 87 Irving Place, 3C, Brooklyn, NY, 11238 | 38 min to office | score 60/100
 - 540 Waverly Avenue #8C | $6,350 | 540 Waverly Avenue #8C, BROOKLYN, NY, 11238 | 44 min to office | score 60/100
 - 18 Sixth Avenue #4105 | $4,900 | 18 Sixth Avenue #4105, BROOKLYN, NY, 11217 | 34 min to office | score 60/100
-- VerifiedProspect Heights·1 bed, 1 bath4.5(4)18 6 Avenue #4105$4,900 | $4,900 | 18 6 Avenue #4105, Brooklyn, NY, 11217 | 34 min to office | score 60/100
+- 18 6 Avenue #4105 | $4,900 | 18 6 Avenue #4105, Brooklyn, NY, 11217 | 34 min to office | score 60/100
 - Clinton Hill 249 Willoughby Avenue, 3G, Brooklyn, NY 11205 | $4,331 | 249 Willoughby Avenue, 3G, Brooklyn, NY, 11205 | 35 min to office | score 60/100
 - 55 Willoughby Street #40H | $5,190 | 55 Willoughby Street #40H, BROOKLYN, NY, 11201 | 29 min to office | score 60/100
 - 370 5th Avenue #2L | $5,133 | 370 5th Avenue #2L, BROOKLYN, NY, 11215 | 46 min to office | score 60/100
@@ -110,16 +103,16 @@ Qualifying new listings: 59
 - 3 Court Square #1805 | $6,650 | 3 Court Square #1805, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 60/100
 - Park Slope 61 7th Avenue, 3, Brooklyn, NY 11217 | $4,400 | 61 7th Avenue, 3, Brooklyn, NY, 11217 | 38 min to office | score 60/100
 - 545 Vanderbilt Avenue #11C | $6,395 | 545 Vanderbilt Avenue #11C, BROOKLYN, NY, 11238 | 45 min to office | score 60/100
-- 34 Plaza Street East, Unit 1205Prospect Heights | $4,700 | 34 Plaza Street East, Unit 1205, Prospect Heights, NY, 11238 | 36 min to office | score 60/100
+- 34 Plaza Street East, Unit 1205 | $4,700 | 34 Plaza Street East, Unit 1205, Prospect Heights, NY, 11238 | 36 min to office | score 60/100
 - 55 Willoughby Street #26A | $5,295 | 55 Willoughby Street #26A, BROOKLYN, NY, 11201 | 29 min to office | score 60/100
 - 375 Dean Street #311 | $4,199 | 375 Dean Street #311, BROOKLYN, NY, 11217 | 32 min to office | score 60/100
-- VerifiedRent-stabilizedBoerum Hill·1 bed, 1 bath316 Bergen St #4-05$4,784 | $4,784 | 316 Bergen St #4-05, Brooklyn, NY, 11217 | 36 min to office | score 60/100
+- 316 Bergen St #4-05 | $4,784 | 316 Bergen St #4-05, Brooklyn, NY, 11217 | 36 min to office | score 60/100
 - 55 Willoughby Street #38D | $5,350 | 55 Willoughby Street #38D, BROOKLYN, NY, 11201 | 29 min to office | score 60/100
 - 55 Willoughby Street #39D | $5,365 | 55 Willoughby Street #39D, BROOKLYN, NY, 11201 | 29 min to office | score 60/100
 - 178 De Graw Street #2 | $6,200 | 178 De Graw Street #2, BROOKLYN, NY, 11231 | 47 min to office | score 60/100
 - 301 East 90th Street #3C | $6,750 | 301 East 90th Street #3C, NEW YORK, NY, 10128 | 22 min to office | score 60/100
 - 556 Vanderbilt Avenue #3 | $7,000 | 556 Vanderbilt Avenue #3, BROOKLYN, NY, 11238 | 42 min to office | score 60/100
-- VerifiedRent-stabilizedClinton Hill·1 bed, 1 bath2.6(3)163 Washington Avenue #15B$4,295 | $4,295 | 163 Washington Avenue #15B, Brooklyn, NY, 11205 | 39 min to office | score 59/100
+- 163 Washington Avenue #15B | $4,295 | 163 Washington Avenue #15B, Brooklyn, NY, 11205 | 39 min to office | score 59/100
 - 17 Hanover Place #20I | $5,150 | 17 Hanover Place #20I, BROOKLYN, NY, 11201 | 33 min to office | score 59/100
 - 55 Willoughby Street #38F | $5,420 | 55 Willoughby Street #38F, BROOKLYN, NY, 11201 | 29 min to office | score 59/100
 - 55 Willoughby Street #32E | $5,180 | 55 Willoughby Street #32E, BROOKLYN, NY, 11201 | 31 min to office | score 59/100
@@ -136,7 +129,7 @@ Qualifying new listings: 59
 - 646 President Street #1C | $5,575 | 646 President Street #1C, BROOKLYN, NY, 11215 | 37 min to office | score 59/100
 - 433 Sackett Street #2K | $4,350 | 433 Sackett Street #2K, BROOKLYN, NY, 11217 | 41 min to office | score 59/100
 - 17 Hanover Place #15J | $5,300 | 17 Hanover Place #15J, BROOKLYN, NY, 11201 | 33 min to office | score 59/100
-- 155 Luquer Street, Unit 2Carroll Gardens | $6,450 | 155 Luquer Street, Unit 2, Carroll Gardens, NY, 11231 | 42 min to office | score 59/100
+- 155 Luquer Street, Unit 2 | $6,450 | 155 Luquer Street, Unit 2, Carroll Gardens, NY, 11231 | 42 min to office | score 59/100
 - 560 Court Street #3 | $6,738 | 560 Court Street #3, BROOKLYN, NY, 11231 | 41 min to office | score 59/100
 - 17 Hanover Place #22H | $5,320 | 17 Hanover Place #22H, BROOKLYN, NY, 11201 | 33 min to office | score 59/100
 - 196 7th Avenue #8 | $5,900 | 196 7th Avenue #8, BROOKLYN, NY, 11215 | 48 min to office | score 59/100
@@ -164,7 +157,7 @@ Qualifying new listings: 59
 - 161 East 89th Street #1C | $6,749 | 161 East 89th Street #1C, NEW YORK, NY, 10128 | 15 min to office | score 58/100
 - 27-03 42nd Road #25B | $5,850 | 27-03 42nd Road #25B, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 58/100
 - Park Slope 66 Garfield Place, 3R, Brooklyn, NY 11215 | $4,700 | 66 Garfield Place, 3R, Brooklyn, NY, 11215 | 39 min to office | score 57/100
-- VerifiedClinton Hill·1 bed, 1 bath4.6(1)880 Atlantic Avenue #8D$4,647 | $4,647 | 880 Atlantic Avenue #8D, Brooklyn, NY, 11238 | 46 min to office | score 57/100
+- 880 Atlantic Avenue #8D | $4,647 | 880 Atlantic Avenue #8D, Brooklyn, NY, 11238 | 46 min to office | score 57/100
 - 22-44 Jackson Avenue #727 | $4,600 | 22-44 Jackson Avenue #727, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 57/100
 - 316 Bergen Street #3-7 | $4,575 | 316 Bergen Street #3-7, BROOKLYN, NY, 11217 | 36 min to office | score 57/100
 - 23-15 44th Road #19M | $6,965 | 23-15 44th Road #19M, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 57/100
@@ -175,7 +168,7 @@ Qualifying new listings: 59
 - 43-12 Hunter Street #905 | $4,595 | 43-12 Hunter Street #905, LONG ISLAND CITY, NY, 11101 | 10 min to office | score 57/100
 - 122 Willoughby Avenue #1 | $6,700 | 122 Willoughby Avenue #1, BROOKLYN, NY, 11205 | 35 min to office | score 57/100
 - 27-03 42nd Road #25C | $5,798 | 27-03 42nd Road #25C, LONG ISLAND CITY, NY, 11101 | 14 min to office | score 57/100
-- 55 Paseo Place, Unit 322Park Slope | $5,150 | 55 Paseo Place, Unit 322, Park Slope, NY, 11217 | 39 min to office | score 57/100
+- 55 Paseo Place, Unit 322 | $5,150 | 55 Paseo Place, Unit 322, Park Slope, NY, 11217 | 39 min to office | score 57/100
 - 1113 York Avenue #4A | $5,650 | 1113 York Avenue #4A, NEW YORK, NY, 10065 | 16 min to office | score 57/100
 - 44-41 Purves Street #809 | $4,336 | 44-41 Purves Street #809, LONG ISLAND CITY, NY, 11101 | 14 min to office | score 57/100
 - 55 Willoughby Street #38B | $5,875 | 55 Willoughby Street #38B, BROOKLYN, NY, 11201 | 31 min to office | score 57/100
@@ -193,15 +186,15 @@ Qualifying new listings: 59
 - 27-03 42nd Road #12A | $4,000 | 27-03 42nd Road #12A, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 56/100
 - 502 East 73rd Street #3C | $4,400 | 502 East 73rd Street #3C, NEW YORK, NY, 10021 | 24 min to office | score 56/100
 - 44-28 Purves Street #27B | $4,697 | 44-28 Purves Street #27B, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 56/100
-- 55 Paseo Place, Unit 233Park Slope | $5,450 | 55 Paseo Place, Unit 233, Park Slope, NY, 11217 | 39 min to office | score 56/100
+- 55 Paseo Place, Unit 233 | $5,450 | 55 Paseo Place, Unit 233, Park Slope, NY, 11217 | 39 min to office | score 56/100
 - 42-10 27th Street #3C | $4,100 | 42-10 27th Street #3C, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 56/100
 - 788 Columbus Avenue #1R | $5,500 | 788 Columbus Avenue #1R, NEW YORK, NY, 10025 | 26 min to office | score 56/100
 - 411 Sackett Street #1 | $6,495 | 411 Sackett Street #1, BROOKLYN, NY, 11231 | 40 min to office | score 56/100
 - 43-22 Queens Street #415 | $4,613 | 43-22 Queens Street #415, LONG ISLAND CITY, NY, 11101 | 15 min to office | score 56/100
 - 329 Lincoln Place #4R | $6,495 | 329 Lincoln Place #4R, BROOKLYN, NY, 11238 | 46 min to office | score 56/100
-- 605 Vanderbilt Avenue, Unit 2Prospect Heights | $4,750 | 605 Vanderbilt Avenue, Unit 2, Prospect Heights, NY, 11238 | 41 min to office | score 55/100
+- 605 Vanderbilt Avenue, Unit 2 | $4,750 | 605 Vanderbilt Avenue, Unit 2, Prospect Heights, NY, 11238 | 41 min to office | score 55/100
 - 5203 Center Boulevard #5006 | $6,355 | 5203 Center Boulevard #5006, LONG ISLAND CITY, NY, 11101 | 24 min to office | score 55/100
-- 656 Dean Street, Unit 2Prospect Heights | $4,750 | 656 Dean Street, Unit 2, Prospect Heights, NY, 11238 | 42 min to office | score 55/100
+- 656 Dean Street, Unit 2 | $4,750 | 656 Dean Street, Unit 2, Prospect Heights, NY, 11238 | 42 min to office | score 55/100
 - 55 Willoughby Street #41C | $6,295 | 55 Willoughby Street #41C, BROOKLYN, NY, 11201 | 31 min to office | score 55/100
 - 4545 Center Boulevard #3120 | $6,755 | 4545 Center Boulevard #3120, LONG ISLAND CITY, NY, 11109 | 21 min to office | score 55/100
 - 1269 1st Avenue #3C | $4,495 | 1269 1st Avenue #3C, NEW YORK, NY, 10065 | 17 min to office | score 55/100
@@ -219,7 +212,7 @@ Qualifying new listings: 59
 - 23-15 44th Road #9J | $5,260 | 23-15 44th Road #9J, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 54/100
 - 4720 Center Boulevard #220 | $4,475 | 4720 Center Boulevard #220, LONG ISLAND CITY, NY, 11109 | 24 min to office | score 54/100
 - 66 7th Avenue #4C | $5,900 | 66 7th Avenue #4C, BROOKLYN, NY, 11217 | 38 min to office | score 54/100
-- 74 Vanderbilt AvenueFort Greene | $5,600 | 74 Vanderbilt Avenue, Fort Greene, NY, 11205 | 43 min to office | score 54/100
+- 74 Vanderbilt Avenue | $5,600 | 74 Vanderbilt Avenue, Fort Greene, NY, 11205 | 43 min to office | score 54/100
 - 2-20 Malt Drive #608 | $6,295 | 2-20 Malt Drive #608, LONG ISLAND CITY, NY, 11101 | 27 min to office | score 54/100
 - 309 East 92nd Street #1F | $5,050 | 309 East 92nd Street #1F, NEW YORK, NY, 10128 | 25 min to office | score 54/100
 - 23-10 42nd Road #9B | $5,100 | 23-10 42nd Road #9B, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 54/100
@@ -266,7 +259,7 @@ Qualifying new listings: 59
 - 4610 Center Boulevard #423 | $4,565 | 4610 Center Boulevard #423, LONG ISLAND CITY, NY, 11109 | 22 min to office | score 46/100
 - 3 Court Square #5604 | $5,000 | 3 Court Square #5604, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 46/100
 - 3 Court Square #3509 | $5,000 | 3 Court Square #3509, LONG ISLAND CITY, NY, 11101 | 9 min to office | score 45/100
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #1909$4,870$4,174 | $4,174 | 20 Rockwell Place #1909, Brooklyn, NY, 11201 | 30 min to office | score 44/100
+- 20 Rockwell Place #1909 | $4,174 | 20 Rockwell Place #1909, Brooklyn, NY, 11201 | 30 min to office | score 44/100
 - 42-20 24th Street #9H | $6,104 | 42-20 24th Street #9H, LONG ISLAND CITY, NY, 11101 | 13 min to office | score 42/100
 - 354 East 91st Street #2202 | $4,890 | 354 East 91st Street #2202, NEW YORK, NY, 10128 | 25 min to office | score 42/100
 - 354 East 91st Street #1602 | $4,995 | 354 East 91st Street #1602, NEW YORK, NY, 10128 | 25 min to office | score 42/100
@@ -538,75 +531,75 @@ Qualifying new listings: 59
 - Clinton Hill 249 Willoughby Avenue, 9B, Brooklyn, NY 11205 | 249 Willoughby Avenue, 9B, Brooklyn, NY, 11205 — Rent $3795 outside $4000-7000
 - Clinton Hill 249 Willoughby Avenue, 11D, Brooklyn, NY 11205 | 249 Willoughby Avenue, 11D, Brooklyn, NY, 11205 — Rent $3895 outside $4000-7000
 - Fort Greene 80 Dekalb Avenue, 30A, Brooklyn, NY 11201 | Dekalb Avenue, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2327$4,867$4,172 | 20 Rockwell Place #2327, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2427$4,877$4,180 | 20 Rockwell Place #2427, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2009$4,880$4,183 | 20 Rockwell Place #2009, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2209$4,890$4,191 | 20 Rockwell Place #2209, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2627$4,897$4,197 | 20 Rockwell Place #2627, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2309$4,900$4,200 | 20 Rockwell Place #2309, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2409$4,910$4,209 | 20 Rockwell Place #2409, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #1708$4,962$4,253 | 20 Rockwell Place #1708, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3011$4,970$4,260 | 20 Rockwell Place #3011, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3009$4,972$4,262 | 20 Rockwell Place #3009, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3207$4,990$4,277 | 20 Rockwell Place #3207, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3307$5,000$4,286 | 20 Rockwell Place #3307, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2727$5,007$4,292 | 20 Rockwell Place #2727, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3407$5,010$4,294 | 20 Rockwell Place #3407, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #3507$5,020$4,303 | 20 Rockwell Place #3507, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath4.0(1)20 Rockwell Place #2913$5,060$4,337 | 20 Rockwell Place #2913, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath570 Fulton Street #990$4,398$4,060 | 570 Fulton Street #990, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedFort Greene·1 bed, 1 bath570 Fulton Street #1079$4,756$4,390 | 570 Fulton Street #1079, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·1 bed, 1 bath3.8(1)545 Vanderbilt Avenue #10G$3,950$3,621 | 545 Vanderbilt Avenue #10G, Brooklyn, NY, 11238 — Rent $3950 outside $4000-7000; Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·1 bed, 1 bath4.6(1)880 Atlantic Avenue #3H$3,903 | 880 Atlantic Avenue #3H, Brooklyn, NY, 11238 — Rent $3903 outside $4000-7000; Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·1 bed, 1 bath4.6(1)880 Atlantic Avenue #11A$4,446 | 880 Atlantic Avenue #11A, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·1 bed, 1 bath4.6(1)880 Atlantic Avenue #12A$4,700 | 880 Atlantic Avenue #12A, Brooklyn, NY, 11238 — Kitchen photo shows a closed layout
-- VerifiedClinton Hill·1 bed, 1 bath4.6(1)880 Atlantic Avenue #7L$4,741 | 880 Atlantic Avenue #7L, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·2 beds, 1 bath3.8(1)545 Vanderbilt Avenue #21D$6,395$5,862 | 545 Vanderbilt Avenue #21D, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·2 beds, 2 baths3.8(1)545 Vanderbilt Avenue #11C$6,395$5,862 | 545 Vanderbilt Avenue #11C, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
-- VerifiedProspect Heights·1 bed, 1 bath4.5(4)18 6 Avenue #3202$4,425 | 18 6 Avenue #3202, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #17M$4,543 | 196 Willoughby Street #17M, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedRent-stabilizedBoerum Hill·1 bed, 1 bath316 Bergen St #3-07$4,575 | 316 Bergen St #3-07, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.6(14)300 Ashland Place #PHF$4,736 | 300 Ashland Place #PHF, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #27D$4,776 | 196 Willoughby Street #27D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #31D$4,956 | 196 Willoughby Street #31D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #23C$5,118 | 196 Willoughby Street #23C, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedRent-stabilizedClinton Hill·1 bed, 2 baths2.6(3)163 Washington Avenue #12C$5,325 | 163 Washington Avenue #12C, Brooklyn, NY, 11205 — Kitchen layout could not be confirmed from photos
-- VerifiedClinton Hill·2 beds, 1 bath3.8(1)545 Vanderbilt Avenue #25H$5,995 | 545 Vanderbilt Avenue #25H, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #21D$4,876 | 196 Willoughby Street #21D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #32C$5,268 | 196 Willoughby Street #32C, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- VerifiedProspect Heights·1 bed, 1 bath37 6 Avenue #26C$4,600 | 37 6 Avenue #26C, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
-- VerifiedTop ratedFort Greene·1 bed, 1 bath4.3(10)196 Willoughby Street #21T$5,259 | 196 Willoughby Street #21T, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 608 Carlton Avenue, Unit 1Prospect Heights | 608 Carlton Avenue, Unit 1, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
-- 651 10th Street, Unit 1Park Slope | 651 10th Street, Unit 1, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 505 Court Street, Unit 8ACarroll Gardens | 505 Court Street, Unit 8A, Carroll Gardens, NY, 11231 — Kitchen photo shows a closed layout
-- 20 Butler Place, Unit 49Prospect Heights | 20 Butler Place, Unit 49, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
-- 567 6th Street, Unit 4Park Slope | 567 6th Street, Unit 4, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
-- 196 7th Avenue, Unit 8Park Slope | 196 7th Avenue, Unit 8, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 4th StreetCarroll Gardens | 4th Street, Carroll Gardens, NY, 11231 — Kitchen layout could not be confirmed from photos
-- 880 Atlantic Avenue, Unit 12AProspect Heights | 880 Atlantic Avenue, Unit 12A, Prospect Heights, NY, 11238 — Kitchen layout could not be confirmed from photos
-- 383 12th Street, Unit 1RPark Slope | 383 12th Street, Unit 1R, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 5th AvenuePark Slope | 5th Avenue, Park Slope, NY, 11217 — Kitchen layout could not be confirmed from photos
-- Dean StreetProspect Heights | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
-- Dean StreetProspect Heights | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
-- 115 Bergen Street, Unit 2Boerum Hill | 115 Bergen Street, Unit 2, Boerum Hill, NY, 11201 — Kitchen photo shows a closed layout
-- 340 Atlantic Avenue, Unit 2RBoerum Hill | 340 Atlantic Avenue, Unit 2R, Boerum Hill, NY, 11201 — Rent $3400 outside $4000-7000; Kitchen layout could not be confirmed from photos
-- Flushing AvenueFort Greene | Flushing Avenue, Fort Greene, NY, 11205 — Kitchen layout could not be confirmed from photos
-- 115 Carlton Avenue, Unit 1AFort Greene | 115 Carlton Avenue, Unit 1A, Fort Greene, NY, 11205 — Kitchen photo shows a closed layout
-- 147 South Oxford Street, Unit 4AFort Greene | 147 South Oxford Street, Unit 4A, Fort Greene, NY, 11217 — Kitchen layout could not be confirmed from photos
-- 271 12th Street, Unit GARDENPark Slope | 271 12th Street, Unit GARDEN, Park Slope, NY, 11215 — Kitchen photo shows a galley layout; Coil electric stove (explicitly rejected)
-- 321 13th Street, Unit GARDENPark Slope | 321 13th Street, Unit GARDEN, Park Slope, NY, 11215 — Rent $3400 outside $4000-7000; Kitchen layout could not be confirmed from photos
-- 337 Clinton Street, Unit 3Cobble Hill | 337 Clinton Street, Unit 3, Cobble Hill, NY, 11231 — Kitchen photo shows a closed layout
-- Atlantic AvenueCobble Hill | Atlantic Avenue, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 302 2nd Street, Unit 7CPark Slope | 302 2nd Street, Unit 7C, Park Slope, NY, 11215 — Rent $3550 outside $4000-7000
-- 21 Butler Place, Unit 3DProspect Heights | 21 Butler Place, Unit 3D, Prospect Heights, NY, 11238 — Rent $3950 outside $4000-7000
-- Pacific StreetCobble Hill | Pacific Street, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 532 10th Street, Unit 2Park Slope | 532 10th Street, Unit 2, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
-- 283 Pacific Street, Unit 3Boerum Hill | 283 Pacific Street, Unit 3, Boerum Hill, NY, 11201 — Kitchen photo shows a galley layout
-- 5th AvenuePark Slope | 5th Avenue, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 572 5th Avenue, Unit 4DPark Slope | 572 5th Avenue, Unit 4D, Park Slope, NY, 11215 — Rent $3970 outside $4000-7000; Kitchen photo shows a closed layout
-- Dean StreetProspect Heights | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
-- 283 Pacific Street, Unit 4Boerum Hill | 283 Pacific Street, Unit 4, Boerum Hill, NY, 11201 — Kitchen photo shows a closed layout
-- 55 Paseo Place, Unit 304Park Slope | 55 Paseo Place, Unit 304, Park Slope, NY, 11217 — Kitchen photo shows a closed layout
+- 20 Rockwell Place #2327 | 20 Rockwell Place #2327, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2427 | 20 Rockwell Place #2427, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2009 | 20 Rockwell Place #2009, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2209 | 20 Rockwell Place #2209, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2627 | 20 Rockwell Place #2627, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2309 | 20 Rockwell Place #2309, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2409 | 20 Rockwell Place #2409, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #1708 | 20 Rockwell Place #1708, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3011 | 20 Rockwell Place #3011, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3009 | 20 Rockwell Place #3009, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3207 | 20 Rockwell Place #3207, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3307 | 20 Rockwell Place #3307, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2727 | 20 Rockwell Place #2727, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3407 | 20 Rockwell Place #3407, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #3507 | 20 Rockwell Place #3507, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 20 Rockwell Place #2913 | 20 Rockwell Place #2913, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 570 Fulton Street #990 | 570 Fulton Street #990, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 570 Fulton Street #1079 | 570 Fulton Street #1079, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 545 Vanderbilt Avenue #10G | 545 Vanderbilt Avenue #10G, Brooklyn, NY, 11238 — Rent $3950 outside $4000-7000; Kitchen layout could not be confirmed from photos
+- 880 Atlantic Avenue #3H | 880 Atlantic Avenue #3H, Brooklyn, NY, 11238 — Rent $3903 outside $4000-7000; Kitchen layout could not be confirmed from photos
+- 880 Atlantic Avenue #11A | 880 Atlantic Avenue #11A, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 880 Atlantic Avenue #12A | 880 Atlantic Avenue #12A, Brooklyn, NY, 11238 — Kitchen photo shows a closed layout
+- 880 Atlantic Avenue #7L | 880 Atlantic Avenue #7L, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 545 Vanderbilt Avenue #21D | 545 Vanderbilt Avenue #21D, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 545 Vanderbilt Avenue #11C | 545 Vanderbilt Avenue #11C, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 18 6 Avenue #3202 | 18 6 Avenue #3202, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #17M | 196 Willoughby Street #17M, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 316 Bergen St #3-07 | 316 Bergen St #3-07, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 300 Ashland Place #PHF | 300 Ashland Place #PHF, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #27D | 196 Willoughby Street #27D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #31D | 196 Willoughby Street #31D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #23C | 196 Willoughby Street #23C, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 163 Washington Avenue #12C | 163 Washington Avenue #12C, Brooklyn, NY, 11205 — Kitchen layout could not be confirmed from photos
+- 545 Vanderbilt Avenue #25H | 545 Vanderbilt Avenue #25H, Brooklyn, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #21D | 196 Willoughby Street #21D, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #32C | 196 Willoughby Street #32C, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 37 6 Avenue #26C | 37 6 Avenue #26C, Brooklyn, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 196 Willoughby Street #21T | 196 Willoughby Street #21T, Brooklyn, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 608 Carlton Avenue, Unit 1 | 608 Carlton Avenue, Unit 1, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
+- 651 10th Street, Unit 1 | 651 10th Street, Unit 1, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
+- 505 Court Street, Unit 8A | 505 Court Street, Unit 8A, Carroll Gardens, NY, 11231 — Kitchen photo shows a closed layout
+- 20 Butler Place, Unit 49 | 20 Butler Place, Unit 49, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
+- 567 6th Street, Unit 4 | 567 6th Street, Unit 4, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
+- 196 7th Avenue, Unit 8 | 196 7th Avenue, Unit 8, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
+- 4th Street | 4th Street, Carroll Gardens, NY, 11231 — Kitchen layout could not be confirmed from photos
+- 880 Atlantic Avenue, Unit 12A | 880 Atlantic Avenue, Unit 12A, Prospect Heights, NY, 11238 — Kitchen layout could not be confirmed from photos
+- 383 12th Street, Unit 1R | 383 12th Street, Unit 1R, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
+- 5th Avenue | 5th Avenue, Park Slope, NY, 11217 — Kitchen layout could not be confirmed from photos
+- Dean Street | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
+- Dean Street | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 115 Bergen Street, Unit 2 | 115 Bergen Street, Unit 2, Boerum Hill, NY, 11201 — Kitchen photo shows a closed layout
+- 340 Atlantic Avenue, Unit 2R | 340 Atlantic Avenue, Unit 2R, Boerum Hill, NY, 11201 — Rent $3400 outside $4000-7000; Kitchen layout could not be confirmed from photos
+- Flushing Avenue | Flushing Avenue, Fort Greene, NY, 11205 — Kitchen layout could not be confirmed from photos
+- 115 Carlton Avenue, Unit 1A | 115 Carlton Avenue, Unit 1A, Fort Greene, NY, 11205 — Kitchen photo shows a closed layout
+- 147 South Oxford Street, Unit 4A | 147 South Oxford Street, Unit 4A, Fort Greene, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 271 12th Street, Unit GARDEN | 271 12th Street, Unit GARDEN, Park Slope, NY, 11215 — Kitchen photo shows a galley layout; Coil electric stove (explicitly rejected)
+- 321 13th Street, Unit GARDEN | 321 13th Street, Unit GARDEN, Park Slope, NY, 11215 — Rent $3400 outside $4000-7000; Kitchen layout could not be confirmed from photos
+- 337 Clinton Street, Unit 3 | 337 Clinton Street, Unit 3, Cobble Hill, NY, 11231 — Kitchen photo shows a closed layout
+- Atlantic Avenue | Atlantic Avenue, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 302 2nd Street, Unit 7C | 302 2nd Street, Unit 7C, Park Slope, NY, 11215 — Rent $3550 outside $4000-7000
+- 21 Butler Place, Unit 3D | 21 Butler Place, Unit 3D, Prospect Heights, NY, 11238 — Rent $3950 outside $4000-7000
+- Pacific Street | Pacific Street, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 532 10th Street, Unit 2 | 532 10th Street, Unit 2, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
+- 283 Pacific Street, Unit 3 | 283 Pacific Street, Unit 3, Boerum Hill, NY, 11201 — Kitchen photo shows a galley layout
+- 5th Avenue | 5th Avenue, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
+- 572 5th Avenue, Unit 4D | 572 5th Avenue, Unit 4D, Park Slope, NY, 11215 — Rent $3970 outside $4000-7000; Kitchen photo shows a closed layout
+- Dean Street | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
+- 283 Pacific Street, Unit 4 | 283 Pacific Street, Unit 4, Boerum Hill, NY, 11201 — Kitchen photo shows a closed layout
+- 55 Paseo Place, Unit 304 | 55 Paseo Place, Unit 304, Park Slope, NY, 11217 — Kitchen photo shows a closed layout
 - Homes for Rent under $1,200 in Prospect Heights | 99 Columbia Avenue, Unit 1, Jersey City, NJ, 07307 — Rent $300 outside $4000-7000; Kitchen layout could not be confirmed from photos
 - Homes for Rent under $1,500 in Prospect Heights | 600.5 Grove Street, Unit 2, Jersey City, NJ, 07310 — Rent $1500 outside $4000-7000; Kitchen photo shows a closed layout
 - 880 Atlantic Avenue #7L | 880 Atlantic Avenue #7L, BROOKLYN, NY, 11238 — Rented on StreetEasy (auto-detected during periodic revalidation)
