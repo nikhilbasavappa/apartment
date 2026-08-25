@@ -21,6 +21,12 @@
       "enabled": true
     },
     {
+      "name": "StreetEasy — custom Brooklyn boundary (catches units StreetEasy's own neighborhood tags misclassify), $4k-6.5k, 1bd+, W/D",
+      "source": "streeteasy",
+      "url": "https://streeteasy.com/for-rent/nyc/price:4000-6500%7Cboundary:Custom%20Boundary-wvhwF%3A%3A%3A%3AmubMeIa%40sMgBkJwBsIiCwHyCaE%7BKd%40eP%60AkLrB%7DLtDgJfB%7BKKmLkHkDlAkLlAmLzAmLqI%3A%3A%3A%3ADeIxCeIbAaE%7BKd%40qNf%40%7DLYkL%3FoM%3F%7DL%3F%7DLd%40mLX%7DLXmLXkLbGcHdIuApIQrIa%40bIPbGcHdI_FvHhCjHjD~Ia%40dIc%40pIxBdIdBbIfBdIp%40zCxJXlL%7BCxJuBjLs%40lLdGdI%3A%3A%3A%3AGpGpGnFzEvIbGdIvDfJoAlL%7BEtIoEvIgBzKoCjKoEtIeIPkHoFiH%7DDeGcHcGcHwHgCwH%7BCeIsAcGpG%7BCxJMjLf%40lL%3A%3A%3A%3AG%60GjHlE%3A%3A%3A%3AGlEvFbH%3F%3A%3A%3A%3ALiBzKgDvJmAlLgBzKkHlE%7DGnF%60CP%7Cbeds%3E=1%7Cin_rect:40.655,40.703,-74.008,-73.924%7Camenities:washer_dryer?sort_by=se_score",
+      "enabled": true
+    },
+    {
       "name": "Corcoran — Park Slope/Prospect Heights/Fort Greene/Clinton Hill/Carroll Gardens/Boerum Hill/Cobble Hill, $6.5k max, 1bd+, W/D",
       "source": "corcoran",
       "url": "https://www.corcoran.com/search/for-rent/location/park-slope-ny-7608,prospect-heights-ny-7609,fort-greene-ny-7596,clinton-hill-ny-7584,carroll-gardens-ny-7583,boerum-hill-ny-7576,cobble-hill-ny-a1028528/regionId/1?priceMax=6500&bedMin=1&features=washer-dryer",
