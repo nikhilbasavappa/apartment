@@ -119,5 +119,13 @@
     "address": "880 Atlantic Ave, Brooklyn, NY 11238",
     "url": "https://eight80bk.com/availability",
     "parser": "eight80Spans"
+  },
+  {
+    "id": "instrata-park-slope",
+    "name": "The Instrata",
+    "address": "150 4th Ave, Brooklyn, NY 11217",
+    "url": "https://www.instrataparkslope.com/floorplans",
+    "parser": "stub",
+    "note": "Cloudflare-protected (Bright Data's unlocker gets a 'Performing security verification' challenge page, no JS execution to pass it). RentCafe/Yardi platform underneath (same as Willoughby BK) — if the Cloudflare block is ever solved, willoughbyDataAttrs may be directly reusable or very close to it. Not implemented yet."
   }
 ]
