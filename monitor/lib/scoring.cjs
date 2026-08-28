@@ -386,6 +386,27 @@ function hasSeparateKitchenText(bodyText) {
   return false;
 }
 
+// Symmetric counterpart to hasSeparateKitchenText — a listing that
+// explicitly markets its kitchen as open to the living/dining space is a
+// stronger signal than vision, same reasoning as the "closed" override.
+// Added after 387 7th Avenue #2's vision call confidently (and wrongly)
+// called an L-shaped/corner kitchen "closed" with no wall actually visible
+// in the photo, while the listing's own copy said "The layout creates a
+// natural flow between the living space and kitchen." Vision apparently
+// reads a wraparound corner counter as a room-shape signal for enclosure,
+// which it isn't — a corner/L-shaped counter run says nothing about
+// whether a wall separates the kitchen from the rest of the unit.
+function hasOpenKitchenText(bodyText) {
+  const pattern =
+    /\bopen[\s-]?(?:concept|plan)?[\w\s']{0,12}\bkitchen\b|\bkitchen\b[\w\s']{0,20}\bopens?\b[\w\s']{0,20}\b(?:living|dining)\b|\bnatural flow\b[\w\s']{0,60}\bkitchen\b/gi;
+  const text = String(bodyText || "");
+  let match;
+  while ((match = pattern.exec(text))) {
+    if (!/\bnot\b|n't\b|\bno\b/i.test(match[0])) return true;
+  }
+  return false;
+}
+
 // The listing's own marketing copy makes a stronger, more specific claim
 // about its own kitchen than a photo can — a photo showing a big island can
 // look "large" even when the actual counter/cabinet run is small (see the
@@ -552,7 +573,11 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     vision.kitchenVisible && vision.kitchenConfidence !== "low" ? vision.kitchenLayout : "unknown";
   // The listing's own description outranks a photo-based guess: a "separate
   // chef's kitchen" can still be framed to look open-ish in a single shot.
-  const kitchenLayout = hasSeparateKitchenText(listing.bodyText) ? "closed" : visionKitchenLayout;
+  const kitchenLayout = hasSeparateKitchenText(listing.bodyText)
+    ? "closed"
+    : hasOpenKitchenText(listing.bodyText)
+      ? "open"
+      : visionKitchenLayout;
   const stoveType = vision.kitchenVisible && vision.stoveConfidence !== "low" ? vision.stoveType : "unknown";
   // StreetEasy's own structured "Home features" field is a more reliable
   // source than a photo for private outdoor space (see
@@ -683,6 +708,7 @@ module.exports = {
   extractOutdoorSpaceTypes,
   hasPrivateGardenText,
   hasSeparateKitchenText,
+  hasOpenKitchenText,
   hasSmallKitchenText,
   hasSpaciousKitchenText,
   hasSpaciousLivingRoomText,
