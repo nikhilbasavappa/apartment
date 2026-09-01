@@ -525,7 +525,15 @@ async function extractListingDetail(page, candidate, config, outputPaths) {
         ? Number.parseFloat(structuredFloorSize.value)
         : Number.parseFloat(structuredFloorSize) || null,
     structuredStatus: typeof structuredStatus === "string" ? structuredStatus : null,
-    title: candidate.title || raw.h1 || structuredName || raw.pageTitle || candidate.url,
+    // raw.h1 outranks candidate.title (the search-card link's scraped text) —
+    // confirmed on real Corcoran/OpenIgloo pages that the whole card is one
+    // big anchor, so candidate.title ends up being the entire card's text
+    // (badges, neighborhood, beds/baths, rating, price, all of it), while
+    // the detail page's own <h1> is reliably just the clean address/unit
+    // (verified directly against StreetEasy, Corcoran, and OpenIgloo detail
+    // pages). candidate.title stays in the fallback chain for sources like
+    // Compass that don't render an <h1> on the detail page at all.
+    title: raw.h1 || candidate.title || structuredName || raw.pageTitle || candidate.url,
     url: candidate.url,
   };
 }
@@ -550,6 +558,7 @@ module.exports = {
   detectSource,
   extractListingDetail,
   extractSearchListings,
+  isBotChallengePage,
   loadViaUnlocker,
   normalizeUrl,
   resolveChromeExecutable,
