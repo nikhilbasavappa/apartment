@@ -7,6 +7,7 @@
       "url": "https://www.300ashland.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": []
     },
     {
@@ -16,6 +17,7 @@
       "url": "https://www.363bondstreet.com/residences/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "458",
@@ -59,6 +61,7 @@
       "url": "https://420bk.com/availability/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "W1901",
@@ -179,6 +182,7 @@
       "url": "https://www.corcoran.com/search/for-rent/regionId/1?address=470-dean-street&viewBox=40.68160872732572%2C-73.97520527243614%2C40.6814592255065%2C-73.97545874118805",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "310",
@@ -237,6 +241,7 @@
       "url": "https://540waverly.mns.com/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "8C",
@@ -277,6 +282,7 @@
       "url": "https://www.544carroll.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": []
     },
     {
@@ -286,6 +292,7 @@
       "url": "https://tfc.com/595-dean",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "1032",
@@ -316,6 +323,7 @@
       "url": "https://www.eightyninedekalb.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": []
     },
     {
@@ -325,6 +333,7 @@
       "url": "https://www.avaloncommunities.com/new-york/brooklyn-apartments/ava-fort-greene/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "2704",
@@ -767,6 +776,7 @@
       "url": "https://eight80bk.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "6L",
@@ -837,6 +847,7 @@
       "url": "https://longviewbk.com/availability/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "14A",
@@ -877,6 +888,7 @@
       "url": "https://oneboerum.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "9F",
@@ -899,6 +911,7 @@
       "url": "https://societybrooklyn.com/availability.html",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "1402 (at Sackett)",
@@ -1359,6 +1372,7 @@
       "url": "https://thedeermar.com/availability/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": []
     },
     {
@@ -1368,6 +1382,7 @@
       "url": "https://theelliotbk.com/availability",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "1215",
@@ -1448,6 +1463,7 @@
       "url": "https://www.instrataparkslope.com/floorplans",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": []
     },
     {
@@ -1457,6 +1473,7 @@
       "url": "https://therocklyn.com/availability/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": false,
       "units": [
         {
           "unitNumber": "PH3908",
@@ -1577,6 +1594,7 @@
       "url": "https://www.willoughbybk.com/floor-plans/",
       "lastCheckedAt": "2026-09-01T13:00:04.505Z",
       "error": null,
+      "gasStove": true,
       "units": [
         {
           "unitNumber": "14E",

@@ -367,6 +367,13 @@ h3 {
   gap: 12px;
 }
 
+.watchlist-name-group {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .watchlist-name {
   color: var(--text);
   font-size: 1.02rem;
@@ -376,6 +383,19 @@ h3 {
 
 .watchlist-name:hover {
   color: var(--accent);
+}
+
+.watchlist-gas-pill {
+  border-radius: var(--radius-sm);
+  padding: 3px 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  white-space: nowrap;
 }
 
 .watchlist-unit-count {

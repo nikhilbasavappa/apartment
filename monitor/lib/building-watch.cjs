@@ -589,6 +589,10 @@ function mergeBuildingWatchState(state, buildings, results, runAt) {
       url: building.url,
       lastCheckedAt: runAt,
       error: result.error,
+      // Manually verified by the user checking building photos/listings
+      // directly, not detected from any scraped data — buildings.json is
+      // the source of truth, this just carries it through to the report.
+      gasStove: Boolean(building.gasStove),
       units,
     };
   }
@@ -606,6 +610,7 @@ function serializeBuildingWatch(buildingWatchState, runAt) {
       url: entry.url,
       lastCheckedAt: entry.lastCheckedAt,
       error: entry.error,
+      gasStove: Boolean(entry.gasStove),
       units: Object.values(entry.units || {})
         .map((unit) => ({ ...unit, isNew: unit.firstSeenAt === runAt }))
         .sort((a, b) => (b.price || 0) - (a.price || 0)),

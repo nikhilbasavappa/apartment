@@ -1094,13 +1094,21 @@ function buildWatchlistCard(building) {
   const header = document.createElement("div");
   header.className = "watchlist-card-header";
 
+  const nameGroup = document.createElement("div");
+  nameGroup.className = "watchlist-name-group";
+
   const nameLink = document.createElement("a");
   nameLink.href = building.url;
   nameLink.target = "_blank";
   nameLink.rel = "noreferrer";
   nameLink.className = "watchlist-name";
   nameLink.textContent = building.name;
-  header.append(nameLink);
+  nameGroup.append(nameLink);
+
+  if (building.gasStove) {
+    nameGroup.append(createPill("Gas stove", "watchlist-gas-pill"));
+  }
+  header.append(nameGroup);
 
   const units = building.units || [];
   const count = document.createElement("span");
