@@ -663,14 +663,26 @@ function evaluateListing(rawListing, visionResult, commuteResult, profile) {
     isGroundFloor
   );
 
-  // Not a hard filter — just a signal that a listing's availability date is
-  // close enough to warrant deciding on it sooner rather than letting it
-  // sit in the general feed.
+  // Not a hard filter — just a signal that a listing's availability date
+  // falls inside the real window worth acting on now: today through the
+  // user's absolute-latest-tolerable move-in date. Deliberately computed
+  // against the actual current date rather than a fixed constant — an
+  // earlier version used a static "earlyActionDate" cutoff (set once, back
+  // when today was still weeks before it) that only worked as a filter
+  // while today stayed before it; once today caught up to and passed it,
+  // every forward-dated listing trivially satisfied "date >= cutoff"
+  // (nothing gets listed with a past date), so the flag stopped filtering
+  // anything at all. A rolling window relative to "now" can't go stale the
+  // same way. "now"-available listings count as in-window too (previously
+  // excluded, when the target date was distant enough that immediate
+  // availability wasn't yet actionable) — with move-in decisions imminent,
+  // immediate availability is squarely in scope, not a special case.
+  const today = new Date().toISOString().slice(0, 10);
   const needsEarlyAction =
     Boolean(listing.availableDate) &&
-    listing.availableDate !== "now" &&
-    profile.earlyActionDate &&
-    listing.availableDate >= profile.earlyActionDate;
+    Boolean(profile.latestMoveInDate) &&
+    (listing.availableDate === "now" ||
+      (listing.availableDate >= today && listing.availableDate <= profile.latestMoveInDate));
 
   return {
     buildingType,

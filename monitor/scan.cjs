@@ -38,11 +38,10 @@ const browserProfileDir = path.join(__dirname, ".browser-profile");
 loadEnvFile(path.join(__dirname, ".env"));
 
 const defaultProfile = {
-  startDate: "2026-10-13",
+  latestMoveInDate: "2026-10-10",
   budgetMin: 4000,
   budgetMax: 7000,
   bedroomsMin: 1,
-  earlyActionDate: "2026-09-01",
 };
 
 const defaultDestinations = {
