@@ -76,6 +76,10 @@ const els = {
   starredExcludedList: document.querySelector("#starredExcludedList"),
   starredCount: document.querySelector("#starredCount"),
   starredEmptyState: document.querySelector("#starredEmptyState"),
+  tabCountTouring: document.querySelector("#tabCountTouring"),
+  touringFeed: document.querySelector("#touringFeed"),
+  touringCount: document.querySelector("#touringCount"),
+  touringEmptyState: document.querySelector("#touringEmptyState"),
   tabCountUnavailable: document.querySelector("#tabCountUnavailable"),
   unavailableFeed: document.querySelector("#unavailableFeed"),
   unavailableExcludedList: document.querySelector("#unavailableExcludedList"),
@@ -122,13 +126,13 @@ function saveFeedback() {
 }
 
 function getFeedback(url) {
-  return feedbackState[url] || { starred: false, note: "", unavailable: false };
+  return feedbackState[url] || { starred: false, note: "", unavailable: false, contacted: false, toured: false };
 }
 
 function setFeedback(url, title, patch) {
   const existing = getFeedback(url);
   const next = { ...existing, ...patch };
-  if (!next.starred && !next.note && !next.unavailable) {
+  if (!next.starred && !next.note && !next.unavailable && !next.contacted && !next.toured) {
     delete feedbackState[url];
   } else {
     feedbackState[url] = { ...next, title, updatedAt: new Date().toISOString() };
@@ -241,7 +245,7 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all", "starred", "unavailable", "watchlist", "market"].includes(hash)
+  return ["criteria", "act-now", "new", "all", "starred", "touring", "unavailable", "watchlist", "market"].includes(hash)
     ? hash
     : "all";
 }
@@ -597,6 +601,7 @@ function renderMonitor() {
     renderActNow([], new Set());
     renderNew([]);
     renderStarred([], []);
+    renderTouring([], []);
     renderUnavailable([], []);
     renderWatchlist([]);
     renderMarket(null);
@@ -642,6 +647,7 @@ function renderMonitor() {
   // etc.), not "gone from the market" ones.
   renderExcluded(excludedListings.filter((entry) => !isAutoDetectedUnavailable(entry)));
   renderStarred(topListings, excludedListings);
+  renderTouring(topListings, excludedListings);
   renderUnavailable(topListings, excludedListings);
   renderWatchlist(Array.isArray(report.buildingWatch) ? report.buildingWatch : []);
   renderMarket(report.marketStats);
@@ -865,6 +871,7 @@ function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailab
       setFeedback(url, title, { starred: !getFeedback(url).starred });
       syncFeedbackUI(url);
       refreshStarredTab();
+      refreshTouringTab();
     });
   }
 
@@ -874,6 +881,7 @@ function wireStarAndNote(node, url, title, starSelector, noteSelector, unavailab
       setFeedback(url, title, { note: noteField.value.trim() });
       syncFeedbackUI(url);
       refreshStarredTab();
+      refreshTouringTab();
     });
   }
 
@@ -902,6 +910,17 @@ function refreshStarredTab() {
   const topListings = (Array.isArray(report.topListings) ? report.topListings : []).map(withClientScore);
   const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
   renderStarred(topListings, excludedListings);
+}
+
+// Same rationale as refreshStarredTab — starring/unstarring anywhere on the
+// site (not just from within the Touring tab itself) needs to add or drop
+// the card here too, without a full page re-render.
+function refreshTouringTab() {
+  const report = latestMonitorReport;
+  if (!report) return;
+  const topListings = (Array.isArray(report.topListings) ? report.topListings : []).map(withClientScore);
+  const excludedListings = Array.isArray(report.excludedListings) ? report.excludedListings : [];
+  renderTouring(topListings, excludedListings);
 }
 
 function renderActNow(earlyActionListings, isNew) {
@@ -1029,6 +1048,130 @@ function isAutoDetectedUnavailable(entry) {
 
 function isUnavailable(entry) {
   return getFeedback(entry.listing.url).unavailable || isAutoDetectedUnavailable(entry);
+}
+
+// A hard preference, not a data-quality issue like the kitchen-layout
+// caveat below — coil electric stays excluded from touring even though
+// it's starred, same as it's excluded from qualifying everywhere else.
+const COIL_ELECTRIC_REASON_PATTERN = /coil electric/i;
+
+// Geographic clustering for the Touring tab, so a day of tours doesn't
+// crisscross the city. Neighborhoods not listed here fall into "Other" —
+// worth revisiting if the search area expands into a new part of town.
+const TOURING_ZONES = [
+  { label: "Park Slope / Prospect Heights", neighborhoods: ["Park Slope", "Prospect Heights"] },
+  { label: "Clinton Hill / Fort Greene / Bed-Stuy", neighborhoods: ["Clinton Hill", "Fort Greene", "Bedford-Stuyvesant"] },
+  { label: "Carroll Gardens / Boerum Hill / Downtown Brooklyn", neighborhoods: ["Carroll Gardens", "Boerum Hill", "Downtown Brooklyn", "Cobble Hill"] },
+  { label: "Upper West Side / Lincoln Square / East Side", neighborhoods: ["Upper West Side", "Lincoln Square", "Lenox Hill", "Yorkville", "Manhattan Valley"] },
+  { label: "Long Island City / Hunters Point", neighborhoods: ["Long Island City", "Hunters Point"] },
+];
+
+function touringZoneFor(neighborhood) {
+  const zone = TOURING_ZONES.find((z) => z.neighborhoods.includes(neighborhood));
+  return zone ? zone.label : "Other";
+}
+
+// Kitchen-layout exclusions specifically have been wrong often enough
+// (confirmed directly against several listings this session, including
+// cases where the user's own notes said "open" while the site said
+// "closed") that they're not trustworthy enough to hide a starred listing
+// behind — shown with a caveat flag instead. Every other exclusion reason
+// (budget edge, neighborhood, bedroom count, etc.) gets the same treatment:
+// the user already chose to star this, so let them make the final call
+// rather than silently hiding it.
+function touringFlags(entry) {
+  const flags = [];
+  (entry.reasons || []).forEach((reason) => {
+    flags.push({ label: reason, className: "flag-caveat" });
+  });
+  return flags;
+}
+
+function renderTouring(qualifyingEntries, excludedEntries) {
+  if (!els.touringFeed) return;
+
+  const isTourable = (entry) =>
+    getFeedback(entry.listing.url).starred &&
+    !isAutoDetectedUnavailable(entry) &&
+    !getFeedback(entry.listing.url).unavailable &&
+    !(entry.reasons || []).some((reason) => COIL_ELECTRIC_REASON_PATTERN.test(reason));
+
+  const candidates = [...qualifyingEntries.filter(isTourable), ...excludedEntries.filter(isTourable)];
+
+  els.touringFeed.innerHTML = "";
+  if (els.tabCountTouring) els.tabCountTouring.textContent = candidates.length ? `(${candidates.length})` : "";
+  if (els.touringCount) els.touringCount.textContent = candidates.length ? `(${candidates.length})` : "";
+
+  if (!candidates.length) {
+    if (els.touringEmptyState) {
+      els.touringEmptyState.textContent = "Nothing to tour yet — star a listing to add it here.";
+    }
+    return;
+  }
+  if (els.touringEmptyState) els.touringEmptyState.textContent = "";
+
+  const byZone = new Map();
+  candidates.forEach((entry) => {
+    const zone = touringZoneFor(entry.listing.neighborhood);
+    if (!byZone.has(zone)) byZone.set(zone, []);
+    byZone.get(zone).push(entry);
+  });
+
+  const zoneOrder = [...TOURING_ZONES.map((z) => z.label), "Other"];
+  const fragment = document.createDocumentFragment();
+  zoneOrder.forEach((zoneLabel) => {
+    const entries = byZone.get(zoneLabel);
+    if (!entries || !entries.length) return;
+    entries.sort((a, b) => (b.rankScore || 0) - (a.rankScore || 0));
+
+    const zoneSection = document.createElement("div");
+    zoneSection.className = "touring-zone";
+    const heading = document.createElement("h3");
+    heading.className = "touring-zone-heading";
+    heading.textContent = `${zoneLabel} (${entries.length})`;
+    zoneSection.append(heading);
+
+    const grid = document.createElement("div");
+    grid.className = "monitor-grid";
+    entries.forEach((entry) => {
+      const card = buildListingCard(entry, touringFlags(entry));
+      card.append(buildTouringControls(entry.listing.url, entry.listing.title));
+      grid.append(card);
+    });
+    zoneSection.append(grid);
+    fragment.append(zoneSection);
+  });
+  els.touringFeed.append(fragment);
+}
+
+function buildTouringControls(url, title) {
+  const row = document.createElement("div");
+  row.className = "touring-controls";
+
+  const feedback = getFeedback(url);
+
+  const contactedLabel = document.createElement("label");
+  contactedLabel.className = "touring-checkbox";
+  const contactedInput = document.createElement("input");
+  contactedInput.type = "checkbox";
+  contactedInput.checked = Boolean(feedback.contacted);
+  contactedInput.addEventListener("change", () => {
+    setFeedback(url, title, { contacted: contactedInput.checked });
+  });
+  contactedLabel.append(contactedInput, document.createTextNode("Contacted"));
+
+  const touredLabel = document.createElement("label");
+  touredLabel.className = "touring-checkbox";
+  const touredInput = document.createElement("input");
+  touredInput.type = "checkbox";
+  touredInput.checked = Boolean(feedback.toured);
+  touredInput.addEventListener("change", () => {
+    setFeedback(url, title, { toured: touredInput.checked });
+  });
+  touredLabel.append(touredInput, document.createTextNode("Toured"));
+
+  row.append(contactedLabel, touredLabel);
+  return row;
 }
 
 function renderUnavailable(qualifyingEntries, excludedEntries) {

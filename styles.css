@@ -262,6 +262,48 @@ h3 {
   text-decoration: line-through;
 }
 
+.flag-caveat {
+  color: var(--rose);
+  background: var(--rose-soft);
+}
+
+.touring-zone {
+  margin-bottom: 32px;
+}
+
+.touring-zone:last-child {
+  margin-bottom: 0;
+}
+
+.touring-zone-heading {
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.touring-controls {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.touring-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.touring-checkbox input {
+  accent-color: var(--sage);
+  cursor: pointer;
+}
+
 .profile-grid {
   display: grid;
   gap: 1px;

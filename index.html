@@ -25,6 +25,7 @@
           <button type="button" class="tab-button" data-tab="new">New <span class="tab-count" id="tabCountNew"></span></button>
           <button type="button" class="tab-button" data-tab="all">All Qualifying <span class="tab-count" id="tabCountAll"></span></button>
           <button type="button" class="tab-button" data-tab="starred">Starred <span class="tab-count" id="tabCountStarred"></span></button>
+          <button type="button" class="tab-button" data-tab="touring">Touring <span class="tab-count" id="tabCountTouring"></span></button>
           <button type="button" class="tab-button" data-tab="unavailable">Unavailable <span class="tab-count" id="tabCountUnavailable"></span></button>
           <button type="button" class="tab-button" data-tab="watchlist">Building Watch <span class="tab-count" id="tabCountWatchlist"></span></button>
           <button type="button" class="tab-button" data-tab="market">Market</button>
@@ -360,6 +361,21 @@
           <div id="starredFeed" class="monitor-grid"></div>
           <div id="starredExcludedList" class="excluded-list"></div>
           <p id="starredEmptyState" class="empty-state"></p>
+        </section>
+      </section>
+
+      <section class="tab-page" id="page-touring" data-tab="touring">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Touring <span id="touringCount" class="excluded-count"></span></h2>
+            <p>Everything you've starred and haven't marked unavailable, grouped by neighborhood so you're not
+              crossing the city between tours. Listings excluded for kitchen-layout uncertainty still show up here
+              with a caveat — that detection has been wrong often enough that it's not trustworthy on its own.
+              Genuinely gone listings (rented, in contract, delisted) are left out. Contacted/toured checkboxes save
+              to this browser only.</p>
+          </div>
+          <div id="touringFeed"></div>
+          <p id="touringEmptyState" class="empty-state"></p>
         </section>
       </section>
 
