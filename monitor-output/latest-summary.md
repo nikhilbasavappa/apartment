@@ -2,16 +2,9 @@
 
 Run time: Sep 4, 2026, 9:00 AM
 Configured sources: 5
-New listings inspected this run: 19
-Qualifying new listings: 19
-- 343 4th Avenue #10E | $4,150 | 343 4th Avenue #10E, BROOKLYN, NY, 11215 | 40 min to office | score 66/100
-- 360 Smith Street #3D | $4,995 | 360 Smith Street #3D, BROOKLYN, NY, 11231 | 31 min to office | score 65/100
-- 20 Rockwell Place #1723B | $6,720 | 20 Rockwell Place #1723B, BROOKLYN, NY, 11201 | 32 min to office | score 63/100
-- 150 Clermont Avenue #3J | $5,500 | 150 Clermont Avenue #3J, BROOKLYN, NY, 11205 | 50 min to office | score 63/100
-- 614 Warren Street #7A | $4,295 | 614 Warren Street #7A, BROOKLYN, NY, 11217 | 38 min to office | score 63/100
-- 99 Fleet Place #3R | $4,600 | 99 Fleet Place #3R, BROOKLYN, NY, 11201 | 33 min to office | score 62/100
-- 614 Warren Street #3B | $5,795 | 614 Warren Street #3B, BROOKLYN, NY, 11217 | 38 min to office | score 62/100
-- 99 Fleet Place #17B | $4,805 | 99 Fleet Place #17B, BROOKLYN, NY, 11201 | 33 min to office | score 61/100
+New listings inspected this run: 0
+Qualifying new listings: 0
+No new qualifying listings this run.
 
 ## Qualifying Listings
 
@@ -185,6 +178,7 @@ Qualifying new listings: 19
 - 55 Willoughby Street #18G | $5,600 | 55 Willoughby Street #18G, BROOKLYN, NY, 11201 | 29 min to office | score 59/100
 - 196 Willoughby Street #32C | $5,241 | 196 Willoughby Street #32C, Brooklyn, NY, 11201 | 33 min to office | score 59/100
 - 37 Woodhull Street #3 | $4,492 | 37 Woodhull Street #3, BROOKLYN, NY, 11231 | 49 min to office | score 59/100
+- 461 6th Avenue #2 | $5,600 | 461 6th Avenue #2, BROOKLYN, NY, 11215 | 39 min to office | score 58/100
 - 45-19 Davis Street #5C | $6,695 | 45-19 Davis Street #5C, LONG ISLAND CITY, NY, 11101 | 11 min to office | score 58/100
 - 267 Pacific Street, 403 | $5,275 | 267 Pacific Street, 403, Brooklyn, NY, 11201 | 35 min to office | score 58/100
 - 27-01 Jackson Avenue #21F | $6,450 | 27-01 Jackson Avenue #21F, LONG ISLAND CITY, NY, 11101 | 12 min to office | score 58/100
