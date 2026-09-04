@@ -1,6 +1,6 @@
 # Future Elmo's World Monitor
 
-Run time: Sep 3, 2026, 6:00 PM
+Run time: Sep 4, 2026, 1:03 AM
 Configured sources: 5
 New listings inspected this run: 0
 Qualifying new listings: 0
@@ -323,32 +323,13 @@ No new qualifying listings this run.
 - 372 Saint John's Place #53 | $4,250 | 372 Saint John's Place #53, BROOKLYN, NY, 11238 | 44 min to office | score 38/100
 - 85 East End Avenue #1C | $5,325 | 85 East End Avenue #1C, NEW YORK, NY, 10028 | 33 min to office | score 23/100
 
-## Excluded (974)
+## Excluded (975)
 
-- 2-20 Malt Drive #3203 | 2-20 Malt Drive #3203, LONG ISLAND CITY, NY, 11101 — Rent $7195 outside $3500-7000
-- 17 Hanover Place #27H | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
-- 56-27 2nd Street #3304 | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
-- 795 Columbus Avenue #4C | 795 Columbus Avenue #4C, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
-- 52 4th Avenue #705 | 52 4th Avenue #705, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
-- 55 Willoughby Street #41E | 55 Willoughby Street #41E, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
-- 7 Lexington Avenue #7B | 7 Lexington Avenue #7B, BROOKLYN, NY, 11238 — Kitchen photo shows a closed layout
-- 461 Dean Street #28D | 461 Dean Street #28D, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
-- 461 Dean Street #30B | 461 Dean Street #30B, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
 - 805 Columbus Avenue #6A | address unknown — Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/805-columbus-avenue-new_york/06a: This operation was aborted
-- 473 Fourth Street #1L | 473 Fourth Street #1L, BROOKLYN, NY, 11215 — Rent $7595 outside $4000-7000
+- 8 West 108th Street #44 | 8 West 108th Street #44, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout; Neighborhood excluded: Manhattan Valley
 - 240 Willoughby Street #3J | 240 Willoughby Street #3J, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
-- 55 Willoughby Street #41F | 55 Willoughby Street #41F, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 23-15 44th Road #33G | 23-15 44th Road #33G, LONG ISLAND CITY, NY, 11101 — Delisted on StreetEasy (auto-detected during periodic revalidation)
-- 2-21 Malt Drive #1712 | 2-21 Malt Drive #1712, LONG ISLAND CITY, NY, 11101 — Rent $7225 outside $4000-7000
-- 17 Hanover Place #20J | 17 Hanover Place #20J, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 17 Hanover Place #29H | 17 Hanover Place #29H, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 17 Hanover Place #28H | 17 Hanover Place #28H, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 17 Hanover Place #22A | 17 Hanover Place #22A, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 17 Hanover Place #15D | 17 Hanover Place #15D, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 23-15 44th Road #9J | 23-15 44th Road #9J, LONG ISLAND CITY, NY, 11101 — Delisted on StreetEasy (auto-detected during periodic revalidation)
-- 23-15 44th Road #4K | 23-15 44th Road #4K, LONG ISLAND CITY, NY, 11101 — Kitchen layout could not be confirmed from photos
-- 507 Myrtle Avenue #3F | 507 Myrtle Avenue #3F, BROOKLYN, NY, 11205 — Kitchen photo shows a closed layout; Coil electric stove (explicitly rejected)
-- 2-21 Malt Drive #1001 | 2-21 Malt Drive #1001, LONG ISLAND CITY, NY, 11101 — Rent $7965 outside $4000-7000
-- 312 East 83rd Street #1W | 312 East 83rd Street #1W, NEW YORK, NY, 10028 — Kitchen photo shows a closed layout
 - Make yourself at home. | 590 Madison Avenue, New York, NY, 10065 — Rent $136500 outside $4000-7000; Kitchen layout could not be confirmed from photos
 - 150 5th Avenue, 2 | 150 5th Avenue, 2, Brooklyn, NY, 11217 — Status: CONTRACT on corcoran (auto-detected during periodic revalidation)
 - 22 4th Street, 1 | 22 4th Street, 1, Brooklyn, NY, 11231 — Status: CONTRACT on corcoran (auto-detected during periodic revalidation)
@@ -382,13 +363,47 @@ No new qualifying listings this run.
 - Atlantic Avenue | Atlantic Avenue, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 21 Butler Place, Unit 3D | 21 Butler Place, Unit 3D, Prospect Heights, NY, 11238 — Rent $3950 outside $4000-7000
 - Pacific Street | Pacific Street, Cobble Hill, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 283 Pacific Street, Unit 3 | 283 Pacific Street, Unit 3, Boerum Hill, NY, 11201 — Kitchen photo shows a galley layout
 - 5th Avenue | 5th Avenue, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
 - 572 5th Avenue, Unit 4D | 572 5th Avenue, Unit 4D, Park Slope, NY, 11215 — Rent $3970 outside $4000-7000; Kitchen photo shows a closed layout
 - Dean Street | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
 - 55 Paseo Place, Unit 304 | 55 Paseo Place, Unit 304, Park Slope, NY, 11217 — Kitchen photo shows a closed layout
 - Homes for Rent under $1,200 in Prospect Heights | 99 Columbia Avenue, Unit 1, Jersey City, NJ, 07307 — Rent $300 outside $4000-7000; Kitchen layout could not be confirmed from photos
 - Homes for Rent under $1,500 in Prospect Heights | 600.5 Grove Street, Unit 2, Jersey City, NJ, 07310 — Rent $1500 outside $4000-7000; Kitchen photo shows a closed layout
+- 1042 Atlantic Avenue #505 | 1042 Atlantic Avenue #505, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
+- 163 Washington Avenue #2A | 163 Washington Avenue #2A, Brooklyn, NY, 11205 — Kitchen layout could not be confirmed from photos
+- 1042 Atlantic Avenue #4B | 1042 Atlantic Avenue #4B, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
+- 267 Pacific Street, 210 | 267 Pacific Street, 210, Brooklyn, NY, 11201 — Rent $3995 outside $4000-7000
+- Eastern Parkway Prospect Heights | Eastern Parkway, Prospect Heights, NY, 11238 — Kitchen layout could not be confirmed from photos
+- Dean Street Prospect Heights | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
+- Kips Bay studio asks $499K | address unknown — Rent $499000 outside $4000-7000; 0 bedroom(s), below minimum 1; Kitchen layout could not be confirmed from photos; No street address parsed; commute not calculated
+- 20 Rockwell Place #1416D | 20 Rockwell Place #1416D, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 489 4th Avenue, Unit 1 Park Slope | 489 4th Avenue, Unit 1, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
+- 395 St Johns Place, Unit 4D Prospect Heights | 395 St Johns Place, Unit 4D, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
+- 12th Street Park Slope | 12th Street, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
+- 267 6th Street, Unit 3D Park Slope | 267 6th Street, Unit 3D, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
+- 124 West 60th Street #40A | 124 West 60th Street #40A, NEW YORK, NY, 10023 — Kitchen layout could not be confirmed from photos
+- 2-20 Malt Drive #3203 | 2-20 Malt Drive #3203, LONG ISLAND CITY, NY, 11101 — Rent $7195 outside $3500-7000
+- 17 Hanover Place #27H | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
+- 56-27 2nd Street #3304 | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
+- 795 Columbus Avenue #4C | 795 Columbus Avenue #4C, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
+- 52 4th Avenue #705 | 52 4th Avenue #705, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
+- 55 Willoughby Street #41E | 55 Willoughby Street #41E, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
+- 7 Lexington Avenue #7B | 7 Lexington Avenue #7B, BROOKLYN, NY, 11238 — Kitchen photo shows a closed layout
+- 461 Dean Street #28D | 461 Dean Street #28D, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
+- 461 Dean Street #30B | 461 Dean Street #30B, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
+- 473 Fourth Street #1L | 473 Fourth Street #1L, BROOKLYN, NY, 11215 — Rent $7595 outside $4000-7000
+- 55 Willoughby Street #41F | 55 Willoughby Street #41F, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 23-15 44th Road #33G | 23-15 44th Road #33G, LONG ISLAND CITY, NY, 11101 — Delisted on StreetEasy (auto-detected during periodic revalidation)
+- 2-21 Malt Drive #1712 | 2-21 Malt Drive #1712, LONG ISLAND CITY, NY, 11101 — Rent $7225 outside $4000-7000
+- 17 Hanover Place #20J | 17 Hanover Place #20J, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 17 Hanover Place #29H | 17 Hanover Place #29H, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 17 Hanover Place #28H | 17 Hanover Place #28H, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 17 Hanover Place #22A | 17 Hanover Place #22A, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
+- 23-15 44th Road #4K | 23-15 44th Road #4K, LONG ISLAND CITY, NY, 11101 — Kitchen layout could not be confirmed from photos
+- 507 Myrtle Avenue #3F | 507 Myrtle Avenue #3F, BROOKLYN, NY, 11205 — Kitchen photo shows a closed layout; Coil electric stove (explicitly rejected)
+- 2-21 Malt Drive #1001 | 2-21 Malt Drive #1001, LONG ISLAND CITY, NY, 11101 — Rent $7965 outside $4000-7000
+- 312 East 83rd Street #1W | 312 East 83rd Street #1W, NEW YORK, NY, 10028 — Kitchen photo shows a closed layout
+- 283 Pacific Street, Unit 3 | 283 Pacific Street, Unit 3, Boerum Hill, NY, 11201 — Kitchen photo shows a galley layout
 - 42-06 Orchard Street #65A | 42-06 Orchard Street #65A, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
 - 255 East 39th Street #11B | 255 East 39th Street #11B, NEW YORK, NY, 10016 — Kitchen photo shows a closed layout; Neighborhood excluded: Murray Hill
 - 333 Schermerhorn Street #40C | 333 Schermerhorn Street #40C, BROOKLYN, NY, 11217 — Kitchen photo shows a closed layout
@@ -404,10 +419,8 @@ No new qualifying listings this run.
 - 150 Fourth Avenue #2H | 150 Fourth Avenue #2H, BROOKLYN, NY, 11217 — Neighborhood excluded: Gowanus
 - 540 Fulton Street #29K | 540 Fulton Street #29K, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 106 Fleet Place #13A | 106 Fleet Place #13A, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
-- 163 Washington Avenue #2A | 163 Washington Avenue #2A, Brooklyn, NY, 11205 — Kitchen layout could not be confirmed from photos
 - 339 East 75th Street #4E | 339 East 75th Street #4E, NEW YORK, NY, 10021 — Kitchen photo shows a closed layout
 - 1057 Atlantic Avenue #1607 | 1057 Atlantic Avenue #1607, BROOKLYN, NY, 11238 — Kitchen photo shows a closed layout
-- 1042 Atlantic Avenue #4B | 1042 Atlantic Avenue #4B, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
 - 1042 Atlantic Avenue #10A | 1042 Atlantic Avenue #10A, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
 - 250 Ashland Place #27C | 250 Ashland Place #27C, BROOKLYN, NY, 11217 — No longer available on StreetEasy (auto-detected during periodic revalidation)
 - 23-15 44th Road #10E | 23-15 44th Road #10E, LONG ISLAND CITY, NY, 11101 — Delisted on StreetEasy (auto-detected during periodic revalidation)
@@ -415,9 +428,6 @@ No new qualifying listings this run.
 - 424 Atlantic Avenue #2 | 424 Atlantic Avenue #2, BROOKLYN, NY, 11217 — Rent $7200 outside $4000-7000; Kitchen photo shows a closed layout
 - 23-15 44th Road #49Q | 23-15 44th Road #49Q, LONG ISLAND CITY, NY, 11101 — Delisted on StreetEasy (auto-detected during periodic revalidation)
 - 424 Atlantic Avenue #3 | 424 Atlantic Avenue #3, BROOKLYN, NY, 11217 — Kitchen photo shows a galley layout
-- 267 Pacific Street, 210 | 267 Pacific Street, 210, Brooklyn, NY, 11201 — Rent $3995 outside $4000-7000
-- Eastern Parkway Prospect Heights | Eastern Parkway, Prospect Heights, NY, 11238 — Kitchen layout could not be confirmed from photos
-- Dean Street Prospect Heights | Dean Street, Prospect Heights, NY, 11217 — Kitchen layout could not be confirmed from photos
 - 104 Fleet Place #10A | address unknown — Inspection failed: Bright Data unlocker request timed out or failed for https://streeteasy.com/building/the-fleet-104-fleet-place/10a: This operation was aborted
 - 104 Fleet Place #16C | 104 Fleet Place #16C, NEW YORK, NY, 11201 — Kitchen photo shows a closed layout
 - 104 Fleet Place #18B | 104 Fleet Place #18B, NEW YORK, NY, 11201 — Kitchen photo shows a galley layout
@@ -427,14 +437,8 @@ No new qualifying listings this run.
 - 525 Clinton Avenue #5L | 525 Clinton Avenue #5L, BROOKLYN, NY, 11238 — Rent $7400 outside $4000-7000; Kitchen photo shows a closed layout
 - 441 1st Street #3L | 441 1st Street #3L, BROOKLYN, NY, 11215 — Kitchen photo shows a closed layout
 - 564 Saint John's Place #626 | 564 Saint John's Place #626, BROOKLYN, NY, 11238 — Kitchen photo shows a galley layout; Neighborhood excluded: Crown Heights
-- Kips Bay studio asks $499K | address unknown — Rent $499000 outside $4000-7000; 0 bedroom(s), below minimum 1; Kitchen layout could not be confirmed from photos; No street address parsed; commute not calculated
-- 20 Rockwell Place #1416D | 20 Rockwell Place #1416D, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 20 Rockwell Place #338X | 20 Rockwell Place #338X, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 23-15 44th Road #52R | 23-15 44th Road #52R, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
-- 489 4th Avenue, Unit 1 Park Slope | 489 4th Avenue, Unit 1, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
-- 395 St Johns Place, Unit 4D Prospect Heights | 395 St Johns Place, Unit 4D, Prospect Heights, NY, 11238 — Kitchen photo shows a closed layout
-- 12th Street Park Slope | 12th Street, Park Slope, NY, 11215 — Kitchen layout could not be confirmed from photos
-- 267 6th Street, Unit 3D Park Slope | 267 6th Street, Unit 3D, Park Slope, NY, 11215 — Kitchen photo shows a closed layout
 - 801 Amsterdam Avenue #8G | 801 Amsterdam Avenue #8G, NEW YORK, NY, 10025 — Kitchen photo shows a galley layout
 - 17 Hanover Place #26I | address unknown — Rent could not be confirmed; Bedroom count could not be confirmed; No street address parsed; commute not calculated
 - 5-11 47th Avenue #10C | 5-11 47th Avenue #10C, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a galley layout
@@ -457,7 +461,6 @@ No new qualifying listings this run.
 - 227 East 81st Street #2W | 227 East 81st Street #2W, NEW YORK, NY, 10028 — Kitchen photo shows a closed layout
 - 251 Pacific Street #10 | 251 Pacific Street #10, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
 - 43-12 Hunter Street #904 | 43-12 Hunter Street #904, LONG ISLAND CITY, NY, 11101 — Kitchen layout could not be confirmed from photos
-- 17 Hanover Place #15D | 17 Hanover Place #15D, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 17 Hanover Place #26A | 17 Hanover Place #26A, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
 - 42-06 Orchard Street #45K | 42-06 Orchard Street #45K, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
 - 880 Atlantic Avenue #11A | 880 Atlantic Avenue #11A, BROOKLYN, NY, 11238 — Kitchen layout could not be confirmed from photos
@@ -475,7 +478,6 @@ No new qualifying listings this run.
 - 302 2nd Street, Unit 7C | 302 2nd Street, Unit 7C, Park Slope, NY, 11215 — Rent $3550 outside $4000-7000
 - 305 East 86th Street #4RW | 305 East 86th Street #4RW, NEW YORK, NY, 10028 — Kitchen photo shows a closed layout
 - 5-11 47th Avenue #3R | 5-11 47th Avenue #3R, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
-- 1042 Atlantic Avenue #505 | 1042 Atlantic Avenue #505, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
 - 1057 Atlantic Avenue #1721 | 1057 Atlantic Avenue #1721, BROOKLYN, NY, 11238 — Kitchen photo shows a closed layout
 - 89 Dekalb Avenue #4J | 89 Dekalb Avenue #4J, BROOKLYN, NY, 11201 — Kitchen photo shows a closed layout
 - 1042 Atlantic Avenue #4K | 1042 Atlantic Avenue #4K, BROOKLYN, NY, 11238 — Neighborhood excluded: Crown Heights
@@ -551,7 +553,6 @@ No new qualifying listings this run.
 - 45-19 Davis Street #16F | 45-19 Davis Street #16F, LONG ISLAND CITY, NY, 11101 — Kitchen photo shows a closed layout
 - 266 West 96th Street #1501 | 266 West 96th Street #1501, NEW YORK, NY, 10025 — Kitchen layout could not be confirmed from photos
 - 55 Willoughby Street #21G | 55 Willoughby Street #21G, BROOKLYN, NY, 11201 — Kitchen layout could not be confirmed from photos
-- 8 West 108th Street #44 | 8 West 108th Street #44, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout; Neighborhood excluded: Manhattan Valley
 - 211 West 102nd Street #4C | 211 West 102nd Street #4C, NEW YORK, NY, 10025 — Kitchen photo shows a closed layout; Neighborhood excluded: Manhattan Valley
 - 146 Nelson Street #3 | 146 Nelson Street #3, BROOKLYN, NY, 11231 — Rent $7350 outside $4000-7000; Kitchen photo shows a closed layout
 - 329 Union Street #2B | 329 Union Street #2B, BROOKLYN, NY, 11231 — Kitchen photo shows a closed layout
