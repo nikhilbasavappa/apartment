@@ -29,6 +29,7 @@
           <button type="button" class="tab-button" data-tab="unavailable">Unavailable <span class="tab-count" id="tabCountUnavailable"></span></button>
           <button type="button" class="tab-button" data-tab="watchlist">Building Watch <span class="tab-count" id="tabCountWatchlist"></span></button>
           <button type="button" class="tab-button" data-tab="market">Market</button>
+          <button type="button" class="tab-button" data-tab="shared">Shared Picks <span class="tab-count" id="tabCountShared"></span></button>
         </nav>
         <p class="last-scan-banner">Last scan: <strong id="globalLastScan">Waiting for first scan</strong></p>
       </header>
@@ -374,6 +375,18 @@
               Genuinely gone listings (rented, in contract, delisted) are left out. Contacted/toured checkboxes save
               to this browser only.</p>
           </div>
+          <form id="manualTourForm" class="manual-tour-form">
+            <div class="manual-tour-row">
+              <input type="text" id="manualTourTitle" placeholder="Address or title (required)" required />
+              <select id="manualTourZone"></select>
+            </div>
+            <div class="manual-tour-row">
+              <input type="number" id="manualTourPrice" placeholder="Price (optional)" min="0" step="1" />
+              <input type="url" id="manualTourUrl" placeholder="Link (optional)" />
+            </div>
+            <textarea id="manualTourNote" placeholder="Note (optional)" rows="2"></textarea>
+            <button type="submit" class="ghost-button">Add unit</button>
+          </form>
           <div id="touringFeed"></div>
           <p id="touringEmptyState" class="empty-state"></p>
         </section>
@@ -428,6 +441,20 @@
           <p id="marketTrendEmptyState" class="empty-state"></p>
         </section>
       </section>
+
+      <section class="tab-page" id="page-shared" data-tab="shared">
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Shared Picks <span id="sharedCount" class="excluded-count"></span></h2>
+            <p>A read-only snapshot of Nikhil's starred listings and notes — published on request, so this may lag
+              behind the live site. Nothing here is editable; starring or noting only works on your own device and
+              won't affect anyone else's view.</p>
+          </div>
+          <p id="sharedUpdatedAt" class="rubric-copy"></p>
+          <div id="sharedFeed"></div>
+          <p id="sharedEmptyState" class="empty-state"></p>
+        </section>
+      </section>
     </main>
 
     <template id="monitorTemplate">
@@ -474,6 +501,7 @@
     </template>
 
     <script src="monitor-output/latest-report.js"></script>
+    <script src="monitor-output/shared-picks.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

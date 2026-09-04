@@ -1,5 +1,6 @@
 let latestMonitorReport = window.__APARTMENT_REPORT__ || null;
 let monitorLoadState = location.protocol === "file:" ? "ready" : "loading";
+let latestSharedPicks = window.__SHARED_PICKS__ || null;
 registerServiceWorker();
 
 const WEIGHTS_STORAGE_KEY = "apartmentScoreWeights";
@@ -24,6 +25,38 @@ let currentSortFilter = { sort: "score", bedrooms: "any", gas: "any", availabili
 
 const FEEDBACK_STORAGE_KEY = "apartmentFeedback";
 let feedbackState = loadFeedback();
+
+// Manually-added tour units — listings that never went through the scanner
+// (found on Zillow, a friend's tip, a building's own site) so there's no
+// catalog entry to star. Kept as a separate key rather than folded into
+// feedbackState since these have no listing.url to key on and carry a
+// different, smaller field set (no rankScore/commute/vision data).
+const MANUAL_TOUR_STORAGE_KEY = "apartmentManualTour";
+let manualTourEntries = loadManualTourEntries();
+
+// A hard preference, not a data-quality issue like the kitchen-layout
+// caveat used elsewhere — coil electric stays excluded from touring even
+// though it's starred, same as it's excluded from qualifying everywhere
+// else.
+const COIL_ELECTRIC_REASON_PATTERN = /coil electric/i;
+
+// Geographic clustering for the Touring tab, so a day of tours doesn't
+// crisscross the city. Neighborhoods not listed here fall into "Other" —
+// worth revisiting if the search area expands into a new part of town.
+// Declared up here (not down by the functions that use it) because
+// initManualTourForm(), called synchronously from init() near the top of
+// this file, needs it immediately to populate the zone <select> — a plain
+// function declaration would hoist fine, but this is a const, and referencing
+// it before its own declaration line has run throws (confirmed the hard
+// way: this exact ordering crashed init() partway through, silently
+// breaking every render on the page since nothing after the throw ever ran).
+const TOURING_ZONES = [
+  { label: "Park Slope / Prospect Heights", neighborhoods: ["Park Slope", "Prospect Heights"] },
+  { label: "Clinton Hill / Fort Greene / Bed-Stuy", neighborhoods: ["Clinton Hill", "Fort Greene", "Bedford-Stuyvesant"] },
+  { label: "Carroll Gardens / Boerum Hill / Downtown Brooklyn", neighborhoods: ["Carroll Gardens", "Boerum Hill", "Downtown Brooklyn", "Cobble Hill"] },
+  { label: "Upper West Side / Lincoln Square / East Side", neighborhoods: ["Upper West Side", "Lincoln Square", "Lenox Hill", "Yorkville", "Manhattan Valley"] },
+  { label: "Long Island City / Hunters Point", neighborhoods: ["Long Island City", "Hunters Point"] },
+];
 
 const els = {
   monitorLastRun: document.querySelector("#monitorLastRun"),
@@ -80,6 +113,12 @@ const els = {
   touringFeed: document.querySelector("#touringFeed"),
   touringCount: document.querySelector("#touringCount"),
   touringEmptyState: document.querySelector("#touringEmptyState"),
+  manualTourForm: document.querySelector("#manualTourForm"),
+  manualTourTitle: document.querySelector("#manualTourTitle"),
+  manualTourZone: document.querySelector("#manualTourZone"),
+  manualTourPrice: document.querySelector("#manualTourPrice"),
+  manualTourUrl: document.querySelector("#manualTourUrl"),
+  manualTourNote: document.querySelector("#manualTourNote"),
   tabCountUnavailable: document.querySelector("#tabCountUnavailable"),
   unavailableFeed: document.querySelector("#unavailableFeed"),
   unavailableExcludedList: document.querySelector("#unavailableExcludedList"),
@@ -92,6 +131,11 @@ const els = {
   marketContractSpeed: document.querySelector("#marketContractSpeed"),
   marketTrendChart: document.querySelector("#marketTrendChart"),
   marketTrendEmptyState: document.querySelector("#marketTrendEmptyState"),
+  tabCountShared: document.querySelector("#tabCountShared"),
+  sharedFeed: document.querySelector("#sharedFeed"),
+  sharedCount: document.querySelector("#sharedCount"),
+  sharedUpdatedAt: document.querySelector("#sharedUpdatedAt"),
+  sharedEmptyState: document.querySelector("#sharedEmptyState"),
   exportFeedback: document.querySelector("#exportFeedback"),
 };
 
@@ -103,7 +147,9 @@ function init() {
   initWeightSliders();
   initSortFilterControls();
   initExportFeedback();
+  initManualTourForm();
   void loadMonitorReport();
+  void loadSharedPicks();
 }
 
 // ---------- Stars & notes (localStorage only — this device, not synced) ----------
@@ -129,6 +175,23 @@ function getFeedback(url) {
   return feedbackState[url] || { starred: false, note: "", unavailable: false, contacted: false, toured: false };
 }
 
+function loadManualTourEntries() {
+  try {
+    const raw = localStorage.getItem(MANUAL_TOUR_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveManualTourEntries() {
+  try {
+    localStorage.setItem(MANUAL_TOUR_STORAGE_KEY, JSON.stringify(manualTourEntries));
+  } catch (error) {
+    // localStorage unavailable — entries just won't persist
+  }
+}
+
 function setFeedback(url, title, patch) {
   const existing = getFeedback(url);
   const next = { ...existing, ...patch };
@@ -150,6 +213,107 @@ function initExportFeedback() {
     link.click();
     URL.revokeObjectURL(link.href);
   });
+}
+
+function initManualTourForm() {
+  if (!els.manualTourForm) return;
+
+  if (els.manualTourZone) {
+    els.manualTourZone.innerHTML = "";
+    [...TOURING_ZONES.map((z) => z.label), "Other"].forEach((label) => {
+      const option = document.createElement("option");
+      option.value = label;
+      option.textContent = label;
+      els.manualTourZone.append(option);
+    });
+  }
+
+  els.manualTourForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const title = els.manualTourTitle.value.trim();
+    if (!title) {
+      els.manualTourTitle.focus();
+      return;
+    }
+
+    manualTourEntries.push({
+      id: `manual-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      title,
+      zone: els.manualTourZone.value || "Other",
+      price: els.manualTourPrice.value ? Number(els.manualTourPrice.value) : null,
+      url: els.manualTourUrl.value.trim() || null,
+      note: els.manualTourNote.value.trim(),
+      contacted: false,
+      toured: false,
+      createdAt: new Date().toISOString(),
+    });
+    saveManualTourEntries();
+    els.manualTourForm.reset();
+    refreshTouringTab();
+  });
+}
+
+function removeManualTourEntry(id) {
+  manualTourEntries = manualTourEntries.filter((entry) => entry.id !== id);
+  saveManualTourEntries();
+  refreshTouringTab();
+}
+
+function buildManualTourCard(entry) {
+  const card = document.createElement("article");
+  card.className = "manual-tour-card";
+
+  const top = document.createElement("div");
+  top.className = "manual-tour-top";
+  const heading = document.createElement("h3");
+  if (entry.url) {
+    const link = document.createElement("a");
+    link.href = entry.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = entry.title;
+    heading.append(link);
+  } else {
+    heading.textContent = entry.title;
+  }
+  top.append(heading);
+  const removeButton = document.createElement("button");
+  removeButton.type = "button";
+  removeButton.className = "ghost-button manual-tour-remove";
+  removeButton.textContent = "Remove";
+  removeButton.addEventListener("click", () => removeManualTourEntry(entry.id));
+  top.append(removeButton);
+  card.append(top);
+
+  const meta = document.createElement("p");
+  meta.className = "manual-tour-meta";
+  meta.append(createPill("Manually added", "flag-caveat"));
+  if (entry.price) meta.append(document.createTextNode(` ${formatCurrency(entry.price)}`));
+  card.append(meta);
+
+  if (entry.note) {
+    const note = document.createElement("p");
+    note.className = "manual-tour-note";
+    note.textContent = entry.note;
+    card.append(note);
+  }
+
+  card.append(
+    buildTouringControls(
+      entry.contacted,
+      entry.toured,
+      (checked) => {
+        entry.contacted = checked;
+        saveManualTourEntries();
+      },
+      (checked) => {
+        entry.toured = checked;
+        saveManualTourEntries();
+      }
+    )
+  );
+
+  return card;
 }
 
 // ---------- Sort & filter (shared across New / All Qualifying tabs) ----------
@@ -245,7 +409,9 @@ function initTabs() {
 
 function currentTabFromHash() {
   const hash = location.hash.replace(/^#/, "");
-  return ["criteria", "act-now", "new", "all", "starred", "touring", "unavailable", "watchlist", "market"].includes(hash)
+  return ["criteria", "act-now", "new", "all", "starred", "touring", "unavailable", "watchlist", "market", "shared"].includes(
+    hash
+  )
     ? hash
     : "all";
 }
@@ -581,6 +747,36 @@ async function fetchLiveMonitorReport() {
   }
 
   return report;
+}
+
+// A published, read-only snapshot of Nikhil's own starred picks — separate
+// from monitor-output/latest-report.json (the live catalog) since this is
+// curated on request, not regenerated by every scan. Same static-host fetch
+// pattern as fetchLiveMonitorReport: cache-busted query param so no caching
+// layer serves a stale copy, embedded shared-picks.js as the offline/file:
+// fallback.
+async function loadSharedPicks() {
+  if (location.protocol === "file:") {
+    renderSharedPicks();
+    return;
+  }
+
+  try {
+    const response = await fetch(`./monitor-output/shared-picks.json?v=${Date.now()}`, {
+      cache: "no-store",
+      headers: { Accept: "application/json" },
+    });
+    if (response.ok) {
+      const payload = await response.json();
+      if (payload && Array.isArray(payload.entries)) {
+        latestSharedPicks = payload;
+      }
+    }
+  } catch (error) {
+    console.warn("Shared picks fetch failed", error);
+  }
+
+  renderSharedPicks();
 }
 
 // ---------- Rendering ----------
@@ -1050,22 +1246,6 @@ function isUnavailable(entry) {
   return getFeedback(entry.listing.url).unavailable || isAutoDetectedUnavailable(entry);
 }
 
-// A hard preference, not a data-quality issue like the kitchen-layout
-// caveat below — coil electric stays excluded from touring even though
-// it's starred, same as it's excluded from qualifying everywhere else.
-const COIL_ELECTRIC_REASON_PATTERN = /coil electric/i;
-
-// Geographic clustering for the Touring tab, so a day of tours doesn't
-// crisscross the city. Neighborhoods not listed here fall into "Other" —
-// worth revisiting if the search area expands into a new part of town.
-const TOURING_ZONES = [
-  { label: "Park Slope / Prospect Heights", neighborhoods: ["Park Slope", "Prospect Heights"] },
-  { label: "Clinton Hill / Fort Greene / Bed-Stuy", neighborhoods: ["Clinton Hill", "Fort Greene", "Bedford-Stuyvesant"] },
-  { label: "Carroll Gardens / Boerum Hill / Downtown Brooklyn", neighborhoods: ["Carroll Gardens", "Boerum Hill", "Downtown Brooklyn", "Cobble Hill"] },
-  { label: "Upper West Side / Lincoln Square / East Side", neighborhoods: ["Upper West Side", "Lincoln Square", "Lenox Hill", "Yorkville", "Manhattan Valley"] },
-  { label: "Long Island City / Hunters Point", neighborhoods: ["Long Island City", "Hunters Point"] },
-];
-
 function touringZoneFor(neighborhood) {
   const zone = TOURING_ZONES.find((z) => z.neighborhoods.includes(neighborhood));
   return zone ? zone.label : "Other";
@@ -1097,45 +1277,59 @@ function renderTouring(qualifyingEntries, excludedEntries) {
     !(entry.reasons || []).some((reason) => COIL_ELECTRIC_REASON_PATTERN.test(reason));
 
   const candidates = [...qualifyingEntries.filter(isTourable), ...excludedEntries.filter(isTourable)];
+  const total = candidates.length + manualTourEntries.length;
 
   els.touringFeed.innerHTML = "";
-  if (els.tabCountTouring) els.tabCountTouring.textContent = candidates.length ? `(${candidates.length})` : "";
-  if (els.touringCount) els.touringCount.textContent = candidates.length ? `(${candidates.length})` : "";
+  if (els.tabCountTouring) els.tabCountTouring.textContent = total ? `(${total})` : "";
+  if (els.touringCount) els.touringCount.textContent = total ? `(${total})` : "";
 
-  if (!candidates.length) {
+  if (!total) {
     if (els.touringEmptyState) {
-      els.touringEmptyState.textContent = "Nothing to tour yet — star a listing to add it here.";
+      els.touringEmptyState.textContent = "Nothing to tour yet — star a listing, or add one manually below.";
     }
     return;
   }
   if (els.touringEmptyState) els.touringEmptyState.textContent = "";
 
-  const byZone = new Map();
+  const zoneOrder = [...TOURING_ZONES.map((z) => z.label), "Other"];
+  const byZone = new Map(zoneOrder.map((label) => [label, { real: [], manual: [] }]));
   candidates.forEach((entry) => {
     const zone = touringZoneFor(entry.listing.neighborhood);
-    if (!byZone.has(zone)) byZone.set(zone, []);
-    byZone.get(zone).push(entry);
+    byZone.get(zone).real.push(entry);
+  });
+  manualTourEntries.forEach((entry) => {
+    const zone = byZone.has(entry.zone) ? entry.zone : "Other";
+    byZone.get(zone).manual.push(entry);
   });
 
-  const zoneOrder = [...TOURING_ZONES.map((z) => z.label), "Other"];
   const fragment = document.createDocumentFragment();
   zoneOrder.forEach((zoneLabel) => {
-    const entries = byZone.get(zoneLabel);
-    if (!entries || !entries.length) return;
-    entries.sort((a, b) => (b.rankScore || 0) - (a.rankScore || 0));
+    const { real, manual } = byZone.get(zoneLabel);
+    if (!real.length && !manual.length) return;
+    real.sort((a, b) => (b.rankScore || 0) - (a.rankScore || 0));
+    manual.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 
     const zoneSection = document.createElement("div");
     zoneSection.className = "touring-zone";
     const heading = document.createElement("h3");
     heading.className = "touring-zone-heading";
-    heading.textContent = `${zoneLabel} (${entries.length})`;
+    heading.textContent = `${zoneLabel} (${real.length + manual.length})`;
     zoneSection.append(heading);
 
     const grid = document.createElement("div");
     grid.className = "monitor-grid";
-    entries.forEach((entry) => {
+    manual.forEach((entry) => grid.append(buildManualTourCard(entry)));
+    real.forEach((entry) => {
       const card = buildListingCard(entry, touringFlags(entry));
-      card.append(buildTouringControls(entry.listing.url, entry.listing.title));
+      const feedback = getFeedback(entry.listing.url);
+      card.append(
+        buildTouringControls(
+          feedback.contacted,
+          feedback.toured,
+          (checked) => setFeedback(entry.listing.url, entry.listing.title, { contacted: checked }),
+          (checked) => setFeedback(entry.listing.url, entry.listing.title, { toured: checked })
+        )
+      );
       grid.append(card);
     });
     zoneSection.append(grid);
@@ -1144,30 +1338,30 @@ function renderTouring(qualifyingEntries, excludedEntries) {
   els.touringFeed.append(fragment);
 }
 
-function buildTouringControls(url, title) {
+// Generic over the storage backing it — a real catalog entry writes through
+// setFeedback (keyed on listing.url), a manual entry writes onto its own
+// object in manualTourEntries instead. Takes the current values plus two
+// change callbacks rather than a url, so both call sites share one
+// implementation without a fake listing.url having to stand in for a
+// manual entry that has no real one.
+function buildTouringControls(contacted, toured, onContactedChange, onTouredChange) {
   const row = document.createElement("div");
   row.className = "touring-controls";
-
-  const feedback = getFeedback(url);
 
   const contactedLabel = document.createElement("label");
   contactedLabel.className = "touring-checkbox";
   const contactedInput = document.createElement("input");
   contactedInput.type = "checkbox";
-  contactedInput.checked = Boolean(feedback.contacted);
-  contactedInput.addEventListener("change", () => {
-    setFeedback(url, title, { contacted: contactedInput.checked });
-  });
+  contactedInput.checked = Boolean(contacted);
+  contactedInput.addEventListener("change", () => onContactedChange(contactedInput.checked));
   contactedLabel.append(contactedInput, document.createTextNode("Contacted"));
 
   const touredLabel = document.createElement("label");
   touredLabel.className = "touring-checkbox";
   const touredInput = document.createElement("input");
   touredInput.type = "checkbox";
-  touredInput.checked = Boolean(feedback.toured);
-  touredInput.addEventListener("change", () => {
-    setFeedback(url, title, { toured: touredInput.checked });
-  });
+  touredInput.checked = Boolean(toured);
+  touredInput.addEventListener("change", () => onTouredChange(touredInput.checked));
   touredLabel.append(touredInput, document.createTextNode("Toured"));
 
   row.append(contactedLabel, touredLabel);
@@ -1335,6 +1529,101 @@ function buildWatchlistUnitRow(unit) {
 
 function formatStat(value, suffix) {
   return Number.isFinite(value) ? `${Math.round(value * 10) / 10}${suffix || ""}` : "—";
+}
+
+// Read-only for anyone but Nikhil — no star/note/unavailable/contacted/
+// toured controls at all, since this renders from a published snapshot
+// (monitor-output/shared-picks.json) rather than the viewer's own
+// localStorage. A visitor's browser has no feedbackState for these listings
+// to begin with, so there'd be nothing real to wire up even if it looked
+// editable.
+function renderSharedPicks() {
+  if (!els.sharedFeed) return;
+
+  const data = latestSharedPicks || { updatedAt: null, entries: [] };
+  const entries = Array.isArray(data.entries) ? data.entries : [];
+
+  els.sharedFeed.innerHTML = "";
+  if (els.tabCountShared) els.tabCountShared.textContent = entries.length ? `(${entries.length})` : "";
+  if (els.sharedCount) els.sharedCount.textContent = entries.length ? `(${entries.length})` : "";
+  if (els.sharedUpdatedAt) {
+    els.sharedUpdatedAt.textContent = data.updatedAt ? `Last published: ${formatDateTime(data.updatedAt)}` : "";
+  }
+
+  if (!entries.length) {
+    if (els.sharedEmptyState) {
+      els.sharedEmptyState.textContent = "Nothing published yet.";
+    }
+    return;
+  }
+  if (els.sharedEmptyState) els.sharedEmptyState.textContent = "";
+
+  const fragment = document.createDocumentFragment();
+  entries.forEach((entry) => fragment.append(buildSharedCard(entry)));
+  els.sharedFeed.append(fragment);
+}
+
+function buildSharedCard(entry) {
+  const card = document.createElement("article");
+  card.className = "manual-tour-card";
+
+  const top = document.createElement("div");
+  top.className = "manual-tour-top";
+  const heading = document.createElement("h3");
+  if (entry.url) {
+    const link = document.createElement("a");
+    link.href = entry.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = entry.title;
+    heading.append(link);
+  } else {
+    heading.textContent = entry.title;
+  }
+  top.append(heading);
+  card.append(top);
+
+  if (entry.address || entry.price) {
+    const subhead = document.createElement("p");
+    subhead.className = "excluded-subhead";
+    subhead.textContent = [entry.address, entry.price ? formatCurrency(entry.price) : null].filter(Boolean).join(" • ");
+    card.append(subhead);
+  }
+
+  const facts = document.createElement("div");
+  facts.className = "listing-facts";
+  [
+    entry.neighborhood || null,
+    entry.bedrooms !== undefined && entry.bedrooms !== null ? `${entry.bedrooms} bed` : null,
+    entry.bathrooms ? `${entry.bathrooms} bath` : null,
+    entry.sqft ? `${entry.sqft} sf` : null,
+    entry.availableDate ? formatAvailability(entry.availableDate) : null,
+    entry.kitchenLayout ? formatLabel("Kitchen", entry.kitchenLayout) : null,
+    entry.stoveType ? `Stove: ${STOVE_TYPE_LABEL[entry.stoveType] || entry.stoveType}` : null,
+  ]
+    .filter(Boolean)
+    .forEach((label) => facts.append(createPill(label, "fact-pill")));
+  card.append(facts);
+
+  const status = document.createElement("p");
+  status.className = "manual-tour-meta";
+  if (entry.status === "manual") {
+    status.append(createPill("Manually added", "flag-caveat"));
+  } else if (entry.status === "gone") {
+    status.append(createPill("No longer available", "flag-unavailable"));
+  } else if (entry.status === "excluded") {
+    (entry.reasons || []).forEach((reason) => status.append(createPill(reason, "flag-caveat")));
+  }
+  if (status.childNodes.length) card.append(status);
+
+  if (entry.note) {
+    const note = document.createElement("p");
+    note.className = "manual-tour-note";
+    note.textContent = entry.note;
+    card.append(note);
+  }
+
+  return card;
 }
 
 function renderMarket(marketStats) {

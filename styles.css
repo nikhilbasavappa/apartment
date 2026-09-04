@@ -304,6 +304,101 @@ h3 {
   cursor: pointer;
 }
 
+.manual-tour-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-sunken);
+}
+
+.manual-tour-row {
+  display: flex;
+  gap: 10px;
+}
+
+.manual-tour-row input,
+.manual-tour-form select,
+.manual-tour-form textarea {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.86rem;
+}
+
+.manual-tour-form textarea {
+  resize: vertical;
+}
+
+.manual-tour-row input:focus,
+.manual-tour-form select:focus,
+.manual-tour-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.manual-tour-form button {
+  align-self: flex-start;
+}
+
+.manual-tour-card {
+  padding: 16px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.manual-tour-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.manual-tour-top h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.manual-tour-top a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.manual-tour-top a:hover {
+  color: var(--accent);
+}
+
+.manual-tour-remove {
+  font-size: 0.78rem;
+  padding: 6px 10px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.manual-tour-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.manual-tour-note {
+  margin: 10px 0 0;
+  font-size: 0.86rem;
+  color: var(--text);
+}
+
 .profile-grid {
   display: grid;
   gap: 1px;
