@@ -226,18 +226,37 @@ function effectiveSqft(sqft, bedrooms) {
 // score, so an unknown-size studio doesn't score the same as an
 // unknown-size 3-bedroom.
 //
-// Below 600 (per-bedroom-normalized), this goes negative instead of
-// flooring at 0 — a listing genuinely too small (241 West 75th St #5, 500
+// Below the zero point (per-bedroom-normalized), this goes negative instead
+// of flooring at 0 — a listing genuinely too small (241 West 75th St #5, 500
 // sqft/1bd, scored a merely-low 9/100 under the old 0-floored version and
 // still ranked 61.8 overall on a great location) should actively drag the
-// total down, not just fail to help it. Floors at -100 (reached at 200
-// sqft/bedroom, a genuinely shoebox-sized space) so one degenerate listing
-// can't blow up the weighted average.
+// total down, not just fail to help it. Floors at -100 so one degenerate
+// listing can't blow up the weighted average.
+//
+// Zero/ceiling recalibrated (commit pending) after 461 6th Avenue #2 (900
+// real sqft, 2bd) scored a mere 9/100 and the user pushed back directly —
+// "900 sqft is large no matter how you cut it." The original 600/1000
+// thresholds were picked without checking them against the real catalog
+// distribution: the median real 2bd (996 sqft, per SQFT_BASELINE_1BD's own
+// comment above) normalizes to 636 and only scored 26/100 under them, and
+// the median real 1bd (671 sqft) normalized to itself and scored just
+// 17.8/100 — both well below the neutral 50 a true median should land on.
+// Recalibrated against the actual normalized distribution across every
+// qualifying listing with real sqft on record (43 1bd, 23 2bd): both
+// bedroom counts cluster tightly once normalized (medians 654/636, p75
+// 712/713, p90 800/742 — confirming the sqrt(bedrooms) normalization itself
+// is doing its job of putting different bedroom counts on comparable
+// footing), so one zero/ceiling pair works for both. 550 (a touch below the
+// real p25) as the zero point and 750 (a touch below the real p90) as the
+// ceiling puts the real medians right around neutral (52/100 for 1bd,
+// 43/100 for 2bd) and a genuinely spacious p90 unit near the top, instead of
+// squeezing nearly the entire real distribution into the bottom third of
+// the scale the way 600/1000 did.
 function sqftScore(sqft, bedrooms) {
   const effectiveBedrooms = Math.max(1, Number.isFinite(bedrooms) ? bedrooms : 1);
   const perBedroomSqft = effectiveSqft(sqft, effectiveBedrooms) / Math.sqrt(effectiveBedrooms);
-  const SCORE_ZERO_POINT_SQFT = 600;
-  const SCORE_CEILING_SQFT = 1000;
+  const SCORE_ZERO_POINT_SQFT = 550;
+  const SCORE_CEILING_SQFT = 750;
   const SCORE_FLOOR = -100;
   const raw = ((perBedroomSqft - SCORE_ZERO_POINT_SQFT) / (SCORE_CEILING_SQFT - SCORE_ZERO_POINT_SQFT)) * 100;
   return Math.max(SCORE_FLOOR, Math.min(100, raw));
