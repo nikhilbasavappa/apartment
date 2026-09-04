@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:04:32.736Z",
+  "updatedAt": "2026-09-04T18:03:38.875Z",
   "entries": [
     {
       "title": "25 Central Park West #19U",
@@ -14,10 +14,7 @@
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/the-century-condominium/19u",
       "note": "Nice but many illegal fees associated with application. Priced way over market. Edit: the extra fees may be condo board fess, possible legal.",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "550 Vanderbilt Avenue #717",
@@ -91,7 +88,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/45-garnet-street-brooklyn/1b",
-      "note": "Comes with accessory space, which is enticing. However, I think this unit is on the first floor, which could cause some issues.",
+      "note": "Comes with accessory space, which is enticing. However, I think this unit is on the first floor, which could cause some issues. Also a bit close to the gowanus canal (poison)",
       "status": "qualifying"
     },
     {
@@ -107,10 +104,7 @@
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/354-2-street-brooklyn/3a",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "403 12th Street #4",
@@ -380,10 +374,7 @@
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/313-west-82-street-new_york/4b",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "445 Grand Avenue #201",
@@ -527,7 +518,7 @@
       "stoveType": "gas",
       "url": "https://www.compass.com/homedetails/267-6th-St-Unit-6K-Brooklyn-NY-11215/213P13_pid/",
       "note": "too expensive. Listed at 6k elsewhere so what's the real price?",
-      "status": "qualifying"
+      "status": "gone"
     },
     {
       "title": "150 Myrtle Avenue #1907",
@@ -556,7 +547,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/the-clermont-375-myrtle-avenue-brooklyn/4e",
-      "note": "",
+      "note": "Big contender. Margo was very responsive. Tour if still available. Update: margo a bit weird, unit is great, location not great, building has complaints",
       "status": "qualifying"
     },
     {
@@ -631,7 +622,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/169-15-street-brooklyn/3a",
-      "note": "Kitchen is a wild card. Could be small. What a great price though.",
+      "note": "Kitchen is a wild card. Could be small. What a great price though. Maybe I could expand the kitchen. Consider for a tour.",
       "status": "qualifying"
     },
     {
@@ -661,7 +652,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "unknown",
       "url": "https://streeteasy.com/building/1118-fulton-street-brooklyn/5f",
-      "note": "hard to say. A bit small.",
+      "note": "Gas stove. Hard to say. A bit small.",
       "status": "qualifying"
     },
     {
@@ -691,7 +682,7 @@
       "kitchenLayout": "open",
       "stoveType": "smoothElectric",
       "url": "https://www.compass.com/homedetails/155-Luquer-St-Unit-2-Brooklyn-NY-11231/202W1S_pid/",
-      "note": "",
+      "note": "Out of budget but pretty sick. Could be worth it.",
       "status": "qualifying"
     },
     {
@@ -706,7 +697,7 @@
       "kitchenLayout": "open",
       "stoveType": "gas",
       "url": "https://www.compass.com/homedetails/605-Vanderbilt-Ave-Unit-2-Brooklyn-NY-11238/20UUDV_pid/",
-      "note": "Not really a 2bed. But close.",
+      "note": "Not really a 2bed. But close. Otherwise great. Worth touring if it's available.",
       "status": "qualifying"
     },
     {
@@ -736,11 +727,8 @@
       "kitchenLayout": "closed",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/1316",
-      "note": "I thikn this might actually be fine. It's a walk-through kitchen.",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "note": "I think this might actually be fine. It's a walk-through kitchen.",
+      "status": "gone"
     },
     {
       "title": "545 Vanderbilt Avenue #10G",
@@ -755,10 +743,7 @@
       "stoveType": "unknown",
       "url": "https://www.openigloo.com/unit/nyc/3057522-3020107505-10g/brooklyn-clinton-hill-545-vanderbilt-avenue-11238-10g",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Rent $3950 outside $4000-7000"
-      ]
+      "status": "gone"
     },
     {
       "title": "163 Washington Avenue #15B",
@@ -772,7 +757,7 @@
       "kitchenLayout": "unknown",
       "stoveType": "unknown",
       "url": "https://streeteasy.com/building/163-washington-avenue-brooklyn/15b",
-      "note": "Kitchen is open according to floorplan",
+      "note": "Kitchen is open according to floorplan and video.",
       "status": "excluded",
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
@@ -791,10 +776,7 @@
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/306-st-james-place-brooklyn/4f",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "275 Park Avenue #5F",
@@ -808,7 +790,7 @@
       "kitchenLayout": "closed",
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/275-park-avenue-brooklyn/5f",
-      "note": "Gas stove. Famous building",
+      "note": "Gas stove. Famous building. Not very accessible.",
       "status": "excluded",
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -827,10 +809,7 @@
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/433-sackett/4g",
       "note": "cannot tell if closed.",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "433 Sackett Street #4C",
@@ -845,10 +824,7 @@
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/433-sackett/4c",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "433 Sackett Street #4D",
@@ -863,10 +839,7 @@
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/433-sackett/4d",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "433 Sackett Street #4F",
@@ -881,10 +854,7 @@
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/433-sackett/4f",
       "note": "",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "162 16th Street #10A",
@@ -898,7 +868,7 @@
       "kitchenLayout": "closed",
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/vue-condominium/10a",
-      "note": "A bit over budget but super super nice. Gas stove and open enough kitchen",
+      "note": "A bit over budget but super super nice. Gas stove and open enough kitchen.",
       "status": "excluded",
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -917,10 +887,7 @@
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/131-smith-street-brooklyn/3l",
       "note": "Unclear layout. Very cool. Good location. hard to tell if stove electric or induction.",
-      "status": "excluded",
-      "reasons": [
-        "Kitchen photo shows a closed layout"
-      ]
+      "status": "gone"
     },
     {
       "title": "275 Park Avenue #3I",
@@ -953,7 +920,7 @@
       "kitchenLayout": "unknown",
       "stoveType": "unknown",
       "url": "https://streeteasy.com/building/163-washington-avenue-brooklyn/12c",
-      "note": "open layout but no photos of the actual unit",
+      "note": "open layout but no photos of the actual unit. There's a video now which is promising.",
       "status": "excluded",
       "reasons": [
         "Kitchen layout could not be confirmed from photos"
@@ -986,7 +953,7 @@
       "kitchenLayout": "closed",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/the-aldyn/725",
-      "note": "Screw it. Gas stove.",
+      "note": "way out of budget",
       "status": "excluded",
       "reasons": [
         "Kitchen photo shows a closed layout"
@@ -1037,7 +1004,7 @@
       "kitchenLayout": "open",
       "stoveType": "unknown",
       "url": "https://streeteasy.com/building/signum-375-dean-street-brooklyn/453",
-      "note": "",
+      "note": "Rennit apparently a bit sketchy.",
       "status": "qualifying"
     },
     {
@@ -1067,7 +1034,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/the-refinery/3a",
-      "note": "Living room and kitchen might be a little cramped but has a gas stove and two beds as well as an office.",
+      "note": "Living room and kitchen might be a little cramped but has a gas stove and two beds as well as an office. I would say this is quite promising",
       "status": "qualifying"
     },
     {
@@ -1082,7 +1049,7 @@
       "kitchenLayout": "semi-open",
       "stoveType": "smoothElectric",
       "url": "https://streeteasy.com/building/1128-3-avenue-new_york/3",
-      "note": "Honestly pretty sick.",
+      "note": "Honestly pretty sick. Temporarily off market 9/3",
       "status": "gone"
     },
     {
@@ -1097,7 +1064,7 @@
       "kitchenLayout": "open",
       "stoveType": "gas",
       "url": "https://streeteasy.com/building/180-franklin-avenue-brooklyn/119",
-      "note": "oh HELL yeah",
+      "note": "oh HELL yeah. I should definitely tour it if it's available. Not very accessible.",
       "status": "qualifying"
     },
     {
@@ -1113,6 +1080,201 @@
       "stoveType": "gas",
       "url": "https://www.compass.com/homedetails/267-6th-St-Unit-6K-Brooklyn-NY-11215/2166223652155352537_lid/",
       "note": "Pretty sure the building is kinda cheeks but whatever.",
+      "status": "gone"
+    },
+    {
+      "title": "531 Myrtle Avenue #5F",
+      "address": "531 Myrtle Avenue #5F, BROOKLYN, NY, 11205",
+      "price": 4960,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "neighborhood": "Clinton Hill",
+      "availableDate": "now",
+      "kitchenLayout": "open",
+      "stoveType": "unknown",
+      "url": "https://streeteasy.com/building/529-myrtle-avenue-brooklyn/5f",
+      "note": "gas stove. Rent stablized. Consider strongly.",
+      "status": "qualifying"
+    },
+    {
+      "title": "540 Fulton Street #20G",
+      "address": "540 Fulton Street #20G, BROOKLYN, NY, 11201",
+      "price": 6213,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 911,
+      "neighborhood": "Downtown Brooklyn",
+      "availableDate": "now",
+      "kitchenLayout": "semi-open",
+      "stoveType": "gas",
+      "url": "https://streeteasy.com/building/the-paxton-540-fulton-street-brooklyn/20g",
+      "note": "Technically downtown brooklyn but really at the intersection of fort greene and boerum hill. Gas stove. Worth a shot maybe. Management seems fine. Area is a bit busy.",
+      "status": "gone"
+    },
+    {
+      "title": "196 Willoughby Street #17M",
+      "address": "196 Willoughby Street #17M, Brooklyn, NY, 11201",
+      "price": 4536,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": null,
+      "neighborhood": "Fort Greene",
+      "availableDate": null,
+      "kitchenLayout": "open",
+      "stoveType": "unknown",
+      "url": "https://www.openigloo.com/unit/nyc/3426373-3020857502-17m/brooklyn-fort-greene-196-willoughby-street-11201-17m",
+      "note": "",
+      "status": "qualifying"
+    },
+    {
+      "title": "316 Bergen St #4-05",
+      "address": "316 Bergen St #4-05, Brooklyn, NY, 11217",
+      "price": 4649,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": null,
+      "neighborhood": "Boerum Hill",
+      "availableDate": null,
+      "kitchenLayout": "semi-open",
+      "stoveType": "smoothElectric",
+      "url": "https://www.openigloo.com/unit/nyc/3397486-3003890005-4-05/brooklyn-boerum-hill-316-bergen-st-11217-4-05",
+      "note": "The Bergen is pretty well rated.",
+      "status": "qualifying"
+    },
+    {
+      "title": "316 Bergen Street #7-7",
+      "address": "316 Bergen Street #7-7, BROOKLYN, NY, 11217",
+      "price": 5995,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 939,
+      "neighborhood": "Boerum Hill",
+      "availableDate": "now",
+      "kitchenLayout": "semi-open",
+      "stoveType": "smoothElectric",
+      "url": "https://streeteasy.com/building/the-bergen/707",
+      "note": "Strongly consider units at the bergen. Great location and management. Gas stoves. 707 is galley kitchen and huge terrace though. Sad.",
+      "status": "qualifying"
+    },
+    {
+      "title": "196 7th Avenue #8",
+      "address": "196 7th Avenue #8, BROOKLYN, NY, 11215",
+      "price": 5900,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "neighborhood": "Park Slope",
+      "availableDate": "now",
+      "kitchenLayout": "open",
+      "stoveType": "gas",
+      "url": "https://streeteasy.com/building/196-7-avenue-brooklyn/8",
+      "note": "Hard to say what's going on here. Could be good?",
+      "status": "qualifying"
+    },
+    {
+      "title": "316 Bergen Street #4-5",
+      "address": "316 Bergen Street #4-5, BROOKLYN, NY, 11217",
+      "price": 4649,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 625,
+      "neighborhood": "Boerum Hill",
+      "availableDate": "2026-10-05",
+      "kitchenLayout": "open",
+      "stoveType": "gas",
+      "url": "https://streeteasy.com/building/the-bergen/405",
+      "note": "The bergen is a good building. Consider.",
+      "status": "qualifying"
+    },
+    {
+      "title": "55 Paseo Place, Unit 322",
+      "address": "55 Paseo Place, Unit 322, Park Slope, NY, 11217",
+      "price": 5150,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": null,
+      "neighborhood": "Park Slope",
+      "availableDate": null,
+      "kitchenLayout": "semi-open",
+      "stoveType": "unknown",
+      "url": "https://www.compass.com/homedetails/55-Paseo-Pl-Unit-322-Brooklyn-NY-11217/267MOP_pid/",
+      "note": "",
+      "status": "qualifying"
+    },
+    {
+      "title": "316 Bergen Street #70-3",
+      "address": "316 Bergen Street #70-3, BROOKLYN, NY, 11217",
+      "price": 6195,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 852,
+      "neighborhood": "Boerum Hill",
+      "availableDate": "2026-09-09",
+      "kitchenLayout": "open",
+      "stoveType": "smoothElectric",
+      "url": "https://streeteasy.com/building/the-bergen/703",
+      "note": "They've reduced price to 6195. Great building with excellent accessibility. I think this building is a priority.",
+      "status": "qualifying"
+    },
+    {
+      "title": "595 Dean Street #1032",
+      "address": "595 Dean Street #1032, BROOKLYN, NY, 11238",
+      "price": 4635,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": null,
+      "neighborhood": "Prospect Heights",
+      "availableDate": "now",
+      "kitchenLayout": "open",
+      "stoveType": "gas",
+      "url": "https://streeteasy.com/building/595-dean-street-brooklyn/1032",
+      "note": "As a last resort why not",
+      "status": "qualifying"
+    },
+    {
+      "title": "110 4th Avenue #3H",
+      "address": "110 4th Avenue #3H, BROOKLYN, NY, 11217",
+      "price": 5400,
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "neighborhood": "Boerum Hill",
+      "availableDate": "now",
+      "kitchenLayout": "semi-open",
+      "stoveType": "unknown",
+      "url": "https://streeteasy.com/building/110-4-avenue-brooklyn/3h",
+      "note": "Seems pretty good. I think strongly consider touring.",
+      "status": "qualifying"
+    },
+    {
+      "title": "475 Clermont Avenue #538",
+      "address": "475 Clermont Avenue #538, BROOKLYN, NY, 11238",
+      "price": 4607,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 546,
+      "neighborhood": "Fort Greene",
+      "availableDate": "2026-10-19",
+      "kitchenLayout": "open",
+      "stoveType": "gas",
+      "url": "https://streeteasy.com/building/475-clermont/538",
+      "note": "not this unit, but this building should be strongly considered",
+      "status": "qualifying"
+    },
+    {
+      "title": "316 Bergen St #7-07",
+      "address": "316 Bergen St #7-07, Brooklyn, NY, 11217",
+      "price": 5995,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": null,
+      "neighborhood": "Boerum Hill",
+      "availableDate": null,
+      "kitchenLayout": "open",
+      "stoveType": "smoothElectric",
+      "url": "https://www.openigloo.com/unit/nyc/3397486-3003890005-7-07/brooklyn-boerum-hill-316-bergen-st-11217-7-07",
+      "note": "Very good building. Gas stove, 2 beds. High priority unit.",
       "status": "qualifying"
     }
   ]
