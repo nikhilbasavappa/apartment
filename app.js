@@ -1193,11 +1193,20 @@ function renderExcluded(excludedListings) {
   els.excludedList.append(fragment);
 }
 
+// Unavailable ones (marked by you, or auto-detected gone/rented/in-contract
+// during revalidation) are dropped here — no point seeing a unit you can't
+// actually get sitting in your own curated list. They're not lost, just
+// moved: the Unavailable tab already covers both signals for exactly this
+// reason (see isUnavailable/isAutoDetectedUnavailable above).
 function renderStarred(qualifyingEntries, excludedEntries) {
   if (!els.starredFeed) return;
 
-  const starredQualifying = qualifyingEntries.filter((entry) => getFeedback(entry.listing.url).starred);
-  const starredExcluded = excludedEntries.filter((entry) => getFeedback(entry.listing.url).starred);
+  const starredQualifying = qualifyingEntries.filter(
+    (entry) => getFeedback(entry.listing.url).starred && !isUnavailable(entry)
+  );
+  const starredExcluded = excludedEntries.filter(
+    (entry) => getFeedback(entry.listing.url).starred && !isUnavailable(entry)
+  );
   const total = starredQualifying.length + starredExcluded.length;
 
   els.starredFeed.innerHTML = "";
@@ -1212,10 +1221,7 @@ function renderStarred(qualifyingEntries, excludedEntries) {
   if (els.starredEmptyState) els.starredEmptyState.textContent = "";
 
   const fragment = document.createDocumentFragment();
-  starredQualifying.forEach((entry) => {
-    const flags = getFeedback(entry.listing.url).unavailable ? [{ label: "Gone", className: "flag-unavailable" }] : [];
-    fragment.append(buildListingCard(entry, flags));
-  });
+  starredQualifying.forEach((entry) => fragment.append(buildListingCard(entry, [])));
   els.starredFeed.append(fragment);
 
   if (els.starredExcludedList) {
