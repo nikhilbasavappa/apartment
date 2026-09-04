@@ -1558,8 +1558,17 @@ function renderSharedPicks() {
   }
   if (els.sharedEmptyState) els.sharedEmptyState.textContent = "";
 
+  // Raw export order otherwise, which has nothing to do with relevance —
+  // a visitor's first impression of "Nikhil's picks" shouldn't be a run of
+  // rented-out listings just because they happened to land first in the
+  // export. Live/promising first, genuinely-gone last.
+  const STATUS_ORDER = { qualifying: 0, excluded: 1, unknown: 2, gone: 3 };
+  const sorted = entries
+    .slice()
+    .sort((a, b) => (STATUS_ORDER[a.status] ?? 2) - (STATUS_ORDER[b.status] ?? 2));
+
   const fragment = document.createDocumentFragment();
-  entries.forEach((entry) => fragment.append(buildSharedCard(entry)));
+  sorted.forEach((entry) => fragment.append(buildSharedCard(entry)));
   els.sharedFeed.append(fragment);
 }
 
