@@ -1547,7 +1547,10 @@ function renderSharedPicks() {
   if (!els.sharedFeed) return;
 
   const data = latestSharedPicks || { updatedAt: null, entries: [] };
-  const entries = Array.isArray(data.entries) ? data.entries : [];
+  // Same reasoning as the Starred tab: no point showing a unit someone
+  // can't actually get. Unlike Starred, there's no separate "Unavailable"
+  // view for a visitor to find these in instead — they're just dropped.
+  const entries = (Array.isArray(data.entries) ? data.entries : []).filter((entry) => entry.status !== "gone");
 
   els.sharedFeed.innerHTML = "";
   if (els.tabCountShared) els.tabCountShared.textContent = entries.length ? `(${entries.length})` : "";
@@ -1564,11 +1567,8 @@ function renderSharedPicks() {
   }
   if (els.sharedEmptyState) els.sharedEmptyState.textContent = "";
 
-  // Raw export order otherwise, which has nothing to do with relevance —
-  // a visitor's first impression of "Nikhil's picks" shouldn't be a run of
-  // rented-out listings just because they happened to land first in the
-  // export. Live/promising first, genuinely-gone last.
-  const STATUS_ORDER = { qualifying: 0, excluded: 1, unknown: 2, gone: 3 };
+  // Raw export order otherwise, which has nothing to do with relevance.
+  const STATUS_ORDER = { qualifying: 0, excluded: 1, unknown: 2 };
   const sorted = entries
     .slice()
     .sort((a, b) => (STATUS_ORDER[a.status] ?? 2) - (STATUS_ORDER[b.status] ?? 2));
