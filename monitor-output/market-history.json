@@ -12832,5 +12832,158 @@
       "sampleSize": 307,
       "medianDaysOnMarket": 10
     }
+  },
+  {
+    "runAt": "2026-09-05T22:00:05.934Z",
+    "areas": [
+      {
+        "name": "Hunters Point",
+        "tier": "other",
+        "count": 80,
+        "medianPrice": 5662.5,
+        "medianPricePerSqft": 6.956596253950549,
+        "medianDaysOnMarket": 15,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Downtown Brooklyn",
+        "tier": "brooklyn",
+        "count": 80,
+        "medianPrice": 5165,
+        "medianPricePerSqft": 6.610098176718092,
+        "medianDaysOnMarket": 26,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Park Slope",
+        "tier": "brooklyn",
+        "count": 30,
+        "medianPrice": 5372,
+        "medianPricePerSqft": 5.957764457764458,
+        "medianDaysOnMarket": 9,
+        "medianLeadTimeDays": 3.5
+      },
+      {
+        "name": "Clinton Hill",
+        "tier": "brooklyn",
+        "count": 29,
+        "medianPrice": 4800,
+        "medianPricePerSqft": 7.4766355140186915,
+        "medianDaysOnMarket": 11.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Boerum Hill",
+        "tier": "brooklyn",
+        "count": 27,
+        "medianPrice": 5250,
+        "medianPricePerSqft": 7.328083989501312,
+        "medianDaysOnMarket": 16,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Fort Greene",
+        "tier": "brooklyn",
+        "count": 27,
+        "medianPrice": 4949,
+        "medianPricePerSqft": 8.534798534798535,
+        "medianDaysOnMarket": 4,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Prospect Heights",
+        "tier": "brooklyn",
+        "count": 13,
+        "medianPrice": 4900,
+        "medianPricePerSqft": 8.144409937888199,
+        "medianDaysOnMarket": 15.5,
+        "medianLeadTimeDays": 14
+      },
+      {
+        "name": "Carroll Gardens",
+        "tier": "brooklyn",
+        "count": 11,
+        "medianPrice": 5995,
+        "medianPricePerSqft": 5.071590156698301,
+        "medianDaysOnMarket": 27,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Yorkville",
+        "tier": "other",
+        "count": 10,
+        "medianPrice": 5545,
+        "medianPricePerSqft": 8.199088145896656,
+        "medianDaysOnMarket": 10,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Upper West Side",
+        "tier": "uwsAcceptable",
+        "count": 6,
+        "medianPrice": 5443,
+        "medianPricePerSqft": 9.082630691399663,
+        "medianDaysOnMarket": 33.5,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Bedford-Stuyvesant",
+        "tier": "brooklyn",
+        "count": 6,
+        "medianPrice": 4222.5,
+        "medianPricePerSqft": 5.512500647989751,
+        "medianDaysOnMarket": 10,
+        "medianLeadTimeDays": 5.5
+      },
+      {
+        "name": "Lincoln Square",
+        "tier": "uwsAcceptable",
+        "count": 5,
+        "medianPrice": 6350,
+        "medianPricePerSqft": 8.839424823721403,
+        "medianDaysOnMarket": 8,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Lenox Hill",
+        "tier": "other",
+        "count": 4,
+        "medianPrice": 5675,
+        "medianPricePerSqft": 6.333333333333333,
+        "medianDaysOnMarket": 10,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Carnegie Hill",
+        "tier": "other",
+        "count": 3,
+        "medianPrice": 5100,
+        "medianPricePerSqft": 8.740582257201805,
+        "medianDaysOnMarket": 25,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Cobble Hill",
+        "tier": "brooklyn",
+        "count": 3,
+        "medianPrice": 5400,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 13,
+        "medianLeadTimeDays": 0
+      },
+      {
+        "name": "Columbia St Waterfront District",
+        "tier": "brooklyn",
+        "count": 1,
+        "medianPrice": 4492,
+        "medianPricePerSqft": null,
+        "medianDaysOnMarket": 10,
+        "medianLeadTimeDays": 0
+      }
+    ],
+    "contractSpeed": {
+      "sampleSize": 293,
+      "medianDaysOnMarket": 11.5
+    }
   }
 ]
