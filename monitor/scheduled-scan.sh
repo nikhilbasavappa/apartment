@@ -91,7 +91,17 @@ SCAN_EXIT_CODE=$?
 #   3. Every new listing failed to yield both a rent and an address.
 if [[ "$SCAN_EXIT_CODE" != "0" ]]; then
   BROKEN="yes"
-elif grep -q "ZERO_SEARCH_RESULTS" "$RUN_LOG"; then
+elif [[ "$(grep -c 'ZERO_SEARCH_RESULTS' "$RUN_LOG" || true)" -gt 0 ]] && \
+     [[ "$(grep -c 'ZERO_SEARCH_RESULTS' "$RUN_LOG")" -ge "$(node -e 'console.log(JSON.parse(require("fs").readFileSync("monitor/config.json")).sources.filter((s) => s.enabled).length)')" ]]; then
+  # Only a hard stop when EVERY enabled source came back empty — with five
+  # independent sources now (was one, when this check was written), a
+  # single flaky source (page.goto timeout, transient block) shouldn't
+  # nuke a whole run's worth of good data from the other four. Confirmed
+  # in practice: OpenIgloo hit three consecutive page.goto timeouts and
+  # logged ZERO_SEARCH_RESULTS while StreetEasy/Corcoran/Compass all
+  # produced 57 perfectly good new listings the same run — the old
+  # any-single-source check discarded all of it. Check #3 below (real
+  # rent/address data quality) still catches genuine full-run failures.
   BROKEN="yes"
 else
   BROKEN=$(node -e '
